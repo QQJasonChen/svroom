@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CardView from "@/components/CardView";
+import { Src } from "@/components/Src";
 import {
   examplesFor,
   functionsFor,
@@ -60,7 +61,7 @@ export default async function StrategyPage({
 
       <div className="mt-8 space-y-8">
         <section>
-          <p className="rule-label mb-2.5">為什麼有效</p>
+          <p className="mb-2.5"><Src kind="ours">為什麼有效</Src></p>
           <p className="text-[15px] leading-[1.9] text-ink-2 whitespace-pre-line">
             {s.body}
           </p>
@@ -92,9 +93,10 @@ export default async function StrategyPage({
 
         {examples.length > 0 && (
           <section className="pt-4">
-            <p className="rule-label mb-1">語料裡的實例</p>
+            <p className="mb-1.5"><Src kind="corpus">語料裡的實例</Src></p>
             <p className="text-[12.5px] text-ink-3 mb-5">
-              這些是從全站卡片實際比對出來的，不是另外寫的範例。
+              這些是<strong className="text-ink-2">從逐字稿實際比對出來的</strong>，
+              不是為了說明而編的例句。每一張都能點開聽本人講。
             </p>
             <div className="space-y-5">
               {examples.map((c, i) => (

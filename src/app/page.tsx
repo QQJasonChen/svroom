@@ -1,7 +1,10 @@
 import Link from "next/link";
-import { groups, stats, countFor, countForGroup } from "@/lib/cards";
+import { stats } from "@/lib/cards";
+import { clipCount } from "@/lib/clips";
 import { conceptStats } from "@/lib/concepts";
 import { scenarios, scenarioCardCount } from "@/lib/scenarios";
+import { Src } from "@/components/Src";
+import { strategies } from "@/lib/strategies";
 import { writingStats } from "@/lib/writing";
 
 export default function Home() {
@@ -17,38 +20,87 @@ export default function Home() {
             你是<span className="text-rust">沒聽過別人怎麼講</span>。
           </h1>
           <p className="mt-7 max-w-2xl text-[16px] leading-[1.85] text-ink-2">
-            會議上想反對一個提案，腦中只剩「I don&apos;t think so」。想爭取資源，只擠得出「Can we have more people?」——
-            問題不在單字量，在於你沒看過母語者在<strong className="font-semibold text-ink">同樣的處境</strong>下真的怎麼說。
-          </p>
-          <p className="mt-4 max-w-2xl text-[16px] leading-[1.85] text-ink-2">
-            這裡把矽谷產品經理與創辦人的真實對話，拆成 {stats.functions} 個
-            <strong className="font-semibold text-ink">「語言功能」</strong>
-            ——說服、擋需求、給難聽的回饋、承認不知道——每一個都附上真人的原句、拆解，以及順帶學到的 PM 知識。
+            會議上想反對一個提案，腦中只剩「I don&apos;t think so」。想爭取資源，只擠得出「Can we have
+            more people?」——問題不在單字量，在於你沒看過母語者在
+            <strong className="font-semibold text-ink">同樣的處境</strong>下真的怎麼說。
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-[13px]">
+          <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3 text-[13px]">
             <Stat n={stats.cards + writingStats.cards} label="句型卡" />
-            <Stat n={stats.covered + writingStats.covered} label="語言功能" />
+            <Stat n={clipCount} label="原聲片段" />
             <Stat n={conceptStats.written} label="PM 概念" />
             <Stat n={stats.guests} label="位講者" />
-            <Link
-              href="/practice/"
-              className="ml-auto bg-rust text-paper px-5 py-2.5 text-[13px] font-medium rounded-sm hover:opacity-90 transition-opacity"
-            >
-              直接開始練習 →
-            </Link>
           </div>
         </div>
       </section>
 
-      {/* 情境入口：先解決「這麼多卡，我從哪開始」 */}
+      {/* 這個站有兩種內容——先講清楚，免得讀的人分不出哪句有出處 */}
       <section className="border-b border-rule bg-paper-2/40">
+        <div className="mx-auto max-w-5xl px-5 py-10">
+          <h2 className="font-serif text-[1.4rem] tracking-tight mb-4">
+            先講清楚：這裡有兩種內容
+          </h2>
+          <div className="grid gap-6 sm:grid-cols-2 max-w-3xl">
+            <div>
+              <Src kind="corpus" />
+              <p className="mt-2.5 text-[14px] leading-relaxed text-ink-2">
+                矽谷產品經理與創辦人<strong className="text-ink font-medium">真的講過或寫過</strong>的句子。一律標示講者、時間戳與集數，
+                而且可以<strong className="text-ink font-medium">直接在卡片上播出來聽本人講</strong>。
+              </p>
+            </div>
+            <div>
+              <Src kind="ours" />
+              <p className="mt-2.5 text-[14px] leading-relaxed text-ink-2">
+                翻譯、語用拆解、整理出來的句型與 PM 概念解說。這些是我們寫的，
+                不是原文；每一句我們寫的英文旁邊都有
+                <strong className="text-ink font-medium">「查語料」</strong>
+                可以回頭確認語料裡有沒有人這樣講。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 三步入口 */}
+      <section className="border-b border-rule">
+        <div className="mx-auto max-w-5xl px-5 py-12">
+          <h2 className="font-serif text-[1.7rem] tracking-tight mb-1">
+            從哪裡開始
+          </h2>
+          <p className="text-[14px] text-ink-2 mb-6">
+            內容不少，但不必從頭讀到尾。照這個順序就好。
+          </p>
+          <div className="grid gap-px bg-rule border border-rule sm:grid-cols-3">
+            <Step
+              n="1"
+              href="/strategy/"
+              title="先讀總論"
+              body={`一千多張卡背後其實只有 ${strategies.length} 個模式。先看懂這一頁，後面都是變體。`}
+            />
+            <Step
+              n="2"
+              href="#scenarios"
+              title="挑一個你真的會遇到的處境"
+              body="下週要開的那場會、要寫的那封信。該學的都綁在一起了。"
+            />
+            <Step
+              n="3"
+              href="/practice/"
+              title="開口練，然後聽本人講"
+              body="看中文說英文，或聽英文猜意思。答不出來的會很快再出現。"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* 情境入口 */}
+      <section id="scenarios" className="border-b border-rule bg-paper-2/40">
         <div className="mx-auto max-w-5xl px-5 py-12">
           <h2 className="font-serif text-[1.7rem] tracking-tight">
             你這週要開什麼會？
           </h2>
           <p className="mt-2 text-[14px] text-ink-2">
-            不用從頭讀到尾。挑一個你真的會遇到的處境，該學的都在裡面了。
+            挑一個處境，語言功能、書面寫法、PM 概念都綁在裡面了。
           </p>
 
           <div className="mt-6 grid gap-px bg-rule border border-rule sm:grid-cols-2 lg:grid-cols-3">
@@ -77,114 +129,57 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 為什麼這樣設計 */}
-      <section className="border-b border-rule">
-        <div className="mx-auto max-w-5xl px-5 py-10 grid gap-7 sm:grid-cols-3">
-          <Point
-            title="不按主題分，按「你要做什麼」分"
-            body="傳統教材分「商業會議」「電子郵件」。這裡分的是「你想反對別人」「你想爭取資源」——你打開的當下就在那個處境裡。"
-          />
-          <Point
-            title="每一句都是真人講過的"
-            body="不是編出來的教科書例句。是 Marty Cagan、April Dunford 這些人在被追問時，即興講出來的話。附時間戳，可以回去聽語氣。"
-          />
-          <Point
-            title="學語言，順便長 PM 腦"
-            body="學「怎麼談取捨」時，例句內容本身就是 PM 在講優先順序怎麼排。語言是載體，專業判斷是內容。"
-          />
-        </div>
-      </section>
-
-      {/* 另一半：PM 知識層 */}
-      {conceptStats.written > 0 && (
-        <section className="border-b border-rule">
-          <div className="mx-auto max-w-5xl px-5 py-12 flex flex-col sm:flex-row sm:items-center gap-6">
-            <div className="flex-1">
-              <p className="rule-label mb-2">這個站的另一半</p>
-              <h2 className="font-serif text-[1.7rem] tracking-tight leading-snug">
-                PM 知識庫：{conceptStats.written} 個核心概念
-              </h2>
-              <p className="mt-3 text-[14.5px] leading-relaxed text-ink-2 max-w-xl">
-                從問題定義、策略取捨到向上管理。每個概念除了中文解說，都附「
-                <strong className="font-medium text-ink">在英文會議上怎麼把它講出來</strong>
-                」的句型，以及台灣 PM 最常踩的坑。跟語言功能雙向連結——
-                學句型時看得到背後的判斷，學概念時知道怎麼開口。
-              </p>
-            </div>
-            <Link
-              href="/pm/"
-              className="shrink-0 border border-ink px-5 py-2.5 text-[13px] rounded-sm hover:bg-ink hover:text-paper transition-colors"
-            >
-              進 PM 知識庫 →
-            </Link>
-          </div>
-        </section>
-      )}
-
-      {/* 功能總覽 */}
+      {/* 三層內容 */}
       <section className="mx-auto max-w-5xl px-5 py-14">
-        <div className="space-y-12">
-          {groups.map((g) => {
-            const n = countForGroup(g.id);
-            return (
-              <div key={g.id}>
-                <div className="flex items-baseline gap-3 mb-1">
-                  <h2 className="font-serif text-[1.6rem] tracking-tight">
-                    {g.zh}
-                  </h2>
-                  <span className="text-[12px] text-ink-3 tracking-wide">
-                    {g.en}
-                  </span>
-                  <span className="ml-auto text-[12px] tabular-nums text-ink-3">
-                    {n} 張
-                  </span>
-                </div>
-                <p className="text-[14px] text-ink-2 mb-5">{g.blurb}</p>
-
-                <div className="grid gap-px bg-rule border border-rule sm:grid-cols-2 lg:grid-cols-3">
-                  {g.functions.map((f) => {
-                    const count = countFor(f.id);
-                    const empty = count === 0;
-                    const inner = (
-                      <>
-                        <div className="flex items-baseline gap-2">
-                          <span
-                            className={`text-[14.5px] font-medium ${empty ? "text-ink-3" : ""}`}
-                          >
-                            {f.zh}
-                          </span>
-                          <span className="ml-auto text-[11px] tabular-nums text-ink-3">
-                            {empty ? "整理中" : count}
-                          </span>
-                        </div>
-                        <p className="mt-1 text-[12px] text-ink-3 leading-relaxed">
-                          {f.scene}
-                        </p>
-                      </>
-                    );
-                    return empty ? (
-                      <div
-                        key={f.id}
-                        className="bg-paper px-4 py-3.5 opacity-55"
-                        aria-disabled
-                      >
-                        {inner}
-                      </div>
-                    ) : (
-                      <Link
-                        key={f.id}
-                        href={`/f/${f.id}/`}
-                        className="bg-paper px-4 py-3.5 hover:bg-rust-soft transition-colors"
-                      >
-                        {inner}
-                      </Link>
-                    );
-                  })}
-                </div>
-              </div>
-            );
-          })}
+        <h2 className="font-serif text-[1.7rem] tracking-tight mb-1">
+          或者直接翻
+        </h2>
+        <p className="text-[14px] text-ink-2 mb-6">
+          三層內容互相連結——學句型時看得到背後的判斷，學概念時知道怎麼開口。
+        </p>
+        <div className="grid gap-px bg-rule border border-rule sm:grid-cols-2">
+          <Panel
+            href="/speak/"
+            label="開口說"
+            n={stats.cards}
+            unit="張句型卡"
+            body={`${stats.covered} 個語言功能，按「你當下想做什麼」分類——說服、擋需求、優雅插話、承認不知道。`}
+          />
+          <Panel
+            href="/w/"
+            label="動筆寫"
+            n={writingStats.cards}
+            unit="張寫法卡"
+            body={`${writingStats.covered} 個寫作場景。Slack、email、PRD、週報、自評——你一天寫的英文比講的多。`}
+          />
+          <Panel
+            href="/pm/"
+            label="PM 知識"
+            n={conceptStats.written}
+            unit="個核心概念"
+            body="每個概念都附「在英文會議上怎麼把它講出來」，以及台灣 PM 最常踩的坑。"
+          />
+          <Panel
+            href="/clips/"
+            label="原聲片段"
+            n={clipCount}
+            unit="個片段"
+            body="挑一個說法，連續聽十幾個人親口講它。語氣、停頓、輕重音——這些文字學不到。"
+          />
         </div>
+
+        <Link
+          href="/vs/"
+          className="mt-px block bg-paper border border-rule border-t-0 px-5 py-5 hover:bg-rust-soft transition-colors group"
+        >
+          <div className="flex items-baseline gap-3">
+            <span className="text-[15px] font-medium">講 vs 寫</span>
+            <span className="text-[13px] text-ink-2">
+              同一件事，講出來和寫下來用的字完全不同。12 組並排對照。
+            </span>
+            <span className="ml-auto text-ink-3 group-hover:text-rust">→</span>
+          </div>
+        </Link>
       </section>
     </>
   );
@@ -201,11 +196,55 @@ function Stat({ n, label }: { n: number; label: string }) {
   );
 }
 
-function Point({ title, body }: { title: string; body: string }) {
+function Step({
+  n,
+  href,
+  title,
+  body,
+}: {
+  n: string;
+  href: string;
+  title: string;
+  body: string;
+}) {
   return (
-    <div>
-      <h3 className="text-[14px] font-semibold mb-2 leading-snug">{title}</h3>
-      <p className="text-[13.5px] leading-relaxed text-ink-2">{body}</p>
-    </div>
+    <Link
+      href={href}
+      className="bg-paper px-5 py-5 hover:bg-rust-soft transition-colors"
+    >
+      <span className="font-serif text-[1.3rem] text-rust tabular-nums">{n}</span>
+      <p className="mt-1 text-[14.5px] font-medium leading-snug">{title}</p>
+      <p className="mt-1.5 text-[12.5px] leading-relaxed text-ink-3">{body}</p>
+    </Link>
+  );
+}
+
+function Panel({
+  href,
+  label,
+  n,
+  unit,
+  body,
+}: {
+  href: string;
+  label: string;
+  n: number;
+  unit: string;
+  body: string;
+}) {
+  return (
+    <Link
+      href={href}
+      className="bg-paper px-5 py-5 hover:bg-rust-soft transition-colors group"
+    >
+      <div className="flex items-baseline gap-2">
+        <span className="text-[15px] font-medium">{label}</span>
+        <span className="text-[12px] text-ink-3 tabular-nums">
+          {n} {unit}
+        </span>
+        <span className="ml-auto text-ink-3 group-hover:text-rust">→</span>
+      </div>
+      <p className="mt-2 text-[13px] leading-relaxed text-ink-2">{body}</p>
+    </Link>
   );
 }

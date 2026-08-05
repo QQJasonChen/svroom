@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import CardView from "@/components/CardView";
+import InlineClip from "@/components/InlineClip";
+import { Src, TraceLink } from "@/components/Src";
 import { getFn } from "@/lib/cards";
 import {
   conceptGroups,
@@ -76,7 +78,9 @@ export default async function ConceptPage({
       {c && (
       <div className="mt-8 space-y-9">
         <section>
-          <p className="rule-label mb-2.5">這是什麼</p>
+          <p className="mb-2.5">
+            <Src kind="ours">這是什麼</Src>
+          </p>
           <p className="text-[15px] leading-[1.9] text-ink-2 whitespace-pre-line">
             {c.body}
           </p>
@@ -93,9 +97,13 @@ export default async function ConceptPage({
 
         {c.howToSay.length > 0 && (
           <section>
-            <p className="rule-label mb-1">在英文會議上怎麼講</p>
+            <p className="mb-2">
+              <Src kind="ours">在英文會議上怎麼講</Src>
+            </p>
             <p className="text-[12.5px] text-ink-3 mb-4">
-              知道概念不等於講得出來。這幾句是直接能用的。
+              知道概念不等於講得出來。下面這幾句是
+              <strong className="text-ink-2">我們依語料整理出來的可用句型</strong>，
+              不是逐字稿原句——原句在下一段。
             </p>
             <ul className="space-y-4">
               {c.howToSay.map((h, i) => (
@@ -108,6 +116,9 @@ export default async function ConceptPage({
                   {h.note && (
                     <p className="mt-1.5 text-[12px] text-ink-3">用在：{h.note}</p>
                   )}
+                  <p className="mt-2">
+                    <TraceLink text={h.en} />
+                  </p>
                 </li>
               ))}
             </ul>
@@ -116,7 +127,12 @@ export default async function ConceptPage({
 
         {c.quote && (
           <section>
-            <p className="rule-label mb-3">他們是這樣說的</p>
+            <p className="mb-1.5">
+              <Src kind="corpus">逐字稿原文</Src>
+            </p>
+            <p className="text-[12.5px] text-ink-3 mb-3">
+              這個概念是從這段話裡抓出來的。
+            </p>
             <blockquote className="quote pl-4 border-l-2 border-rust/35">
               {c.quote.text}
             </blockquote>
@@ -126,14 +142,12 @@ export default async function ConceptPage({
               {c.quote.url && (
                 <>
                   {" · "}
-                  <a
-                    href={c.quote.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="underline underline-offset-2 hover:text-rust"
-                  >
-                    {c.quote.seek ? "從這句聽起 ↗" : "聽原句 ↗"}
-                  </a>
+                  <InlineClip
+                    url={c.quote.url}
+                    timestamp={c.quote.timestamp}
+                    episode={c.quote.episode}
+                    seek={c.quote.seek}
+                  />
                 </>
               )}
             </p>
@@ -147,8 +161,11 @@ export default async function ConceptPage({
 
         {related.length > 0 && (
           <section className="pt-7 border-t border-rule">
-            <p className="rule-label mb-1">配套的句型</p>
+            <p className="mb-1.5">
+              <Src kind="corpus">語料裡的實際說法</Src>
+            </p>
             <p className="text-[12.5px] text-ink-3 mb-4">
+              下面每一張都附逐字稿原句與出處，可以就地播放。
               要在會議上主張這個概念，通常會用到這幾種語言功能：
               {c.relatedFunctions.map((f, i) => {
                 const entry = getFn(f);

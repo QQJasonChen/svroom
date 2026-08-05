@@ -40,14 +40,12 @@ export const metadata: Metadata = {
 };
 
 const nav = [
-  { href: "/strategy/", label: "核心策略" },
-  { href: "/", label: "開口說" },
+  { href: "/strategy/", label: "總論" },
+  { href: "/speak/", label: "開口說" },
   { href: "/w/", label: "動筆寫" },
-  { href: "/vs/", label: "講 vs 寫" },
   { href: "/pm/", label: "PM 知識" },
   { href: "/clips/", label: "原聲片段" },
   { href: "/practice/", label: "練習" },
-  { href: "/search/", label: "搜尋" },
 ];
 
 export default function RootLayout({
@@ -78,6 +76,13 @@ export default function RootLayout({
                   {n.label}
                 </Link>
               ))}
+              <Link
+                href="/search/"
+                aria-label="搜尋"
+                className="text-ink-3 hover:text-rust transition-colors pl-1"
+              >
+                搜尋
+              </Link>
             </nav>
           </div>
         </header>

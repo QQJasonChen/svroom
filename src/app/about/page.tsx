@@ -1,5 +1,6 @@
 import { stats } from "@/lib/cards";
 import { conceptStats } from "@/lib/concepts";
+import { Src } from "@/components/Src";
 
 export const metadata = {
   title: "關於｜矽谷會議室",
@@ -40,6 +41,30 @@ export default function AboutPage() {
             <strong className="text-ink font-medium">懂一個概念，跟能用英文把它講清楚，是兩件不同的事</strong>
             ——而多數台灣 PM 卡住的是後者。
           </p>
+        </section>
+
+        <section>
+          <h2 className="text-ink font-semibold text-[16px] mb-2.5">
+            哪些是原文，哪些是我們寫的
+          </h2>
+          <p>
+            這個站有兩種內容，全站用一致的標記分開，因為分不出來的話你無從判斷該不該相信。
+          </p>
+          <div className="mt-4 space-y-3">
+            <p>
+              <Src kind="corpus" />{" "}
+              真的有人講過或寫過的句子。一律標示講者、時間戳與集數，而且可以直接在卡片上展開播放器，
+              跳到那一秒聽本人講——不必離開這個站。
+            </p>
+            <p>
+              <Src kind="ours" />{" "}
+              翻譯、語用拆解、整理出來的句型、PM 概念解說與那 7 個核心策略。
+              這些是我們的分析，不是原文。每一句我們寫的英文旁邊都有「查語料」，
+              點過去會搜全站的真實引文——
+              <strong className="text-ink font-medium">如果搜不到，那就代表這句是我們的建構</strong>，
+              這個結果本身也是誠實的資訊。
+            </p>
+          </div>
         </section>
 
         <section>

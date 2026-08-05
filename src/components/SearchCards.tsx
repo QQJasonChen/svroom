@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Card, Group } from "@/lib/cards";
 import type { Concept } from "@/lib/concepts";
@@ -16,6 +16,13 @@ export default function SearchCards({
   concepts: Concept[];
 }) {
   const [q, setQ] = useState("");
+
+  // 靜態輸出沒有伺服器端 query，所以在客戶端讀 ?q=。
+  // 卡片裡「查語料」的連結就是靠這個把查詢帶過來的。
+  useEffect(() => {
+    const v = new URLSearchParams(window.location.search).get("q");
+    if (v) setQ(v);
+  }, []);
   const [group, setGroup] = useState("all");
 
   const fnLabel = useMemo(() => {
