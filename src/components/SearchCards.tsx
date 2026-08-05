@@ -115,10 +115,14 @@ export default function SearchCards({
         <div className="space-y-5">
           {showing.map((c) => (
             <div key={c.id}>
+              {/* 書面功能的 id 一律 w- 開頭，路由在 /w/ 底下 */}
               <Link
-                href={`/f/${c.fn}/`}
+                href={
+                  c.fn.startsWith("w-") ? `/w/${c.fn}/` : `/f/${c.fn}/`
+                }
                 className="inline-block mb-1.5 text-[11.5px] text-ink-3 hover:text-rust transition-colors"
               >
+                {c.register === "written" ? "寫｜" : ""}
                 {fnLabel.get(c.fn)} →
               </Link>
               <CardView card={c} />

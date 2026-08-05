@@ -18,7 +18,27 @@ const RAW_DIR = join(ROOT, "data", "raw");
 const OUT = join(ROOT, "data", "cards.json");
 
 const MAX_QUOTE_WORDS = 60;
-const MAX_WORDS_PER_GUEST = 500;
+
+// 授權禁止的是「散布任何一部作品的相當大部分」，所以真正該計量的單位是
+// **單一集數／單篇文章**，不是「人」。用人當單位會把 Lenny 這種同時是
+// 主持人又是主要作者的人，用一個額度卡住整個語料庫的一半。
+//
+// 而額度要跟作品長度成比例，不能用固定值：15,000 字的 podcast 跟 2,800 字的
+// 電子報，同樣抽 200 字的意義差了 5 倍。所以用「作品字數的 4%」，並加上下限。
+const SOURCE_QUOTA_RATIO = 0.04;
+const SOURCE_QUOTA_MAX = 600;
+const SOURCE_QUOTA_MIN = 100;
+// 讀不到作品長度時的保守預設（多數是短文）
+const SOURCE_QUOTA_FALLBACK = 150;
+// 仍保留單人總量的保險絲，避免整站變成某一個人的語錄。
+const MAX_WORDS_PER_GUEST = 4000;
+
+/** 這部作品最多能被引用幾個字 */
+function quotaFor(sourceFile) {
+  const wc = sourceByFile.get(sourceFile)?.words;
+  if (!wc) return SOURCE_QUOTA_FALLBACK;
+  return Math.min(SOURCE_QUOTA_MAX, Math.max(SOURCE_QUOTA_MIN, Math.round(wc * SOURCE_QUOTA_RATIO)));
+}
 
 const functionsFile = JSON.parse(
   readFileSync(join(ROOT, "data", "functions.json"), "utf8"),
@@ -49,6 +69,7 @@ try {
     sourceByFile.set(item.filename.replace(/^(podcasts|newsletters)\//, ""), {
       url,
       episode: item.title || null,
+      words: item.word_count || null,
     });
   }
   const withUrl = [...sourceByFile.values()].filter((s) => s.url).length;
@@ -113,6 +134,7 @@ const rejected = [];
 const seenQuote = new Set();
 const seenPattern = new Set();
 const guestWords = new Map();
+const sourceWords = new Map();
 const cards = [];
 
 // 書面英文層。跟口說層分開的分類法，但共用同一條授權管線與引文預算。
@@ -189,14 +211,20 @@ for (const file of conceptFiles) {
     if (raw.quote && raw.guest && raw.source_file) {
       const qw = wordCount(raw.quote);
       const used = guestWords.get(raw.guest) || 0;
+      const usedSrc = sourceWords.get(raw.source_file) || 0;
       if (qw > MAX_QUOTE_WORDS) {
         conceptIssues.push(`${file}:「${raw.id}」引文 ${qw} 字超標，已移除引文`);
+      } else if (usedSrc + qw > quotaFor(raw.source_file)) {
+        conceptIssues.push(
+          `${file}:「${raw.id}」來源 ${raw.source_file} 引文預算已滿，已移除引文`,
+        );
       } else if (used + qw > MAX_WORDS_PER_GUEST) {
         conceptIssues.push(
           `${file}:「${raw.id}」講者 ${raw.guest} 引文預算已滿，已移除引文`,
         );
       } else {
         guestWords.set(raw.guest, used + qw);
+        sourceWords.set(raw.source_file, usedSrc + qw);
         const src = sourceByFile.get(raw.source_file);
         quote = {
           text: raw.quote.trim(),
@@ -312,13 +340,21 @@ function ingest({ fileList, validSet, groupMap, out, label }) {
         continue;
       }
 
-      // --- 授權防護：單一講者累計引文量 ---
+      // --- 授權防護：單一來源作品累計引文量（主要規則）---
+      const usedSrc = sourceWords.get(raw.source_file) || 0;
+      const quota = quotaFor(raw.source_file);
+      if (usedSrc + qw > quota) {
+        reject(`來源 ${raw.source_file} 引文累計超過該作品額度 ${quota} 字`);
+        continue;
+      }
+      // --- 授權防護：單一講者總量保險絲 ---
       const used = guestWords.get(raw.guest) || 0;
       if (used + qw > MAX_WORDS_PER_GUEST) {
         reject(`講者 ${raw.guest} 引文累計超過 ${MAX_WORDS_PER_GUEST} 字`);
         continue;
       }
       guestWords.set(raw.guest, used + qw);
+      sourceWords.set(raw.source_file, usedSrc + qw);
 
       seenQuote.add(qKey);
       if (raw.pattern) seenPattern.add(pKey);
@@ -413,7 +449,11 @@ const payload = {
 writeFileSync(OUT, JSON.stringify(payload, null, 2) + "\n");
 
 console.log(`✓ 合併 ${files.length} 個批次 → ${cards.length} 張卡`);
-console.log(`  引文總字數：${[...guestWords.values()].reduce((a, b) => a + b, 0)}（來自 ${guestWords.size} 位講者）`);
+console.log(
+  `  引文總字數：${[...guestWords.values()].reduce((a, b) => a + b, 0)}` +
+    `（${guestWords.size} 位講者、${sourceWords.size} 部作品，` +
+    `單部最多 ${Math.max(0, ...sourceWords.values())} 字）`,
+);
 
 const missing = [...validFunctions].filter((f) => !byFn.has(f));
 if (missing.length) {

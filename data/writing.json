@@ -1,8 +1,1067 @@
 {
-  "count": 73,
+  "count": 206,
   "cards": [
     {
-      "id": "w-request-natalie-rothfels-0",
+      "id": "w-recommendation-lenny-rachitsky-0",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "I recommend we [do X]. Here's why:",
+      "quote": "I recommend we devote our next sprint to fixing bugs. Here's why:",
+      "zh": "我建議我們把下個衝刺全部用來修 bug。理由如下：",
+      "why": "結論放第一句，理由編號列在後面。讀者第一秒就知道你要什麼，就算只讀到第一行也能回你 yes / no。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I'm recommending [X]. Three reasons:",
+        "My recommendation: [X]. Here's the reasoning."
+      ],
+      "pmNote": "Minto 金字塔原則：先給答案，再給支撐論點，最後才擺資料。「你從下往上思考，但要從上往下呈現。」",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Minto Pyramid Principle and the SCR Framework",
+      "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-tara-seshan-1",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "I'd like to [gavel on this decision] by [time]—the default is that we'll [move forward with X].",
+      "quote": "I'd like to gavel on this decision at the end of the meeting—the default is that we'll move forward with this approach",
+      "zh": "我希望這個決定在會議結束前拍板；沒有異議的話，預設就是照這個方向走。",
+      "why": "同時給出「決定期限」和「不回應等於同意」的預設值。把沉默從拖延變成推進，逼對方要嘛拍板、要嘛現在講話。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Unless I hear otherwise by [Friday], I'll proceed with [X].",
+        "Default is [X]—flag it now if you disagree.",
+        "I'd like to close this by [date]; silence means we go with [X]."
+      ],
+      "pmNote": "這叫 default-to-action：非同步溝通裡最有效的推進器，也是台灣 PM 寫英文信最少用的一招。",
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-tara-seshan-2",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "We must choose between [X] or [Y]. Should we do X or Y?",
+      "quote": "We must choose between [X, new request] or [Y, existing item on OSR]. Should we do X or Y?",
+      "zh": "我們必須在 X（新需求）和 Y（現有排序中的項目）之間二選一。要做 X 還是 Y？",
+      "why": "把開放式討論壓成封閉式選擇題。不留第三條路，對方就沒辦法回你「兩個都做」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "The choice is between [X] and [Y]—which do you want?",
+        "This is an either/or: [X] or [Y].",
+        "We can do [X] or [Y] this quarter, not both."
+      ],
+      "pmNote": "Tara Seshan（Stripe / Watershed）觀察：PM 最常見的失敗是暗示「資源很緊」而不是明確給二選一，結果高層永遠回「兩個都做」。",
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-chris-sacca-quoted-by-tara-seshan-3",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "I think we should do [option N]. And if we do [N], we're not staffed to do it well. I need [X] to do it right.",
+      "quote": "I think we should do 3. And if we do 3, we're not staffed to do it well. I need [X] people to do it right.",
+      "zh": "我認為我們該選第三案。但如果要做第三案，現在的人力做不好。要做對，我需要 X 個人。",
+      "why": "先選定方向、再要資源——順序不能反。先要資源會被讀成討價還價，選完再要就變成「執行這個決定的必要條件」。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "My pick is [N]. If we go with [N], I'll need [X] to execute properly.",
+        "Recommend [N]—and [N] requires [X] to do well."
+      ],
+      "pmNote": "先定優先順序再要 headcount。反過來做會掉進「再給我一個工程師就好」的陷阱。",
+      "guest": "Chris Sacca (quoted by Tara Seshan)",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-lenny-rachitsky-4",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": null,
+      "quote": "Yes, but here's what'll need to change. Should we move forward?",
+      "zh": "可以，但有些東西得跟著改。我們要繼續往下走嗎？",
+      "why": "表面說 yes、實際把成本攤開，最後把決定權丟回去。對方看到代價多半會自己收回要求——而你一次「不」都沒說過。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Happy to do it—here's what moves if we do.",
+        "We can do this, but [X] will slip. Want me to proceed?"
+      ],
+      "pmNote": "Lenny 的五段式說不：前兩段開頭都是 Yes，但實際上都是在說不。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-lenny-rachitsky-5",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "Yes, but not right now because we should stay focused on [X] because of [reasons]. Do you agree?",
+      "quote": "Yes, but not right now because we should stay focused on X because of XYZ. Do you agree?",
+      "zh": "可以，但不是現在——我們應該先專注在 X，因為 XYZ。你同意嗎？",
+      "why": "「不是現在」比「不要」好吞。句尾那句 Do you agree? 把它變成需要對方點頭的共同決定，而不是你單方面的拒絕。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Yes, but I'd queue it for [next cycle]—[reason]. Sound right?",
+        "Agreed in principle, wrong timing. OK to revisit in [Q3]?"
+      ],
+      "pmNote": "Lenny 說大多數點子都落在這一格：不是壞主意，只是不值得打斷手上的事。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-lenny-rachitsky-6",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "No, but how about we do [Z] instead, which achieves a similar outcome?",
+      "quote": "No, but how about we do XYZ instead, which achieves a similar outcome?",
+      "zh": "不行，但我們改做 XYZ 如何？可以達到差不多的結果。",
+      "why": "拒絕之後立刻補一個替代方案。對方真正要的是結果不是那個方案，你把結果給他，就不算真的拒絕他。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "No—but [Z] gets you the same outcome for a fraction of the cost.",
+        "I'd push back on the approach, not the goal. What about [Z]?"
+      ],
+      "pmNote": "對同事要像對用戶：聽他的問題，不必照單全收他提的解法。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-lenny-rachitsky-7",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "No, because it's a bad idea for [reasons]. Do you agree?",
+      "quote": "No, because it's a bad idea for reasons XYZ. Do you agree?",
+      "zh": "不行，因為 XYZ 這幾個理由，這是個壞主意。你同意嗎？",
+      "why": "敢直接寫 No 再接理由，最後仍留一句確認。台灣人寫英文最常漏掉的就是那句確認——沒有它讀起來像結案，有它才是對話。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I don't think we should do this, for [reasons]. Where do you land?",
+        "My read is this is the wrong call because [X]. Push back if you see it differently."
+      ],
+      "pmNote": "要說服主管他錯了，Lenny 的建議是先把觀點放一邊，讓事實自己講話。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-caitlin-sullivan-8",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "My recommendation: [X]. [One-sentence reason.]",
+      "quote": "My recommendation: If you have a choice, use Claude for analysis work. It covers more ground while staying rooted in the actual data.",
+      "zh": "我的建議是：如果你有得選，分析工作就用 Claude。它涵蓋的範圍更廣，同時又貼著真實資料走。",
+      "why": "把 My recommendation: 當成標籤用，讀者快速掃過去也抓得到。後面一句話講完理由，不拖泥帶水。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "My recommendation: [X].",
+        "If I had to pick one: [X], because [reason].",
+        "Bottom line: go with [X]."
+      ],
+      "pmNote": "長文件裡把關鍵句加粗標籤，是讓不讀完的人也能拿走結論的最低成本做法。",
+      "guest": "Caitlin Sullivan",
+      "timestamp": null,
+      "episode": "How to do AI analysis you can actually trust",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-tara-seshan-9",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "I don't think it's worth it for the company; we won't hit our [company-level goals].",
+      "quote": "I don't think it's worth it for the company; we won't hit our usage and revenue goals",
+      "zh": "我認為這對公司來說不划算；我們會達不到使用量和營收目標。",
+      "why": "用公司目標而不是團隊目標當理由。高層腦子裡裝的是公司目標，你替他換算好，他就不必自己換算，也更容易站到你這邊。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "This doesn't clear the bar against [company goal].",
+        "Measured against [company OKR], this is a net negative."
+      ],
+      "pmNote": "Company first, team second：同一個取捨，用公司目標包裝的說服力遠高於用團隊目標。",
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-recommendation-bobby-pinero-10",
+      "fn": "w-recommendation",
+      "group": "arguing",
+      "pattern": "Both [A] and [B] told us we needed to (1) [action one] and (2) [action two].",
+      "quote": "Both the results we were seeing in the data and our early traction selling Equals told us we needed to (1) kill free and (2) add friction back to onboarding.",
+      "zh": "資料上看到的結果，加上 Equals 早期的銷售成績，兩邊都指向我們必須（1）砍掉免費方案，（2）把 onboarding 的摩擦加回來。",
+      "why": "「兩個獨立來源指向同一個結論」比單一數據強得多。再用編號把行動切乾淨，讀者記得走的就是那兩個編號。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Both [A] and [B] point to the same conclusion: we should [X].",
+        "[Data] and [field signal] independently say the same thing."
+      ],
+      "pmNote": "量化資料 + 銷售現場訊號的交叉驗證，是砍掉一個已上線功能時最站得住腳的證據組合。",
+      "guest": "Bobby Pinero",
+      "timestamp": null,
+      "episode": "Lessons from going freemium: a decision that broke our business",
+      "url": "https://www.lennysnewsletter.com/p/lessons-from-going-freemium-a-decision-that-broke-our-business",
+      "seek": false
+    },
+    {
+      "id": "w-options-chris-sacca-quoted-by-tara-seshan-11",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "The real question here isn't [X], or [Y], it's [Z].",
+      "quote": "The real question here isn't about tech, or specific resources, it's about position.",
+      "zh": "這裡真正的問題不是技術，也不是資源多寡，而是站位。",
+      "why": "在列選項之前先重新定義問題。你一旦拿到定義問題的權力，後面那份選項清單就是照你的框架長出來的。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The real question isn't [X], it's [Y].",
+        "This isn't a resourcing problem—it's a positioning problem.",
+        "We're solving the wrong question. The one that matters is [Y]."
+      ],
+      "pmNote": "Shishir Mehrotra 稱之為 eigenquestion：找出那個一旦回答、其他問題就自動有解的問題。",
+      "guest": "Chris Sacca (quoted by Tara Seshan)",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-options-chris-sacca-quoted-by-tara-seshan-12",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "We have a tradeoff to make: (1) [option + its precondition], (2) [option + its cost]",
+      "quote": "We have a tradeoff to make: (1) we can buy them, once we have enough leverage to confront media companies directly, (2) we can take the same strategy, but we have to prepare the rest of Google for the fallout",
+      "zh": "我們有個取捨要做：（1）我們可以買下他們，前提是我們有足夠籌碼直接跟媒體公司攤牌；（2）我們可以走一樣的策略，但得先讓 Google 其他部門準備好承受後果。",
+      "why": "每個選項後面都掛一個「前提／代價」子句，而不是光列名字。讀者不必自己推演，也看得出你真的把每條路走過一遍。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "We have a tradeoff to make: (1) [X], if [precondition]; (2) [Y], but [cost].",
+        "Three paths, each with a price: [A] costs [x], [B] costs [y], [C] costs [z]."
+      ],
+      "pmNote": "選項清單只列名稱等於沒列。每一項都要帶前提或代價，否則高層只會挑聽起來最好聽的那個。",
+      "guest": "Chris Sacca (quoted by Tara Seshan)",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-options-tara-seshan-13",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "It changes the conversation from \"Why can't we do this one extra thing?\" into \"Do you agree that [X] is more important than [Y]?\"",
+      "quote": "It changes the conversation with other teams from “Why can't we do this one extra thing?” into “Do you agree that X is more important than Y?”",
+      "zh": "它把跟其他團隊的對話，從「為什麼不能多做這一件事？」變成「你同意 X 比 Y 重要嗎？」",
+      "why": "兩句引號對照就講完整個策略。前一句你是守方，後一句對方得表態排序——同一件事換個問法，攻守就易位。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The question isn't \"can we squeeze this in\"—it's \"what comes out.\"",
+        "Reframing this from \"why not\" to \"instead of what.\""
+      ],
+      "pmNote": "公開的專案排序表（OSR）是讓這個改寫成立的前提：沒有清單，就沒有 Y 可以拿來比。",
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-options-caitlin-sullivan-14",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "The tradeoff is that [downside]. You'll [specific inconvenience], and you'll need to [extra work].",
+      "quote": "The tradeoff is that it doesn't filter for you. You'll often get validated patterns and half-formed hypotheses presented on equal ground, and you'll need to verify that themes are well-evidenced.",
+      "zh": "代價是它不會幫你過濾。你常常會拿到已驗證的模式和半成形的假設被並排放在一起，你得自己確認每個主題證據夠不夠。",
+      "why": "推薦完立刻自曝缺點。願意主動講代價的人，讀者反而更信他前面講的優點。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The tradeoff is that [X].",
+        "The cost of this approach is [X].",
+        "What you give up: [X]."
+      ],
+      "pmNote": "推薦工具、供應商、技術方案時，主動列出代價會顯著降低對方反覆質詢的次數。",
+      "guest": "Caitlin Sullivan",
+      "timestamp": null,
+      "episode": "How to do AI analysis you can actually trust",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually",
+      "seek": false
+    },
+    {
+      "id": "w-options-caitlin-sullivan-15",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "Best for [use case]. Gives you [less of A] but with [more of B].",
+      "quote": "Best for highly evidenced themes and now video analysis. Gives you fewer themes but with stronger grounding.",
+      "zh": "最適合用在需要強證據支撐的主題，現在也能做影片分析。它給你的主題比較少，但每一個的根據都更紮實。",
+      "why": "列選項時每一項都套同一個句型，讀者才能橫向比較。格式一致本身就是說服力——它證明你用同一把尺量過每個選項。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Best for [use case]. Gives you [less X] but [more Y].",
+        "Strongest at [X]; weakest at [Y].",
+        "Use when [condition]; avoid when [condition]."
+      ],
+      "pmNote": "供應商評估文件裡，每個選項用同一組欄位描述，比寫得漂亮更重要。",
+      "guest": "Caitlin Sullivan",
+      "timestamp": null,
+      "episode": "How to do AI analysis you can actually trust",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually",
+      "seek": false
+    },
+    {
+      "id": "w-options-bobby-pinero-16",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "We knew [short-term cost], with the bet that we'd [long-term gain].",
+      "quote": "We knew ARR would take a hit short-term, with the bet that we'd drive more companies to get stuck into Equals and drive ARR higher long-term.",
+      "zh": "我們知道短期 ARR 會掉，賭的是能讓更多公司深度用上 Equals，長期把 ARR 推得更高。",
+      "why": "with the bet that 這個接法很好用：它坦承這是賭注不是保證，同時清楚指出賭的是什麼。比 we believe 誠實，也比 we believe 有份量。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "We expect [short-term cost], with the bet that [long-term gain].",
+        "Short term this costs us [X]; the bet is [Y].",
+        "We're trading [X] now for [Y] later."
+      ],
+      "pmNote": "寫下「我們賭的是什麼」等於同時寫下了驗收條件——半年後可以直接拿出來對帳。",
+      "guest": "Bobby Pinero",
+      "timestamp": null,
+      "episode": "Lessons from going freemium: a decision that broke our business",
+      "url": "https://www.lennysnewsletter.com/p/lessons-from-going-freemium-a-decision-that-broke-our-business",
+      "seek": false
+    },
+    {
+      "id": "w-options-tara-seshan-17",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "If we decide to take this on now, what happens next quarter? Next year? What ongoing costs do we take on?",
+      "quote": "If we decide to take this thing on now, what happens next quarter? Next year? What ongoing costs do we take on?",
+      "zh": "如果我們現在接下這件事，下一季會怎樣？明年呢？我們會背上哪些持續性的成本？",
+      "why": "連續三個問句把時間軸拉長。問句不像斷言那樣顯得在指責，但逼對方自己算一次帳。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "What does this look like in [12 months]?",
+        "What ongoing costs are we signing up for?",
+        "What's the second-order effect of saying yes here?"
+      ],
+      "pmNote": "業務團隊常以一季為單位思考，產品團隊要把時間軸拉長——這是 PM 在取捨對話裡最容易創造的價值。",
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-options-laura-tacho-18",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "We don't want to increase [A] at the expense of [B], or [C] while [D] takes a nosedive.",
+      "quote": "we don't want to increase speed at the expense of developer experience, or spend more time on new features while quality takes a nosedive",
+      "zh": "我們不希望為了提速而犧牲開發者體驗，也不希望把時間都投在新功能、結果品質直線下滑。",
+      "why": "at the expense of 是書面取捨的標準接法，比 but 精確——它明確指出誰在為誰付出代價。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "...at the expense of [X]",
+        "...without sacrificing [X]",
+        "even if it means [X] goes down"
+      ],
+      "pmNote": "指標要成組使用互相牽制，單一指標一定會被優化到扭曲。",
+      "guest": "Laura Tacho",
+      "timestamp": null,
+      "episode": "Introducing Core 4: The best way to measure and improve your product velocity",
+      "url": "https://www.lennysnewsletter.com/p/introducing-core-4-the-best-way-to-measure-and-improve-your-product-velocity",
+      "seek": false
+    },
+    {
+      "id": "w-options-bobby-pinero-19",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": "[New approach], a step between [extreme A] and [extreme B].",
+      "quote": "So this time we decided to require every signup to start a 14-day free trial and input a credit card, a step between a free self-serve product and having to get on the phone with us.",
+      "zh": "這次我們決定要求每個註冊都得開 14 天免費試用並輸入信用卡——這是介於「完全免費自助」和「一定要跟我們通電話」之間的一步。",
+      "why": "a step between A and B 把新方案定位在兩個已知極端之間。讀者不必理解新東西，只要知道它落在哪個位置。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "[X], a step between [A] and [B]",
+        "somewhere between [A] and [B]",
+        "a middle path: keeps [benefit of A] without [cost of B]"
+      ],
+      "pmNote": "當兩派人各執一端時，把提案描述成「介於兩者之間的一步」比說服任何一方都容易。",
+      "guest": "Bobby Pinero",
+      "timestamp": null,
+      "episode": "Lessons from going freemium: a decision that broke our business",
+      "url": "https://www.lennysnewsletter.com/p/lessons-from-going-freemium-a-decision-that-broke-our-business",
+      "seek": false
+    },
+    {
+      "id": "w-options-lenny-rachitsky-20",
+      "fn": "w-options",
+      "group": "arguing",
+      "pattern": null,
+      "quote": "No, this is a bad idea, but we can achieve similar results with a variation of it.",
+      "zh": "不行，這是個壞主意，但我們可以用它的變形達到差不多的結果。",
+      "why": "把「否決方案」和「保留目標」分開講。你反對的是做法，不是他想要的東西——這一分，對方的防衛心就掉一半。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "The idea's off, but the goal isn't. Here's another route to it.",
+        "I'd drop the approach and keep the outcome."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-21",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "The numbers are unambiguous: [stat one], and [stat two].",
+      "quote": "The numbers are unambiguous: 55% say AI has exceeded their expectations, and roughly three-quarters of our respondents would say AI has delivered on or surpassed its promise.",
+      "zh": "數字很明確：55% 說 AI 超出他們的預期，大約四分之三的受訪者認為 AI 達成或超越了它的承諾。",
+      "why": "先下判斷再給數字，而不是給完數字讓讀者自己猜結論。冒號那一下把「數字很明確」變成標題，後面全是佐證。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "The numbers are unambiguous: [data].",
+        "The data is clear on this: [data].",
+        "One number tells the story: [data]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-22",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "Only [X]% report [downside]. By almost any [domain] standard, these are strong numbers.",
+      "quote": "Only 17.7% report disappointment. By almost any product standard, these are strong numbers.",
+      "zh": "只有 17.7% 表示失望。以幾乎任何產品標準來看，這都是很強的數字。",
+      "why": "給完數字要記得替讀者定錨。沒有基準的數字沒有意義，一句 By almost any product standard 就補上了那個基準。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "By any reasonable benchmark, [X].",
+        "For context, anything above [Y] is considered strong.",
+        "Industry median is [Y]; we're at [X]."
+      ],
+      "pmNote": "台灣人寫英文報告最常漏的一層：數字有了，但沒說「這算好還是壞」。",
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-23",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "One more pattern worth noting: [finding] ([the number that cuts against you]).",
+      "quote": "One more pattern worth noting: engineers report the most mixed results on quality later in the survey (51% better but 21% worse, the highest “worse” of any role).",
+      "zh": "還有一個值得注意的模式：工程師在後面問到品質時，回答最兩極（51% 說變好、21% 說變差，是所有角色裡「變差」比例最高的）。",
+      "why": "主動指出對自己結論不利的資料。願意寫出 but 21% worse 的人，前面那些好數字才會被相信。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "One more pattern worth noting: [X].",
+        "It's worth flagging the counter-signal here: [X].",
+        "The number that gives me pause: [X]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-24",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "The consistent pattern: [range] on [scope of work].",
+      "quote": "The consistent pattern: between 3x and 10x time compression on knowledge work that previously required either deep expertise or tedious manual effort.",
+      "zh": "一致的模式是：在原本需要深厚專業或繁瑣手工的知識工作上，時間被壓縮 3 到 10 倍。",
+      "why": "用區間（3x–10x）而不是單一平均值。區間傳達的是「我看過分佈」，平均值傳達的只是「我算了一下」。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The consistent pattern: [X].",
+        "Across every segment we looked at, [X].",
+        "The range is [A] to [B], clustered around [C]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-25",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "This tracks with our earlier finding that [related result].",
+      "quote": "This tracks with our earlier finding that designers report the lowest quality improvements and the smallest time savings.",
+      "zh": "這跟我們前面的發現一致：設計師回報的品質提升最小、省下的時間也最少。",
+      "why": "This tracks with... 把兩個獨立資料點縫起來，讓讀者覺得你在講一個系統，而不是一堆散落的數字。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "This tracks with [earlier finding].",
+        "This is consistent with what we saw in [X].",
+        "This lines up with [X] from last quarter."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-26",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "But look farther down the list and a pattern emerges: [X], but [contrast].",
+      "quote": "But look farther down the list and a pattern emerges: AI is helping PMs produce, but it lags in helping them think.",
+      "zh": "但把清單往下看，一個模式就浮現了：AI 幫得上 PM「產出」，卻在幫他們「思考」上落後很多。",
+      "why": "先引導讀者的視線（look farther down the list），再給結論。這種寫法讓讀者覺得是自己看出來的，接受度比被告知高很多。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Look past the top three and a pattern emerges: [X].",
+        "The interesting part isn't the top of the list—it's [X]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-27",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "Only [X]% [do it today], but nearly [Y] want it to be.",
+      "quote": "User research shows the largest demand gap of any task (+27.2pp). Only 4.7% say it's their primary AI use case today, but nearly a third want it to be.",
+      "zh": "使用者研究是所有任務裡需求缺口最大的（+27.2 個百分點）。今天只有 4.7% 說這是他們主要的 AI 用途，但將近三分之一希望它是。",
+      "why": "Only X%... but nearly Y 是把一個數字變成一個機會的標準寫法。落差本身就是論點，不需要你再補一句「所以我們該做」。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Only [X]% do this today, but [Y]% want to.",
+        "Today it's [X]; the demand is [Y]. That gap is the opportunity."
+      ],
+      "pmNote": "demand gap（現況 vs. 想要）是提案裡最有說服力的一種數字，因為它同時證明了問題存在和市場存在。",
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-noam-segal-28",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "Even the most skeptical group, [X], still shows [result].",
+      "quote": "63% of PMs and 83% of founders report that AI saves 4+ hours per week. Even the most skeptical group, designers, still shows 47.5% reporting 4+ hours saved.",
+      "zh": "63% 的 PM 和 83% 的創辦人回報 AI 每週省下 4 小時以上。就連最懷疑的一群——設計師——也有 47.5% 回報省下 4 小時以上。",
+      "why": "拿對你最不利的子集當證據，反對的人就沒得挑。這是書面論證裡最強的一招，因為它等於幫對方做完了盡職調查。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Even [the most skeptical group], [result].",
+        "Even in the worst-performing segment, [X].",
+        "This holds even if you exclude [favorable subset]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-29",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "There are over [absolute number] [things]. This is [X]% above [the low point], and up [Y]% since [recent baseline].",
+      "quote": "There are over 7,300 open PM roles at tech companies globally, and trending up. This is 75% above the low we saw in early 2023, and already up nearly 20% since the start of this year.",
+      "zh": "全球科技公司目前有超過 7,300 個 PM 職缺，而且還在往上。這比 2023 年初的低點高出 75%，光今年開年到現在就漲了近 20%。",
+      "why": "絕對值 + 相對低點 + 年初至今，三個角度講同一件事。台灣人寫報告最常只給第一個，讀者就沒辦法判斷這到底算多還是少。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "[N] today—[X]% above [baseline] and up [Y]% since [date].",
+        "In absolute terms [N]; relative to [baseline], [X]%."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-30",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "This covers [scope]. (It doesn't include [excluded scope].)",
+      "quote": "Their data looks at roles at tech companies—the most sought-after and lucrative jobs. (It doesn't include roles at non-tech companies and consulting agencies.)",
+      "zh": "他們的資料看的是科技公司的職缺——也就是最熱門、待遇最好的那一批。（不包含非科技公司和顧問公司的職缺。）",
+      "why": "主動框定資料涵蓋範圍，括號留給排除項。這一句話擋掉了「那 XX 產業呢」這類讓整份報告失焦的追問。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "This covers [X]. (It does not include [Y].)",
+        "Scope: [X] only.",
+        "Note: [Y] is excluded from this analysis."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-31",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "The sample sizes are not huge. [Concrete explanation of how that could distort the result.]",
+      "quote": "The sample sizes are not huge. Even large companies may not have tons of PMs, and so if a few of these PMs go on to do something great, it can make a company's numbers look great.",
+      "zh": "樣本數不算大。即使是大公司，PM 也未必很多，所以只要其中幾個人後來做出成績，就足以讓一家公司的數字看起來很漂亮。",
+      "why": "自己先把「這份數據可能怎麼被質疑」寫出來，而且寫得比質疑者更具體。這比等別人問更省事，讀者也會直接把你歸類成可信的人。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Small n here—[specific way it could mislead].",
+        "Treat this as directional; the sample won't support a strong claim."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Which companies accelerate PM careers most",
+      "url": "https://www.lennysnewsletter.com/p/which-companies-accelerate-pm-careers-most",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-lenny-rachitsky-32",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "We can't 100% isolate [the variable]. It could be [A], or it could be [B].",
+      "quote": "We can't 100% isolate the variable that most contributed to the career trajectory. It could be mentorship that PMs got at the company, or it could be that the company hires strong people.",
+      "zh": "我們沒辦法百分之百分離出對職涯軌跡貢獻最大的變數。可能是這些 PM 在公司拿到的指導，也可能只是這家公司本來就招得到強的人。",
+      "why": "明說相關不等於因果，並且列出至少兩個替代解釋。寫得出替代解釋，代表你真的想過，而不是拿數字替既有立場背書。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "We can't fully isolate [variable].",
+        "It could be [A], or it could be [B].",
+        "This is correlation; we haven't established causation."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Which companies accelerate PM careers most",
+      "url": "https://www.lennysnewsletter.com/p/which-companies-accelerate-pm-careers-most",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-olga-berezovsky-33",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "That said, it doesn't mean that [naive causal reading]. There is still work to do to prove that.",
+      "quote": "That said, it doesn't mean that new users registering tomorrow and logging more foods will have better retention. There is still work to do to prove that.",
+      "zh": "話雖如此，這不代表明天註冊的新用戶只要多記錄飲食就會有更好的留存。要證明這件事還有得做。",
+      "why": "給完一個漂亮的相關係數之後立刻踩煞車。這種自我設限反而讓你後續的建議更容易被採納，因為讀者知道你不會誇大。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "This doesn't mean [causal claim]—we'd need [experiment] to say that.",
+        "Correlation only. Proving causation needs [X]."
+      ],
+      "pmNote": "相關性分析只能幫你挑實驗題目，不能當實驗結果用。",
+      "guest": "Olga Berezovsky",
+      "timestamp": null,
+      "episode": "How to do linear regression and correlation analysis",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-linear-regression-and-correlation-analysis",
+      "seek": false
+    },
+    {
+      "id": "w-evidence-bobby-pinero-34",
+      "fn": "w-evidence",
+      "group": "arguing",
+      "pattern": "Yes, [surface metric improved]. But ultimately [the metric that matters got worse].",
+      "quote": "Yes, more people made it to the step of using the product. But ultimately fewer of them became engaged, retained users.",
+      "zh": "是的，更多人走到了使用產品那一步。但最後真正變成活躍、留下來的用戶反而更少。",
+      "why": "先承認對方陣營的數字為真，再把真正重要的指標端出來。你不否認事實，只重新定義什麼算成功——這比爭論數字有效得多。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Yes, [top-line metric] went up. But [real metric] went down.",
+        "The number improved; the outcome didn't."
+      ],
+      "pmNote": null,
+      "guest": "Bobby Pinero",
+      "timestamp": null,
+      "episode": "Lessons from going freemium: a decision that broke our business",
+      "url": "https://www.lennysnewsletter.com/p/lessons-from-going-freemium-a-decision-that-broke-our-business",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-ken-rudin-35",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "You might be thinking, \"[the objection].\" That's true, but [why it doesn't change the conclusion].",
+      "quote": "You might be thinking, “But correlation doesn't imply causation!” That's true, but it's still the best way to identify features with the highest likelihood of driving growth.",
+      "zh": "你可能在想：「但相關不等於因果啊！」沒錯，但這仍然是找出最可能帶動成長的功能的最好方法。",
+      "why": "把對方腦中的反駁原句寫出來，先承認它對，再說明為什麼不影響結論。讀者的異議一旦被說中，防衛就自動解除。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "You might be thinking, \"[objection].\" That's true, but [X].",
+        "The obvious objection is [X]. Fair—but [Y].",
+        "I know: [objection]. Here's why I'd still do it."
+      ],
+      "pmNote": null,
+      "guest": "Ken Rudin",
+      "timestamp": null,
+      "episode": "How to accelerate growth by focusing on the features you already have",
+      "url": "https://www.lennysnewsletter.com/p/how-to-accelerate-growth-by-focusing-on-the-features-you-already-have",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-lenny-rachitsky-36",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "If you're skeptical that [X], [independent second piece of evidence].",
+      "quote": "If you're skeptical that this growth is real and likely to be sustained, we're also seeing a surge in demand for tech recruiters.",
+      "zh": "如果你懷疑這波成長是不是真的、能不能持續，我們同時也看到科技獵才職缺大幅增加。",
+      "why": "直接對懷疑的讀者說話，然後端出一個獨立的第二來源。這比再給一組同源數字有力得多——不同來源指向同一結論才叫佐證。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "If you're skeptical that [X], consider [independent evidence].",
+        "If you don't buy [X], here's a second signal: [Y]."
+      ],
+      "pmNote": "領先指標（如獵才職缺）常比主要指標更能說服懷疑者，因為它不受同一組偏誤影響。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-patrick-campbell-37",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "To be clear, I'm not saying [X]. I'm saying [Y].",
+      "quote": "To be clear, I'm not saying DON'T do freemium. I'm saying it's a scalpel, not a sledgehammer that requires thought.",
+      "zh": "講清楚：我不是說「不要做 freemium」。我是說它是手術刀，不是大鎚，需要動腦。",
+      "why": "I'm not saying X. I'm saying Y. 是防止被曲解最有效的兩句。寫下來的東西會被轉發，你不在場時，這兩句替你辯護。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "To be clear, I'm not saying [X]. I'm saying [Y].",
+        "This isn't an argument against [X]—it's an argument for [Y].",
+        "Not \"never [X]\"—\"[X] only when [condition].\""
+      ],
+      "pmNote": null,
+      "guest": "Patrick Campbell",
+      "timestamp": null,
+      "episode": "Pricing your SaaS product",
+      "url": "https://www.lennysnewsletter.com/p/pricing-your-saas-product",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-bobby-pinero-38",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "Ultimately, [X] didn't work for us. That doesn't mean it couldn't work for you.",
+      "quote": "Ultimately, freemium didn't work for us. That doesn't mean it couldn't work for you.",
+      "zh": "最後 freemium 對我們沒用。這不代表它對你也沒用。",
+      "why": "主動把結論的適用範圍縮小。你限縮得越明確，別人就越難用「你的情況跟我不一樣」一句話把你整篇推翻。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "That doesn't mean it couldn't work for you.",
+        "Your context may differ—here's what would have to be true for [X] to work.",
+        "This is our result, not a universal law."
+      ],
+      "pmNote": null,
+      "guest": "Bobby Pinero",
+      "timestamp": null,
+      "episode": "Lessons from going freemium: a decision that broke our business",
+      "url": "https://www.lennysnewsletter.com/p/lessons-from-going-freemium-a-decision-that-broke-our-business",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-lenny-rachitsky-39",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "I bet [reader's likely current state]. None of this means you actually need to [the leap they might take].",
+      "quote": "I bet your team has a half-dozen agent ideas on your backlog right now. None of this means you actually need to build an agent today.",
+      "zh": "我猜你們團隊的待辦清單上現在就躺著五六個 agent 的點子。但這些都不代表你今天真的需要做一個 agent。",
+      "why": "先把讀者的現況說中，再切斷他可能做出的錯誤推論。None of this means... 專門用來擋「所以你是要我們趕快做囉？」",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "None of this means you need to [X] today.",
+        "I'm not asking for a decision on [X]—just shared context.",
+        "Reading this as \"we should build it\" would be the wrong takeaway."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Not all AI agents are created equal",
+      "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-molly-graham-40",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "To be fair, [their view] isn't wrong; it's just incomplete.",
+      "quote": "To be fair, a lot of the time that instinct isn't wrong; it's just incomplete.",
+      "zh": "平心而論，那個直覺很多時候並沒有錯，只是不完整。",
+      "why": "isn't wrong; it's just incomplete 是拆對手論點最漂亮的方式——不否定他，只說他看得不夠遠。對方不必認錯就能改變立場。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "To be fair, [their view] isn't wrong; it's just incomplete.",
+        "[X] is true as far as it goes.",
+        "That's the right instinct pointed at the wrong layer."
+      ],
+      "pmNote": null,
+      "guest": "Molly Graham",
+      "timestamp": null,
+      "episode": "How to debug a team that isn’t working: the Waterline Model",
+      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-tara-seshan-41",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": null,
+      "quote": "Anything we didn't account for in this document?",
+      "zh": "這份文件裡有沒有漏掉什麼？",
+      "why": "主動開口要反對意見，而不是等它自己冒出來。你先問，異議就是討論的一部分；別人先提，異議就變成對你的攻擊。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "What did we miss here?",
+        "Where does this argument break down?",
+        "What would change your mind on this?"
+      ],
+      "pmNote": null,
+      "guest": "Tara Seshan",
+      "timestamp": null,
+      "episode": "How to communicate tradeoffs so leaders will listen",
+      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "seek": false
+    },
+    {
+      "id": "w-preempt-laura-tacho-42",
+      "fn": "w-preempt",
+      "group": "arguing",
+      "pattern": "This is not [the narrow reading], but rather [the correct reading].",
+      "quote": "This is not a recommendation of singular metrics to track, but rather a basket of metrics that must be used together to be meaningful.",
+      "zh": "這不是在推薦單一指標，而是一組必須合在一起看才有意義的指標籃。",
+      "why": "預先擋掉最可能的誤用方式。文件會被轉發、被斷章取義，這句話是專門留給那些只讀到一半的人的。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "This is not [X], but rather [Y].",
+        "Read this as [Y], not [X].",
+        "If you take one thing from this doc, take [Y]—not [X]."
+      ],
+      "pmNote": null,
+      "guest": "Laura Tacho",
+      "timestamp": null,
+      "episode": "Introducing Core 4: The best way to measure and improve your product velocity",
+      "url": "https://www.lennysnewsletter.com/p/introducing-core-4-the-best-way-to-measure-and-improve-your-product-velocity",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-lenny-rachitsky-43",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "I don't know exactly what's going on here, but it does feel [X]-related.",
+      "quote": "I don't know exactly what's going on here, but it does feel AI-related.",
+      "zh": "我不確定這裡到底發生了什麼事，但感覺跟 AI 有關。",
+      "why": "承認不知道，但仍然給方向。這是書面保留的核心：不確定不等於不表態，你可以同時做到「我沒把握」和「我有判斷」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I don't know exactly why, but it does look like [X].",
+        "I can't fully explain this, but my read is [X].",
+        "No clean explanation yet—my instinct says [X]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-lenny-rachitsky-noam-segal-44",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "[Claim], but a caveat: [X]. [What would invalidate it.]",
+      "quote": "Gemini sits at a distant 10.6%, but a caveat: this space shifts fast. A few strong model releases or product updates could reshape these rankings quickly.",
+      "zh": "Gemini 遠遠落在 10.6%，但有個但書：這個領域變化很快。幾個強勢的模型發表或產品更新，就可能迅速改寫這份排名。",
+      "why": "but a caveat: 用冒號當警示標，後面直接說明「什麼情況下這個結論會失效」。讀者因此知道要盯著什麼看。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "...but a caveat: [X].",
+        "One caveat: this could flip if [Y] happens.",
+        "This holds today; [Y] would change it."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky & Noam Segal",
+      "timestamp": null,
+      "episode": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-lenny-rachitsky-45",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "I don't have the data to prove it, but I suspect [X].",
+      "quote": "I don't have the data to prove it, but I suspect these end up being the most durable growth inflections.",
+      "zh": "我沒有數據可以證明，但我懷疑這些最後會是最持久的成長轉折點。",
+      "why": "先自曝證據不足，再給出判斷。順序不能反——先講判斷再補「不過我沒證據」像在打折，先講限制再給判斷反而顯得有膽識。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I don't have the data to prove it, but I suspect [X].",
+        "This is a hunch, not a finding: [X].",
+        "Unverified, but my strong prior is [X]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Growth inflections",
+      "url": "https://www.lennysnewsletter.com/p/growth-inflections",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-palle-broe-46",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "This data is from [source], sourced from [method] and thus isn't complete but is directionally correct.",
+      "quote": "This data is from Crunchbase and Harmonic, which is sourced from public announcements and thus isn't complete but is directionally correct.",
+      "zh": "這份資料來自 Crunchbase 和 Harmonic，是從公開發布的消息彙整的，所以不完整，但方向是對的。",
+      "why": "isn't complete but is directionally correct 是最好用的一組書面保留：一句話同時承認缺陷、又保住結論可用。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Incomplete, but directionally correct.",
+        "Use this for direction, not for precision.",
+        "Good enough to decide with; not good enough to quote."
+      ],
+      "pmNote": "定義資料的用途等級（可拿來決策 vs. 可拿來對外引用）比爭論它準不準有用得多。",
+      "guest": "Palle Broe",
+      "timestamp": null,
+      "episode": "Pulling back the curtain on the magic of Y Combinator",
+      "url": "https://www.lennysnewsletter.com/p/pulling-back-the-curtain-on-the-magic-of-y-combinator",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-wayne-vernon-47",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "I've worked with [X], though never at [Y] scale, so take this with a grain of salt.",
+      "quote": "I've worked with 1 and 2-week iterations, though never at a 2-3 person scale, so take this with a grain of salt.",
+      "zh": "我做過一週和兩週的迭代，但沒在 2-3 人的規模下做過，所以這段話請斟酌參考。",
+      "why": "先講清楚自己的經驗邊界，再叫對方打折。這比乾巴巴的 just my opinion 有用得多——讀者知道該打幾折、在哪裡打折。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I've done [X], though never at [Y] scale—take this with a grain of salt.",
+        "My experience is limited to [X]; adjust for your context."
+      ],
+      "pmNote": null,
+      "guest": "Wayne Vernon",
+      "timestamp": null,
+      "episode": "Ideal sprint length, designer vs. PM roles, running PM team meetings, running post-mortems, best product/executive coaches, and much more",
+      "url": "https://www.lennysnewsletter.com/p/ideal-sprint-length-designer-vs-pm-roles-running-pm-team-meetings-running-post-m",
+      "seek": false
+    },
+    {
+      "id": "w-hedging-tal-raviv-48",
+      "fn": "w-hedging",
+      "group": "arguing",
+      "pattern": "All that said, I'm not a [domain] expert. Consult [the right owner].",
+      "quote": "All that said, I'm not a security expert. Consult your local CISO.",
+      "zh": "話說回來，我不是資安專家。這部分去問你們的資安長。",
+      "why": "兩句話劃清能力邊界並指出誰該負責。不是推卸，是精準交棒——這種寫法反而會讓人更信任你講的其他部分。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I'm not a [X] expert—loop in [role] before deciding.",
+        "This is outside my expertise; [person] should own the call.",
+        "Flagging for [team]: this is your call, not mine."
+      ],
+      "pmNote": null,
+      "guest": "Tal Raviv",
+      "timestamp": null,
+      "episode": "Make product management fun again with AI agents",
+      "url": "https://www.lennysnewsletter.com/p/make-product-management-fun-again-with-ai-agents",
+      "seek": false
+    },
+    {
+      "id": "w-request-natalie-rothfels-49",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'd like to ask for your help with something. Specifically, I need [type of help] with [specific task/problem]. This is important because [reason].",
@@ -23,7 +1082,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-1",
+      "id": "w-request-natalie-rothfels-50",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'm asking you because [specific reason]. I'd need this by [date/time]. Is this something you're able to help with?",
@@ -44,7 +1103,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-2",
+      "id": "w-request-natalie-rothfels-51",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Our current [workload/situation] is unsustainable, and I'm causing [bottleneck] that will impact our ability to hit our targets.",
@@ -65,7 +1124,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-3",
+      "id": "w-request-natalie-rothfels-52",
       "fn": "w-request",
       "group": "asking",
       "pattern": "You do this all the time at [scope], so I'd really like to share my existing [draft/plan] and have you pressure-test it based on your experience.",
@@ -86,7 +1145,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-4",
+      "id": "w-request-natalie-rothfels-53",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Looking for a brain buddy on this—I have [N] questions. Are you open to answering inline or finding [N] minutes to chat live by [deadline]?",
@@ -107,7 +1166,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-5",
+      "id": "w-request-natalie-rothfels-54",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I don't want to make an avoidable error in how I'm thinking about [X].",
@@ -128,7 +1187,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-6",
+      "id": "w-request-natalie-rothfels-55",
       "fn": "w-request",
       "group": "asking",
       "pattern": null,
@@ -149,7 +1208,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-7",
+      "id": "w-request-natalie-rothfels-56",
       "fn": "w-request",
       "group": "asking",
       "pattern": "To do [existing goal] well and also take this on, I'd need us to either deprioritize [X] or staff up [Y] for success.",
@@ -170,7 +1229,7 @@
       "seek": false
     },
     {
-      "id": "w-request-jules-walter-8",
+      "id": "w-request-jules-walter-57",
       "fn": "w-request",
       "group": "asking",
       "pattern": "This conversation is meant to be an informal chat. I'd like to better understand your world and get your advice as I'm looking to [explain my goals].",
@@ -191,7 +1250,7 @@
       "seek": false
     },
     {
-      "id": "w-request-jules-walter-9",
+      "id": "w-request-jules-walter-58",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'm worried that [person X] might bring [argument Y]. Any chance you could chime in during the upcoming meeting or pre-brief [decision maker]?",
@@ -212,7 +1271,7 @@
       "seek": false
     },
     {
-      "id": "w-request-sam-corcos-10",
+      "id": "w-request-sam-corcos-59",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Who are the two best [role]s you know? （取代 \"Do you know anyone who...\"）",
@@ -233,7 +1292,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-11",
+      "id": "w-request-shivani-berry-60",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Do you have a minute? （取代 \"Sorry to bother you\"）",
@@ -254,7 +1313,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-12",
+      "id": "w-request-shivani-berry-61",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Can you help me understand [X]? （取代 \"Sorry, I didn't understand\"）",
@@ -275,7 +1334,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-13",
+      "id": "w-request-shivani-berry-62",
       "fn": "w-request",
       "group": "asking",
       "pattern": "刪掉 just / actually / quickly：\"I just wanted to ask...\" → \"I'm asking...\"",
@@ -296,7 +1355,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-jacob-warwick-14",
+      "id": "w-followup-jacob-warwick-63",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "Thank you for our conversation about [specific challenge they mentioned]. I've been thinking about your approach to [topic], and I wanted to share an insight from my experience with [relevant situation].",
@@ -317,7 +1376,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-jacob-warwick-15",
+      "id": "w-followup-jacob-warwick-64",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "I'll keep you informed as I [continue the process]. Are you open to [specific action] on [day and time]?",
@@ -338,7 +1397,28 @@
       "seek": false
     },
     {
-      "id": "w-followup-ethan-evans-16",
+      "id": "w-followup-lenny-rachitsky-65",
+      "fn": "w-followup",
+      "group": "asking",
+      "pattern": "Ping me again in [a month / three months] and let's revisit.",
+      "quote": "If you're open to the idea but aren't sure, tell the person to ping you again in a month (or three months) to revisit the idea.",
+      "zh": "如果你對這件事有興趣但還不確定，就請對方一個月（或三個月）後再來提醒你一次。",
+      "why": "把「再說」寫成一個有日期的動作：既不用當下拒絕，也把追蹤責任交還給對方。這是英文職場最常見的溫和推遲。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Circle back with me in Q3 and we'll look again.",
+        "Not now, but ask me again after launch."
+      ],
+      "pmNote": "Lenny 說一半以上的人根本不會再來問——這個推遲等於免費的過濾器。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "On saying no",
+      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-followup-ethan-evans-66",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "I'll check back in [a week] or so—no need to answer right now.",
@@ -359,70 +1439,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-natalie-rothfels-17",
-      "fn": "w-followup",
-      "group": "asking",
-      "pattern": "[What they did] helped me [concrete result]. Anything you need help with so I can return the favor?",
-      "quote": "Your backup with prioritization stuff helped me regain my sanity and actually figure out what work to do with my team. I feel a million times better, thank you for that! Anything you need help with so I can return the favor?",
-      "zh": "你在優先順序上撐我那一把，讓我恢復理智、真的把團隊該做的事排出來了。我現在好太多了，謝謝你！有什麼我可以幫上忙的，讓我回報一下？",
-      "why": "回報時要講出「後來發生了什麼」，對方才知道自己的時間沒白花。末句主動開一個互惠帳戶，比 thanks again 有力十倍。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Closing the loop: [outcome]. Thank you.",
-        "Let me know how I can return the favor."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-followup-natalie-rothfels-18",
-      "fn": "w-followup",
-      "group": "asking",
-      "pattern": "[Their answer] is helpful. I'm specifically looking for your help on [narrower ask].",
-      "quote": "The bigger org context is helpful. I'm specifically looking for your help on which of these three priorities I should drop this week.",
-      "zh": "更大的組織脈絡很有幫助。不過我特別想請你幫的是：這三個優先順序裡，這週我該砍掉哪一個。",
-      "why": "先肯定對方給的東西，再把問題收窄。等於不否定人地重新追同一件事——這是追第二次時最安全的寫法。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "That helps. The piece I'm still stuck on is [X].",
-        "Useful context—my actual blocker is narrower: [X]."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-followup-natalie-rothfels-19",
-      "fn": "w-followup",
-      "group": "asking",
-      "pattern": null,
-      "quote": "Not an issue, I get it. Anyone else you would recommend I ask?",
-      "zh": "沒問題，我懂。你會建議我再去問誰嗎？",
-      "why": "被拒絕後不糾纏、改要一個轉介，把死路變成岔路。門留著，下次還敲得動。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "Totally understand—any pointers on who else might know?",
-        "No problem. Is there someone better placed for this?"
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-followup-sam-corcos-20",
+      "id": "w-followup-sam-corcos-67",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "After [the intro/help lands], send a note back to the person who connected you and tell them what came of it.",
@@ -443,7 +1460,70 @@
       "seek": false
     },
     {
-      "id": "w-decline-dharmesh-shah-21",
+      "id": "w-decline-lenny-rachitsky-68",
+      "fn": "w-decline",
+      "group": "asking",
+      "pattern": "I truly wish I had the time. Unfortunately, I've got too much on my plate right now and need to prioritize other things. Can I [smaller alternative] instead?",
+      "quote": "I truly wish I had the time. Unfortunately, I've got too much on my plate right now and need to prioritize other things. Can I answer your questions over email?",
+      "zh": "我真的很希望自己有時間。可惜我現在手上事情太多，必須先顧好別的。要不要改成我用 email 回答你的問題？",
+      "why": "拒絕三段式：先表遺憾、再給一個不可辯論的理由（我的優先順序）、最後補一個更小的替代方案。對方拿到東西就不會覺得被打槍。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I wish I could. Right now I need to protect [priority].",
+        "Can't do a call, but happy to help async."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "On saying no",
+      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-decline-lenny-rachitsky-69",
+      "fn": "w-decline",
+      "group": "asking",
+      "pattern": "Happy to help! Can we keep this to email to start? I'm trying to cut back on [calls], and I can often be even more helpful over email.",
+      "quote": "Happy to help! Can we keep this to email to start? I'm trying to cut back on calls, and I can often be even more helpful over email.",
+      "zh": "很樂意幫忙！可以先用 email 談嗎？我正在減少通話，而且用寫的我通常還能幫上更多忙。",
+      "why": "這不是拒絕，是降規格：把「開會」降成「寫信」。理由還講成對方能得到更好的服務，等於拒絕了形式卻沒拒絕人。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Can we start async and see if a call is still needed?",
+        "Happy to help—email works better for me."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "On saying no",
+      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-decline-lenny-rachitsky-70",
+      "fn": "w-decline",
+      "group": "asking",
+      "pattern": "I have a blanket rule of no [category], which I have in place in order to protect [what matters]. I hope you understand.",
+      "quote": "I have a blanket rule of no talks, events, or podcasts, which I have in place in order to protect my writing/creative time. I hope you understand.",
+      "zh": "我有一條一律不接演講、活動、podcast 的規則，設這條規則是為了保護我的寫作時間。希望你能理解。",
+      "why": "講「規則」而不是「這次不行」，對方就無法討價還價，也不會覺得是針對他。再補上規則保護的東西，聽起來像原則不像藉口。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I have a policy of not taking on new projects until [date].",
+        "I don't say yes to anything on the spot—that's a rule for me."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "On saying no",
+      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-decline-dharmesh-shah-71",
       "fn": "w-decline",
       "group": "asking",
       "pattern": null,
@@ -464,91 +1544,70 @@
       "seek": false
     },
     {
-      "id": "w-decline-danny-meyer-22",
+      "id": "w-decline-lenny-rachitsky-72",
       "fn": "w-decline",
       "group": "asking",
-      "pattern": "I thought carefully about this, as it's clearly a wonderful opportunity, but I'm going to decline with gratitude. I know [it] will be a big success!",
-      "quote": "I thought carefully about this, as it's clearly a wonderful opportunity, but I'm going to decline with gratitude. I know the book will be a big success!",
-      "zh": "我認真考慮過了，這顯然是個很棒的機會，但我還是心懷感謝地婉拒。我相信這本書一定會大成功！",
-      "why": "「我認真想過」讓拒絕不像反射動作。最後祝福對方成功，把關係從一次交易變成長期。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "I gave this real thought before answering.",
-        "I'll be cheering this on from the sidelines."
-      ],
-      "pmNote": null,
-      "guest": "Danny Meyer",
-      "timestamp": null,
-      "episode": "On saying no",
-      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
-      "seek": false
-    },
-    {
-      "id": "w-decline-neal-stephenson-23",
-      "fn": "w-decline",
-      "group": "asking",
-      "pattern": "I'm running an experiment of not adding anything whatsoever to my to-do list right now.",
-      "quote": "I started an experiment of not adding anything whatsoever to my to do list so that it wouldn't get any longer.",
-      "zh": "我開始做一個實驗：完全不再往待辦清單上加任何東西，免得它愈來愈長。",
-      "why": "把「不」說成一個你正在做的實驗，聽起來是自我管理而不是嫌棄對方。實驗有期限，門也就沒有關死。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "I'm not taking on anything new until [date].",
-        "I'm turning things down as a blanket policy at the moment."
-      ],
-      "pmNote": null,
-      "guest": "Neal Stephenson",
-      "timestamp": null,
-      "episode": "On saying no",
-      "url": "https://www.lennysnewsletter.com/p/on-saying-no",
-      "seek": false
-    },
-    {
-      "id": "w-decline-tara-seshan-24",
-      "fn": "w-decline",
-      "group": "asking",
-      "pattern": "We must choose between [X, the new request] or [Y, an existing priority]. Should we do X or Y?",
-      "quote": "\"We must choose between [X, new request] or [Y, existing item on OSR]. Should we do X or Y?\"",
-      "zh": "我們必須在［X，新需求］和［Y，現有優先項］之間選一個。要做 X 還是 Y？",
-      "why": "書面拒絕的核心句：不是「做不到」而是「請你選」。把痛苦轉成一個對方有權做的決定。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Taking X means Y slips to next quarter. Which do you want?",
-        "This is an either/or, not an and."
-      ],
-      "pmNote": "把決策寫在文件最上面（BLUF），再用 SCQA 展開，主管才會真的做選擇。",
-      "guest": "Tara Seshan",
-      "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
-      "seek": false
-    },
-    {
-      "id": "w-decline-tara-seshan-25",
-      "fn": "w-decline",
-      "group": "asking",
-      "pattern": "避免寫：\"We are thin on resources.\" / \"I'm not sure if this is really high-priority.\"",
-      "quote": "It turns out that statements like these are counterproductive. They actually invite leadership teams to avoid the choice you're presenting.",
-      "zh": "結果證明這類說法反而幫倒忙。它們等於在邀請主管迴避你提出的那個選擇。",
-      "why": "模糊的訴苦（我們人不夠、我不確定這優先度高不高）給了主管理由叫你兩個都做。把話寫成一個明確的二選一，對方才必須真的選。",
+      "pattern": "I'm still totally on board, but I wanted to just check—how important and timely is [X] to your team? If it's not that big of a deal, I'd love to skip it or push it out.",
+      "quote": "I'm still totally on board with giving it, but I wanted to just check—how important, and timely, is this presentation to your team? If it's not that big of a deal, I'd love to skip it, or push it out.",
+      "zh": "我還是完全願意講，只是想確認一下——這場簡報對你們團隊有多重要、多急？如果沒那麼要緊，我會很想跳過或延後。",
+      "why": "已經答應的事想反悔，先聲明「我沒有要落跑」，再把決定權交給對方。多數時候對方會直接放你走。",
       "register": "written",
       "difficulty": 3,
       "swaps": [
-        "換成：\"Doing X requires dropping Y.\"",
-        "換成：\"Here's the tradeoff, and here's my recommendation.\""
+        "Still happy to do it—just checking how load-bearing it is.",
+        "Is this a must-have, or a nice-to-have right now?"
       ],
-      "pmNote": "說「資源很緊」是 PM 最常見的無效拒絕——它聽起來像抱怨，不像決策請求。",
-      "guest": "Tara Seshan",
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
       "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "episode": "Part 2: Time management techniques that actually work",
+      "url": "https://www.lennysnewsletter.com/p/part-2-time-management-techniques-that-actually-work",
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-26",
+      "id": "w-decline-lenny-rachitsky-73",
+      "fn": "w-decline",
+      "group": "asking",
+      "pattern": "I noticed [our meeting] is coming up. Any chance we could skip it and knock it out over email async?",
+      "quote": "Hey Michelle, I noticed our meeting is coming up later this week. Any chance we could skip the meeting and knock it out over email async?",
+      "zh": "Michelle 你好，我看到我們這週稍晚有個會。有機會跳過會議、直接用 email 非同步處理掉嗎？",
+      "why": "不是取消而是換形式。Any chance we could 讓對方拒絕起來毫無成本，所以反而容易點頭。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Could we handle this over email instead?",
+        "Any chance we turn this meeting into a doc?"
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Part 2: Time management techniques that actually work",
+      "url": "https://www.lennysnewsletter.com/p/part-2-time-management-techniques-that-actually-work",
+      "seek": false
+    },
+    {
+      "id": "w-decline-lenny-rachitsky-74",
+      "fn": "w-decline",
+      "group": "asking",
+      "pattern": "Bad news. I won't be able to make [X]. Something timely came up, and I need to prioritize it.",
+      "quote": "Hey Steven, bad news. I won't be able to make the coffee chat we have coming up next week. Something timely came up, and I need to prioritize it.",
+      "zh": "Steven 你好，壞消息。下週約好的咖啡我沒辦法去了。臨時有件很趕的事，我得先處理它。",
+      "why": "壞消息放最前面、不鋪陳、不過度道歉。理由給一句就好，寫太多反而像在求原諒。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Bad news—I need to cancel [X].",
+        "Sorry for the late notice: I can't make it."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Part 2: Time management techniques that actually work",
+      "url": "https://www.lennysnewsletter.com/p/part-2-time-management-techniques-that-actually-work",
+      "seek": false
+    },
+    {
+      "id": "w-negotiating-niya-dragova-75",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -569,7 +1628,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-27",
+      "id": "w-negotiating-niya-dragova-76",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "收到 \"give me your number and I'll make it happen\" 時，不要回數字。",
@@ -590,7 +1649,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-28",
+      "id": "w-negotiating-niya-dragova-77",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "I've received new information since we last spoke—[another offer / a counteroffer from my current team].",
@@ -611,49 +1670,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-29",
-      "fn": "w-negotiating",
-      "group": "asking",
-      "pattern": null,
-      "quote": "Negotiating via email = MAJOR CRINGE and definitely a worse outcome. My advice if you want a meaningful/large increase is to have the conversation over the phone.",
-      "zh": "用 email 談薪＝超級尷尬，而且結果一定比較差。想要有意義的大幅加碼，我建議直接電話談。",
-      "why": "這組唯一一張叫你「別用寫的」的卡。email 談加薪拿不到大幅度；書面請只用來約時間、確認條款。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Could we find 20 minutes to talk this through live?",
-        "Easier to walk through on a call—when works?"
-      ],
-      "pmNote": null,
-      "guest": "Niya Dragova",
-      "timestamp": null,
-      "episode": "The 10 commandments of salary negotiation",
-      "url": "https://www.lennysnewsletter.com/p/the-10-commandments-of-salary-negotiation",
-      "seek": false
-    },
-    {
-      "id": "w-negotiating-niya-dragova-30",
-      "fn": "w-negotiating",
-      "group": "asking",
-      "pattern": "先談總額，下一輪再談單一項目：ask for \"[total]\" first, then \"Can I have [X] more equity?\"",
-      "quote": "Start with negotiating your overall compensation, not individual components. For example, ask for \"500K\" and then the next round ask \"Can I have X more equity?\"",
-      "zh": "先談整體薪酬，不要一開始談個別項目。例如先要「50 萬」，下一輪再問「股票可以再多給 X 嗎？」",
-      "why": "先總額再組成，順序反了就會被一項一項砍。簽字費放最後才拿出來要。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Let's align on the total package first.",
-        "Once we agree on the number, we can talk about the mix."
-      ],
-      "pmNote": null,
-      "guest": "Niya Dragova",
-      "timestamp": null,
-      "episode": "The 10 commandments of salary negotiation",
-      "url": "https://www.lennysnewsletter.com/p/the-10-commandments-of-salary-negotiation",
-      "seek": false
-    },
-    {
-      "id": "w-negotiating-jacob-warwick-31",
+      "id": "w-negotiating-jacob-warwick-78",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -674,7 +1691,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-32",
+      "id": "w-negotiating-jacob-warwick-79",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "What's the chance that we could explore a slightly different structure for [the compensation package]?",
@@ -695,7 +1712,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-33",
+      "id": "w-negotiating-jacob-warwick-80",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -716,7 +1733,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-34",
+      "id": "w-negotiating-jacob-warwick-81",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -737,7 +1754,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-35",
+      "id": "w-negotiating-jacob-warwick-82",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -758,7 +1775,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-36",
+      "id": "w-negotiating-jacob-warwick-83",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -779,7 +1796,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-37",
+      "id": "w-negotiating-jacob-warwick-84",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "I'm making a significant career decision and want to be thoughtful. I have a few conversations in progress. I expect to be ready to make a decision by [specific date].",
@@ -800,154 +1817,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-38",
-      "fn": "w-negotiating",
-      "group": "asking",
-      "pattern": "I noticed the term \"[vague term]\" in our discussions. To ensure we're aligned, could you help me understand [the specific number] that represents?",
-      "quote": "I noticed the term \"significant equity\" in our discussions. To ensure we're aligned, could you help me understand the specific percentage or number of shares that represents?",
-      "zh": "我注意到我們的討論裡出現了「可觀的股權」這個說法。為了確保雙方認知一致，可以請你說明那具體是多少百分比或幾股嗎？",
-      "why": "把對方用的模糊字眼原句抄回去，再要一個具體定義。白紙黑字問過一次，之後就沒有「我以為」。",
-      "register": "written",
-      "difficulty": 3,
-      "swaps": [
-        "Can we put a number on \"competitive package\"?",
-        "What does \"fully remote\" mean concretely here?"
-      ],
-      "pmNote": "significant equity、performance-based bonus、growth opportunity 這些詞每個人的解讀都不同，簽字前務必寫死。",
-      "guest": "Jacob Warwick",
-      "timestamp": null,
-      "episode": "The ultimate guide to negotiating your comp",
-      "url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-negotiating-your-comp",
-      "seek": false
-    },
-    {
-      "id": "w-negotiating-jacob-warwick-39",
-      "fn": "w-negotiating",
-      "group": "asking",
-      "pattern": "I want to make sure I'm delivering exactly what you expect. When you say [vague term], what specifically would success look like in six months?",
-      "quote": "I want to make sure I'm delivering exactly what you expect. When you say [vague term], what specifically would success look like in six months?",
-      "zh": "我想確保我交出的正是你期待的東西。你說的［某個詞］，六個月後具體長什麼樣子才叫成功？",
-      "why": "用「我想做對」的姿態去逼出具體標準，聽起來是負責而不是不信任。六個月是很好用的期限錨點。",
-      "register": "written",
-      "difficulty": 3,
-      "swaps": [
-        "What metrics would tell us this worked?",
-        "How will we both know I've hit it?"
-      ],
-      "pmNote": null,
-      "guest": "Jacob Warwick",
-      "timestamp": null,
-      "episode": "The ultimate guide to negotiating your comp",
-      "url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-negotiating-your-comp",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-natalie-rothfels-40",
-      "fn": "w-cold-outreach",
-      "group": "asking",
-      "pattern": "I read your [post] about [topic], and it sparked [a specific change] for me: [what you realized].",
-      "quote": "I read your post about saying \"no\" more, and it sparked a whole chain of events for me: I realized how much I've been people-pleasing, and it's exhausting.",
-      "zh": "我讀了你那篇談「多說不」的文章，它在我身上引發了一連串反應：我發現自己一直在討好別人，而且非常累。",
-      "why": "冷開場第一句必須證明你真的讀過、而且它改變了你什麼。「很喜歡你的文章」等於沒說。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Your talk on [X] changed how I run [Y].",
-        "I tried the [framework] from your post—here's what happened."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-natalie-rothfels-41",
-      "fn": "w-cold-outreach",
-      "group": "asking",
-      "pattern": "I'm wrestling with one piece that I'm hoping you can help with: [one specific problem].",
-      "quote": "I'm wrestling with one piece that I'm hoping you can help with: I feel a profound guilt after I say no, and I ruminate on it for days after.",
-      "zh": "有一個點我卡住了，希望你能幫上忙：我每次說不之後都會有強烈的罪惡感，還會反芻好幾天。",
-      "why": "只問一件事，而且是對方寫過的題目的延伸。範圍越窄，陌生人越可能回。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "One narrow question, if you have a moment:",
-        "The single thing I can't figure out is [X]."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-natalie-rothfels-42",
-      "fn": "w-cold-outreach",
-      "group": "asking",
-      "pattern": "Do you have 1-2 tips you can share via email about [X]? Or I'd be happy to pay for a session if you're open to sharing your calendar link.",
-      "quote": "Do you have 1-2 tips you can share via email about how you navigate the aftermath? Or I'd be happy to pay for a session with you to talk more about it live if you're open to sharing your calendar link.",
-      "zh": "你有沒有一兩個可以用 email 分享的心得，關於你怎麼處理事後那段？或者如果你願意給我行事曆連結，我也很樂意付費跟你聊一次。",
-      "why": "給一個免費的小選項和一個付費的大選項，對方挑最省力的那個也是 yes。明講願意付錢，等於尊重了對方的時間。",
-      "register": "written",
-      "difficulty": 3,
-      "swaps": [
-        "Even a one-line answer would help—or I'm happy to book time.",
-        "Async is fine; a call is fine too, and I'd pay for it."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-natalie-rothfels-43",
-      "fn": "w-cold-outreach",
-      "group": "asking",
-      "pattern": null,
-      "quote": "It's a trap to think you need to have some profound relationship first before asking. You can build the relationship while asking by making it significantly more compelling.",
-      "zh": "以為一定要先有深厚關係才能開口，是個陷阱。你可以在開口的同時建立關係——只要把請求寫得夠有吸引力。",
-      "why": "這句直接解掉台灣人「不熟不好意思問」的卡點。冷開場不是先套關係再開口，而是靠開口的品質建立關係。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "We haven't met, so let me make this worth your time:",
-        "No relationship yet—here's why I think this is relevant to you."
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-natalie-rothfels-44",
-      "fn": "w-cold-outreach",
-      "group": "asking",
-      "pattern": null,
-      "quote": "My heuristic is simple: could my ask be at all compelling to this person?",
-      "zh": "我的判準很簡單：我這個請求，對這個人來說到底有沒有一點吸引力？",
-      "why": "寄出前的自檢問句。答不出來，就代表你還沒做完功課，那封信不該寄。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "Why would this person care?",
-        "What's in it for them?"
-      ],
-      "pmNote": null,
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-cold-outreach-sam-corcos-45",
+      "id": "w-cold-outreach-sam-corcos-85",
       "fn": "w-cold-outreach",
       "group": "asking",
       "pattern": "冷請求三原則：targeted（只寄給真的相關的人）／time-bounded（一分鐘內可完成）／specific（範圍寫死）。",
@@ -968,7 +1838,7 @@
       "seek": false
     },
     {
-      "id": "w-cold-outreach-sam-corcos-46",
+      "id": "w-cold-outreach-sam-corcos-86",
       "fn": "w-cold-outreach",
       "group": "asking",
       "pattern": "In general, people like being helpful. By not asking for things, you're denying other people that joy.",
@@ -989,7 +1859,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-molly-graham-47",
+      "id": "w-tldr-molly-graham-87",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this post, I'll walk through [X] and show you how to use it as [用途] when [情境].",
@@ -1010,7 +1880,49 @@
       "seek": false
     },
     {
-      "id": "w-tldr-caitlin-sullivan-48",
+      "id": "w-tldr-molly-graham-88",
+      "fn": "w-tldr",
+      "group": "framing",
+      "pattern": "By the end, you should be better equipped to [能力1], [能力2], and [能力3] instead of [常見的錯誤做法].",
+      "quote": "By the end, you should be better equipped to slow down in those \"something's off\" moments, identify the real source of friction on a team, and fix the right problem instead of defaulting to people changes.",
+      "zh": "讀完之後，你應該更有能力在那些「哪裡怪怪的」時刻慢下來、找出團隊摩擦的真正來源，並修對問題，而不是動不動就換人。",
+      "why": "把交付成果寫成讀者的「新能力」而不是文件的「章節清單」，讀者買的是變化不是目錄。最後那個 instead of [錯誤做法] 尤其厲害——同時告訴你會得到什麼、會停止做什麼蠢事。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "By the end of this doc, you'll be able to [X] without [錯誤做法].",
+        "After reading, you should be able to [X] rather than [預設做法]."
+      ],
+      "pmNote": null,
+      "guest": "Molly Graham",
+      "timestamp": null,
+      "episode": "How to debug a team that isn’t working: the Waterline Model",
+      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
+      "seek": false
+    },
+    {
+      "id": "w-tldr-lenny-rachitsky-89",
+      "fn": "w-tldr",
+      "group": "framing",
+      "pattern": "By the time you finish reading this [文件], you'll understand [A], [B], and [C]—with [附加物] and [附加物].",
+      "quote": "By the time you finish reading this post, you'll understand the three types of agents, how to decide which initiatives to prioritize, and how to avoid common pitfalls—with specific recommended tools and platforms and tons of real-life examples.",
+      "zh": "讀完這篇，你會搞懂三種 agent 的類型、怎麼決定先做哪個專案，以及怎麼避開常見的坑——還附上具體工具平台推薦和大量真實案例。",
+      "why": "三項承諾用平行結構排開（一個名詞組＋兩個 how to），節奏一致所以掃過去毫不費力。破折號後面加「附贈品」是把讀者往下推的最後一腳。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "By the end of this doc you'll know [A], [B], and [C].",
+        "This doc covers [A], [B], and [C]—plus [附加物]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Not all AI agents are created equal",
+      "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "seek": false
+    },
+    {
+      "id": "w-tldr-caitlin-sullivan-90",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this [文件], I'll show you how to [目標]. You'll learn about [N] [問題類型] that silently break [你在乎的東西].",
@@ -1031,7 +1943,49 @@
       "seek": false
     },
     {
-      "id": "w-tldr-barbara-minto-quoted-by-lenny-rachitsky-49",
+      "id": "w-tldr-lenny-rachitsky-91",
+      "fn": "w-tldr",
+      "group": "framing",
+      "pattern": "Below, I'll unpack each of these steps, but to give you a glimpse of where we'll end up, here are [具體產出].",
+      "quote": "Below, I'll unpack each of these steps, but to give you a glimpse of where we'll end up, here are five lines you can use to effectively say no.",
+      "zh": "下面我會一步一步拆解，但先讓你瞄一眼最後會走到哪裡：這裡有五句可以直接拿去用的婉拒說法。",
+      "why": "a glimpse of where we'll end up 是把結論預告在前面卻不破壞後面的閱讀動機——讀者知道有東西可拿，才願意陪你走完推導。這是長文件最常缺的那一句。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I'll go through each step below, but here's the punchline up front: [結論].",
+        "Details below—but to save you the scroll, here's [產出]."
+      ],
+      "pmNote": "長文件在開場給一個「可帶走的東西」，被讀完的機率會高很多。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-tldr-lenny-rachitsky-92",
+      "fn": "w-tldr",
+      "group": "framing",
+      "pattern": "Below, you'll find what I believe is the most [形容詞1], [形容詞2], and [形容詞3] [產出] for [用途].",
+      "quote": "Below, you'll find what I believe is the most actionable, specific, and straightforward framework for crafting a strategy, for both your product and your company.",
+      "zh": "下面是我認為最能落地、最具體、也最直白的策略制定框架，產品層級和公司層級都適用。",
+      "why": "what I believe is 這五個字讓極強的主張變成可接受的個人判斷，不會顯得自吹。三個形容詞排比又把「好在哪」講死，讀者不必自己猜。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Below is what I think is the clearest [產出] for [用途].",
+        "What follows is, in my view, the most practical way to [X]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Strategy Blocks: An operator’s guide to product strategy",
+      "url": "https://www.lennysnewsletter.com/p/strategy-blocks-an-operators-guide-to-product-strategy",
+      "seek": false
+    },
+    {
+      "id": "w-tldr-barbara-minto-quoted-by-lenny-rachitsky-93",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": null,
@@ -1052,28 +2006,28 @@
       "seek": false
     },
     {
-      "id": "w-tldr-tara-seshan-50",
+      "id": "w-tldr-lenny-rachitsky-94",
       "fn": "w-tldr",
       "group": "framing",
-      "pattern": null,
-      "quote": "As part of writing the document, I always put the decision right at the top—the \"bottom line up front\" (BLUF).",
-      "zh": "寫這份文件時，我一定把決定放在最上面——也就是所謂的 BLUF（結論先行）。",
-      "why": "破折號後面補一個業界通用縮寫，等於順手教了讀者一個詞、也標示你懂行規。在跨國團隊寫文件時，用對方圈內的術語會直接提高被當一回事的程度。",
+      "pattern": "Below, I'll share a [N]-step process for [目標], with real-life examples from [樣本].",
+      "quote": "Below, I'll share a three-step process for finding your activation metric, with real-life examples from a dozen companies.",
+      "zh": "下面我會分享一套三步驟流程，教你找出自己的啟用指標，並附上十幾家公司的真實案例。",
+      "why": "數字（three-step、a dozen）讓承諾變得可以驗收，讀者知道篇幅大概多長、證據有多厚。沒有數字的 I'll share some thoughts 讀起來就像還沒想清楚。",
       "register": "written",
-      "difficulty": 2,
+      "difficulty": 1,
       "swaps": [
-        "Decision up front, context below.",
-        "TL;DR at the top; supporting detail follows."
+        "Below is a [N]-step approach to [X], with examples from [樣本].",
+        "I'll lay out [N] steps, each with a worked example."
       ],
-      "pmNote": "BLUF = bottom line up front，源自美軍公文寫作，矽谷文件普遍沿用。",
-      "guest": "Tara Seshan",
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
       "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "episode": "How to determine your activation metric",
+      "url": "https://www.lennysnewsletter.com/p/how-to-determine-your-activation-metric",
       "seek": false
     },
     {
-      "id": "w-tldr-colin-matthews-51",
+      "id": "w-tldr-colin-matthews-95",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this [文件], I'll walk you through [產出1]; [產出2]; and [產出3].",
@@ -1094,7 +2048,112 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-52",
+      "id": "w-problem-statement-lenny-rachitsky-96",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": "Though many factors contribute to [壞結果], nothing is more certain to cause [壞結果] than [根本原因].",
+      "quote": "Though many factors contribute to a project's failure, nothing is more certain to cause a project to fail than a misunderstanding of the problem you are solving.",
+      "zh": "專案失敗的原因很多，但最必然導致失敗的，是搞錯了你在解的問題。",
+      "why": "先讓步（Though many factors...）再收斂到單一主因，讀起來像審慎判斷而不是誇大。台灣人寫英文常直接下 The main reason is...，少了這個讓步步驟就顯得武斷。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "While [X], [Y], and [Z] all matter, nothing predicts [結果] more than [主因].",
+        "Many things went wrong here, but the one that mattered was [主因]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "A Three-Step Framework For Solving Problems 👌",
+      "url": "https://www.lennysnewsletter.com/p/a-three-step-framework-for-solving-problems",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-lenny-rachitsky-97",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": "We recognized too late that the real problem we should have been solving was not [表面問題], but instead [真問題].",
+      "quote": "We recognized too late that the real problem we should have been solving was not \"travelers want to hang out with other travelers\", but instead, \"travelers want to find high quality non-touristy things to do.\"",
+      "zh": "我們太晚才發現，真正該解的問題不是「旅客想跟其他旅客一起玩」，而是「旅客想找到高品質、不觀光客的行程」。",
+      "why": "not [X] but instead [Y] 是修正問題定義最乾淨的句型，而且把兩個問題都用引號寫成使用者的話，對照一目了然。承認 too late 反而增加可信度。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The problem isn't [X]—it's [Y].",
+        "What we were actually solving for turned out to be [Y], not [X]."
+      ],
+      "pmNote": "問題陳述寫錯，後面所有設計與工程投入都會偏。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "A Three-Step Framework For Solving Problems 👌",
+      "url": "https://www.lennysnewsletter.com/p/a-three-step-framework-for-solving-problems",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-lenny-rachitsky-98",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": "The more you need to explain it, the less clear [X] ends up being.",
+      "quote": "The more you need to explain it, the less clear the problem ends up being.",
+      "zh": "你越需要解釋它，代表這個問題其實越不清楚。",
+      "why": "the more... the less... 這個對稱結構讓一句判準句變得像格言，好記好轉貼。用在自檢或給同事回饋都成立。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "If it takes a paragraph to explain, it isn't one problem.",
+        "Length here is a signal we haven't narrowed it down yet."
+      ],
+      "pmNote": "好的問題陳述應該一句話寫得完。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "A Three-Step Framework For Solving Problems 👌",
+      "url": "https://www.lennysnewsletter.com/p/a-three-step-framework-for-solving-problems",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-lenny-rachitsky-99",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": null,
+      "quote": "It's agnostic of a solution. Resist the urge to jump to a solution this early.",
+      "zh": "它要與解法無關。忍住現在就跳到解法的衝動。",
+      "why": "agnostic of a solution 是矽谷文件裡的固定說法，比 without mentioning a solution 專業得多。Resist the urge to 則是給讀者台階，把要求寫成同理而不是命令。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Keep this section solution-agnostic.",
+        "We'll get to approaches below—this section is only about the problem."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "A Three-Step Framework For Solving Problems 👌",
+      "url": "https://www.lennysnewsletter.com/p/a-three-step-framework-for-solving-problems",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-lenny-rachitsky-100",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": "[使用者族群] are [做出某行為] too often because [原因].",
+      "quote": "Lyft drivers are cancelling rides too often because the passengers are too far away.",
+      "zh": "Lyft 司機取消訂單的次數太高，因為乘客距離太遠。",
+      "why": "主詞是人不是系統、動詞是可觀察的行為、because 後面掛一個可驗證的假設——一句話同時給了現象和待驗證的因果。整句沒有任何解法暗示。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "[族群] keep [行為] because [假設原因].",
+        "[族群] are [行為] at [數字], driven by [假設原因]."
+      ],
+      "pmNote": "問題陳述裡的 because 是假設，不是結論——後面要拿證據補。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "A Three-Step Framework For Solving Problems 👌",
+      "url": "https://www.lennysnewsletter.com/p/a-three-step-framework-for-solving-problems",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-101",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "The problem isn't that [表面診斷]; it's that [真正診斷].",
@@ -1115,7 +2174,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-53",
+      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-102",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Before you can decide [大決定], you need to answer a more basic question: [更基本的問題]?",
@@ -1136,7 +2195,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-molly-graham-54",
+      "id": "w-problem-statement-molly-graham-103",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "[歸咎人] for problems that are actually [結構性的] is one of the biggest [領域] traps there is.",
@@ -1157,7 +2216,28 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-caitlin-sullivan-55",
+      "id": "w-problem-statement-molly-graham-104",
+      "fn": "w-problem-statement",
+      "group": "framing",
+      "pattern": "[X] (or so you think), [Y] (or so they say), yet [症狀1], [症狀2], and [症狀3].",
+      "quote": "You've set a clear goal (or so you think), your team's bought in (or so they say), yet timelines keep slipping, execution is messy, and you're having the same conversations over and over.",
+      "zh": "你訂了明確的目標（你以為），團隊也買單了（他們嘴上說），可是時程一直延、執行一團亂，而且同樣的對話講了一遍又一遍。",
+      "why": "括號裡的 (or so you think) 是書面英文特有的低成本吐槽——沒有語氣可用時，用括號製造第二個聲音。yet 後面三個症狀並排，讀者只要中一個就會坐直。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "We aligned in Q1 (on paper), yet [症狀].",
+        "Everyone said yes—and yet [症狀1] and [症狀2] keep happening."
+      ],
+      "pmNote": null,
+      "guest": "Molly Graham",
+      "timestamp": null,
+      "episode": "How to debug a team that isn’t working: the Waterline Model",
+      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
+      "seek": false
+    },
+    {
+      "id": "w-problem-statement-caitlin-sullivan-105",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "These mistakes are invisible until [後果 A], or [後果 B].",
@@ -1178,7 +2258,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-evan-hamilton-tyler-swartz-56",
+      "id": "w-problem-statement-evan-hamilton-tyler-swartz-106",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Here's the problem: if you [做了 X] and then don't [做 Y], you're actually [更糟的結果] than if you had never [做 X] at all.",
@@ -1199,7 +2279,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-nels-gilbreth-57",
+      "id": "w-problem-statement-lenny-rachitsky-nels-gilbreth-107",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "We realized that the root cause of nearly all [問題類別] is very simple: [根本原因].",
@@ -1220,7 +2300,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-chandra-janakiraman-58",
+      "id": "w-problem-statement-chandra-janakiraman-108",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "We had established [A], [B], and [C], but [對象] were still confused about why [D].",
@@ -1241,7 +2321,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-aman-khan-59",
+      "id": "w-problem-statement-aman-khan-109",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Every [角色] obsesses over [顯眼的東西], yet almost no one masters [真正的槓桿]: [X].",
@@ -1262,7 +2342,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-justin-mares-60",
+      "id": "w-goals-nongoals-justin-mares-110",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "In this [文件], I won't cover [排除的東西], though they're [承認其重要性]. Instead, I want to cover [真正的範圍].",
@@ -1283,7 +2363,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-hila-qu-61",
+      "id": "w-goals-nongoals-hila-qu-111",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "Below, I will focus on [A], [B], and [C]. The fourth, [D], is an equally valid focus area, but not one I'd suggest starting with, due to [理由].",
@@ -1304,7 +2384,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-chandra-janakiraman-62",
+      "id": "w-goals-nongoals-chandra-janakiraman-112",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": null,
@@ -1325,7 +2405,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-chandra-janakiraman-63",
+      "id": "w-goals-nongoals-chandra-janakiraman-113",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "[X] exists to force a disciplined choice to deploy scarce resources for maximum impact.",
@@ -1346,70 +2426,217 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-patrick-campbell-64",
+      "id": "w-goals-nongoals-lenny-rachitsky-114",
       "fn": "w-goals-nongoals",
       "group": "framing",
-      "pattern": "To be clear, I'm not saying don't [做 X]. I'm saying [更精確的立場].",
-      "quote": "To be clear, I'm not saying *don't* do freemium. I'm saying it's a scalpel, not a sledgehammer, that requires thought.",
-      "zh": "先講清楚：我不是說不要做免費增值。我是說它是手術刀不是大鎚，得動腦。",
-      "why": "To be clear, I'm not saying X. I'm saying Y. 是書面英文防誤讀的標配——文件會被轉發，你沒機會現場補充，只能自己先把可能的誤讀堵死。台灣人幾乎不寫這種句子，結果常被斷章取義。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "To be clear, this isn't a case against [X]—it's a case for [Y].",
-        "I'm not arguing we stop [X]. I'm arguing we [Y]."
-      ],
-      "pmNote": null,
-      "guest": "Patrick Campbell",
-      "timestamp": null,
-      "episode": "Freemium vs. trial",
-      "url": "https://www.lennysnewsletter.com/p/freemium-vs-trial",
-      "seek": false
-    },
-    {
-      "id": "w-context-tara-seshan-65",
-      "fn": "w-context",
-      "group": "framing",
-      "pattern": "This should feel like common knowledge already, but remember, [重複的價值].",
-      "quote": "This should feel like common knowledge already, but remember, repetition doesn't spoil the prayer!",
-      "zh": "這些你應該早就知道了，但別忘了——重複並不會壞了那句禱詞。",
-      "why": "重述背景時最尷尬的是怕讀者覺得被當白痴，這句先承認「你早就知道」再給重述一個正當理由，尷尬就消失了。寫給高層的文件幾乎每份都需要這一句。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Most of this will be familiar—including it so we're working from the same page.",
-        "Recapping briefly for anyone joining this thread late."
-      ],
-      "pmNote": "對高層重複priorities 不是囉唆，是讓你的優先順序在他們腦中有份量。",
-      "guest": "Tara Seshan",
-      "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
-      "seek": false
-    },
-    {
-      "id": "w-context-tara-seshan-66",
-      "fn": "w-context",
-      "group": "framing",
-      "pattern": "The more work your team has done up front to [鋪陳], the less work your team will have to do when [壓力來臨].",
-      "quote": "The more work that your team has done up front to bring leadership into the story of your priorities and strategy prior to this decision point, the less work your team will have to do when new requests come in.",
-      "zh": "你的團隊越早把主管拉進優先順序與策略的敘事裡，等新需求進來時要花的力氣就越少。",
-      "why": "the more... the less... 把「事前溝通」寫成一筆划算的投資而不是額外工作。bring leadership into the story 這個說法比 inform leadership 高明——它把對方變成故事裡的人。",
+      "pattern": "They super-specifically define what success looks like when [X] ships, at first to [用途1], and later to [用途2].",
+      "quote": "They super-specifically define what success looks like when the product or feature ships, at first to make sure it's even worth doing, and later to help everyone make tradeoff decisions throughout the project.",
+      "zh": "它們會超級具體地定義產品或功能上線時「成功長什麼樣」——一開始是為了確認這件事到底值不值得做，之後則是幫大家在專案途中做取捨。",
+      "why": "at first to... and later to... 把同一段文字的兩種用途分時說明，讀者才知道成功指標不是寫給老闆看的裝飾。這也是說服團隊認真寫成功條件最有效的理由。",
       "register": "written",
       "difficulty": 3,
       "swaps": [
-        "The earlier we align on [X], the cheaper the tradeoff conversation gets later.",
-        "Front-loading this context saves us the argument in [時間點]."
+        "Success criteria serve two jobs: [用途1] now, [用途2] later.",
+        "We define this up front so we can cut scope later without re-arguing."
       ],
       "pmNote": null,
-      "guest": "Tara Seshan",
+      "guest": "Lenny Rachitsky",
       "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+      "episode": "Examples and templates of 1-Pagers and PRDs",
+      "url": "https://www.lennysnewsletter.com/p/examples-and-templates-of-1-pagers-and-prds",
       "seek": false
     },
     {
-      "id": "w-context-chandra-janakiraman-67",
+      "id": "w-goals-nongoals-lenny-rachitsky-115",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": "There's a clear (proposed) timeline by which to [動作1], [動作2], and [動作3], to keep the project moving forward (and from exploding in scope).",
+      "quote": "There's a clear (proposed) timeline by which to review, align on, build and ship the project, to keep the project moving forward (and from exploding in scope).",
+      "zh": "有一條明確的（提議中的）時程表，涵蓋審閱、對齊、開發到上線，好讓專案一直往前走（也不至於範圍爆炸）。",
+      "why": "(proposed) 這個括號是關鍵：把時程標成提議而非命令，別人才敢提意見而不是直接無視。結尾括號補上「不要範圍爆炸」的第二個目的，語氣輕但立場明確。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Proposed dates below—push back if these don't work.",
+        "Timeline (draft) so we don't let this drift."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Examples and templates of 1-Pagers and PRDs",
+      "url": "https://www.lennysnewsletter.com/p/examples-and-templates-of-1-pagers-and-prds",
+      "seek": false
+    },
+    {
+      "id": "w-goals-nongoals-lenny-rachitsky-116",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": null,
+      "quote": "You want your goal to motivate your team to push beyond what's comfortable, but never make it feel impossible.",
+      "zh": "你要讓目標推著團隊跨出舒適圈，但絕不能讓人覺得根本做不到。",
+      "why": "beyond what's comfortable / never feel impossible 用兩個邊界夾出目標的合理區間，比 be ambitious but realistic 這種老套說法具體。談 OKR 目標值時可以整句照用。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Ambitious enough to stretch, not so far that people stop trying.",
+        "Goals should feel uncomfortable, but not impossible."
+      ],
+      "pmNote": "Brian Chesky 的原話：目標應該讓人「不舒服，但不是不可能」。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Setting goals",
+      "url": "https://www.lennysnewsletter.com/p/setting-goals",
+      "seek": false
+    },
+    {
+      "id": "w-goals-nongoals-lenny-rachitsky-117",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": "If you don't think a metric makes sense for [目標], write out what concretely the world would look like if this was a big success. Make that the success criteria.",
+      "quote": "If you don't think a metric makes sense for your goal (think long and hard about this), write out what concretely the world would look like if this was a big success. Make that the success criteria.",
+      "zh": "如果你覺得這個目標找不到合適的指標（先認真想過再說），那就把「大成功時世界會長什麼樣」具體寫下來，拿那個當成功條件。",
+      "why": "括號裡的 (think long and hard about this) 是預先擋掉偷懶的人——先給退路又先堵住濫用，寫給下屬看的文件很好用。Make that the success criteria. 短句收尾，指令感清楚。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "If there's no clean metric, describe what \"done well\" looks like and use that.",
+        "Where we can't measure it, we'll define success qualitatively: [描述]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Setting goals",
+      "url": "https://www.lennysnewsletter.com/p/setting-goals",
+      "seek": false
+    },
+    {
+      "id": "w-goals-nongoals-lenny-rachitsky-118",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": "Try hard to make it a concrete number, e.g., [X]% increase in [A], [Y]% decrease in [B], [Z]% adoption of [C] within [時間].",
+      "quote": "Try hard to make it a concrete number, e.g., 10% increase in X, 50% decrease in Y, 20% adoption of feature Z within 3 months.",
+      "zh": "盡量把它變成一個具體數字，例如：X 提升 10%、Y 下降 50%、功能 Z 在三個月內達到 20% 採用率。",
+      "why": "e.g., 後面連給三個不同形狀的例子（增加／減少／採用率＋期限），讀者不必再問「要多具體」。Try hard to 保留了做不到時的空間，不會變成硬性規定。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Target: [指標] from [現況] to [目標] by [日期].",
+        "Where possible, state it as a number and a date."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Setting goals",
+      "url": "https://www.lennysnewsletter.com/p/setting-goals",
+      "seek": false
+    },
+    {
+      "id": "w-goals-nongoals-lenny-rachitsky-119",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": "[X] is obviously beyond the scope of this [文件].",
+      "quote": "Learning how to code is obviously beyond the scope of this post.",
+      "zh": "學會寫程式顯然超出這篇文章的範圍。",
+      "why": "beyond the scope of this doc 是英文文件裡最省事的邊界宣告，一句話擋掉整類「那這個呢」的留言。obviously 讓這個排除聽起來理所當然而不是逃避。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "[X] is out of scope here.",
+        "We're not covering [X] in this doc."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The top 5 things PMs should know about engineering",
+      "url": "https://www.lennysnewsletter.com/p/the-top-5-things-pms-should-know-about-engineering",
+      "seek": false
+    },
+    {
+      "id": "w-goals-nongoals-lenny-rachitsky-120",
+      "fn": "w-goals-nongoals",
+      "group": "framing",
+      "pattern": "This alone is a deep topic that deserves its own [文件], but a simple heuristic you can use here is [簡化版].",
+      "quote": "This alone is a deep topic that deserves its own post, but a simple heuristic you can use here is to compare your offering to what else is out there.",
+      "zh": "光這一項就是個值得單獨寫一篇的深水區，但你在這裡可以先用一個簡單的判準：把你的產品跟市面上其他選擇比一比。",
+      "why": "承認議題很深、明說要另外處理，同時當場給一個夠用的替代方案——讀者不會覺得被打發。deserves its own post/doc 是把範圍縮小又不減損議題重要性的萬用句。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "[X] deserves its own doc; for now we'll use [簡化版].",
+        "Full treatment of [X] is a separate exercise—here's the shortcut we'll use."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to Kickstart and Scale a Marketplace Business – Part 4: Cracking the Chicken-and-Egg Problem 🐣 - Growing Initial Demand (plus a Bonus!)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-kickstart-and-scale-a-marketplace-business---part-4-cracking-the-chicken",
+      "seek": false
+    },
+    {
+      "id": "w-context-lenny-rachitsky-121",
+      "fn": "w-context",
+      "group": "framing",
+      "pattern": null,
+      "quote": "Situation: What is the state of affairs today? What are the facts that everyone will agree with?",
+      "zh": "情境：今天的狀況是什麼？有哪些是大家都會同意的事實？",
+      "why": "facts that everyone will agree with 給了背景段一個明確的驗收標準：只放沒有人會反對的東西。這一招能避免背景段偷渡立場，讀者一路點頭讀到你的主張。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Where things stand today: [沒有爭議的事實].",
+        "Context (things I think we all agree on): [事實]."
+      ],
+      "pmNote": "SCR = Situation（現況）、Complication（變化）、Resolution（建議）。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Minto Pyramid Principle and the SCR Framework",
+      "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
+      "seek": false
+    },
+    {
+      "id": "w-context-lenny-rachitsky-122",
+      "fn": "w-context",
+      "group": "framing",
+      "pattern": "In [先前的文件], [誰] and I shared [做過的事]. But we didn't get very concrete about [缺口]. So I thought I'd do a follow-up on this.",
+      "quote": "But we didn't get very concrete about how to go about nailing down your actual activation metrics. So I thought I'd do a follow-up post on this.",
+      "zh": "但我們並沒有很具體地講到，實際上該怎麼把啟用指標定下來。所以我想做一篇後續。",
+      "why": "先指認自己前一份文件的缺口，再說明這份文件存在的理由——讀者立刻知道兩份文件的關係，也知道不必回頭讀。So I thought I'd 是英文書面裡最自然的動機交代法。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "The [先前文件] covered [A]; it didn't cover [B]. This doc does.",
+        "Following up on [文件] with the part we left open: [缺口]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to determine your activation metric",
+      "url": "https://www.lennysnewsletter.com/p/how-to-determine-your-activation-metric",
+      "seek": false
+    },
+    {
+      "id": "w-context-lenny-rachitsky-123",
+      "fn": "w-context",
+      "group": "framing",
+      "pattern": "It's particularly hard to [做某事], in part because [次要原因], but mostly because [主要原因].",
+      "quote": "It's particularly hard to find real-life examples of great 1-Pagers and PRDs, in part because honestly most of them aren't very good, but mostly because these documents have confidential information in them and thus aren't readily shared.",
+      "zh": "要找到真實世界裡寫得好的一頁式文件或 PRD 特別難，一部分是因為老實說大多數寫得不怎麼樣，但主要是因為這類文件有機密資訊，不會外流。",
+      "why": "in part because... but mostly because... 把多個原因排出權重，讀者知道哪個才是真的卡點。只列 because A and B 的寫法會讓讀者自己去猜輕重，通常猜錯。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "This is slow partly because [次因], but mainly because [主因].",
+        "Two reasons, in order of weight: [主因], and to a lesser extent [次因]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Examples and templates of 1-Pagers and PRDs",
+      "url": "https://www.lennysnewsletter.com/p/examples-and-templates-of-1-pagers-and-prds",
+      "seek": false
+    },
+    {
+      "id": "w-context-chandra-janakiraman-124",
       "fn": "w-context",
       "group": "framing",
       "pattern": "Over the past [N] years, I've used [X] in [N] different high-stake contexts, at companies large and small.",
@@ -1430,28 +2657,7 @@
       "seek": false
     },
     {
-      "id": "w-context-molly-graham-68",
-      "fn": "w-context",
-      "group": "framing",
-      "pattern": "There's a moment most [讀者身分] recognize.",
-      "quote": "There's a moment most leaders recognize.",
-      "zh": "有一個時刻，大多數領導者都認得。",
-      "why": "六個字就把讀者放進一個共同經驗裡，而且製造懸念（是哪個時刻？）逼他讀下一句。開場不必先解釋背景，先讓讀者認出自己。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "If you've ever [情境], you know the feeling.",
-        "Most of us have been in this situation: [情境]."
-      ],
-      "pmNote": null,
-      "guest": "Molly Graham",
-      "timestamp": null,
-      "episode": "How to debug a team that isn’t working: the Waterline Model",
-      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
-      "seek": false
-    },
-    {
-      "id": "w-context-aman-khan-69",
+      "id": "w-context-aman-khan-125",
       "fn": "w-context",
       "group": "framing",
       "pattern": "After years of [做某事], I've noticed something surprising: [觀察].",
@@ -1472,7 +2678,7 @@
       "seek": false
     },
     {
-      "id": "w-context-caitlin-sullivan-70",
+      "id": "w-context-caitlin-sullivan-126",
       "fn": "w-context",
       "group": "framing",
       "pattern": "Everyone's [做某事]. But everyone's also getting [壞結果]: [具體症狀1], [症狀2], and [症狀3].",
@@ -1493,7 +2699,7 @@
       "seek": false
     },
     {
-      "id": "w-context-tal-raviv-aman-khan-71",
+      "id": "w-context-tal-raviv-aman-khan-127",
       "fn": "w-context",
       "group": "framing",
       "pattern": "We've both been there, over and over again, while [具體經歷].",
@@ -1514,7 +2720,7 @@
       "seek": false
     },
     {
-      "id": "w-context-michael-manapat-72",
+      "id": "w-context-michael-manapat-128",
       "fn": "w-context",
       "group": "framing",
       "pattern": "(To be clear, [避免誤讀的澄清].)",
@@ -1532,6 +2738,1623 @@
       "timestamp": null,
       "episode": "How Notion builds product",
       "url": "https://www.lennysnewsletter.com/p/how-notion-builds-product",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-129",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "Write \"[Hit/Shipped/Cut] [具體標的] [量化條件]\", not \"[Held/Attended/Went to] [活動]\".",
+      "quote": "For example, write “Hit team’s goals” and “Shipped project X on time and under budget,\" not “Held a great meeting” or “Went to three conferences.\"",
+      "zh": "舉例來說，要寫「達成團隊目標」「專案 X 準時且在預算內出貨」，而不是「開了一場很棒的會」或「參加了三場研討會」。",
+      "why": "自評的第一條規則全在動詞上：hit / shipped 落在結果，held / went to 落在活動。台灣人習慣寫「參與了」「協助了」，在英文 review 裡那叫 attendance record，不叫 impact。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Delivered [專案] two weeks ahead of schedule.",
+        "Cut [指標] from [A] to [B] in [期間]."
+      ],
+      "pmNote": "履歷、自評、升遷案共用同一條線：activity ≠ impact。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Power of Performance Reviews: Use This System to Become a Better Manager 🤝",
+      "url": "https://www.lennysnewsletter.com/p/the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-130",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "I led [專案], which spanned [跨部門範圍], reported up to [層級], and became [對公司策略的意義].",
+      "quote": "I got promoted from a mid-level PM (L5) to a Senior PM (L6) after leading a mission-critical project (Instant Book) for a couple of years, which spanned multiple departments, reported up to the executive staff, and became a major part of the company strategy",
+      "zh": "我從中階 PM（L5）升到資深 PM（L6），是因為我帶了兩年一個關鍵任務級的專案（Instant Book）——它橫跨多個部門、直接向高階主管層匯報，最後成為公司策略的重要一環。",
+      "why": "三個並列子句把「一個專案」翻譯成三種能被 calibration 認可的 scope 訊號：橫向廣度（spanned）、縱向能見度（reported up to）、策略權重（became）。中文寫「我負責一個很重要的專案」在英語職場等於什麼都沒說。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I owned [專案], which touched [N] teams and reported into [誰].",
+        "[專案] cut across [A]、[B] and [C], and fed directly into [年度目標]."
+      ],
+      "pmNote": "calibration 是主管們互相比對部屬表現的會議——你的自評會在那個房間被讀出來。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to get promoted",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-promoted",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-131",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "As [公司指標] scaled from [A] to [B], I led [團隊/工作] tackling everything from [X], to [Y], to [Z].",
+      "quote": "As the number of homes on Airbnb scaled from around 100,000 in 2012 to over 6 million today, I led teams tackling everything from supply growth, to guest booking conversion, to marketplace quality.",
+      "zh": "在 Airbnb 房源數從 2012 年的約十萬成長到今天的六百萬以上的這段期間，我帶的團隊處理過各種題目：供給成長、旅客訂房轉換、到市集品質。",
+      "why": "先把公司的成長曲線當背景，再把自己放進去——「我的工作發生在這條曲線上」比「我做了 A、B、C」有份量得多，而且完全沒有一句自誇。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Over the period [公司指標] grew from [A] to [B], I owned [範圍].",
+        "During [階段], I led work spanning [X], [Y], and [Z]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "28 Ways to Grow Supply in a Marketplace 📈",
+      "url": "https://www.lennysnewsletter.com/p/28-ways-to-grow-supply-in-a-marketplace",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jules-walter-132",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "I realized that [A] performed worse than [B], resulting in [把落差換算成使用者或營收的量體].",
+      "quote": "in my first months at Slack, I realized that user onboarding on mobile performed worse than on web, resulting in hundreds of thousands of people who were signing up without experiencing Slack’s magical value of seamless team communication",
+      "zh": "在 Slack 的頭幾個月，我發現行動版的新手引導表現比網頁版差，結果是有幾十萬人註冊了卻從來沒體驗到 Slack 那個「團隊溝通無縫接軌」的核心價值。",
+      "why": "「發現一個問題」本身不值錢，值錢的是把落差換算成規模（hundreds of thousands of people）。resulting in 這個分詞句讓因果看起來像事實陳述，不像在邀功。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I found that [A] lagged [B] by [N%], resulting in [量體].",
+        "[指標] on [平台 A] was [N%] below [平台 B], which meant [後果]."
+      ],
+      "pmNote": null,
+      "guest": "Jules Walter",
+      "timestamp": null,
+      "episode": "How to make an impact in your first 90 days",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-an-impact-in-your-first-90-days",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jules-walter-133",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "So I identified [機會] and shipped [動作] that increased [指標].",
+      "quote": "So I identified opportunities to simplify the mobile onboarding flow and shipped a quick experiment that increased user activation.",
+      "zh": "所以我找出可以簡化行動版新手流程的地方，並且很快出了一個實驗，讓使用者啟用率提升。",
+      "why": "自評的黃金三段：問題→我做的事→指標動了，一句話寫完，讀者不必自己推論。identified 和 shipped 兩個動詞並列，同時展現判斷力與執行力。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "So I scoped [問題] and shipped [方案] that moved [指標] by [N%].",
+        "I identified [機會] and ran [實驗] that lifted [指標]."
+      ],
+      "pmNote": null,
+      "guest": "Jules Walter",
+      "timestamp": null,
+      "episode": "How to make an impact in your first 90 days",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-an-impact-in-your-first-90-days",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jiaona-zhang-134",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "To solve for [問題], I introduced [做法], which [對人或流程的效果].",
+      "quote": "To solve for higher shipping velocity, I introduced Demo Power Hour, which helped everyone feel ownership and pride in their work. To solve for transparency and accountability, I introduced Scorecard.",
+      "zh": "為了解決出貨速度的問題，我導入了 Demo Power Hour，這讓每個人對自己的工作更有擁有感和成就感。為了解決透明度和當責的問題，我導入了 Scorecard。",
+      "why": "整段自評最好用的骨架：To solve for X, I introduced Y, which Z——重複兩三次就變成一份有節奏的清單。每一條都自帶「我為什麼做」，不用另外解釋。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "To address [問題], I set up [機制], which [效果].",
+        "To solve for [問題], I built [工具] that [結果]."
+      ],
+      "pmNote": null,
+      "guest": "Jiaona Zhang",
+      "timestamp": null,
+      "episode": "How to make an impact in your first 90 days",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-an-impact-in-your-first-90-days",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jiaona-zhang-135",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "At [公司], I [果斷動詞] [N%] of [東西] to [目的] and consolidated around [留下來的少數幾件事].",
+      "quote": "At Linktree, I axed 50% of meetings to create more maker time and consolidated around just a few key rituals.",
+      "zh": "在 Linktree，我砍掉了一半的會議，好挪出更多真正做事的時間，只保留幾個關鍵的固定儀式。",
+      "why": "「砍掉」也是成果。axed 這種果斷動詞加上百分比，把減法寫成了決策力；後半句 consolidated around 補上「我不是亂砍，我留下了什麼」，避免顯得魯莽。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I cut [N%] of [東西] to free up [資源].",
+        "I retired [舊做法] and consolidated around [新做法]."
+      ],
+      "pmNote": null,
+      "guest": "Jiaona Zhang",
+      "timestamp": null,
+      "episode": "How to make an impact in your first 90 days",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-an-impact-in-your-first-90-days",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jules-walter-136",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "Later, at [公司], I [動詞] across teams to overhaul [範圍], enabling it to [新的能力].",
+      "quote": "Later, at Google, I negotiated across teams to overhaul YouTube’s infrastructure, design, and policies, enabling it to support high-profile TV content like NFL Sunday Ticket.",
+      "zh": "後來在 Google，我跨團隊協調，把 YouTube 的基礎架構、設計和政策全面翻修，讓它能夠支援像 NFL Sunday Ticket 這種重量級電視內容。",
+      "why": "enabling it to... 這個分詞尾巴是自評的高招：把你做的技術工作接到一個外部世界看得懂的結果上。少了它，「翻修基礎架構」只是苦工。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I worked across [N] teams to rebuild [系統], enabling us to [新能力].",
+        "I aligned [A] and [B] to overhaul [X], which made [Y] possible."
+      ],
+      "pmNote": null,
+      "guest": "Jules Walter",
+      "timestamp": null,
+      "episode": "A PM’s guide to influence",
+      "url": "https://www.lennysnewsletter.com/p/a-pms-guide-to-influence",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jules-walter-137",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "To do that, I spearheaded a [有爭議的/高風險的] project to experiment with [新做法].",
+      "quote": "To do that, I spearheaded a controversial project to experiment with a new approach to free-to-paid conversion.",
+      "zh": "為了達成這件事，我主導了一個具爭議性的專案，去試驗一種全新的免費轉付費做法。",
+      "why": "spearheaded 比 led 多了「我是那個先站出來的人」的重量；主動寫出 controversial，等於在說「這件事本來沒人想碰」——難度是可以自己標注的，而且標了才算數。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I spearheaded [專案] despite [阻力].",
+        "I took on [沒人想碰的題目] and drove it to [結果]."
+      ],
+      "pmNote": null,
+      "guest": "Jules Walter",
+      "timestamp": null,
+      "episode": "A PM’s guide to influence",
+      "url": "https://www.lennysnewsletter.com/p/a-pms-guide-to-influence",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jules-walter-138",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "I framed [提案] around [對方在乎的角度] rather than emphasizing [我方的目標].",
+      "quote": "I framed the entire proposal around the benefits it would have for users (the CEO’s POV) rather than emphasizing the revenue impact of the project (our team’s goal).",
+      "zh": "我把整份提案的框架建立在「這對使用者有什麼好處」（執行長的視角），而不是強調這個專案的營收影響（我們團隊的目標）。",
+      "why": "自評裡最難寫的是「判斷力」。這句用 A rather than B 的對照，把一個看不見的決定變成可觀察的動作，讀的人自己就會得出「這人懂得看場合」的結論。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I positioned [X] around [他們的目標] instead of [我們的目標].",
+        "Rather than leading with [數字], I framed it around [對方的痛點]."
+      ],
+      "pmNote": "把提案掛在決策者的世界觀上，是 influence without authority 的核心動作。",
+      "guest": "Jules Walter",
+      "timestamp": null,
+      "episode": "A PM’s guide to influence",
+      "url": "https://www.lennysnewsletter.com/p/a-pms-guide-to-influence",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-ethan-evans-139",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "At [公司], my responsibilities grew from [起點] to [終點]. Along the way, I helped create [成果], including [列舉].",
+      "quote": "At Amazon, my responsibilities grew from an initial team of six to more than 800. Along the way, I helped create household products you would recognize, including Prime Video, Kindle, Alexa, Twitch, and Prime Gaming.",
+      "zh": "在 Amazon，我負責的範圍從一開始的六人團隊成長到八百多人。這一路上，我參與打造了幾個大家都認得的產品，包括 Prime Video、Kindle、Alexa、Twitch 和 Prime Gaming。",
+      "why": "兩個把自誇降溫的技巧同時出現：responsibilities grew（範圍成長，主詞不是我）跟 helped create（參與而非獨力）。數字自己會說話，動詞就可以放軟。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "My scope grew from [A] to [B] over [期間].",
+        "I helped build [產品], including [列舉]."
+      ],
+      "pmNote": null,
+      "guest": "Ethan Evans",
+      "timestamp": null,
+      "episode": "The Magic Loop",
+      "url": "https://www.lennysnewsletter.com/p/the-magic-loop",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-brian-ta-140",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "In aggregate, [一系列小動作] led to a [X%] increase in [指標] at [公司].",
+      "quote": "In aggregate, title tag experiments led to a 15-20% increase in traffic at Airbnb",
+      "zh": "整體加總起來，標題標籤的一系列實驗讓 Airbnb 的流量成長了 15 到 20%。",
+      "why": "In aggregate 是自評神句：把一堆單看不起眼的小改動合法地加總成一個大數字，同時暗示「這不是一次性的運氣，是一套持續的做法」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Taken together, these changes drove a [X%] lift in [指標].",
+        "Across [N] experiments, we saw a cumulative [X%] improvement in [指標]."
+      ],
+      "pmNote": null,
+      "guest": "Brian Ta",
+      "timestamp": null,
+      "episode": "How to run SEO experiments",
+      "url": "https://www.lennysnewsletter.com/p/how-to-run-seo-experiments",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-noam-segal-141",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "The [最好的 X] I [led/built] actually had more [反直覺特徵], not less. We’d [做法], and it made [結果].",
+      "quote": "The highest-performing teams I led actually had more conflict, not less. We’d institutionalized productive disagreement, and it made our decisions faster",
+      "zh": "我帶過表現最好的團隊，衝突其實是更多、不是更少。我們把「有建設性的意見不合」制度化了，結果是決策速度變快。",
+      "why": "用「反直覺 + 我的親身樣本」寫自評，比一堆形容詞有效十倍。actually...not less 的對照句把你的判斷寫成了證據；that made 收尾又把它落回到可衡量的結果。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "The [X] that worked best actually had less [常見做法], not more.",
+        "Counterintuitively, [做法 A] outperformed [做法 B] on [指標]."
+      ],
+      "pmNote": "面試與自評都吃這種 spiky POV：只有你的樣本能得出的結論。",
+      "guest": "Noam Segal",
+      "timestamp": null,
+      "episode": "How to use AI for your next job interview",
+      "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-tamara-hinckley-142",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "...that includes the outcomes you drove and the impact on [公司/團隊目標].",
+      "quote": "Write a detailed self-review (do this in parallel with writing your coverage plan) that includes the outcomes you drove and the impact on the company’s goals.",
+      "zh": "寫一份詳細的自評（跟你的職務代理計畫同步進行），內容要包含你推動出來的結果，以及它對公司目標的影響。",
+      "why": "outcomes you drove 跟 impact on the company's goals 是兩層：前者是你的動作造成的結果，後者是公司在乎的事。只寫前者叫交代，兩層都寫才叫自評。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "...covering the outcomes I drove and how they moved [公司目標].",
+        "...the results I delivered and their impact on [年度 OKR]."
+      ],
+      "pmNote": "台灣人自評最常見的缺口就在第二層：做了什麼寫得很細，對公司有什麼用完全沒接上。",
+      "guest": "Tamara Hinckley",
+      "timestamp": null,
+      "episode": "How to create an exceptional coverage plan for your parental leave",
+      "url": "https://www.lennysnewsletter.com/p/how-to-create-an-exceptional-coverage-plan-for-your-parental-leave",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-ethan-evans-143",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "I noticed [問題]. I went ahead and fixed that by [動名詞].",
+      "quote": "I noticed we often miss vacations in our schedules. I went ahead and fixed that by adding a step to solicit and document holiday plans with the team.",
+      "zh": "我注意到我們排程時常常漏掉休假。我就直接處理掉了——加了一個步驟，去跟團隊收集並記錄假期規劃。",
+      "why": "went ahead and 是「我沒等你叫我做」的標準寫法，語氣輕但訊息重。這兩句可以直接貼進週報，它同時報告了你的觀察力跟自主性。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I noticed [問題], so I went ahead and [動作].",
+        "This kept coming up, so I put [機制] in place."
+      ],
+      "pmNote": "在英語職場，「主動補洞」比「把交辦的事做好」更容易換到 scope。",
+      "guest": "Ethan Evans",
+      "timestamp": null,
+      "episode": "The Magic Loop",
+      "url": "https://www.lennysnewsletter.com/p/the-magic-loop",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-tara-jaye-frank-144",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "[X] don’t get [結果] for [做好本分]. They get [結果] by demonstrating [更大的潛力].",
+      "quote": "People don’t get promoted for doing their jobs really well. They get promoted by demonstrating their potential to do more.",
+      "zh": "人不會因為把本分做得很好而升遷。他們是因為展現出「能做更多」的潛力而升遷。",
+      "why": "not A, but B 的兩句式對比是英語職場論證的骨架。第二句用 demonstrating（展現給人看）而不是 having（擁有）——這正是台灣人自評最缺的那個動詞。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "It’s not enough to [做好本分]; you have to demonstrate [下一階的能力].",
+        "[X] isn’t rewarded for [A]—it’s rewarded for [B]."
+      ],
+      "pmNote": null,
+      "guest": "Tara Jaye Frank",
+      "timestamp": null,
+      "episode": "How to get promoted",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-promoted",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-145",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "Development areas include [名詞化能力 1], [動名詞 2], and more [形容詞] [名詞 3].",
+      "quote": "A few examples of potential development areas include reliable execution, increasing code quality, and more succinct verbal communication.",
+      "zh": "可能的發展方向舉例來說有：穩定的執行力、提升程式碼品質、以及更精簡的口頭溝通。",
+      "why": "把弱點寫成「發展方向」的名詞短語（reliable execution），而不是自貶的句子（I'm not good at execution）。名詞化讓缺點聽起來像一個可調整的參數，而不是一個人格缺陷。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "My focus for next cycle is [名詞化能力].",
+        "The area I’m actively working on is [名詞短語]."
+      ],
+      "pmNote": "development area 是英語 review 的固定詞；別寫 weakness，那個詞在書面上留下的痕跡太重。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Power of Performance Reviews: Use This System to Become a Better Manager 🤝",
+      "url": "https://www.lennysnewsletter.com/p/the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-146",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "A simple story arc: [起點對照] → [本期表現] → [下一步的重點].",
+      "quote": "I try to make a simple story arc, starting by describing how far they’ve come, then a sentence or two about how they did this cycle, and ending on a high-level overview of what they need to focus on next.",
+      "zh": "我會盡量做出一個簡單的故事弧線：先描述這個人走了多遠，再用一兩句講他這個週期表現如何，最後用一段高層次的說明收在「接下來要專注什麼」。",
+      "why": "自評與主管評語共用同一個結構。台灣人寫自評常只有中間那段（這期做了什麼），少了「我從哪裡走過來」跟「我下一步要往哪」，讀起來像交差不像成長。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Coming into this cycle I was [起點]; this cycle I [表現]; next I’ll focus on [方向].",
+        "A year ago I couldn’t [X]. This cycle I [Y]. Next cycle I want to [Z]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Power of Performance Reviews: Use This System to Become a Better Manager 🤝",
+      "url": "https://www.lennysnewsletter.com/p/the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-147",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "This ended up [負面後果] (as it should have), and it taught me [教訓].",
+      "quote": "This ended up hurting my performance review (as it should have), and it taught me the lesson that perception matters heavily in the PM role.",
+      "zh": "這件事最後確實拖累了我的績效考核（本來就應該），也讓我學到一課：在 PM 這個角色，別人怎麼看你，份量非常重。",
+      "why": "(as it should have) 這個插入語是整句的關鍵：主動承認懲罰是公平的，你就從被評價者變成了評價者。在書面自評裡承認失誤而不自貶，靠的就是這種語氣控制。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "That cost us [代價], and fairly so—it taught me [教訓].",
+        "I got that wrong, and the feedback was warranted; what I took from it was [教訓]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to know if you're doing a good job as a product manager",
+      "url": "https://www.lennysnewsletter.com/p/how-to-know-if-youre-doing-a-good-job-as-a-product-manager",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-148",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "a list of times you’ve made an impact at [X] — include metrics, screenshots, timelines, stories.",
+      "quote": "Go open up a new doc and start dumping a list of times you’ve made an impact at your current job. Include metrics, screenshots, timelines, stories—anything that’ll help you tell the story of your successes.",
+      "zh": "開一份新文件，把你在現在這份工作上做出影響力的每個時刻通通倒進去。放進數據、截圖、時間軸、故事——任何能幫你把成功講成一個故事的東西。",
+      "why": "times you've made an impact 這個名詞化寫法很好用——把抽象的「影響力」變成可以逐條列舉的事件。tell the story of your successes 則提醒：自評是敘事，不是清單。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Keep a running doc of times you moved [指標].",
+        "Log every win with the metric, the date, and who else was involved."
+      ],
+      "pmNote": "英文圈叫這份文件 brag document；平常不寫，年底就只剩印象。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to be prepared for layoffs",
+      "url": "https://www.lennysnewsletter.com/p/how-to-be-prepared-for-layoffs",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-jackie-bavaro-149",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "When you’re working independently, [誰] won’t see [你做對的事] and [你克服的困難].",
+      "quote": "When you’re working independently, your manager won’t see all of the great decisions you make and the tough challenges you overcome.",
+      "zh": "當你獨立作業的時候，你的主管不會看到你做的那些好決定，也不會看到你克服的那些難題。",
+      "why": "這句是台灣讀者最該內化的一句。它不是在教你吹牛，是在陳述一個結構事實：能見度是有物理限制的。承認這件事，寫自評就從「炫耀」變成「補資訊」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Most of this happened out of view, so I’m writing it down here.",
+        "Since this ran async, I want to surface the calls I made along the way."
+      ],
+      "pmNote": null,
+      "guest": "Jackie Bavaro",
+      "timestamp": null,
+      "episode": "Becoming a senior Product Manager",
+      "url": "https://www.lennysnewsletter.com/p/becoming-a-senior-product-manager",
+      "seek": false
+    },
+    {
+      "id": "w-self-review-lenny-rachitsky-150",
+      "fn": "w-self-review",
+      "group": "self",
+      "pattern": "a simple weekly \"[名稱]\" email to your boss with (1) [目前優先序], (2) [心上的事], (3) [需要幫忙的卡點].",
+      "quote": "I suggest sending a simple weekly “State of The Me” email to your boss with (1) your current priorities, (2) things on your mind, and (3) blockers you need help with.",
+      "zh": "我建議每週寄一封簡單的「State of The Me」信給你的主管，內容包含：(1) 你目前的優先事項、(2) 你心上在想的事、(3) 你需要幫忙排除的卡點。",
+      "why": "自評不是一年一次的事，是五十二週的累積。這個三欄結構之所以好用，是因為第三欄（blockers）讓這封信對主管有價值——不然它只是你的日記。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Weekly update: priorities / open questions / where I need help.",
+        "Here’s where things stand, what I’m chewing on, and what I need from you."
+      ],
+      "pmNote": "這封信年底會變成你自評的原始素材庫。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Managing up",
+      "url": "https://www.lennysnewsletter.com/p/managing-up",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-151",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "I want us to [共同目標] so we can [好處]. [具體場合], you [具體行為], which I [我自己的疏失].",
+      "quote": "I want us to reduce handoff friction so we can ship faster. The last handoff meeting we had, you didn’t share any background customer research, which I failed to flag at the time.",
+      "zh": "我希望我們可以減少交接時的摩擦，這樣才能出貨更快。上次交接會議你沒有分享任何背景的使用者研究，而我當下也沒有提出來。",
+      "why": "兩句話做了三件事：先把回饋掛在「我們共同想要的東西」上、再講可查證的具體場合與行為（不是形容詞）、最後主動認領自己的一份責任。第三段最少人做，但最能解除對方防衛。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I want us to [目標]. In [場合], [行為] — and I should have raised it then.",
+        "My goal here is [共同結果]. What I saw was [行為], which I didn’t flag at the time."
+      ],
+      "pmNote": "GAIN 框架：Goal（共同目標）→ Actions（行為）→ Impacts（影響）→ Next actions（下一步）。",
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-152",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "[缺了什麼] led to [可觀察的後果] instead of [原本該發生的事]. Can you [具體請求] next time?",
+      "quote": "Lacking that context led to multiple rounds of engineers pinging you with questions instead of making empowered decisions on their own. Can you include that next time?",
+      "zh": "少了那個脈絡，結果是工程師一輪又一輪來問你問題，而不是自己就能做出有把握的決定。下次可以把它一起附上嗎？",
+      "why": "用 led to 把行為跟後果接起來，讓對方自己得出結論，你不必說「你這樣不對」。結尾一個 yes/no 問句把回饋收束成可執行的動作，而不是懸在空中的抱怨。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Without [X], [後果] instead of [理想狀況]. Could you [動作] going forward?",
+        "That gap led to [具體後果]. Would you be able to [請求] next round?"
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-153",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "[可量測的行為] averaged [數字] last [期間].",
+      "quote": "Response times to client emails averaged 4.2 days last month",
+      "zh": "上個月回覆客戶信件的時間平均是 4.2 天。",
+      "why": "書面回饋會被存檔、被轉發，所以每一句都要禁得起爭辯。這句沒有形容詞、沒有人稱、只有數字——對方可以反駁數字，但沒辦法說你在人身攻擊。對照組是「You're being unprofessional」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Over the last quarter, [X] took an average of [N] days.",
+        "In [期間], [指標] came in at [數字] against a target of [數字]."
+      ],
+      "pmNote": "observation vs judgment 的分界線：能被錄影機拍到的才叫 observation。",
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-154",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "Right now, I can see you [具體行為清單], and I can only imagine how [對方的感受] that must be.",
+      "quote": "Right now, I can see you are on every sales call, email, in all of the Slack channels across every team, and I can only imagine how exhausting that must be.",
+      "zh": "現在我看到的是：你出現在每一通銷售電話、每一封信、每個團隊的每個 Slack 頻道裡，我只能想像那有多累人。",
+      "why": "I can see 標記這是觀察不是指控；I can only imagine 把情緒的詮釋權交還給對方，等於邀請他自己說出來。往上給主管或創辦人書面回饋時，這組是最安全的開場。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "From where I sit, you’re [行為清單], and I can imagine that’s [感受].",
+        "What I’m seeing is [行為]. I can only imagine how [形容詞] that gets."
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-155",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "I imagine that you [對方的動機猜測] because [他自己的理由].",
+      "quote": "I imagine that you feel like you have to do it because you feel the job won’t get done unless you do.",
+      "zh": "我猜你會覺得非做不可，是因為你覺得如果你不做，這件事就不會完成。",
+      "why": "先幫對方把「他這麼做的合理理由」講出來，他就不用花力氣自我辯護。I imagine 是安全的猜測標記——猜錯了對方會來修正你，而那正是你要的：他開口了。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "My guess is you [動機], because [理由].",
+        "I suspect this comes from [理由]—correct me if I’m off."
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-156",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "I think there might be another approach here that could [對他的好處] and, at the same time, [對團隊的好處].",
+      "quote": "I think there might be another approach here that could create more time for you to focus on the areas where your impact is greatest and, at the same time, help the team step up, do better work, and feel more motivated.",
+      "zh": "我覺得這裡可能有另一種做法，一方面可以幫你騰出更多時間去做影響力最大的事，同時也能讓團隊接手、做出更好的成果、更有動力。",
+      "why": "might / could 這組雙重弱化讓提議不像命令；「對你好 + 同時對團隊好」的雙軌好處，是說服比你資深的人時最有效的框——你不是在要求他改，你是在給他一個更划算的選項。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "There might be a version of this that [對他的好處] while also [對團隊的好處].",
+        "I wonder if there’s an approach that gives you [好處] and gives the team [好處]."
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-157",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "The interesting thing is, though, I know you [正面事實]—[你的證據]—but you still sometimes [行為].",
+      "quote": "The interesting thing is, though, I know you trust me a lot—you’ve mentioned it, and I’ve even observed it—but you still sometimes do it with me.",
+      "zh": "但有趣的是，我知道你很信任我——你講過，我也確實觀察到了——可是你有時候還是會對我這樣。",
+      "why": "先舉出對方做對的例外，再指出模式仍在。這讓「你做得到」變成一件已被證明的事，回饋就從指責變成提醒——而且你的證據是他自己的話。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "What’s interesting is that with [情境 A] you already [理想行為]—but with [情境 B] it still [行為].",
+        "You’ve done exactly this well before, in [場合]. It just hasn’t carried over to [場合]."
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-158",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "So moving forward, I’ll [我的動作], you’ll [你的動作], and I’ll [我的第三個動作].",
+      "quote": "So moving forward, I’ll continue proactively sending you updates, you’ll work on stepping back—i.e. not jumping in or pinging me with status checks—and I’ll name it in the moment if the old pattern rears its head.",
+      "zh": "所以接下來：我會繼續主動寄進度更新給你，你會練習退一步——也就是不要跳進來或一直來問狀況——而如果舊習慣又冒出來，我會當下直接講出來。",
+      "why": "回饋談完一定要有人把結論寫下來，而且要包含自己的動作。三個主詞交錯出現（I / you / I），讓這件事看起來是雙方的專案，不是你在給他派工。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "To recap: I’ll [動作], you’ll [動作], and we’ll check in on [日期].",
+        "Moving forward — me: [動作]. You: [動作]. Both: [動作]."
+      ],
+      "pmNote": "Who does What by When（WWW）——沒有這三個要素的回饋，八成不會發生。",
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-159",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "When you [行為], it [對流程的後果]. Can you [動作] and let me know if there are any blockers?",
+      "quote": "Hey, when you don’t schedule interviews in the time frame you said you would, it slows down our hiring process. Can you schedule those this week and let me know if there are any blockers?",
+      "zh": "嘿，當你沒有在你說的時間內排好面試，我們的招募流程就會被拖慢。可以請你這週把那幾場排掉嗎？有什麼卡住的地方也跟我說。",
+      "why": "when you...it... 是最短的「行為→影響」句式，短到可以直接放進 Slack。結尾加上 let me know if there are any blockers，把「催進度」變成「我來幫你排除障礙」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "When [行為] slips, it [後果]. Could you [動作] by [時間]?",
+        "When [X] happens, [後果]. Anything blocking you on this?"
+      ],
+      "pmNote": null,
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-jack-cohen-160",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": null,
+      "quote": "I’m giving you these comments because I have very high expectations [challenge] and I know that you can reach them [support].",
+      "zh": "我給你這些意見，是因為我對你的期待很高，而且我知道你到得了。",
+      "why": "一句話同時放進「標準很高」跟「我相信你到得了」。史丹佛的雙盲對照實驗顯示，加上這一句的回饋讓學生的修改量變成四倍，改動品質也高出 26%——這是投報率最高的一句話。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I’m being this direct because I think you can clear a much higher bar.",
+        "I wouldn’t bother writing this if I didn’t think you could get there."
+      ],
+      "pmNote": "原文的 [challenge] 與 [support] 是作者標注的兩個功能，實際寫的時候不用寫出來。",
+      "guest": "Jack Cohen",
+      "timestamp": null,
+      "episode": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-feedback-an-evidence-based-approach-to-giving",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-lenny-rachitsky-161",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "What are 2-3 things [X] should [start / continue / stop] doing? Why?",
+      "quote": "What are 2-3 things Jane should start doing? Why?",
+      "zh": "Jane 有哪 2 到 3 件事應該「開始做」？為什麼？",
+      "why": "start / continue / stop 三分法是英語職場書面回饋的預設骨架。限定數量（2-3）逼對方排序，加一個 Why 逼出理由而不是標籤——沒有 Why，你收到的會是一堆形容詞。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "What are 2-3 things [X] should continue doing? Why?",
+        "What are 2-3 things [X] should stop doing? Why?"
+      ],
+      "pmNote": "這三題也可以拿來當自評的自問清單。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Power of Performance Reviews: Use This System to Become a Better Manager 🤝",
+      "url": "https://www.lennysnewsletter.com/p/the-power-of-performance-reviews-use-this-system-to-become-a-better-manager",
+      "seek": false
+    },
+    {
+      "id": "w-feedback-ethan-evans-162",
+      "fn": "w-feedback",
+      "group": "self",
+      "pattern": "He told me he could see that I was [好意圖], but that I was [具體行為] so much that [對別人的具體後果].",
+      "quote": "He was nice about it; he told me he could see that I was trying to help and had good intentions, but that I was pestering his engineers about problems so much that they could not focus.",
+      "zh": "他講得很客氣：他說他看得出來我是想幫忙、出發點是好的，但我一直去煩他的工程師問問題，煩到他們沒辦法專心。",
+      "why": "「先承認對方的意圖是好的，再講行為造成的具體後果」是給書面回饋時最省力的解防衛結構。關鍵在 so much that——它把程度問題講清楚，避免對方以為你要他完全別做。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I can see the intent behind [行為], but at this volume it [後果].",
+        "I know you’re trying to [好意圖]; the effect right now is that [後果]."
+      ],
+      "pmNote": null,
+      "guest": "Ethan Evans",
+      "timestamp": null,
+      "episode": "The Magic Loop",
+      "url": "https://www.lennysnewsletter.com/p/the-magic-loop",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-tamara-hinckley-163",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "a personalized document with the projects we worked on together, the impact [I] drove, and the type of feedback you’re looking for",
+      "quote": "Send them each a personalized document with the projects you worked on together, the impact you drove, and the type of feedback you’re looking for.",
+      "zh": "分別寄給每個人一份客製化的文件，裡面寫上你們一起做過的專案、你推動出來的影響，以及你希望他們給哪一類的回饋。",
+      "why": "請人幫你背書時，「給素材」比「拜託」有用。三個名詞片語剛好對應對方寫推薦時需要的三件事：共同經驗、可引用的成果、你希望被突顯的面向。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I’ve pulled together the projects we overlapped on and the outcomes, in case it’s useful.",
+        "To make this easy, here’s what we worked on together and what I’d love you to speak to."
+      ],
+      "pmNote": "英語職場的 peer review 是有截止日的行政作業——你給的素材越好，寫出來的評語越具體。",
+      "guest": "Tamara Hinckley",
+      "timestamp": null,
+      "episode": "How to create an exceptional coverage plan for your parental leave",
+      "url": "https://www.lennysnewsletter.com/p/how-to-create-an-exceptional-coverage-plan-for-your-parental-leave",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-tamara-hinckley-164",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "How can I help you make the case on my behalf?",
+      "quote": "Ask how you can help your manager make the case on your behalf.",
+      "zh": "去問你的主管：你可以怎麼幫他替你講話。",
+      "why": "make the case on someone's behalf 是升遷與背書的核心動詞片語。把它寫成問句，等於承認決定權在對方，同時把自己變成他的隊友而不是請託人。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "What would help you make the case for me?",
+        "Is there anything you need from me to advocate for this?"
+      ],
+      "pmNote": null,
+      "guest": "Tamara Hinckley",
+      "timestamp": null,
+      "episode": "How to create an exceptional coverage plan for your parental leave",
+      "url": "https://www.lennysnewsletter.com/p/how-to-create-an-exceptional-coverage-plan-for-your-parental-leave",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-lenny-rachitsky-165",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "The most underappreciated ingredient in [X] is to have someone with influence fight for you in [場合].",
+      "quote": "The most underappreciated, and often the most powerful, ingredient in getting promoted is to have someone with influence fight for you in the calibration process.",
+      "zh": "升遷這件事最被低估、往往也最有力的一個要素，是在 calibration 會議上有一個有影響力的人替你力爭。",
+      "why": "fight for you 是英語職場描述背書的常用動詞，calibration process 則是那個房間的正式名字。台灣讀者要先知道有這個房間，才會理解為什麼「寫下來的評語」那麼重要。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Having someone senior fight for you in [場合] matters more than people admit.",
+        "What moves the needle is a champion in the room when [決策] happens."
+      ],
+      "pmNote": "calibration＝各部門主管把所有人攤在同一張表上比較的會議。你不在場，你寫的字在。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How to get promoted",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-promoted",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-lenny-rachitsky-166",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "He led [量化規模], holds [量化成果], and helped [具名的組織資產].",
+      "quote": "He led global teams of over 800, holds more than 70 patents, and helped draft one of Amazon’s 14 core Leadership Principles, “Ownership.”",
+      "zh": "他帶過超過八百人的全球團隊，擁有七十多項專利，還參與草擬了 Amazon 十四條核心領導準則之一的「Ownership」。",
+      "why": "介紹別人（或幫人寫推薦）的黃金結構：三個並列、全部帶數字、最後一項是一個有名字的具體資產。形容詞一個都不需要——數字自己會發出「這個人很強」的訊號。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "She led [規模], shipped [具名成果], and built [具名資產].",
+        "He’s scaled [規模], holds [數量] of [X], and authored [具名文件]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Magic Loop",
+      "url": "https://www.lennysnewsletter.com/p/the-magic-loop",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-lenny-rachitsky-167",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "the only info I really need are [X], your vouch, and [Y]",
+      "quote": "The fields are optional, the only info I really need are their skills, your vouch, and your email.",
+      "zh": "欄位都是選填的，我真正需要的只有：他的專長、你的背書、還有你的 email。",
+      "why": "vouch 當名詞用（your vouch＝你的背書）是很道地的縮寫寫法。台灣人只會 recommend，而 vouch for 帶著「我拿自己的信用擔保」的重量——推薦人的成本也被算進去了。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "I can vouch for [X] on [具體面向].",
+        "Happy to vouch for her—I worked with her on [專案] for [期間]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Ideal sprint length, designer vs. PM roles, running PM team meetings, running post-mortems, best product/executive coaches, and much more",
+      "url": "https://www.lennysnewsletter.com/p/ideal-sprint-length-designer-vs-pm-roles-running-pm-team-meetings-running-post-m",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-lenny-rachitsky-168",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "He’s especially talented at [具體能力]. We’re super-lucky to have [他] share [什麼] with us.",
+      "quote": "he’s especially talented at explaining deeply technical subjects clearly and directly. We’re super-lucky to have Justin share his wisdom with us.",
+      "zh": "他特別擅長把很硬的技術主題講得又清楚又直接。能請到 Justin 來分享他的智慧，我們真的很幸運。",
+      "why": "especially talented at + 動名詞，把讚美釘在一個具體技能上，而不是「他很棒」。第二句用 we're lucky 把重心從「他多厲害」轉成「我們受益」——這是英語書面引介人的標準收尾。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "She’s especially strong at [能力]. We’re lucky to have her on [專案].",
+        "What [X] does best is [能力]—we’re fortunate to have him involved."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The top 5 things PMs should know about engineering",
+      "url": "https://www.lennysnewsletter.com/p/the-top-5-things-pms-should-know-about-engineering",
+      "seek": false
+    },
+    {
+      "id": "w-endorsement-jackie-bavaro-169",
+      "fn": "w-endorsement",
+      "group": "self",
+      "pattern": "Given [模糊的處境], they can [能力] (and drive the work through to [結果]).",
+      "quote": "Given an ambiguous problem area, they can rapidly pick out the most important problems to solve (and drive the work through to tangible impact).",
+      "zh": "丟給他一個模糊的問題領域，他能很快挑出最該解的那幾個問題（而且把工作一路推到看得見的成果）。",
+      "why": "背書一個人最有說服力的寫法不是形容他，是描述「給他什麼條件、他會產出什麼」。Given X, they can Y 這個條件句等於在寫一份可驗證的規格。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Given [不完整的資訊], she can [能力] without [常見的失誤].",
+        "Hand him [混亂的狀況] and he’ll come back with [清楚的產出]."
+      ],
+      "pmNote": null,
+      "guest": "Jackie Bavaro",
+      "timestamp": null,
+      "episode": "Becoming a senior Product Manager",
+      "url": "https://www.lennysnewsletter.com/p/becoming-a-senior-product-manager",
+      "seek": false
+    },
+    {
+      "id": "w-recognition-jorge-mazal-170",
+      "fn": "w-recognition",
+      "group": "self",
+      "pattern": "Shoutout to [人名] ([職稱]), who [具體貢獻] for [期間].",
+      "quote": "Shoutout to Nico Sacheri (Principal PM) and Hideki Shima (Eng Director), who have been crushing it leading the Connections team for the past couple of years.",
+      "zh": "特別點名 Nico Sacheri（首席 PM）和 Hideki Shima（工程總監）——過去這兩年他們把 Connections 團隊帶得非常出色。",
+      "why": "公開肯定要有份量，就要有三件事：全名、職稱、做了什麼多久。加上職稱是關鍵——它讓不認識這個人的讀者也知道這個肯定的重量。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Shoutout to [人名] ([職稱]) for [具體貢獻] over the last [期間].",
+        "Special credit to [人名], who has been [動作] since [時間]."
+      ],
+      "pmNote": null,
+      "guest": "Jorge Mazal",
+      "timestamp": null,
+      "episode": "How Duolingo reignited user growth",
+      "url": "https://www.lennysnewsletter.com/p/how-duolingo-reignited-user-growth",
+      "seek": false
+    },
+    {
+      "id": "w-recognition-lenny-rachitsky-171",
+      "fn": "w-recognition",
+      "group": "self",
+      "pattern": "Credit to [人名] for [動詞 1]、[動詞 2] and [動詞 3] [產出].",
+      "quote": "Credit to Louise Beryl for designing, analyzing, and articulating the most interesting findings from this (massive) survey.",
+      "zh": "功勞要給 Louise Beryl——這份（龐大的）調查的設計、分析，以及把最有意思的發現寫清楚，都是她做的。",
+      "why": "Credit to X for + 三個並列動名詞，是署名文件裡歸功給別人的標準格式。三個動詞讓貢獻的範圍具體到無法被含糊帶過——這比 thanks to 更有法律感、也更有份量。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Credit to [人名] for [動名詞] and [動名詞].",
+        "The [產出] here is [人名]’s work—I just [我做的小事]."
+      ],
+      "pmNote": "在英語職場，把功勞明確寫給別人不會稀釋你的貢獻，反而會提高你的可信度。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How much do U.S. product managers really make?",
+      "url": "https://www.lennysnewsletter.com/p/how-much-do-us-product-managers-really-make",
+      "seek": false
+    },
+    {
+      "id": "w-recognition-claire-vo-172",
+      "fn": "w-recognition",
+      "group": "self",
+      "pattern": null,
+      "quote": "I immediately start sending a regular (weekly) written update on observations, personal areas of focus, and kudos that allows you to scale leadership visibility in an async way.",
+      "zh": "我一上任就會開始寄固定的（每週）書面更新，內容分成三塊：觀察、我個人的重點方向、以及 kudos（給人的公開肯定），這樣可以用非同步的方式把領導的能見度放大。",
+      "why": "kudos 在英語職場是一個標準的欄位名稱——固定在週報裡留一格給別人的功勞。把肯定制度化，它才不會只在你心情好的時候發生。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Weekly update — observations / focus areas / kudos.",
+        "Kudos this week: [人名] for [具體事情]."
+      ],
+      "pmNote": null,
+      "guest": "Claire Vo",
+      "timestamp": null,
+      "episode": "How to make an impact in your first 90 days",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-an-impact-in-your-first-90-days",
+      "seek": false
+    },
+    {
+      "id": "w-recognition-lenny-rachitsky-173",
+      "fn": "w-recognition",
+      "group": "self",
+      "pattern": "Special thanks to [群體] who [貢獻]. Your [貢獻] will help us [結果].",
+      "quote": "Special thanks to the nearly 200 tech professionals who shared their insights again for this follow-up research. Your candid feedback will help us deal with burnout in the tech industry.",
+      "zh": "特別感謝將近兩百位再度為這份後續研究分享見解的科技工作者。你們坦率的回饋會幫助我們處理這個產業的職業倦怠問題。",
+      "why": "第二句才是重點：Your X will help us Y——告訴對方他付出的東西會變成什麼。少了這句，感謝就只是禮貌；有了這句，對方下次還會再幫你。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Special thanks to [群體] for [貢獻]. Your input will shape [結果].",
+        "Huge thanks to everyone who [動作]—it directly changed [什麼]."
+      ],
+      "pmNote": null,
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "How tech’s most resilient workers handle burnout",
+      "url": "https://www.lennysnewsletter.com/p/how-techs-most-resilient-workers-handle-burnout",
+      "seek": false
+    },
+    {
+      "id": "w-status-lenny-rachitsky-174",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "Regularly share what you're doing, what you plan to do, and what you've done with [對象].",
+      "quote": "Regularly share what you're doing, what you plan to do, and what you've done with your manager. It's nearly impossible to over-communicate.",
+      "zh": "定期跟你的主管同步你正在做什麼、打算做什麼、已經做完什麼。基本上不可能溝通過頭。",
+      "why": "三個時態一次講完（進行中／未來／已完成）是英文週報的骨架，一句就把「我在忙」變成「我可被追蹤」。第二句是給自己的許可：怕囉唆而少寫，是台灣人寫週報最大的失分點。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Here's what I did last week, what I'm doing this week, and what's coming next.",
+        "Sharing my usual three: shipped, in flight, and up next."
+      ],
+      "pmNote": "週報的價值不是報告，是讓主管在你出事前就有機會介入。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Managing up",
+      "url": "https://www.lennysnewsletter.com/p/managing-up",
+      "seek": false
+    },
+    {
+      "id": "w-status-lenny-rachitsky-175",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "You can also highlight material changes to [X] from the prior [週期] to make it even easier for [對象].",
+      "quote": "You can also highlight material changes to your priorities from the prior week to make it even easier for your manager",
+      "zh": "你也可以特別標出這週跟上週相比有實質變動的優先事項，讓你主管更省力。",
+      "why": "material changes 是商業書面英文的高頻字，意思是「值得你分心來看的變動」，比 changes 更精準地過濾雜訊。整句把「我幫你篩過了」寫成一個動作。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Changes since last week are marked in bold.",
+        "One material change from last week: [X] moved from P2 to P0."
+      ],
+      "pmNote": "週報最容易被跳過的原因是每週看起來都一樣；標出差異就有人讀。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Managing up",
+      "url": "https://www.lennysnewsletter.com/p/managing-up",
+      "seek": false
+    },
+    {
+      "id": "w-status-jackie-bavaro-176",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "Hi [對象], let me tell you about a challenge I ran into ___. Here's how I'm thinking of handling it (or did handle it) ___. Any thoughts?",
+      "quote": "Hi manager, let me tell you about a challenge I ran into ___. Here’s how I’m thinking of handling it (or did handle it) ___. Any thoughts?",
+      "zh": "嗨主管，跟你說一個我碰到的難題 ___。我打算這樣處理（或我已經這樣處理了）___。你有什麼想法嗎？",
+      "why": "這個三句模板同時做兩件事：秀出你解決了一個難題，又留一個門讓主管給意見——避免聽起來像邀功，也避免聽起來像卡住了求救。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Ran into something worth flagging: ___. My plan is ___. Open to a different read.",
+        "Quick one: hit ___, handled it by ___. Let me know if you'd have played it differently."
+      ],
+      "pmNote": "自主性高的人反而更難累積信任，因為主管看不到你做對的決定。",
+      "guest": "Jackie Bavaro",
+      "timestamp": null,
+      "episode": "Becoming a senior Product Manager",
+      "url": "https://www.lennysnewsletter.com/p/becoming-a-senior-product-manager",
+      "seek": false
+    },
+    {
+      "id": "w-status-lenny-rachitsky-177",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "As you know, we've generally had a good handle on [X].",
+      "quote": "As you know, we’ve generally had a good handle on bugs.",
+      "zh": "如你所知，我們對 bug 一向控制得還不錯。",
+      "why": "SCR 架構的 Situation 開場句：先講一句「大家都同意的現況」，讀者才不會在你講壞消息時覺得被突襲。As you know 是禮貌地把共識放上桌，不是在教對方。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "As you know, [X] has been stable for the past few quarters.",
+        "Some context first: we've historically had [X] under control."
+      ],
+      "pmNote": "Situation → Complication → Resolution：先講現況、再講變化、最後給答案。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Minto Pyramid Principle and the SCR Framework",
+      "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
+      "seek": false
+    },
+    {
+      "id": "w-status-lenny-rachitsky-178",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "Recently however, we've seen a large spike in [X], and it's beginning to significantly impact [Y].",
+      "quote": "Recently however, we’ve seen a large spike in bugs, and it’s beginning to significantly impact our bottom-line.",
+      "zh": "但最近我們看到 bug 數量大幅飆升，而且已經開始明顯影響到我們的獲利。",
+      "why": "SCR 的 Complication 句：however 一個字就把讀者從「還好」切到「有事」。is beginning to 是刻意的——把壞消息定位在「剛開始，還來得及」，而不是「已經完蛋」。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Over the last three weeks, however, [X] has doubled and it's starting to affect [Y].",
+        "That's changed: [X] is now trending in the wrong direction."
+      ],
+      "pmNote": "壞消息要放在「還能行動」的時間點寫出來，這決定對方是給資源還是給檢討。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "The Minto Pyramid Principle and the SCR Framework",
+      "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
+      "seek": false
+    },
+    {
+      "id": "w-status-hiten-shah-179",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "Whenever you're on a call, make sure that anything that's important gets written down: [討論過的選項], [做成的決定], [下一步], plus who is going to do them.",
+      "quote": "Whenever you’re on a call, make sure that anything that’s important gets written down. Options that were discussed, decisions that were made and next steps, plus who is going to do them.",
+      "zh": "只要開了會，重要的東西一定要寫下來：討論過哪些選項、做了哪些決定、下一步是什麼，還有誰負責。",
+      "why": "四件事的清單本身就是一份會議紀錄的模板。plus who is going to do them 放在最後不是隨口加的——沒有名字的 next step 等於沒有。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Notes from today: options considered, what we decided, next steps and owners.",
+        "Writing this down so it survives the call: decision, rationale, owner, date."
+      ],
+      "pmNote": "口頭共識三天後就會有兩個版本；寫下來的那個版本會贏。",
+      "guest": "Hiten Shah",
+      "timestamp": null,
+      "episode": "This Week #6: Cultivating good relationships with distributed co-workers, building trust to accelerate growth, and leveling up as a PM when you have extra time",
+      "url": "https://www.lennysnewsletter.com/p/this-week-6-cultivating-good-relationships-with-distributed-co-workers-building",
+      "seek": false
+    },
+    {
+      "id": "w-status-shivani-berry-180",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": "As you are [進行中的工作], get used to sharing updates along the way.",
+      "quote": "As you are coming up with ideas and thinking through the problem, get used to sharing updates along the way.",
+      "zh": "在你還在發想、還在想清楚問題的階段，就要養成一路上不斷同步進度的習慣。",
+      "why": "along the way 是關鍵——它把「更新」從「有結論才報」改成「過程中就報」。台灣人習慣等做完才講，但共識是在過程中長出來的。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Sharing where my thinking is at, still early.",
+        "Rough notes from the research so far—nothing concluded yet."
+      ],
+      "pmNote": "在還沒有答案時分享，才有機會讓別人的想法進來變成他們的案子。",
+      "guest": "Shivani Berry",
+      "timestamp": null,
+      "episode": "Getting buy-in",
+      "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
+      "seek": false
+    },
+    {
+      "id": "w-status-shivani-berry-181",
+      "fn": "w-status",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Stakeholders will feel valued. You’ll stop hearing “I wish you’d looped us in earlier.”",
+      "zh": "利害關係人會覺得自己被重視，你也不會再聽到「早知道就早點讓我們知道」這句話。",
+      "why": "loop someone in 是英文職場最常用的「把某人納入資訊圈」動詞片語，比 inform 溫和且不帶上下關係。這句同時也是你會被抱怨的原句，值得整句記住。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Looping in [Name] since this touches their area.",
+        "Adding [Name] to the thread for visibility."
+      ],
+      "pmNote": "「太晚才被告知」是跨部門衝突最常見的起火點，而且它跟決定本身無關。",
+      "guest": "Shivani Berry",
+      "timestamp": null,
+      "episode": "Getting buy-in",
+      "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
+      "seek": false
+    },
+    {
+      "id": "w-delay-lenny-rachitsky-182",
+      "fn": "w-delay",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Often after a project begins you uncover unexpected hurdles that didn’t inform the estimate.",
+      "zh": "專案開始之後，你常常會挖出當初估時程時沒被納入的意外障礙。",
+      "why": "didn't inform the estimate 把延期的責任放在「當時的資訊」而不是「當時的人」，這是英文報延期最重要的一個轉向——不推責、也不自貶。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "We've hit a few things that weren't visible when we sized this.",
+        "The original estimate didn't account for [X]."
+      ],
+      "pmNote": "估時程失準通常不是估錯，是估的時候資訊不足；分清楚這兩者才能改進。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #4: Motivating engineers to hit deadlines, PM career ladders, and aligning with execs",
+      "url": "https://www.lennysnewsletter.com/p/this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning",
+      "seek": false
+    },
+    {
+      "id": "w-delay-lenny-rachitsky-183",
+      "fn": "w-delay",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Make it an official change to the date, get buy-in again, and share it widely.",
+      "zh": "把它做成一次正式的日期變更，重新取得大家的同意，然後廣泛公告出去。",
+      "why": "official / again / widely 三個字各擋一種爛作法：偷偷改、自己改、只跟一個人講。這句可以直接當你改期時的行動清單。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Formally moving the date from [A] to [B]—confirming everyone's still on board.",
+        "New target date is [B]. Please flag by [date] if that breaks something on your side."
+      ],
+      "pmNote": "偷偷延期一次，你之後給的每個日期都會被打折。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #4: Motivating engineers to hit deadlines, PM career ladders, and aligning with execs",
+      "url": "https://www.lennysnewsletter.com/p/this-week-4-motivating-engineers-to-hit-deadlines-pm-career-ladders-and-aligning",
+      "seek": false
+    },
+    {
+      "id": "w-delay-lenny-rachitsky-184",
+      "fn": "w-delay",
+      "group": "updates",
+      "pattern": null,
+      "quote": "“No, but there’s something there. Let’s explore it further. Here’s what I suggest as a next step…”",
+      "zh": "不行，但這裡面有東西。我們可以再挖一下。我建議的下一步是……",
+      "why": "there's something there 是英文裡很漂亮的一句「我沒有否定你」，只用四個字就把對方的面子保住。後面接一個具體 next step，拒絕才不會變成空氣。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Not as scoped, but the underlying problem is real. Suggest we [X] first.",
+        "No for now—but there's a version of this worth testing."
+      ],
+      "pmNote": "拒絕之後一定要給下一步，不然對方只會再問一次。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Saying no",
+      "url": "https://www.lennysnewsletter.com/p/saying-no",
+      "seek": false
+    },
+    {
+      "id": "w-delay-lenny-rachitsky-185",
+      "fn": "w-delay",
+      "group": "updates",
+      "pattern": null,
+      "quote": "When asked to make changes to a plan, be transparent about the trade-offs. Don’t assume they know what you know.",
+      "zh": "當有人要你改計畫時，把取捨攤開講。不要假設他們知道你知道的事。",
+      "why": "Don't assume they know what you know 是所有書面溝通的通則，值得當成寫任何一封信之前的檢查句。台灣職場常因為「講了顯得我在抱怨」而省略成本，結果被當成沒成本。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Flagging the trade-offs in case they're not visible from where you sit.",
+        "Sharing the cost side so we're deciding with the same information."
+      ],
+      "pmNote": "上位者不是不在乎成本，是根本看不到成本。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #0: Advice on growth, product, and leadership",
+      "url": "https://www.lennysnewsletter.com/p/this-week-0-advice-on-growth-product-and-leadership",
+      "seek": false
+    },
+    {
+      "id": "w-delay-lenny-rachitsky-186",
+      "fn": "w-delay",
+      "group": "updates",
+      "pattern": "Identifies issues that will keep [產品] from delivering on time, communicates to leadership, assesses the alternatives to resolve (\"path to green\"), and builds a plan for resolution.",
+      "quote": "Identifies issues that will keep the product from delivering on time and/or with the desired requirements and communicates to leadership; assesses the alternatives to resolve (“path to green”) and builds a plan for resolution.",
+      "zh": "能提早辨識出會讓產品無法準時、或無法達到要求的問題，向管理層說明，評估各種解法（也就是「回到綠燈的路徑」），並做出解決計畫。",
+      "why": "path to green 是英文職場報進度的核心術語（紅／黃／綠燈），意思是「怎麼把這件事救回正軌」。報延期時只要附上 path to green，你就從報憂的人變成解題的人。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Status is yellow. Here's the path back to green.",
+        "Flagging risk to the date, along with two options to recover it."
+      ],
+      "pmNote": "紅黃綠燈的重點不是顏色，是每個非綠燈後面有沒有掛一條回到綠燈的路。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Skills PMs need to build",
+      "url": "https://www.lennysnewsletter.com/p/skills-pms-need-to-build",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-187",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "“This project failed. Let me tell you what happened, what we’ve learned, and what we’re recommending as next steps.”",
+      "zh": "這個專案失敗了。我來說明發生了什麼、我們學到什麼、以及我們建議接下來怎麼做。",
+      "why": "全套語料裡最值得整句背的一句。四個字認賠（This project failed），接著立刻用三段式接管敘事：事實／學習／建議。認錯的句子越短，後面的建議就越有份量。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "We didn't hit the goal. Here's what happened, what we learned, and what I recommend.",
+        "Short version: this didn't work. Longer version below, with a recommendation."
+      ],
+      "pmNote": "報失敗時，敘事權比事實更重要——先講的人定義這件事怎麼被記得。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-188",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Leaders respect people who are clear-headed, up-front, and take responsibility.",
+      "zh": "主管敬重的是頭腦清楚、坦白直接、扛得起責任的人。",
+      "why": "三個形容詞剛好對應報壞消息的三個動作：分析清楚、先開口、認下來。注意 take responsibility 跟自責無關——它是動作，不是情緒。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "I own this one.",
+        "This was my call, and it didn't work."
+      ],
+      "pmNote": "扛責任跟自貶是兩件事：前者說「這是我的決定」，後者說「我很沒用」。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-189",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "The truth will come out. Don’t try to hide it.",
+      "zh": "真相一定會浮出來。不要想蓋。",
+      "why": "兩句短句，沒有一個修飾語。書面英文在講最硬的道理時反而最簡單——長句會讓它聽起來像在辯論。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Better you hear this from me than from the dashboard.",
+        "Rather flag this now than have it surface later."
+      ],
+      "pmNote": "壞消息的傷害是「時間 × 意外程度」，越晚講兩個乘數都越大。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-190",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": "Make sure [外部關係人] hear the bad news from you first.",
+      "quote": "Make sure the external stakeholders hear the bad news from you first.",
+      "zh": "務必讓外部的利害關係人是從你這邊第一個聽到壞消息。",
+      "why": "hear it from you first 是英文職場的固定說法，重點在 first——不是「有講」而是「比別人早」。這一個字就是你的信譽。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Wanted you to hear this from me before it shows up in the weekly numbers.",
+        "Flagging early so you're not surprised in Thursday's review."
+      ],
+      "pmNote": "壞消息從第三方傳到你老闆耳裡，損失的不是專案，是你之後所有的可信度。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Communicating bad news - Issue 26",
+      "url": "https://www.lennysnewsletter.com/p/communicating-bad-news---issue-26",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-191",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "The trick to sharing bad news effectively is to imagine being on the other side of the table. What would you want to know if you were in charge?",
+      "zh": "報壞消息的訣竅，是想像自己坐在桌子的另一邊。如果換你負責，你會想知道什麼？",
+      "why": "on the other side of the table 是英文換位思考的固定比喻。這句適合當你寫信前的自問句：不是「怎麼講比較不會被罵」，是「他需要什麼才能做決定」。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Writing this the way I'd want it if I were in your seat.",
+        "Putting myself on your side of the table: here's what you'd need to know."
+      ],
+      "pmNote": "主管要的是「全部、越快越好、還有下一步」，不是「你的感受」。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Communicating bad news - Issue 26",
+      "url": "https://www.lennysnewsletter.com/p/communicating-bad-news---issue-26",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-192",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": "When sharing the results for the first time, remind [高層] why they decided to give this a shot in the first place.",
+      "quote": "When sharing the results for the first time, remind leaders why they decided to give this a shot in the first place.",
+      "zh": "第一次報結果的時候，先提醒主管們當初為什麼決定要試這件事。",
+      "why": "give this a shot / in the first place 都是很自然的口語搭配寫進正式信裡。這一步的作用是把「你的失敗」還原成「我們共同的一個賭注」，而且不用明說。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Worth remembering why we greenlit this: [原因].",
+        "Recapping the original bet before we get to results."
+      ],
+      "pmNote": "沒有背景就報結果，會讓讀者用今天的資訊去審判當時的決定。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Communicating bad news - Issue 26",
+      "url": "https://www.lennysnewsletter.com/p/communicating-bad-news---issue-26",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-193",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": "Put together a brief doc that includes [背景], [當初的假設], and [正面的質性回饋]. Only then get into the results.",
+      "quote": "Put together a brief deck (or doc) that includes the background on the project, including the initial hypothesis, how it came together, and the positive qualitative feedback. Only then get into the results.",
+      "zh": "先做一份簡短的簡報或文件，寫清楚專案背景、當初的假設、怎麼形成的、以及正面的質性回饋。這些講完，才進到結果。",
+      "why": "Only then 是全句的關鍵字——它把順序寫成一條紀律。這不是粉飾，是不讓一個數字獨自代表六個月的工作。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "Context first, numbers second.",
+        "Background and hypothesis below; results start on page 3."
+      ],
+      "pmNote": "先給背景再給數字，是報負面結果的標準順序；反過來會讓討論停在情緒上。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Communicating bad news - Issue 26",
+      "url": "https://www.lennysnewsletter.com/p/communicating-bad-news---issue-26",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-194",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "What did you learn through this experience? What theories did you disprove? What surprised you and your team most?",
+      "zh": "這段經驗你學到什麼？你推翻了哪些原本的假設？最讓你和團隊意外的是什麼？",
+      "why": "三個問句可以原封不動當成檢討文件的三個小標。disprove a theory 把失敗重新定義成一次成功的實驗——這是英文商業寫作裡很值錢的重新框架。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "What we disproved: [X].",
+        "The biggest surprise: [X]. We'd assumed [Y]."
+      ],
+      "pmNote": "新事業的進度該用「學到多少」衡量，不是用「做出多少」。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-195",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "When a project fails, sometimes it’s because the idea was bad, but sometimes it’s because it was executed badly.",
+      "zh": "專案失敗的時候，有時候是因為點子不好，有時候是因為執行得不好。",
+      "why": "把 idea 和 execution 拆開，是在檢討信裡最重要的一刀。沒拆開，整件事就會被草率歸檔成「這方向不行」，包括那些其實值得再試一次的方向。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "The idea still holds; the execution didn't. Here's what I'd change.",
+        "This was an execution miss, not a strategy miss."
+      ],
+      "pmNote": "自己執行的人最容易誤判成「點子錯了」，因為那樣比較不痛。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-failure-lenny-rachitsky-196",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "When an execution failure happens, they take ownership, explain what was learned, and rapidly remedy the problem.",
+      "zh": "執行出包時，他們會扛起責任、說明學到什麼、並且迅速把問題補起來。",
+      "why": "這句出自真實的 PM 職級表，等於把「怎麼報失敗」寫成升遷標準。三個動詞的順序不能換：先扛、再學、再修。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Owning this: here's what went wrong, what we learned, and the fix already in flight.",
+        "My miss. Root cause below, fix ships Thursday."
+      ],
+      "pmNote": "「扛責任」在職級表裡是資深的定義之一，不是禮貌，是能力。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Skills PMs need to build",
+      "url": "https://www.lennysnewsletter.com/p/skills-pms-need-to-build",
+      "seek": false
+    },
+    {
+      "id": "w-failure-shivani-berry-197",
+      "fn": "w-failure",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Instead of: “Sorry, I messed up” Say: “I’ll fix that now”",
+      "zh": "不要說「抱歉，是我搞砸了」，改說「我現在就修好」。",
+      "why": "同樣是承認出錯，前者把讀者的注意力留在你的失誤上，後者移到解決上。這對習慣先道歉三行的台灣寫信者是最直接的一刀。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "On it—fix going out this afternoon.",
+        "Caught it. Correcting now, will confirm when it's live."
+      ],
+      "pmNote": "在英文書面溝通裡，不必要的 sorry 會被讀成缺乏掌控感，而不是有禮貌。",
+      "guest": "Shivani Berry",
+      "timestamp": null,
+      "episode": "Getting buy-in",
+      "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-198",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "find a way to make it feel like less of a failure and more of an evolution based on new learnings",
+      "zh": "想辦法讓它看起來不像失敗，而像是根據新學到的東西做出的演進。",
+      "why": "less of a X and more of a Y 是英文重新框架事情最常用的句型，可以直接套進任何一封說明變更的信。evolution 這個字的作用是把轉向寫成連續，而不是斷裂。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "This is less of a pivot and more of a sharpening.",
+        "Not a reversal—an update based on what we've learned since."
+      ],
+      "pmNote": "同一個轉向講成「失敗」還是「演進」，會決定團隊士氣往哪走。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #7: Effectively communicating about a failure to execs, managing founder expectations, and hiring a Director of PM",
+      "url": "https://www.lennysnewsletter.com/p/this-week-7-effectively-communicating-about-a-failure-to-execs-managing-founder",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-199",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "When you change your point of view based on new information, share it publicly. Make it very clear you aren’t stuck in your views.",
+      "zh": "當你因為新資訊改變了看法，公開講出來。讓大家很清楚看到你不是死抱著自己的立場。",
+      "why": "share it publicly 是重點：改變想法只有被看見才會轉成信譽。stuck in your views 是常見說法，指「被自己的立場卡住」。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Changing my mind on this—here's what moved me.",
+        "I argued for [X] last month. New data says [Y]. Updating."
+      ],
+      "pmNote": "公開改變想法，是讓別人願意跟你辯論的前提。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "14 habits of highly effective product managers",
+      "url": "https://www.lennysnewsletter.com/p/14-habits-of-highly-effective-product-managers",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-200",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "“Normally, I want you all to feel great about the direction, but I feel strongly about this path, so can we just try it and see how it goes? If I’m wrong, I’m wrong, and I’ll take full responsibility.”",
+      "zh": "平常我希望大家對方向都有好感覺，但這條路我立場很堅定，我們就先試試看好嗎？如果我錯了就是我錯了，我會全部扛下來。",
+      "why": "先承認自己在破例（Normally...），再堅持，再把風險攬到自己身上。If I'm wrong, I'm wrong 的重複很口語但很有力，讓「我決定了」不變成「我不聽了」。",
+      "register": "written",
+      "difficulty": 3,
+      "swaps": [
+        "I know this isn't consensus. I'm making the call and I'll own the outcome.",
+        "Overriding on this one—if it goes badly, that's on me."
+      ],
+      "pmNote": "團隊多半不介意意見沒被採納，他們介意的是沒被聽見。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Autonomy vs. direction - Issue 35",
+      "url": "https://www.lennysnewsletter.com/p/autonomy-vs-direction---issue-35",
+      "seek": false
+    },
+    {
+      "id": "w-change-jeff-bezos-201",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": "I disagree and commit and hope it becomes [最好的結果].",
+      "quote": "I wrote back right away with “I disagree and commit and hope it becomes the most watched thing we’ve ever made.”",
+      "zh": "我馬上回信：「我不同意，但我支持，而且希望它成為我們做過最多人看的東西。」",
+      "why": "disagree and commit 是矽谷最實用的一句話：一次說完「我保留意見」和「我不會扯後腿」。後半句的祝福讓它不帶怨氣。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Disagree and commit—count me in on execution.",
+        "Still not sold, but I'm behind it. Let's go."
+      ],
+      "pmNote": "disagree and commit 的價值在速度：省下說服你的那幾週。",
+      "guest": "Jeff Bezos",
+      "timestamp": null,
+      "episode": "Autonomy vs. direction - Issue 35",
+      "url": "https://www.lennysnewsletter.com/p/autonomy-vs-direction---issue-35",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-202",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Hear your team out, take their perspectives into account, but make your decision. Then share your thinking behind the decisions.",
+      "zh": "把團隊的話聽完、把他們的觀點納入考量，但決定還是你要下。然後把你決定背後的思路講出來。",
+      "why": "hear someone out 是「讓對方講完」的固定片語（不只是 listen）。最後那句 share your thinking 是關鍵：決定本身不會讓人服氣，理由才會。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Decision below, plus the reasoning so you can push back on the reasoning.",
+        "Here's the call and why—open to being wrong on the why."
+      ],
+      "pmNote": "決定要快，理由要寫下來；沒寫下來的理由三週後會被重新爭論一次。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "Autonomy vs. direction - Issue 35",
+      "url": "https://www.lennysnewsletter.com/p/autonomy-vs-direction---issue-35",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-203",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": "Simply communicate to [對象] that you plan to [做法], and ask them to let you know by [日期] if they disagree.",
+      "quote": "simply communicate to leadership and associated teams that you plan to tackle a project in an ambiguous area, and ask them to let you know by a specific date if they disagree",
+      "zh": "就直接告訴管理層跟相關團隊你打算要做這件事，並請他們在某個特定日期前告訴你有沒有反對。",
+      "why": "by a specific date 把「等批准」翻轉成「反對請出聲」。這是非同步組織裡最重要的一招，重點是它是通知（heads up），不是請示。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Planning to start on [X] Monday—flag by Friday if you see a problem.",
+        "Proceeding unless I hear otherwise by [date]."
+      ],
+      "pmNote": "關鍵是不要卡在等批准；同時要持續回報進度，否則這招會變成先斬後奏。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "This Week #9: Breaking into growth, leading with influence, and (not) stepping on toes 🦶",
+      "url": "https://www.lennysnewsletter.com/p/this-week-9-breaking-into-growth-leading-with-influence-and-not-stepping-on-toes",
+      "seek": false
+    },
+    {
+      "id": "w-change-lenny-rachitsky-204",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "Say no. Or “not yet.” Prioritizing is another word for sequencing—make it clear that if it isn’t a priority today, that doesn’t mean it won’t ever happen.",
+      "zh": "說不。或說「還不是時候」。排優先順序其實就是排順序——要講清楚，今天不是優先，不代表永遠不做。",
+      "why": "not yet 這兩個字讓被砍掉的人不覺得被判死刑。prioritizing = sequencing 這個等式，可以直接寫進說明變更的信裡當一段話。",
+      "register": "written",
+      "difficulty": 1,
+      "swaps": [
+        "Not yet, not never—this sits behind [X] for now.",
+        "Deprioritized for this quarter, still on the list."
+      ],
+      "pmNote": "砍需求時給對方「什麼條件下會被重新考慮」，比給理由更有效。",
+      "guest": "Lenny Rachitsky",
+      "timestamp": null,
+      "episode": "14 habits of highly effective product managers",
+      "url": "https://www.lennysnewsletter.com/p/14-habits-of-highly-effective-product-managers",
+      "seek": false
+    },
+    {
+      "id": "w-change-jackie-bavaro-205",
+      "fn": "w-change",
+      "group": "updates",
+      "pattern": null,
+      "quote": "“If X, then A is the best choice. If Y, then B is the best choice. I think this situation is X, so A.”",
+      "zh": "如果是 X，A 最好；如果是 Y，B 最好。我判斷這次是 X，所以選 A。",
+      "why": "這個句型讓你在展現思考深度的同時仍然給出答案。多數人停在 It depends 就結束了——最後那句 so A 才是資深跟不資深的分界。",
+      "register": "written",
+      "difficulty": 2,
+      "swaps": [
+        "Depends on whether [X] holds. I believe it does, so I'd go with A.",
+        "Two worlds here. I think we're in the first one, which points to A."
+      ],
+      "pmNote": "只講 it depends 是逃避決定；講完條件還要押一邊。",
+      "guest": "Jackie Bavaro",
+      "timestamp": null,
+      "episode": "Becoming a senior Product Manager",
+      "url": "https://www.lennysnewsletter.com/p/becoming-a-senior-product-manager",
       "seek": false
     }
   ]
