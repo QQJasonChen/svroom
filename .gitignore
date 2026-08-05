@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.DS_Store
+.env*.local
+
+# 原始語料是付費訂閱內容，絕不進 repo
+data/raw/

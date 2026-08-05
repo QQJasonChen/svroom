@@ -1,0 +1,92 @@
+{
+  "schema_version": "1",
+  "note": "商業英語「語言功能」分類法。以 speech act（語言行為）為軸，而非文法或主題。每個功能都綁一個 PM 工作場景，讓學語言的同時吸收 PM 知識。",
+  "groups": [
+    {
+      "id": "advocate",
+      "zh": "主張與說服",
+      "en": "Advocate & Persuade",
+      "blurb": "把腦中的想法，變成別人願意買單的提案。",
+      "functions": [
+        { "id": "proposing-idea", "zh": "提出一個想法", "en": "Proposing an idea", "scene": "你在 roadmap 會議上第一次拋出一個新方向", "pm_hook": "問題框架 (framing) 決定了討論的走向" },
+        { "id": "making-the-case", "zh": "建立論點", "en": "Making the case", "scene": "說明為什麼這件事值得做、現在做", "pm_hook": "機會評估 (opportunity sizing)" },
+        { "id": "backing-with-evidence", "zh": "用數據撐住主張", "en": "Backing with evidence", "scene": "用實驗數據或使用者研究支持你的判斷", "pm_hook": "A/B test、北極星指標" },
+        { "id": "persuasive-story", "zh": "用故事說服", "en": "Telling a persuasive story", "scene": "把抽象的策略講成一個聽得下去的故事", "pm_hook": "策略敘事 (strategic narrative)" },
+        { "id": "handling-objections", "zh": "接住反對意見", "en": "Handling objections", "scene": "有人當場質疑你的提案", "pm_hook": "預先處理反對 (pre-mortem)" }
+      ]
+    },
+    {
+      "id": "negotiate",
+      "zh": "異議與協商",
+      "en": "Disagree & Negotiate",
+      "blurb": "在不撕破臉的前提下，說出不同意見、守住優先順序。",
+      "functions": [
+        { "id": "polite-disagreement", "zh": "有禮貌地反對", "en": "Disagreeing politely", "scene": "你不同意主管或同事，但不想製造對立", "pm_hook": "disagree and commit" },
+        { "id": "challenging-assumptions", "zh": "挑戰假設", "en": "Challenging assumptions", "scene": "團隊把某件事當理所當然，你想拆開來看", "pm_hook": "first principles、假設驗證" },
+        { "id": "saying-no", "zh": "說不與擋需求", "en": "Saying no", "scene": "業務／老闆丟一個需求進來，你必須擋掉", "pm_hook": "範疇管理 (scope control)" },
+        { "id": "trade-offs", "zh": "談取捨與優先順序", "en": "Talking trade-offs", "scene": "解釋為什麼 A 排在 B 前面", "pm_hook": "RICE、機會成本" },
+        { "id": "asking-for-resources", "zh": "爭取資源", "en": "Asking for resources", "scene": "要人、要時間、要預算", "pm_hook": "資源配置談判" }
+      ]
+    },
+    {
+      "id": "people",
+      "zh": "回饋與帶人",
+      "en": "Feedback & People",
+      "blurb": "最難講的話，通常是關於人的話。",
+      "functions": [
+        { "id": "hard-feedback", "zh": "給難聽的回饋", "en": "Giving hard feedback", "scene": "要告訴一個人他做得不夠好", "pm_hook": "radical candor" },
+        { "id": "recognition", "zh": "稱讚與肯定", "en": "Giving recognition", "scene": "公開肯定一個人的貢獻", "pm_hook": "團隊動能" },
+        { "id": "coaching-questions", "zh": "教練式提問", "en": "Asking coaching questions", "scene": "不給答案，用問題帶對方想清楚", "pm_hook": "1:1 帶人" },
+        { "id": "managing-conflict", "zh": "處理衝突", "en": "Managing conflict", "scene": "兩個團隊卡住互相指責", "pm_hook": "跨團隊協作" }
+      ]
+    },
+    {
+      "id": "meetings",
+      "zh": "會議與對齊",
+      "en": "Meetings & Alignment",
+      "blurb": "英文會議裡最痛的三件事：插不上話、聽不懂在收斂什麼、不知道怎麼結尾。",
+      "functions": [
+        { "id": "running-meeting", "zh": "主持與推進會議", "en": "Running a meeting", "scene": "你要讓一場發散的會議回到正軌", "pm_hook": "會議設計" },
+        { "id": "interrupting", "zh": "優雅地插話", "en": "Interrupting gracefully", "scene": "母語者講不停，你需要切進去", "pm_hook": "會議中的存在感" },
+        { "id": "clarifying", "zh": "澄清與確認理解", "en": "Clarifying understanding", "scene": "你沒聽懂，但不想顯得沒跟上", "pm_hook": "對齊 (alignment)" },
+        { "id": "summarizing", "zh": "總結與收斂決議", "en": "Summarizing & closing", "scene": "會議最後把結論與 owner 定下來", "pm_hook": "決議紀錄、DRI" },
+        { "id": "stakeholder-alignment", "zh": "對齊利害關係人", "en": "Aligning stakeholders", "scene": "會前先把關鍵的人喬好", "pm_hook": "stakeholder management" }
+      ]
+    },
+    {
+      "id": "candor",
+      "zh": "不確定與誠實",
+      "en": "Uncertainty & Candor",
+      "blurb": "承認不知道，是資深的訊號，不是弱點——但要會講。",
+      "functions": [
+        { "id": "admitting-uncertainty", "zh": "承認不知道", "en": "Admitting you don't know", "scene": "被問到你沒把握的事", "pm_hook": "知識誠實 (intellectual honesty)" },
+        { "id": "changing-your-mind", "zh": "改變想法", "en": "Changing your mind", "scene": "新資料出來，你要收回原本的立場", "pm_hook": "strong opinions, loosely held" },
+        { "id": "bad-news", "zh": "報壞消息", "en": "Delivering bad news", "scene": "要延期、砍功能、專案失敗", "pm_hook": "期望管理" },
+        { "id": "owning-mistakes", "zh": "承擔錯誤", "en": "Owning a mistake", "scene": "決策錯了，你要負責", "pm_hook": "事後檢討 (postmortem)" }
+      ]
+    },
+    {
+      "id": "vision",
+      "zh": "願景與方向",
+      "en": "Vision & Direction",
+      "blurb": "資深與資淺的分水嶺：能不能把「為什麼」講清楚。",
+      "functions": [
+        { "id": "painting-vision", "zh": "描繪願景", "en": "Painting a vision", "scene": "讓團隊看到三年後的樣子", "pm_hook": "product vision" },
+        { "id": "framing-problem", "zh": "定義問題", "en": "Framing the problem", "scene": "把模糊的抱怨變成一個可解的問題", "pm_hook": "problem statement" },
+        { "id": "setting-strategy", "zh": "講清楚策略", "en": "Setting strategy", "scene": "解釋我們選這條路、不選那條路", "pm_hook": "策略即取捨" },
+        { "id": "explaining-why", "zh": "解釋為什麼", "en": "Explaining the why", "scene": "團隊問「為什麼要做這個」", "pm_hook": "使命對齊" }
+      ]
+    },
+    {
+      "id": "career",
+      "zh": "職涯與自我表達",
+      "en": "Career & Self",
+      "blurb": "把自己的貢獻講出來，不吹牛也不縮小。",
+      "functions": [
+        { "id": "talking-impact", "zh": "談自己的成績", "en": "Talking about your impact", "scene": "績效面談、升遷簡報", "pm_hook": "影響力量化" },
+        { "id": "interview-answers", "zh": "面試回答", "en": "Answering interview questions", "scene": "英文面試的行為問題", "pm_hook": "STAR 結構" },
+        { "id": "asking-for-advice", "zh": "請教與要建議", "en": "Asking for advice", "scene": "找 mentor、跟資深的人請教", "pm_hook": "建立人脈" }
+      ]
+    }
+  ]
+}
