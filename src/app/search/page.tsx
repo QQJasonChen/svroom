@@ -1,5 +1,6 @@
 import SearchCards from "@/components/SearchCards";
 import { cards, groups } from "@/lib/cards";
+import { concepts } from "@/lib/concepts";
 
 export const metadata = {
   title: "搜尋｜矽谷會議室",
@@ -11,9 +12,9 @@ export default function SearchPage() {
     <div className="mx-auto max-w-3xl px-5 py-12">
       <h1 className="font-serif text-[2rem] tracking-tight mb-2">搜尋</h1>
       <p className="text-[14px] text-ink-2 leading-relaxed mb-7">
-        知道自己想表達什麼、但不知道英文怎麼講的時候，直接搜中文。
+        知道自己想表達什麼、但不知道英文怎麼講的時候，直接搜中文。句型卡和 PM 概念會一起找。
       </p>
-      <SearchCards cards={cards} groups={groups} />
+      <SearchCards cards={cards} groups={groups} concepts={concepts} />
     </div>
   );
 }

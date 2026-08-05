@@ -76,7 +76,9 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
               rel="noopener noreferrer"
               className="ml-auto underline underline-offset-2 hover:text-rust"
             >
-              聽原句 ↗
+              {card.seek && card.timestamp
+                ? `從 ${card.timestamp.replace(/^00:/, "")} 聽起 ↗`
+                : "聽原句 ↗"}
             </a>
           )}
         </div>

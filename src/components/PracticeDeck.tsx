@@ -194,7 +194,7 @@ export default function PracticeDeck({ cards, groups }: Props) {
                         rel="noopener noreferrer"
                         className="underline underline-offset-2 hover:text-rust"
                       >
-                        聽原句 ↗
+                        {card.seek ? "從這句聽起 ↗" : "聽原句 ↗"}
                       </a>
                     </>
                   )}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CardView from "@/components/CardView";
 import { cards, cardsFor, getFn, groups } from "@/lib/cards";
+import { conceptsForFunction } from "@/lib/concepts";
 
 export function generateStaticParams() {
   // 只為「有卡片」的功能產頁面，避免 build 出一堆空頁
@@ -32,6 +33,7 @@ export default async function FunctionPage({
   if (!entry) notFound();
 
   const list = cardsFor(fn);
+  const relatedConcepts = conceptsForFunction(fn);
   const group = groups.find((g) => g.id === entry.group.id)!;
   const siblings = group.functions.filter(
     (f) => f.id !== fn && cards.some((c) => c.fn === f.id),
@@ -79,6 +81,30 @@ export default async function FunctionPage({
           <CardView key={card.id} card={card} n={i + 1} />
         ))}
       </div>
+
+      {relatedConcepts.length > 0 && (
+        <section className="mt-14 pt-7 border-t border-rule">
+          <p className="rule-label mb-1">這些句型背後的 PM 判斷</p>
+          <p className="text-[12.5px] text-ink-3 mb-4">
+            會用這組說法的場合，通常在處理下面這些問題：
+          </p>
+          <div className="grid gap-px bg-rule border border-rule sm:grid-cols-2">
+            {relatedConcepts.map((c) => (
+              <Link
+                key={c.id}
+                href={`/pm/${c.id}/`}
+                className="bg-paper px-4 py-3.5 hover:bg-rust-soft transition-colors"
+              >
+                <span className="text-[14px] font-medium">{c.zh}</span>
+                <span className="ml-2 text-[11px] text-ink-3">{c.term}</span>
+                <p className="mt-1 text-[12px] text-ink-3 leading-relaxed">
+                  {c.oneLiner}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {siblings.length > 0 && (
         <nav className="mt-14 pt-7 border-t border-rule">

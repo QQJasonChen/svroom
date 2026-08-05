@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:57:50.353Z",
+  "generated_at": "2026-08-05T17:42:11.916Z",
   "count": 363,
   "cards": [
     {
@@ -20,7 +20,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:00:30",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "making-the-case-adam-mosseri-1",
@@ -40,7 +41,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:00:00",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "framing-problem-adam-mosseri-2",
@@ -60,7 +62,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:06:14",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "explaining-why-adam-mosseri-3",
@@ -81,7 +84,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:03:57",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "trade-offs-adam-mosseri-4",
@@ -102,7 +106,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:02:33",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-adam-mosseri-5",
@@ -122,7 +127,8 @@
       "guest": "Adam Mosseri",
       "timestamp": "00:00:45",
       "episode": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for"
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "seek": false
     },
     {
       "id": "making-the-case-matthew-dicks-6",
@@ -143,7 +149,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:00:00",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=0s",
+      "seek": true
     },
     {
       "id": "persuasive-story-matthew-dicks-7",
@@ -163,7 +170,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:23:32",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=1410s",
+      "seek": true
     },
     {
       "id": "persuasive-story-matthew-dicks-8",
@@ -183,7 +191,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:24:17",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=1455s",
+      "seek": true
     },
     {
       "id": "making-the-case-matthew-dicks-9",
@@ -203,7 +212,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:34:25",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2063s",
+      "seek": true
     },
     {
       "id": "recognition-matthew-dicks-10",
@@ -224,7 +234,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:43:04",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2582s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-matthew-dicks-11",
@@ -244,7 +255,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:08:29",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=4107s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-matthew-dicks-12",
@@ -264,7 +276,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:09:07",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=4145s",
+      "seek": true
     },
     {
       "id": "proposing-idea-matthew-dicks-13",
@@ -284,7 +297,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:03:33",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=3811s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-matthew-dicks-14",
@@ -305,7 +319,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:25:53",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=5151s",
+      "seek": true
     },
     {
       "id": "handling-objections-matthew-dicks-15",
@@ -325,7 +340,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:26:34",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=5192s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-matthew-dicks-16",
@@ -345,7 +361,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:49:52",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2990s",
+      "seek": true
     },
     {
       "id": "framing-problem-matthew-dicks-17",
@@ -365,7 +382,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "01:23:09",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=4987s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-matthew-dicks-18",
@@ -385,7 +403,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:41:34",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2492s",
+      "seek": true
     },
     {
       "id": "framing-problem-matthew-dicks-19",
@@ -405,7 +424,8 @@
       "guest": "Matthew Dicks",
       "timestamp": "00:34:25",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2063s",
+      "seek": true
     },
     {
       "id": "framing-problem-andy-raskin-20",
@@ -425,7 +445,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:00:00",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=0s",
+      "seek": true
     },
     {
       "id": "handling-objections-andy-raskin-21",
@@ -445,7 +466,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:09:24",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=562s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-andy-raskin-22",
@@ -465,7 +487,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:08:19",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=497s",
+      "seek": true
     },
     {
       "id": "trade-offs-andy-raskin-23",
@@ -485,7 +508,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:20:11",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=1209s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-andy-raskin-24",
@@ -505,7 +529,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:41:06",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=2464s",
+      "seek": true
     },
     {
       "id": "handling-objections-andy-raskin-25",
@@ -525,7 +550,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:40:55",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=2453s",
+      "seek": true
     },
     {
       "id": "trade-offs-andy-raskin-26",
@@ -545,7 +571,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:43:45",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=2623s",
+      "seek": true
     },
     {
       "id": "saying-no-andy-raskin-27",
@@ -565,7 +592,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:50:41",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=3039s",
+      "seek": true
     },
     {
       "id": "making-the-case-andy-raskin-28",
@@ -585,7 +613,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:54:30",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=3268s",
+      "seek": true
     },
     {
       "id": "coaching-questions-andy-raskin-29",
@@ -605,7 +634,8 @@
       "guest": "Andy Raskin",
       "timestamp": "00:52:58",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=3176s",
+      "seek": true
     },
     {
       "id": "clarifying-april-dunford-30",
@@ -626,7 +656,8 @@
       "guest": "April Dunford",
       "timestamp": "00:11:30",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-april-dunford-31",
@@ -646,7 +677,8 @@
       "guest": "April Dunford",
       "timestamp": "00:24:57",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "stakeholder-alignment-april-dunford-32",
@@ -666,7 +698,8 @@
       "guest": "April Dunford",
       "timestamp": "00:13:00",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-april-dunford-33",
@@ -686,7 +719,8 @@
       "guest": "April Dunford",
       "timestamp": "00:21:56",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "summarizing-april-dunford-34",
@@ -707,7 +741,8 @@
       "guest": "April Dunford",
       "timestamp": "00:25:10",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "proposing-idea-april-dunford-35",
@@ -727,7 +762,8 @@
       "guest": "April Dunford",
       "timestamp": "00:56:01",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "handling-objections-april-dunford-36",
@@ -747,7 +783,8 @@
       "guest": "April Dunford",
       "timestamp": "00:45:39",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-april-dunford-37",
@@ -767,7 +804,8 @@
       "guest": "April Dunford",
       "timestamp": "00:57:46",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "making-the-case-april-dunford-38",
@@ -788,7 +826,8 @@
       "guest": "April Dunford",
       "timestamp": "00:25:37",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-april-dunford-39",
@@ -809,7 +848,8 @@
       "guest": "April Dunford",
       "timestamp": "00:35:58",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-april-dunford-40",
@@ -829,7 +869,8 @@
       "guest": "April Dunford",
       "timestamp": "00:18:26",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "backing-with-evidence-april-dunford-41",
@@ -849,7 +890,8 @@
       "guest": "April Dunford",
       "timestamp": "00:19:18",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-april-dunford-42",
@@ -869,7 +911,8 @@
       "guest": "April Dunford",
       "timestamp": "00:55:26",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-april-dunford-43",
@@ -889,7 +932,8 @@
       "guest": "April Dunford",
       "timestamp": "00:46:12",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-jen-abel-44",
@@ -909,7 +953,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:00:06",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=4s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-jen-abel-45",
@@ -929,7 +974,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:12:19",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=737s",
+      "seek": true
     },
     {
       "id": "hard-feedback-jen-abel-46",
@@ -949,7 +995,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:18:51",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=1129s",
+      "seek": true
     },
     {
       "id": "proposing-idea-jen-abel-47",
@@ -970,7 +1017,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:21:22",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=1280s",
+      "seek": true
     },
     {
       "id": "handling-objections-jen-abel-48",
@@ -990,7 +1038,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:47:15",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=2833s",
+      "seek": true
     },
     {
       "id": "trade-offs-jen-abel-49",
@@ -1010,7 +1059,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:45:12",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=2710s",
+      "seek": true
     },
     {
       "id": "asking-for-resources-jen-abel-50",
@@ -1030,7 +1080,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:00:54",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3652s",
+      "seek": true
     },
     {
       "id": "framing-problem-jen-abel-51",
@@ -1050,7 +1101,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:10:25",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=4223s",
+      "seek": true
     },
     {
       "id": "coaching-questions-jen-abel-52",
@@ -1070,7 +1122,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:06:10",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3968s",
+      "seek": true
     },
     {
       "id": "bad-news-jen-abel-53",
@@ -1090,7 +1143,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:02:08",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3726s",
+      "seek": true
     },
     {
       "id": "bad-news-jen-abel-54",
@@ -1110,7 +1164,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:09:54",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=4192s",
+      "seek": true
     },
     {
       "id": "trade-offs-jen-abel-55",
@@ -1130,7 +1185,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:04:39",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3877s",
+      "seek": true
     },
     {
       "id": "setting-strategy-jen-abel-56",
@@ -1150,7 +1206,8 @@
       "guest": "Jen Abel",
       "timestamp": "01:14:19",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=4457s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-jen-abel-57",
@@ -1170,7 +1227,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:31:15",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=1873s",
+      "seek": true
     },
     {
       "id": "asking-for-advice-jen-abel-58",
@@ -1190,7 +1248,8 @@
       "guest": "Jen Abel",
       "timestamp": "00:00:45",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=43s",
+      "seek": true
     },
     {
       "id": "summarizing-lenny-rachitsky-59",
@@ -1211,7 +1270,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:29:18",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=1756s",
+      "seek": true
     },
     {
       "id": "interrupting-lenny-rachitsky-60",
@@ -1231,7 +1291,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:17:53",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=1071s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-61",
@@ -1252,7 +1313,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:19:27",
       "episode": "The power of strategic narrative | Andy Raskin",
-      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE"
+      "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=1165s",
+      "seek": true
     },
     {
       "id": "summarizing-lenny-rachitsky-62",
@@ -1272,7 +1334,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:27:52",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=1670s",
+      "seek": true
     },
     {
       "id": "clarifying-lenny-rachitsky-63",
@@ -1292,7 +1355,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:10:58",
       "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "running-meeting-lenny-rachitsky-64",
@@ -1312,7 +1376,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "01:17:47",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=4665s",
+      "seek": true
     },
     {
       "id": "clarifying-lenny-rachitsky-65",
@@ -1332,7 +1397,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:56:20",
       "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA"
+      "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3378s",
+      "seek": true
     },
     {
       "id": "coaching-questions-lenny-rachitsky-66",
@@ -1352,7 +1418,8 @@
       "guest": "Lenny Rachitsky（主持人）",
       "timestamp": "00:49:07",
       "episode": "How to tell better stories | Matthew Dicks (Storyworthy)",
-      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A"
+      "url": "https://www.youtube.com/watch?v=J4wguyJZI6A&t=2945s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-joe-hudson-67",
@@ -1372,7 +1439,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:25:13",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1511s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-joe-hudson-68",
@@ -1392,7 +1460,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:20:03",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1201s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-joe-hudson-69",
@@ -1412,7 +1481,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:21:14",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1272s",
+      "seek": true
     },
     {
       "id": "hard-feedback-joe-hudson-70",
@@ -1432,7 +1502,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:25:13",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1511s",
+      "seek": true
     },
     {
       "id": "hard-feedback-joe-hudson-71",
@@ -1452,7 +1523,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:59:57",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=3595s",
+      "seek": true
     },
     {
       "id": "bad-news-joe-hudson-72",
@@ -1472,7 +1544,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:59:57",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=3595s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-joe-hudson-73",
@@ -1492,7 +1565,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:38:04",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=2282s",
+      "seek": true
     },
     {
       "id": "handling-objections-joe-hudson-74",
@@ -1512,7 +1586,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:39:57",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=2395s",
+      "seek": true
     },
     {
       "id": "handling-objections-joe-hudson-75",
@@ -1532,7 +1607,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:53:58",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=3236s",
+      "seek": true
     },
     {
       "id": "clarifying-lenny-rachitsky-76",
@@ -1552,7 +1628,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:17:06",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1024s",
+      "seek": true
     },
     {
       "id": "framing-problem-joe-hudson-77",
@@ -1572,7 +1649,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:18:53",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1131s",
+      "seek": true
     },
     {
       "id": "running-meeting-joe-hudson-78",
@@ -1592,7 +1670,8 @@
       "guest": "Joe Hudson",
       "timestamp": "00:59:03",
       "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
-      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts"
+      "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=3541s",
+      "seek": true
     },
     {
       "id": "clarifying-jerry-colonna-79",
@@ -1612,7 +1691,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:04:45",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=283s",
+      "seek": true
     },
     {
       "id": "framing-problem-jerry-colonna-80",
@@ -1632,7 +1712,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:04:58",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=296s",
+      "seek": true
     },
     {
       "id": "interrupting-jerry-colonna-81",
@@ -1652,7 +1733,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:16:17",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=975s",
+      "seek": true
     },
     {
       "id": "clarifying-jerry-colonna-82",
@@ -1672,7 +1754,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:16:17",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=975s",
+      "seek": true
     },
     {
       "id": "summarizing-jerry-colonna-83",
@@ -1692,7 +1775,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:17:28",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=1046s",
+      "seek": true
     },
     {
       "id": "recognition-jerry-colonna-84",
@@ -1712,7 +1796,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:17:28",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=1046s",
+      "seek": true
     },
     {
       "id": "bad-news-jerry-colonna-85",
@@ -1732,7 +1817,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:18:25",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=1103s",
+      "seek": true
     },
     {
       "id": "coaching-questions-jerry-colonna-86",
@@ -1752,7 +1838,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:31:52",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=1910s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-jerry-colonna-87",
@@ -1772,7 +1859,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:32:52",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=1970s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-jerry-colonna-88",
@@ -1792,7 +1880,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:44:03",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=2641s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-jerry-colonna-89",
@@ -1812,7 +1901,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:52:55",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=3173s",
+      "seek": true
     },
     {
       "id": "interrupting-jerry-colonna-90",
@@ -1832,7 +1922,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:51:15",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=3073s",
+      "seek": true
     },
     {
       "id": "changing-your-mind-jerry-colonna-91",
@@ -1852,7 +1943,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:57:45",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=3463s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-jerry-colonna-92",
@@ -1872,7 +1964,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "00:59:46",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=3584s",
+      "seek": true
     },
     {
       "id": "handling-objections-jerry-colonna-93",
@@ -1892,7 +1985,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:05:18",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=3916s",
+      "seek": true
     },
     {
       "id": "summarizing-jerry-colonna-94",
@@ -1912,7 +2006,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:06:48",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=4006s",
+      "seek": true
     },
     {
       "id": "managing-conflict-jerry-colonna-95",
@@ -1932,7 +2027,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:12:40",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=4358s",
+      "seek": true
     },
     {
       "id": "making-the-case-jerry-colonna-96",
@@ -1952,7 +2048,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:16:55",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=4613s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-jerry-colonna-97",
@@ -1972,7 +2069,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:17:28",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=4646s",
+      "seek": true
     },
     {
       "id": "coaching-questions-jerry-colonna-98",
@@ -1992,7 +2090,8 @@
       "guest": "Jerry Colonna",
       "timestamp": "01:16:05",
       "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
-      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us"
+      "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=4563s",
+      "seek": true
     },
     {
       "id": "asking-for-advice-deb-liu-99",
@@ -2012,7 +2111,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:13:37",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-deb-liu-100",
@@ -2032,7 +2132,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:18:52",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "bad-news-deb-liu-101",
@@ -2052,7 +2153,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:20:27",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "coaching-questions-deb-liu-102",
@@ -2072,7 +2174,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:24:05",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-deb-liu-103",
@@ -2092,7 +2195,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:35:28",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "recognition-deb-liu-104",
@@ -2112,7 +2216,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:39:56",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "coaching-questions-deb-liu-105",
@@ -2132,7 +2237,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:41:07",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-deb-liu-106",
@@ -2152,7 +2258,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:38:14",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-advice-deb-liu-107",
@@ -2172,7 +2279,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:53:17",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-resources-deb-liu-108",
@@ -2192,7 +2300,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:54:28",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "summarizing-deb-liu-109",
@@ -2212,7 +2321,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:55:53",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-deb-liu-110",
@@ -2232,7 +2342,8 @@
       "guest": "Deb Liu",
       "timestamp": "00:54:53",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-deb-liu-111",
@@ -2252,7 +2363,8 @@
       "guest": "Deb Liu",
       "timestamp": "01:01:33",
       "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-advice-ethan-evans-112",
@@ -2272,7 +2384,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:07:14",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-ethan-evans-113",
@@ -2292,7 +2405,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:11:12",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "bad-news-ethan-evans-114",
@@ -2312,7 +2426,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:25:42",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "owning-mistakes-ethan-evans-115",
@@ -2332,7 +2447,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:44:14",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "bad-news-ethan-evans-116",
@@ -2352,7 +2468,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:44:14",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "managing-conflict-ethan-evans-117",
@@ -2372,7 +2489,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:45:17",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "managing-conflict-ethan-evans-118",
@@ -2392,7 +2510,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:48:35",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "owning-mistakes-ethan-evans-119",
@@ -2412,7 +2531,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:53:11",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "recognition-ethan-evans-120",
@@ -2432,7 +2552,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:54:15",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-ethan-evans-121",
@@ -2452,7 +2573,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:54:55",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-ethan-evans-122",
@@ -2472,7 +2594,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:59:38",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "trade-offs-ethan-evans-123",
@@ -2492,7 +2615,8 @@
       "guest": "Ethan Evans",
       "timestamp": "01:04:05",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-ethan-evans-124",
@@ -2512,7 +2636,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:37:32",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-ethan-evans-125",
@@ -2532,7 +2657,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:11:36",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-ethan-evans-126",
@@ -2552,7 +2678,8 @@
       "guest": "Ethan Evans",
       "timestamp": "00:16:09",
       "episode": "Taking control of your career | Ethan Evans (Amazon)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-marty-cagan-127",
@@ -2573,7 +2700,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:36:56",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-marty-cagan-128",
@@ -2594,7 +2722,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:36:56",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-resources-marty-cagan-129",
@@ -2615,7 +2744,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:35:42",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "making-the-case-marty-cagan-130",
@@ -2635,7 +2765,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:35:42",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-marty-cagan-131",
@@ -2656,7 +2787,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:13:04",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-marty-cagan-132",
@@ -2677,7 +2809,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:13:04",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "trade-offs-marty-cagan-133",
@@ -2698,7 +2831,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:26:19",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-marty-cagan-134",
@@ -2719,7 +2853,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:52:34",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-marty-cagan-135",
@@ -2740,7 +2875,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:27:51",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-marty-cagan-136",
@@ -2761,7 +2897,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:32:45",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-marty-cagan-137",
@@ -2782,7 +2919,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:38:55",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-marty-cagan-138",
@@ -2803,7 +2941,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:38:55",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "summarizing-marty-cagan-139",
@@ -2824,7 +2963,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:42:38",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-marty-cagan-140",
@@ -2845,7 +2985,8 @@
       "guest": "Marty Cagan",
       "timestamp": "00:14:45",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-lenny-rachitsky-141",
@@ -2866,7 +3007,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:55:12",
       "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-jackie-bavaro-142",
@@ -2887,7 +3029,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:08:28",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-jackie-bavaro-143",
@@ -2908,7 +3051,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:09:17",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "handling-objections-jackie-bavaro-144",
@@ -2929,7 +3073,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:09:03",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-resources-jackie-bavaro-145",
@@ -2950,7 +3095,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:13:01",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "stakeholder-alignment-jackie-bavaro-146",
@@ -2971,7 +3117,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:12:39",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-advice-jackie-bavaro-147",
@@ -2992,7 +3139,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:37:03",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "changing-your-mind-jackie-bavaro-148",
@@ -3013,7 +3161,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:29:44",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-jackie-bavaro-149",
@@ -3034,7 +3183,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:29:44",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-jackie-bavaro-150",
@@ -3055,7 +3205,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:23:44",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "managing-conflict-jackie-bavaro-151",
@@ -3076,7 +3227,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:34:39",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "handling-objections-jackie-bavaro-152",
@@ -3097,7 +3249,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:35:42",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-jackie-bavaro-153",
@@ -3118,7 +3271,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:21:21",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "trade-offs-jackie-bavaro-154",
@@ -3139,7 +3293,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:39:56",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-jackie-bavaro-155",
@@ -3160,7 +3315,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:41:08",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "owning-mistakes-jackie-bavaro-156",
@@ -3181,7 +3337,8 @@
       "guest": "Jackie Bavaro",
       "timestamp": "00:48:00",
       "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-john-cutler-157",
@@ -3202,7 +3359,8 @@
       "guest": "John Cutler",
       "timestamp": "00:20:29",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=1227s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-john-cutler-158",
@@ -3223,7 +3381,8 @@
       "guest": "John Cutler",
       "timestamp": "01:16:34",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4592s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-john-cutler-159",
@@ -3244,7 +3403,8 @@
       "guest": "John Cutler",
       "timestamp": "01:14:03",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4441s",
+      "seek": true
     },
     {
       "id": "trade-offs-john-cutler-160",
@@ -3265,7 +3425,8 @@
       "guest": "John Cutler",
       "timestamp": "00:26:41",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=1599s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-john-cutler-161",
@@ -3286,7 +3447,8 @@
       "guest": "John Cutler",
       "timestamp": "00:41:18",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=2476s",
+      "seek": true
     },
     {
       "id": "changing-your-mind-john-cutler-162",
@@ -3307,7 +3469,8 @@
       "guest": "John Cutler",
       "timestamp": "00:42:46",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=2564s",
+      "seek": true
     },
     {
       "id": "handling-objections-john-cutler-163",
@@ -3328,7 +3491,8 @@
       "guest": "John Cutler",
       "timestamp": "00:38:41",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=2319s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-john-cutler-164",
@@ -3349,7 +3513,8 @@
       "guest": "John Cutler",
       "timestamp": "01:18:50",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4728s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-165",
@@ -3370,7 +3535,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "01:17:54",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4672s",
+      "seek": true
     },
     {
       "id": "summarizing-lenny-rachitsky-166",
@@ -3391,7 +3557,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:40:08",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=2406s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-john-cutler-167",
@@ -3412,7 +3579,8 @@
       "guest": "John Cutler",
       "timestamp": "00:53:46",
       "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
-      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk"
+      "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=3224s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-shaun-clowes-168",
@@ -3433,7 +3601,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:11:50",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=708s",
+      "seek": true
     },
     {
       "id": "saying-no-shaun-clowes-169",
@@ -3454,7 +3623,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:08:12",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=490s",
+      "seek": true
     },
     {
       "id": "trade-offs-shaun-clowes-170",
@@ -3475,7 +3645,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:46:52",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=2810s",
+      "seek": true
     },
     {
       "id": "handling-objections-shaun-clowes-171",
@@ -3496,7 +3667,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:50:44",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=3042s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-shaun-clowes-172",
@@ -3517,7 +3689,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:36:48",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=2206s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-shaun-clowes-173",
@@ -3538,7 +3711,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:40:18",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=2416s",
+      "seek": true
     },
     {
       "id": "handling-objections-shaun-clowes-174",
@@ -3559,7 +3733,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:40:18",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=2416s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-shaun-clowes-175",
@@ -3580,7 +3755,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:44:14",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=2652s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-shaun-clowes-176",
@@ -3601,7 +3777,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:29:42",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=1780s",
+      "seek": true
     },
     {
       "id": "bad-news-shaun-clowes-177",
@@ -3622,7 +3799,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:23:51",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=1429s",
+      "seek": true
     },
     {
       "id": "trade-offs-shaun-clowes-178",
@@ -3643,7 +3821,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:13:32",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4410s",
+      "seek": true
     },
     {
       "id": "saying-no-shaun-clowes-179",
@@ -3664,7 +3843,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:12:41",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4359s",
+      "seek": true
     },
     {
       "id": "owning-mistakes-shaun-clowes-180",
@@ -3685,7 +3865,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:10:29",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4227s",
+      "seek": true
     },
     {
       "id": "bad-news-shaun-clowes-181",
@@ -3706,7 +3887,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:11:11",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4269s",
+      "seek": true
     },
     {
       "id": "recognition-shaun-clowes-182",
@@ -3727,7 +3909,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:15:50",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4548s",
+      "seek": true
     },
     {
       "id": "talking-impact-shaun-clowes-183",
@@ -3748,7 +3931,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "00:56:42",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=3400s",
+      "seek": true
     },
     {
       "id": "coaching-questions-shaun-clowes-184",
@@ -3769,7 +3953,8 @@
       "guest": "Shaun Clowes",
       "timestamp": "01:17:07",
       "episode": "Why great AI products are all about the data | Shaun Clowes (CPO Confluent, ex-Salesforce, Atlassian)",
-      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU"
+      "url": "https://www.youtube.com/watch?v=yVS1gTAQYSU&t=4625s",
+      "seek": true
     },
     {
       "id": "framing-problem-dalton-caldwell-185",
@@ -3789,7 +3974,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:24:10",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1448s",
+      "seek": true
     },
     {
       "id": "framing-problem-dalton-caldwell-186",
@@ -3810,7 +3996,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:37:23",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=2241s",
+      "seek": true
     },
     {
       "id": "framing-problem-dalton-caldwell-187",
@@ -3831,7 +4018,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:07:14",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=432s",
+      "seek": true
     },
     {
       "id": "framing-problem-dalton-caldwell-188",
@@ -3852,7 +4040,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "01:06:35",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=3993s",
+      "seek": true
     },
     {
       "id": "setting-strategy-dalton-caldwell-189",
@@ -3873,7 +4062,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:22:37",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1355s",
+      "seek": true
     },
     {
       "id": "setting-strategy-dalton-caldwell-190",
@@ -3893,7 +4083,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "01:11:20",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=4278s",
+      "seek": true
     },
     {
       "id": "explaining-why-dalton-caldwell-191",
@@ -3913,7 +4104,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:27:09",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1627s",
+      "seek": true
     },
     {
       "id": "handling-objections-dalton-caldwell-192",
@@ -3934,7 +4126,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:50:31",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=3029s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-dalton-caldwell-193",
@@ -3954,7 +4147,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:29:25",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1763s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-dalton-caldwell-194",
@@ -3974,7 +4168,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:23:24",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1402s",
+      "seek": true
     },
     {
       "id": "making-the-case-dalton-caldwell-195",
@@ -3994,7 +4189,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "01:06:35",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=3993s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-dalton-caldwell-196",
@@ -4014,7 +4210,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:09:01",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=539s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-dalton-caldwell-197",
@@ -4035,7 +4232,8 @@
       "guest": "Dalton Caldwell",
       "timestamp": "00:20:54",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1252s",
+      "seek": true
     },
     {
       "id": "clarifying-lenny-rachitsky-198",
@@ -4055,7 +4253,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:07:04",
       "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI"
+      "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=422s",
+      "seek": true
     },
     {
       "id": "framing-problem-madhavan-ramanujam-199",
@@ -4075,7 +4274,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:00:00",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=0s",
+      "seek": true
     },
     {
       "id": "framing-problem-madhavan-ramanujam-200",
@@ -4095,7 +4295,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:12:06",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=724s",
+      "seek": true
     },
     {
       "id": "making-the-case-madhavan-ramanujam-201",
@@ -4115,7 +4316,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:14:22",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=860s",
+      "seek": true
     },
     {
       "id": "setting-strategy-madhavan-ramanujam-202",
@@ -4135,7 +4337,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:53:42",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3220s",
+      "seek": true
     },
     {
       "id": "setting-strategy-madhavan-ramanujam-203",
@@ -4155,7 +4358,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:55:01",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3299s",
+      "seek": true
     },
     {
       "id": "setting-strategy-madhavan-ramanujam-204",
@@ -4175,7 +4379,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:00:04",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3602s",
+      "seek": true
     },
     {
       "id": "summarizing-madhavan-ramanujam-205",
@@ -4195,7 +4400,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:21:36",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=1294s",
+      "seek": true
     },
     {
       "id": "clarifying-madhavan-ramanujam-206",
@@ -4215,7 +4421,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:06:08",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3966s",
+      "seek": true
     },
     {
       "id": "handling-objections-madhavan-ramanujam-207",
@@ -4235,7 +4442,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:19:13",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=4751s",
+      "seek": true
     },
     {
       "id": "trade-offs-madhavan-ramanujam-208",
@@ -4255,7 +4463,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:29:36",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=5374s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-madhavan-ramanujam-209",
@@ -4275,7 +4484,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:33:52",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=5630s",
+      "seek": true
     },
     {
       "id": "explaining-why-madhavan-ramanujam-210",
@@ -4295,7 +4505,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:10:40",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=638s",
+      "seek": true
     },
     {
       "id": "running-meeting-madhavan-ramanujam-211",
@@ -4315,7 +4526,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "00:24:15",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=1453s",
+      "seek": true
     },
     {
       "id": "saying-no-madhavan-ramanujam-212",
@@ -4335,7 +4547,8 @@
       "guest": "Madhavan Ramanujam",
       "timestamp": "01:33:02",
       "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.youtube.com/watch?v=NR85H55eYkM"
+      "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=5580s",
+      "seek": true
     },
     {
       "id": "framing-problem-sean-ellis-213",
@@ -4355,7 +4568,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:57:40",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=3458s",
+      "seek": true
     },
     {
       "id": "setting-strategy-sean-ellis-214",
@@ -4375,7 +4589,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:01:36",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=3694s",
+      "seek": true
     },
     {
       "id": "painting-vision-sean-ellis-215",
@@ -4395,7 +4610,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:48:45",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2923s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-sean-ellis-216",
@@ -4416,7 +4632,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:27:42",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=1660s",
+      "seek": true
     },
     {
       "id": "interrupting-sean-ellis-217",
@@ -4437,7 +4654,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:46:10",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2768s",
+      "seek": true
     },
     {
       "id": "owning-mistakes-sean-ellis-218",
@@ -4457,7 +4675,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:46:34",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2792s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-sean-ellis-219",
@@ -4477,7 +4696,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:27:36",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=5254s",
+      "seek": true
     },
     {
       "id": "handling-objections-sean-ellis-220",
@@ -4497,7 +4717,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:27:36",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=5254s",
+      "seek": true
     },
     {
       "id": "recognition-sean-ellis-221",
@@ -4517,7 +4738,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:55:24",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=3322s",
+      "seek": true
     },
     {
       "id": "talking-impact-sean-ellis-222",
@@ -4537,7 +4759,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:30:24",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=5422s",
+      "seek": true
     },
     {
       "id": "changing-your-mind-sean-ellis-223",
@@ -4557,7 +4780,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:11:45",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=4303s",
+      "seek": true
     },
     {
       "id": "running-meeting-sean-ellis-224",
@@ -4577,7 +4801,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:19:50",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=4788s",
+      "seek": true
     },
     {
       "id": "handling-objections-sean-ellis-225",
@@ -4597,7 +4822,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:14:56",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=4494s",
+      "seek": true
     },
     {
       "id": "trade-offs-sean-ellis-226",
@@ -4617,7 +4843,8 @@
       "guest": "Sean Ellis",
       "timestamp": "00:35:17",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2115s",
+      "seek": true
     },
     {
       "id": "trade-offs-sean-ellis-227",
@@ -4637,7 +4864,8 @@
       "guest": "Sean Ellis",
       "timestamp": "01:38:22",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=5900s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-228",
@@ -4658,7 +4886,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:14:11",
       "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
-      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s"
+      "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=849s",
+      "seek": true
     },
     {
       "id": "framing-problem-elena-verna-229",
@@ -4678,7 +4907,8 @@
       "guest": "Elena Verna",
       "timestamp": "01:14:08",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-elena-verna-230",
@@ -4698,7 +4928,8 @@
       "guest": "Elena Verna",
       "timestamp": "01:14:08",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-elena-verna-231",
@@ -4718,7 +4949,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:23:57",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "backing-with-evidence-elena-verna-232",
@@ -4738,7 +4970,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:19:23",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "setting-strategy-elena-verna-233",
@@ -4758,7 +4991,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:31:19",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "setting-strategy-elena-verna-234",
@@ -4779,7 +5013,8 @@
       "guest": "Elena Verna",
       "timestamp": "01:07:52",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "framing-problem-elena-verna-235",
@@ -4799,7 +5034,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:40:12",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-elena-verna-236",
@@ -4819,7 +5055,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:34:49",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "painting-vision-elena-verna-237",
@@ -4839,7 +5076,8 @@
       "guest": "Elena Verna",
       "timestamp": "01:00:33",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "making-the-case-elena-verna-238",
@@ -4859,7 +5097,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:47:05",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-elena-verna-239",
@@ -4879,7 +5118,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:16:59",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "trade-offs-elena-verna-240",
@@ -4899,7 +5139,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:20:22",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-resources-elena-verna-241",
@@ -4919,7 +5160,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:24:38",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-elena-verna-242",
@@ -4939,7 +5181,8 @@
       "guest": "Elena Verna",
       "timestamp": "00:39:19",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-advice-elena-verna-243",
@@ -4959,7 +5202,8 @@
       "guest": "Elena Verna",
       "timestamp": "01:04:57",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "running-meeting-lenny-rachitsky-244",
@@ -4980,7 +5224,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "01:15:09",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-lenny-rachitsky-245",
@@ -5000,7 +5245,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:58:13",
       "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-lenny-rachitsky-246",
@@ -5021,7 +5267,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:57:48",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3466s",
+      "seek": true
     },
     {
       "id": "interrupting-lenny-rachitsky-247",
@@ -5042,7 +5289,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:51:54",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3112s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-248",
@@ -5063,7 +5311,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:14:45",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=883s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-naomi-gleit-249",
@@ -5084,7 +5333,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:25:00",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=1498s",
+      "seek": true
     },
     {
       "id": "running-meeting-naomi-gleit-250",
@@ -5105,7 +5355,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:53:09",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3187s",
+      "seek": true
     },
     {
       "id": "summarizing-lenny-rachitsky-251",
@@ -5126,7 +5377,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "01:25:30",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=5128s",
+      "seek": true
     },
     {
       "id": "interrupting-naomi-gleit-252",
@@ -5147,7 +5399,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:09:29",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=4167s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-naomi-gleit-253",
@@ -5168,7 +5421,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:09:29",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=4167s",
+      "seek": true
     },
     {
       "id": "running-meeting-naomi-gleit-254",
@@ -5189,7 +5443,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:07:48",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=4066s",
+      "seek": true
     },
     {
       "id": "summarizing-naomi-gleit-255",
@@ -5210,7 +5465,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:54:05",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3243s",
+      "seek": true
     },
     {
       "id": "clarifying-naomi-gleit-256",
@@ -5231,7 +5487,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:56:12",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3370s",
+      "seek": true
     },
     {
       "id": "handling-objections-naomi-gleit-257",
@@ -5252,7 +5509,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:59:34",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3572s",
+      "seek": true
     },
     {
       "id": "handling-objections-naomi-gleit-258",
@@ -5273,7 +5531,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:20:43",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=4841s",
+      "seek": true
     },
     {
       "id": "stakeholder-alignment-naomi-gleit-259",
@@ -5294,7 +5553,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:48:57",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=2935s",
+      "seek": true
     },
     {
       "id": "stakeholder-alignment-naomi-gleit-260",
@@ -5315,7 +5575,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "00:00:00",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=0s",
+      "seek": true
     },
     {
       "id": "explaining-why-naomi-gleit-261",
@@ -5336,7 +5597,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:02:42",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3760s",
+      "seek": true
     },
     {
       "id": "talking-impact-naomi-gleit-262",
@@ -5357,7 +5619,8 @@
       "guest": "Naomi Gleit",
       "timestamp": "01:17:48",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=4666s",
+      "seek": true
     },
     {
       "id": "coaching-questions-lenny-rachitsky-263",
@@ -5378,7 +5641,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:24:28",
       "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8"
+      "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=1466s",
+      "seek": true
     },
     {
       "id": "summarizing-anneka-gupta-264",
@@ -5399,7 +5663,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:25:10",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1508s",
+      "seek": true
     },
     {
       "id": "summarizing-anneka-gupta-265",
@@ -5420,7 +5685,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:25:36",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1534s",
+      "seek": true
     },
     {
       "id": "interrupting-anneka-gupta-266",
@@ -5441,7 +5707,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:26:19",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1577s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-anneka-gupta-267",
@@ -5462,7 +5729,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:25:36",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1534s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-anneka-gupta-268",
@@ -5483,7 +5751,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:12:10",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=728s",
+      "seek": true
     },
     {
       "id": "trade-offs-anneka-gupta-269",
@@ -5504,7 +5773,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:12:53",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=771s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-anneka-gupta-270",
@@ -5525,7 +5795,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:17:24",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1042s",
+      "seek": true
     },
     {
       "id": "hard-feedback-anneka-gupta-271",
@@ -5546,7 +5817,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:47:10",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=2828s",
+      "seek": true
     },
     {
       "id": "hard-feedback-anneka-gupta-272",
@@ -5567,7 +5839,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:50:04",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=3002s",
+      "seek": true
     },
     {
       "id": "handling-objections-anneka-gupta-273",
@@ -5588,7 +5861,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:43:07",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=2585s",
+      "seek": true
     },
     {
       "id": "proposing-idea-anneka-gupta-274",
@@ -5609,7 +5883,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:21:34",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1292s",
+      "seek": true
     },
     {
       "id": "trade-offs-anneka-gupta-275",
@@ -5630,7 +5905,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:30:42",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1840s",
+      "seek": true
     },
     {
       "id": "coaching-questions-anneka-gupta-276",
@@ -5651,7 +5927,8 @@
       "guest": "Anneka Gupta",
       "timestamp": "00:49:21",
       "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
-      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw"
+      "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=2959s",
+      "seek": true
     },
     {
       "id": "clarifying-adriel-frederick-277",
@@ -5672,7 +5949,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "clarifying-adriel-frederick-278",
@@ -5693,7 +5971,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "summarizing-lenny-rachitsky-279",
@@ -5714,7 +5993,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "clarifying-lenny-rachitsky-280",
@@ -5735,7 +6015,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "saying-no-adriel-frederick-281",
@@ -5756,7 +6037,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "handling-objections-adriel-frederick-282",
@@ -5777,7 +6059,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "polite-disagreement-adriel-frederick-283",
@@ -5798,7 +6081,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "challenging-assumptions-adriel-frederick-284",
@@ -5819,7 +6103,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "polite-disagreement-adriel-frederick-285",
@@ -5840,7 +6125,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-adriel-frederick-286",
@@ -5861,7 +6147,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "running-meeting-lenny-rachitsky-287",
@@ -5882,7 +6169,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "running-meeting-lenny-rachitsky-288",
@@ -5903,7 +6191,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-adriel-frederick-289",
@@ -5924,7 +6213,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "managing-conflict-adriel-frederick-290",
@@ -5945,7 +6235,8 @@
       "guest": "Adriel Frederick",
       "timestamp": null,
       "episode": "Humanizing product development | Adriel Frederick (Reddit, Lyft, Facebook)",
-      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y"
+      "url": "https://www.youtube.com/watch?v=4avaVEAa64Y",
+      "seek": false
     },
     {
       "id": "interrupting-nicole-forsgren-291",
@@ -5966,7 +6257,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:25:29",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=1527s",
+      "seek": true
     },
     {
       "id": "interrupting-lenny-rachitsky-292",
@@ -5987,7 +6279,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:17:47",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=1065s",
+      "seek": true
     },
     {
       "id": "clarifying-nicole-forsgren-293",
@@ -6008,7 +6301,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:12:00",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=718s",
+      "seek": true
     },
     {
       "id": "clarifying-nicole-forsgren-294",
@@ -6029,7 +6323,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:42:38",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=2556s",
+      "seek": true
     },
     {
       "id": "clarifying-nicole-forsgren-295",
@@ -6050,7 +6345,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:08:10",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=488s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-nicole-forsgren-296",
@@ -6071,7 +6367,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:19:00",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=1138s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-nicole-forsgren-297",
@@ -6092,7 +6389,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:24:09",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=1447s",
+      "seek": true
     },
     {
       "id": "challenging-assumptions-nicole-forsgren-298",
@@ -6113,7 +6411,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:10:32",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=630s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-nicole-forsgren-299",
@@ -6134,7 +6433,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:10:32",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=630s",
+      "seek": true
     },
     {
       "id": "talking-impact-nicole-forsgren-300",
@@ -6155,7 +6455,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:38:17",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=2295s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-301",
@@ -6176,7 +6477,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:18:53",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=1131s",
+      "seek": true
     },
     {
       "id": "running-meeting-lenny-rachitsky-302",
@@ -6197,7 +6499,8 @@
       "guest": "Lenny Rachitsky",
       "timestamp": "00:13:43",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=821s",
+      "seek": true
     },
     {
       "id": "saying-no-nicole-forsgren-303",
@@ -6218,7 +6521,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "01:07:40",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=4058s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-nicole-forsgren-304",
@@ -6239,7 +6543,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "01:06:51",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=4009s",
+      "seek": true
     },
     {
       "id": "managing-conflict-nicole-forsgren-305",
@@ -6260,7 +6565,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "01:01:32",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=3690s",
+      "seek": true
     },
     {
       "id": "stakeholder-alignment-nicole-forsgren-306",
@@ -6281,7 +6587,8 @@
       "guest": "Nicole Forsgren",
       "timestamp": "00:42:38",
       "episode": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ"
+      "url": "https://www.youtube.com/watch?v=SWcDfPVTizQ&t=2556s",
+      "seek": true
     },
     {
       "id": "talking-impact-claire-vo-307",
@@ -6301,7 +6608,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:44:34",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "interview-answers-gergely-orosz-308",
@@ -6321,7 +6629,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:13:20",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=798s",
+      "seek": true
     },
     {
       "id": "asking-for-advice-ada-chen-rekhi-309",
@@ -6341,7 +6650,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:13:31",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=809s",
+      "seek": true
     },
     {
       "id": "asking-for-advice-ada-chen-rekhi-310",
@@ -6361,7 +6671,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:34:44",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=2082s",
+      "seek": true
     },
     {
       "id": "talking-impact-ada-chen-rekhi-311",
@@ -6381,7 +6692,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:29:53",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=1791s",
+      "seek": true
     },
     {
       "id": "interview-answers-ada-chen-rekhi-312",
@@ -6401,7 +6713,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:28:59",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=1737s",
+      "seek": true
     },
     {
       "id": "hard-feedback-ada-chen-rekhi-313",
@@ -6421,7 +6734,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:54:27",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=3265s",
+      "seek": true
     },
     {
       "id": "hard-feedback-ada-chen-rekhi-314",
@@ -6441,7 +6755,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:54:27",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=3265s",
+      "seek": true
     },
     {
       "id": "changing-your-mind-ada-chen-rekhi-315",
@@ -6461,7 +6776,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "01:07:10",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=4028s",
+      "seek": true
     },
     {
       "id": "coaching-questions-ada-chen-rekhi-316",
@@ -6481,7 +6797,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:42:54",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=2572s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-ada-chen-rekhi-317",
@@ -6501,7 +6818,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:05:54",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=352s",
+      "seek": true
     },
     {
       "id": "proposing-idea-claire-vo-318",
@@ -6521,7 +6839,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:06:49",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "making-the-case-claire-vo-319",
@@ -6541,7 +6860,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:10:52",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "asking-for-resources-claire-vo-320",
@@ -6561,7 +6881,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:10:52",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-claire-vo-321",
@@ -6581,7 +6902,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:31:20",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "hard-feedback-claire-vo-322",
@@ -6601,7 +6923,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:32:16",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "recognition-claire-vo-323",
@@ -6621,7 +6944,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:29:30",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-claire-vo-324",
@@ -6641,7 +6965,8 @@
       "guest": "Claire Vo",
       "timestamp": "01:03:11",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-claire-vo-325",
@@ -6661,7 +6986,8 @@
       "guest": "Claire Vo",
       "timestamp": "01:02:36",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-claire-vo-326",
@@ -6681,7 +7007,8 @@
       "guest": "Claire Vo",
       "timestamp": "01:00:38",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "polite-disagreement-claire-vo-327",
@@ -6701,7 +7028,8 @@
       "guest": "Claire Vo",
       "timestamp": "01:05:49",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "challenging-assumptions-claire-vo-328",
@@ -6721,7 +7049,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:26:41",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "trade-offs-claire-vo-329",
@@ -6741,7 +7070,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:24:00",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "explaining-why-claire-vo-330",
@@ -6761,7 +7091,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:23:06",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-claire-vo-331",
@@ -6781,7 +7112,8 @@
       "guest": "Claire Vo",
       "timestamp": "00:24:51",
       "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-gergely-orosz-332",
@@ -6801,7 +7133,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:10:00",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=598s",
+      "seek": true
     },
     {
       "id": "backing-with-evidence-gergely-orosz-333",
@@ -6821,7 +7154,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:11:57",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=715s",
+      "seek": true
     },
     {
       "id": "talking-impact-gergely-orosz-334",
@@ -6841,7 +7175,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:55:15",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3313s",
+      "seek": true
     },
     {
       "id": "talking-impact-gergely-orosz-335",
@@ -6861,7 +7196,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:55:25",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3323s",
+      "seek": true
     },
     {
       "id": "admitting-uncertainty-gergely-orosz-336",
@@ -6881,7 +7217,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:59:56",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3594s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-gergely-orosz-337",
@@ -6901,7 +7238,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "01:02:41",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3759s",
+      "seek": true
     },
     {
       "id": "polite-disagreement-gergely-orosz-338",
@@ -6921,7 +7259,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "01:07:10",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=4028s",
+      "seek": true
     },
     {
       "id": "interrupting-gergely-orosz-339",
@@ -6941,7 +7280,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:49:43",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=2981s",
+      "seek": true
     },
     {
       "id": "summarizing-gergely-orosz-340",
@@ -6961,7 +7301,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:53:00",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3178s",
+      "seek": true
     },
     {
       "id": "framing-problem-gergely-orosz-341",
@@ -6981,7 +7322,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:53:18",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3196s",
+      "seek": true
     },
     {
       "id": "framing-problem-gergely-orosz-342",
@@ -7001,7 +7343,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "01:02:01",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3719s",
+      "seek": true
     },
     {
       "id": "talking-impact-gergely-orosz-343",
@@ -7021,7 +7364,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:00:00",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=0s",
+      "seek": true
     },
     {
       "id": "interview-answers-gergely-orosz-344",
@@ -7041,7 +7385,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:54:51",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=3289s",
+      "seek": true
     },
     {
       "id": "interview-answers-gergely-orosz-345",
@@ -7061,7 +7406,8 @@
       "guest": "Gergely Orosz",
       "timestamp": "00:18:34",
       "episode": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0"
+      "url": "https://www.youtube.com/watch?v=CtB0O0M7YS0&t=1112s",
+      "seek": true
     },
     {
       "id": "interview-answers-camille-hearst-346",
@@ -7081,7 +7427,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:04:49",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "clarifying-camille-hearst-347",
@@ -7101,7 +7448,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:08:55",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "making-the-case-camille-hearst-348",
@@ -7121,7 +7469,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:18:20",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "owning-mistakes-camille-hearst-349",
@@ -7141,7 +7490,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:26:04",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "stakeholder-alignment-camille-hearst-350",
@@ -7161,7 +7511,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:27:54",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "interview-answers-camille-hearst-351",
@@ -7181,7 +7532,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:29:09",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "talking-impact-camille-hearst-352",
@@ -7201,7 +7553,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:29:29",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "owning-mistakes-camille-hearst-353",
@@ -7221,7 +7574,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:54:53",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "interview-answers-camille-hearst-354",
@@ -7241,7 +7595,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:58:58",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "admitting-uncertainty-camille-hearst-355",
@@ -7261,7 +7616,8 @@
       "guest": "Camille Hearst",
       "timestamp": "01:02:06",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     },
     {
       "id": "saying-no-ada-chen-rekhi-356",
@@ -7281,7 +7637,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:42:42",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=2560s",
+      "seek": true
     },
     {
       "id": "coaching-questions-ada-chen-rekhi-357",
@@ -7301,7 +7658,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "01:09:08",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=4146s",
+      "seek": true
     },
     {
       "id": "managing-conflict-ada-chen-rekhi-358",
@@ -7321,7 +7679,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "01:10:06",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=4204s",
+      "seek": true
     },
     {
       "id": "interview-answers-ada-chen-rekhi-359",
@@ -7341,7 +7700,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "01:01:25",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=3683s",
+      "seek": true
     },
     {
       "id": "interview-answers-ada-chen-rekhi-360",
@@ -7361,7 +7721,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "01:02:15",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=3733s",
+      "seek": true
     },
     {
       "id": "asking-for-advice-ada-chen-rekhi-361",
@@ -7381,7 +7742,8 @@
       "guest": "Ada Chen Rekhi",
       "timestamp": "00:08:41",
       "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
-      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo"
+      "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=519s",
+      "seek": true
     },
     {
       "id": "recognition-camille-hearst-362",
@@ -7401,7 +7763,8 @@
       "guest": "Camille Hearst",
       "timestamp": "00:40:38",
       "episode": "Monetizing passions, scaling marketplaces, and stories from a creator economy vet | Camille Hearst (Spotify, Patreon, Apple, YouTube)",
-      "url": null
+      "url": null,
+      "seek": false
     }
   ]
 }

@@ -1,0 +1,1792 @@
+{
+  "count": 46,
+  "concepts": [
+    {
+      "id": "ic-to-manager",
+      "group": "career",
+      "term": "IC to Manager",
+      "zh": "從個人貢獻者到主管",
+      "oneLiner": "從「我把事做好」換成「我讓別人把事做好」，是換工作不是升級。",
+      "body": "IC 的產出是自己做出來的東西，主管的產出是團隊做出來的東西——這是兩份不同的工作，不是同一份工作的進階版。多數人卡住不是因為能力不夠，是因為沒讓主管知道自己想帶人，也沒先在 IC 身分下把帶人的動作練起來。Julie Zhuo 的建議很實際：hiring、mentoring、改流程、當新人的 onboarding buddy，這些都不需要頭銜就能做，做了主管才有證據相信你行。真的轉過去之後，最難的心理關是「我不需要知道所有答案」——你的價值變成把對的人湊在一起找出答案。也要誠實評估：有些公司根本沒有那個缺，不是你不夠好，是位子不存在。",
+      "pitfall": "台灣人習慣「做出成績、等主管看見、時候到了自然輪到我」，但英語職場預設「你沒說＝你沒興趣」，主管不會幫你猜職涯志向。另一個坑是升上去之後還想證明自己「技術最強」，捨不得放手，結果變成瓶頸而不是放大器。",
+      "howToSay": [
+        {
+          "en": "I'd like to move toward managing a team in the next year or two. What would you need to see from me to believe I'm ready?",
+          "zh": "我未來一兩年想往帶團隊的方向走。你需要看到我做到什麼，才會相信我準備好了？",
+          "note": "1:1 第一次表態職涯方向，把模糊期待換成具體條件"
+        },
+        {
+          "en": "Rather than waiting for the title, I'd like to start picking up some of the [mentoring / hiring] work now. Would that be helpful to you?",
+          "zh": "與其等頭銜下來，我想先接一部分[帶新人／面試]的工作。這樣對你有幫助嗎？",
+          "note": "主動要責任，同時框成「幫主管分擔」而不是「我要升官」"
+        },
+        {
+          "en": "I don't have the answer on this one, but I'll get the right people in a room and come back to you by [Friday].",
+          "zh": "這題我還沒有答案，但我會把對的人找齊，[週五]前回覆你。",
+          "note": "當上主管後被問倒時——承認不知道＋給出流程與時限，比硬掰有威信"
+        }
+      ],
+      "quote": {
+        "text": "A lot of these things you don't need to have the official title to do. You can do a lot of it in that capacity as an IC. So, it's really not binary.",
+        "guest": "Julie Zhuo",
+        "timestamp": "01:00:02",
+        "episode": "Julie Zhuo on accelerating your career, impostor syndrome, writing, building product sense, using intuition vs. data, hiring designers, and moving into management",
+        "url": "https://www.youtube.com/watch?v=YLsxHa1dhSw&t=3600s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "asking-for-advice",
+        "coaching-questions",
+        "admitting-uncertainty"
+      ]
+    },
+    {
+      "id": "scope-and-impact",
+      "group": "career",
+      "term": "Scope & Impact",
+      "zh": "影響力範圍",
+      "oneLiner": "決定你等級的不是你多努力，是你的決定影響到多少人。",
+      "body": "Scope 是「你負責的問題有多大」，impact 是「因為你，結果差了多少」——兩個都不是用工時或功能數量算的。同一件事，做完叫執行，把整條線的策略也扛下來叫 scope 變大。Molly Graham 的「give away your Legos」講的就是這件事：公司長大，樂高堆越來越高，你死抱著原本那幾塊，最後會被埋在底下；願意把手上的東西交出去，才空得出手接更大的一塊。判斷 scope 有沒有真的變大，問一句就好：如果我今天不在，這件事會不會照樣發生？會，那它就不算你的 impact。",
+      "pitfall": "台灣職場的敘事習慣是講過程與辛苦（「這半年我加班把三個版本都上線了」），英語職場只買結果與範圍（「這條線的留存從 32% 拉到 41%，影響 200 萬用戶」）。另一個落差是把交出工作當成失去地盤——在英語職場，肯 delegate 反而是「可以再往上帶」的訊號。",
+      "howToSay": [
+        {
+          "en": "The scope here goes beyond my team — it touches [billing] and [support], so I'd like to own the end-to-end problem rather than just our slice.",
+          "zh": "這件事的範圍超出我的團隊，它牽動到[帳務]跟[客服]，所以我想扛下整個問題，而不是只做我們這一段。",
+          "note": "主動把 scope 談大，在專案 kickoff 或規劃會議上"
+        },
+        {
+          "en": "I'm handing [project X] over to [name] so I can take on [the bigger thing]. She's ready, and I'd rather grow the next person than hold on to it.",
+          "zh": "我要把[X 專案]交給[某某]，好空出手接[更大的那件事]。她已經準備好了，我寧可培養下一個人，也不想抱著不放。",
+          "note": "把「放手」講成主動的策略決定，而不是被拿走"
+        },
+        {
+          "en": "To be clear about impact: without this work, [metric] would still be at [X]. That's the delta we're talking about.",
+          "zh": "講清楚影響力：如果沒做這件事，[指標]還會停在[X]。這就是我們在講的差距。",
+          "note": "績效面談、升遷簡報——用「反事實」把 impact 量化"
+        }
+      ],
+      "quote": {
+        "text": "If you actually just stay and build houses, eventually you're literally buried under a pile of Legos. You held onto something that's down here and the opportunity is actually to stay on top of that pile and to learn to just give away your job every so often.",
+        "guest": "Molly Graham",
+        "timestamp": "00:15:40",
+        "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+        "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=938s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "talking-impact",
+        "asking-for-resources",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "getting-promoted",
+      "group": "career",
+      "term": "Getting Promoted",
+      "zh": "升遷",
+      "oneLiner": "升遷不是把現在這級做到滿分，是先做出下一級的樣子給人看。",
+      "body": "多數公司的規則是「你先展現出下一級的能力，才會給你下一級的頭銜」——所以把手上的事做到 120 分，通常換不到升遷，只換到更多同一級的事。Lenny 歸納的七招裡最有效的三招是：把 scope 撐大、明確補掉主管指出的那個 gap、直接開口要。Ethan Evans 的 Magic Loop 更好操作：把工作做好 → 問主管「我可以怎麼幫你」→ 真的去做 → 再回頭說「有沒有哪件事既幫得到你、也幫我往我的目標走」→ 重複。這套之所以有效，是因為主管會回報幫過自己的人，而且逼你們兩個把「差在哪」講成具體條件，而不是等到考績會議才被驚喜。也要接受一件事：位子沒開、時間沒到、公司沒預算，做對所有事還是可能升不上去。",
+      "pitfall": "台灣人最常踩的是「等別人發現」——覺得主動要升遷很難看、像在邀功；但在英語職場，沒開口＝沒這個需求，主管會把名額給有講的人。第二個坑是把「要求」講成抱怨（「我做這麼多為什麼還沒升」），正確的講法是把它變成一個雙方一起解的問題：「差哪兩三項？我們怎麼補？」",
+      "howToSay": [
+        {
+          "en": "I want to be direct: my goal is to get to [Senior PM] in the next review cycle. What are the two or three things most keeping me from that today?",
+          "zh": "我想講白一點：我的目標是下一個考核週期升到[資深 PM]。目前最擋住我的是哪兩三件事？",
+          "note": "1:1 正式表態——先講目標，再要具體 gap，不要只問「我表現如何」"
+        },
+        {
+          "en": "Is there something you need that would also help me build [the skill I'm missing]?",
+          "zh": "有沒有什麼你正需要的事，剛好也能幫我練到[我缺的那個能力]？",
+          "note": "Ethan Evans 的 Magic Loop 第四步——把自己的目標綁在主管的痛點上"
+        },
+        {
+          "en": "I've been operating at the next level for about a year now — leading [X] and owning [Y]. I'd like us to talk about making that official.",
+          "zh": "我實際上已經做了大概一年下一級的工作——帶[X]、負責[Y]。我想跟你談把它正式化。",
+          "note": "已經做超過一年卻沒被認可時，攤開來談的說法"
+        }
+      ],
+      "quote": {
+        "text": "You go back to your manager and say, \"Hey, I'm really enjoying working with you. I'm wondering is there some way I could help you that would also help me reach my goal?\"",
+        "guest": "Ethan Evans",
+        "timestamp": "00:07:14",
+        "episode": "Taking control of your career | Ethan Evans (Amazon)",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "talking-impact",
+        "asking-for-advice",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "feedback-culture",
+      "group": "career",
+      "term": "Feedback & Radical Candor",
+      "zh": "回饋文化",
+      "oneLiner": "真心在乎對方，同時把話講直——少任何一邊都會出事。",
+      "body": "Kim Scott 的 Radical Candor 是兩軸：care personally（讓對方感覺到你在乎）× challenge directly（把問題講清楚）。只直不在乎＝obnoxious aggression（討人厭的攻擊）；只在乎不敢講＝ruinous empathy（毀滅性的同理）；兩邊都失守＝manipulative insincerity（虛偽敷衍）。她說 90% 的人 90% 的錯都落在 ruinous empathy：因為怕傷人，所以沒告訴對方一件他早知道會更好的事，最後拖了十個月，對他傷害更大。實務上有兩個判準：回饋不是在你嘴巴量的，是在對方耳朵量的；對方看起來難過就往「在乎」那軸加碼，但千萬不要在「直說」那軸退回去，不然對方只會又難過又困惑。",
+      "pitfall": "亞洲職場靠「給面子」維持關係，不當面糾正、繞著講、或事後私下講給第三人聽；英語職場（尤其美系）把不講直當成不專業，甚至當成不尊重——你以為在保護對方，對方的主管會認為你在藏問題。反過來也要注意：不要把「我要 radical candor」當成兇人的許可證，那是 obnoxious aggression。",
+      "howToSay": [
+        {
+          "en": "What could I do, or stop doing, that would make it easier to work with me?",
+          "zh": "我可以做什麼、或不再做什麼，會讓跟我合作變得比較輕鬆？",
+          "note": "Kim Scott 的招牌問句——問「你有什麼回饋給我嗎」永遠只會得到「都很好」"
+        },
+        {
+          "en": "Can I share something that might be hard to hear? I'm telling you because I think you'd be better off knowing it.",
+          "zh": "我可以講一件可能不太中聽的事嗎？我講是因為我覺得你知道會比較好。",
+          "note": "給難聽回饋的開場，先立好「我是站在你這邊」的框"
+        },
+        {
+          "en": "I don't think I said that well. How could I have put it differently?",
+          "zh": "我覺得我剛剛沒講好。我可以怎麼講會比較好？",
+          "note": "對方臉色沉下來時——往「在乎」加碼，但不收回原本的內容"
+        }
+      ],
+      "quote": {
+        "text": "We do remember to show that we care personally, but we're so worried about not hurting someone's feelings or not offending them, that we fail to tell them something they'd be better off knowing in the long run. And that is what I call ruinous empathy.",
+        "guest": "Kim Scott",
+        "timestamp": "00:05:48",
+        "episode": "Radical Candor: From theory to practice with author Kim Scott",
+        "url": "https://www.youtube.com/watch?v=V7tnbx-6Ayc&t=346s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "hard-feedback",
+        "recognition",
+        "asking-for-advice"
+      ]
+    },
+    {
+      "id": "hiring-pm",
+      "group": "career",
+      "term": "Hiring & Interviewing PMs",
+      "zh": "招募與面試",
+      "oneLiner": "面試不是考你會不會，是看你在事情爆掉的時候怎麼想、怎麼做。",
+      "body": "PM 面試通常測六件事：溝通、協作、執行、策略、影響力、product sense；而最有訊號的題目幾乎都繞著「事情沒照計畫走」的時刻。Annie Pearl 說她問「講一個你最慘的產品失敗」，就是要聽你敢不敢誠實講有多慘、為什麼慘——因為整場面試你都在講你多棒，只有這題會露出真的判斷力。實務上請用結構化面試：同一組問題、同樣順序、事先定義好的好答案與紅旗，才比得出人，也才不會被印象分綁架。Lenny 認為 take-home 或現場 project 是整個流程中訊號最高的一關，因為那是唯一看得到候選人真的處理一個新問題的機會。換到自己是候選人的一側，同一套邏輯反過來用：準備三到四個「當時很糟、我做了什麼、結果如何、我學到什麼」的完整故事。",
+      "pitfall": "台灣的面試訓練教人「別講缺點、別講失敗」，但英語面試把「講不出一次真正的失敗」直接判成紅旗——他們要的是 self-awareness，不是完美履歷。第二個落差是「我們團隊」：中文習慣把功勞歸給團隊顯得謙虛，英語面試官會聽不出你到底做了什麼，請明確講 I did X（可以再補一句團隊怎麼幫忙）。",
+      "howToSay": [
+        {
+          "en": "The honest answer is it failed. Here's what I got wrong, what I'd do differently, and what we shipped six months later because of it.",
+          "zh": "老實說那次是失敗的。我講一下我哪裡判斷錯、現在會怎麼做、以及因為這件事我們半年後做出了什麼。",
+          "note": "被問失敗經驗時——先認、再拆、最後收在學到什麼"
+        },
+        {
+          "en": "The team shipped it, but the call I personally made was [X] — and that's the part I'd defend.",
+          "zh": "東西是團隊做出來的，但我自己下的判斷是[X]，這部分我願意為它辯護。",
+          "note": "在不搶功的前提下把個人貢獻講清楚（英語面試必備）"
+        },
+        {
+          "en": "Would this have happened without you? Walk me through the decision only you could have made.",
+          "zh": "如果沒有你，這件事還會發生嗎？講一個只有你才做得出的決定。",
+          "note": "自己當面試官時用——最快分辨「參與過」跟「推動過」"
+        }
+      ],
+      "quote": {
+        "text": "I look for people being brutally honest about how bad it was and why it failed. The rest of the interview, they're trying to tell you all the wonderful things they did and all the accomplishments they had.",
+        "guest": "Annie Pearl",
+        "timestamp": null,
+        "episode": "How to learn the most about a candidate from a single interview question",
+        "url": "https://www.lennysnewsletter.com/p/how-to-learn-the-most-about-a-candidate-from-a-single-interview-question",
+        "seek": false
+      },
+      "relatedFunctions": [
+        "interview-answers",
+        "talking-impact",
+        "owning-mistakes"
+      ]
+    },
+    {
+      "id": "burnout",
+      "group": "career",
+      "term": "Burnout & Sustainability",
+      "zh": "職業倦怠",
+      "oneLiner": "倦怠不是突然倒下，是你連續忽略了好幾個月的小訊號。",
+      "body": "Jonny Miller 的「羽毛－磚頭－砂石車」講得最清楚：身體先用羽毛提醒你（早上起來就累），你不理，幾週後變磚頭（為小事發火、情緒失控），再不理，一年後是砂石車（健康出事、被開除、整個垮掉）。他的重點不是叫你別拚，是你拚的時候在累積「情緒債」，得刻意還——高強度之後給自己降檔的空間，而不是硬撐到下一場會議。Lenny 2026 的產業調查顯示明顯倦怠的比例從 44.7% 升到 54.7%，而且倦怠最嚴重的往往不是最忙的人，是「使不上力」的人：Ramp 的 Jeff 說他最嚴重的倦怠發生在速度最慢的時候。所以修倦怠常常不是放假，是把卡住的東西弄通、把沒意義的工作砍掉。",
+      "pitfall": "台灣職場把「累」當成敬業的證明，講出來像在示弱、像在推工作；英語職場（至少在檯面上）預期你自己管理可持續性，撐到爆掉才講，主管會覺得你 self-awareness 不足、而且害他措手不及。另一個落差是台灣人不習慣直接說「這個量做不完」，只會默默加班——正確做法是把它變成一場優先順序的談判，而不是一場忍耐比賽。",
+      "howToSay": [
+        {
+          "en": "I can take this on, but something has to come off the list. Which of [A] or [B] should slip?",
+          "zh": "這個我可以接，但清單上得拿掉一件。[A]跟[B]哪一個可以延？",
+          "note": "被加工作時——不說「不行」，改成逼對方做取捨"
+        },
+        {
+          "en": "I want to flag this early rather than late: at this pace I'm not going to be sustainable through [Q3]. Can we look at scope together?",
+          "zh": "我想早點提出來、而不是拖到最後：照這個節奏我撐不到[第三季]。我們可以一起看一下範圍嗎？",
+          "note": "把倦怠訊號當成專案風險回報，不是情緒抱怨"
+        },
+        {
+          "en": "I'm going to be offline after [6pm] this week. I'll pick anything urgent up first thing in the morning.",
+          "zh": "這週[六點]之後我會離線。有急事我隔天一早第一件事處理。",
+          "note": "設界線的說法——給出替代方案，就不會被讀成不投入"
+        }
+      ],
+      "quote": {
+        "text": "I have this idea that I call the feather brick dump truck phenomenon… when we are showing early signs of burnout, our body will give us feedback usually in subtle ways in the beginning. Ideally, you want to notice when it's the feather.",
+        "guest": "Jonny Miller",
+        "timestamp": "00:35:08",
+        "episode": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous System Mastery)",
+        "url": "https://www.youtube.com/watch?v=-kN8Agqee4w&t=2106s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "saying-no",
+        "admitting-uncertainty",
+        "asking-for-advice"
+      ]
+    },
+    {
+      "id": "first-90-days",
+      "group": "career",
+      "term": "First 90 Days",
+      "zh": "到職前 90 天",
+      "oneLiner": "前 90 天買的不是成績，是信任——沒有信任，你的好主意會被當成外行話。",
+      "body": "Deb Liu 的 30／60／90 結構最好用：前 30 天聽與學，中間 30 天對齊未來方向，最後 30 天開始執行。她到 Ancestry 的第一個月跑 listening tour，訪了 60 幾個人，然後把聽到的整理成一份「state of the union」發出去——這動作同時完成三件事：建立信任、蒐集脈絡、也讓大家看見你在動。Jiaona Zhang 講了反面教材：她因為時間壓力太急著推改變，信任還沒存夠就開始推，結果推不動。同時你還是需要一兩個 quick win——不是為了證明自己厲害，是為了讓別人相信你講的話會兌現。判準很簡單：在你有本錢改變任何事之前，先能用公司自己的語言把現況講一遍。",
+      "pitfall": "台灣人常見的極端有兩個：一種是太客氣，前三個月只默默做交辦事項、不主動約人聊，結果三個月後大家還不知道你是誰、你能幹嘛；另一種是急著證明自己值這個薪水，第二週就開會批評現有做法。英語職場預期你主動排 1:1、主動問問題（問問題被當成聰明，不是被當成不懂），但也預期你在批評任何東西之前，先能講出「為什麼他們當初這樣做是有道理的」。",
+      "howToSay": [
+        {
+          "en": "I'm in listening mode for my first month. Could I get 30 minutes to hear what's working and what's most frustrating from where you sit?",
+          "zh": "我第一個月會以聽為主。可以跟你約 30 分鐘，聽聽從你的角度看什麼運作得好、什麼最讓人受不了嗎？",
+          "note": "約 listening tour 的開場，一句話就把來意講清楚"
+        },
+        {
+          "en": "Here's what I've heard from about [40] people so far. I want to check it back with you before I act on any of it.",
+          "zh": "這是我目前從大約[40]個人身上聽到的。在我採取任何行動之前，我想先跟你對一次。",
+          "note": "第 30 天發 state of the union，把「聽」變成看得見的產出"
+        },
+        {
+          "en": "I might be missing context here — was there a reason [the current approach] was set up this way?",
+          "zh": "我可能還沒掌握全部脈絡——當初[現在這個做法]這樣設計，是有什麼原因嗎？",
+          "note": "想質疑現況又還沒累積信任時，最安全也最有效的問法"
+        }
+      ],
+      "quote": {
+        "text": "But if you don't understand the language, you don't understand the culture, you might actually make huge mistakes. And so for the first 30 days, I did a listening tour. I talked to over 60 people in 30 days and then I summarized a state of the union.",
+        "guest": "Deb Liu",
+        "timestamp": "00:52:19",
+        "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "clarifying",
+        "asking-for-advice",
+        "stakeholder-alignment"
+      ]
+    },
+    {
+      "id": "problem-vs-solution",
+      "group": "discovery",
+      "term": "Problem vs. Solution Space",
+      "zh": "問題空間與解法空間",
+      "oneLiner": "先確定在解什麼問題，再討論要做什麼功能。",
+      "body": "問題空間講的是「使用者卡在哪、想達成什麼」，解法空間講的是「我們要做什麼東西」。人腦天生一聽到問題就跳到解法，所以「問題空間」不是一個知識，而是一個要刻意撐住的紀律——多待十分鐘，通常會冒出三個原本沒想到的解法。跟直覺最大的差別是：好的問題描述裡不會出現任何功能名稱，只有情境、對象、卡點。什麼時候該用？當會議一開場大家就在爭「要做 A 還是 B」，代表你們跳過了問題空間，該退回去。",
+      "pitfall": "台灣多數團隊是接單／專案制，老闆或客戶直接丟「做一個 XX 功能」，PM 就把需求單當成問題描述，整份 PRD 寫滿規格卻沒有一句寫「誰、在什麼情境下、被什麼卡住」。結果是功能上線後沒人用，檢討時只能說「使用者不會用」。",
+      "howToSay": [
+        {
+          "en": "Before we jump into solutions, can we spend ten minutes agreeing on the problem we're actually solving?",
+          "zh": "在跳進解法之前，我們能不能花十分鐘先對齊我們到底在解什麼問題？",
+          "note": "會議一開場大家就在比功能方案時，用這句把討論拉回去，語氣是邀請不是指責"
+        },
+        {
+          "en": "I think we're jumping to a solution here. What's the underlying problem for [使用者族群]?",
+          "zh": "我覺得我們直接跳到解法了。對[使用者族群]來說，底下真正的問題是什麼？",
+          "note": "有人已經在講規格細節時，溫和地喊停"
+        },
+        {
+          "en": "Let's keep this in the problem space for now — we can come back to the how once we agree on the what.",
+          "zh": "我們先待在問題空間，等「要解什麼」對齊了，再回來談「怎麼做」。",
+          "note": "主持會議時用，把議程順序講明，避免被當成拖延"
+        }
+      ],
+      "quote": {
+        "text": "I will tell you I'm going to build an AI crowd-source based navigation system and you're going to say, \"Oh, yeah, very interesting,\" but you don't care. If I will tell you I'm going to help you to avoid traffic jams, then you do care.",
+        "guest": "Uri Levine",
+        "timestamp": "00:04:06",
+        "episode": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member | Uri Levine (co-founder of Waze)",
+        "url": "https://www.youtube.com/watch?v=Cj4ORGGEJcA&t=244s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "framing-problem",
+        "explaining-why",
+        "challenging-assumptions"
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "group": "discovery",
+      "term": "Jobs To Be Done",
+      "zh": "使用者要完成的任務",
+      "oneLiner": "人不是買產品，是「雇用」產品去完成一件事。",
+      "body": "JTBD 把問題從「這個人是誰」換成「他當下卡在什麼情境、想取得什麼結果」。它解的是 persona 解不了的問題：同一個 35 歲女性上班族，早上和深夜雇用你的產品去做完全不同的事。跟直覺最大的差別在於「競品」會整個改寫——你的對手常常不是同類 App，而是 Excel、LINE 群組、或是「乾脆不做」。Bob Moesta 強調關鍵是 struggling moment 加上 push（什麼事逼他今天非換不可）與 pull（新方案吸引他的是什麼），所以要問的是「上一次你怎麼解決的、為什麼那天決定換」。",
+      "pitfall": "台灣常把 JTBD 直接翻成「使用者需求」，於是變成寫一堆 persona 和功能願望清單，再回頭問使用者「你想要什麼功能」。真正的 JTBD 反過來：只訪談「已經動手做過這件事」的人，追他做決定那一刻的故事。另一個坑是漏掉真正的競品——你以為在跟同業競爭，其實在跟一張 Google 試算表競爭。",
+      "howToSay": [
+        {
+          "en": "What job is the user hiring [產品／功能] to do here?",
+          "zh": "使用者在這裡是雇用[產品／功能]去完成什麼任務？",
+          "note": "團隊在爭功能細節時，用這句把層次拉回使用者目的"
+        },
+        {
+          "en": "What were they using before this, and what pushed them to switch?",
+          "zh": "他們在這之前是用什麼？是什麼事推著他們換掉？",
+          "note": "user research 檢討會上，檢查團隊有沒有問到 push 的問題"
+        },
+        {
+          "en": "I'd frame it as: when [情境], they want to [目的], so they can [結果].",
+          "zh": "我會這樣描述：當[情境]發生時，他們想要[目的]，這樣才能[結果]。",
+          "note": "把一個模糊需求收斂成 job story，適合在寫 PRD 前的對齊會議講出口"
+        }
+      ],
+      "quote": {
+        "text": "Jobs to Be Done is this whole premise that people hire products, they don't buy them, they hire them to make progress in their life.",
+        "guest": "Bob Moesta",
+        "timestamp": "00:05:31",
+        "episode": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+        "url": "https://www.youtube.com/watch?v=xQV7HVyAJjc&t=329s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "framing-problem",
+        "persuasive-story",
+        "coaching-questions"
+      ]
+    },
+    {
+      "id": "customer-interview",
+      "group": "discovery",
+      "term": "Customer Interviews",
+      "zh": "使用者訪談",
+      "oneLiner": "問他上次做了什麼，不要問他以後想不想要。",
+      "body": "使用者訪談的目的不是收集意見，是收集行為。人對自己未來會怎麼做的預測極不可靠，但對「上一次發生什麼」的回憶相對可靠，所以整場訪談其實可以只靠一個問題撐完：「跟我說說你上一次做[某件事]的經過。」Teresa Torres 的做法是把訪談變成每週固定節奏而不是專案，因為一次性的大規模研究做完就過期了。判斷訪談做得好不好，看逐字稿裡是「我覺得／我通常會」多，還是「那天我先……然後……」多。",
+      "pitfall": "台灣的訪談常常變成「需求確認會」——帶著做好的 wireframe 去問客戶「這樣可以嗎」，對方基於人情說「可以啊不錯」，你就以為驗證過了。另一個坑是訪錯人：B2B 專案訪的是窗口或採購，不是每天真正在用系統的第一線人員，拿回來的全是轉述。",
+      "howToSay": [
+        {
+          "en": "Can you walk me through the last time you had to [做某事]? Just tell me what happened.",
+          "zh": "可以帶我走一遍你上次要[做某事]的過程嗎？講當時發生什麼就好。",
+          "note": "訪談萬用開場，取代「你平常都怎麼做」這種會得到概括答案的問法"
+        },
+        {
+          "en": "That's what they said they would do — did we ask what they actually did last time?",
+          "zh": "那是他們說他們「會」怎麼做——我們有問他們上次「實際」怎麼做嗎？",
+          "note": "在研究分享會上禮貌地質疑一份問卷或訪談結論"
+        },
+        {
+          "en": "We've talked to [N] customers in the last two weeks, and here's the pattern we keep hearing.",
+          "zh": "我們過去兩週訪了[N]位使用者，以下是我們一直重複聽到的模式。",
+          "note": "向上報告時用，先給樣本數再給結論，可信度差很多"
+        }
+      ],
+      "quote": {
+        "text": "I think that's a really big mistake that teams make is, both in their prototype tests and in their interviews, they focus on what people would do, on what people think, on why they think they do something. It's all really unreliable. It's a garbage in, garbage out situation.",
+        "guest": "Teresa Torres",
+        "timestamp": "00:39:57",
+        "episode": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "coaching-questions",
+        "clarifying",
+        "asking-for-advice"
+      ]
+    },
+    {
+      "id": "assumption-testing",
+      "group": "discovery",
+      "term": "Assumption Testing",
+      "zh": "假設驗證",
+      "oneLiner": "把一個點子拆成假設，只測最沒把握的那一個。",
+      "body": "每個產品點子底下都疊著一堆沒說出口的假設：使用者有這個問題、他們找得到這個功能、他們願意換掉現在的做法、業務講得出去。Assumption testing 的核心動作有三步：拆解、排序、然後設計一個小到只驗證單一假設的測試。它跟一般講的「做實驗」不同——大多數團隊做的實驗是把整個點子做完再上線看數據，那太慢也太貴。Teresa Torres 帶的團隊一週可以跑六到十二個假設測試，橫跨三個候選解法，週末就能比較誰勝出。什麼時候該用？當你聽到「我覺得使用者應該會……」的時候。",
+      "pitfall": "台灣團隊常把「驗證」等同「主管簽核」或「發一份市調問卷」——問卷問的是意願不是行為，簽核測的是政治不是市場。另一個坑是覺得做小實驗比直接做還貴：因為發版流程、QA、資安審查都很重，於是乾脆整包做完上線再說，等於把最貴的東西當成第一個測試。",
+      "howToSay": [
+        {
+          "en": "What would have to be true for this to work?",
+          "zh": "這件事要成立的話，有哪些前提必須是真的？",
+          "note": "全場都很興奮某個點子時，用這句把隱藏假設攤開來，不會顯得在潑冷水"
+        },
+        {
+          "en": "What's the cheapest way to test that before we commit [N] weeks of engineering?",
+          "zh": "在投入[N]週工程資源之前，最便宜的驗證方式是什麼？",
+          "note": "擋一個大工程但不直接說不，把討論轉到成本與順序"
+        },
+        {
+          "en": "Which of these assumptions are we least confident about? Let's start there.",
+          "zh": "這幾個假設裡我們最沒把握的是哪一個？我們就從那邊開始。",
+          "note": "規劃 sprint 時用，把驗證順序講成風險排序而不是個人偏好"
+        }
+      ],
+      "quote": {
+        "text": "The first thing is we have to learn how to take an idea and break it into its underlying assumptions. We have to learn how to prioritize those assumptions. Then we have to learn how to run tests that are small enough that they're just testing that assumption.",
+        "guest": "Teresa Torres",
+        "timestamp": "00:44:37",
+        "episode": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "backing-with-evidence",
+        "polite-disagreement"
+      ]
+    },
+    {
+      "id": "opportunity-sizing",
+      "group": "discovery",
+      "term": "Opportunity Sizing",
+      "zh": "機會評估",
+      "oneLiner": "先粗估這件事能推動多少，再決定值不值得做。",
+      "body": "機會評估是在動手前用一組粗略假設，估出「這件事如果成功，會讓關鍵指標動多少」。重點不是算得準，是算出數量級——差一個零就足以改變優先順序。實務上的做法是從北極星指標往下拆成一棵指標樹，找到你的功能碰得到的那一格，再往上推它對整體的貢獻；Ramp 的成長團隊就是把所有專案都換算成「能帶來多少 SQL pipeline 金額」，算完常常直接得出「這個不要做」。跟大家熟悉的 TAM 不同，這裡估的是內部的可推動量，不是整個市場有多大。",
+      "pitfall": "台灣 PM 很怕在會議上講一個不精準的數字，怕被工程或財務抓錯，所以乾脆不估，改用「這個很重要」「客戶一直在問」來排序——結果排序權就交回給嗓門最大的人。正確做法是把假設攤在旁邊：「假設轉換率提升 2%、月流量 30 萬，那就是……」，數字錯了可以修，沒有數字連怎麼錯都不知道。",
+      "howToSay": [
+        {
+          "en": "Roughly how much does this move [指標]? Even a rough number helps us prioritize.",
+          "zh": "這件事大概能讓[指標]動多少？就算是很粗的數字也有助於排序。",
+          "note": "有人提案但沒帶數字時，用這句要一個量級，語氣不帶質疑"
+        },
+        {
+          "en": "Let me walk you through the back-of-the-envelope math, and please push back on the assumptions.",
+          "zh": "我先把粗估的算法走一遍，假設哪裡不合理請直接說。",
+          "note": "自己提案時用，先自曝假設反而讓數字更站得住腳"
+        },
+        {
+          "en": "If this works perfectly, the upside is about [X]. I'm not sure that justifies [N] weeks.",
+          "zh": "就算完全成功，天花板大概是[X]。我不確定這值得投入[N]週。",
+          "note": "用機會上限來擋案子，比說「我覺得不重要」有力得多"
+        }
+      ],
+      "quote": {
+        "text": "And then we would have, okay, what does two bips of conversion rate mean for dollars of SQL pipeline? A lot or not a lot? And depending on that, it's like, \"All right, don't waste your time doing that project.\"",
+        "guest": "Sri Batchu",
+        "timestamp": "00:41:12",
+        "episode": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+        "url": "https://www.youtube.com/watch?v=RcYCU5UAZOk&t=2470s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "making-the-case",
+        "trade-offs",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "signal-vs-noise",
+      "group": "discovery",
+      "term": "Signal vs. Noise",
+      "zh": "訊號與雜訊",
+      "oneLiner": "分辨哪些回饋代表真需求，哪些只是客氣話。",
+      "body": "訊號是有代價的行為：對方願意排時間試用、願意付錢、願意把主管拉進來、或是主動追問「什麼時候上線」。雜訊是沒有代價的言語：「聽起來不錯」「很有意思」「之後再看看」。Wiz 早期每天跟十幾位 CISO 開會，每場都收到「sounds interesting」，直到 PM 承認自己聽不懂公司在做什麼，才發現那些好感全是雜訊；換了方向之後，訊號長得完全不一樣——客戶主動要求開 POV。判斷準則很簡單：如果對方的正面回饋不需要他付出任何東西，那就先當成雜訊。",
+      "pitfall": "華人客戶（尤其 B2B）習慣給禮貌性正面回饋，「不錯啊」「再研究看看」幾乎零資訊量，台灣 PM 卻常把它寫進會議紀錄當成驗證通過。反過來的坑同樣致命：手上只有一兩個大客戶，其中一位在飯局上抱怨一句，就變成 roadmap 上的一整季——單一大客戶的意見是強訊號沒錯，但它代表的是那個客戶，不是市場。",
+      "howToSay": [
+        {
+          "en": "Is that coming from one loud customer, or are we seeing a pattern?",
+          "zh": "這是某一個講話很大聲的客戶，還是我們真的看到一個模式？",
+          "note": "有人拿單一客訴推需求時，用這句要求樣本，不針對人"
+        },
+        {
+          "en": "\"Sounds interesting\" isn't a commitment. Has anyone asked them to [試用／付費／簽 POC]?",
+          "zh": "「聽起來不錯」不算承諾。有人請他們[試用／付費／簽 POC]了嗎？",
+          "note": "業務回報客戶反應很好時，把口頭好感換算成行為證據"
+        },
+        {
+          "en": "How many accounts is this coming from, and are they in our target segment?",
+          "zh": "這是幾個帳號反映的？他們屬於我們的目標客群嗎？",
+          "note": "會議上判斷回饋強度的兩個標準問題，問完通常爭論就結束了"
+        }
+      ],
+      "quote": {
+        "text": "And so, we would join a call, and kind of present and walk through our idea, and the person on the other end would be like, \"Oh, it sounds interesting. Oh yes, sounds interesting, we'd love to hear more.\"",
+        "guest": "Raaz Herzberg",
+        "timestamp": "00:09:09",
+        "episode": "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)",
+        "url": "https://www.youtube.com/watch?v=vnW3zIkrOvY&t=547s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "clarifying",
+        "changing-your-mind"
+      ]
+    },
+    {
+      "id": "prioritization",
+      "group": "execution",
+      "term": "Prioritization Frameworks",
+      "zh": "優先順序框架",
+      "oneLiner": "排序不是把事情排先後，是決定哪些永遠不做。",
+      "body": "多數人排序時問「這件事划算嗎？」——只要投入報酬為正就做，於是待辦清單被一堆「快速見效」的小事塞滿。真正該問的是機會成本：我選了這個，就等於放棄了那個最好的選項，兩者的差距有多大。RICE、ICE 這類框架只是幫你把直覺攤開來吵，不是幫你算出答案；框架的價值在於逼團隊講出權重從哪來。當你手上同時有五件穩賺小事和兩件說不清楚但可能改變業務軌跡的大事，這個轉換最有用。",
+      "pitfall": "台灣 PM 最常見的是「排序 = 排隊」——所有需求都留在清單上，只是先後不同，等於沒排序。加上老闆丟下來的都自動變 P0，最後 roadmap 變成一份沒人敢刪的許願池。",
+      "howToSay": [
+        {
+          "en": "Before we rank these, can we align on what we're optimizing for this quarter?",
+          "zh": "在排序之前，我們可以先對齊這一季到底在追什麼嗎？",
+          "note": "roadmap 會議開場，先定判準再吵順序"
+        },
+        {
+          "en": "The question isn't whether [X] is worth doing — it's whether it's the best use of the team right now.",
+          "zh": "問題不是 [X] 值不值得做，而是它是不是團隊現在最該做的事。",
+          "note": "當有人用「這個有價值啊」來爭取排進去時"
+        },
+        {
+          "en": "If [X] goes in, what comes out? I'd rather we do three things properly than six things halfway.",
+          "zh": "如果 [X] 要進來，什麼要出去？我寧可三件做好，也不要六件做一半。",
+          "note": "老闆或業務臨時加需求時，把取捨丟回去"
+        }
+      ],
+      "quote": {
+        "text": "When we reprogram ourselves to think in terms of opportunity cost, we are no longer thinking, \"Is this a good use of my time?\" Instead, you are thinking, \"Is this the best use of my time?\" It's a subtle but profound shift in our thinking.",
+        "guest": "Shreyas Doshi",
+        "timestamp": "01:05:27",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "trade-offs",
+        "making-the-case",
+        "saying-no"
+      ]
+    },
+    {
+      "id": "scope-control",
+      "group": "execution",
+      "term": "Scope Control",
+      "zh": "範疇管理",
+      "oneLiner": "先固定時間，再決定塞得下什麼，而不是相反。",
+      "body": "傳統做法是「先把功能想完整，再問工程要多久」，結果估的永遠不準，時程一路往後延。Shape Up 的做法反過來：先講「我們願意花多少時間」（appetite），再倒推這段時間內能做出什麼有意義的東西。這個順序的差別很關鍵——時間一旦是變數，範疇就會無限膨脹；時間變成天花板，團隊才會被迫問「哪一塊是真的非做不可」。時程被壓縮時，工程和設計的直覺是偷工減料（砍品質），但正確動作是逐項問「拿掉這個，產品還有用嗎」，一路砍到不能再砍。",
+      "pitfall": "台灣 PM 常把「加班」和「品質」當成範疇的緩衝墊——需求進來不擋，靠團隊硬吃。對外不敢說不，對內就變成偷偷降品質、埋 bug，最後兩邊都輸。",
+      "howToSay": [
+        {
+          "en": "We've got [six weeks]. Let's work backwards from that and decide what actually fits.",
+          "zh": "我們有 [六週]。我們從這個往回推，決定什麼真的塞得進去。",
+          "note": "kickoff 時把時間先釘死，設定討論框架"
+        },
+        {
+          "en": "I'm not saying no to [X] — I'm saying not in v1. Can we park it as a fast follow?",
+          "zh": "我不是說 [X] 不做，是說不在第一版。可以先放到後續快速跟進嗎？",
+          "note": "擋需求但不製造對立，最實用的一句"
+        },
+        {
+          "en": "If we keep this in, what would we have to give up? I'd rather cut scope than cut quality.",
+          "zh": "如果這個要留著，我們得放棄什麼？我寧可砍範疇，也不要砍品質。",
+          "note": "時程告急、團隊開始想「先做個陽春版」時"
+        }
+      ],
+      "quote": {
+        "text": "If we think of six weeks as a maximum, that's going to force us to ask some really good questions to ourselves about what piece of this do we really think we can land?",
+        "guest": "Ryan Singer",
+        "timestamp": "00:27:18",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "saying-no",
+        "trade-offs",
+        "bad-news"
+      ]
+    },
+    {
+      "id": "shipping-cadence",
+      "group": "execution",
+      "term": "Shipping Cadence",
+      "zh": "出貨節奏",
+      "oneLiner": "出貨快不只是效率，它讓每個決策的成本變低。",
+      "body": "節奏快的真正紅利不是「做比較多」，而是決策成本下降：如果一件事三天就能上、錯了三天就能改，你就不需要開三場會來決定它。Ramp 把速度當成組織設計的第一原則——招募、升遷、流程全部繞著它轉。但速度是純量不是向量，跑得快不代表方向對，所以必須同時架控管機制（客訴直送 PM 與工程、bug 直接指派給值班工程師、營運負擔納入團隊指標）。想提高節奏，先砍的通常不是工作量，而是狀態會議、審核關卡和過度精準的規劃。",
+      "pitfall": "台灣團隊習慣「攢一波大改版」再上線，怕小改動被說沒份量、上線出包很丟臉。結果 release 變成一年兩次的大事，風險全部堆在同一天爆，回饋也晚了半年才拿到。",
+      "howToSay": [
+        {
+          "en": "What's the smallest thing we could ship this week that would actually teach us something?",
+          "zh": "這週我們能出的最小一塊、而且真的能學到東西的，是什麼？",
+          "note": "sprint 規劃時把大專案切開"
+        },
+        {
+          "en": "This decision is cheap to reverse — let's just ship it and see, instead of spending another meeting on it.",
+          "zh": "這個決定要改回來成本很低——我們直接上線看看，不要再開一次會了。",
+          "note": "會議陷入長考、大家在猜結果時"
+        },
+        {
+          "en": "Speed only helps if we're pointed in the right direction. What's our signal that this is working?",
+          "zh": "跑得快只有在方向對的時候才有用。我們怎麼知道這個方向是對的？",
+          "note": "當老闆一味要求「加快」時，把速度和方向分開談"
+        }
+      ],
+      "quote": {
+        "text": "Velocity is just a magnitude, it's not necessarily a specific direction.",
+        "guest": "Geoff Charles",
+        "timestamp": "00:21:45",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "trade-offs",
+        "explaining-why",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "mvp",
+      "group": "execution",
+      "term": "MVP & Scoping Down",
+      "zh": "最小可行產品",
+      "oneLiner": "MVP 不是「做爛一點」，是用最便宜的方式驗證你的假設。",
+      "body": "MVP 常被誤解成「陽春、粗糙、會當機的版本」，但它其實跟品質無關：給定你要驗證的假設，什麼是拿到驗證所需最省力的做法？如果你的市場品質門檻很高，那就更該只做一個功能、但把它做到那個水準，而不是所有功能都做到那個水準。實務上人們對「必要功能」的判斷通常錯一到兩個數量級，所以最有效的動作很粗暴：把清單砍一半，再砍一半。做不出 MVP 通常不是縮小得不夠，而是上游沒想清楚——你其實還講不出自己想學到什麼。",
+      "pitfall": "台灣 PM 常卡在兩端：一邊是老闆說「使用者期待很高，不能丟這種東西出去」，於是無限往後延；另一邊是把 MVP 當免死金牌，做了一坨沒人要的粗糙品，卻沒定義要驗證什麼假設，上線後也不知道該看什麼數字。",
+      "howToSay": [
+        {
+          "en": "What's the one assumption that, if it's wrong, kills this? Let's design the smallest test for that.",
+          "zh": "有哪一個假設，如果錯了這個案子就沒了？我們針對它設計最小的測試。",
+          "note": "把「要做多少」的爭論轉成「要驗證什麼」"
+        },
+        {
+          "en": "Let's write the feature list, then cut it in half — twice — and see if it still tests the hypothesis.",
+          "zh": "我們先列功能清單，然後砍一半、再砍一半，看看它還能不能驗證我們的假設。",
+          "note": "縮範疇的具體動作，直接借 Eric Ries 的說法"
+        },
+        {
+          "en": "If the bar is that high, then we can only afford one feature at that bar. Which one?",
+          "zh": "如果標準真的那麼高，那我們只做得起一個功能到那個標準。要哪一個？",
+          "note": "當有人用「使用者期待很高」反對做小版本時"
+        }
+      ],
+      "quote": {
+        "text": "Write out the list of features that are necessary in your MVP. Cut it in half and cut it in half again and build that.",
+        "guest": "Eric Ries",
+        "timestamp": "00:43:02",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "framing-problem",
+        "challenging-assumptions",
+        "admitting-uncertainty"
+      ]
+    },
+    {
+      "id": "launch-strategy",
+      "group": "execution",
+      "term": "Launch Strategy",
+      "zh": "上線策略",
+      "oneLiner": "上線不是工程完成日，是你決定「準備好」的判準。",
+      "body": "上線該解的問題是：在什麼證據下，我們願意把這個東西攤在世人面前？Figma 出 stealth 時，核心差異化功能（多人協作）根本還沒做完，但團隊看到的訊號是——展示時使用者會把筆電從創辦人手上搶過去自己玩。那個情緒反應，比任何轉換率數字都可靠，因為早期樣本太小，你優化不出 PMF。實務上「上線」通常是一連串遞進的門：內部先用 → 少數願意當白老鼠的客戶 → 早期採用者 → GA，每一關有各自的品質標準與要學的東西。",
+      "pitfall": "台灣團隊常把上線當成「工程做完就發」，沒有 GTM、沒有分階段、沒有定義「準備好」的判準；或反過來要求 100% 完美才敢發，等到發的時候市場已經換人了。兩種都是同一個病：沒有明說門檻。",
+      "howToSay": [
+        {
+          "en": "What has to be true before we're comfortable calling this GA?",
+          "zh": "要滿足什麼條件，我們才敢說這個可以正式上線？",
+          "note": "把模糊的「準備好了嗎」變成可討論的清單"
+        },
+        {
+          "en": "Let's roll it out to [10%] first and watch [metric] before we go wide.",
+          "zh": "我們先放給 [10%] 的人，觀察 [某指標] 之後再全面開放。",
+          "note": "提分階段上線，降低一次爆掉的風險"
+        },
+        {
+          "en": "The numbers are too small to be meaningful yet — I'd rather look at how people react in the demos.",
+          "zh": "現在的數字量太小、看不出意義——我比較想看使用者在 demo 時的反應。",
+          "note": "早期產品被要求「拿數據來」時的回應"
+        }
+      ],
+      "quote": {
+        "text": "That kind of emotion, that reaction of wanting to play with it in these demos, was really what gave me confidence that we were ready to launch.",
+        "guest": "Claire Butler",
+        "timestamp": "00:22:28",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "making-the-case",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "product-quality",
+      "group": "execution",
+      "term": "Craft & Quality Bar",
+      "zh": "品質標準",
+      "oneLiner": "品質不是沒有 bug，是使用者摸起來「對」的那種感覺。",
+      "body": "Craft 指的是那些不會出現在需求文件裡的細節：動畫的手感、右鍵選單能不能斜著滑過去、少一次點擊。Linear 的做法是把它交給工程與設計去擁有，因為只有整天盯著那個畫面的人才看得到可以更好的地方。但 craft 不等於完美主義——完美主義的下場是什麼都出不去；他們的解法是「很快推出去、也很快修回來」，前期給自己人和願意早試的客戶用，到公開發布才拉高打磨標準。這件事最後是文化問題：如果公司不重視，個人再在意也撐不住。",
+      "pitfall": "台灣 PM 常把品質外包給 QA，變成「測完沒 bug 就是有品質」，卻沒有人為「這個用起來不對」負責。另一個極端是在還沒人用的功能上無限打磨，把 craft 花在沒有觀眾的地方。",
+      "howToSay": [
+        {
+          "en": "It works, but it doesn't feel finished yet. Can we take [two more days] on the details?",
+          "zh": "功能是通了，但感覺還沒完成。我們可以再花 [兩天] 處理細節嗎？",
+          "note": "要求延後上線做打磨，最不引戰的講法"
+        },
+        {
+          "en": "What's the bar for this one — internal beta, or something we'd put on the homepage?",
+          "zh": "這個的標準抓在哪——內部 beta，還是能放上首頁的水準？",
+          "note": "開工前先講清楚品質標準，避免後期爭執"
+        },
+        {
+          "en": "I don't think this is at the bar we'd want our name on. Here's specifically what's bugging me: [X].",
+          "zh": "我覺得這還沒到我們願意掛名的水準。具體卡住我的是 [X]。",
+          "note": "擋下發布時，一定要接具體事證否則變成主觀否決"
+        }
+      ],
+      "quote": {
+        "text": "The downside with this perfection mindset is that it can be sometimes hard to put anything out because nothing is ever fully perfect. We try to balance this thinking with the fact that we should be always pushing things out very quickly, but then also fixing them very quickly.",
+        "guest": "Karri Saarinen",
+        "timestamp": "00:11:21",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "polite-disagreement",
+        "hard-feedback",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "group": "execution",
+      "term": "Technical Debt",
+      "zh": "技術債",
+      "oneLiner": "技術債是槓桿，不是罪惡——但你要知道自己借了多少。",
+      "body": "把技術債類比成金融債會清楚很多：借錢是為了買現在買不起的東西，欠技術債是為了做小團隊本來做不出來的產品。新創的優勢正是敢欠、大公司不敢欠。判準很簡單——這是今天非解不可的問題，還是第 50 個、第 500 個工程師可以解的問題？後者就先欠著，把那個未來的人「先用起來」。但債有跑道：借太多又沒在期限內做出足夠價值來養還債的人，團隊就會掉進「只能維持燈亮著」的狀態，那是新創的死法。Captions 的做法是每年留一個季度專門還債。",
+      "pitfall": "台灣 PM 最常見的是完全不碰這題——技術債被當成「工程自己的事」，PM 只管功能。結果債務沒有帳本、沒有還款計畫，等到工程說「這個做不動了」才第一次聽說。反面則是被工程一句「有技術債」就無限讓步，卻從不問要還多少、什麼時候還。",
+      "howToSay": [
+        {
+          "en": "Is this a problem we need to solve today, or one that the 50th engineer can solve?",
+          "zh": "這是我們今天非解不可的問題，還是第 50 個工程師可以解的問題？",
+          "note": "決定要不要現在還債，直接借 Gaurav Misra 的判準"
+        },
+        {
+          "en": "Let's take this debt on deliberately, but write down when we plan to pay it back.",
+          "zh": "這個債我們就有意識地欠下去，但要寫下來我們打算什麼時候還。",
+          "note": "同意走捷徑，同時把它變成有紀錄的決策"
+        },
+        {
+          "en": "We're spending about [30%] of every sprint just keeping the lights on. That's the number I'd bring to leadership.",
+          "zh": "我們每個 sprint 大概花 [30%] 只是在維持運作。這個數字就是我要拿去跟管理層講的。",
+          "note": "把技術債翻譯成主管聽得懂的資源語言"
+        }
+      ],
+      "quote": {
+        "text": "As a startup, your job is to take on technical debt because that is how you operate faster than a bigger company. Bigger companies don't take on technical debt, they pay it usually right away.",
+        "guest": "Gaurav Misra",
+        "timestamp": "00:20:48",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "making-the-case",
+        "trade-offs",
+        "bad-news"
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "group": "growth",
+      "term": "Product-Market Fit",
+      "zh": "產品市場契合",
+      "oneLiner": "產品是不是「非它不可」，市場說了算，不是你說了算。",
+      "body": "PMF 要回答的是一件很殘酷的事：如果你的產品明天消失，有沒有一群人會真的難過。Sean Ellis 的做法是直接問使用者「如果以後不能用這個產品，你會有多失望？」，然後只看回答「非常失望」的比例，經驗值抓 40%。跟直覺不同的地方在於：這個數字低不代表你要放棄，而是要去挖那 7%、10% 的人是誰、他們在用哪一個功能——Sean Ellis 在 Lookout 就是靠這樣把產品收斂到防毒這一件事上，兩週從 7% 拉到 40%。更硬的證據是留存：問卷是領先指標，留存曲線才是最終判決。實務上這個門檻的價值不在數字本身，而在於讓「還早得很」派跟「還等什麼」派終於對同一個標準講話。",
+      "pitfall": "台灣 PM 最常把「幾個大客戶說很好用」或「demo 時客戶點頭」當成 PMF，然後就開始加預算、加人。那多半只是客製化服務做得好，不是市場在拉你——真正該看的是同一批人三個月後還在不在。",
+      "howToSay": [
+        {
+          "en": "Before we scale spend, I'd like to see whether we actually have product-market fit in [the SMB segment].",
+          "zh": "在加碼投放之前，我想先確認我們在〔中小企業客群〕是不是真的有 PMF。",
+          "note": "老闆要你「衝一下量」但你覺得地基還沒好時，用這句把節奏拉回來"
+        },
+        {
+          "en": "Only [12%] said they'd be very disappointed without us. That tells me we're not there yet.",
+          "zh": "只有〔12%〕的人說沒了我們會非常失望，這代表我們還沒到。",
+          "note": "用 Sean Ellis 調查的數字說話，比講感覺有力得多"
+        },
+        {
+          "en": "I'd rather nail it for [one segment] first, then scale it.",
+          "zh": "我寧可先在〔某一個客群〕做到位，再談規模化。",
+          "note": "被要求同時服務多個客群時，講取捨的標準句"
+        }
+      ],
+      "quote": {
+        "text": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well.",
+        "guest": "Sean Ellis",
+        "timestamp": "00:00:07",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "making-the-case",
+        "challenging-assumptions"
+      ]
+    },
+    {
+      "id": "north-star-metric",
+      "group": "growth",
+      "term": "North Star Metric",
+      "zh": "北極星指標",
+      "oneLiner": "全公司共用的一個數字，量的是「使用者拿到多少價值」。",
+      "body": "北極星指標是把策略壓成一個數字：WhatsApp 是訊息送出數、Airbnb 是訂房晚數、Instacart 的成長團隊是 monthly active orders。關鍵區分是 Itamar Gilad 講的——北極星量的是「我們給出去多少價值」，營收是「我們收回來多少」，兩個都要，但不能混為一談。它不是拿來做報表的，是拿來解決資源分配爭議的：Instacart 的做法是讓每個小團隊追自己能直接影響的指標，再用一個換算層把它折算回北極星，這樣跨團隊比較才有共同貨幣。北極星也不是一輩子的——Airtable 的成長團隊就把北極星從營收改成使用者成長，Lauryn Isford 的建議是至少穩定六個月，但覺得「這指標變老新聞了」就該換。",
+      "pitfall": "台灣團隊常見兩種極端：一種是北極星直接設成營收或 GMV，結果所有人只會做短期促銷；另一種是每個部門一個北極星，等於沒有北極星。還有一個坑是選了一個團隊根本影響不到的指標，做什麼都動不了，久了大家就不看了。",
+      "howToSay": [
+        {
+          "en": "Can you connect this back to our north star? I'm not seeing how it ladders up.",
+          "zh": "這個能連回我們的北極星嗎？我看不出它怎麼往上接。",
+          "note": "會議上有人提一個聽起來很酷但方向不明的專案時"
+        },
+        {
+          "en": "Revenue is the outcome. Our north star should measure the value users actually get.",
+          "zh": "營收是結果。北極星應該量的是使用者實際拿到的價值。",
+          "note": "老闆想把北極星直接設成營收時，講清楚兩者的差別"
+        },
+        {
+          "en": "Let's agree on one number we're all accountable for this quarter — and one guardrail we won't break.",
+          "zh": "我們先講定這一季大家共同負責的一個數字，加一個不能踩破的護欄指標。",
+          "note": "季度規劃收斂時用，順便把 guardrail metric 一起講進去"
+        }
+      ],
+      "quote": {
+        "text": "The North Star metric is measuring how much value we're creating for the user, the core value that they're getting. The top KPI is what we expect to get, it should be revenue or profit.",
+        "guest": "Itamar Gilad",
+        "timestamp": "00:29:02",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "explaining-why",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "retention-curve",
+      "group": "growth",
+      "term": "Retention Curve",
+      "zh": "留存曲線",
+      "oneLiner": "看曲線會不會打平，那條水平線就是你真正的市場。",
+      "body": "留存曲線是把同一批（cohort）進來的使用者，畫出他們第 1 週、第 4 週、第 12 週還剩多少比例。所有產品第一個月都會掉很兇，那不重要；重點是它會不會在某個水位「打平」（flatten）。打平代表有一群人真的在這裡拿到價值，那就是你的 PMF 所在——即使打平在 10%，至少你知道那 10% 是誰。跟直覺最大的差別是：不要看 aggregate 的總留存率，那個數字會被新用戶灌水而看起來一直很漂亮；一定要 cohort 分開看。Lenny 和 Casey Winters 訪問 20 位成長專家整理的六個月留存基準：消費者社群 25% 算好、45% 算優秀；消費者交易型 30%／50%；中小企業 SaaS 60%／80%；企業級 SaaS 70%／90%。",
+      "pitfall": "台灣團隊最常犯的是只報「本月活躍數」而不做 cohort，於是一邊瘋狂拉新、一邊漏水，總數看起來還在漲，實際上每一批人都在第三週死光。另一個坑是拿別的產業的留存數字來自我安慰——電商跟 B2B SaaS 的合理值差一倍以上。",
+      "howToSay": [
+        {
+          "en": "Our retention curve doesn't flatten yet — we're still losing users at week [8].",
+          "zh": "我們的留存曲線還沒打平，第〔8〕週還在掉人。",
+          "note": "報告數據時，一句話說清楚問題在哪一段"
+        },
+        {
+          "en": "Can we look at this by cohort rather than in aggregate? The total is hiding the churn.",
+          "zh": "可以改用 cohort 來看嗎？看總數會把流失蓋掉。",
+          "note": "有人拿總量圖表說「成長很好」時，禮貌地把討論拉回真相"
+        },
+        {
+          "en": "Which cohort is this? I want to make sure we're comparing the same starting point.",
+          "zh": "這是哪一批的數字？我想確認我們比的是同一個起點。",
+          "note": "英文會議裡沒聽懂數據定義時，最安全的澄清句"
+        }
+      ],
+      "quote": {
+        "text": "Plot the % active users over time (for various cohorts) to create a retention curve. If it flattens off at some point, you have probably found product/market fit for some market or audience.",
+        "guest": "Brian Balfour",
+        "timestamp": null,
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "clarifying",
+        "challenging-assumptions"
+      ]
+    },
+    {
+      "id": "growth-loops",
+      "group": "growth",
+      "term": "Growth Loops",
+      "zh": "成長迴圈",
+      "oneLiner": "讓用過的人把下一批人帶進來，而不是每個人都得你自己去找。",
+      "body": "漏斗（funnel）是線性的：你花錢買一個人進來，用完就沒了，下個月要再花一次。迴圈是把輸出接回輸入：DoorDash 談下一家餐廳，餐廳自己去跟熟客講「我們可以外送」，熟客就變成 DoorDash 的新用戶；Cameo 只要簽名人，名人的粉絲自己會來。Lenny 把這類「新用戶大多直接來自既有用戶」的機制叫 magical growth loops，分四型：供給帶需求、需求帶供給、需求帶需求（病毒）、供給帶供給。Casey Winters 的觀察是：現在厲害的創辦人在還沒有 PMF 之前就先把迴圈埋進產品裡，等 PMF 一到就有現成的分發優勢。判斷句很簡單——問「這條路的產出，會不會變成下一輪的投入？」不會的話，它只是一個渠道，不是迴圈。",
+      "pitfall": "台灣 PM 常把「一次爆紅的活動」或「跟某平台的一次合作」講成成長迴圈。那些是尖峰（spike），不會複利。另一個坑是同時開五個迴圈都做半套——Elena Verna 也提醒過，迴圈變多不等於成長變多。",
+      "howToSay": [
+        {
+          "en": "Is this a one-off channel, or a loop that compounds?",
+          "zh": "這是一次性的渠道，還是一個會複利的迴圈？",
+          "note": "評估成長提案時最好用的一句反問"
+        },
+        {
+          "en": "What's the output of this loop that feeds back into the input?",
+          "zh": "這個迴圈的產出，是怎麼回頭變成投入的？",
+          "note": "對方說「這是一個 loop」但講不清楚時，用這句逼出機制"
+        },
+        {
+          "en": "That gets us a spike, not a loop. I'd rather invest where it compounds.",
+          "zh": "那只會給我們一個尖峰，不是迴圈。我比較想投在會複利的地方。",
+          "note": "擋掉行銷端一次性活動需求時，講得有理有據又不難聽"
+        }
+      ],
+      "quote": null,
+      "relatedFunctions": [
+        "proposing-idea",
+        "setting-strategy",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "activation",
+      "group": "growth",
+      "term": "Activation & Aha Moment",
+      "zh": "啟用與 Aha 時刻",
+      "oneLiner": "新用戶第一次真正嚐到價值的那一刻，越快到越好。",
+      "body": "Activation 指的是新用戶從註冊走到「喔，原來是這樣」的那個里程碑。Airtable 成長團隊的定義具體到嚇人：第四週、同一個 workspace 有一個以上的人在協作——因為他們的分析發現這件事跟長期留存高度相關。找法有三步：先從訪談和使用資料列出候選時刻，再用回歸分析看哪個時刻之後留存出現轉折，最後跑實驗確認它是「因果」不只是「相關」。Bangaly Kaba 的提醒是，很多團隊根本說不出自己的 aha moment 是什麼，就一路往上灌流量——那只是把水倒進破桶子。Sean Ellis 也講過同一件事：改留存往往不是靠留存手段，而是靠 onboarding 把人帶到對的體驗。",
+      "pitfall": "台灣團隊常把 activation 定義成「完成註冊」或「填完個人資料」——那是我們想要他做的事，不是他拿到價值的時刻。第二個坑是只驗證相關性就拍板：看到「有加好友的人留存比較高」，就去逼所有人加好友，結果留存沒動，因為那是果不是因。",
+      "howToSay": [
+        {
+          "en": "What's the aha moment we're trying to get people to? Let's name it before we redesign onboarding.",
+          "zh": "我們想帶使用者到的 aha 時刻是什麼？先講清楚再改 onboarding。",
+          "note": "團隊一開口就要改註冊流程時，先把目標定義出來"
+        },
+        {
+          "en": "Is that correlated with retention, or actually causal? Have we tested it?",
+          "zh": "那個跟留存是相關還是因果？我們有實驗驗過嗎？",
+          "note": "資料團隊丟出一個「高留存行為」時，最值錢的一句追問"
+        },
+        {
+          "en": "Our activation milestone is [two teammates active in week four] — everything in onboarding should point there.",
+          "zh": "我們的啟用里程碑是〔第四週有兩位團隊成員活躍〕，onboarding 的每一步都應該指向它。",
+          "note": "跟設計、工程對齊 onboarding 範疇時，用一句話定錨"
+        }
+      ],
+      "quote": {
+        "text": "What does it take for someone to actually understand the value, that first moment, that first aha moment in the product? And a lot of teams, it's shocking how many teams don't really understand what that moment is for them.",
+        "guest": "Bangaly Kaba",
+        "timestamp": "01:08:58",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "framing-problem",
+        "backing-with-evidence",
+        "clarifying"
+      ]
+    },
+    {
+      "id": "experimentation",
+      "group": "growth",
+      "term": "Experimentation & A/B Testing",
+      "zh": "實驗與 A/B 測試",
+      "oneLiner": "實驗不是拿來證明你對，是用最低成本早點知道自己錯。",
+      "body": "Ronny Kohavi 在 Amazon、Microsoft、Airbnb 建過實驗平台，他公布的失敗率是：微軟整體約三分之二的點子沒有正效果，Bing 因為已經優化很久，失敗率約 85%，Airbnb 高達 92%。這不是團隊爛，是這個世界本來就這樣。因此他主張兩件事：一是每個改動都該進實驗，連小 bug 修正都可能有意外影響；二是要先定義 OEC（overall evaluation criterion）——也就是「我們到底在優化什麼」，而且要配上反向的護欄指標，否則單看營收，你永遠可以靠塞更多廣告贏一次然後輸掉長期。他也強調實驗的複利不在單次勝利，而在制度化學習：Bing 相關性團隊每年靠 0.1%、0.15% 疊出 2%；Airbnb 250 個搜尋實驗疊出 6% 營收。最後一條：不要一次改 17 件事再上線，拆開來一次改一個，你才知道哪四個是好的。",
+      "pitfall": "台灣公司最常見的是「先做完大改版，再補跑 A/B」——花了六個月，數據不好也不敢不上線，這就是 sunk cost。第二個坑是偷看中間結果，看到贏就喊停，樣本根本不夠。第三個是只看主指標不設護欄，短期數字漂亮、退訂率悄悄上升。",
+      "howToSay": [
+        {
+          "en": "What would have to be true for us to call this a win? Let's define success before we launch.",
+          "zh": "要達到什麼條件我們才算贏？在上線前先把成功定義講清楚。",
+          "note": "實驗開跑前最重要的一句，避免事後各說各話"
+        },
+        {
+          "en": "That's not significant yet. I'd want to let it run another [week] before we decide.",
+          "zh": "這還沒到顯著。我希望再跑〔一週〕再下判斷。",
+          "note": "有人急著把早期好看的數字當結論時，擋一下"
+        },
+        {
+          "en": "Most ideas fail — that's normal. I'd rather find out in two weeks than after six months of building.",
+          "zh": "多數點子本來就會失敗，這很正常。我寧可兩週內知道，也不要蓋了六個月才發現。",
+          "note": "說服團隊把大改版拆成小實驗，同時給對方台階下"
+        }
+      ],
+      "quote": {
+        "text": "Overall at Microsoft, about two thirds of ideas fail. At Bing, which is a much more optimized domain, the failure rate was around 85%. And then at Airbnb, this 92% number is the highest failure rate that I've observed.",
+        "guest": "Ronny Kohavi",
+        "timestamp": "00:13:31",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "challenging-assumptions",
+        "changing-your-mind"
+      ]
+    },
+    {
+      "id": "vanity-metrics",
+      "group": "growth",
+      "term": "Vanity Metrics",
+      "zh": "虛榮指標",
+      "oneLiner": "會漲、好看，但不會改變任何決策的數字。",
+      "body": "Sarah Tavel 從 Pinterest 轉去做投資後發現，來 pitch 的創辦人手上全是右上角的漂亮曲線：註冊數、下載數、MAU——但這些數字漲，跟產品有沒有在替人解決問題無關。她連 GMV 都算進虛榮指標：市場規模大不代表使用者開心，客戶不在乎你做了多少交易，只在乎跟你交易那一次爽不爽，所以她追的是 happy GMV。判斷方法只有一句話：「這個數字漲 20%，我們會做出什麼不同的決定？」答案是「沒有」的話，它就是虛榮指標。虛榮指標的真正代價不是數字錯，是它讓你以為自己在進步，於是延後了該面對的問題。Brian Balfour 的替代方案也很直接：看留存和使用深度，不要看純使用者量。",
+      "pitfall": "台灣新創在募資簡報和公司週報上特別容易堆虛榮指標：累積下載、累積註冊、粉專追蹤數。累積型數字只會漲不會跌，天生就是虛榮指標。另一個變形是「本月活躍數」——沒有 cohort、沒有留存，看起來一直成長，其實是拉新在補漏。",
+      "howToSay": [
+        {
+          "en": "Downloads look great. What happened to week-4 retention for that cohort?",
+          "zh": "下載數很漂亮。那一批人的第四週留存呢？",
+          "note": "先肯定再追問，是英文會議裡不得罪人的標準打法"
+        },
+        {
+          "en": "If that number went up 20%, what would we do differently?",
+          "zh": "如果那個數字漲 20%，我們會有什麼不一樣的做法？",
+          "note": "一句話測出對方報的是不是虛榮指標"
+        },
+        {
+          "en": "I'd feel better about that number if we paired it with a guardrail metric.",
+          "zh": "如果能搭一個護欄指標一起看，我對這個數字會比較放心。",
+          "note": "不直接否定對方，但把討論導回真實健康度"
+        }
+      ],
+      "quote": {
+        "text": "You would see all these founders coming in, and they all had these up and to the right graphs, whether it was sign-ups, or downloads, or MAUs. They were missing, at the core, the criticality of engagement.",
+        "guest": "Sarah Tavel",
+        "timestamp": "00:04:48",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "polite-disagreement",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "team-topology",
+      "group": "org",
+      "term": "Team Structure & Pods",
+      "zh": "團隊結構",
+      "oneLiner": "團隊怎麼切，就決定了誰能自己做決定、誰得等別人點頭。",
+      "body": "團隊結構解的是「決策要放在組織的哪一層」這個問題。矽谷主流做法是常設的 pod／mission team：一個目標配一個 PM、一個設計、幾個工程，長期擁有同一塊產品，而不是每次有案子才臨時湊人。跟直覺不同的地方在於，切團隊的重點不是「人力怎麼分配比較省」，而是「autonomy 要放多低才不會失控」——放太低（每個小隊自己想策略）會產生一堆互相抵銷的動作，放太高（老闆一個人決定）則整間公司塞在一個人身上。Spotify 早年用 squad 制，後來自己承認七人小隊在規模化後 overhead 太重，改把自主權收到 VP 這一層。當你發現團隊常常在等別人、或同一件事三個小隊各做一半，那不是紀律問題，是結構問題。",
+      "pitfall": "台灣常見的是「換個名字的專案小組」：對外叫 pod，實際上一個 PM 同時掛四五個專案、工程還是從功能部門借調，做完就解散——這樣拿不到 pod 真正的好處（累積領域知識與當責）。另一個坑是只複製結構不下放決策權，團隊名義上自主，實際每件事還是要跑簽核，然後結論變成「敏捷在台灣不適用」。",
+      "howToSay": [
+        {
+          "en": "Who owns this end to end? Right now it's split across three teams and no one's accountable.",
+          "zh": "這件事從頭到尾誰負責？現在拆在三個團隊，等於沒人當責。",
+          "note": "組織討論／季度規劃時點出結構問題"
+        },
+        {
+          "en": "I'd rather have one team fully staffed on this than three teams half on it.",
+          "zh": "我寧可一個團隊全力做這件事，也不要三個團隊各做一半。",
+          "note": "跟主管爭取集中資源"
+        },
+        {
+          "en": "This team is single-threaded on [X] — anything else needs to come through me first.",
+          "zh": "這個團隊只做 [X] 這一件事，其他需求請先來找我。",
+          "note": "替團隊擋掉插件、宣告聚焦範圍"
+        }
+      ],
+      "quote": {
+        "text": "If you put autonomy very far towards the leaves of the organization … there's a fair chance that you're just going to produce heat. You're going to have a hundred squads with a hundred strategies running in a hundred directions.",
+        "guest": "Gustav Söderström",
+        "timestamp": "00:31:39",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "asking-for-resources",
+        "trade-offs",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "stakeholder-management",
+      "group": "org",
+      "term": "Stakeholder Management",
+      "zh": "利害關係人管理",
+      "oneLiner": "PM 沒有實權，要讓關鍵的人在正式會議前就已經站在你這邊。",
+      "body": "利害關係人管理解的是「你需要別人動，但你不是他的主管」這個結構性問題。核心動作有兩個：一是在提案還很粗糙的時候就把受影響的人拉進來共同修改（co-create），讓他們的意見真的長在方案裡；二是搞清楚每個人真正在意的是什麼——業務在意的可能是這季的數字，法務在意的是風險，兩者要用不同的理由說服。跟直覺相反的是，你的目標不是「想出最好的點子」，而是「讓一個好點子被執行」，所以把功勞分出去往往比守住功勞有用。什麼時候該用：任何需要跨部門資源、或提案會在高層會議上被審的時候，都應該假設「會議只是確認共識，不是製造共識」。",
+      "pitfall": "台灣職場很容易把 stakeholder management 誤解成「做人」「拜碼頭」——靠交情喬事情，而不是靠揭露資訊與利益取捨。副作用是決策速度變成關係好壞的函數：跟你熟的三天過，不熟的拖三個月。另一個極端是完全不做會前功課，在大會議上第一次丟出提案，然後被高層當場打槍，回來說「他們不懂產品」。",
+      "howToSay": [
+        {
+          "en": "Before we take this to the review, I'd love to get your read on it — I'd rather hear your concerns now than in the room.",
+          "zh": "送進正式評審之前，想先聽聽你的看法——我寧可現在聽到你的疑慮，也不要在會議上才聽到。",
+          "note": "會前一對一預先對齊，最重要的一句"
+        },
+        {
+          "en": "What would make you comfortable saying yes to this?",
+          "zh": "要怎麼調整，你才會願意點頭？",
+          "note": "對方明顯有保留但講不出口時"
+        },
+        {
+          "en": "What am I missing here?",
+          "zh": "我還漏了什麼嗎？",
+          "note": "把質疑轉成協作，比辯護有效"
+        }
+      ],
+      "quote": {
+        "text": "Raise difficult issues without being difficult to work with. Bring out important topics without drawing importance to yourself. And finally, you are in charge of getting the decisions made and not making all the decisions yourself.",
+        "guest": "Vikrama Dhiman",
+        "timestamp": "00:19:16",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "handling-objections",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "decision-rights",
+      "group": "org",
+      "term": "Decision Rights & DRI",
+      "zh": "決策權與負責人",
+      "oneLiner": "先決定「誰來決定」，再決定事情本身。",
+      "body": "DRI（Directly Responsible Individual）就是每個決策指定一個人拍板。它解的是跨部門決策被「共識」拖死的問題——當沒有人有決定權，最後出貨的往往是讓所有人都不太生氣的最小公約數。跟直覺不同的是：DRI 不一定是職位最高的人，可能是法務、可能是工程、可能是設計，取決於這個決策的性質；而 DRI 的職責是「聽完所有輸入然後做決定」，不是「讓每個人都滿意」。實務上通常搭配書面輸入：各方把意見寫在文件裡（誰說了什麼看得見），DRI 讀完拍板。什麼時候該用：只要一件事卡在兩個以上部門超過兩週，第一個要問的不是「怎麼解」，是「誰有權解」。",
+      "pitfall": "台灣預設「決策權跟職級綁在一起」，所以 PM 很自然地把每個決定都往上送等老闆點頭，久了老闆變成瓶頸、PM 變成傳聲筒。反過來的坑是開會求共識——每個人都表態、每個人都沒拍板，會議紀錄寫「再討論」。最實際的一步是：在專案啟動時就白紙黑字寫下「這件事我是 DRI」，並讓老闆知情，而不是等衝突發生才爭。",
+      "howToSay": [
+        {
+          "en": "Just to be clear before we go further — who's the DRI on this decision?",
+          "zh": "在往下走之前先確認一下，這個決策的負責人是誰？",
+          "note": "會議中發現大家在繞圈時"
+        },
+        {
+          "en": "I'll take the pen on this one. I'll collect everyone's input this week and make the call by Friday.",
+          "zh": "這件事我來拍板。我這週收集大家的意見，週五前給決定。",
+          "note": "主動宣告自己是 DRI，附上時限最有說服力"
+        },
+        {
+          "en": "I want your input, not your sign-off — I'm not going to be able to make everyone happy on this one.",
+          "zh": "我需要的是你的意見，不是你的核准——這件事我沒辦法讓每個人都滿意。",
+          "note": "擋掉「所有人都要同意」的隱性期待"
+        }
+      ],
+      "quote": {
+        "text": "The DRI's job is to take all that input and make a decision. Not take all that input and do necessarily what's right by everybody. Still do what's right by the customer.",
+        "guest": "Sanchan Saxena",
+        "timestamp": "00:44:45",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "summarizing",
+        "running-meeting",
+        "clarifying"
+      ]
+    },
+    {
+      "id": "disagree-and-commit",
+      "group": "org",
+      "term": "Disagree and Commit",
+      "zh": "反對但執行",
+      "oneLiner": "會議上把反對意見講完，決議一出就真心執行、不再翻案。",
+      "body": "這條原則的完整版是 Amazon 的「Have Backbone; Disagree and Commit」——前半段是義務，不是選項：你如果不同意，有責任把新資訊或新視角講出來，必要時往上講。後半段的關鍵在於知道「什麼時候該停止反對」：當決策者展現出他已經聽懂、也已經把你的理由納入考量，只是有其他更重的因素，那就是你該轉向 commit 的時刻。跟直覺最不同的地方是 commit 的品質：「我還是不同意但我照做」不算 commit，真正的 commit 是你已經理解對方的理由，能把這個理由完整地講給你自己的團隊聽。HubSpot 把它改叫「debate, decide, unite」，因為 disagree and commit 聽起來太兇——但意思一樣。",
+      "pitfall": "台灣「和為貴」的職場文化讓兩端都出問題：disagree 階段沉默（會議上不表態，散會後在小群組抱怨），commit 階段陽奉陰違（嘴上說好，執行時打折扣、進度自然落後）。另一個誤解是把 disagree and commit 讀成「老闆說了算就照做」，直接跳過 backbone 那一半——那不是這條原則，那只是服從。判準很簡單：如果你沒在會議上講過，你就沒有資格在事後說「我早就覺得不行」。",
+      "howToSay": [
+        {
+          "en": "Before we lock this in, I want to put one concern on the record.",
+          "zh": "在拍板之前，我想把一個疑慮講清楚、留個紀錄。",
+          "note": "低對抗性地行使 backbone，最安全的開場"
+        },
+        {
+          "en": "I still see it differently, but I don't have new information to add — let's go with your call and I'll get behind it.",
+          "zh": "我看法還是不一樣，但我沒有新的資訊可以補充——就照你的決定走，我會全力支持。",
+          "note": "從 disagree 乾淨地切換到 commit"
+        },
+        {
+          "en": "I've heard the reasoning and I'm bought in. I'll take this back to my team as our decision, not as something handed down.",
+          "zh": "我理解你的理由，我認同了。我會把這件事帶回團隊講成「我們的決定」，不是「上面交代的」。",
+          "note": "向決策者證明你的 commit 是真的"
+        }
+      ],
+      "quote": {
+        "text": "The worst thing to do is to say, \"Yeah, we're committed to this. I don't really agree and I still think it's wrong, but I'm committed to it.\" That's not actually commitment.",
+        "guest": "Bill Carr",
+        "timestamp": "00:29:39",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "polite-disagreement",
+        "changing-your-mind",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "working-with-eng",
+      "group": "org",
+      "term": "Working with Engineering",
+      "zh": "跟工程協作",
+      "oneLiner": "你沒有指揮權，能換到工程投入的只有脈絡跟信任。",
+      "body": "跟工程協作的本質是：PM 不是工程的主管，你能給的只有「為什麼要做這件事」的脈絡，以及擋掉雜訊的保護。做得好的團隊（例如 Ramp）是 CEO 對「怎麼做」少發表意見、工程對產品有很高的話語權，PM 的角色是 force multiplier 而不是規格發包商。實務上有三個高槓桿動作：講問題與限制而不是講解法（讓工程有空間提出更便宜的做法）、幫團隊擋掉插件與 escalation、以及把使用者的痛真的送到工程眼前（負評、客訴票直接進團隊而不是只進 PM 信箱）。技術理解的門檻不是要你會寫 code，而是知道 tech stack、知道 codebase 哪裡是地雷區、知道部署流程要多久——這些直接決定你估的時程準不準。",
+      "pitfall": "台灣 PM 最常被放在「規格產出器／時程催收員」的位置：只交付 what 不解釋 why，然後拿甘特圖追進度。副作用是工程只做被交代的事，不會主動提出更好的解法。第二個坑是把工程口頭給的粗估直接拿去跟老闆承諾日期，出事時工程覺得被出賣、老闆覺得 PM 不可靠——要嘛講區間，要嘛講清楚那是估計不是承諾。",
+      "howToSay": [
+        {
+          "en": "Here's the problem and the constraint — I'm not attached to this particular solution.",
+          "zh": "這是問題跟限制條件——我對這個特定解法沒有執著。",
+          "note": "把解法空間交回工程，一句話建立信任"
+        },
+        {
+          "en": "Is this a two-week problem or a two-month problem? I just need the order of magnitude, not a commitment.",
+          "zh": "這是兩週的事還是兩個月的事？我只要量級，不是要你承諾。",
+          "note": "問粗估而不逼承諾"
+        },
+        {
+          "en": "What would it take to get a version of this in front of users by the end of the month?",
+          "zh": "要怎麼做，才能在月底前讓使用者摸到某個版本？",
+          "note": "談縮小範圍、找最小可出貨切法"
+        }
+      ],
+      "quote": {
+        "text": "PMs, we can't do anything by ourselves. We're very useless. We're force multiplier.",
+        "guest": "Geoff Charles",
+        "timestamp": "00:24:49",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "explaining-why",
+        "trade-offs",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "writing-culture",
+      "group": "org",
+      "term": "Writing Culture & Docs",
+      "zh": "寫作文化",
+      "oneLiner": "把想法寫成一份可以被反駁的文件，而不是一份好看的簡報。",
+      "body": "寫作文化解的是「口頭討論會被最會講話的人主導」這個問題。Amazon 的 PR/FAQ、Stripe 的 strategy memo 都是同一套邏輯：文件逼你把推理鏈完整攤開，於是漏洞在你自己讀第二遍的時候就會現形——很多提案根本走不到會議室，作者自己寫一寫就知道不成立。跟直覺不同的是，文件的價值不在「留下紀錄」，而在「寫的過程」與「被逐層打過」的過程：先給一兩個人看、修完再給更大的圈子看，同心圓一層層擴大，越後面越硬。實務配套是會議一開始先安靜讀十分鐘（silent reading），因為沒人會事前讀完；以及所有意見都寫進文件，讓「誰說了什麼、基於什麼理由」是可見的。",
+      "pitfall": "台灣會議偏 PPT ＋口頭補充，於是文件常被寫成「美化過的簡報稿」——結論很漂亮，推理過程和不確定性都被藏起來，讀者沒有東西可以反駁。第二個坑是寫了沒人讀：發完 Slack 就當作對齊完成，然後在會議上重講一次。要嘛在會議開頭直接留白讀，要嘛就別寫。",
+      "howToSay": [
+        {
+          "en": "I've written this up. Let's take ten minutes to read it in silence before we discuss.",
+          "zh": "我寫成文件了，我們先安靜讀十分鐘再開始討論。",
+          "note": "silent reading 開場，最實用的一句"
+        },
+        {
+          "en": "Could you leave comments in the doc rather than replying in Slack? I want the reasoning in one place.",
+          "zh": "可以請你把意見留在文件裡而不是回 Slack 嗎？我想把推理集中在同一個地方。",
+          "note": "把散落的意見收攏成可追溯的紀錄"
+        },
+        {
+          "en": "Let me write a one-pager first, so we're at least arguing about the same thing.",
+          "zh": "我先寫一頁的東西出來，至少讓大家在吵同一件事。",
+          "note": "討論一直發散時，用文件收斂"
+        }
+      ],
+      "quote": {
+        "text": "I don't think you can be a good writer, unless you're a clear thinker. And if you couldn't write well, I think it was actually pretty hard to be successful at Stripe, at least in the early days.",
+        "guest": "Eeke de Milliano",
+        "timestamp": "00:15:26",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "making-the-case",
+        "framing-problem",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "managing-up",
+      "group": "org",
+      "term": "Managing Up",
+      "zh": "向上管理",
+      "oneLiner": "主動讓老闆知道你在做什麼、為什麼這樣排，別等他來問。",
+      "body": "向上管理解的是資訊落差：你老闆同時看十件事，他對你這條線的認知只有你餵給他的那些。做法的核心是「排序＋溝通」兩件事要同時做——只排序不溝通，老闆會問你為什麼沒做 A；只溝通不排序，你就只是在轉述問題。第二個核心是弄清楚「什麼事讓你老闆晚上睡不著」，然後主動把那件事接過來，這是資深與資淺最大的分野。有一個很好用的公式是 Peter Deng 講的：say you're going to do the thing、say that you're doing the thing、say that you did it——先講你要做、做的時候講、做完了也講。第三段最多人漏掉，但它同時是收尾與邀請老闆喊停的機會。",
+      "pitfall": "台灣職場很容易把向上管理跟「拍馬屁、搶功勞」畫上等號，於是選擇「做好本分老闆自然會知道」——結果是做完才報告，老闆在過程中沒有機會修正方向，出事時你已經燒掉三週。更諷刺的是，不主動同步正是老闆變成 micromanager 的原因：他不知道進度，只好一直來問。主動報告不是討好，是把老闆的焦慮換成你的決策空間。",
+      "howToSay": [
+        {
+          "en": "Here's what I'm prioritizing this week and what I'm consciously dropping. Shout if you'd sequence it differently.",
+          "zh": "這是我這週的優先順序，還有我刻意先不做的部分。你如果排序不一樣就跟我說。",
+          "note": "週報／1:1 開場，排序＋溝通一次做完"
+        },
+        {
+          "en": "Closing the loop on [X] — it shipped Tuesday, here's what we saw.",
+          "zh": "回報一下 [X] 的結果——週二上線了，這是我們看到的數字。",
+          "note": "把迴圈關掉，最多人漏掉的一步"
+        },
+        {
+          "en": "What's the thing that's worrying you most right now? I'd like to take something off your plate.",
+          "zh": "你現在最擔心的是哪一塊？我想幫你接掉一件事。",
+          "note": "1:1 用這句，從執行者升級成夥伴"
+        }
+      ],
+      "quote": {
+        "text": "Ironically, the most senior people are best at managing up. This is why they got promoted in the first place because they were great at managing up to their bosses to understand what was worrying their bosses, what was keeping them up at night so that they could take that off their plate.",
+        "guest": "Wes Kao",
+        "timestamp": "00:32:29",
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "talking-impact",
+        "stakeholder-alignment",
+        "bad-news"
+      ]
+    },
+    {
+      "id": "value-based-pricing",
+      "group": "pricing",
+      "term": "Value-Based Pricing",
+      "zh": "價值定價",
+      "oneLiner": "價格不是從成本加出來的，是從客戶認為值多少倒推的。",
+      "body": "多數團隊定價時是往內看：算成本、加毛利，或看競品打八折。價值定價是往外看——先問客戶因為這個產品省下多少錢、多賺多少錢、少花多少時間，再從那個數字回推價格。Madhavan Ramanujam 的講法是：價格不是一個金額，而是一把量尺，就像公升是體積的量尺，價格是價值的量尺。實務上還有一個更前面的問題：你要「按什麼收費」（value metric，人／次／GB／回收的金額）；Patrick Campbell 說定價其他都做錯、只要計價單位選對，你還是活得下去，因為它把低流失和擴張營收直接寫進了收費方式裡。什麼時候該用：只要你的產品對大客戶和小客戶的價值差很多，就不該用一口價。",
+      "pitfall": "台灣團隊最常見的是「成本加成＋比競品便宜一點」，等於把定價權交給對手，也把自己鎖死在低毛利。另一個坑是把定價當財務部門的事，PM 全程不參與——結果產品做完才發現沒人願意用那個價格買。",
+      "howToSay": [
+        {
+          "en": "Before we land on a number, can we align on what value we're actually charging for?",
+          "zh": "在敲定數字之前，我們能不能先對齊：我們到底是在為什麼價值收費？",
+          "note": "定價會議開場，把討論從「多少錢」拉回「憑什麼收費」"
+        },
+        {
+          "en": "That price is cost-plus. What we still don't know is what [enterprise customers] think it's worth.",
+          "zh": "那個價格是成本加成算出來的。我們還不知道的是，[企業客戶] 覺得它值多少。",
+          "note": "有人用成本或工時推價格時，禮貌地指出盲點"
+        },
+        {
+          "en": "How we charge matters more than how much we charge — can we settle the value metric first?",
+          "zh": "「怎麼收費」比「收多少」更重要——我們可以先把計價單位定下來嗎？",
+          "note": "團隊卡在數字上、卻還沒決定計價單位時"
+        }
+      ],
+      "quote": {
+        "text": "But when we think about price, we think about it as a measure. Like liter is a measure of volume, price is a measure of value. And when you think of it this way, it really stands for, do people actually want your product and would they actually buy it?",
+        "guest": "Madhavan Ramanujam",
+        "timestamp": "00:12:06",
+        "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=724s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "making-the-case",
+        "challenging-assumptions",
+        "explaining-why"
+      ]
+    },
+    {
+      "id": "packaging",
+      "group": "pricing",
+      "term": "Packaging & Tiering",
+      "zh": "包裝與分級",
+      "oneLiner": "同一個產品切成幾包、每包放什麼，比訂多少錢更決定你賣不賣得掉。",
+      "body": "包裝（packaging）決定「一個產品要切成幾包、每包放什麼」，分級（tiering）是這幾包之間的階梯。Madhavan 的判準是 leaders / fillers / killers：leader 是超過 50% 的人指名要、願意為它掏錢的功能，一整包靠它撐起來；filler 沒人會單買，但放進去讓整包顯得划算（薯條可樂之於大麥克餐）；killer 是放進去反而讓大家不想買的東西，只有一小群人非要不可。實務規則：只有 10–20% 的人非常想要的功能，做成加購（add-on）或高階方案，不要塞進標準包，否則會拉低所有人的整體付費意願。包裝做對了，你連價格都不用改，就能同時服務兩三種客群——這是分眾最便宜的實作方式。",
+      "pitfall": "台灣 PM 常把分級當成「功能數量的階梯」：便宜版少給幾個、貴版全給。結果每一階都沒有清楚的購買理由，客戶只會挑最便宜那階。正確做法是每一階對準一種客群的「非有不可」，而不是對準功能清單的長度。",
+      "howToSay": [
+        {
+          "en": "Only about [15]% of users want this badly — that sounds like an add-on, not part of the core plan.",
+          "zh": "只有大約 [15]% 的使用者非常想要這個——聽起來它該是加購項目，不是主方案的一部分。",
+          "note": "有人想把小眾功能塞進標準方案時"
+        },
+        {
+          "en": "If we bundle that in, we may actually drag down what everyone else is willing to pay.",
+          "zh": "如果我們把那個包進來，反而可能拉低其他所有人的付費意願。",
+          "note": "反駁「加越多越划算」的直覺"
+        },
+        {
+          "en": "Let's sort these into must-haves, nice-to-haves, and things that don't belong in the bundle at all.",
+          "zh": "我們把這些分成必備、加分、以及根本不該放進這一包的三類。",
+          "note": "帶團隊實際做 leaders / fillers / killers 分類"
+        }
+      ],
+      "quote": {
+        "text": "If you bundle it, what happens is it just depreciates the willingness to pay across the entire customer base to the point where no one actually wants it. So you need to find pockets of customers who want it and then maybe only sell it to them.",
+        "guest": "Madhavan Ramanujam",
+        "timestamp": "00:57:56",
+        "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3474s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "trade-offs",
+        "saying-no",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "willingness-to-pay",
+      "group": "pricing",
+      "term": "Willingness to Pay",
+      "zh": "付費意願",
+      "oneLiner": "「喜歡」不等於「會買」，沒帶價格的訪談都在騙自己。",
+      "body": "付費意願不是產品做完才問的問題，而是排 roadmap 的排序依據。Madhavan 說創新失敗率高達 72%，而失敗類型全都源自「定價談得太晚」；他的建議是 price before product——在畫藍圖之前就拿同一套銷售說法去問客戶：你會付錢嗎？不會的話，為什麼？他反覆觀察到，你做的東西裡大約 20% 撐起 80% 的付費意願，不知道是哪 20%，就等於在瞎排優先順序。方法上要小心：Van Westendorp 這類問卷有嚴重的「假設性偏誤」（hypothetical bias）——人很不會預測未來的自己，在想像的世界裡大家都很有錢也沒有其他選擇，所以現在多改用有代價的方法（如 BDM）或直接觀察真實下單行為。",
+      "pitfall": "台灣團隊最常犯的是問「你覺得這個功能好不好？」然後把「不錯啊」當成需求驗證。喜歡和願意付錢是兩件事——不敢在訪談裡把價格講出口，你聽到的永遠只是你想聽的。",
+      "howToSay": [
+        {
+          "en": "Have we actually asked anyone whether they'd pay for this — not just whether they like it?",
+          "zh": "我們真的有問過任何人願不願意付錢嗎——而不只是問他們喜不喜歡？",
+          "note": "roadmap 排序會議上，戳破「使用者說很棒」這種假訊號"
+        },
+        {
+          "en": "I'd like to run willingness-to-pay conversations with [10] customers before we commit the quarter.",
+          "zh": "在投入這一季之前，我想先跟 [10] 位客戶做付費意願訪談。",
+          "note": "爭取驗證時間，而不是直接開工"
+        },
+        {
+          "en": "They said they liked it, but nobody said they'd pay for it. That's a signal, not a detail.",
+          "zh": "他們說喜歡，但沒有人說願意付錢。這是訊號，不是細節。",
+          "note": "回報使用者研究結果、要團隊正視壞消息時"
+        }
+      ],
+      "quote": {
+        "text": "…you cannot prioritize a product roadmap without having a willingness to pay conversation. If you're just prioritizing based on what you think or what you feel or technical resources, you're getting it wrong.",
+        "guest": "Madhavan Ramanujam",
+        "timestamp": "00:21:36",
+        "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=1294s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "backing-with-evidence",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "freemium",
+      "group": "pricing",
+      "term": "Freemium & Free Trial",
+      "zh": "免費增值",
+      "oneLiner": "免費是獲客手段，不是變現策略；重點是你刻意不送什麼。",
+      "body": "把產品做成免費不是收入策略，是獲客策略：降低摩擦、不用跟業務講話就能試，目的永遠是為了在別的地方變現。關鍵決策有兩個。一是 freemium（永久免費方案）還是 trial（限時試用）：產品需要陪跑、單價高就走 trial，能自助看懂就走 freemium——實務上近九成 freemium 產品其實兩個都做。二是「免費送什麼」：送太少，使用者到不了 Aha 時刻；送太多，你就自己吃掉自己的付費方案。AI 產品把這題變得更難，每一次免費請求都在燒 GPU，而免費體驗又必須夠神奇才留得住人，Google AI 團隊就直接撞上「免費版好到搶走付費版」這面牆。好處是真的存在：Patrick Campbell 的資料顯示 freemium 轉來的付費客戶留存高 10–20%、NPS 約兩倍，因為他們是照自己的節奏轉換的。",
+      "pitfall": "台灣團隊常把免費當成「還沒想好怎麼收錢」的擋箭牌：先免費衝使用者，之後再說。之後通常不會來——因為你從頭到尾只設計了免費體驗，沒設計過付費理由。Campbell 的建議是，先搞懂怎麼把 lead 變成客戶，再開 freemium。",
+      "howToSay": [
+        {
+          "en": "Free is an acquisition strategy, not a monetization strategy — what's the path to paid here?",
+          "zh": "免費是獲客策略，不是變現策略——這裡通往付費的路徑是什麼？",
+          "note": "有人提議「先免費衝量」時，追問下一步"
+        },
+        {
+          "en": "What's the one thing we're deliberately not giving away for free?",
+          "zh": "有哪一件事是我們刻意不免費送出去的？",
+          "note": "設計免費方案時，逼團隊講出付費理由"
+        },
+        {
+          "en": "Are we talking about a free tier or a free trial? Those solve different problems.",
+          "zh": "我們現在講的是免費方案還是免費試用？這兩個解的是不同的問題。",
+          "note": "澄清討論中被混用的兩個詞"
+        }
+      ],
+      "quote": {
+        "text": "To be clear, I'm not saying don't do freemium. I'm saying it's a scalpel, not a sledgehammer, that requires thought.",
+        "guest": "Patrick Campbell",
+        "timestamp": null,
+        "episode": "Freemium vs. trial",
+        "url": "https://www.lennysnewsletter.com/p/freemium-vs-trial",
+        "seek": false
+      },
+      "relatedFunctions": [
+        "trade-offs",
+        "making-the-case",
+        "handling-objections"
+      ]
+    },
+    {
+      "id": "expansion-revenue",
+      "group": "pricing",
+      "term": "Expansion Revenue",
+      "zh": "擴張營收",
+      "oneLiner": "既有客戶今年比去年多付的錢，才是撐得住規模的那條線。",
+      "body": "擴張營收是既有客戶今年比去年多付的那一段，通常用 NRR（淨收入留存）衡量：同一群客戶一年後的收入 ÷ 現在的收入，升級與用量成長會把它推過 100%。為什麼重要：Jason Cohen 指出上百家上市 SaaS 公司裡，NRR 低於 100% 的只有兩家，IPO 時的中位數是 119%——沒有擴張，流失遲早會追上你的行銷投入。但 NRR 有個數學陷阱：掉 20% 再漲 20% 回不到原點（只回到 96%），所以要同時盯客戶數本身有沒有在縮。要讓擴張自然發生，計價單位必須跟客戶感受到的價值同步成長（用量、追蹤人數、處理筆數），而不是靠事後漲價；Cohen 的判準是客戶自己要同意「我多付了，但我拿到的更多」。",
+      "pitfall": "台灣團隊的成長會議幾乎只講新客戶數，沒有人被指派「把既有客戶養大」。另一個坑是幻想 land and expand 能從 1 萬跳到 10 萬——客戶會被第一次成交的價格錨定，價格翻十倍時他只會問「我有拿到十倍價值嗎？」",
+      "howToSay": [
+        {
+          "en": "New logos aren't our only lever — what would it take to grow the accounts we already have?",
+          "zh": "新客戶不是我們唯一的槓桿——要讓現有客戶長大，我們得做什麼？",
+          "note": "成長會議上把注意力拉回既有客戶"
+        },
+        {
+          "en": "Our NRR is [95]%, which means we're leaking faster than we're expanding.",
+          "zh": "我們的淨收入留存是 [95]%，代表流失的速度比擴張還快。",
+          "note": "用一個數字把問題講清楚，不用形容詞"
+        },
+        {
+          "en": "If the price goes up, the customer has to feel the value went up more. Otherwise it's just a price hike.",
+          "zh": "如果價格上調，客戶必須感覺到價值漲得更多。不然那就只是漲價。",
+          "note": "討論升級方案或調價時，提出判準"
+        }
+      ],
+      "quote": {
+        "text": "How do we create more value for the customer and then split that with them? And when you do that, you're keeping the customer forefront in mind.",
+        "guest": "Jason Cohen",
+        "timestamp": "00:59:35",
+        "episode": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+        "url": "https://www.youtube.com/watch?v=8xLquwfx6p0&t=3573s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "making-the-case",
+        "stakeholder-alignment"
+      ]
+    },
+    {
+      "id": "strategy-is-tradeoffs",
+      "group": "strategy",
+      "term": "Strategy as Trade-offs",
+      "zh": "策略即取捨",
+      "oneLiner": "策略是決定不做什麼，不是把想做的事全列出來",
+      "body": "策略要回答的其實是「面對這個難題，我們把有限的力氣集中打在哪一點」。跟直覺相反的地方在於：一份看起來很豐富、什麼都涵蓋的計畫，通常是策略缺席的證據——Rumelt 說那叫 laundry list（許願清單），不是 guiding policy。真正的檢驗方式很簡單：問「這一季我們因此不做什麼」，如果答不出來，那就還沒有策略。所以做策略的動作不是加法，是先診斷現況、找出最關鍵而且真的打得動的那個難題，然後把資源砍到只剩它。",
+      "pitfall": "台灣 PM 常被上面丟一句「這些都很重要，都排進去」，就真的把 17 件事都寫進 roadmap，然後用「優先級 P0/P0.5/P1」自欺欺人——Rumelt 提醒 priority 的原意是「第一」，不是「全部」。第二個坑是在英文會議上只講做這件事的好處、閉口不提代價，母語者聽到的訊號是「這個人沒想清楚」，接著就會被追問到答不出來。",
+      "howToSay": [
+        {
+          "en": "If we commit to [X] this quarter, we're explicitly not doing [Y]. I want to make sure everyone's okay with that.",
+          "zh": "如果這季我們投入 [X]，就等於明確地不做 [Y]。我想確認大家都能接受這個取捨。",
+          "note": "提案定案前主動把代價講在明處，比事後被抓包強一百倍；也是最快讓人覺得你 senior 的一句話。"
+        },
+        {
+          "en": "That's a real ask. What would you like me to take off the list to make room for it?",
+          "zh": "這需求我理解。那你希望我從清單上拿掉哪一項來換？",
+          "note": "業務或老闆插需求時用。不說 no，把取捨的決定權還回去，對方通常自己就收手了。"
+        },
+        {
+          "en": "I'd rather do one of these really well than all three at sixty percent.",
+          "zh": "我寧可把其中一件做到位，也不要三件都只做到六成。",
+          "note": "資源被稀釋時表態用，語氣不衝但立場清楚。"
+        }
+      ],
+      "quote": {
+        "text": "We have 17 priorities. And that's the opposite of policy. That's a laundry list of all the things we wish would happen over the next year.",
+        "guest": "Richard Rumelt",
+        "timestamp": "00:10:28",
+        "episode": "Good Strategy, Bad Strategy | Richard Rumelt",
+        "url": "https://www.youtube.com/watch?v=4uWKEG0s9Kc&t=626s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "setting-strategy",
+        "trade-offs",
+        "saying-no"
+      ]
+    },
+    {
+      "id": "positioning",
+      "group": "strategy",
+      "term": "Positioning",
+      "zh": "產品定位",
+      "oneLiner": "定位不是講你有多好，是讓對的人一秒看懂你贏在哪",
+      "body": "定位在解的問題是：客戶腦中已經有一套比較的框架，你如果不主動選框架，他就用他自己的框架來評估你，而那個框架多半對你不利。April Dunford 的做法是反過來走五步：先問「客戶不買我，會拿什麼替代」（包含最強的對手——維持現狀、繼續用 Excel 湊合），再列出替代方案沒有而你有的能力，翻成對客戶的價值，找出最在乎這個價值的一群人，最後才決定要把自己放進哪個市場類別。順序很重要：類別（category）是最後一步的結果，不是起點。定位不是一次定生定死的東西，產品和市場都在動，好定位會慢慢過期，要定期回來重做。",
+      "pitfall": "台灣團隊最常見的兩個病：一是從功能表出發寫定位，寫出一堆「AI 驅動的一站式協作平台」這種誰都能講的句子；二是自我介紹愛用「我們是台灣版的 Notion / Slack」，這等於自願跳進對方定義的比較表，從第一句話就在扣分。還有一個更隱形的坑——把競爭者只想成同類產品，忘了最大的對手是「他們現在這樣也還過得去」。",
+      "howToSay": [
+        {
+          "en": "Before we talk about features, who are we actually competing against here — including 'they just keep doing it in a spreadsheet'?",
+          "zh": "在講功能之前，先確認我們真正要打敗的是誰——包括「他們就繼續用試算表湊合」這個選項。",
+          "note": "定位討論開場用，一句話把大家從功能比較拉回競爭替代方案。"
+        },
+        {
+          "en": "What can we deliver that none of the alternatives can? Everything else is table stakes.",
+          "zh": "有什麼是只有我們給得了、其他替代方案都給不了的？其餘的都只是基本門檻。",
+          "note": "會議上有人一直列「我們也有這個功能」時，用來收斂到差異化價值。"
+        },
+        {
+          "en": "Let's position this as [category] so that [value] is obvious to [buyer].",
+          "zh": "我們把它放在 [類別] 這個脈絡下講，這樣 [價值] 對 [目標買家] 就會一目了然。",
+          "note": "定案時的收尾句型，把類別講成「脈絡選擇」而不是「取名字」，聽起來就是懂定位的人。"
+        }
+      ],
+      "quote": {
+        "text": "Positioning defines how your product is the best in the world, delivering some value that a well-defined set of companies care a lot about.",
+        "guest": "April Dunford",
+        "timestamp": "00:11:30",
+        "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "framing-problem",
+        "setting-strategy",
+        "proposing-idea"
+      ]
+    },
+    {
+      "id": "differentiation",
+      "group": "strategy",
+      "term": "Differentiation",
+      "zh": "差異化",
+      "oneLiner": "差異化不是「比較好」，是對手做不到、或不願意做",
+      "body": "Porter 的老結論到今天還成立：要嘛你是最低成本，要嘛你是差異化，卡在中間的公司只是還沒死。差異化真正的門檻不在功能，而在能力（capabilities）——Roger Martin 的檢查句是「有沒有一組能力，讓對手 can't do it 或 won't do it」。won't 那一半常被忽略但很好用：對手不是做不到，是做了會傷到他的主力生意（這就是 Helmer 講的 counter-positioning）。所以差異化的討論最後一定要落到「我們要建立哪些能力來讓這件事成真」，否則那只是一個願望。",
+      "pitfall": "台灣 PM 提案時最愛的一招是「我們比較便宜、功能又比較多、服務又比較好」——這在 Porter 的框架裡有個專有名詞叫 stuck in the middle，是明確的壞策略，不是全面優勢。第二個坑是把「我們團隊很拼、迭代很快、很懂本地市場」當差異化寫進 deck；執行力可以被模仿，資深的人聽到只會默默打折。",
+      "howToSay": [
+        {
+          "en": "What's the one thing we do that a competitor can't or won't copy?",
+          "zh": "有哪一件事是競爭對手做不到、或不願意做的？",
+          "note": "把「差異化」從形容詞拉成可驗證的問題，開會時最好用的一句。"
+        },
+        {
+          "en": "I'd say that's table stakes rather than a differentiator.",
+          "zh": "我覺得那算是基本盤，不能算差異化。",
+          "note": "禮貌地打掉「我們也有 XX 功能所以我們有差異化」的說法，語氣軟但判斷明確。"
+        },
+        {
+          "en": "If we're not going to be the cheapest, we need a reason people will pay more. What is it?",
+          "zh": "如果我們不打算做最便宜的那個，就得有讓人願意多付錢的理由。那個理由是什麼？",
+          "note": "定價或策略會議上，逼團隊在兩條路裡選一條、不要含糊帶過。"
+        }
+      ],
+      "quote": {
+        "text": "Can I serve a particular customer need with a set of capabilities that are going to be hard to replicate by my competitors? They either can't do it, or they won't do it.",
+        "guest": "Roger Martin",
+        "timestamp": "00:31:04",
+        "episode": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
+        "url": "https://www.youtube.com/watch?v=y7SN4FK8noY&t=1862s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "setting-strategy",
+        "challenging-assumptions",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "strategic-narrative",
+      "group": "strategy",
+      "term": "Strategic Narrative",
+      "zh": "策略敘事",
+      "oneLiner": "先講世界變了，再講你的產品——不是一開場就比功能",
+      "body": "Andy Raskin 說大多數人學到的簡報結構是「傲慢的醫生」：你有病痛、我有解藥、而且我的解藥比別人好。問題是這個結構天生把你放進比較表裡的一列，聽眾接下來只會問「那你跟 X 有什麼不一樣」。策略敘事換一個結構，跟電影一樣先講世界發生了什麼轉變（old game → new game），再點出賭注（誰已經在新遊戲裡贏了），接著命名新遊戲的目標，最後才承認障礙、示範怎麼跨過去。產品在這個故事裡是道具，不是主角；主角是聽的人。用對了，你就不是在賣一個工具，而是在號召一場運動。",
+      "pitfall": "台灣 PM 做的 deck 幾乎都是「痛點 → 解法 → 競品比較表」，這正是 arrogant doctor 的標準結構，在跨國會議上會被歸類成業務簡報而不是產品判斷。真正的落差是：外籍主管想聽的是「為什麼是現在（why now）」，而我們的訓練讓我們直接跳進功能清單。第二個坑是把策略敘事當成「取一個很潮的品類名字」——Raskin 明說重點是故事，名字只是那個故事的縮寫。",
+      "howToSay": [
+        {
+          "en": "Before I get into the product, let me talk about what's changed in the market.",
+          "zh": "在進到產品之前，我想先講市場上發生了什麼變化。",
+          "note": "簡報開場第一句。一句話就把全場從「功能比較」切換到「趨勢判斷」的頻道。"
+        },
+        {
+          "en": "The old way was [X]. The new way is [Y]. And here's who's already winning with it.",
+          "zh": "過去的做法是 [X]，新的做法是 [Y]。而且已經有人靠這個贏了。",
+          "note": "轉變 + 賭注的兩段式核心。第三句舉真實贏家，可信度立刻不一樣。"
+        },
+        {
+          "en": "So the question becomes: what would it take to [目標]?",
+          "zh": "所以真正的問題變成：要做到 [目標]，需要具備什麼？",
+          "note": "用問句把聽眾拉進來當同伴，而不是被推銷的對象。接在轉變之後、進產品之前用。"
+        }
+      ],
+      "quote": {
+        "text": "In the movies, every movie starts with some kind of shift in the world, in the character's world. And I call this shift the shift from the old game to the new game.",
+        "guest": "Andy Raskin",
+        "timestamp": "00:09:24",
+        "episode": "The power of strategic narrative | Andy Raskin",
+        "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=562s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "persuasive-story",
+        "painting-vision",
+        "explaining-why"
+      ]
+    },
+    {
+      "id": "vision-vs-strategy-vs-roadmap",
+      "group": "strategy",
+      "term": "Vision vs. Strategy vs. Roadmap",
+      "zh": "願景／策略／路線圖的分野",
+      "oneLiner": "願景是目的地，策略是怎麼贏，路線圖只是可行性檢查",
+      "body": "Jackie Bavaro 把它拆成三件必須同時存在的東西：願景（未來長什麼樣，用來吸引人一起來）、策略框架（要打哪個市場、贏的定義是什麼、我們押的幾個大注是什麼），以及路線圖（從願景倒推回來，中間幾年各要做到什麼）。最反直覺的是第三塊——路線圖不是對日期的承諾，它的用途是拿來打臉自己：把它攤開來你通常會發現「照這個速度，這是一個三十年的願景」，這時你才知道要砍掉多少可有可無的工作、或該一次押大一點。三塊缺一塊，別人就聽不懂你在講什麼。",
+      "pitfall": "台灣 PM 被要求交的幾乎永遠是「Q3 roadmap」，交久了會誤以為 roadmap 就是策略；於是被外籍主管問 what's our strategy 時，回答變成「我們要做 A、B、C」——那是清單不是策略。另一個常見狀況是老闆給一個「營收成長 50%」就叫策略，Bavaro 說那只是目標，把它連到具體功能之間那一長串「所以呢」，正是 PM 的工作，不是老闆沒交代清楚就可以擺爛的理由。",
+      "howToSay": [
+        {
+          "en": "That's a goal, not a strategy. Can we talk about how we're planning to get there?",
+          "zh": "那是目標，不是策略。我們可以談一下打算怎麼達成嗎？",
+          "note": "被丟一個數字當策略時用。前半句判斷、後半句立刻給出路，才不會像在頂嘴。"
+        },
+        {
+          "en": "Let me separate three things: where we're headed, how we plan to win, and what we ship first.",
+          "zh": "我把三件事分開講：我們要去哪、我們打算怎麼贏、以及我們先出什麼。",
+          "note": "會議一開始就架好結構，能救回一場快要變成功能許願大會的討論。"
+        },
+        {
+          "en": "The roadmap is a sanity check on the strategy, not a commitment to dates.",
+          "zh": "路線圖是拿來檢查策略合不合理的，不是對日期的承諾。",
+          "note": "被業務或 stakeholder 拿 roadmap 當合約時的擋箭句，語氣中性但界線清楚。"
+        }
+      ],
+      "quote": {
+        "text": "A roadmap in strategy is not a commitment. Instead, it's a way to double check if your plan makes any sense at all and is even anywhere near feasible.",
+        "guest": "Jackie Bavaro",
+        "timestamp": "00:24:34",
+        "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "setting-strategy",
+        "painting-vision",
+        "explaining-why"
+      ]
+    },
+    {
+      "id": "making-bets",
+      "group": "strategy",
+      "term": "Making Bets",
+      "zh": "下賭注",
+      "oneLiner": "決策好壞看你下注時知道什麼，不是看最後結果",
+      "body": "把產品決策講成「賭注」不是在推卸責任，而是承認你在資訊不完整的情況下做選擇。Annie Duke 的核心提醒是 resulting——用結果回推決策品質，是最常見也最貴的錯誤：功能上線數字好就說當初判斷正確，其實你可能只是運氣好。破解方法只有一個，下注前把假設、預期看到什麼、你認為的機率寫下來，事後才分得出運氣和判斷。第二層是下注的大小：大部分資源押確定性高的迭代，固定留一小塊給高風險的大賭注，而且要事先講清楚失敗機率——Ronny Kohavi 直言大改版有八成會失敗，成功那次才是突破。",
+      "pitfall": "台灣的績效文化極度結果導向，功能上線數字漂亮就是英雄、不好就檢討 PM，沒人回頭看當初的假設對不對。後果有兩個：團隊什麼都學不到，而且沒人敢再提大賭注。另一個坑是英文表達——很多人為了顯得有信心，會把賭注講成保證（\"this will increase retention by 10%\"），一旦沒中，之後你講什麼別人都要打折。",
+      "howToSay": [
+        {
+          "en": "I'd frame this as a bet, not a guarantee. Here's what I think the odds are, and what makes me think that.",
+          "zh": "我會把這件事定調成一個賭注，不是保證。以下是我判斷的成功機率，以及我這樣判斷的依據。",
+          "note": "提大方向時的開場。承認不確定性反而讓你聽起來更有判斷力，不是更沒把握。"
+        },
+        {
+          "en": "Before we ship, let's write down what we expect to see — so afterwards we can tell whether we were right or just lucky.",
+          "zh": "上線前我們先把預期會看到什麼寫下來，這樣事後才分得出是判斷準還是運氣好。",
+          "note": "在 kickoff 或 launch review 提出來，一句話建立團隊的決策紀錄習慣。"
+        },
+        {
+          "en": "How much are we willing to lose on this one before we call it?",
+          "zh": "這件事我們最多願意賠多少，到什麼程度就收手？",
+          "note": "談大賭注時先講停損點。比事後爭論「還要不要再撐一季」有用得多。"
+        }
+      ],
+      "quote": {
+        "text": "So your intuition is sometimes right, but it's also sometimes wrong. And if you don't make it explicit, then you don't get to find out when it's wrong.",
+        "guest": "Annie Duke",
+        "timestamp": "01:03:33",
+        "episode": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
+        "url": "https://www.youtube.com/watch?v=svQMODvIGAE&t=3811s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "admitting-uncertainty",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "moat",
+      "group": "strategy",
+      "term": "Moats & Defensibility",
+      "zh": "護城河",
+      "oneLiner": "護城河＝一個好處，加上對手跨不過去的門檻",
+      "body": "Hamilton Helmer 的 7 Powers 把護城河拆成兩個必須同時成立的條件：benefit（你在成本或價格上真的有優勢）跟 barrier（那個優勢有結構性的理由讓對手拿不走），他叫它 to be or not to be test。少了 barrier 那一半，你擁有的只是暫時領先。實務上更有用的是他的 power progression：品牌與流程優勢要到後期才可能拿到，資源型優勢多半是特定產業（如專利藥）；早期新創真正該想的是 counter-positioning——你的做法會傷到在位者的主力生意，所以他明明做得到卻不會做。規模經濟、轉換成本、網路效應則要等你先有規模。",
+      "pitfall": "台灣的提案和募資 deck 幾乎人人都寫「我們的優勢是團隊執行力強、迭代速度快」——Helmer 說那是跑步機不是護城河，你一停下來就被輾過去。第二個常見誤會是把「知名度」當品牌護城河：花錢買廣告買得到的東西，定義上就不是 power。到了英文會議上，講一句 \"our moat is our team\" 通常換來的是禮貌的沉默。",
+      "howToSay": [
+        {
+          "en": "That's a real benefit, but where's the barrier? What stops a competitor from copying it next quarter?",
+          "zh": "那確實是個好處，但門檻在哪？有什麼能擋住競爭對手下一季就照抄？",
+          "note": "審視他人（或自己）提案時最鋒利的一問，直接套用 Helmer 的 benefit + barrier 檢查。"
+        },
+        {
+          "en": "Speed isn't a moat — it's a treadmill. What are we building that compounds?",
+          "zh": "快不是護城河，那是跑步機。我們有在累積什麼會愈滾愈大的東西嗎？",
+          "note": "團隊拿「我們跑得快」當長期優勢時用。後半句給出路，不然只是唱衰。"
+        },
+        {
+          "en": "If we win this market, what makes it hard for someone to take it away from us?",
+          "zh": "假設我們真的拿下這個市場，有什麼讓別人不容易搶走？",
+          "note": "策略會議上把討論從「怎麼贏」推進到「贏了之後守不守得住」，很拉層次的一句。"
+        }
+      ],
+      "quote": {
+        "text": "You're on a treadmill and if you stop running on that treadmill, you get creamed, but it's not power. The things that drive operational excellence can be mimicked.",
+        "guest": "Hamilton Helmer",
+        "timestamp": "00:00:20",
+        "episode": "Business strategy with Hamilton Helmer (author of 7 Powers)",
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "setting-strategy",
+        "making-the-case",
+        "challenging-assumptions"
+      ]
+    }
+  ]
+}

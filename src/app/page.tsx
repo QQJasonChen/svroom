@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { groups, stats, countFor, countForGroup } from "@/lib/cards";
+import { conceptStats } from "@/lib/concepts";
 
 export default function Home() {
   return (
@@ -54,6 +55,32 @@ export default function Home() {
           />
         </div>
       </section>
+
+      {/* 另一半：PM 知識層 */}
+      {conceptStats.written > 0 && (
+        <section className="border-b border-rule">
+          <div className="mx-auto max-w-5xl px-5 py-12 flex flex-col sm:flex-row sm:items-center gap-6">
+            <div className="flex-1">
+              <p className="rule-label mb-2">這個站的另一半</p>
+              <h2 className="font-serif text-[1.7rem] tracking-tight leading-snug">
+                PM 知識庫：{conceptStats.written} 個核心概念
+              </h2>
+              <p className="mt-3 text-[14.5px] leading-relaxed text-ink-2 max-w-xl">
+                從問題定義、策略取捨到向上管理。每個概念除了中文解說，都附「
+                <strong className="font-medium text-ink">在英文會議上怎麼把它講出來</strong>
+                」的句型，以及台灣 PM 最常踩的坑。跟語言功能雙向連結——
+                學句型時看得到背後的判斷，學概念時知道怎麼開口。
+              </p>
+            </div>
+            <Link
+              href="/pm/"
+              className="shrink-0 border border-ink px-5 py-2.5 text-[13px] rounded-sm hover:bg-ink hover:text-paper transition-colors"
+            >
+              進 PM 知識庫 →
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* 功能總覽 */}
       <section className="mx-auto max-w-5xl px-5 py-14">

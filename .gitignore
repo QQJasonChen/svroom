@@ -8,3 +8,4 @@ next-env.d.ts
 
 # 原始語料是付費訂閱內容，絕不進 repo
 data/raw/
+.gstack/

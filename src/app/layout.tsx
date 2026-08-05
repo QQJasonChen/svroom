@@ -18,7 +18,8 @@ export const metadata: Metadata = {
 };
 
 const nav = [
-  { href: "/", label: "全部功能" },
+  { href: "/", label: "語言功能" },
+  { href: "/pm/", label: "PM 知識" },
   { href: "/search/", label: "搜尋" },
   { href: "/practice/", label: "練習" },
   { href: "/about/", label: "關於" },

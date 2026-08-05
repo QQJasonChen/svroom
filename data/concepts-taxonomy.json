@@ -1,0 +1,108 @@
+{
+  "schema_version": "1",
+  "note": "PM 知識層。跟語言功能層是雙向的：學概念時順便學「這個概念在英文會議上怎麼講」，學句型時知道它背後是哪個 PM 判斷。概念清單是設計出來的（要有覆蓋率），內容由語料填。",
+  "groups": [
+    {
+      "id": "discovery",
+      "zh": "探索與需求",
+      "en": "Discovery",
+      "blurb": "在寫任何一行程式之前，先確定你在解一個真的存在的問題。",
+      "concepts": [
+        { "id": "problem-vs-solution", "term": "Problem vs. Solution Space", "zh": "問題空間與解法空間" },
+        { "id": "jobs-to-be-done", "term": "Jobs To Be Done", "zh": "使用者要完成的任務" },
+        { "id": "customer-interview", "term": "Customer Interviews", "zh": "使用者訪談" },
+        { "id": "assumption-testing", "term": "Assumption Testing", "zh": "假設驗證" },
+        { "id": "opportunity-sizing", "term": "Opportunity Sizing", "zh": "機會評估" },
+        { "id": "signal-vs-noise", "term": "Signal vs. Noise", "zh": "訊號與雜訊" }
+      ]
+    },
+    {
+      "id": "strategy",
+      "zh": "策略與定位",
+      "en": "Strategy & Positioning",
+      "blurb": "策略的本質是取捨。講不出「我們不做什麼」的，都不是策略。",
+      "concepts": [
+        { "id": "strategy-is-tradeoffs", "term": "Strategy as Trade-offs", "zh": "策略即取捨" },
+        { "id": "positioning", "term": "Positioning", "zh": "產品定位" },
+        { "id": "differentiation", "term": "Differentiation", "zh": "差異化" },
+        { "id": "strategic-narrative", "term": "Strategic Narrative", "zh": "策略敘事" },
+        { "id": "vision-vs-strategy-vs-roadmap", "term": "Vision vs. Strategy vs. Roadmap", "zh": "願景／策略／路線圖的分野" },
+        { "id": "making-bets", "term": "Making Bets", "zh": "下賭注" },
+        { "id": "moat", "term": "Moats & Defensibility", "zh": "護城河" }
+      ]
+    },
+    {
+      "id": "growth",
+      "zh": "成長與指標",
+      "en": "Growth & Metrics",
+      "blurb": "數字不是拿來證明你對的，是拿來讓你早點知道自己錯了。",
+      "concepts": [
+        { "id": "product-market-fit", "term": "Product-Market Fit", "zh": "產品市場契合" },
+        { "id": "north-star-metric", "term": "North Star Metric", "zh": "北極星指標" },
+        { "id": "retention-curve", "term": "Retention Curve", "zh": "留存曲線" },
+        { "id": "growth-loops", "term": "Growth Loops", "zh": "成長迴圈" },
+        { "id": "activation", "term": "Activation & Aha Moment", "zh": "啟用與 Aha 時刻" },
+        { "id": "experimentation", "term": "Experimentation & A/B Testing", "zh": "實驗與 A/B 測試" },
+        { "id": "vanity-metrics", "term": "Vanity Metrics", "zh": "虛榮指標" }
+      ]
+    },
+    {
+      "id": "pricing",
+      "zh": "定價與商業模式",
+      "en": "Pricing & Business Model",
+      "blurb": "定價是產品決策，不是財務決策——它決定你要服務誰。",
+      "concepts": [
+        { "id": "value-based-pricing", "term": "Value-Based Pricing", "zh": "價值定價" },
+        { "id": "packaging", "term": "Packaging & Tiering", "zh": "包裝與分級" },
+        { "id": "willingness-to-pay", "term": "Willingness to Pay", "zh": "付費意願" },
+        { "id": "freemium", "term": "Freemium & Free Trial", "zh": "免費增值" },
+        { "id": "expansion-revenue", "term": "Expansion Revenue", "zh": "擴張營收" }
+      ]
+    },
+    {
+      "id": "execution",
+      "zh": "交付與執行",
+      "en": "Execution",
+      "blurb": "想清楚只是一半，能不能出貨才決定你是不是 PM。",
+      "concepts": [
+        { "id": "prioritization", "term": "Prioritization Frameworks", "zh": "優先順序框架" },
+        { "id": "scope-control", "term": "Scope Control", "zh": "範疇管理" },
+        { "id": "shipping-cadence", "term": "Shipping Cadence", "zh": "出貨節奏" },
+        { "id": "mvp", "term": "MVP & Scoping Down", "zh": "最小可行產品" },
+        { "id": "launch-strategy", "term": "Launch Strategy", "zh": "上線策略" },
+        { "id": "product-quality", "term": "Craft & Quality Bar", "zh": "品質標準" },
+        { "id": "tech-debt", "term": "Technical Debt", "zh": "技術債" }
+      ]
+    },
+    {
+      "id": "org",
+      "zh": "組織與協作",
+      "en": "Org & Collaboration",
+      "blurb": "PM 沒有實權，你的產出等於你能讓多少人往同一個方向動。",
+      "concepts": [
+        { "id": "team-topology", "term": "Team Structure & Pods", "zh": "團隊結構" },
+        { "id": "stakeholder-management", "term": "Stakeholder Management", "zh": "利害關係人管理" },
+        { "id": "decision-rights", "term": "Decision Rights & DRI", "zh": "決策權與負責人" },
+        { "id": "disagree-and-commit", "term": "Disagree and Commit", "zh": "反對但執行" },
+        { "id": "working-with-eng", "term": "Working with Engineering", "zh": "跟工程協作" },
+        { "id": "writing-culture", "term": "Writing Culture & Docs", "zh": "寫作文化" },
+        { "id": "managing-up", "term": "Managing Up", "zh": "向上管理" }
+      ]
+    },
+    {
+      "id": "career",
+      "zh": "職涯與領導",
+      "en": "Career & Leadership",
+      "blurb": "從「把事做完」到「讓事情發生」，中間差的不是年資。",
+      "concepts": [
+        { "id": "ic-to-manager", "term": "IC to Manager", "zh": "從個人貢獻者到主管" },
+        { "id": "scope-and-impact", "term": "Scope & Impact", "zh": "影響力範圍" },
+        { "id": "getting-promoted", "term": "Getting Promoted", "zh": "升遷" },
+        { "id": "feedback-culture", "term": "Feedback & Radical Candor", "zh": "回饋文化" },
+        { "id": "hiring-pm", "term": "Hiring & Interviewing PMs", "zh": "招募與面試" },
+        { "id": "burnout", "term": "Burnout & Sustainability", "zh": "職業倦怠" },
+        { "id": "first-90-days", "term": "First 90 Days", "zh": "到職前 90 天" }
+      ]
+    }
+  ]
+}

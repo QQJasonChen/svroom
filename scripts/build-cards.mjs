@@ -62,6 +62,31 @@ try {
   );
 }
 
+/** "00:12:34" 或 "12:34" → 秒數；解析不出來回 null */
+function toSeconds(ts) {
+  if (!ts) return null;
+  const parts = String(ts).trim().split(":").map(Number);
+  if (parts.some((n) => !Number.isFinite(n) || n < 0)) return null;
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  return null;
+}
+
+/**
+ * 讓「聽原句」直接跳到那一句。
+ * 只有 YouTube 支援用網址帶時間碼；Substack 的文章頁沒有這種參數，
+ * 硬加只會得到一個沒作用的網址，所以那些維持原樣。
+ * 回退 2 秒，免得一點開就已經講到一半。
+ */
+function withTimestamp(url, ts) {
+  if (!url || !/(?:^|\.)youtube\.com|youtu\.be/.test(url)) return { url, seek: false };
+  const sec = toSeconds(ts);
+  if (sec === null) return { url, seek: false };
+  const at = Math.max(0, sec - 2);
+  const sep = url.includes("?") ? "&" : "?";
+  return { url: `${url}${sep}t=${at}s`, seek: true };
+}
+
 const wordCount = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
 
 const slug = (s) =>
@@ -180,10 +205,133 @@ for (const file of files) {
       // 導流回原始出處，這是授權的禮貌也是內容誠信。
       // 集數標題一定有，連結不一定——沒有連結也不能沒有出處。
       episode: sourceByFile.get(raw.source_file)?.episode || null,
-      url: sourceByFile.get(raw.source_file)?.url || null,
+      ...withTimestamp(sourceByFile.get(raw.source_file)?.url || null, raw.timestamp),
     });
   }
 }
+
+// ===================== PM 知識層 =====================
+// 概念卡跟句型卡共用同一個「單一講者引文預算」，否則授權上限會被繞過。
+// 差別在於：概念卡的教學價值在 body / how_to_say，引文只是佐證，
+// 所以引文超額時只丟掉引文，不丟掉整個概念。
+const conceptsTax = JSON.parse(
+  readFileSync(join(ROOT, "data", "concepts-taxonomy.json"), "utf8"),
+);
+const conceptMeta = new Map();
+for (const g of conceptsTax.groups) {
+  for (const c of g.concepts) conceptMeta.set(c.id, { ...c, group: g.id });
+}
+
+const conceptFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("concepts-") && f.endsWith(".json"))
+  .sort();
+
+const concepts = [];
+const conceptIssues = [];
+const seenConcept = new Set();
+
+for (const file of conceptFiles) {
+  let batch;
+  try {
+    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  if (!Array.isArray(batch)) {
+    console.error(`✗ ${file} 最外層不是陣列，跳過`);
+    process.exitCode = 1;
+    continue;
+  }
+
+  for (const raw of batch) {
+    const meta = conceptMeta.get(raw.id);
+    if (!meta) {
+      conceptIssues.push(`${file}: 未知概念 id「${raw.id}」`);
+      continue;
+    }
+    if (seenConcept.has(raw.id)) {
+      conceptIssues.push(`${file}: 概念「${raw.id}」重複`);
+      continue;
+    }
+    if (!raw.body || !raw.one_liner) {
+      conceptIssues.push(`${file}: 概念「${raw.id}」缺 body 或 one_liner`);
+      continue;
+    }
+
+    const howToSay = (Array.isArray(raw.how_to_say) ? raw.how_to_say : [])
+      .filter((h) => h && h.en && h.zh)
+      .slice(0, 4);
+    if (howToSay.length === 0) {
+      conceptIssues.push(`${file}: 概念「${raw.id}」沒有可用的 how_to_say`);
+    }
+
+    // 引文的授權檢查——過不了就只捨棄引文
+    let quote = null;
+    if (raw.quote && raw.guest && raw.source_file) {
+      const qw = wordCount(raw.quote);
+      const used = guestWords.get(raw.guest) || 0;
+      if (qw > MAX_QUOTE_WORDS) {
+        conceptIssues.push(`${file}:「${raw.id}」引文 ${qw} 字超標，已移除引文`);
+      } else if (used + qw > MAX_WORDS_PER_GUEST) {
+        conceptIssues.push(
+          `${file}:「${raw.id}」講者 ${raw.guest} 引文預算已滿，已移除引文`,
+        );
+      } else {
+        guestWords.set(raw.guest, used + qw);
+        const src = sourceByFile.get(raw.source_file);
+        quote = {
+          text: raw.quote.trim(),
+          guest: raw.guest.trim(),
+          timestamp: raw.timestamp || null,
+          episode: src?.episode || null,
+          ...withTimestamp(src?.url || null, raw.timestamp),
+        };
+      }
+    }
+
+    seenConcept.add(raw.id);
+    concepts.push({
+      id: raw.id,
+      group: meta.group,
+      term: meta.term,
+      zh: meta.zh,
+      oneLiner: raw.one_liner.trim(),
+      body: raw.body.trim(),
+      pitfall: raw.pitfall ? raw.pitfall.trim() : null,
+      howToSay,
+      quote,
+      relatedFunctions: (Array.isArray(raw.related_functions)
+        ? raw.related_functions
+        : []
+      )
+        .filter((f) => validFunctions.has(f))
+        .slice(0, 4),
+    });
+  }
+}
+
+if (conceptFiles.length > 0) {
+  const total = conceptMeta.size;
+  const missing = [...conceptMeta.keys()].filter((id) => !seenConcept.has(id));
+  console.log(
+    `\n✓ PM 知識層：${concepts.length}/${total} 個概念，${concepts.filter((c) => c.quote).length} 個有原文佐證`,
+  );
+  if (missing.length) {
+    console.log(`⚠ 還沒內容的概念（${missing.length}）：${missing.join(", ")}`);
+  }
+  if (conceptIssues.length) {
+    console.log(`⚠ 概念層問題 ${conceptIssues.length} 筆：`);
+    for (const m of conceptIssues.slice(0, 10)) console.log(`  ${m}`);
+    if (conceptIssues.length > 10) console.log(`  …另 ${conceptIssues.length - 10} 筆`);
+  }
+}
+
+writeFileSync(
+  join(ROOT, "data", "concepts.json"),
+  JSON.stringify({ count: concepts.length, concepts }, null, 2) + "\n",
+);
 
 // --- 統計 ---
 const byFn = new Map();

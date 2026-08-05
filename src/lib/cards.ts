@@ -19,6 +19,8 @@ export type Card = {
   timestamp: string | null;
   episode: string | null;
   url: string | null;
+  /** 網址是否已帶時間碼，可以直接跳到那一句 */
+  seek: boolean;
 };
 
 export type Fn = {

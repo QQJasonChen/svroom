@@ -3,14 +3,17 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import type { Card, Group } from "@/lib/cards";
+import type { Concept } from "@/lib/concepts";
 import CardView from "./CardView";
 
 export default function SearchCards({
   cards,
   groups,
+  concepts,
 }: {
   cards: Card[];
   groups: Group[];
+  concepts: Concept[];
 }) {
   const [q, setQ] = useState("");
   const [group, setGroup] = useState("all");
@@ -36,6 +39,20 @@ export default function SearchCards({
   }, [q, group, cards, fnLabel]);
 
   const showing = results.slice(0, 40);
+
+  // PM 概念也一起搜——想找「PMF」的人不會想只拿到句型卡
+  const conceptHits = useMemo(() => {
+    const needle = q.trim().toLowerCase();
+    if (!needle) return [];
+    return concepts
+      .filter((c) =>
+        [c.zh, c.term, c.oneLiner, c.body, c.pitfall ?? "", ...c.howToSay.map((h) => h.en + h.zh)]
+          .join(" ")
+          .toLowerCase()
+          .includes(needle),
+      )
+      .slice(0, 6);
+  }, [q, concepts]);
 
   return (
     <div>
@@ -68,7 +85,28 @@ export default function SearchCards({
           : `共 ${cards.length} 張卡，輸入關鍵字開始找`}
       </p>
 
-      {showing.length === 0 ? (
+      {conceptHits.length > 0 && (
+        <div className="mb-8">
+          <p className="rule-label mb-3">PM 概念</p>
+          <div className="grid gap-px bg-rule border border-rule sm:grid-cols-2">
+            {conceptHits.map((c) => (
+              <Link
+                key={c.id}
+                href={`/pm/${c.id}/`}
+                className="bg-paper px-4 py-3.5 hover:bg-rust-soft transition-colors"
+              >
+                <span className="text-[14px] font-medium">{c.zh}</span>
+                <span className="ml-2 text-[11px] text-ink-3">{c.term}</span>
+                <p className="mt-1 text-[12px] text-ink-3 leading-relaxed">
+                  {c.oneLiner}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {showing.length === 0 && conceptHits.length === 0 ? (
         <div className="py-16 text-center text-ink-3 text-[14px]">
           <p>沒有符合的卡片。</p>
           <p className="mt-2">試試更短的關鍵字，或改用英文搜。</p>
