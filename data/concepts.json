@@ -31,6 +31,7 @@
         "guest": "Julie Zhuo",
         "timestamp": "01:00:02",
         "episode": "Julie Zhuo on accelerating your career, impostor syndrome, writing, building product sense, using intuition vs. data, hiring designers, and moving into management",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=YLsxHa1dhSw&t=3600s",
         "seek": true
       },
@@ -70,6 +71,7 @@
         "guest": "Molly Graham",
         "timestamp": "00:15:40",
         "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=938s",
         "seek": true
       },
@@ -109,6 +111,7 @@
         "guest": "Ethan Evans",
         "timestamp": "00:07:14",
         "episode": "Taking control of your career | Ethan Evans (Amazon)",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -148,6 +151,7 @@
         "guest": "Kim Scott",
         "timestamp": "00:05:48",
         "episode": "Radical Candor: From theory to practice with author Kim Scott",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=V7tnbx-6Ayc&t=346s",
         "seek": true
       },
@@ -187,7 +191,8 @@
         "guest": "Annie Pearl",
         "timestamp": null,
         "episode": "How to learn the most about a candidate from a single interview question",
-        "url": "https://www.lennysnewsletter.com/p/how-to-learn-the-most-about-a-candidate-from-a-single-interview-question",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=How%20to%20learn%20the%20most%20about%20a%20candidate%20from%20a%20single%20interview%20question",
         "seek": false
       },
       "relatedFunctions": [
@@ -226,6 +231,7 @@
         "guest": "Jonny Miller",
         "timestamp": "00:35:08",
         "episode": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous System Mastery)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=-kN8Agqee4w&t=2106s",
         "seek": true
       },
@@ -265,6 +271,7 @@
         "guest": "Deb Liu",
         "timestamp": "00:52:19",
         "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -304,6 +311,7 @@
         "guest": "Uri Levine",
         "timestamp": "00:04:06",
         "episode": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member | Uri Levine (co-founder of Waze)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=Cj4ORGGEJcA&t=244s",
         "seek": true
       },
@@ -343,6 +351,7 @@
         "guest": "Bob Moesta",
         "timestamp": "00:05:31",
         "episode": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=xQV7HVyAJjc&t=329s",
         "seek": true
       },
@@ -382,6 +391,7 @@
         "guest": "Teresa Torres",
         "timestamp": "00:39:57",
         "episode": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -421,6 +431,7 @@
         "guest": "Teresa Torres",
         "timestamp": "00:44:37",
         "episode": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -460,6 +471,7 @@
         "guest": "Sri Batchu",
         "timestamp": "00:41:12",
         "episode": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=RcYCU5UAZOk&t=2470s",
         "seek": true
       },
@@ -499,6 +511,7 @@
         "guest": "Raaz Herzberg",
         "timestamp": "00:09:09",
         "episode": "Building Wiz: the fastest-growing startup in history | Raaz Herzberg (CMO and VP Product Strategy)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=vnW3zIkrOvY&t=547s",
         "seek": true
       },
@@ -538,6 +551,7 @@
         "guest": "Shreyas Doshi",
         "timestamp": "01:05:27",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -577,6 +591,7 @@
         "guest": "Ryan Singer",
         "timestamp": "00:27:18",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -616,6 +631,7 @@
         "guest": "Geoff Charles",
         "timestamp": "00:21:45",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -655,6 +671,7 @@
         "guest": "Eric Ries",
         "timestamp": "00:43:02",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -694,6 +711,7 @@
         "guest": "Claire Butler",
         "timestamp": "00:22:28",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -733,6 +751,7 @@
         "guest": "Karri Saarinen",
         "timestamp": "00:11:21",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -772,6 +791,7 @@
         "guest": "Gaurav Misra",
         "timestamp": "00:20:48",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -811,6 +831,7 @@
         "guest": "Sean Ellis",
         "timestamp": "00:00:07",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -850,6 +871,7 @@
         "guest": "Itamar Gilad",
         "timestamp": "00:29:02",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -889,6 +911,7 @@
         "guest": "Brian Balfour",
         "timestamp": null,
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -928,6 +951,7 @@
         "guest": "Lenny Rachitsky",
         "timestamp": null,
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -967,6 +991,7 @@
         "guest": "Bangaly Kaba",
         "timestamp": "01:08:58",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1006,6 +1031,7 @@
         "guest": "Ronny Kohavi",
         "timestamp": "00:13:31",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1045,6 +1071,7 @@
         "guest": "Sarah Tavel",
         "timestamp": "00:04:48",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1084,6 +1111,7 @@
         "guest": "Gustav Söderström",
         "timestamp": "00:31:39",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1123,6 +1151,7 @@
         "guest": "Vikrama Dhiman",
         "timestamp": "00:19:16",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1162,6 +1191,7 @@
         "guest": "Sanchan Saxena",
         "timestamp": "00:44:45",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1201,6 +1231,7 @@
         "guest": "Bill Carr",
         "timestamp": "00:29:39",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1240,6 +1271,7 @@
         "guest": "Geoff Charles",
         "timestamp": "00:24:49",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1279,6 +1311,7 @@
         "guest": "Eeke de Milliano",
         "timestamp": "00:15:26",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1318,6 +1351,7 @@
         "guest": "Wes Kao",
         "timestamp": "00:32:29",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1357,6 +1391,7 @@
         "guest": "Madhavan Ramanujam",
         "timestamp": "00:12:06",
         "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=724s",
         "seek": true
       },
@@ -1396,6 +1431,7 @@
         "guest": "Madhavan Ramanujam",
         "timestamp": "00:57:56",
         "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=3474s",
         "seek": true
       },
@@ -1435,6 +1471,7 @@
         "guest": "Madhavan Ramanujam",
         "timestamp": "00:21:36",
         "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=1294s",
         "seek": true
       },
@@ -1474,7 +1511,8 @@
         "guest": "Patrick Campbell",
         "timestamp": null,
         "episode": "Freemium vs. trial",
-        "url": "https://www.lennysnewsletter.com/p/freemium-vs-trial",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=Freemium%20vs.%20trial",
         "seek": false
       },
       "relatedFunctions": [
@@ -1513,6 +1551,7 @@
         "guest": "Jason Cohen",
         "timestamp": "00:59:35",
         "episode": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=8xLquwfx6p0&t=3573s",
         "seek": true
       },
@@ -1552,6 +1591,7 @@
         "guest": "Richard Rumelt",
         "timestamp": "00:10:28",
         "episode": "Good Strategy, Bad Strategy | Richard Rumelt",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=4uWKEG0s9Kc&t=626s",
         "seek": true
       },
@@ -1591,6 +1631,7 @@
         "guest": "April Dunford",
         "timestamp": "00:11:30",
         "episode": "April Dunford on product positioning, segmentation, and optimizing your sales process",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1630,6 +1671,7 @@
         "guest": "Roger Martin",
         "timestamp": "00:31:04",
         "episode": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=y7SN4FK8noY&t=1862s",
         "seek": true
       },
@@ -1669,6 +1711,7 @@
         "guest": "Andy Raskin",
         "timestamp": "00:09:24",
         "episode": "The power of strategic narrative | Andy Raskin",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=562s",
         "seek": true
       },
@@ -1708,6 +1751,7 @@
         "guest": "Jackie Bavaro",
         "timestamp": "00:24:34",
         "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -1747,6 +1791,7 @@
         "guest": "Annie Duke",
         "timestamp": "01:03:33",
         "episode": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=svQMODvIGAE&t=3811s",
         "seek": true
       },
@@ -1786,6 +1831,7 @@
         "guest": "Hamilton Helmer",
         "timestamp": "00:00:20",
         "episode": "Business strategy with Hamilton Helmer (author of 7 Powers)",
+        "isSearch": false,
         "url": null,
         "seek": false
       },

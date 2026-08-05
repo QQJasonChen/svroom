@@ -13,11 +13,13 @@ export default function InlineClip({
   timestamp,
   episode,
   seek,
+  isSearch,
 }: {
   url: string;
   timestamp: string | null;
   episode: string | null;
   seek: boolean;
+  isSearch?: boolean;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -28,14 +30,17 @@ export default function InlineClip({
   const start = (url.match(/[?&]t=(\d+)s?/) || [])[1] ?? "0";
 
   if (!vid) {
+    // 電子報沒有可靠的直連（來源索引的 slug 多半 404），所以導到官方搜尋。
+    // 講清楚它是搜尋，使用者才不會以為點了會直接開那篇。
     return (
       <a
         href={url}
         target="_blank"
         rel="noopener noreferrer"
         className="ml-auto underline underline-offset-2 hover:text-rust"
+        title={isSearch ? "在 Lenny's Newsletter 搜這篇" : undefined}
       >
-        讀原文 ↗
+        {isSearch ? "到原站搜這篇 ↗" : "讀原文 ↗"}
       </a>
     );
   }

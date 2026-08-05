@@ -72,6 +72,25 @@ export default async function TrapPage({
                 <Speak text={t.enLiteral} id={`lit-${t.id}`} className="mt-1" />
               </div>
             )}
+
+            {/* 這是整層最容易被誤解的地方：多數陷阱的英文句子完全沒有錯，
+                不講清楚的話，讀者會以為我們在說這句是爛英文，然後不信任整層 */}
+            <p className="mt-4 text-[13.5px] leading-relaxed text-ink-3 border border-rule rounded-sm px-3.5 py-2.5">
+              {t.kind === "misread" ? (
+                <>
+                  <strong className="text-ink-2">這句英文沒有錯，也不失禮。</strong>{" "}
+                  文法正確、母語者也會這樣講。問題不在句子本身，
+                  在於它<strong className="text-ink-2">少了一個東西</strong>，
+                  而那個東西在中文裡不需要、在英文裡卻承擔了關鍵功能。
+                </>
+              ) : (
+                <>
+                  <strong className="text-ink-2">這一條跟其他的不同：這裡是真的用錯了。</strong>{" "}
+                  但重點不是文法規則本身（那你早就學過），是
+                  <strong className="text-ink-2">錯了會造成什麼實際誤解</strong>。
+                </>
+              )}
+            </p>
           </header>
 
           <section className="mt-7 bg-rust-soft border-l-2 border-rust px-5 py-4 rounded-r-sm">
@@ -122,6 +141,9 @@ export default async function TrapPage({
               <p className="mb-1.5">
                 <Src kind="corpus">語料裡真的有人這樣講</Src>
               </p>
+              <p className="text-[12.5px] text-ink-3 mb-3">
+                上面那些改法不是我們憑空想的。這是原文裡的實際用法：
+              </p>
               <blockquote className="quote pl-4 border-l-2 border-rust/40">
                 {t.corpus.quote}
               </blockquote>
@@ -136,6 +158,7 @@ export default async function TrapPage({
                     timestamp={t.corpus.timestamp}
                     episode={t.corpus.episode}
                     seek={t.corpus.seek}
+                    isSearch={t.corpus.isSearch}
                   />
                 )}
                 {t.corpus.episode && (

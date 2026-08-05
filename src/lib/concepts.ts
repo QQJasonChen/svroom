@@ -5,6 +5,7 @@ import { cards } from "./cards";
 export type HowToSay = { en: string; zh: string; note?: string };
 
 export type ConceptQuote = {
+  isSearch?: boolean;
   text: string;
   guest: string;
   timestamp: string | null;

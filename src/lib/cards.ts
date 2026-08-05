@@ -19,6 +19,8 @@ export type Card = {
   timestamp: string | null;
   episode: string | null;
   url: string | null;
+  /** 出處連結是不是導到搜尋頁（電子報的直連在來源索引裡多半是壞的） */
+  isSearch?: boolean;
   /** 網址是否已帶時間碼，可以直接跳到那一句 */
   seek: boolean;
 };

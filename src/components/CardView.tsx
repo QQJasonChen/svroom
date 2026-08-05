@@ -46,6 +46,7 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
               timestamp={card.timestamp}
               episode={card.episode}
               seek={card.seek}
+              isSearch={card.isSearch}
             />
           )}
           {card.episode && (

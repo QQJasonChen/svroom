@@ -4,6 +4,7 @@
     {
       "id": "we-dilutes",
       "group": "agency",
+      "kind": "misread",
       "zhInstinct": "我們做了…（其實主要是你做的）",
       "enLiteral": "We built the new onboarding flow.",
       "heardAs": "在 calibration（績效校準）會議上，你主管手上沒有一句可以直接引用的話。他沒辦法拿「We built the onboarding flow」去跟其他主管爭你的升遷——因為同一句話套在那個團隊的任何一個人身上都成立。更麻煩的是，那個 we 裡面的其他人，很可能同一場會議也正在被討論。",
@@ -26,10 +27,11 @@
         }
       ],
       "corpus": {
-        "quote": "If you think your self-review is self-promotion, you're just not going to do a great job at it.",
-        "guest": "Deb Liu",
-        "timestamp": "00:39:31",
+        "quote": "Say what you did, say what your contributions were. Don't say 'I helped. I may have maybe helped people do this'. Say the impact.",
+        "guest": "Matt LeMay（轉述他的履歷教練）",
+        "timestamp": "00:10:40",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -41,6 +43,7 @@
     {
       "id": "passive-escape",
       "group": "agency",
+      "kind": "misread",
       "zhInstinct": "被決定了／有討論到／有反應過",
       "enLiteral": "It was decided that the launch would be postponed. Some concerns were raised about the timeline.",
       "heardAs": "讀的人不會停在「喔，延期了」，他會停在「誰決定的？為什麼寫的人不敢寫出來？」。在 postmortem 裡更痛——mistakes were made 在英語職場是一句人盡皆知的政客推託台詞，你想表達的「不要點名、給人留面子」，會被聽成在打太極。而且沒有掛名的決策紀錄，事後追責時常常會算到寫文件的那個人頭上——你省掉的別人的名字，責任會落在你身上。",
@@ -72,6 +75,7 @@
         "guest": "Molly Graham",
         "timestamp": "00:54:41",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -84,6 +88,7 @@
     {
       "id": "no-subject",
       "group": "agency",
+      "kind": "misread",
       "zhInstinct": "覺得應該要…／需要跟法務確認一下（沒有主語）",
       "enLiteral": "Think we should ship next week. Need to check with legal first.",
       "heardAs": "在 Slack 頻道丟出 Need to check with legal.，你心裡想的是「我會去確認」，但沒有人會動——因為沒有人被指到。三天後你問怎麼還沒好，對方會說 you didn't ask anyone。還有一種更尷尬的讀法：英文的無主詞祈使句本來就是上位者的電報體（老闆對下屬的省略式指令），所以你想含蓄，出來的效果可能是在使喚人。",
@@ -111,10 +116,11 @@
         }
       ],
       "corpus": {
-        "quote": "two people owning a goal is no one owning a goal. One person owns the goal, who is it?",
-        "guest": "Molly Graham",
-        "timestamp": "00:52:09",
+        "quote": "A lot of people are like, \"Well, but there are five of us.\" And I'm like, \"No, no, no. There's one person who owns this decision …\"",
+        "guest": "Ebi Atawodi",
+        "timestamp": "01:20:46",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -127,6 +133,7 @@
     {
       "id": "credit-shrink",
       "group": "agency",
+      "kind": "misread",
       "zhInstinct": "這是團隊一起完成的／我只是幫忙做一點",
       "enLiteral": "It was a team effort. I just helped out where I could.",
       "heardAs": "面試官的評分表上有一欄要填「這個人自己的 scope 到哪」。你講完 it was a team effort，那一欄是空的——他沒有時間追問你三次，只會把你放進比較低的 level。而且你以為讓出去的功勞其實沒有人收到：你的隊友一個名字都沒被提到，所以功勞不是轉移，是蒸發。",
@@ -154,10 +161,11 @@
         }
       ],
       "corpus": {
-        "quote": "That's what I'm looking for in an interview, is are you bringing me an understanding of the business that shows you contributed to the business, or are you just telling me how hard you worked?",
-        "guest": "Ethan Evans",
-        "timestamp": "00:37:57",
+        "quote": "tell me the role that you played in that versus telling me everything that your team did. Right? To be precise, the role you played.",
+        "guest": "Sanchan Saxena",
+        "timestamp": "00:55:53",
         "episode": null,
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -170,6 +178,7 @@
     {
       "id": "i-think-overuse",
       "group": "certainty",
+      "kind": "misread",
       "zhInstinct": "我覺得…（幾乎每句都加）",
       "enLiteral": "I think we should ship this. I think it's ready. I think the data looks good.",
       "heardAs": "三句話掛三個 I think，對方收到的訊號不是「他很謙虛」，而是「這三件事他都沒查證過，都只是印象」。於是三個宣稱一起被打折——連「資料看起來不錯」這種你其實查過的事，也被當成用猜的。典型的下一句是有人回你 “Do we know that, or do you think that?”，而你會覺得莫名其妙，因為在你腦中那句話從來不是在講把握程度。",
@@ -201,6 +210,7 @@
         "guest": "Brian Balfour",
         "timestamp": "00:22:38",
         "episode": "Brian Balfour: 10 lessons on career, growth, and life",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=ZG3iNH4vvMA&t=1356s",
         "seek": true
       },
@@ -213,6 +223,7 @@
     {
       "id": "maybe-overuse",
       "group": "certainty",
+      "kind": "misread",
       "zhInstinct": "可能／也許／說不定（當緩衝用，一句塞好幾個）",
       "enLiteral": "Maybe we could maybe try a smaller test first, if that's okay? Maybe.",
       "heardAs": "中文的「可能我們可以先試小一點的」是客氣的提議，聽的人照樣會執行。英文一句裡出現兩三個 maybe，對方收到的是「這個人自己也不想做這件事」——提議被當成隨口說說，會議紀錄不會寫，不會有 action item，也不會有人反對（因為根本沒被當成提案）。而且它讀起來不是謙虛，是沒做功課：maybe 在英文的預設意思是「我沒查」，不是「我尊重你」。",
@@ -244,6 +255,7 @@
         "guest": "Jonathan Lowenhar",
         "timestamp": "00:16:15",
         "episode": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=s0jn7eE33nk&t=973s",
         "seek": true
       },
@@ -256,6 +268,7 @@
     {
       "id": "should-three-ways",
       "group": "certainty",
+      "kind": "misread",
       "zhInstinct": "應該（一個詞蓋掉建議、推測、規定三種意思）",
       "enLiteral": "We should have the data by Friday.",
       "heardAs": "你腦中這句是排程：照規矩資料週五會到。英文母語者只聽得到建議——「他在提議我們該想辦法在週五前弄到資料」。於是他回你 “Agreed, let's aim for Friday.”，一件已經排定的事就這樣被降級成「我們剛剛講好要努力看看」，而你以為對齊完成了。這不是文法錯，是對方腦中的事實狀態被你改掉了，兩週後才會爆。",
@@ -287,6 +300,7 @@
         "guest": "Ramesh Johari",
         "timestamp": "00:58:40",
         "episode": "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari (Stanford professor, startup advisor)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=BVzTfsUMaK8&t=3518s",
         "seek": true
       },
@@ -299,6 +313,7 @@
     {
       "id": "very-ladder",
       "group": "certainty",
+      "kind": "misread",
       "zhInstinct": "很／非常／超級／超級無敵（靠疊副詞往上加強）",
       "enLiteral": "This is a very very big problem. The result was very good. Users are very very unhappy.",
       "heardAs": "中文疊字是真的會加重（「超級無敵難」確實比「難」重）。英文疊 very 卻是往下掉：very very big 在母語者耳裡比 huge 還弱，因為它暴露你只有一把尺，而且找不到更準的字。實務後果很具體——你的「very important」跟隔壁同事的「this is blocking three teams」放進同一份優先順序清單，你那條會排後面。不是因為不重要，是因為聽不出來多重要。",
@@ -330,6 +345,7 @@
         "guest": "Nilan Peiris",
         "timestamp": "00:31:21",
         "episode": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=xZifSLGOrrw&t=1879s",
         "seek": true
       },
@@ -342,6 +358,7 @@
     {
       "id": "definitely-absolutely",
       "group": "certainty",
+      "kind": "misread",
       "zhInstinct": "一定／絕對／百分之百",
       "enLiteral": "This will definitely work. Users absolutely want this. It's 100% the right call.",
       "heardAs": "中文的「一定」多半是口頭加重，講的人跟聽的人都自動打八折（「他一定會來」沒到也沒人翻舊帳）。英文的 definitely／absolutely 是承諾，會被記在會議紀錄裡、會被回頭對帳：你說 this will definitely work，兩個月後數字沒動，別人不會覺得你當時很有熱情，會覺得你判斷力有問題。更常見的傷害是當下就發生的——把話說死等於宣布不接受新資訊，本來想補一個反例的人就不講了，你少拿到那筆資訊。",
@@ -373,6 +390,7 @@
         "guest": "Claire Hughes Johnson",
         "timestamp": "00:28:08",
         "episode": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=Mv0o9o4MRh0&t=1686s",
         "seek": true
       },
@@ -385,6 +403,7 @@
     {
       "id": "tense-shifts",
       "group": "grammar",
+      "kind": "error",
       "zhInstinct": "時態混用——中文動詞不變形，做完沒做完靠「了」「在」「過」或時間副詞交代，所以講英文時動詞就隨手抓一個",
       "enLiteral": "Last week we fix the login bug. Now the team work on the payment flow, and we ship it next month.",
       "heardAs": "英文母語者判斷「這件事做完了沒」，看的是動詞形狀，不是等你補時間副詞。你說 We fixed the login bug，對方當場認定已結案——關票、排上線、跟客戶回報；你想講的其實是 We've been fixing it（還在修、還沒驗完）。反過來也一樣：你想邀功說做完了，卻講成 We were working on the migration，主管聽到的是「做到一半，後來呢？」。時態選錯，對方替你做的下一個決定就是錯的，而且他不會回頭跟你確認——因為在他聽來你已經講得很清楚了。",
@@ -416,6 +435,7 @@
         "guest": "Boris Cherny",
         "timestamp": "00:53:30",
         "episode": "Boris Cherny",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -428,6 +448,7 @@
     {
       "id": "articles",
       "group": "grammar",
+      "kind": "error",
       "zhInstinct": "冠詞可有可無，反正對方聽得懂意思",
       "enLiteral": "We need to solve problem with onboarding. I will send you report after meeting.",
       "heardAs": "英文沒有「不帶冠詞的單數可數名詞」這個選項，所以你一講 problem，對方腦中一定會替你補一個，而且只有兩種補法。補成 a problem＝這只是待辦清單上的其中一項，先記著；補成 the problem＝我們早就談過的那個，今天必須處理完。同一句話、同一場會議，兩種補法排出來的優先順序完全相反，而且沒有人會停下來問你是哪一個。email 也一樣：I'll send you the report 是「你在等的那份」，對方會等；I'll send you a report 是「我另外做一份給你」，對方會先去別的地方找資料。",
@@ -459,6 +480,7 @@
         "guest": "Drew Houston",
         "timestamp": "01:05:05",
         "episode": "Behind the founder: Drew Houston (Dropbox)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=egdYKLBswgk&t=3903s",
         "seek": true
       },
@@ -471,6 +493,7 @@
     {
       "id": "plural",
       "group": "grammar",
+      "kind": "error",
       "zhInstinct": "單複數不分——中文「客戶」本來就沒有單複數，「客戶反應價格太貴」講的是整體，字面上卻只有一個「客戶」",
       "enLiteral": "Customer said the price is too expensive. We got a lot of feedbacks from user.",
       "heardAs": "少一個 s，你的證據等級就從「模式」掉回「軼事」。Customers are asking for SSO 聽起來是市場訊號，會進 roadmap 討論；A customer asked for SSO 聽起來是一張客服工單，會被丟回 backlog。你講中文時「客戶反應價格太貴」明明指的是一群人，直譯成 Customer said the price is too expensive，對方只聽到「有一個客戶說」，然後回你一句 That's one data point。你想推的產品改動，就在那個 s 上被降級成個案處理——而且對方會覺得是你自己只拿得出一個案例。",
@@ -502,6 +525,7 @@
         "guest": "Oji Udezue",
         "timestamp": "00:35:30",
         "episode": "Picking sharp problems, increasing virality, and unique product frameworks | Oji Udezue (Typeform, Twitter, Calendly, Atlassian)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=T8TQGbJhv6Q&t=2128s",
         "seek": true
       },
@@ -514,6 +538,7 @@
     {
       "id": "present-perfect",
       "group": "grammar",
+      "kind": "error",
       "zhInstinct": "用過去式講「經驗」——中文說「我做過推薦系統」，直覺翻成 I worked on recommendation systems",
       "enLiteral": "I worked on recommendation systems for three years. I never did that kind of migration before.",
       "heardAs": "I worked on recommendation systems 把那段經驗關進一個已經闔上的盒子——面試官聽到的是「那是他上一份工作的事」，接著默默想「所以現在不碰了？還記得多少？」。I've worked on recommendation systems 把同一件事拉到現在仍然算數，聽起來是他隨身帶著的能力。同一份履歷、同一件事，一個像告別，一個像資產。績效面談也一樣：I improved retention 是去年的一次性成果，I've improved retention for three quarters in a row 是一條還在延續的曲線——後者才會被讀成「這個人接下來也做得到」。",
@@ -545,6 +570,7 @@
         "guest": "Sahil Mansuri",
         "timestamp": "00:04:46",
         "episode": "How to hit revenue targets in a recession | Sahil Mansuri (Bravado)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=pYZ0S7a72po&t=284s",
         "seek": true
       },
@@ -557,6 +583,7 @@
     {
       "id": "this-is-difficult",
       "group": "indirect",
+      "kind": "misread",
       "zhInstinct": "這個有困難",
       "enLiteral": "This is difficult.",
       "heardAs": "對方聽到的不是拒絕，是求助——difficult 在英文職場是中性偏正面的字，難題正是團隊存在的理由。他會捲起袖子跟你一起想解法，散會時預設這件事還掛在你身上。兩週後它出現在你的進度報告上標著 blocked，你不是「當初擋掉的人」，是「答應了做不出來的人」。",
@@ -583,6 +610,7 @@
         "guest": "Dalton Caldwell",
         "timestamp": "00:27:09",
         "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1627s",
         "seek": true
       },
@@ -594,6 +622,7 @@
     {
       "id": "let-me-think",
       "group": "indirect",
+      "kind": "misread",
       "zhInstinct": "我再想想／我再研究一下",
       "enLiteral": "Let me think about it.",
       "heardAs": "對方聽到的是一個「還沒結案的決定」，於是把你記進待追清單，兩週後真的來問。你不回，換來的不是「他懂了」，而是「這個人事情不會收尾」。這裡有個台灣人很難相信的算式：在英文職場，明確拒絕幾乎不傷信用，開了迴圈不關才傷——你為了不想拒絕而付的代價，比拒絕本身貴得多。",
@@ -620,6 +649,7 @@
         "guest": "Lenny Rachitsky",
         "timestamp": "00:33:55",
         "episode": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=xOTO98MXG9o&t=2033s",
         "seek": true
       },
@@ -631,6 +661,7 @@
     {
       "id": "maybe-we-can",
       "group": "indirect",
+      "kind": "misread",
       "zhInstinct": "也許我們可以…",
       "enLiteral": "Maybe we can...",
       "heardAs": "對方不會聽成禮貌，會聽成「他自己也沒把握」。結果最傷的不是有人反對你——是根本沒人接話。因為在場的人不知道等一下有人質疑時，你會不會替這個想法辯護；賭錯的成本太高，大家就默默跳過。你的提案沒有被否決，是被跳過了，而會議紀錄上看不出差別。",
@@ -657,6 +688,7 @@
         "guest": "Boris Cherny",
         "timestamp": "00:52:55",
         "episode": "Boris Cherny",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -668,6 +700,7 @@
     {
       "id": "half-sentence",
       "group": "indirect",
+      "kind": "misread",
       "zhInstinct": "話講一半，讓對方意會",
       "enLiteral": "Well, with this timeline… you know.",
       "heardAs": "沒有人會替你把話接完——不是聽不懂，是在英文裡替別人補完那句話，等於替他決定立場，比直說還冒犯。所以你留的那個白，會被當成「他講完了」，下一個人立刻接走發言權。你真正想講的那半句，這場會就沒了；而在對方的記憶裡，你什麼都沒反對過。",
@@ -694,6 +727,7 @@
         "guest": "Kenneth Berger",
         "timestamp": "00:49:56",
         "episode": "Why not asking for what you want is holding you back | Kenneth Berger (exec coach, first PM at Slack)",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -705,6 +739,7 @@
     {
       "id": "not-very-good",
       "group": "indirect",
+      "kind": "misread",
       "zhInstinct": "不太好／不太適合",
       "enLiteral": "It's not very good. / It's not a very good fit.",
       "heardAs": "你以為你已經說了「不行」，對方聽到的是「大致 OK，只是不出色」——not very good 在英文裡落在「還可以，普通」那一格，不是「不行」那一格。於是方案照過。真正的代價在三個月後：東西出事了，你去翻會議紀錄，發現上面顯示你從頭到尾沒有反對過。",
@@ -731,6 +766,7 @@
         "guest": "Alex Komoroske",
         "timestamp": "00:36:55",
         "episode": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=PoWRYBWSqpU&t=2213s",
         "seek": true
       },
@@ -742,6 +778,7 @@
     {
       "id": "background-first",
       "group": "order",
+      "kind": "misread",
       "zhInstinct": "先講來龍去脈，最後才講結論",
       "enLiteral": "So last quarter we started seeing some drop-off in onboarding, and then the team looked into it, and we ran a few interviews, and what we found was that step three is where people leave, so I think we should redesign that flow.",
       "heardAs": "英文主管在你講到第三句時已經在想別的事了，或者更糟——他自己先下了一個結論（「所以是 onboarding 有問題？那是設計團隊的事吧」），你後面講什麼都在跟那個結論打架。更常見的下場是他直接打斷你問「Sorry, what's the ask?」——那不是他沒耐心，是他真的還不知道該用什麼身分聽你講：批准者？出主意的人？還是只是被告知？",
@@ -773,7 +810,8 @@
         "guest": "Lenny Rachitsky",
         "timestamp": null,
         "episode": "The Minto Pyramid Principle and the SCR Framework",
-        "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=The%20Minto%20Pyramid%20Principle%20and%20the%20SCR%20Framework",
         "seek": false
       },
       "relatedFunctions": [
@@ -785,6 +823,7 @@
     {
       "id": "reason-then-ask",
       "group": "order",
+      "kind": "misread",
       "zhInstinct": "先解釋原因，最後才提出請求",
       "enLiteral": "The team has been really stretched this quarter, and then the launch date moved up by two weeks, and QA is still one person short, and we're also covering the migration... so I was wondering if maybe we could get some help?",
       "heardAs": "對方讀到一半就開始猜你要什麼——而且通常猜錯。最常見的誤讀是「他在抱怨」或「他在鋪路要延期」，於是等你真的講出請求時，他心裡已經備好防禦（「所以你想推遲交付？」）。第二種下場更冤：他覺得你只是在同步狀況，回一句「Thanks for the update」就關掉視窗，你的請求根本沒被當成請求。",
@@ -816,7 +855,8 @@
         "guest": "Tara Seshan",
         "timestamp": null,
         "episode": "How to communicate tradeoffs so leaders will listen",
-        "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=How%20to%20communicate%20tradeoffs%20so%20leaders%20will%20listen",
         "seek": false
       },
       "relatedFunctions": [
@@ -828,6 +868,7 @@
     {
       "id": "flat-list",
       "group": "order",
+      "kind": "misread",
       "zhInstinct": "把三件事並列講完，不分主次",
       "enLiteral": "There are three problems: the API is slow, the docs are outdated, and users are dropping off at step three.",
       "heardAs": "英文聽者預設「並列＝等重」，所以他不會去猜哪個最重要，他會自己挑一個最好處理的來討論——通常是最小、最具體的那個（「文件我們找個人補一下就好」）。你真正在意的那件事就被壓成第三順位，會議結束時 action item 只有那件小事。更傷的是第二層印象：在英文語境裡，端一份沒排序的清單出來，會被讀成「你還沒做完排序這份工作」——不是中立，是失職。",
@@ -859,6 +900,7 @@
         "guest": "Wes Kao",
         "timestamp": "00:41:51",
         "episode": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
+        "isSearch": false,
         "url": null,
         "seek": false
       },
@@ -871,6 +913,7 @@
     {
       "id": "no-signpost",
       "group": "order",
+      "kind": "misread",
       "zhInstinct": "直接開始講內容",
       "enLiteral": "So the number last week was 4.2%, and if you look at the March cohort it's actually closer to 3.8%, and the mobile split is different again...",
       "heardAs": "對方前十幾秒不是在聽你的內容，是在猜「這是要我做什麼」——要我批准？要我給意見？還是只是讓我知道？等他終於分類完，你最重要的那句話已經講過去了。在英文會議裡還有一個更具體的後果：沒有 signpost 的發言常被當成「還沒成形的想法」，主持人聽了兩句就 'Great, let's come back to that' 然後切給下一個人——你不是被否決，是被歸檔。",
@@ -902,7 +945,8 @@
         "guest": "Natalie Rothfels",
         "timestamp": null,
         "episode": "On asking for help (even when you really don’t want to)",
-        "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=On%20asking%20for%20help%20(even%20when%20you%20really%20don%E2%80%99t%20want%20to)",
         "seek": false
       },
       "relatedFunctions": [
@@ -914,6 +958,7 @@
     {
       "id": "sorry-opener",
       "group": "politeness",
+      "kind": "misread",
       "zhInstinct": "不好意思打擾一下，想問你一個小問題",
       "enLiteral": "Sorry to bother you, I just have a quick question.",
       "heardAs": "對方收到的第一個訊號是「這件事不重要，而且我知道我在浪費你時間」——你等於先幫他寫好了拒絕的理由。在一天幾百則訊息的 Slack 裡，這種開頭會被自動歸到「等一下再說」，然後就沒有然後了。",
@@ -945,7 +990,8 @@
         "guest": "Shivani Berry",
         "timestamp": null,
         "episode": "Getting buy-in",
-        "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=Getting%20buy-in",
         "seek": false
       },
       "relatedFunctions": [
@@ -957,6 +1003,7 @@
     {
       "id": "just-quickly",
       "group": "politeness",
+      "kind": "misread",
       "zhInstinct": "只是想快速問一下，一個小問題而已",
       "enLiteral": "I just wanted to quickly ask a small question about the roadmap.",
       "heardAs": "just / quick / small 是你自己貼上去的價格標籤，對方會照標籤估價：小事、可以晚點、可以不回。更麻煩的是如果這件事後來炸開，你已經沒有立場說「我早就提過了」——你提的時候親口說那是小事。",
@@ -988,7 +1035,8 @@
         "guest": "Shivani Berry",
         "timestamp": null,
         "episode": "Getting buy-in",
-        "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=Getting%20buy-in",
         "seek": false
       },
       "relatedFunctions": [
@@ -1000,6 +1048,7 @@
     {
       "id": "self-deprecate",
       "group": "politeness",
+      "kind": "misread",
       "zhInstinct": "我可能講得不好／我對這塊不太懂，講錯不要見怪",
       "enLiteral": "I'm not really an expert on this, so I might be wrong, but...",
       "heardAs": "對方會照你說的做——真的把你接下來講的話打折。而且因為你沒有指出「哪一塊」不確定，他只能整段打折，連你其實很有把握的部分一起。在會議上，這句話還等於公開邀請別人接手你的題目。",
@@ -1031,6 +1080,7 @@
         "guest": "Gina Gotthilf",
         "timestamp": "01:30:07",
         "episode": "Scaling Duolingo, embracing failure, and insight into Latin America’s tech scene | Gina Gotthilf (Latitud, Duolingo)",
+        "isSearch": false,
         "url": "https://www.youtube.com/watch?v=sWClFYdbkRA&t=5405s",
         "seek": true
       },
@@ -1043,6 +1093,7 @@
     {
       "id": "no-opt-out",
       "group": "politeness",
+      "kind": "misread",
       "zhInstinct": "這個可以麻煩你幫我看一下嗎？我真的很需要你幫忙",
       "enLiteral": "Could you please review this for me? I really need your help on this.",
       "heardAs": "對方讀完，沒有一個可以體面說不的位置——他只剩「勉強答應」和「已讀不回」兩條路。忙的人多半選第二條。於是你不只沒拿到幫忙，連一句「我這週不行、下週可以」都沒拿到，還得自己猜他是不是討厭你。",
@@ -1074,7 +1125,8 @@
         "guest": "Natalie Rothfels",
         "timestamp": null,
         "episode": "On asking for help (even when you really don’t want to)",
-        "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=On%20asking%20for%20help%20(even%20when%20you%20really%20don%E2%80%99t%20want%20to)",
         "seek": false
       },
       "relatedFunctions": [
@@ -1086,6 +1138,7 @@
     {
       "id": "thank-you-advance",
       "group": "politeness",
+      "kind": "misread",
       "zhInstinct": "先謝謝你了／麻煩你了，感謝！",
       "enLiteral": "Thanks in advance for your help!",
       "heardAs": "這句話把「他會答應」直接寫進了句子裡——你替對方回答完了。他要拒絕，就得先推翻你的假設，成本瞬間變高；多數人不會推翻，也不會答應，就是不回。你以為自己表達了感謝，實際上是把說不的權利收走了。",
@@ -1117,7 +1170,8 @@
         "guest": "Lenny Rachitsky",
         "timestamp": null,
         "episode": "On saying no",
-        "url": "https://www.lennysnewsletter.com/p/on-saying-no",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=On%20saying%20no",
         "seek": false
       },
       "relatedFunctions": [

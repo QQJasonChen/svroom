@@ -5,6 +5,7 @@ import { getFn } from "./cards";
 export type Better = { en: string; zh: string; note?: string };
 
 export type TrapCorpus = {
+  isSearch?: boolean;
   quote: string;
   guest: string;
   timestamp: string | null;
@@ -16,6 +17,8 @@ export type TrapCorpus = {
 export type Trap = {
   id: string;
   group: string;
+  /** misread = 這句英文沒錯，只是對方解讀不同；error = 真的用錯了 */
+  kind: "misread" | "error";
   zhInstinct: string;
   enLiteral: string | null;
   /** 對方實際聽到的是什麼——這一層最有價值的欄位 */

@@ -64,12 +64,26 @@ try {
     if (!item.filename) continue;
     // 索引裡多數 podcast 沒有 post_url、只有 youtube_url，而其中 38 筆的
     // 影片 id 含空白（髒資料）。壞網址一律丟掉——寧可沒連結也不要 404。
-    const candidate = item.post_url || item.youtube_url || null;
-    const url = candidate && !/\s/.test(candidate) ? candidate : null;
+    //
+    // 更麻煩的是 newsletter 的 post_url：抽驗 12 筆有 9 筆 404。原因是索引
+    // 用完整標題做 slug，但 Substack 實際會截短，而截短規則無法可靠還原
+    // （試過各種長度都不對，且會被限流干擾判斷）。所以 newsletter 一律不用
+    // 直連，改導到站內搜尋——搜尋一定找得到，404 一定找不到。
+    const isNewsletter = item.filename.startsWith("newsletters/");
+    let url = null;
+    if (isNewsletter) {
+      url =
+        "https://www.lennysnewsletter.com/search?q=" +
+        encodeURIComponent(item.title || "");
+    } else {
+      const candidate = item.post_url || item.youtube_url || null;
+      url = candidate && !/\s/.test(candidate) ? candidate : null;
+    }
     sourceByFile.set(item.filename.replace(/^(podcasts|newsletters)\//, ""), {
       url,
       episode: item.title || null,
       words: item.word_count || null,
+      isSearch: isNewsletter,
     });
   }
   const withUrl = [...sourceByFile.values()].filter((s) => s.url).length;
@@ -221,6 +235,7 @@ for (const file of trapFiles) {
           guest: c.guest.trim(),
           timestamp: c.timestamp || null,
           episode: src?.episode || null,
+          isSearch: !!src?.isSearch,
           ...withTimestamp(src?.url || null, c.timestamp),
         };
       }
@@ -230,6 +245,9 @@ for (const file of trapFiles) {
     traps.push({
       id: raw.id,
       group: meta.group,
+      // 多數陷阱的英文句子本身沒有錯，只是對方的解讀跟你以為的不同；
+      // 只有 grammar 那組是真的用錯。混為一談會讓整層失去可信度。
+      kind: meta.group === "grammar" ? "error" : "misread",
       zhInstinct: raw.zh_instinct || meta.zh_instinct,
       enLiteral: raw.en_literal || null,
       heardAs: raw.heard_as.trim(),
@@ -347,6 +365,7 @@ for (const file of conceptFiles) {
           guest: raw.guest.trim(),
           timestamp: raw.timestamp || null,
           episode: src?.episode || null,
+          isSearch: !!src?.isSearch,
           ...withTimestamp(src?.url || null, raw.timestamp),
         };
       }
@@ -510,6 +529,7 @@ function ingest({ fileList, validSet, groupMap, out, label }) {
         // 導流回原始出處，這是授權的禮貌也是內容誠信。
         // 集數標題一定有，連結不一定——沒有連結也不能沒有出處。
         episode: src?.episode || null,
+        isSearch: !!src?.isSearch,
         ...withTimestamp(src?.url || null, raw.timestamp),
       });
     }

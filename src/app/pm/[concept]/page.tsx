@@ -147,6 +147,7 @@ export default async function ConceptPage({
                     timestamp={c.quote.timestamp}
                     episode={c.quote.episode}
                     seek={c.quote.seek}
+                    isSearch={c.quote.isSearch}
                   />
                 </>
               )}
