@@ -1,4 +1,5 @@
 import { stats } from "@/lib/cards";
+import { conceptStats } from "@/lib/concepts";
 
 export const metadata = {
   title: "關於｜矽谷會議室",
@@ -22,6 +23,22 @@ export default function AboutPage() {
             它跟一般英文教材最大的不同是：不按「主題」分類，而是按
             <strong className="text-ink font-medium">「你當下想做什麼」</strong>
             分類。你不會在會議中想著「我要用商業詞彙」，你會想的是「我要擋掉這個需求」「我要不失禮貌地反對」。所以這裡的分類就長成這樣。
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-ink font-semibold text-[16px] mb-2.5">
+            兩層，而且是綁在一起的
+          </h2>
+          <p>
+            <strong className="text-ink font-medium">語言功能層</strong>（{stats.covered} 個功能、{stats.cards} 張句型卡）教你「這個處境的英文怎麼說」；
+            <strong className="text-ink font-medium">PM 知識層</strong>（{conceptStats.written} 個概念）教你「這個處境背後在解什麼問題」。
+          </p>
+          <p className="mt-3">
+            兩層互相連結：看「有禮貌地反對」的句型時，會看到它背後是 disagree and commit 這個概念；看
+            disagree and commit 時，會看到在英文會議上怎麼把它講出口。因為
+            <strong className="text-ink font-medium">懂一個概念，跟能用英文把它講清楚，是兩件不同的事</strong>
+            ——而多數台灣 PM 卡住的是後者。
           </p>
         </section>
 

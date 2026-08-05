@@ -923,7 +923,14 @@
           "note": "擋掉行銷端一次性活動需求時，講得有理有據又不難聽"
         }
       ],
-      "quote": null,
+      "quote": {
+        "text": "Magical growth loops: growth loops where most of your new users come directly from existing users. Normally, to grow your business, YOU need to go find every new user. Instead, your users grow your business for you.",
+        "guest": "Lenny Rachitsky",
+        "timestamp": null,
+        "episode": null,
+        "url": null,
+        "seek": false
+      },
       "relatedFunctions": [
         "proposing-idea",
         "setting-strategy",

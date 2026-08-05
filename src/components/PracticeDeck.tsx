@@ -4,6 +4,8 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { Card, Group } from "@/lib/cards";
 import { difficultyLabel } from "@/lib/cards";
+import { useSpeech } from "@/lib/speech";
+import Speak from "./Speak";
 import {
   type CardState,
   type Grade,
@@ -32,10 +34,13 @@ export default function PracticeDeck({ cards, groups }: Props) {
   const [ready, setReady] = useState(false);
   const [state, setState] = useState<Record<string, CardState>>({});
   const [groupFilter, setGroupFilter] = useState<string>("all");
+  // zh2en：看中文想英文（產出練習）／en2zh：聽英文想意思（聽力練習）
+  const [mode, setMode] = useState<"zh2en" | "en2zh">("zh2en");
   const [revealed, setRevealed] = useState(false);
   const [idx, setIdx] = useState(0);
   const [seed, setSeed] = useState(1);
   const [done, setDone] = useState(0);
+  const { supported: speechOk, speak, stop: stopSpeech } = useSpeech();
 
   useEffect(() => {
     setState(load());
@@ -66,9 +71,18 @@ export default function PracticeDeck({ cards, groups }: Props) {
     [state, pool],
   );
 
+  // 聽力模式：換到新卡就自動唸一次，省掉每張都要點播放
+  useEffect(() => {
+    if (mode !== "en2zh" || !card || revealed) return;
+    speak(card.quote, { id: `p-${card.id}` });
+    // 只在換卡／換模式時觸發，revealed 變動不重播
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card?.id, mode]);
+
   const answer = useCallback(
     (g: Grade) => {
       if (!card) return;
+      stopSpeech();
       setState((prev) => {
         const next = { ...prev, [card.id]: gradeCard(prev[card.id], g) };
         save(next);
@@ -78,7 +92,7 @@ export default function PracticeDeck({ cards, groups }: Props) {
       setDone((d) => d + 1);
       setIdx((i) => i + 1);
     },
-    [card],
+    [card, stopSpeech],
   );
 
   // 鍵盤操作：空白翻卡，1/2/3 評分
@@ -128,6 +142,30 @@ export default function PracticeDeck({ cards, groups }: Props) {
             ))}
         </select>
 
+        {speechOk && (
+          <div className="flex rounded-sm border border-rule overflow-hidden text-[12.5px]">
+            {(
+              [
+                ["zh2en", "看中文說英文"],
+                ["en2zh", "聽英文猜意思"],
+              ] as const
+            ).map(([m, label]) => (
+              <button
+                key={m}
+                onClick={() => {
+                  setMode(m);
+                  setRevealed(false);
+                }}
+                className={`px-2.5 py-1.5 transition-colors ${
+                  mode === m ? "bg-ink text-paper" : "hover:text-rust"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        )}
+
         <div className="ml-auto flex items-center gap-3 text-[12px] text-ink-3 tabular-nums">
           <span>本輪 {done}</span>
           <span className="text-rust">學習中 {summary.learning}</span>
@@ -160,14 +198,54 @@ export default function PracticeDeck({ cards, groups }: Props) {
 
           {/* 正面：中文情境，逼你先自己想英文 */}
           <div className="border border-rule rounded-sm px-6 sm:px-8 py-9 bg-paper-2/40 min-h-[240px] flex flex-col justify-center">
-            <p className="rule-label mb-4">這句英文怎麼說？</p>
-            <p className="text-[17px] leading-[1.85]">{card.zh}</p>
+            {mode === "zh2en" ? (
+              <>
+                <p className="rule-label mb-4">這句英文怎麼說？</p>
+                <p className="text-[17px] leading-[1.85]">{card.zh}</p>
+              </>
+            ) : (
+              <>
+                <p className="rule-label mb-4">聽聽看，他在說什麼？</p>
+                <div className="flex items-center gap-3">
+                  <button
+                    onClick={() => speak(card.quote, { id: `p-${card.id}` })}
+                    className="flex items-center gap-2 bg-ink text-paper px-4 py-2.5 text-[13px] rounded-sm hover:opacity-90"
+                  >
+                    ▶ 再聽一次
+                  </button>
+                  <button
+                    onClick={() =>
+                      speak(card.quote, { id: `p-${card.id}-slow`, rate: 0.72 })
+                    }
+                    className="px-3 py-2.5 text-[13px] rounded-sm border border-rule hover:border-rust hover:text-rust transition-colors"
+                  >
+                    0.75× 慢速
+                  </button>
+                </div>
+                {!revealed && (
+                  <p className="mt-4 text-[12.5px] text-ink-3">
+                    聽不懂就多按幾次慢速。真的抓不到再看答案。
+                  </p>
+                )}
+              </>
+            )}
 
             {revealed && (
               <div className="mt-8 pt-7 border-t border-rule space-y-5">
-                <blockquote className="quote pl-4 border-l-2 border-rust/35">
-                  {card.quote}
-                </blockquote>
+                <div className="flex items-start gap-3">
+                  <blockquote className="quote pl-4 border-l-2 border-rust/35 flex-1 min-w-0">
+                    {card.quote}
+                  </blockquote>
+                  <Speak
+                    text={card.quote}
+                    id={`pd-${card.id}`}
+                    className="shrink-0 mt-1"
+                  />
+                </div>
+
+                {mode === "en2zh" && (
+                  <p className="text-[15px] leading-relaxed">{card.zh}</p>
+                )}
 
                 {card.pattern && (
                   <p className="font-serif text-[14.5px] text-rust">

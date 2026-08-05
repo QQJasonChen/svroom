@@ -1,11 +1,15 @@
 import type { Card } from "@/lib/cards";
 import { difficultyLabel, registerLabel } from "@/lib/cards";
+import Speak from "./Speak";
 
 export default function CardView({ card, n }: { card: Card; n?: number }) {
+  // 有 [X] 佔位符的才是真的「句型」（可換內容重用）；
+  // 沒有的是固定的慣用句。混為一談會讓「句型」這個承諾變空。
+  const isTemplate = !!card.pattern?.includes("[");
+
   return (
     <article className="border border-rule bg-paper-2/40 rounded-sm">
       <div className="px-5 sm:px-7 py-6 space-y-5">
-        {/* 句型：學習者真正要帶走的東西 */}
         {card.pattern && (
           <div className="flex items-start gap-3">
             {n !== undefined && (
@@ -13,16 +17,24 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
                 {String(n).padStart(2, "0")}
               </span>
             )}
-            <p className="font-serif text-[15px] text-rust leading-snug">
-              {card.pattern}
-            </p>
+            <div className="min-w-0">
+              <span className="rule-label">
+                {isTemplate ? "句型" : "慣用句"}
+              </span>
+              <p className="font-serif text-[15px] text-rust leading-snug mt-0.5">
+                {card.pattern}
+              </p>
+            </div>
           </div>
         )}
 
         {/* 原句 */}
-        <blockquote className="quote pl-4 border-l-2 border-rust/35">
-          {card.quote}
-        </blockquote>
+        <div className="flex items-start gap-3">
+          <blockquote className="quote pl-4 border-l-2 border-rust/35 flex-1 min-w-0">
+            {card.quote}
+          </blockquote>
+          <Speak text={card.quote} id={card.id} className="shrink-0 mt-1" />
+        </div>
 
         <p className="text-[15px] leading-relaxed text-ink-2">{card.zh}</p>
 

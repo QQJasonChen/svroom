@@ -1,0 +1,68 @@
+{
+  "schema_version": "1",
+  "note": "書面英文層。跟口說層分開，因為痛點完全不同：寫的時候沒有語氣、沒有表情、對方可能三天後才讀，而且會被轉發。台灣 PM 一天寫的英文其實比講的多（Slack、email、PRD、週報、自評），但這塊在教材裡幾乎沒人做。",
+  "groups": [
+    {
+      "id": "framing",
+      "zh": "文件開場與定調",
+      "en": "Framing a Doc",
+      "blurb": "沒有人會讀完你的文件。前三行決定他要不要往下看。",
+      "functions": [
+        { "id": "w-tldr", "zh": "一句話說清楚這份文件在幹嘛", "en": "Writing a TL;DR", "scene": "文件最上面那段，決定對方要不要往下讀" },
+        { "id": "w-problem-statement", "zh": "書面問題陳述", "en": "Problem statement", "scene": "把模糊的抱怨寫成一個可解的問題" },
+        { "id": "w-goals-nongoals", "zh": "目標與非目標", "en": "Goals & non-goals", "scene": "先講清楚這次不做什麼，省掉後面十次爭論" },
+        { "id": "w-context", "zh": "補背景給沒跟到的人", "en": "Giving context", "scene": "讀者可能是三個月後才看到這份文件的人" }
+      ]
+    },
+    {
+      "id": "arguing",
+      "zh": "書面論證",
+      "en": "Arguing on Paper",
+      "blurb": "當面你可以看臉色調整，寫下來只有一次機會。",
+      "functions": [
+        { "id": "w-recommendation", "zh": "提出建議並要一個決定", "en": "Making a recommendation", "scene": "你要的不是討論，是拍板" },
+        { "id": "w-options", "zh": "列選項與取捨", "en": "Laying out options", "scene": "讓對方看見你想過 A、B、C 而不是只想到一個" },
+        { "id": "w-evidence", "zh": "書面引用數據", "en": "Citing evidence in writing", "scene": "把數字寫得可信而不是像在防衛" },
+        { "id": "w-preempt", "zh": "預先回應反對意見", "en": "Pre-empting objections", "scene": "在對方提出質疑之前先自己講出來" },
+        { "id": "w-hedging", "zh": "書面表達保留與不確定", "en": "Hedging in writing", "scene": "沒有語氣可以幫你緩衝，全靠用字" }
+      ]
+    },
+    {
+      "id": "updates",
+      "zh": "狀態更新與壞消息",
+      "en": "Updates & Bad News",
+      "blurb": "報壞消息的能力，比報好消息的能力值錢十倍。",
+      "functions": [
+        { "id": "w-status", "zh": "週報與進度更新", "en": "Status updates", "scene": "每週那封沒人想寫、但決定你能見度的信" },
+        { "id": "w-delay", "zh": "報延期與砍範圍", "en": "Announcing a delay", "scene": "時程來不及了，你要在被問之前先講" },
+        { "id": "w-failure", "zh": "對高層報失敗", "en": "Reporting failure to execs", "scene": "專案沒成，你要寫一封不推責也不自貶的信" },
+        { "id": "w-change", "zh": "說明變更", "en": "Communicating a change", "scene": "決定改了，你要讓已經在做的人不覺得被耍" }
+      ]
+    },
+    {
+      "id": "asking",
+      "zh": "書面請求與協商",
+      "en": "Asking in Writing",
+      "blurb": "在非同步的世界裡，會寫請求的人拿得到資源。",
+      "functions": [
+        { "id": "w-request", "zh": "請人幫忙／要資源", "en": "Making a request", "scene": "跨部門要人、要時間、要資料" },
+        { "id": "w-followup", "zh": "跟進沒人回的事", "en": "Following up", "scene": "第三次追同一件事，又不想顯得討人厭" },
+        { "id": "w-decline", "zh": "書面婉拒與推遲", "en": "Declining in writing", "scene": "白紙黑字說不，比當面說不更需要技巧" },
+        { "id": "w-negotiating", "zh": "談薪與談條件", "en": "Negotiating in writing", "scene": "offer 信往返，每個字都算數" },
+        { "id": "w-cold-outreach", "zh": "冷開場：跟不認識的人搭上線", "en": "Cold outreach", "scene": "找 mentor、找內推、約使用者訪談" }
+      ]
+    },
+    {
+      "id": "self",
+      "zh": "書面表達人與自己",
+      "en": "People & Self in Writing",
+      "blurb": "寫下來的評價會被存檔、被轉發、被拿去 calibration 會議上讀。",
+      "functions": [
+        { "id": "w-feedback", "zh": "寫回饋給同事", "en": "Written feedback", "scene": "360 回饋、review 留言" },
+        { "id": "w-self-review", "zh": "績效自評與影響力描述", "en": "Self-review & impact", "scene": "一年一次，把自己做的事寫成別人看得懂的價值" },
+        { "id": "w-endorsement", "zh": "推薦與背書", "en": "Endorsing someone", "scene": "幫人寫推薦、在升遷案上背書" },
+        { "id": "w-recognition", "zh": "書面肯定與感謝", "en": "Recognition in writing", "scene": "公開頻道上肯定一個人，讓它有份量" }
+      ]
+    }
+  ]
+}

@@ -115,100 +115,17 @@ const seenPattern = new Set();
 const guestWords = new Map();
 const cards = [];
 
-for (const file of files) {
-  let batch;
-  try {
-    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
-  } catch (e) {
-    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
-    process.exitCode = 1;
-    continue;
-  }
-  if (!Array.isArray(batch)) {
-    console.error(`✗ ${file} 最外層不是陣列，跳過`);
-    process.exitCode = 1;
-    continue;
-  }
-
-  for (const raw of batch) {
-    const reject = (reason) => rejected.push({ file, reason, quote: raw.quote });
-
-    // --- 必填欄位 ---
-    for (const field of ["function", "quote", "zh", "why", "guest"]) {
-      if (!raw[field] || typeof raw[field] !== "string" || !raw[field].trim()) {
-        reject(`缺少必填欄位 ${field}`);
-        continue;
-      }
-    }
-    if (!raw.function || !raw.quote || !raw.zh || !raw.why || !raw.guest) continue;
-
-    // --- 分類必須存在 ---
-    if (!validFunctions.has(raw.function)) {
-      reject(`未知的 function：${raw.function}`);
-      continue;
-    }
-
-    // --- 授權防護：單則引文長度 ---
-    const qw = wordCount(raw.quote);
-    if (qw > MAX_QUOTE_WORDS) {
-      reject(`引文 ${qw} 字，超過上限 ${MAX_QUOTE_WORDS}`);
-      continue;
-    }
-
-    // --- 授權防護：出處必須完整 ---
-    if (!raw.source_file) {
-      reject("沒有 source_file，無法標出處");
-      continue;
-    }
-
-    // --- 去重 ---
-    const qKey = raw.quote.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-    if (seenQuote.has(qKey)) {
-      reject("重複引文");
-      continue;
-    }
-    const pKey = `${raw.function}::${(raw.pattern || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}`;
-    if (raw.pattern && seenPattern.has(pKey)) {
-      reject(`同一 function 下重複句型：${raw.pattern}`);
-      continue;
-    }
-
-    // --- 授權防護：單一講者累計引文量 ---
-    const used = guestWords.get(raw.guest) || 0;
-    if (used + qw > MAX_WORDS_PER_GUEST) {
-      reject(`講者 ${raw.guest} 引文累計超過 ${MAX_WORDS_PER_GUEST} 字`);
-      continue;
-    }
-    guestWords.set(raw.guest, used + qw);
-
-    seenQuote.add(qKey);
-    if (raw.pattern) seenPattern.add(pKey);
-
-    const id = `${raw.function}-${slug(raw.guest)}-${cards.length}`;
-
-    cards.push({
-      id,
-      fn: raw.function,
-      group: groupOf.get(raw.function),
-      pattern: raw.pattern || null,
-      quote: raw.quote.trim(),
-      zh: raw.zh.trim(),
-      why: raw.why.trim(),
-      register: ["spoken-casual", "spoken-formal", "written"].includes(raw.register)
-        ? raw.register
-        : "spoken-casual",
-      difficulty: [1, 2, 3].includes(raw.difficulty) ? raw.difficulty : 2,
-      swaps: Array.isArray(raw.swaps) ? raw.swaps.filter(Boolean).slice(0, 4) : [],
-      pmNote: raw.pm_note && raw.pm_note !== "null" ? raw.pm_note : null,
-      guest: raw.guest.trim(),
-      timestamp: raw.timestamp || null,
-      // 導流回原始出處，這是授權的禮貌也是內容誠信。
-      // 集數標題一定有，連結不一定——沒有連結也不能沒有出處。
-      episode: sourceByFile.get(raw.source_file)?.episode || null,
-      ...withTimestamp(sourceByFile.get(raw.source_file)?.url || null, raw.timestamp),
-    });
-  }
-}
+// 書面英文層。跟口說層分開的分類法，但共用同一條授權管線與引文預算。
+const writingTax = JSON.parse(
+  readFileSync(join(ROOT, "data", "writing-taxonomy.json"), "utf8"),
+);
+const validWriting = new Set(
+  writingTax.groups.flatMap((g) => g.functions.map((f) => f.id)),
+);
+const writingGroupOf = new Map(
+  writingTax.groups.flatMap((g) => g.functions.map((f) => [f.id, g.id])),
+);
+const writingCards = [];
 
 // ===================== PM 知識層 =====================
 // 概念卡跟句型卡共用同一個「單一講者引文預算」，否則授權上限會被繞過。
@@ -332,6 +249,144 @@ writeFileSync(
   join(ROOT, "data", "concepts.json"),
   JSON.stringify({ count: concepts.length, concepts }, null, 2) + "\n",
 );
+
+
+/**
+ * 收一批卡片。口說層與書面層共用這條管線——同一套必填檢查、同一套
+ * 授權上限、同一個講者引文預算。差別只在合法的 function 集合與輸出陣列。
+ */
+function ingest({ fileList, validSet, groupMap, out, label }) {
+  for (const file of fileList) {
+    let batch;
+    try {
+      batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+    } catch (e) {
+      console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+      process.exitCode = 1;
+      continue;
+    }
+    if (!Array.isArray(batch)) {
+      console.error(`✗ ${file} 最外層不是陣列，跳過`);
+      process.exitCode = 1;
+      continue;
+    }
+
+    for (const raw of batch) {
+      const reject = (reason) =>
+        rejected.push({ file, reason, quote: raw.quote, label });
+
+      // --- 必填欄位 ---
+      if (!raw.function || !raw.quote || !raw.zh || !raw.why || !raw.guest) {
+        reject("缺少必填欄位");
+        continue;
+      }
+
+      // --- 分類必須存在 ---
+      if (!validSet.has(raw.function)) {
+        reject(`未知的 function：${raw.function}`);
+        continue;
+      }
+
+      // --- 授權防護：單則引文長度 ---
+      const qw = wordCount(raw.quote);
+      if (qw > MAX_QUOTE_WORDS) {
+        reject(`引文 ${qw} 字，超過上限 ${MAX_QUOTE_WORDS}`);
+        continue;
+      }
+
+      // --- 授權防護：出處必須完整 ---
+      if (!raw.source_file) {
+        reject("沒有 source_file，無法標出處");
+        continue;
+      }
+
+      // --- 去重（跨層共用，避免同一句在兩層各出現一次）---
+      const qKey = raw.quote.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      if (seenQuote.has(qKey)) {
+        reject("重複引文");
+        continue;
+      }
+      const pKey = `${raw.function}::${(raw.pattern || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()}`;
+      if (raw.pattern && seenPattern.has(pKey)) {
+        reject(`同一 function 下重複句型：${raw.pattern}`);
+        continue;
+      }
+
+      // --- 授權防護：單一講者累計引文量 ---
+      const used = guestWords.get(raw.guest) || 0;
+      if (used + qw > MAX_WORDS_PER_GUEST) {
+        reject(`講者 ${raw.guest} 引文累計超過 ${MAX_WORDS_PER_GUEST} 字`);
+        continue;
+      }
+      guestWords.set(raw.guest, used + qw);
+
+      seenQuote.add(qKey);
+      if (raw.pattern) seenPattern.add(pKey);
+
+      const src = sourceByFile.get(raw.source_file);
+
+      out.push({
+        id: `${raw.function}-${slug(raw.guest)}-${out.length}`,
+        fn: raw.function,
+        group: groupMap.get(raw.function),
+        pattern: raw.pattern || null,
+        quote: raw.quote.trim(),
+        zh: raw.zh.trim(),
+        why: raw.why.trim(),
+        register: ["spoken-casual", "spoken-formal", "written"].includes(raw.register)
+          ? raw.register
+          : label === "writing"
+            ? "written"
+            : "spoken-casual",
+        difficulty: [1, 2, 3].includes(raw.difficulty) ? raw.difficulty : 2,
+        swaps: Array.isArray(raw.swaps) ? raw.swaps.filter(Boolean).slice(0, 4) : [],
+        pmNote: raw.pm_note && raw.pm_note !== "null" ? raw.pm_note : null,
+        guest: raw.guest.trim(),
+        timestamp: raw.timestamp || null,
+        // 導流回原始出處，這是授權的禮貌也是內容誠信。
+        // 集數標題一定有，連結不一定——沒有連結也不能沒有出處。
+        episode: src?.episode || null,
+        ...withTimestamp(src?.url || null, raw.timestamp),
+      });
+    }
+  }
+}
+
+ingest({
+  fileList: files,
+  validSet: validFunctions,
+  groupMap: groupOf,
+  out: cards,
+  label: "spoken",
+});
+
+const writingFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("writing-") && f.endsWith(".json"))
+  .sort();
+
+ingest({
+  fileList: writingFiles,
+  validSet: validWriting,
+  groupMap: writingGroupOf,
+  out: writingCards,
+  label: "writing",
+});
+
+writeFileSync(
+  join(ROOT, "data", "writing.json"),
+  JSON.stringify({ count: writingCards.length, cards: writingCards }, null, 2) + "\n",
+);
+
+if (writingFiles.length > 0) {
+  const covered = new Set(writingCards.map((c) => c.fn));
+  console.log(
+    `\n✓ 書面英文層：${writingCards.length} 張卡，涵蓋 ${covered.size}/${validWriting.size} 個功能`,
+  );
+  const missing = [...validWriting].filter((f) => !covered.has(f));
+  if (missing.length) console.log(`⚠ 還沒卡片的書面功能：${missing.join(", ")}`);
+} else {
+  console.log("\n⚠ 還沒有書面英文語料（data/raw/writing-*.json）");
+}
 
 // --- 統計 ---
 const byFn = new Map();

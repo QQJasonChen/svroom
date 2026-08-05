@@ -11,18 +11,40 @@ const newsreader = Newsreader({
   display: "swap",
 });
 
+const SITE =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://qqjasonchen.github.io/svroom";
+
+const DESCRIPTION =
+  "不是單字書。從矽谷產品經理與創辦人的真實對話裡，拆解「怎麼說服、怎麼反對、怎麼收尾會議」的英文說法，順便把 PM 知識一起學走。免費、無付費牆。";
+
 export const metadata: Metadata = {
-  title: "矽谷會議室 — 從真實對話學商業英文",
-  description:
-    "不是單字書。從矽谷產品經理與創辦人的真實對話裡，拆解「怎麼說服、怎麼反對、怎麼收尾會議」的英文說法，順便把 PM 知識一起學走。",
+  metadataBase: new URL(SITE),
+  title: {
+    default: "矽谷會議室 — 從真實對話學商業英文",
+    template: "%s",
+  },
+  description: DESCRIPTION,
+  openGraph: {
+    type: "website",
+    locale: "zh_TW",
+    siteName: "矽谷會議室",
+    title: "矽谷會議室 — 從真實對話學商業英文",
+    description: DESCRIPTION,
+    url: SITE,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "矽谷會議室 — 從真實對話學商業英文",
+    description: DESCRIPTION,
+  },
 };
 
 const nav = [
-  { href: "/", label: "語言功能" },
+  { href: "/", label: "開口說" },
+  { href: "/w/", label: "動筆寫" },
   { href: "/pm/", label: "PM 知識" },
-  { href: "/search/", label: "搜尋" },
   { href: "/practice/", label: "練習" },
-  { href: "/about/", label: "關於" },
+  { href: "/search/", label: "搜尋" },
 ];
 
 export default function RootLayout({
@@ -43,12 +65,12 @@ export default function RootLayout({
                 Boardroom English
               </span>
             </Link>
-            <nav className="flex items-center gap-5 text-[13px]">
+            <nav className="flex items-center gap-3.5 sm:gap-5 text-[12.5px] sm:text-[13px] overflow-x-auto">
               {nav.map((n) => (
                 <Link
                   key={n.href}
                   href={n.href}
-                  className="text-ink-2 hover:text-rust transition-colors"
+                  className="text-ink-2 hover:text-rust transition-colors whitespace-nowrap"
                 >
                   {n.label}
                 </Link>
@@ -73,7 +95,15 @@ export default function RootLayout({
               </a>
               ，版權屬 Lenny Rachitsky。本站為非商業的個人學習專案，僅引用極短句段作教學拆解之用，每張卡片均連回原集。
             </p>
-            <p>免費、不販售、無付費牆。想聽完整內容請直接支持原作者。</p>
+            <p>
+              免費、不販售、無付費牆。想聽完整內容請直接支持原作者。
+              <Link
+                href="/about/"
+                className="ml-2 text-ink-2 underline underline-offset-2 hover:text-rust"
+              >
+                關於這個站
+              </Link>
+            </p>
           </div>
         </footer>
       </body>

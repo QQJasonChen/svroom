@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { groups, stats, countFor, countForGroup } from "@/lib/cards";
 import { conceptStats } from "@/lib/concepts";
+import { scenarios, scenarioCardCount } from "@/lib/scenarios";
+import { writingStats } from "@/lib/writing";
 
 export default function Home() {
   return (
@@ -25,8 +27,9 @@ export default function Home() {
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-[13px]">
-            <Stat n={stats.cards} label="句型卡" />
-            <Stat n={stats.covered} label="語言功能" />
+            <Stat n={stats.cards + writingStats.cards} label="句型卡" />
+            <Stat n={stats.covered + writingStats.covered} label="語言功能" />
+            <Stat n={conceptStats.written} label="PM 概念" />
             <Stat n={stats.guests} label="位講者" />
             <Link
               href="/practice/"
@@ -38,8 +41,44 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 為什麼這樣設計 */}
+      {/* 情境入口：先解決「這麼多卡，我從哪開始」 */}
       <section className="border-b border-rule bg-paper-2/40">
+        <div className="mx-auto max-w-5xl px-5 py-12">
+          <h2 className="font-serif text-[1.7rem] tracking-tight">
+            你這週要開什麼會？
+          </h2>
+          <p className="mt-2 text-[14px] text-ink-2">
+            不用從頭讀到尾。挑一個你真的會遇到的處境，該學的都在裡面了。
+          </p>
+
+          <div className="mt-6 grid gap-px bg-rule border border-rule sm:grid-cols-2 lg:grid-cols-3">
+            {scenarios.map((s) => (
+              <Link
+                key={s.id}
+                href={`/s/${s.id}/`}
+                className={`px-4 py-4 transition-colors ${
+                  s.featured
+                    ? "bg-rust-soft hover:bg-rust hover:text-paper"
+                    : "bg-paper hover:bg-rust-soft"
+                }`}
+              >
+                <div className="flex items-baseline gap-2">
+                  <span className="text-[14.5px] font-medium">{s.zh}</span>
+                  <span className="ml-auto text-[11px] tabular-nums opacity-60">
+                    {scenarioCardCount(s)}
+                  </span>
+                </div>
+                <p className="mt-1.5 text-[12.5px] leading-relaxed opacity-75">
+                  {s.hook}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 為什麼這樣設計 */}
+      <section className="border-b border-rule">
         <div className="mx-auto max-w-5xl px-5 py-10 grid gap-7 sm:grid-cols-3">
           <Point
             title="不按主題分，按「你要做什麼」分"

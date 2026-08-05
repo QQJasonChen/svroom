@@ -1,0 +1,106 @@
+{
+  "schema_version": "1",
+  "note": "情境入口。使用者不會想「我要學語言功能」，他會想「我下週三要開那個會」。所以用真實處境當入口，把散在各層的語言功能、書面場景、PM 概念綁成一包。刻意不指定卡片 id（id 每次 build 會變），改用 function + 難度篩選，重建也不會壞。",
+  "scenarios": [
+    {
+      "id": "start",
+      "zh": "我完全不知道從哪開始",
+      "en": "Start here",
+      "featured": true,
+      "hook": "先學這幾種說法，下一場英文會議就用得到。",
+      "why": "不用從頭讀到尾。這裡挑的是「幾乎每場會都會用到」的幾個動作：聽不懂時怎麼澄清、想插話時怎麼切進去、不同意時怎麼開口、被問倒時怎麼接。四個動作學會，你在會議裡的存在感就不一樣了。",
+      "functions": ["clarifying", "interrupting", "polite-disagreement", "admitting-uncertainty"],
+      "writing": [],
+      "concepts": [],
+      "maxPerFunction": 4
+    },
+    {
+      "id": "roadmap",
+      "zh": "要開 roadmap／優先順序會議",
+      "en": "Roadmap & prioritization",
+      "hook": "解釋為什麼 A 排在 B 前面，而且擋得住「這個也很重要」。",
+      "why": "這種會的英文難點不在詞彙，在於你要一邊拒絕、一邊維持關係。矽谷的做法是把決定權丟回去、把代價講清楚，而不是說「這個有困難」。",
+      "functions": ["trade-offs", "saying-no", "making-the-case", "backing-with-evidence"],
+      "writing": ["w-recommendation", "w-options"],
+      "concepts": ["prioritization", "scope-control", "strategy-is-tradeoffs"],
+      "maxPerFunction": 5
+    },
+    {
+      "id": "new-idea",
+      "zh": "想提一個新想法",
+      "en": "Pitching an idea",
+      "hook": "把腦中的想法，變成別人願意排進 roadmap 的提案。",
+      "why": "第一次拋出想法時，講法決定了它是被討論還是被打槍。關鍵是先把問題框好，再處理必然會來的質疑。",
+      "functions": ["proposing-idea", "framing-problem", "making-the-case", "handling-objections", "persuasive-story"],
+      "writing": ["w-tldr", "w-problem-statement", "w-preempt"],
+      "concepts": ["problem-vs-solution", "opportunity-sizing", "making-bets"],
+      "maxPerFunction": 4
+    },
+    {
+      "id": "review",
+      "zh": "績效面談／要談升遷",
+      "en": "Performance review",
+      "hook": "把自己做的事講出來，不吹牛也不縮小。",
+      "why": "台灣職場預設「做出來就會被看見」，英語職場預設「沒說出來就等於沒發生」。這一包專門補這個落差。",
+      "functions": ["talking-impact", "asking-for-advice", "asking-for-resources"],
+      "writing": ["w-self-review", "w-negotiating"],
+      "concepts": ["getting-promoted", "scope-and-impact", "managing-up"],
+      "maxPerFunction": 6
+    },
+    {
+      "id": "eng",
+      "zh": "要跟工程喬範圍",
+      "en": "Scoping with engineering",
+      "hook": "砍範圍不砍品質，而且不讓對方覺得被壓。",
+      "why": "需求進來不擋、靠團隊硬吃，是台灣 PM 最常見的失血點。這一包教你怎麼把時間固定、把範疇變成可談的變數。",
+      "functions": ["saying-no", "trade-offs", "polite-disagreement", "clarifying"],
+      "writing": ["w-change", "w-delay"],
+      "concepts": ["scope-control", "working-with-eng", "mvp", "tech-debt"],
+      "maxPerFunction": 5
+    },
+    {
+      "id": "bad-news",
+      "zh": "要報壞消息或延期",
+      "en": "Delivering bad news",
+      "hook": "在被問之前先講，而且不推責也不自貶。",
+      "why": "報壞消息的能力比報好消息值錢十倍。台灣職場的訓練通常是「拖到不能拖再講」，那正好是最傷信任的做法。",
+      "functions": ["bad-news", "owning-mistakes", "changing-your-mind"],
+      "writing": ["w-delay", "w-failure", "w-status"],
+      "concepts": ["shipping-cadence", "stakeholder-management"],
+      "maxPerFunction": 6
+    },
+    {
+      "id": "feedback",
+      "zh": "第一次帶人／要給回饋",
+      "en": "Giving feedback",
+      "hook": "最難講的話，通常是關於人的話。",
+      "why": "英語職場把「不講直」當成不專業甚至不尊重。但直接不等於粗魯——差別在於你攻擊的是行為還是人。",
+      "functions": ["hard-feedback", "coaching-questions", "recognition", "managing-conflict"],
+      "writing": ["w-feedback", "w-recognition"],
+      "concepts": ["feedback-culture", "ic-to-manager"],
+      "maxPerFunction": 5
+    },
+    {
+      "id": "run-meeting",
+      "zh": "要主持一場英文會議",
+      "en": "Running a meeting",
+      "hook": "把發散的會議拉回正軌，最後收出一個結論。",
+      "why": "插不上話、聽不懂在收斂什麼、不知道怎麼結尾——這三件事是非母語者在英文會議最痛的地方，而且全都可以靠固定句型解決。",
+      "functions": ["running-meeting", "interrupting", "clarifying", "summarizing", "stakeholder-alignment"],
+      "writing": ["w-status", "w-context"],
+      "concepts": ["decision-rights", "disagree-and-commit", "stakeholder-management"],
+      "maxPerFunction": 5
+    },
+    {
+      "id": "interview",
+      "zh": "要用英文面試",
+      "en": "Job interview",
+      "hook": "講得出真正的失敗，也講得清楚自己做了什麼。",
+      "why": "英語面試最常見的紅旗是：講不出真正的失敗、功勞全歸「我們團隊」。這一包教你怎麼在誠實和自信之間站穩。",
+      "functions": ["interview-answers", "talking-impact", "admitting-uncertainty", "owning-mistakes"],
+      "writing": ["w-cold-outreach", "w-self-review"],
+      "concepts": ["hiring-pm", "scope-and-impact", "first-90-days"],
+      "maxPerFunction": 6
+    }
+  ]
+}
