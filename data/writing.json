@@ -1,5 +1,5 @@
 {
-  "count": 206,
+  "count": 201,
   "cards": [
     {
       "id": "w-recommendation-lenny-rachitsky-0",
@@ -366,29 +366,7 @@
       "seek": false
     },
     {
-      "id": "w-options-tara-seshan-17",
-      "fn": "w-options",
-      "group": "arguing",
-      "pattern": "If we decide to take this on now, what happens next quarter? Next year? What ongoing costs do we take on?",
-      "quote": "If we decide to take this thing on now, what happens next quarter? Next year? What ongoing costs do we take on?",
-      "zh": "如果我們現在接下這件事，下一季會怎樣？明年呢？我們會背上哪些持續性的成本？",
-      "why": "連續三個問句把時間軸拉長。問句不像斷言那樣顯得在指責，但逼對方自己算一次帳。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "What does this look like in [12 months]?",
-        "What ongoing costs are we signing up for?",
-        "What's the second-order effect of saying yes here?"
-      ],
-      "pmNote": "業務團隊常以一季為單位思考，產品團隊要把時間軸拉長——這是 PM 在取捨對話裡最容易創造的價值。",
-      "guest": "Tara Seshan",
-      "timestamp": null,
-      "episode": "How to communicate tradeoffs so leaders will listen",
-      "url": "https://www.lennysnewsletter.com/p/how-to-communicate-tradeoffs-so-leaders-will-listen",
-      "seek": false
-    },
-    {
-      "id": "w-options-laura-tacho-18",
+      "id": "w-options-laura-tacho-17",
       "fn": "w-options",
       "group": "arguing",
       "pattern": "We don't want to increase [A] at the expense of [B], or [C] while [D] takes a nosedive.",
@@ -410,7 +388,7 @@
       "seek": false
     },
     {
-      "id": "w-options-bobby-pinero-19",
+      "id": "w-options-bobby-pinero-18",
       "fn": "w-options",
       "group": "arguing",
       "pattern": "[New approach], a step between [extreme A] and [extreme B].",
@@ -432,7 +410,7 @@
       "seek": false
     },
     {
-      "id": "w-options-lenny-rachitsky-20",
+      "id": "w-options-lenny-rachitsky-19",
       "fn": "w-options",
       "group": "arguing",
       "pattern": null,
@@ -453,7 +431,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-21",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-20",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "The numbers are unambiguous: [stat one], and [stat two].",
@@ -475,7 +453,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-22",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-21",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "Only [X]% report [downside]. By almost any [domain] standard, these are strong numbers.",
@@ -497,7 +475,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-23",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-22",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "One more pattern worth noting: [finding] ([the number that cuts against you]).",
@@ -519,7 +497,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-24",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-23",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "The consistent pattern: [range] on [scope of work].",
@@ -541,7 +519,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-25",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-24",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "This tracks with our earlier finding that [related result].",
@@ -563,7 +541,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-26",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-25",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "But look farther down the list and a pattern emerges: [X], but [contrast].",
@@ -584,7 +562,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-27",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-26",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "Only [X]% [do it today], but nearly [Y] want it to be.",
@@ -605,7 +583,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-noam-segal-28",
+      "id": "w-evidence-lenny-rachitsky-noam-segal-27",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "Even the most skeptical group, [X], still shows [result].",
@@ -627,7 +605,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-29",
+      "id": "w-evidence-lenny-rachitsky-28",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "There are over [absolute number] [things]. This is [X]% above [the low point], and up [Y]% since [recent baseline].",
@@ -648,7 +626,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-30",
+      "id": "w-evidence-lenny-rachitsky-29",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "This covers [scope]. (It doesn't include [excluded scope].)",
@@ -670,7 +648,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-31",
+      "id": "w-evidence-lenny-rachitsky-30",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "The sample sizes are not huge. [Concrete explanation of how that could distort the result.]",
@@ -691,7 +669,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-lenny-rachitsky-32",
+      "id": "w-evidence-lenny-rachitsky-31",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "We can't 100% isolate [the variable]. It could be [A], or it could be [B].",
@@ -713,7 +691,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-olga-berezovsky-33",
+      "id": "w-evidence-olga-berezovsky-32",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "That said, it doesn't mean that [naive causal reading]. There is still work to do to prove that.",
@@ -734,7 +712,7 @@
       "seek": false
     },
     {
-      "id": "w-evidence-bobby-pinero-34",
+      "id": "w-evidence-bobby-pinero-33",
       "fn": "w-evidence",
       "group": "arguing",
       "pattern": "Yes, [surface metric improved]. But ultimately [the metric that matters got worse].",
@@ -755,7 +733,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-ken-rudin-35",
+      "id": "w-preempt-ken-rudin-34",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "You might be thinking, \"[the objection].\" That's true, but [why it doesn't change the conclusion].",
@@ -777,7 +755,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-lenny-rachitsky-36",
+      "id": "w-preempt-lenny-rachitsky-35",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "If you're skeptical that [X], [independent second piece of evidence].",
@@ -798,7 +776,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-patrick-campbell-37",
+      "id": "w-preempt-patrick-campbell-36",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "To be clear, I'm not saying [X]. I'm saying [Y].",
@@ -820,7 +798,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-bobby-pinero-38",
+      "id": "w-preempt-bobby-pinero-37",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "Ultimately, [X] didn't work for us. That doesn't mean it couldn't work for you.",
@@ -842,7 +820,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-lenny-rachitsky-39",
+      "id": "w-preempt-lenny-rachitsky-38",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "I bet [reader's likely current state]. None of this means you actually need to [the leap they might take].",
@@ -864,7 +842,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-molly-graham-40",
+      "id": "w-preempt-molly-graham-39",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "To be fair, [their view] isn't wrong; it's just incomplete.",
@@ -886,7 +864,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-tara-seshan-41",
+      "id": "w-preempt-tara-seshan-40",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": null,
@@ -908,7 +886,7 @@
       "seek": false
     },
     {
-      "id": "w-preempt-laura-tacho-42",
+      "id": "w-preempt-laura-tacho-41",
       "fn": "w-preempt",
       "group": "arguing",
       "pattern": "This is not [the narrow reading], but rather [the correct reading].",
@@ -930,7 +908,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-lenny-rachitsky-43",
+      "id": "w-hedging-lenny-rachitsky-42",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "I don't know exactly what's going on here, but it does feel [X]-related.",
@@ -952,7 +930,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-lenny-rachitsky-noam-segal-44",
+      "id": "w-hedging-lenny-rachitsky-noam-segal-43",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "[Claim], but a caveat: [X]. [What would invalidate it.]",
@@ -974,7 +952,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-lenny-rachitsky-45",
+      "id": "w-hedging-lenny-rachitsky-44",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "I don't have the data to prove it, but I suspect [X].",
@@ -996,7 +974,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-palle-broe-46",
+      "id": "w-hedging-palle-broe-45",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "This data is from [source], sourced from [method] and thus isn't complete but is directionally correct.",
@@ -1018,7 +996,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-wayne-vernon-47",
+      "id": "w-hedging-wayne-vernon-46",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "I've worked with [X], though never at [Y] scale, so take this with a grain of salt.",
@@ -1039,7 +1017,7 @@
       "seek": false
     },
     {
-      "id": "w-hedging-tal-raviv-48",
+      "id": "w-hedging-tal-raviv-47",
       "fn": "w-hedging",
       "group": "arguing",
       "pattern": "All that said, I'm not a [domain] expert. Consult [the right owner].",
@@ -1061,7 +1039,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-49",
+      "id": "w-request-natalie-rothfels-48",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'd like to ask for your help with something. Specifically, I need [type of help] with [specific task/problem]. This is important because [reason].",
@@ -1082,7 +1060,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-50",
+      "id": "w-request-natalie-rothfels-49",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'm asking you because [specific reason]. I'd need this by [date/time]. Is this something you're able to help with?",
@@ -1103,7 +1081,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-51",
+      "id": "w-request-natalie-rothfels-50",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Our current [workload/situation] is unsustainable, and I'm causing [bottleneck] that will impact our ability to hit our targets.",
@@ -1124,7 +1102,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-52",
+      "id": "w-request-natalie-rothfels-51",
       "fn": "w-request",
       "group": "asking",
       "pattern": "You do this all the time at [scope], so I'd really like to share my existing [draft/plan] and have you pressure-test it based on your experience.",
@@ -1145,7 +1123,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-53",
+      "id": "w-request-natalie-rothfels-52",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Looking for a brain buddy on this—I have [N] questions. Are you open to answering inline or finding [N] minutes to chat live by [deadline]?",
@@ -1166,7 +1144,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-54",
+      "id": "w-request-natalie-rothfels-53",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I don't want to make an avoidable error in how I'm thinking about [X].",
@@ -1187,28 +1165,7 @@
       "seek": false
     },
     {
-      "id": "w-request-natalie-rothfels-55",
-      "fn": "w-request",
-      "group": "asking",
-      "pattern": null,
-      "quote": "I'm glad you want me to own this. I want to say yes, but I don't feel confident I can deliver it and need some support from you.",
-      "zh": "很高興你想把這件事交給我。我想答應，但我沒把握能交出成果，需要你這邊的支援。",
-      "why": "「我想答應，但」——先接住對方的期待再提條件，保住的信任比直接說「做不到」多得多。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "I want to take this on, and here's what I'd need.",
-        "Happy to own it—with one condition."
-      ],
-      "pmNote": "接下新專案時同步談資源，是 PM 少數能談條件的時機窗口。",
-      "guest": "Natalie Rothfels",
-      "timestamp": null,
-      "episode": "On asking for help (even when you really don’t want to)",
-      "url": "https://www.lennysnewsletter.com/p/on-asking-for-help-even-when-you-really-dont-want-to",
-      "seek": false
-    },
-    {
-      "id": "w-request-natalie-rothfels-56",
+      "id": "w-request-natalie-rothfels-54",
       "fn": "w-request",
       "group": "asking",
       "pattern": "To do [existing goal] well and also take this on, I'd need us to either deprioritize [X] or staff up [Y] for success.",
@@ -1229,7 +1186,7 @@
       "seek": false
     },
     {
-      "id": "w-request-jules-walter-57",
+      "id": "w-request-jules-walter-55",
       "fn": "w-request",
       "group": "asking",
       "pattern": "This conversation is meant to be an informal chat. I'd like to better understand your world and get your advice as I'm looking to [explain my goals].",
@@ -1250,7 +1207,7 @@
       "seek": false
     },
     {
-      "id": "w-request-jules-walter-58",
+      "id": "w-request-jules-walter-56",
       "fn": "w-request",
       "group": "asking",
       "pattern": "I'm worried that [person X] might bring [argument Y]. Any chance you could chime in during the upcoming meeting or pre-brief [decision maker]?",
@@ -1271,7 +1228,7 @@
       "seek": false
     },
     {
-      "id": "w-request-sam-corcos-59",
+      "id": "w-request-sam-corcos-57",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Who are the two best [role]s you know? （取代 \"Do you know anyone who...\"）",
@@ -1292,7 +1249,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-60",
+      "id": "w-request-shivani-berry-58",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Do you have a minute? （取代 \"Sorry to bother you\"）",
@@ -1313,7 +1270,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-61",
+      "id": "w-request-shivani-berry-59",
       "fn": "w-request",
       "group": "asking",
       "pattern": "Can you help me understand [X]? （取代 \"Sorry, I didn't understand\"）",
@@ -1334,7 +1291,7 @@
       "seek": false
     },
     {
-      "id": "w-request-shivani-berry-62",
+      "id": "w-request-shivani-berry-60",
       "fn": "w-request",
       "group": "asking",
       "pattern": "刪掉 just / actually / quickly：\"I just wanted to ask...\" → \"I'm asking...\"",
@@ -1355,7 +1312,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-jacob-warwick-63",
+      "id": "w-followup-jacob-warwick-61",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "Thank you for our conversation about [specific challenge they mentioned]. I've been thinking about your approach to [topic], and I wanted to share an insight from my experience with [relevant situation].",
@@ -1376,7 +1333,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-jacob-warwick-64",
+      "id": "w-followup-jacob-warwick-62",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "I'll keep you informed as I [continue the process]. Are you open to [specific action] on [day and time]?",
@@ -1397,7 +1354,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-lenny-rachitsky-65",
+      "id": "w-followup-lenny-rachitsky-63",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "Ping me again in [a month / three months] and let's revisit.",
@@ -1418,7 +1375,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-ethan-evans-66",
+      "id": "w-followup-ethan-evans-64",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "I'll check back in [a week] or so—no need to answer right now.",
@@ -1439,7 +1396,7 @@
       "seek": false
     },
     {
-      "id": "w-followup-sam-corcos-67",
+      "id": "w-followup-sam-corcos-65",
       "fn": "w-followup",
       "group": "asking",
       "pattern": "After [the intro/help lands], send a note back to the person who connected you and tell them what came of it.",
@@ -1460,7 +1417,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-68",
+      "id": "w-decline-lenny-rachitsky-66",
       "fn": "w-decline",
       "group": "asking",
       "pattern": "I truly wish I had the time. Unfortunately, I've got too much on my plate right now and need to prioritize other things. Can I [smaller alternative] instead?",
@@ -1481,7 +1438,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-69",
+      "id": "w-decline-lenny-rachitsky-67",
       "fn": "w-decline",
       "group": "asking",
       "pattern": "Happy to help! Can we keep this to email to start? I'm trying to cut back on [calls], and I can often be even more helpful over email.",
@@ -1502,18 +1459,18 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-70",
+      "id": "w-decline-lenny-rachitsky-68",
       "fn": "w-decline",
       "group": "asking",
-      "pattern": "I have a blanket rule of no [category], which I have in place in order to protect [what matters]. I hope you understand.",
-      "quote": "I have a blanket rule of no talks, events, or podcasts, which I have in place in order to protect my writing/creative time. I hope you understand.",
-      "zh": "我有一條一律不接演講、活動、podcast 的規則，設這條規則是為了保護我的寫作時間。希望你能理解。",
-      "why": "講「規則」而不是「這次不行」，對方就無法討價還價，也不會覺得是針對他。再補上規則保護的東西，聽起來像原則不像藉口。",
+      "pattern": "I decline with gratitude. / I'll very kindly decline this offer.",
+      "quote": "\"I decline with gratitude\" or \"I'll very kindly decline this offer.\"",
+      "zh": "「我心懷感謝地婉拒」或「我會很客氣地謝絕這個提議」。",
+      "why": "decline 比 refuse、reject 溫和得多，加上 with gratitude / very kindly 就把「不」變成一個有禮貌的完整動作，不必再多解釋理由。",
       "register": "written",
-      "difficulty": 2,
+      "difficulty": 1,
       "swaps": [
-        "I have a policy of not taking on new projects until [date].",
-        "I don't say yes to anything on the spot—that's a rule for me."
+        "I'm going to respectfully decline.",
+        "I'll pass, with thanks."
       ],
       "pmNote": null,
       "guest": "Lenny Rachitsky",
@@ -1523,7 +1480,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-dharmesh-shah-71",
+      "id": "w-decline-dharmesh-shah-69",
       "fn": "w-decline",
       "group": "asking",
       "pattern": null,
@@ -1544,7 +1501,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-72",
+      "id": "w-decline-lenny-rachitsky-70",
       "fn": "w-decline",
       "group": "asking",
       "pattern": "I'm still totally on board, but I wanted to just check—how important and timely is [X] to your team? If it's not that big of a deal, I'd love to skip it or push it out.",
@@ -1565,7 +1522,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-73",
+      "id": "w-decline-lenny-rachitsky-71",
       "fn": "w-decline",
       "group": "asking",
       "pattern": "I noticed [our meeting] is coming up. Any chance we could skip it and knock it out over email async?",
@@ -1586,7 +1543,7 @@
       "seek": false
     },
     {
-      "id": "w-decline-lenny-rachitsky-74",
+      "id": "w-decline-lenny-rachitsky-72",
       "fn": "w-decline",
       "group": "asking",
       "pattern": "Bad news. I won't be able to make [X]. Something timely came up, and I need to prioritize it.",
@@ -1607,7 +1564,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-75",
+      "id": "w-negotiating-niya-dragova-73",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1628,7 +1585,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-76",
+      "id": "w-negotiating-niya-dragova-74",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "收到 \"give me your number and I'll make it happen\" 時，不要回數字。",
@@ -1649,7 +1606,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-niya-dragova-77",
+      "id": "w-negotiating-niya-dragova-75",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "I've received new information since we last spoke—[another offer / a counteroffer from my current team].",
@@ -1670,7 +1627,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-78",
+      "id": "w-negotiating-jacob-warwick-76",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1691,7 +1648,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-79",
+      "id": "w-negotiating-jacob-warwick-77",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "What's the chance that we could explore a slightly different structure for [the compensation package]?",
@@ -1712,7 +1669,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-80",
+      "id": "w-negotiating-jacob-warwick-78",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1733,7 +1690,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-81",
+      "id": "w-negotiating-jacob-warwick-79",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1754,7 +1711,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-82",
+      "id": "w-negotiating-jacob-warwick-80",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1775,7 +1732,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-83",
+      "id": "w-negotiating-jacob-warwick-81",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": null,
@@ -1796,7 +1753,7 @@
       "seek": false
     },
     {
-      "id": "w-negotiating-jacob-warwick-84",
+      "id": "w-negotiating-jacob-warwick-82",
       "fn": "w-negotiating",
       "group": "asking",
       "pattern": "I'm making a significant career decision and want to be thoughtful. I have a few conversations in progress. I expect to be ready to make a decision by [specific date].",
@@ -1817,7 +1774,7 @@
       "seek": false
     },
     {
-      "id": "w-cold-outreach-sam-corcos-85",
+      "id": "w-cold-outreach-sam-corcos-83",
       "fn": "w-cold-outreach",
       "group": "asking",
       "pattern": "冷請求三原則：targeted（只寄給真的相關的人）／time-bounded（一分鐘內可完成）／specific（範圍寫死）。",
@@ -1838,7 +1795,7 @@
       "seek": false
     },
     {
-      "id": "w-cold-outreach-sam-corcos-86",
+      "id": "w-cold-outreach-sam-corcos-84",
       "fn": "w-cold-outreach",
       "group": "asking",
       "pattern": "In general, people like being helpful. By not asking for things, you're denying other people that joy.",
@@ -1859,7 +1816,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-molly-graham-87",
+      "id": "w-tldr-molly-graham-85",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this post, I'll walk through [X] and show you how to use it as [用途] when [情境].",
@@ -1880,7 +1837,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-molly-graham-88",
+      "id": "w-tldr-molly-graham-86",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "By the end, you should be better equipped to [能力1], [能力2], and [能力3] instead of [常見的錯誤做法].",
@@ -1901,7 +1858,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-lenny-rachitsky-89",
+      "id": "w-tldr-lenny-rachitsky-87",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "By the time you finish reading this [文件], you'll understand [A], [B], and [C]—with [附加物] and [附加物].",
@@ -1922,7 +1879,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-caitlin-sullivan-90",
+      "id": "w-tldr-caitlin-sullivan-88",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this [文件], I'll show you how to [目標]. You'll learn about [N] [問題類型] that silently break [你在乎的東西].",
@@ -1943,7 +1900,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-lenny-rachitsky-91",
+      "id": "w-tldr-lenny-rachitsky-89",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "Below, I'll unpack each of these steps, but to give you a glimpse of where we'll end up, here are [具體產出].",
@@ -1964,7 +1921,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-lenny-rachitsky-92",
+      "id": "w-tldr-lenny-rachitsky-90",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "Below, you'll find what I believe is the most [形容詞1], [形容詞2], and [形容詞3] [產出] for [用途].",
@@ -1985,7 +1942,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-barbara-minto-quoted-by-lenny-rachitsky-93",
+      "id": "w-tldr-barbara-minto-quoted-by-lenny-rachitsky-91",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": null,
@@ -2006,7 +1963,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-lenny-rachitsky-94",
+      "id": "w-tldr-lenny-rachitsky-92",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "Below, I'll share a [N]-step process for [目標], with real-life examples from [樣本].",
@@ -2027,7 +1984,7 @@
       "seek": false
     },
     {
-      "id": "w-tldr-colin-matthews-95",
+      "id": "w-tldr-colin-matthews-93",
       "fn": "w-tldr",
       "group": "framing",
       "pattern": "In this [文件], I'll walk you through [產出1]; [產出2]; and [產出3].",
@@ -2048,7 +2005,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-96",
+      "id": "w-problem-statement-lenny-rachitsky-94",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Though many factors contribute to [壞結果], nothing is more certain to cause [壞結果] than [根本原因].",
@@ -2069,7 +2026,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-97",
+      "id": "w-problem-statement-lenny-rachitsky-95",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "We recognized too late that the real problem we should have been solving was not [表面問題], but instead [真問題].",
@@ -2090,7 +2047,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-98",
+      "id": "w-problem-statement-lenny-rachitsky-96",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "The more you need to explain it, the less clear [X] ends up being.",
@@ -2111,7 +2068,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-99",
+      "id": "w-problem-statement-lenny-rachitsky-97",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": null,
@@ -2132,7 +2089,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-100",
+      "id": "w-problem-statement-lenny-rachitsky-98",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "[使用者族群] are [做出某行為] too often because [原因].",
@@ -2153,7 +2110,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-101",
+      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-99",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "The problem isn't that [表面診斷]; it's that [真正診斷].",
@@ -2174,7 +2131,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-102",
+      "id": "w-problem-statement-hamza-farooq-jaya-rajwani-100",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Before you can decide [大決定], you need to answer a more basic question: [更基本的問題]?",
@@ -2195,7 +2152,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-molly-graham-103",
+      "id": "w-problem-statement-molly-graham-101",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "[歸咎人] for problems that are actually [結構性的] is one of the biggest [領域] traps there is.",
@@ -2216,7 +2173,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-molly-graham-104",
+      "id": "w-problem-statement-molly-graham-102",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "[X] (or so you think), [Y] (or so they say), yet [症狀1], [症狀2], and [症狀3].",
@@ -2237,7 +2194,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-caitlin-sullivan-105",
+      "id": "w-problem-statement-caitlin-sullivan-103",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "These mistakes are invisible until [後果 A], or [後果 B].",
@@ -2258,7 +2215,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-evan-hamilton-tyler-swartz-106",
+      "id": "w-problem-statement-evan-hamilton-tyler-swartz-104",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Here's the problem: if you [做了 X] and then don't [做 Y], you're actually [更糟的結果] than if you had never [做 X] at all.",
@@ -2279,7 +2236,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-lenny-rachitsky-nels-gilbreth-107",
+      "id": "w-problem-statement-lenny-rachitsky-nels-gilbreth-105",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "We realized that the root cause of nearly all [問題類別] is very simple: [根本原因].",
@@ -2300,7 +2257,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-chandra-janakiraman-108",
+      "id": "w-problem-statement-chandra-janakiraman-106",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "We had established [A], [B], and [C], but [對象] were still confused about why [D].",
@@ -2321,7 +2278,7 @@
       "seek": false
     },
     {
-      "id": "w-problem-statement-aman-khan-109",
+      "id": "w-problem-statement-aman-khan-107",
       "fn": "w-problem-statement",
       "group": "framing",
       "pattern": "Every [角色] obsesses over [顯眼的東西], yet almost no one masters [真正的槓桿]: [X].",
@@ -2342,7 +2299,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-justin-mares-110",
+      "id": "w-goals-nongoals-justin-mares-108",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "In this [文件], I won't cover [排除的東西], though they're [承認其重要性]. Instead, I want to cover [真正的範圍].",
@@ -2363,7 +2320,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-hila-qu-111",
+      "id": "w-goals-nongoals-hila-qu-109",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "Below, I will focus on [A], [B], and [C]. The fourth, [D], is an equally valid focus area, but not one I'd suggest starting with, due to [理由].",
@@ -2384,7 +2341,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-chandra-janakiraman-112",
+      "id": "w-goals-nongoals-chandra-janakiraman-110",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": null,
@@ -2405,7 +2362,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-chandra-janakiraman-113",
+      "id": "w-goals-nongoals-chandra-janakiraman-111",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "[X] exists to force a disciplined choice to deploy scarce resources for maximum impact.",
@@ -2426,7 +2383,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-114",
+      "id": "w-goals-nongoals-lenny-rachitsky-112",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "They super-specifically define what success looks like when [X] ships, at first to [用途1], and later to [用途2].",
@@ -2447,7 +2404,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-115",
+      "id": "w-goals-nongoals-lenny-rachitsky-113",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "There's a clear (proposed) timeline by which to [動作1], [動作2], and [動作3], to keep the project moving forward (and from exploding in scope).",
@@ -2468,7 +2425,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-116",
+      "id": "w-goals-nongoals-lenny-rachitsky-114",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": null,
@@ -2489,7 +2446,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-117",
+      "id": "w-goals-nongoals-lenny-rachitsky-115",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "If you don't think a metric makes sense for [目標], write out what concretely the world would look like if this was a big success. Make that the success criteria.",
@@ -2510,7 +2467,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-118",
+      "id": "w-goals-nongoals-lenny-rachitsky-116",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "Try hard to make it a concrete number, e.g., [X]% increase in [A], [Y]% decrease in [B], [Z]% adoption of [C] within [時間].",
@@ -2531,7 +2488,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-119",
+      "id": "w-goals-nongoals-lenny-rachitsky-117",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "[X] is obviously beyond the scope of this [文件].",
@@ -2552,7 +2509,7 @@
       "seek": false
     },
     {
-      "id": "w-goals-nongoals-lenny-rachitsky-120",
+      "id": "w-goals-nongoals-lenny-rachitsky-118",
       "fn": "w-goals-nongoals",
       "group": "framing",
       "pattern": "This alone is a deep topic that deserves its own [文件], but a simple heuristic you can use here is [簡化版].",
@@ -2573,7 +2530,7 @@
       "seek": false
     },
     {
-      "id": "w-context-lenny-rachitsky-121",
+      "id": "w-context-lenny-rachitsky-119",
       "fn": "w-context",
       "group": "framing",
       "pattern": null,
@@ -2594,7 +2551,7 @@
       "seek": false
     },
     {
-      "id": "w-context-lenny-rachitsky-122",
+      "id": "w-context-lenny-rachitsky-120",
       "fn": "w-context",
       "group": "framing",
       "pattern": "In [先前的文件], [誰] and I shared [做過的事]. But we didn't get very concrete about [缺口]. So I thought I'd do a follow-up on this.",
@@ -2615,7 +2572,7 @@
       "seek": false
     },
     {
-      "id": "w-context-lenny-rachitsky-123",
+      "id": "w-context-lenny-rachitsky-121",
       "fn": "w-context",
       "group": "framing",
       "pattern": "It's particularly hard to [做某事], in part because [次要原因], but mostly because [主要原因].",
@@ -2636,7 +2593,7 @@
       "seek": false
     },
     {
-      "id": "w-context-chandra-janakiraman-124",
+      "id": "w-context-chandra-janakiraman-122",
       "fn": "w-context",
       "group": "framing",
       "pattern": "Over the past [N] years, I've used [X] in [N] different high-stake contexts, at companies large and small.",
@@ -2657,7 +2614,7 @@
       "seek": false
     },
     {
-      "id": "w-context-aman-khan-125",
+      "id": "w-context-aman-khan-123",
       "fn": "w-context",
       "group": "framing",
       "pattern": "After years of [做某事], I've noticed something surprising: [觀察].",
@@ -2678,7 +2635,7 @@
       "seek": false
     },
     {
-      "id": "w-context-caitlin-sullivan-126",
+      "id": "w-context-caitlin-sullivan-124",
       "fn": "w-context",
       "group": "framing",
       "pattern": "Everyone's [做某事]. But everyone's also getting [壞結果]: [具體症狀1], [症狀2], and [症狀3].",
@@ -2699,7 +2656,7 @@
       "seek": false
     },
     {
-      "id": "w-context-tal-raviv-aman-khan-127",
+      "id": "w-context-tal-raviv-aman-khan-125",
       "fn": "w-context",
       "group": "framing",
       "pattern": "We've both been there, over and over again, while [具體經歷].",
@@ -2720,7 +2677,7 @@
       "seek": false
     },
     {
-      "id": "w-context-michael-manapat-128",
+      "id": "w-context-michael-manapat-126",
       "fn": "w-context",
       "group": "framing",
       "pattern": "(To be clear, [避免誤讀的澄清].)",
@@ -2741,7 +2698,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-129",
+      "id": "w-self-review-lenny-rachitsky-127",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "Write \"[Hit/Shipped/Cut] [具體標的] [量化條件]\", not \"[Held/Attended/Went to] [活動]\".",
@@ -2762,7 +2719,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-130",
+      "id": "w-self-review-lenny-rachitsky-128",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "I led [專案], which spanned [跨部門範圍], reported up to [層級], and became [對公司策略的意義].",
@@ -2783,7 +2740,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-131",
+      "id": "w-self-review-lenny-rachitsky-129",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "As [公司指標] scaled from [A] to [B], I led [團隊/工作] tackling everything from [X], to [Y], to [Z].",
@@ -2804,7 +2761,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jules-walter-132",
+      "id": "w-self-review-jules-walter-130",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "I realized that [A] performed worse than [B], resulting in [把落差換算成使用者或營收的量體].",
@@ -2825,7 +2782,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jules-walter-133",
+      "id": "w-self-review-jules-walter-131",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "So I identified [機會] and shipped [動作] that increased [指標].",
@@ -2846,7 +2803,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jiaona-zhang-134",
+      "id": "w-self-review-jiaona-zhang-132",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "To solve for [問題], I introduced [做法], which [對人或流程的效果].",
@@ -2867,7 +2824,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jiaona-zhang-135",
+      "id": "w-self-review-jiaona-zhang-133",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "At [公司], I [果斷動詞] [N%] of [東西] to [目的] and consolidated around [留下來的少數幾件事].",
@@ -2888,7 +2845,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jules-walter-136",
+      "id": "w-self-review-jules-walter-134",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "Later, at [公司], I [動詞] across teams to overhaul [範圍], enabling it to [新的能力].",
@@ -2909,7 +2866,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jules-walter-137",
+      "id": "w-self-review-jules-walter-135",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "To do that, I spearheaded a [有爭議的/高風險的] project to experiment with [新做法].",
@@ -2930,7 +2887,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jules-walter-138",
+      "id": "w-self-review-jules-walter-136",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "I framed [提案] around [對方在乎的角度] rather than emphasizing [我方的目標].",
@@ -2951,7 +2908,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-ethan-evans-139",
+      "id": "w-self-review-ethan-evans-137",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "At [公司], my responsibilities grew from [起點] to [終點]. Along the way, I helped create [成果], including [列舉].",
@@ -2972,7 +2929,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-brian-ta-140",
+      "id": "w-self-review-brian-ta-138",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "In aggregate, [一系列小動作] led to a [X%] increase in [指標] at [公司].",
@@ -2993,7 +2950,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-noam-segal-141",
+      "id": "w-self-review-noam-segal-139",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "The [最好的 X] I [led/built] actually had more [反直覺特徵], not less. We’d [做法], and it made [結果].",
@@ -3014,7 +2971,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-tamara-hinckley-142",
+      "id": "w-self-review-tamara-hinckley-140",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "...that includes the outcomes you drove and the impact on [公司/團隊目標].",
@@ -3035,7 +2992,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-ethan-evans-143",
+      "id": "w-self-review-ethan-evans-141",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "I noticed [問題]. I went ahead and fixed that by [動名詞].",
@@ -3056,7 +3013,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-tara-jaye-frank-144",
+      "id": "w-self-review-tara-jaye-frank-142",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "[X] don’t get [結果] for [做好本分]. They get [結果] by demonstrating [更大的潛力].",
@@ -3077,7 +3034,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-145",
+      "id": "w-self-review-lenny-rachitsky-143",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "Development areas include [名詞化能力 1], [動名詞 2], and more [形容詞] [名詞 3].",
@@ -3098,7 +3055,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-146",
+      "id": "w-self-review-lenny-rachitsky-144",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "A simple story arc: [起點對照] → [本期表現] → [下一步的重點].",
@@ -3119,7 +3076,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-147",
+      "id": "w-self-review-lenny-rachitsky-145",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "This ended up [負面後果] (as it should have), and it taught me [教訓].",
@@ -3140,7 +3097,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-148",
+      "id": "w-self-review-lenny-rachitsky-146",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "a list of times you’ve made an impact at [X] — include metrics, screenshots, timelines, stories.",
@@ -3161,7 +3118,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-jackie-bavaro-149",
+      "id": "w-self-review-jackie-bavaro-147",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "When you’re working independently, [誰] won’t see [你做對的事] and [你克服的困難].",
@@ -3182,7 +3139,7 @@
       "seek": false
     },
     {
-      "id": "w-self-review-lenny-rachitsky-150",
+      "id": "w-self-review-lenny-rachitsky-148",
       "fn": "w-self-review",
       "group": "self",
       "pattern": "a simple weekly \"[名稱]\" email to your boss with (1) [目前優先序], (2) [心上的事], (3) [需要幫忙的卡點].",
@@ -3203,7 +3160,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-151",
+      "id": "w-feedback-jack-cohen-149",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "I want us to [共同目標] so we can [好處]. [具體場合], you [具體行為], which I [我自己的疏失].",
@@ -3224,7 +3181,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-152",
+      "id": "w-feedback-jack-cohen-150",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "[缺了什麼] led to [可觀察的後果] instead of [原本該發生的事]. Can you [具體請求] next time?",
@@ -3245,7 +3202,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-153",
+      "id": "w-feedback-jack-cohen-151",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "[可量測的行為] averaged [數字] last [期間].",
@@ -3266,7 +3223,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-154",
+      "id": "w-feedback-jack-cohen-152",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "Right now, I can see you [具體行為清單], and I can only imagine how [對方的感受] that must be.",
@@ -3287,7 +3244,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-155",
+      "id": "w-feedback-jack-cohen-153",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "I imagine that you [對方的動機猜測] because [他自己的理由].",
@@ -3308,7 +3265,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-156",
+      "id": "w-feedback-jack-cohen-154",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "I think there might be another approach here that could [對他的好處] and, at the same time, [對團隊的好處].",
@@ -3329,7 +3286,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-157",
+      "id": "w-feedback-jack-cohen-155",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "The interesting thing is, though, I know you [正面事實]—[你的證據]—but you still sometimes [行為].",
@@ -3350,7 +3307,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-158",
+      "id": "w-feedback-jack-cohen-156",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "So moving forward, I’ll [我的動作], you’ll [你的動作], and I’ll [我的第三個動作].",
@@ -3371,7 +3328,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-159",
+      "id": "w-feedback-jack-cohen-157",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "When you [行為], it [對流程的後果]. Can you [動作] and let me know if there are any blockers?",
@@ -3392,7 +3349,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-jack-cohen-160",
+      "id": "w-feedback-jack-cohen-158",
       "fn": "w-feedback",
       "group": "self",
       "pattern": null,
@@ -3413,7 +3370,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-lenny-rachitsky-161",
+      "id": "w-feedback-lenny-rachitsky-159",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "What are 2-3 things [X] should [start / continue / stop] doing? Why?",
@@ -3434,7 +3391,7 @@
       "seek": false
     },
     {
-      "id": "w-feedback-ethan-evans-162",
+      "id": "w-feedback-ethan-evans-160",
       "fn": "w-feedback",
       "group": "self",
       "pattern": "He told me he could see that I was [好意圖], but that I was [具體行為] so much that [對別人的具體後果].",
@@ -3455,7 +3412,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-tamara-hinckley-163",
+      "id": "w-endorsement-tamara-hinckley-161",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "a personalized document with the projects we worked on together, the impact [I] drove, and the type of feedback you’re looking for",
@@ -3476,7 +3433,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-tamara-hinckley-164",
+      "id": "w-endorsement-tamara-hinckley-162",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "How can I help you make the case on my behalf?",
@@ -3497,7 +3454,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-lenny-rachitsky-165",
+      "id": "w-endorsement-lenny-rachitsky-163",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "The most underappreciated ingredient in [X] is to have someone with influence fight for you in [場合].",
@@ -3518,7 +3475,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-lenny-rachitsky-166",
+      "id": "w-endorsement-lenny-rachitsky-164",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "He led [量化規模], holds [量化成果], and helped [具名的組織資產].",
@@ -3539,7 +3496,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-lenny-rachitsky-167",
+      "id": "w-endorsement-lenny-rachitsky-165",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "the only info I really need are [X], your vouch, and [Y]",
@@ -3560,7 +3517,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-lenny-rachitsky-168",
+      "id": "w-endorsement-lenny-rachitsky-166",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "He’s especially talented at [具體能力]. We’re super-lucky to have [他] share [什麼] with us.",
@@ -3581,7 +3538,7 @@
       "seek": false
     },
     {
-      "id": "w-endorsement-jackie-bavaro-169",
+      "id": "w-endorsement-jackie-bavaro-167",
       "fn": "w-endorsement",
       "group": "self",
       "pattern": "Given [模糊的處境], they can [能力] (and drive the work through to [結果]).",
@@ -3602,7 +3559,7 @@
       "seek": false
     },
     {
-      "id": "w-recognition-jorge-mazal-170",
+      "id": "w-recognition-jorge-mazal-168",
       "fn": "w-recognition",
       "group": "self",
       "pattern": "Shoutout to [人名] ([職稱]), who [具體貢獻] for [期間].",
@@ -3623,7 +3580,7 @@
       "seek": false
     },
     {
-      "id": "w-recognition-lenny-rachitsky-171",
+      "id": "w-recognition-lenny-rachitsky-169",
       "fn": "w-recognition",
       "group": "self",
       "pattern": "Credit to [人名] for [動詞 1]、[動詞 2] and [動詞 3] [產出].",
@@ -3644,7 +3601,7 @@
       "seek": false
     },
     {
-      "id": "w-recognition-claire-vo-172",
+      "id": "w-recognition-claire-vo-170",
       "fn": "w-recognition",
       "group": "self",
       "pattern": null,
@@ -3665,7 +3622,7 @@
       "seek": false
     },
     {
-      "id": "w-recognition-lenny-rachitsky-173",
+      "id": "w-recognition-lenny-rachitsky-171",
       "fn": "w-recognition",
       "group": "self",
       "pattern": "Special thanks to [群體] who [貢獻]. Your [貢獻] will help us [結果].",
@@ -3686,7 +3643,7 @@
       "seek": false
     },
     {
-      "id": "w-status-lenny-rachitsky-174",
+      "id": "w-status-lenny-rachitsky-172",
       "fn": "w-status",
       "group": "updates",
       "pattern": "Regularly share what you're doing, what you plan to do, and what you've done with [對象].",
@@ -3707,7 +3664,7 @@
       "seek": false
     },
     {
-      "id": "w-status-lenny-rachitsky-175",
+      "id": "w-status-lenny-rachitsky-173",
       "fn": "w-status",
       "group": "updates",
       "pattern": "You can also highlight material changes to [X] from the prior [週期] to make it even easier for [對象].",
@@ -3728,7 +3685,7 @@
       "seek": false
     },
     {
-      "id": "w-status-jackie-bavaro-176",
+      "id": "w-status-jackie-bavaro-174",
       "fn": "w-status",
       "group": "updates",
       "pattern": "Hi [對象], let me tell you about a challenge I ran into ___. Here's how I'm thinking of handling it (or did handle it) ___. Any thoughts?",
@@ -3749,7 +3706,7 @@
       "seek": false
     },
     {
-      "id": "w-status-lenny-rachitsky-177",
+      "id": "w-status-lenny-rachitsky-175",
       "fn": "w-status",
       "group": "updates",
       "pattern": "As you know, we've generally had a good handle on [X].",
@@ -3770,28 +3727,7 @@
       "seek": false
     },
     {
-      "id": "w-status-lenny-rachitsky-178",
-      "fn": "w-status",
-      "group": "updates",
-      "pattern": "Recently however, we've seen a large spike in [X], and it's beginning to significantly impact [Y].",
-      "quote": "Recently however, we’ve seen a large spike in bugs, and it’s beginning to significantly impact our bottom-line.",
-      "zh": "但最近我們看到 bug 數量大幅飆升，而且已經開始明顯影響到我們的獲利。",
-      "why": "SCR 的 Complication 句：however 一個字就把讀者從「還好」切到「有事」。is beginning to 是刻意的——把壞消息定位在「剛開始，還來得及」，而不是「已經完蛋」。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Over the last three weeks, however, [X] has doubled and it's starting to affect [Y].",
-        "That's changed: [X] is now trending in the wrong direction."
-      ],
-      "pmNote": "壞消息要放在「還能行動」的時間點寫出來，這決定對方是給資源還是給檢討。",
-      "guest": "Lenny Rachitsky",
-      "timestamp": null,
-      "episode": "The Minto Pyramid Principle and the SCR Framework",
-      "url": "https://www.lennysnewsletter.com/p/the-minto-pyramid-principle-and-the-scr-framework",
-      "seek": false
-    },
-    {
-      "id": "w-status-hiten-shah-179",
+      "id": "w-status-hiten-shah-176",
       "fn": "w-status",
       "group": "updates",
       "pattern": "Whenever you're on a call, make sure that anything that's important gets written down: [討論過的選項], [做成的決定], [下一步], plus who is going to do them.",
@@ -3812,7 +3748,7 @@
       "seek": false
     },
     {
-      "id": "w-status-shivani-berry-180",
+      "id": "w-status-shivani-berry-177",
       "fn": "w-status",
       "group": "updates",
       "pattern": "As you are [進行中的工作], get used to sharing updates along the way.",
@@ -3833,28 +3769,7 @@
       "seek": false
     },
     {
-      "id": "w-status-shivani-berry-181",
-      "fn": "w-status",
-      "group": "updates",
-      "pattern": null,
-      "quote": "Stakeholders will feel valued. You’ll stop hearing “I wish you’d looped us in earlier.”",
-      "zh": "利害關係人會覺得自己被重視，你也不會再聽到「早知道就早點讓我們知道」這句話。",
-      "why": "loop someone in 是英文職場最常用的「把某人納入資訊圈」動詞片語，比 inform 溫和且不帶上下關係。這句同時也是你會被抱怨的原句，值得整句記住。",
-      "register": "written",
-      "difficulty": 2,
-      "swaps": [
-        "Looping in [Name] since this touches their area.",
-        "Adding [Name] to the thread for visibility."
-      ],
-      "pmNote": "「太晚才被告知」是跨部門衝突最常見的起火點，而且它跟決定本身無關。",
-      "guest": "Shivani Berry",
-      "timestamp": null,
-      "episode": "Getting buy-in",
-      "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
-      "seek": false
-    },
-    {
-      "id": "w-delay-lenny-rachitsky-182",
+      "id": "w-delay-lenny-rachitsky-178",
       "fn": "w-delay",
       "group": "updates",
       "pattern": null,
@@ -3875,7 +3790,7 @@
       "seek": false
     },
     {
-      "id": "w-delay-lenny-rachitsky-183",
+      "id": "w-delay-lenny-rachitsky-179",
       "fn": "w-delay",
       "group": "updates",
       "pattern": null,
@@ -3896,7 +3811,7 @@
       "seek": false
     },
     {
-      "id": "w-delay-lenny-rachitsky-184",
+      "id": "w-delay-lenny-rachitsky-180",
       "fn": "w-delay",
       "group": "updates",
       "pattern": null,
@@ -3917,7 +3832,7 @@
       "seek": false
     },
     {
-      "id": "w-delay-lenny-rachitsky-185",
+      "id": "w-delay-lenny-rachitsky-181",
       "fn": "w-delay",
       "group": "updates",
       "pattern": null,
@@ -3938,7 +3853,7 @@
       "seek": false
     },
     {
-      "id": "w-delay-lenny-rachitsky-186",
+      "id": "w-delay-lenny-rachitsky-182",
       "fn": "w-delay",
       "group": "updates",
       "pattern": "Identifies issues that will keep [產品] from delivering on time, communicates to leadership, assesses the alternatives to resolve (\"path to green\"), and builds a plan for resolution.",
@@ -3959,7 +3874,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-187",
+      "id": "w-failure-lenny-rachitsky-183",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -3980,7 +3895,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-188",
+      "id": "w-failure-lenny-rachitsky-184",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4001,7 +3916,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-189",
+      "id": "w-failure-lenny-rachitsky-185",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4022,7 +3937,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-190",
+      "id": "w-failure-lenny-rachitsky-186",
       "fn": "w-failure",
       "group": "updates",
       "pattern": "Make sure [外部關係人] hear the bad news from you first.",
@@ -4043,7 +3958,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-191",
+      "id": "w-failure-lenny-rachitsky-187",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4064,7 +3979,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-192",
+      "id": "w-failure-lenny-rachitsky-188",
       "fn": "w-failure",
       "group": "updates",
       "pattern": "When sharing the results for the first time, remind [高層] why they decided to give this a shot in the first place.",
@@ -4085,7 +4000,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-193",
+      "id": "w-failure-lenny-rachitsky-189",
       "fn": "w-failure",
       "group": "updates",
       "pattern": "Put together a brief doc that includes [背景], [當初的假設], and [正面的質性回饋]. Only then get into the results.",
@@ -4106,7 +4021,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-194",
+      "id": "w-failure-lenny-rachitsky-190",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4127,7 +4042,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-195",
+      "id": "w-failure-lenny-rachitsky-191",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4148,7 +4063,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-lenny-rachitsky-196",
+      "id": "w-failure-lenny-rachitsky-192",
       "fn": "w-failure",
       "group": "updates",
       "pattern": null,
@@ -4169,28 +4084,7 @@
       "seek": false
     },
     {
-      "id": "w-failure-shivani-berry-197",
-      "fn": "w-failure",
-      "group": "updates",
-      "pattern": null,
-      "quote": "Instead of: “Sorry, I messed up” Say: “I’ll fix that now”",
-      "zh": "不要說「抱歉，是我搞砸了」，改說「我現在就修好」。",
-      "why": "同樣是承認出錯，前者把讀者的注意力留在你的失誤上，後者移到解決上。這對習慣先道歉三行的台灣寫信者是最直接的一刀。",
-      "register": "written",
-      "difficulty": 1,
-      "swaps": [
-        "On it—fix going out this afternoon.",
-        "Caught it. Correcting now, will confirm when it's live."
-      ],
-      "pmNote": "在英文書面溝通裡，不必要的 sorry 會被讀成缺乏掌控感，而不是有禮貌。",
-      "guest": "Shivani Berry",
-      "timestamp": null,
-      "episode": "Getting buy-in",
-      "url": "https://www.lennysnewsletter.com/p/getting-buy-in",
-      "seek": false
-    },
-    {
-      "id": "w-change-lenny-rachitsky-198",
+      "id": "w-change-lenny-rachitsky-193",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,
@@ -4211,7 +4105,7 @@
       "seek": false
     },
     {
-      "id": "w-change-lenny-rachitsky-199",
+      "id": "w-change-lenny-rachitsky-194",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,
@@ -4232,7 +4126,7 @@
       "seek": false
     },
     {
-      "id": "w-change-lenny-rachitsky-200",
+      "id": "w-change-lenny-rachitsky-195",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,
@@ -4253,7 +4147,7 @@
       "seek": false
     },
     {
-      "id": "w-change-jeff-bezos-201",
+      "id": "w-change-jeff-bezos-196",
       "fn": "w-change",
       "group": "updates",
       "pattern": "I disagree and commit and hope it becomes [最好的結果].",
@@ -4274,7 +4168,7 @@
       "seek": false
     },
     {
-      "id": "w-change-lenny-rachitsky-202",
+      "id": "w-change-lenny-rachitsky-197",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,
@@ -4295,7 +4189,7 @@
       "seek": false
     },
     {
-      "id": "w-change-lenny-rachitsky-203",
+      "id": "w-change-lenny-rachitsky-198",
       "fn": "w-change",
       "group": "updates",
       "pattern": "Simply communicate to [對象] that you plan to [做法], and ask them to let you know by [日期] if they disagree.",
@@ -4316,7 +4210,7 @@
       "seek": false
     },
     {
-      "id": "w-change-lenny-rachitsky-204",
+      "id": "w-change-lenny-rachitsky-199",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,
@@ -4337,7 +4231,7 @@
       "seek": false
     },
     {
-      "id": "w-change-jackie-bavaro-205",
+      "id": "w-change-jackie-bavaro-200",
       "fn": "w-change",
       "group": "updates",
       "pattern": null,

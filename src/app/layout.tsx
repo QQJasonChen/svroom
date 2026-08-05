@@ -39,11 +39,11 @@ export const metadata: Metadata = {
   },
 };
 
+// 導覽只放「每天真的會點」的四個。其餘（總論／開口說／動筆寫／
+// PM 知識／講 vs 寫／情境）都從首頁進——首頁本身就是那張地圖。
 const nav = [
-  { href: "/strategy/", label: "總論" },
-  { href: "/speak/", label: "開口說" },
-  { href: "/w/", label: "動筆寫" },
-  { href: "/pm/", label: "PM 知識" },
+  { href: "/today/", label: "今天的 5 句" },
+  { href: "/trap/", label: "中文腦陷阱" },
   { href: "/clips/", label: "原聲片段" },
   { href: "/practice/", label: "練習" },
 ];

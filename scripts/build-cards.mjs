@@ -149,6 +149,122 @@ const writingGroupOf = new Map(
 );
 const writingCards = [];
 
+// ===================== 中文腦陷阱層 =====================
+// 這一層是產品真正「給華人」的地方：針對中文思維直譯過去會出什麼事。
+// 佐證引文一樣走同一條授權線（單一作品 4%），過不了就只捨棄引文、保留內容——
+// 這一層的價值在 heard_as 與 better，引文只是證明「母語者真的這樣講」。
+const trapsTax = JSON.parse(
+  readFileSync(join(ROOT, "data", "traps-taxonomy.json"), "utf8"),
+);
+const trapMeta = new Map();
+for (const g of trapsTax.groups) {
+  for (const t of g.traps) trapMeta.set(t.id, { ...t, group: g.id });
+}
+
+const trapFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("traps-") && f.endsWith(".json"))
+  .sort();
+
+const traps = [];
+const trapIssues = [];
+const seenTrap = new Set();
+
+for (const file of trapFiles) {
+  let batch;
+  try {
+    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  if (!Array.isArray(batch)) continue;
+
+  for (const raw of batch) {
+    const meta = trapMeta.get(raw.id);
+    if (!meta) {
+      trapIssues.push(`${file}: 未知陷阱 id「${raw.id}」`);
+      continue;
+    }
+    if (seenTrap.has(raw.id)) {
+      trapIssues.push(`${file}: 陷阱「${raw.id}」重複`);
+      continue;
+    }
+    if (!raw.heard_as || !raw.why) {
+      trapIssues.push(`${file}: 陷阱「${raw.id}」缺 heard_as 或 why`);
+      continue;
+    }
+
+    const better = (Array.isArray(raw.better) ? raw.better : [])
+      .filter((b) => b && b.en && b.zh)
+      .slice(0, 4);
+    if (better.length === 0) {
+      trapIssues.push(`${file}: 陷阱「${raw.id}」沒有可用的 better`);
+    }
+
+    let corpus = null;
+    const c = raw.corpus;
+    if (c && c.quote && c.guest && c.source_file) {
+      const qw = wordCount(c.quote);
+      const usedSrc = sourceWords.get(c.source_file) || 0;
+      const quota = quotaFor(c.source_file);
+      if (qw > MAX_QUOTE_WORDS) {
+        trapIssues.push(`${file}:「${raw.id}」引文 ${qw} 字超標，已移除引文`);
+      } else if (usedSrc + qw > quota) {
+        trapIssues.push(`${file}:「${raw.id}」來源額度已滿，已移除引文`);
+      } else {
+        sourceWords.set(c.source_file, usedSrc + qw);
+        guestWords.set(c.guest, (guestWords.get(c.guest) || 0) + qw);
+        const src = sourceByFile.get(c.source_file);
+        corpus = {
+          quote: c.quote.trim(),
+          guest: c.guest.trim(),
+          timestamp: c.timestamp || null,
+          episode: src?.episode || null,
+          ...withTimestamp(src?.url || null, c.timestamp),
+        };
+      }
+    }
+
+    seenTrap.add(raw.id);
+    traps.push({
+      id: raw.id,
+      group: meta.group,
+      zhInstinct: raw.zh_instinct || meta.zh_instinct,
+      enLiteral: raw.en_literal || null,
+      heardAs: raw.heard_as.trim(),
+      why: raw.why.trim(),
+      better,
+      corpus,
+      relatedFunctions: (Array.isArray(raw.related_functions)
+        ? raw.related_functions
+        : []
+      )
+        .filter((f) => validFunctions.has(f))
+        .slice(0, 3),
+    });
+  }
+}
+
+writeFileSync(
+  join(ROOT, "data", "traps.json"),
+  JSON.stringify({ count: traps.length, traps }, null, 2) + "\n",
+);
+
+if (trapFiles.length > 0) {
+  console.log(
+    `\n✓ 中文腦陷阱層：${traps.length}/${trapMeta.size} 條，${traps.filter((t) => t.corpus).length} 條有語料佐證`,
+  );
+  const missing = [...trapMeta.keys()].filter((id) => !seenTrap.has(id));
+  if (missing.length) console.log(`⚠ 還沒內容的陷阱：${missing.join(", ")}`);
+  if (trapIssues.length) {
+    console.log(`⚠ 陷阱層問題 ${trapIssues.length} 筆：`);
+    for (const m of trapIssues.slice(0, 8)) console.log(`  ${m}`);
+  }
+} else {
+  console.log("\n⚠ 還沒有中文腦陷阱語料（data/raw/traps-*.json）");
+}
+
 // ===================== PM 知識層 =====================
 // 概念卡跟句型卡共用同一個「單一講者引文預算」，否則授權上限會被繞過。
 // 差別在於：概念卡的教學價值在 body / how_to_say，引文只是佐證，

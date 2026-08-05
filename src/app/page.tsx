@@ -6,6 +6,7 @@ import { scenarios, scenarioCardCount } from "@/lib/scenarios";
 import { Src } from "@/components/Src";
 import { strategies } from "@/lib/strategies";
 import { writingStats } from "@/lib/writing";
+import { trapStats } from "@/lib/traps";
 
 export default function Home() {
   return (
@@ -24,6 +25,18 @@ export default function Home() {
             more people?」——問題不在單字量，在於你沒看過母語者在
             <strong className="font-semibold text-ink">同樣的處境</strong>下真的怎麼說。
           </p>
+
+          <div className="mt-9 flex flex-wrap items-center gap-3">
+            <Link
+              href="/today/"
+              className="bg-rust text-paper px-6 py-3 text-[14px] font-medium rounded-sm hover:opacity-90 transition-opacity"
+            >
+              今天的 5 句 →
+            </Link>
+            <span className="text-[12.5px] text-ink-3">
+              不用決定從哪開始。每天五句，唸出來就好。
+            </span>
+          </div>
 
           <div className="mt-9 flex flex-wrap items-center gap-x-8 gap-y-3 text-[13px]">
             <Stat n={stats.cards + writingStats.cards} label="句型卡" />
@@ -73,21 +86,21 @@ export default function Home() {
           <div className="grid gap-px bg-rule border border-rule sm:grid-cols-3">
             <Step
               n="1"
-              href="/strategy/"
-              title="先讀總論"
-              body={`一千多張卡背後其實只有 ${strategies.length} 個模式。先看懂這一頁，後面都是變體。`}
+              href="/today/"
+              title="每天五句，唸出來"
+              body="不用決定從哪開始。同一天打開永遠是同一組，跨天自動換。"
             />
             <Step
               n="2"
-              href="#scenarios"
-              title="挑一個你真的會遇到的處境"
-              body="下週要開的那場會、要寫的那封信。該學的都綁在一起了。"
+              href="/trap/"
+              title="先知道自己會踩什麼坑"
+              body={`${trapStats.written || ""} 條中文腦陷阱——你講的每個字都對，但對方聽到的不是那個意思。`}
             />
             <Step
               n="3"
-              href="/practice/"
-              title="開口練，然後聽本人講"
-              body="看中文說英文，或聽英文猜意思。答不出來的會很快再出現。"
+              href="/strategy/"
+              title="想看全貌再讀總論"
+              body={`一千多張卡背後其實只有 ${strategies.length} 個模式，剩下都是變體。`}
             />
           </div>
         </div>
@@ -158,6 +171,13 @@ export default function Home() {
             n={conceptStats.written}
             unit="個核心概念"
             body="每個概念都附「在英文會議上怎麼把它講出來」，以及台灣 PM 最常踩的坑。"
+          />
+          <Panel
+            href="/trap/"
+            label="中文腦陷阱"
+            n={trapStats.written}
+            unit="條"
+            body="台灣人會這樣說 → 對方實際聽到什麼 → 該怎麼說。針對中文思維直譯到英文會出的事。"
           />
           <Panel
             href="/clips/"

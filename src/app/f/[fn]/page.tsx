@@ -4,6 +4,7 @@ import CardView from "@/components/CardView";
 import { cards, cardsFor, getFn, groups } from "@/lib/cards";
 import { conceptsForFunction } from "@/lib/concepts";
 import { phrasesForFunction } from "@/lib/clips";
+import { trapsForFunction } from "@/lib/traps";
 
 export function generateStaticParams() {
   // 只為「有卡片」的功能產頁面，避免 build 出一堆空頁
@@ -36,6 +37,7 @@ export default async function FunctionPage({
   const list = cardsFor(fn);
   const clipPhrases = phrasesForFunction(fn);
   const relatedConcepts = conceptsForFunction(fn);
+  const relatedTraps = trapsForFunction(fn);
   const group = groups.find((g) => g.id === entry.group.id)!;
   const siblings = group.functions.filter(
     (f) => f.id !== fn && cards.some((c) => c.fn === f.id),
@@ -102,6 +104,34 @@ export default async function FunctionPage({
           <CardView key={card.id} card={card} n={i + 1} />
         ))}
       </div>
+
+      {relatedTraps.length > 0 && (
+        <section className="mt-14 pt-7 border-t border-rule">
+          <p className="rule-label mb-1">這個場合最容易踩的中文腦陷阱</p>
+          <p className="text-[12.5px] text-ink-3 mb-4">
+            台灣人在這裡常說的話，對方聽到的往往不是那個意思。
+          </p>
+          <div className="space-y-px bg-rule border border-rule">
+            {relatedTraps.map((t) => (
+              <Link
+                key={t.id}
+                href={`/trap/${t.id}/`}
+                className="block bg-paper px-4 py-3.5 hover:bg-rust-soft transition-colors group"
+              >
+                <div className="flex items-baseline gap-2">
+                  <span className="text-[14px] font-medium">
+                    「{t.zhInstinct}」
+                  </span>
+                  <span className="ml-auto text-ink-3 group-hover:text-rust">→</span>
+                </div>
+                <p className="mt-1 text-[12.5px] leading-relaxed text-ink-3">
+                  {t.heardAs}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {relatedConcepts.length > 0 && (
         <section className="mt-14 pt-7 border-t border-rule">
