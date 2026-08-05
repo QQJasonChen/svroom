@@ -1,0 +1,83 @@
+{
+  "schema_version": "1",
+  "note": "核心語言策略——這個站的總論。15 組採集各自獨立回報「這批講者最值得學的語言習慣」，30 條觀察高度收斂到下面 7 個模式。它們是跨越全部卡片的元規則：學會這 7 個，剩下的 1,100 張卡只是變體。例句不寫死，用 match 從語料實際比對出來，資料更新時自動跟上。",
+  "strategies": [
+    {
+      "id": "prefix-power",
+      "n": 1,
+      "zh": "前綴決定你能開多大火力",
+      "en": "The buffer earns the blow",
+      "hook": "重話不是不能講，是要先給一個緩衝前綴。有了它，後面才敢下狠話。",
+      "body": "八組採集不約而同回報同一件事：母語者講重話之前，幾乎都先放一個 1-2 秒的緩衝句，先告訴對方「接下來這句是什麼性質」。對方切換到正確的接收模式之後，你的反對才不會被讀成人身攻擊。\n\n關鍵在於這個順序讓火力上限提高了——有前綴，你可以講出「That's not a strategy.」這種四個字的否決；沒有前綴，同樣的話會結仇。",
+      "taiwan": "台灣人的習慣是直接跳到 but，或是講完之後花五分鐘解釋「我不是那個意思」。強度其實沒有比較低，但關係成本高很多。",
+      "match": ["don't get me wrong", "get me wrong", "caveat", "to be clear", "to be fair", "i'm not saying", "not trying to", "hot take", "spicy", "don't hear this", "i acknowledge", "i'll admit", "if i'm being"],
+      "functions": ["polite-disagreement", "hard-feedback", "challenging-assumptions", "saying-no"]
+    },
+    {
+      "id": "self-critique",
+      "n": 2,
+      "zh": "先幫對方把反對講完",
+      "en": "Say the worst thing yourself",
+      "hook": "你已經認領了最難聽的那句，剩下的主張反而顯得可信。",
+      "body": "AI 產品線、成長線、B2B 線三組採集各自發現同一招：這些人對自家產品的批評比外人還狠，而且都搶在對方開口前講。「my advice is super lame, which is...」「Granted this looks hideous, but...」「I have survivorship bias, but...」\n\n語用效果是解除武裝。對方原本準備用來反駁你的那句話，被你先講掉了，反彈的力氣就沒地方使。",
+      "taiwan": "台灣人的直覺是把弱點包裝掉、一路推銷到底。結果是被戳破時更難看，或整篇被讀成推銷文。",
+      "match": ["survivorship bias", "i am biased", "i'm biased", "granted", "embarrassing", "sounds cliché", "sounds cliche", "i know this is", "this is going to trigger", "i can't prove", "purely anecdotal", "i could be wrong", "may be completely wrong"],
+      "functions": ["handling-objections", "backing-with-evidence", "making-the-case", "admitting-uncertainty"]
+    },
+    {
+      "id": "confidence-tag",
+      "n": 3,
+      "zh": "結論講滿，信心另外標",
+      "en": "Full claim, tagged confidence",
+      "hook": "主張講到 100%，然後用另外一句話標示可信度。同時買到權威感與退路。",
+      "body": "Marc Andreessen、Benedict Evans 這類人從不把話講滿——但他們的做法不是把結論說軟，而是結論照樣講死，另外加一句自我折價：「Now that may be completely wrong.」「I look forward to being proven wrong, but hey, that's what it looks like now.」\n\n承認不知道之後一定緊接著「但我知道的是」或「但你可以去問誰」，所以誠實不會變成失分。",
+      "taiwan": "台灣人容易落在兩個極端：要嘛不敢下結論、通篇 maybe 和 I think；要嘛下了結論就死守，被質疑時只能硬撐。",
+      "match": ["may be completely wrong", "proven wrong", "i could be wrong", "my guess is", "anecdotal", "i don't have the data", "i suspect", "directionally correct", "sample size", "i'm not an expert", "not an expert in", "trillion-dollar question"],
+      "functions": ["admitting-uncertainty", "backing-with-evidence", "changing-your-mind", "setting-strategy"]
+    },
+    {
+      "id": "reframe",
+      "n": 4,
+      "zh": "不吵結論，換分析單位",
+      "en": "Reframe, don't rebut",
+      "hook": "承認你講的事實，否定它的歸類。對方的證據全部留著，但指向變了。",
+      "body": "最高頻的說服動作不是舉更多證據，而是把討論的框架整個換掉：「Everybody wants to talk about job loss, but what you want to look at is task loss.」「That's a planning problem. That's not a data center problem.」\n\n同一招用在反對別人時，是先「命名」對方的立場再動手：「inherent in your question is this assumption... I'm going to reject that premise.」先命名、再反對，對方不會覺得被突襲。這比正面反駁安全得多，也是資深與資淺在英文會議裡最明顯的分水嶺。",
+      "taiwan": "台灣人習慣在對方設定的框架裡比誰的證據多，於是永遠在守。換單位是把戰場整個搬走。",
+      "match": ["that's not a", "it's not a", "it's never a", "problem. it's", "reject that premise", "the assumption", "what you want to look at", "if you zoom out", "the real question", "both things can be true", "there's something right and wrong"],
+      "functions": ["framing-problem", "challenging-assumptions", "polite-disagreement", "handling-objections"]
+    },
+    {
+      "id": "naming",
+      "n": 5,
+      "zh": "命名與對照",
+      "en": "Name it, then contrast it",
+      "hook": "把抽象壓成兩個具體名詞。命名成功之後，全場只能用你的詞討論。",
+      "body": "「band-aids versus bricks」「old game / new game」「the arrogant doctor」「it's never a bottom-of-funnel problem, it's a top-of-funnel problem」——句型高度可移植（`It's never a [X] problem. It's a [Y] problem.`），而且一旦命名成功，之後的討論只能用你的詞進行。這是矽谷會議裡最實際的權力槓桿。\n\n配套的一招是把抽象落到一個可拍照的畫面：士氣崩盤講成「員工不想再穿公司 T-shirt 了」，競爭壓力講成「散彈槍 vs 蟒蛇慢慢絞緊」。",
+      "taiwan": "台灣人把抽象講得更抽象——加形容詞、加程度副詞。母語者反過來：先給一個誰都看得見的東西，論點自己就成立了。而且台灣人習慣用長解釋句描述一個現象，講完沒人記得。",
+      "match": ["what i call", "i call it", "versus", "vs", "anti-pattern", "it's never a", "think of it as", "it's like a", "the way i describe"],
+      "functions": ["framing-problem", "persuasive-story", "painting-vision", "making-the-case"]
+    },
+    {
+      "id": "not-the-person",
+      "n": 6,
+      "zh": "把人的問題翻成機制的問題",
+      "en": "Move the target off the person",
+      "hook": "同樣是反對，攻擊「假設」而不是「人」，在英文會議裡幾乎不會結仇。",
+      "body": "教練級與組織型的講者，異議句幾乎沒有主詞是 you 的。把「你錯了」改寫成——差異（The other thing that's a little bit different about what you said）、用詞（You keep using the word advice）、可觀察行為（I noticed that you never answer questions）、模式（Every time we...）、系統（that's not on you — the system failed you）。\n\n反過來也成立：Deb Liu 把「自我推銷」改名成「educating your manager」——換個名字就換掉了道德重量，心理上就過得去了。",
+      "taiwan": "中文母語者最容易直接說 I don't think you're right，或者為了避免衝突乾脆不講。這一招給你第三條路。",
+      "match": ["i noticed", "i'm noticing", "what i'm hearing", "does this person", "the system", "not on you", "you keep using", "what would have to be true", "in what world", "assumes that"],
+      "functions": ["hard-feedback", "coaching-questions", "managing-conflict", "challenging-assumptions"]
+    },
+    {
+      "id": "limits-then-give",
+      "n": 7,
+      "zh": "限制是講給對方聽的，不是拿來擋人的",
+      "en": "Draw the line, then deliver",
+      "hook": "先精準畫出你沒有發言權的那一塊，立刻用 but 交出你真正握有的東西。",
+      "body": "碰到不能講或不知道的事，母語者用的是雙拍結構：「I can't speak to that whole period. But what I can tell you about what I'm feeling now is...」「I'm obviously limited on what exactly I can share, but it is true that...」\n\n關鍵在於**講完限制一定要補料**，否則就只是推託。同一個結構也用在拒絕上：不說「不」，而是把「好」的價碼標出來——「you can do it, but understand there's a high cost」。先交出決定權，再把後果掛回對方帳上，對方自己會收手。",
+      "taiwan": "台灣人碰到答不出來只會 I can't say 或「這個有困難」，對話就死了，而且把自己放進「要被說服」的位置。",
+      "match": ["i can't speak", "i can't share", "limited on what", "but what i can", "i don't know, but", "understand there's", "high cost", "you can do it, but", "i'm going to go find out"],
+      "functions": ["admitting-uncertainty", "saying-no", "trade-offs", "bad-news"]
+    }
+  ]
+}

@@ -40,8 +40,10 @@ export const metadata: Metadata = {
 };
 
 const nav = [
+  { href: "/strategy/", label: "核心策略" },
   { href: "/", label: "開口說" },
   { href: "/w/", label: "動筆寫" },
+  { href: "/vs/", label: "講 vs 寫" },
   { href: "/pm/", label: "PM 知識" },
   { href: "/clips/", label: "原聲片段" },
   { href: "/practice/", label: "練習" },
