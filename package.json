@@ -5,8 +5,8 @@
   "description": "矽谷會議室 — 從真實對話學商業英文",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/build-cards.mjs && next build",
-    "cards": "node scripts/build-cards.mjs",
+    "build": "node scripts/build-cards.mjs && node scripts/build-clips.mjs && next build",
+    "cards": "node scripts/build-cards.mjs && node scripts/build-clips.mjs",
     "start": "next start",
     "lint": "eslint"
   },

@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import CardView from "@/components/CardView";
 import { cards, cardsFor, getFn, groups } from "@/lib/cards";
 import { conceptsForFunction } from "@/lib/concepts";
+import { phrasesForFunction } from "@/lib/clips";
 
 export function generateStaticParams() {
   // 只為「有卡片」的功能產頁面，避免 build 出一堆空頁
@@ -33,6 +34,7 @@ export default async function FunctionPage({
   if (!entry) notFound();
 
   const list = cardsFor(fn);
+  const clipPhrases = phrasesForFunction(fn);
   const relatedConcepts = conceptsForFunction(fn);
   const group = groups.find((g) => g.id === entry.group.id)!;
   const siblings = group.functions.filter(
@@ -71,6 +73,25 @@ export default async function FunctionPage({
           </div>
         </div>
       </header>
+
+      {clipPhrases.length > 0 && (
+        <Link
+          href={`/clips/?fn=${fn}`}
+          className="mt-7 flex items-center gap-3 border border-rule rounded-sm px-4 py-3.5 hover:border-rust hover:bg-rust-soft transition-colors group"
+        >
+          <span className="text-rust text-[15px]">▶</span>
+          <span>
+            <span className="text-[14px] font-medium">
+              聽真人講這些說法
+            </span>
+            <span className="block mt-0.5 text-[12px] text-ink-3">
+              {clipPhrases.length} 個說法 ·{" "}
+              {clipPhrases.reduce((n, p) => n + p.hits.length, 0)} 個原聲片段，連續播放
+            </span>
+          </span>
+          <span className="ml-auto text-ink-3 group-hover:text-rust">→</span>
+        </Link>
+      )}
 
       <p className="mt-7 mb-5 text-[12.5px] text-ink-3">
         {list.length} 張句型卡，由易到難
