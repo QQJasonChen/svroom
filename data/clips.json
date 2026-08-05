@@ -1,5 +1,5 @@
 {
-  "count": 342,
+  "count": 542,
   "categories": [
     {
       "id": "agree",
@@ -38,73 +38,6 @@
     }
   ],
   "phrases": [
-    {
-      "p": "i'm not sure i",
-      "cat": "disagree",
-      "display": "i'm not sure i",
-      "fns": [],
-      "total": 8,
-      "episodes": 8,
-      "speakers": 8,
-      "hits": [
-        {
-          "v": "21sFTZzIfUk",
-          "t": 4659,
-          "sp": "Ben Williams",
-          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
-          "line": "I'm not sure I have a good answer for that."
-        },
-        {
-          "v": "qImgGtnNbx0",
-          "t": 1688,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "I'm not sure I was great at market at the time, but if I had solicited the right advice, I could have learned that that was a shortcoming."
-        },
-        {
-          "v": "SXYc5RoU3Lg",
-          "t": 4022,
-          "sp": "Christian Idiodi",
-          "ep": "The essence of product management | Christian Idiodi (SVPG)",
-          "line": "I'm not sure, I need help."
-        },
-        {
-          "v": "etVCBDRXUH8",
-          "t": 499,
-          "sp": "Jeffrey Pfeffer",
-          "ep": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (author of 7 Rules of Power, professor at Stanford GSB)",
-          "line": "I'm not sure I like Taylor Swift, but I certainly want to go see Taylor Swift because everybody else is."
-        },
-        {
-          "v": "W7o40qcYHlM",
-          "t": 3029,
-          "sp": "John Mark Nickels",
-          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
-          "line": "And I'm not sure, I can't remember the last time I saw one towed, I don't want to say that they've solved self-driving, but they are obviously driving at scale with very minimal, at least real world intervention."
-        },
-        {
-          "v": "MKDnDueTvKk",
-          "t": 1238,
-          "sp": "Kayvon Beykpour",
-          "ep": "Twitter’s former Head of Product opens up: being fired, meeting Elon, changing stagnant culture, building consumer product, more | Kayvon Beykpour",
-          "line": "I'm not sure I would've been able to articulate it as succinctly as you did just now, but I think that is the feeling that I had that it's not my place anymore."
-        },
-        {
-          "v": "7uSuMIJhONA",
-          "t": 1533,
-          "sp": "Shishir Mehrotra",
-          "ep": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
-          "line": "And the way Reid records, which I'm not sure I would recommend this, but he does it a little bit differently than you do."
-        },
-        {
-          "v": "yc1Uwhfxacs",
-          "t": 3382,
-          "sp": "Todd Jackson",
-          "ep": "A framework for finding product-market fit | Todd Jackson (First Round Capital)",
-          "line": "And you mentioned earlier, founders were like, \"I'm not sure I ever felt product-market fit.\" This is when you start to feel it."
-        }
-      ]
-    },
     {
       "p": "i completely agree with",
       "cat": "agree",
@@ -177,7 +110,7 @@
     {
       "p": "can you tell me",
       "cat": "ask",
-      "display": "can you tell me",
+      "display": "Can you tell me",
       "fns": [
         "challenging-assumptions"
       ],
@@ -244,9 +177,210 @@
       ]
     },
     {
+      "p": "to be honest i",
+      "cat": "hedge",
+      "display": "To be honest I",
+      "fns": [],
+      "total": 9,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "VxAwUb86MUE",
+          "t": 3822,
+          "sp": "Andrew Wilkinson",
+          "ep": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
+          "line": "And to be honest, I just don't know."
+        },
+        {
+          "v": "xQV7HVyAJjc",
+          "t": 4098,
+          "sp": "Bob Moesta",
+          "ep": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+          "line": "To be honest, I was so excited for this podcast."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 1647,
+          "sp": "Dr. Becky Kennedy",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "And to be honest, I loved it, because I have a very healthy left brain and our left brains love logic and we love linearity."
+        },
+        {
+          "v": "BsWxPI9UM4c",
+          "t": 4808,
+          "sp": "Shreya Shankar",
+          "ep": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+          "line": "To be honest, I don't know much about it, because I just imagine that they're this company that..."
+        },
+        {
+          "v": "dAnF0tk0di8",
+          "t": 2666,
+          "sp": "Jason Fried",
+          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+          "line": "And frankly, to be honest, I think everyone actually is."
+        },
+        {
+          "v": "nMsA5VeLoOM",
+          "t": 436,
+          "sp": "Jason Shah",
+          "ep": "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)",
+          "line": "And then again, to be honest, I got bored and excited about what Airbnb was doing and the mission around belonging."
+        },
+        {
+          "v": "XmgetFMgQZ0",
+          "t": 354,
+          "sp": "Lane Shackleton",
+          "ep": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+          "line": "To be honest, I wasn't the best guide."
+        },
+        {
+          "v": "8TpakBfsmcQ",
+          "t": 4240,
+          "sp": "Peter Deng",
+          "ep": "From ChatGPT to Instagram to Uber: The quiet architect behind the world’s most popular products | Peter Deng",
+          "line": "And to be honest, I do do a little bit of a sweep."
+        }
+      ]
+    },
+    {
+      "p": "the way i describe",
+      "cat": "setup",
+      "display": "The way I describe",
+      "fns": [],
+      "total": 9,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "kc1XhB4k0Eg",
+          "t": 3870,
+          "sp": "Chris Hutchins",
+          "ep": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+          "line": "But if they don't tap on it, if you're supposed to get a 2% click-through rate and you get 0.5, then it's actually the topic or the way I describe it or the cover sucks."
+        },
+        {
+          "v": "SXYc5RoU3Lg",
+          "t": 384,
+          "sp": "Christian Idiodi",
+          "ep": "The essence of product management | Christian Idiodi (SVPG)",
+          "line": "The way I describe it to a CEO, I'll ask him, \"Tell me who you trust in your company to make a decision on what markets we go to, what things we do.\" And they always have some senior leader, some VP, some person."
+        },
+        {
+          "v": "gzs61z9Fekw",
+          "t": 1127,
+          "sp": "Emily Kramer",
+          "ep": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+          "line": "And the way I describe that within marketing, usually you you are like hire a T shape person that bites in one area and has working knowledge and try to crop all of them."
+        },
+        {
+          "v": "87Pm0SGTtN8",
+          "t": 4966,
+          "sp": "Marc Andreessen",
+          "ep": "Marc Andreessen: The real AI boom hasn’t even started yet",
+          "line": "And the way I describe it as, so let me start with the cosmic one."
+        },
+        {
+          "v": "xQkSenlJvwA",
+          "t": 400,
+          "sp": "Nabeel S. Qureshi",
+          "ep": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+          "line": "So, Palantir is, the way I describe it, is they achieve outcomes for their customers very tactically."
+        },
+        {
+          "v": "WSscIIY609c",
+          "t": 4103,
+          "sp": "Lenny",
+          "ep": "Strategies for becoming less distracted and improving focus | Nir Eyal (author of Indistractable and Hooked)",
+          "line": "And the way I describe it, manager taught me this is, I call it prioritizing and communicating."
+        },
+        {
+          "v": "R-Geamq9xc0",
+          "t": 3934,
+          "sp": "Paul Adams",
+          "ep": "What AI means for your product strategy | Paul Adams (CPO of Intercom)",
+          "line": "The way I describe product market fit is, you've got to build the right product for the right market."
+        },
+        {
+          "v": "atS060bNpE0",
+          "t": 1501,
+          "sp": "Shreyas Doshi",
+          "ep": "4 questions Shreyas Doshi wishes he’d asked himself sooner | Former PM leader at Stripe, Twitter, Google",
+          "line": "And the way I describe a pre-mortem is that if you do a pre-mortem right, you will not have to do an ugly post-mortem."
+        }
+      ]
+    },
+    {
+      "p": "does that make sense",
+      "cat": "clarify",
+      "display": "Does that make sense",
+      "fns": [],
+      "total": 9,
+      "episodes": 3,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "m7LvNTbaqSI",
+          "t": 1555,
+          "sp": "Dalton Caldwell",
+          "ep": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+          "line": "So does that make sense?"
+        },
+        {
+          "v": "LpbBzmXrzEY",
+          "t": 3818,
+          "sp": "Matt Abrahams",
+          "ep": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+          "line": "And two, at the end of answering the question saying, \"Does that make sense?\" Because in both cases, you're trying to validate the asker when you say good question."
+        },
+        {
+          "v": "LpbBzmXrzEY",
+          "t": 3830,
+          "sp": "Matt Abrahams",
+          "ep": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+          "line": "And at the end when you say, \"Does that make sense,\" you've got a laudable goal in mind, which is, \"Did I answer your question?\" But I'd much rather you say, \"Did I answer your question?"
+        },
+        {
+          "v": "LpbBzmXrzEY",
+          "t": 3841,
+          "sp": "Matt Abrahams",
+          "ep": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+          "line": "Do you have a follow-up question?\"\" Because if you keep saying, \"does that make sense, does that make sense,\" people are going to start thinking, \"Maybe he doesn't make sense because he is always asking.\" So some pet peeves there."
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 1629,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "Does that make sense, Lenny?"
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 2278,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "I feel comfortable investing in speed, because I know it's going to pay back, and not necessarily this month, but eventually it will, and I need to make gains on all three levers in order to get there.\" Does that make sense?"
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 2421,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "Does that make sense, Lenny, Do you disagree?"
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 3063,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "Does that make sense, Lenny?"
+        }
+      ]
+    },
+    {
       "p": "let me know if",
       "cat": "clarify",
-      "display": "let me know if",
+      "display": "Let me know if",
       "fns": [
         "bad-news"
       ],
@@ -382,9 +516,76 @@
       ]
     },
     {
+      "p": "i think you're right",
+      "cat": "agree",
+      "display": "I think you're right",
+      "fns": [],
+      "total": 10,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "-tUIGpgmsZw",
+          "t": 3066,
+          "sp": "Annie Pearl",
+          "ep": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+          "line": "And I think you're right."
+        },
+        {
+          "v": "W7o40qcYHlM",
+          "t": 833,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "But yeah, I think you're right."
+        },
+        {
+          "v": "W7o40qcYHlM",
+          "t": 2329,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "I think, you're right, I think it was Peter [inaudible 00:38:52] or PayPal guys talked about that too, going really deep and having a person or a leader really responsible for one core, deep thing for the company, and that's something they immerse themselves in."
+        },
+        {
+          "v": "L6RKi9ZvkT4",
+          "t": 2307,
+          "sp": "Judd Antin",
+          "ep": "The UX research reckoning is here | Judd Antin (Airbnb, Meta)",
+          "line": "And the thing about that middle range, I think you're right."
+        },
+        {
+          "v": "tlCK9TuALtk",
+          "t": 1742,
+          "sp": "Keith Yandell",
+          "ep": "Leading with empathy | Keith Yandell (DoorDash, Uber)",
+          "line": "And sometimes, they'll even persuade themselves as they're talking and say, \"I think you're right that we should focus on growth here."
+        },
+        {
+          "v": "cUzEgRetmC4",
+          "t": 1180,
+          "sp": "Matt Dixon",
+          "ep": "The surprising truth about what closes deals: Insights from 2.5m sales conversations | Matt Dixon (author of The Challenger Sale and The JOLT Effect)",
+          "line": "What I said is you've got to remember though, that may be true, and I would argue, and I think you're right, that for a startup, yeah, you've got to be 10 times better to get that mind share."
+        },
+        {
+          "v": "4PhfAbRQpbI",
+          "t": 644,
+          "sp": "Nikita Miller",
+          "ep": "Driving alignment and urgency within teams, work-life balance, and the changing PM landscape | Nikita Miller (The Knot, Trello)",
+          "line": "I think you're right, it is a bitter sweet place to be."
+        },
+        {
+          "v": "maK0XD9ARoI",
+          "t": 2782,
+          "sp": "Tom Conrad",
+          "ep": "Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Snap, Zero)",
+          "line": "I think you're right and I'm really struggling to get our stupid head of product to agree with me."
+        }
+      ]
+    },
+    {
       "p": "that makes a lot of sense",
       "cat": "agree",
-      "display": "that makes a lot of sense",
+      "display": "That makes a lot of sense",
       "fns": [],
       "total": 10,
       "episodes": 8,
@@ -451,7 +652,7 @@
     {
       "p": "how did you get",
       "cat": "ask",
-      "display": "how did you get",
+      "display": "How did you get",
       "fns": [],
       "total": 11,
       "episodes": 8,
@@ -516,9 +717,76 @@
       ]
     },
     {
+      "p": "the way you're describing",
+      "cat": "clarify",
+      "display": "The way you're describing",
+      "fns": [],
+      "total": 11,
+      "episodes": 8,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "Vlph3dn4jnU",
+          "t": 793,
+          "sp": "Lenny Rachitsky",
+          "ep": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
+          "line": "So the way you're describing it is the way the business operates is you think, what is our 100-year plan?"
+        },
+        {
+          "v": "bY5KC9Gguz8",
+          "t": 859,
+          "sp": "Lenny",
+          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+          "line": "It sounds like a lot of the way you're describing it is basically awareness."
+        },
+        {
+          "v": "yJQYBjto41s",
+          "t": 2007,
+          "sp": "Lenny Rachitsky",
+          "ep": "Dylan Field live at Config: Intuition, simplicity, and the future of design",
+          "line": "Find the most influential people in your field, go try to convince them to use your product.\" And the way you're describing it is you were using it more as feedback."
+        },
+        {
+          "v": "7gaPPrAd7nc",
+          "t": 2985,
+          "sp": "Lenny",
+          "ep": "What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)",
+          "line": "So when people talk about working backwards, the way you're describing it is interesting where it's focused on start with the problem, which I think generally product teams try to do."
+        },
+        {
+          "v": "9cNRDWEXnrQ",
+          "t": 3143,
+          "sp": "Julian Shapiro",
+          "ep": "Growth tactics, retention strategies, and becoming a better writer | Julian Shapiro (Demand Curve, Hyper, Webflow, TechCrunch)",
+          "line": "That's kind of my bar is make it very actionable, which I think is specific to the type of newsletter I have, not necessarily broad writing the way you're describing, but that's what I try."
+        },
+        {
+          "v": "twzLDx9iers",
+          "t": 4552,
+          "sp": "Lenny Rachitsky",
+          "ep": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+          "line": "So the way you're describing is, as you said, it's what you do."
+        },
+        {
+          "v": "nTr21kgCFF4",
+          "t": 3973,
+          "sp": "Lenny Rachitsky",
+          "ep": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+          "line": "So, the way you're describing it is the company has a job to be done, say it's drive growth of some feature."
+        },
+        {
+          "v": "1GDVum5IarI",
+          "t": 1919,
+          "sp": "Rachel Lockett",
+          "ep": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+          "line": "I kind of hear you feeling behind, even in the way you're describing what you're doing."
+        }
+      ]
+    },
+    {
       "p": "i think that's right",
       "cat": "agree",
-      "display": "i think that's right",
+      "display": "I think that's right",
       "fns": [],
       "total": 11,
       "episodes": 7,
@@ -583,9 +851,76 @@
       ]
     },
     {
+      "p": "yeah that's a good",
+      "cat": "agree",
+      "display": "Yeah that's a good",
+      "fns": [],
+      "total": 12,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "KPxTekxQjzc",
+          "t": 4988,
+          "sp": "Ben Horowitz",
+          "ep": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+          "line": "Yeah, that's a good reminder."
+        },
+        {
+          "v": "ZG3iNH4vvMA",
+          "t": 2597,
+          "sp": "Lenny Rachitsky",
+          "ep": "Brian Balfour: 10 lessons on career, growth, and life",
+          "line": "Yeah, that's a good point."
+        },
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 3752,
+          "sp": "Dan Hockenmaier",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "Yeah, that's a good mental [inaudible 01:02:37]."
+        },
+        {
+          "v": "JMeXWVw0r3E",
+          "t": 5062,
+          "sp": "Dhanji R. Prasanna",
+          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+          "line": "Oh yeah, that's a good one too."
+        },
+        {
+          "v": "jW9GzaaRPxk",
+          "t": 3555,
+          "sp": "Emilie Gerber",
+          "ep": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+          "line": "And if you can't articulate it, then let's change it to the way that you just articulated it, and it might be more successful.\" So yeah, that's a good way to do it."
+        },
+        {
+          "v": "0wN5wSImUdY",
+          "t": 273,
+          "sp": "Heidi Helfand",
+          "ep": "The art and wisdom of changing teams | Heidi Helfand (author of Dynamic Reteaming)",
+          "line": "Yeah, that's a good question."
+        },
+        {
+          "v": "nMsA5VeLoOM",
+          "t": 1445,
+          "sp": "Jason Shah",
+          "ep": "Building a meaningful career | Jason Shah (Airbnb, Amazon, Microsoft, Alchemy)",
+          "line": "Yeah, that's a good question."
+        },
+        {
+          "v": "W7o40qcYHlM",
+          "t": 1758,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "Yeah, that's a good question."
+        }
+      ]
+    },
+    {
       "p": "i would argue that",
       "cat": "opinion",
-      "display": "i would argue that",
+      "display": "I would argue that",
       "fns": [],
       "total": 13,
       "episodes": 5,
@@ -652,7 +987,7 @@
     {
       "p": "i don't have the",
       "cat": "hedge",
-      "display": "i don't have the",
+      "display": "I don't have the",
       "fns": [],
       "total": 13,
       "episodes": 8,
@@ -719,7 +1054,7 @@
     {
       "p": "at the end of the day it",
       "cat": "setup",
-      "display": "at the end of the day it collapses into three options",
+      "display": "At the end of the day it collapses into three options",
       "fns": [
         "setting-strategy"
       ],
@@ -788,7 +1123,7 @@
     {
       "p": "the answer is yes",
       "cat": "agree",
-      "display": "the answer is yes",
+      "display": "The answer is yes",
       "fns": [
         "backing-with-evidence"
       ],
@@ -862,8 +1197,8 @@
         "polite-disagreement"
       ],
       "total": 15,
-      "episodes": 7,
-      "speakers": 7,
+      "episodes": 8,
+      "speakers": 8,
       "hits": [
         {
           "v": "qImgGtnNbx0",
@@ -885,13 +1220,6 @@
           "sp": "Chris Miller",
           "ep": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
           "line": "Mentors are great, don't get me wrong."
-        },
-        {
-          "v": "SzKKJwuRFZI",
-          "t": 2479,
-          "sp": "Chris Miller",
-          "ep": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
-          "line": "And don't get me wrong, I think there's a lot of product folks out there who enjoy that modality of work, I'm not one of them."
         },
         {
           "v": "UmirRfy-gzA",
@@ -920,19 +1248,95 @@
           "sp": "Lazar Jovanovic",
           "ep": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
           "line": "Yeah, and don't get me wrong, there's obviously a ton of value in prototyping."
+        },
+        {
+          "v": "RJ3iPWo3-8M",
+          "t": 1281,
+          "sp": "Ray Cao",
+          "ep": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
+          "line": "it is hard, don't get me wrong."
+        }
+      ]
+    },
+    {
+      "p": "i don't want to say",
+      "cat": "disagree",
+      "display": "I don't want to say",
+      "fns": [
+        "polite-disagreement"
+      ],
+      "total": 15,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "qImgGtnNbx0",
+          "t": 4779,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "And direct sales had gone, I don't want to say out of fashion, but if I think of the best direct sales companies, probably there's a lot of lineage from Oracle, but you think SAP, Oracle, ServiceNow, Salesforce, Adobe perhaps, and there's others as well."
+        },
+        {
+          "v": "hZSh0rs20uI",
+          "t": 1927,
+          "sp": "Camille Fournier",
+          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+          "line": "I don't want to say that that's impossible."
+        },
+        {
+          "v": "gzs61z9Fekw",
+          "t": 4004,
+          "sp": "Emily Kramer",
+          "ep": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+          "line": "Teach me something you don't know comes across as a little, I don't want to say pretentious, but it's like it's overwhelming."
+        },
+        {
+          "v": "CtB0O0M7YS0",
+          "t": 4034,
+          "sp": "Gergely Orosz",
+          "ep": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
+          "line": "I don't want to say that if you don't have experience, don't start one, but it's kind of true."
+        },
+        {
+          "v": "h9MUuhsDJOM",
+          "t": 2750,
+          "sp": "Jessica Livingston",
+          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
+          "line": "I can't really talk about the times I have been tricked just because I don't want to say anything really negative about people, but..."
+        },
+        {
+          "v": "h9MUuhsDJOM",
+          "t": 3452,
+          "sp": "Jessica Livingston",
+          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
+          "line": "And it's not too scripted and not too, maybe, I don't want to say professional, because I hope it's professional sounding, but it's very conversational and authentic."
+        },
+        {
+          "v": "y9hmrMBRPDI",
+          "t": 2562,
+          "sp": "Julia Schottenstein",
+          "ep": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+          "line": "I don't want to say that."
+        },
+        {
+          "v": "XkMbkWG2ca4",
+          "t": 3546,
+          "sp": "Logan Kilpatrick",
+          "ep": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
+          "line": "I don't want to say it and then get slammed with a bunch of email."
         }
       ]
     },
     {
       "p": "the answer is no",
       "cat": "disagree",
-      "display": "the answer is no",
+      "display": "The answer is no",
       "fns": [
         "talking-impact"
       ],
       "total": 16,
       "episodes": 7,
-      "speakers": 7,
+      "speakers": 6,
       "hits": [
         {
           "v": "VxAwUb86MUE",
@@ -947,13 +1351,6 @@
           "sp": "Anneka Gupta",
           "ep": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
           "line": "If the answer is no to that, then you can go have a conversation."
-        },
-        {
-          "v": "svQMODvIGAE",
-          "t": 2943,
-          "sp": "Annie Duke",
-          "ep": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
-          "line": "And the answer is no."
         },
         {
           "v": "9euy9gC48lc",
@@ -989,13 +1386,20 @@
           "sp": "Seth Godin",
           "ep": "Seth Godin's best tactics for building remarkable products, strategies, brands and more",
           "line": "And if the answer is no, then why would they tell other people about it?"
+        },
+        {
+          "v": "maK0XD9ARoI",
+          "t": 1666,
+          "sp": "Tom Conrad",
+          "ep": "Billion dollar failures, and billion dollar success | Tom Conrad (Quibi, Pandora, Pets.com, Snap, Zero)",
+          "line": "And I think the answer is no."
         }
       ]
     },
     {
       "p": "just to make sure",
       "cat": "clarify",
-      "display": "just to make sure",
+      "display": "Just to make sure",
       "fns": [],
       "total": 16,
       "episodes": 7,
@@ -1060,78 +1464,9 @@
       ]
     },
     {
-      "p": "i don't want to say",
-      "cat": "disagree",
-      "display": "I don't want to say",
-      "fns": [
-        "polite-disagreement"
-      ],
-      "total": 16,
-      "episodes": 7,
-      "speakers": 7,
-      "hits": [
-        {
-          "v": "qImgGtnNbx0",
-          "t": 4779,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "And direct sales had gone, I don't want to say out of fashion, but if I think of the best direct sales companies, probably there's a lot of lineage from Oracle, but you think SAP, Oracle, ServiceNow, Salesforce, Adobe perhaps, and there's others as well."
-        },
-        {
-          "v": "hZSh0rs20uI",
-          "t": 1927,
-          "sp": "Camille Fournier",
-          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
-          "line": "I don't want to say that that's impossible."
-        },
-        {
-          "v": "gzs61z9Fekw",
-          "t": 4004,
-          "sp": "Emily Kramer",
-          "ep": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
-          "line": "Teach me something you don't know comes across as a little, I don't want to say pretentious, but it's like it's overwhelming."
-        },
-        {
-          "v": "CtB0O0M7YS0",
-          "t": 4034,
-          "sp": "Gergely Orosz",
-          "ep": "Leaving big tech to build the #1 technology newsletter | Gergely Orosz (The Pragmatic Engineer)",
-          "line": "I don't want to say that if you don't have experience, don't start one, but it's kind of true."
-        },
-        {
-          "v": "h9MUuhsDJOM",
-          "t": 2750,
-          "sp": "Jessica Livingston",
-          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
-          "line": "I can't really talk about the times I have been tricked just because I don't want to say anything really negative about people, but..."
-        },
-        {
-          "v": "h9MUuhsDJOM",
-          "t": 3452,
-          "sp": "Jessica Livingston",
-          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
-          "line": "And it's not too scripted and not too, maybe, I don't want to say professional, because I hope it's professional sounding, but it's very conversational and authentic."
-        },
-        {
-          "v": "y9hmrMBRPDI",
-          "t": 2562,
-          "sp": "Julia Schottenstein",
-          "ep": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
-          "line": "I don't want to say that."
-        },
-        {
-          "v": "XkMbkWG2ca4",
-          "t": 3546,
-          "sp": "Logan Kilpatrick",
-          "ep": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
-          "line": "I don't want to say it and then get slammed with a bunch of email."
-        }
-      ]
-    },
-    {
       "p": "let me tell you",
       "cat": "setup",
-      "display": "let me tell you",
+      "display": "Let me tell you",
       "fns": [
         "coaching-questions"
       ],
@@ -1200,7 +1535,7 @@
     {
       "p": "what are we trying",
       "cat": "ask",
-      "display": "what are we trying",
+      "display": "What are we trying",
       "fns": [],
       "total": 18,
       "episodes": 8,
@@ -1265,9 +1600,143 @@
       ]
     },
     {
+      "p": "so the way that",
+      "cat": "setup",
+      "display": "So the way that",
+      "fns": [],
+      "total": 18,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "svQMODvIGAE",
+          "t": 1532,
+          "sp": "Annie Duke",
+          "ep": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
+          "line": "So the way that I put is I want people to stop talking to each other so much."
+        },
+        {
+          "v": "EW6K8ZOWoIs",
+          "t": 1801,
+          "sp": "Ayo Omojola",
+          "ep": "Frameworks for product differentiation, team building, and thinking from first principles | Ayo Omojola (Carbon Health, Cash App)",
+          "line": "And so the way that I sort of bring this to life is, if I meet somebody who I want to work with, I'm like straight up with them about it."
+        },
+        {
+          "v": "UmirRfy-gzA",
+          "t": 1985,
+          "sp": "Claire Butler",
+          "ep": "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)",
+          "line": "And so the way that we did that in the early days was what we had was the tool, and that's pretty much what we had, and we had a design team and we had an engineering team."
+        },
+        {
+          "v": "Mv0o9o4MRh0",
+          "t": 1367,
+          "sp": "Claire Hughes Johnson",
+          "ep": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+          "line": "So the way that you do goals as a company can start at the company level, and this is how OKRs were so beautiful for Google and they can replicate down to the individual."
+        },
+        {
+          "v": "UpGR9P0Ufts",
+          "t": 1450,
+          "sp": "Graham Weaver",
+          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+          "line": "And so the way that shows up is just this tension, friction, stress, anxiety, burnout, all those things."
+        },
+        {
+          "v": "mmxTeS0AVMo",
+          "t": 4310,
+          "sp": "Jonathan Becker",
+          "ep": "Mastering paid growth | Jonathan Becker (Thrive Digital)",
+          "line": "So the way that I think about this is the people growing up these days have always had the internet, whereas you and I probably remember a time before the internet existed."
+        },
+        {
+          "v": "AZpo5785v8A",
+          "t": 4073,
+          "sp": "Josh Miller",
+          "ep": "Competing with giants: An inside look at how The Browser Company builds product | Josh Miller (CEO)",
+          "line": "So, the way that we think about it is ..."
+        },
+        {
+          "v": "XmgetFMgQZ0",
+          "t": 1247,
+          "sp": "Lane Shackleton",
+          "ep": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+          "line": "And so the way that we developed good customer instincts was not the goal, it was really just the system behind it."
+        }
+      ]
+    },
+    {
+      "p": "so just to summarize",
+      "cat": "clarify",
+      "display": "So just to summarize",
+      "fns": [],
+      "total": 18,
+      "episodes": 6,
+      "speakers": 1,
+      "hits": [
+        {
+          "v": "1sClhfuCxP0",
+          "t": 2823,
+          "sp": "Lenny",
+          "ep": "The full-stack PM | Anuj Rathi (Swiggy, Jupiter Money, Flipkart)",
+          "line": "So just to summarize so people can have just a very short definition of this framework."
+        },
+        {
+          "v": "SXYc5RoU3Lg",
+          "t": 843,
+          "sp": "Lenny",
+          "ep": "The essence of product management | Christian Idiodi (SVPG)",
+          "line": "So just to summarize these four elements, there's value, usability, viability, feasibility to understand if the product they're building hits all these attributes."
+        },
+        {
+          "v": "SXYc5RoU3Lg",
+          "t": 1442,
+          "sp": "Lenny",
+          "ep": "The essence of product management | Christian Idiodi (SVPG)",
+          "line": "So just to summarize some of these points, which are really great and I've never heard it described this way before."
+        },
+        {
+          "v": "kvkL18Ue0dE",
+          "t": 552,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+          "line": "So, just to summarize, the main benefits are focuses you, lines, creates a cadence and creates a learning cycle."
+        },
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 1900,
+          "sp": "Lenny",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "So just to summarize, the metrics that you find to be most helpful in tracking marketplace health, there's these two that are just general business health metrics, GMV and unit economics."
+        },
+        {
+          "v": "tBPTwUmaxDs",
+          "t": 2282,
+          "sp": "Lenny",
+          "ep": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+          "line": "Okay, so just to summarize some of the tips you've shared on this empathize step."
+        },
+        {
+          "v": "7l1fIxk7SnA",
+          "t": 1432,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+          "line": "So just to summarize, I took notes on this kind of the things that you got to get."
+        },
+        {
+          "v": "7l1fIxk7SnA",
+          "t": 2697,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
+          "line": "So just to summarize the audit that you do, I wrote some notes as you were talking, and maybe we can keep going from that point."
+        }
+      ]
+    },
+    {
       "p": "the way it works",
       "cat": "setup",
-      "display": "the way it works",
+      "display": "The way it works",
       "fns": [],
       "total": 18,
       "episodes": 8,
@@ -1334,11 +1803,11 @@
     {
       "p": "the question is how",
       "cat": "ask",
-      "display": "the question is how",
+      "display": "The question is how",
       "fns": [
         "framing-problem"
       ],
-      "total": 20,
+      "total": 19,
       "episodes": 8,
       "speakers": 8,
       "hits": [
@@ -1362,13 +1831,6 @@
           "sp": "Edwin Chen",
           "ep": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
           "line": "So I've talked a lot about how I worry that the leaderboards and benchmarks out there today are steering models in the wrong direction, so yeah, so the question is, how do we fix that?"
-        },
-        {
-          "v": "GECtyEj9UPA",
-          "t": 2093,
-          "sp": "Evan LaPointe",
-          "ep": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
-          "line": "So that's something to really know, and vulnerability is the best approach to this because if you think about the domino two, once you know this stuff, then the question is how do we socialize this knowledge in a team?"
         },
         {
           "v": "L6RKi9ZvkT4",
@@ -1397,13 +1859,87 @@
           "sp": "Lenny Rachitsky",
           "ep": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
           "line": "And then the question is how do I communicate this to them where their pain is lowest essentially."
+        },
+        {
+          "v": "XrRlVOWe5GE",
+          "t": 1043,
+          "sp": "Noah Weiss",
+          "ep": "The 10 traits of great PMs, how AI will impact your product, and Slack’s product development process | Noah Weiss (Slack, Foursquare, Google)",
+          "line": "The question is how does software help do that?"
+        }
+      ]
+    },
+    {
+      "p": "what's an example of",
+      "cat": "ask",
+      "display": "What's an example of",
+      "fns": [],
+      "total": 20,
+      "episodes": 6,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "gCEaUfZUuI0",
+          "t": 2476,
+          "sp": "Lenny",
+          "ep": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
+          "line": "What's an example of value informing the brand or change or helping you make a different decision maybe at Miro or CultureAmp or Greenhouse to make that a little more concrete?"
+        },
+        {
+          "v": "gCEaUfZUuI0",
+          "t": 2520,
+          "sp": "Lenny",
+          "ep": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
+          "line": "What's an example of that?"
+        },
+        {
+          "v": "ja6fWTDPQl4",
+          "t": 791,
+          "sp": "Lenny Rachitsky",
+          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+          "line": "So what's an example of a kind of person that is sought after?"
+        },
+        {
+          "v": "WFLH8Af2f30",
+          "t": 1700,
+          "sp": "Lenny Rachitsky",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "This process, what's an example of the level of product scale that this process is for?"
+        },
+        {
+          "v": "WFLH8Af2f30",
+          "t": 2647,
+          "sp": "Lenny Rachitsky",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "What's an example of an aspiration that you've come up with on a project you worked on, a winning aspiration?"
+        },
+        {
+          "v": "kvkL18Ue0dE",
+          "t": 658,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+          "line": "What's an example of your personal care?"
+        },
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 785,
+          "sp": "Lenny",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "To make that last point a little more concrete, what's an example of that?"
+        },
+        {
+          "v": "jW9GzaaRPxk",
+          "t": 2350,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+          "line": "Just tell them, \"Hey, I'm looking for...\" What's an example of being direct?"
         }
       ]
     },
     {
       "p": "i think we should",
       "cat": "opinion",
-      "display": "i think we should",
+      "display": "I think we should",
       "fns": [
         "admitting-uncertainty"
       ],
@@ -1470,12 +2006,79 @@
       ]
     },
     {
+      "p": "i think that's exactly",
+      "cat": "agree",
+      "display": "I think that's exactly",
+      "fns": [],
+      "total": 20,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "ZG3iNH4vvMA",
+          "t": 3253,
+          "sp": "Brian Balfour",
+          "ep": "Brian Balfour: 10 lessons on career, growth, and life",
+          "line": "I think that's exactly what you see them doing."
+        },
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 2778,
+          "sp": "Dan Hockenmaier",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "Yeah, I think that's exactly right."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 3119,
+          "sp": "Dr. Becky Kennedy",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "I think that's exactly right."
+        },
+        {
+          "v": "tBPTwUmaxDs",
+          "t": 842,
+          "sp": "Lenny",
+          "ep": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+          "line": "So I think that's exactly what you're talking about."
+        },
+        {
+          "v": "dduQeaqmpnI",
+          "t": 684,
+          "sp": "Edwin Chen",
+          "ep": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+          "line": "And it's really hard, and so to build all this technology to measure it, but I think that's exactly what we want AI to do, and so we have these really deep notions about quality that we're always trying to try and achieve."
+        },
+        {
+          "v": "oo0jSep7pzc",
+          "t": 2807,
+          "sp": "Fareed Mosavat",
+          "ep": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Zynga, Pixar)",
+          "line": "I think that's exactly right, and the last one is really important because now, you have moved to owning the impact."
+        },
+        {
+          "v": "etVCBDRXUH8",
+          "t": 302,
+          "sp": "Jeffrey Pfeffer",
+          "ep": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (author of 7 Rules of Power, professor at Stanford GSB)",
+          "line": "I think that's exactly right."
+        },
+        {
+          "v": "QaDsk4iH1aw",
+          "t": 2329,
+          "sp": "Krithika Shankarraman",
+          "ep": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
+          "line": "But I think that's exactly right."
+        }
+      ]
+    },
+    {
       "p": "what do you mean",
       "cat": "ask",
-      "display": "what do you mean",
+      "display": "What do you mean",
       "fns": [],
       "total": 21,
-      "episodes": 8,
+      "episodes": 7,
       "speakers": 6,
       "hits": [
         {
@@ -1498,13 +2101,6 @@
           "sp": "Lenny Rachitsky",
           "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
           "line": "What do you mean when you think elastic?"
-        },
-        {
-          "v": "SXYc5RoU3Lg",
-          "t": 3625,
-          "sp": "Christian Idiodi",
-          "ep": "The essence of product management | Christian Idiodi (SVPG)",
-          "line": "And I ask them, \"What did they do at practice?\" They say, \"What do you mean?\" I say, \"When they were practicing this, what did they do?\" Say, \"Well, they didn't practice."
         },
         {
           "v": "Mv0o9o4MRh0",
@@ -1533,13 +2129,89 @@
           "sp": "Laura Schaffer",
           "ep": "Career frameworks, A/B testing mistakes, counterintuitive onboarding tips, selling to developers | Laura Schaffer (VP of Growth at Amplitude)",
           "line": "What do you mean?\" And by the end of the conversation he was like, \"Hey, why don't you go do that?"
+        },
+        {
+          "v": "UMAmj1bciww",
+          "t": 3179,
+          "sp": "Lenny",
+          "ep": "Career frameworks, A/B testing mistakes, counterintuitive onboarding tips, selling to developers | Laura Schaffer (VP of Growth at Amplitude)",
+          "line": "What do you mean by that, by low, medium, high?"
+        }
+      ]
+    },
+    {
+      "p": "when we talk about",
+      "cat": "setup",
+      "display": "When we talk about",
+      "fns": [
+        "framing-problem"
+      ],
+      "total": 21,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "6UHAop9fhNU",
+          "t": 2192,
+          "sp": "Ami Vora",
+          "ep": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+          "line": "I mean, I think taking a sub part of WhatsApp or when we talk about video calling."
+        },
+        {
+          "v": "WFLH8Af2f30",
+          "t": 1945,
+          "sp": "Chandra Janakiraman",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "I'll get back to it when we talk about big S, which is different."
+        },
+        {
+          "v": "xzebbzIntFc",
+          "t": 1991,
+          "sp": "Eric Ries",
+          "ep": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
+          "line": "And then we call it establishing a baseline when we talk about innovation accounting and the metrics side of Lean Startup."
+        },
+        {
+          "v": "L22DtAHLmzs",
+          "t": 3412,
+          "sp": "Lenny Rachitsky",
+          "ep": "Inside Bolt: From near-death to ~$40m ARR in 5 months—one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
+          "line": "I think when we talk about PMs, that also applies to founders, like product thinking founders- (00:56:58):"
+        },
+        {
+          "v": "GECtyEj9UPA",
+          "t": 1273,
+          "sp": "Evan LaPointe",
+          "ep": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+          "line": "Because when we talk about imagination as a part of ability, we talk about imagination's capacity to generate alternatives for you, that's its purpose."
+        },
+        {
+          "v": "0FgZ1VVxEBo",
+          "t": 706,
+          "sp": "Georgiana Laudi",
+          "ep": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
+          "line": "I know SparkToro as well, which I think we might end up talking about again when we talk about the process, they doubled their trial-to-paid conversion rate when we worked with them because of post acquisition optimization to their messaging."
+        },
+        {
+          "v": "W7o40qcYHlM",
+          "t": 2583,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "We joke about marketplace, especially when we talk about with other teams that are trying to integrate in the marketplace, let's say they add fleets or teams with a big new product."
+        },
+        {
+          "v": "mmxTeS0AVMo",
+          "t": 1987,
+          "sp": "Jonathan Becker",
+          "ep": "Mastering paid growth | Jonathan Becker (Thrive Digital)",
+          "line": "And so I think that when we talk about creative as a big lever around efficiency and optimization, the underlying conversation there is that over time our industry has been heavily automated."
         }
       ]
     },
     {
       "p": "let me give you",
       "cat": "setup",
-      "display": "let me give you",
+      "display": "Let me give you",
       "fns": [],
       "total": 21,
       "episodes": 7,
@@ -1604,78 +2276,210 @@
       ]
     },
     {
-      "p": "when we talk about",
-      "cat": "setup",
-      "display": "when we talk about",
-      "fns": [
-        "framing-problem"
-      ],
-      "total": 23,
+      "p": "if i had to",
+      "cat": "opinion",
+      "display": "If I had to",
+      "fns": [],
+      "total": 25,
+      "episodes": 6,
+      "speakers": 6,
+      "hits": [
+        {
+          "v": "21sFTZzIfUk",
+          "t": 4044,
+          "sp": "Ben Williams",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "And if I had to pick one meeting that as the most important in the growth team, it would be this."
+        },
+        {
+          "v": "X-83gvgVaWc",
+          "t": 525,
+          "sp": "Bob Baxley",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "If I had to do it again, I could probably do better at Pinterest."
+        },
+        {
+          "v": "ja6fWTDPQl4",
+          "t": 2424,
+          "sp": "Brendan Foody",
+          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+          "line": "If I had to choose another, it's customer obsession."
+        },
+        {
+          "v": "ja6fWTDPQl4",
+          "t": 2635,
+          "sp": "Brendan Foody",
+          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+          "line": "I think if I had to distill it into advice for founders, one thing I've realized is that I spent a lot of time trying forced product-market fit."
+        },
+        {
+          "v": "ja6fWTDPQl4",
+          "t": 3828,
+          "sp": "Brendan Foody",
+          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+          "line": "My favorite TV show of all time is Suits, so I know not recent, but if I had to choose a recent one, probably Oppenheimer."
+        },
+        {
+          "v": "qImgGtnNbx0",
+          "t": 4917,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "I don't read a lot of nonfiction, but probably if I had to pick one in the area of the topics we talked about, Competing Against Luck, which was the book that produced Jobs to be Done, which is a framework I really believe in."
+        },
+        {
+          "v": "3UyitfSbY6c",
+          "t": 594,
+          "sp": "Brian Halligan",
+          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+          "line": "If I had to guess, Lenny, with 18 months after you hire a C-level exec, at least 50% of the time they're gone."
+        },
+        {
+          "v": "SzKKJwuRFZI",
+          "t": 504,
+          "sp": "Chris Miller",
+          "ep": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+          "line": "And so, if I had to guess how people might talk about that, if I wasn't in the room, maybe they would cite that, but it's tough to say."
+        }
+      ]
+    },
+    {
+      "p": "i don't think that",
+      "cat": "disagree",
+      "display": "I don't think that",
+      "fns": [],
+      "total": 25,
       "episodes": 8,
       "speakers": 8,
       "hits": [
         {
-          "v": "6UHAop9fhNU",
-          "t": 2192,
-          "sp": "Ami Vora",
-          "ep": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
-          "line": "I mean, I think taking a sub part of WhatsApp or when we talk about video calling."
+          "v": "X-83gvgVaWc",
+          "t": 1026,
+          "sp": "Bob Baxley",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "I don't think that those organizations are competing on design in the same way."
         },
         {
-          "v": "WFLH8Af2f30",
-          "t": 1945,
-          "sp": "Chandra Janakiraman",
-          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
-          "line": "I'll get back to it when we talk about big S, which is different."
+          "v": "hZSh0rs20uI",
+          "t": 2274,
+          "sp": "Camille Fournier",
+          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+          "line": "I don't think that command and control, I tell you what to do and you do it."
         },
         {
-          "v": "xzebbzIntFc",
-          "t": 1991,
-          "sp": "Eric Ries",
-          "ep": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
-          "line": "And then we call it establishing a baseline when we talk about innovation accounting and the metrics side of Lean Startup."
+          "v": "bY5KC9Gguz8",
+          "t": 1984,
+          "sp": "Camille Ricketts",
+          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+          "line": "At the same time I don't think that community is right for every company."
         },
         {
-          "v": "L22DtAHLmzs",
-          "t": 3412,
-          "sp": "Lenny Rachitsky",
-          "ep": "Inside Bolt: From near-death to ~$40m ARR in 5 months—one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
-          "line": "I think when we talk about PMs, that also applies to founders, like product thinking founders- (00:56:58):"
+          "v": "qbvY0dQgSJ4",
+          "t": 4626,
+          "sp": "Chip Huyen",
+          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+          "line": "Maybe those things, but in the end of life, I don't think that actually really matters."
         },
         {
-          "v": "GECtyEj9UPA",
-          "t": 1273,
-          "sp": "Evan LaPointe",
-          "ep": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
-          "line": "Because when we talk about imagination as a part of ability, we talk about imagination's capacity to generate alternatives for you, that's its purpose."
+          "v": "JMeXWVw0r3E",
+          "t": 2672,
+          "sp": "Dhanji R. Prasanna",
+          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+          "line": "I don't think that things have progressed far enough that it's really impacted in a fundamental way how many people you would need to build an app of the scale of Cash App, for example."
         },
         {
-          "v": "0FgZ1VVxEBo",
-          "t": 706,
-          "sp": "Georgiana Laudi",
-          "ep": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
-          "line": "I know SparkToro as well, which I think we might end up talking about again when we talk about the process, they doubled their trial-to-paid conversion rate when we worked with them because of post acquisition optimization to their messaging."
+          "v": "iT7kq-R3Gjc",
+          "t": 2296,
+          "sp": "Ethan Smith",
+          "ep": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
+          "line": "I don't think that you'll need to optimize for 10, but there'll probably be around three or so that will win that you want to optimize for."
         },
         {
-          "v": "W7o40qcYHlM",
-          "t": 2583,
-          "sp": "John Mark Nickels",
-          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
-          "line": "We joke about marketplace, especially when we talk about with other teams that are trying to integrate in the marketplace, let's say they add fleets or teams with a big new product."
+          "v": "W99jdYZOlN0",
+          "t": 4320,
+          "sp": "Jason Droege",
+          "ep": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+          "line": "Yeah, I don't think that the core rise of humanity, it will change, and I think that these things are pretty core to how humans have been successful for a long time."
         },
         {
-          "v": "mmxTeS0AVMo",
-          "t": 1987,
-          "sp": "Jonathan Becker",
-          "ep": "Mastering paid growth | Jonathan Becker (Thrive Digital)",
-          "line": "And so I think that when we talk about creative as a big lever around efficiency and optimization, the underlying conversation there is that over time our industry has been heavily automated."
+          "v": "tLLqE6Ia8-U",
+          "t": 396,
+          "sp": "Jessica Hische",
+          "ep": "How to see like a designer: The hidden power of typography and logos | Jessica Hische (Lettering Artist, Author)",
+          "line": "Some people start a company and think the logo is going to drive the culture of the company, which I don't think that that is true."
+        }
+      ]
+    },
+    {
+      "p": "i'm a big believer",
+      "cat": "opinion",
+      "display": "I'm a big believer",
+      "fns": [],
+      "total": 25,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "bY5KC9Gguz8",
+          "t": 3465,
+          "sp": "Camille Ricketts",
+          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+          "line": "I'm a big believer in comms."
+        },
+        {
+          "v": "adyIaTopO6g",
+          "t": 4390,
+          "sp": "David Placek",
+          "ep": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
+          "line": "And then the second thing from just a creative help, I'm a big believer in synchronicity."
+        },
+        {
+          "v": "9euy9gC48lc",
+          "t": 1026,
+          "sp": "Paul Adams",
+          "ep": "Failure",
+          "line": "I'm a big believer in big bets, higher risk, higher reward."
+        },
+        {
+          "v": "W99jdYZOlN0",
+          "t": 2628,
+          "sp": "Jason Droege",
+          "ep": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+          "line": "I'm a big believer that it's cliche, but show me the incentive and I'll show you the outcome."
+        },
+        {
+          "v": "gLFZNzeylCc",
+          "t": 1600,
+          "sp": "Jiaona Zhang",
+          "ep": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM | Jiaona Zhang (Webflow, WeWork, Airbnb, Dropbox)",
+          "line": "I think every team takes it and tweaks it a little bit, but I'm a big believer of bringing those artifacts back and then sharing them across the team."
+        },
+        {
+          "v": "zn2JNbZwf00",
+          "t": 3072,
+          "sp": "Lenny",
+          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+          "line": "Something I'm a big believer in is focusing on strengths versus trying to make your weaknesses much, much stronger."
+        },
+        {
+          "v": "QaDsk4iH1aw",
+          "t": 2843,
+          "sp": "Krithika Shankarraman",
+          "ep": "Growth tactics from OpenAI and Stripe’s first marketer | Krithika Shankarraman",
+          "line": "I'm a big believer of what Claire Hughes Johnson, who was COO at Stripe, used to share with us, which is there is a concept of a work-life blend and sort of making sure that you're working at a company that has three components."
+        },
+        {
+          "v": "XmgetFMgQZ0",
+          "t": 2069,
+          "sp": "Lane Shackleton",
+          "ep": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
+          "line": "In general, I'm a big believer in good design and good product starts with noticing."
         }
       ]
     },
     {
       "p": "when i talk to",
       "cat": "setup",
-      "display": "when i talk to",
+      "display": "When I talk to",
       "fns": [
         "saying-no"
       ],
@@ -1742,143 +2546,76 @@
       ]
     },
     {
-      "p": "i don't think that",
-      "cat": "disagree",
-      "display": "i don't think that",
+      "p": "what would you do",
+      "cat": "ask",
+      "display": "What would you do",
       "fns": [],
       "total": 26,
-      "episodes": 8,
-      "speakers": 8,
+      "episodes": 4,
+      "speakers": 5,
       "hits": [
         {
-          "v": "X-83gvgVaWc",
-          "t": 1026,
-          "sp": "Bob Baxley",
-          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "line": "I don't think that those organizations are competing on design in the same way."
+          "v": "2ezz4KJe7kA",
+          "t": 1514,
+          "sp": "Eeke de Milliano",
+          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+          "line": "\"With 20% more time, what would you do that isn't on this list already?\" (00:25:21):"
         },
         {
-          "v": "hZSh0rs20uI",
-          "t": 2274,
-          "sp": "Camille Fournier",
-          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
-          "line": "I don't think that command and control, I tell you what to do and you do it."
+          "v": "2ezz4KJe7kA",
+          "t": 1798,
+          "sp": "Eeke de Milliano",
+          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+          "line": "Or the other question was, \"Look, if you doubled the team today, what would you do?\" That shows up in our planning processes as well."
         },
         {
-          "v": "bY5KC9Gguz8",
-          "t": 1984,
-          "sp": "Camille Ricketts",
-          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
-          "line": "At the same time I don't think that community is right for every company."
-        },
-        {
-          "v": "qbvY0dQgSJ4",
-          "t": 4626,
-          "sp": "Chip Huyen",
-          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
-          "line": "Maybe those things, but in the end of life, I don't think that actually really matters."
-        },
-        {
-          "v": "JMeXWVw0r3E",
-          "t": 2672,
-          "sp": "Dhanji R. Prasanna",
-          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-          "line": "I don't think that things have progressed far enough that it's really impacted in a fundamental way how many people you would need to build an app of the scale of Cash App, for example."
+          "v": "2ezz4KJe7kA",
+          "t": 1821,
+          "sp": "Lenny",
+          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+          "line": "Just like, \"What would you do if you had more resources?\" Maybe a quick question there."
         },
         {
           "v": "iT7kq-R3Gjc",
-          "t": 2296,
-          "sp": "Ethan Smith",
+          "t": 3524,
+          "sp": "Lenny Rachitsky",
           "ep": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-          "line": "I don't think that you'll need to optimize for 10, but there'll probably be around three or so that will win that you want to optimize for."
+          "line": "If you were them, what would you do over the next few years to keep things high quality and not drive these perverse incentives?"
         },
         {
-          "v": "W99jdYZOlN0",
-          "t": 4320,
-          "sp": "Jason Droege",
-          "ep": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
-          "line": "Yeah, I don't think that the core rise of humanity, it will change, and I think that these things are pretty core to how humans have been successful for a long time."
+          "v": "UpGR9P0Ufts",
+          "t": 966,
+          "sp": "Graham Weaver",
+          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+          "line": "I mean, the biggest question I think with respect to your career is, within reason, what would you do if you knew you wouldn't fail?"
         },
         {
-          "v": "tLLqE6Ia8-U",
-          "t": 396,
-          "sp": "Jessica Hische",
-          "ep": "How to see like a designer: The hidden power of typography and logos | Jessica Hische (Lettering Artist, Author)",
-          "line": "Some people start a company and think the logo is going to drive the culture of the company, which I don't think that that is true."
-        }
-      ]
-    },
-    {
-      "p": "if i had to",
-      "cat": "opinion",
-      "display": "if i had to",
-      "fns": [],
-      "total": 27,
-      "episodes": 6,
-      "speakers": 6,
-      "hits": [
-        {
-          "v": "-PDsvl2WCZU",
-          "t": 4085,
-          "sp": "Adam Grenier",
-          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
-          "line": "But I would say if I had to make a bet right now, I think a full-time or closer to full-time investing world is what I'd like to lean more towards."
+          "v": "UpGR9P0Ufts",
+          "t": 991,
+          "sp": "Graham Weaver",
+          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+          "line": "If you didn't have to make money, what would you do?"
         },
         {
-          "v": "21sFTZzIfUk",
-          "t": 4044,
-          "sp": "Ben Williams",
-          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
-          "line": "And if I had to pick one meeting that as the most important in the growth team, it would be this."
+          "v": "dAnF0tk0di8",
+          "t": 3269,
+          "sp": "Jason Fried",
+          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+          "line": "What's a go is that's a clever design, well executed, thoughtful, clear, and here's where they could take it from here on out if they had a few more days, or even if we had 15 minutes, what would you do you do with that?"
         },
         {
-          "v": "X-83gvgVaWc",
-          "t": 525,
-          "sp": "Bob Baxley",
-          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "line": "If I had to do it again, I could probably do better at Pinterest."
-        },
-        {
-          "v": "ja6fWTDPQl4",
-          "t": 2424,
-          "sp": "Brendan Foody",
-          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-          "line": "If I had to choose another, it's customer obsession."
-        },
-        {
-          "v": "ja6fWTDPQl4",
-          "t": 2635,
-          "sp": "Brendan Foody",
-          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-          "line": "I think if I had to distill it into advice for founders, one thing I've realized is that I spent a lot of time trying forced product-market fit."
-        },
-        {
-          "v": "ja6fWTDPQl4",
-          "t": 3828,
-          "sp": "Brendan Foody",
-          "ep": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-          "line": "My favorite TV show of all time is Suits, so I know not recent, but if I had to choose a recent one, probably Oppenheimer."
-        },
-        {
-          "v": "qImgGtnNbx0",
-          "t": 4917,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "I don't read a lot of nonfiction, but probably if I had to pick one in the area of the topics we talked about, Competing Against Luck, which was the book that produced Jobs to be Done, which is a framework I really believe in."
-        },
-        {
-          "v": "3UyitfSbY6c",
-          "t": 594,
-          "sp": "Brian Halligan",
-          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-          "line": "If I had to guess, Lenny, with 18 months after you hire a C-level exec, at least 50% of the time they're gone."
+          "v": "dAnF0tk0di8",
+          "t": 6049,
+          "sp": "Jason Fried",
+          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+          "line": "if you had more time, what would you do with this idea?"
         }
       ]
     },
     {
       "p": "just to be clear",
       "cat": "clarify",
-      "display": "just to be clear",
+      "display": "Just to be clear",
       "fns": [],
       "total": 27,
       "episodes": 8,
@@ -1943,76 +2680,279 @@
       ]
     },
     {
-      "p": "what would you do",
-      "cat": "ask",
-      "display": "what would you do",
-      "fns": [],
-      "total": 27,
-      "episodes": 4,
+      "p": "what you just said",
+      "cat": "clarify",
+      "display": "What you just said",
+      "fns": [
+        "interrupting"
+      ],
+      "total": 30,
+      "episodes": 8,
       "speakers": 5,
       "hits": [
         {
-          "v": "2ezz4KJe7kA",
-          "t": 1514,
-          "sp": "Eeke de Milliano",
-          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
-          "line": "\"With 20% more time, what would you do that isn't on this list already?\" (00:25:21):"
+          "v": "6UHAop9fhNU",
+          "t": 1354,
+          "sp": "Lenny Rachitsky",
+          "ep": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+          "line": "I think there's a lot of nuance and importance there of what you just said, which is start with the problem you're solving."
         },
         {
-          "v": "2ezz4KJe7kA",
-          "t": 1798,
-          "sp": "Eeke de Milliano",
-          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
-          "line": "Or the other question was, \"Look, if you doubled the team today, what would you do?\" That shows up in our planning processes as well."
+          "v": "hZSh0rs20uI",
+          "t": 2356,
+          "sp": "Lenny Rachitsky",
+          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+          "line": "After realizing what you just said is true, like, \"Oh, what I done-\" (00:39:22):"
         },
         {
-          "v": "2ezz4KJe7kA",
-          "t": 1821,
+          "v": "Pm7QSWDIEUc",
+          "t": 737,
+          "sp": "Carilu Dietrich",
+          "ep": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+          "line": "Later in your career, I think what you just said, picking later stage versus earlier stage gives you a better view of their momentum."
+        },
+        {
+          "v": "kc1XhB4k0Eg",
+          "t": 1073,
           "sp": "Lenny",
-          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
-          "line": "Just like, \"What would you do if you had more resources?\" Maybe a quick question there."
+          "ep": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+          "line": "I just recorded another podcast this morning actually, and what you just said reminded me of it, where a lot of people focus too much on features and not enough on benefits."
+        },
+        {
+          "v": "SzKKJwuRFZI",
+          "t": 2029,
+          "sp": "Lenny",
+          "ep": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+          "line": "So, many people have said what you just said about Jules, about how helpful he is been to them."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 493,
+          "sp": "Dr. Becky Kennedy",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "I guess my most generous interpretation of what you just said is slightly different but similar, which is that all humans need the same things."
         },
         {
           "v": "iT7kq-R3Gjc",
-          "t": 3524,
+          "t": 2331,
           "sp": "Lenny Rachitsky",
           "ep": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-          "line": "If you were them, what would you do over the next few years to keep things high quality and not drive these perverse incentives?"
+          "line": "Just to clarify what you just said, what do you mean when you say citation strategy is different?"
         },
         {
-          "v": "UpGR9P0Ufts",
-          "t": 966,
-          "sp": "Graham Weaver",
-          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
-          "line": "I mean, the biggest question I think with respect to your career is, within reason, what would you do if you knew you wouldn't fail?"
+          "v": "GECtyEj9UPA",
+          "t": 2552,
+          "sp": "Evan LaPointe",
+          "ep": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+          "line": "So even though they might run into this roadblock, A, they're going to do exactly what you just said and they're going to push themselves."
+        }
+      ]
+    },
+    {
+      "p": "what does that look",
+      "cat": "ask",
+      "display": "What does that look",
+      "fns": [],
+      "total": 30,
+      "episodes": 8,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "-tUIGpgmsZw",
+          "t": 2299,
+          "sp": "Lenny",
+          "ep": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+          "line": "What does that look like?"
         },
         {
-          "v": "UpGR9P0Ufts",
-          "t": 991,
-          "sp": "Graham Weaver",
-          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
-          "line": "If you didn't have to make money, what would you do?"
+          "v": "DZtGxNs9AVg",
+          "t": 3004,
+          "sp": "Lenny Rachitsky",
+          "ep": "Building Lovable: $10M ARR in 60 days with 15 people | Anton Osika (co-founder and CEO)",
+          "line": "Just what does that look like if you have something?"
         },
         {
-          "v": "dAnF0tk0di8",
-          "t": 3116,
-          "sp": "Jason Fried",
-          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
-          "line": "And one of the things I'll often ask is, if you had another couple days, what would you do with this?"
+          "v": "B79p85DHLkU",
+          "t": 3064,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "The question will be how quickly can they stand up an API for advertising and what does that look like or do they just blind it in with the existing meta and Facebook architecture?"
         },
         {
-          "v": "dAnF0tk0di8",
-          "t": 3269,
-          "sp": "Jason Fried",
-          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
-          "line": "What's a go is that's a clever design, well executed, thoughtful, clear, and here's where they could take it from here on out if they had a few more days, or even if we had 15 minutes, what would you do you do with that?"
+          "v": "21sFTZzIfUk",
+          "t": 4229,
+          "sp": "Lenny",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "So what does that look like org chart wise?"
+        },
+        {
+          "v": "UmirRfy-gzA",
+          "t": 4001,
+          "sp": "Lenny",
+          "ep": "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)",
+          "line": "And so I would say the core foundations aren't something we revisit a lot, but we're continually adding new features and we have to think about what tiers should they go in, what does that look like?"
+        },
+        {
+          "v": "m7LvNTbaqSI",
+          "t": 3292,
+          "sp": "Lenny Rachitsky",
+          "ep": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+          "line": "What does that look like?"
+        },
+        {
+          "v": "JMeXWVw0r3E",
+          "t": 559,
+          "sp": "Lenny Rachitsky",
+          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+          "line": "What does that look like?"
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 4793,
+          "sp": "Lenny Rachitsky",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "What does that look like?"
+        }
+      ]
+    },
+    {
+      "p": "i'm a big fan of",
+      "cat": "agree",
+      "display": "I'm a big fan of",
+      "fns": [],
+      "total": 34,
+      "episodes": 6,
+      "speakers": 5,
+      "hits": [
+        {
+          "v": "xQV7HVyAJjc",
+          "t": 248,
+          "sp": "Lenny",
+          "ep": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+          "line": "Ah, I'm a big fan of yours."
+        },
+        {
+          "v": "qbvY0dQgSJ4",
+          "t": 1638,
+          "sp": "Chip Huyen",
+          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+          "line": "I'm a big fan of eval, I love reading eval."
+        },
+        {
+          "v": "qbvY0dQgSJ4",
+          "t": 1680,
+          "sp": "Chip Huyen",
+          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+          "line": "So you see eval, because I think I'm a big fan of eval, is that it helps you uncover opportunities where the progress are doing well."
+        },
+        {
+          "v": "Mv0o9o4MRh0",
+          "t": 3225,
+          "sp": "Claire Hughes Johnson",
+          "ep": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+          "line": "And then I'm a big fan of writing sort of what we Stripe called our long-term goals, which were just not our short distance, but our longer distance, like why did we exist?"
+        },
+        {
+          "v": "egdYKLBswgk",
+          "t": 4041,
+          "sp": "Drew Houston",
+          "ep": "Behind the founder: Drew Houston (Dropbox)",
+          "line": "I'm a big fan of people like Peter Drucker, and lots of people who think about the nature of work, and this idea of we're finally decoupling work from our physical location."
+        },
+        {
+          "v": "2ezz4KJe7kA",
+          "t": 3204,
+          "sp": "Lenny",
+          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+          "line": "I'm a big fan of Linear."
+        },
+        {
+          "v": "jW9GzaaRPxk",
+          "t": 1781,
+          "sp": "Emilie Gerber",
+          "ep": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+          "line": "I'm a big fan of just reaching out on LinkedIn and saying, \"Hey, love the show."
+        },
+        {
+          "v": "jW9GzaaRPxk",
+          "t": 1987,
+          "sp": "Emilie Gerber",
+          "ep": "The ultimate guide to PR | Emilie Gerber (founder of Six Eastern)",
+          "line": "And so for me, I'm a big fan of being helpful to reporters, and I tend to just keep it professional and pitch them on stories."
+        }
+      ]
+    },
+    {
+      "p": "why do you think",
+      "cat": "ask",
+      "display": "Why do you think",
+      "fns": [],
+      "total": 37,
+      "episodes": 6,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "bvF0ZM8DjuI",
+          "t": 1348,
+          "sp": "Alisa Cohn",
+          "ep": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
+          "line": "Why do you think [inaudible 00:22:31] emotional?"
+        },
+        {
+          "v": "-tUIGpgmsZw",
+          "t": 694,
+          "sp": "Lenny",
+          "ep": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+          "line": "Why do you think it is that not more companies have an APM program?"
+        },
+        {
+          "v": "X-83gvgVaWc",
+          "t": 47,
+          "sp": "Lenny Rachitsky",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "Why do you Think that people that have left Apple, a lot of amazing things haven't emerged?"
+        },
+        {
+          "v": "X-83gvgVaWc",
+          "t": 377,
+          "sp": "Lenny Rachitsky",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "Why do you think that people that have left Apple, a lot of amazing things haven't emerged from people that have left?"
+        },
+        {
+          "v": "3UyitfSbY6c",
+          "t": 1668,
+          "sp": "Lenny Rachitsky",
+          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+          "line": "Why do you think that's the case?"
+        },
+        {
+          "v": "3UyitfSbY6c",
+          "t": 4285,
+          "sp": "Lenny Rachitsky",
+          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+          "line": "Why do you think it takes people, why does it take a moment like that to have someone realize, I need to change or just- (01:11:35):"
+        },
+        {
+          "v": "qbvY0dQgSJ4",
+          "t": 318,
+          "sp": "Lenny Rachitsky",
+          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+          "line": "Why do you think this hit such a nerve with people?"
+        },
+        {
+          "v": "kvkL18Ue0dE",
+          "t": 1856,
+          "sp": "Christina Wodtke",
+          "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+          "line": "And then you can say, \"Well, why do you think that's important?"
         }
       ]
     },
     {
       "p": "i'll give you a",
       "cat": "setup",
-      "display": "i'll give you a",
+      "display": "I'll give you a",
       "fns": [
         "clarifying"
       ],
@@ -2081,7 +3021,7 @@
     {
       "p": "i know this is",
       "cat": "hedge",
-      "display": "i know this is",
+      "display": "I know this is",
       "fns": [
         "coaching-questions"
       ],
@@ -2148,76 +3088,9 @@
       ]
     },
     {
-      "p": "why do you think",
-      "cat": "ask",
-      "display": "why do you think",
-      "fns": [],
-      "total": 38,
-      "episodes": 6,
-      "speakers": 4,
-      "hits": [
-        {
-          "v": "bvF0ZM8DjuI",
-          "t": 1348,
-          "sp": "Alisa Cohn",
-          "ep": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
-          "line": "Why do you think [inaudible 00:22:31] emotional?"
-        },
-        {
-          "v": "-tUIGpgmsZw",
-          "t": 694,
-          "sp": "Lenny",
-          "ep": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
-          "line": "Why do you think it is that not more companies have an APM program?"
-        },
-        {
-          "v": "X-83gvgVaWc",
-          "t": 47,
-          "sp": "Lenny Rachitsky",
-          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "line": "Why do you Think that people that have left Apple, a lot of amazing things haven't emerged?"
-        },
-        {
-          "v": "X-83gvgVaWc",
-          "t": 377,
-          "sp": "Lenny Rachitsky",
-          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "line": "Why do you think that people that have left Apple, a lot of amazing things haven't emerged from people that have left?"
-        },
-        {
-          "v": "3UyitfSbY6c",
-          "t": 1668,
-          "sp": "Lenny Rachitsky",
-          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-          "line": "Why do you think that's the case?"
-        },
-        {
-          "v": "3UyitfSbY6c",
-          "t": 4285,
-          "sp": "Lenny Rachitsky",
-          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-          "line": "Why do you think it takes people, why does it take a moment like that to have someone realize, I need to change or just- (01:11:35):"
-        },
-        {
-          "v": "qbvY0dQgSJ4",
-          "t": 318,
-          "sp": "Lenny Rachitsky",
-          "ep": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
-          "line": "Why do you think this hit such a nerve with people?"
-        },
-        {
-          "v": "kvkL18Ue0dE",
-          "t": 1856,
-          "sp": "Christina Wodtke",
-          "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
-          "line": "And then you can say, \"Well, why do you think that's important?"
-        }
-      ]
-    },
-    {
       "p": "what i would say",
       "cat": "opinion",
-      "display": "what i would say",
+      "display": "What I would say",
       "fns": [
         "handling-objections"
       ],
@@ -2284,9 +3157,76 @@
       ]
     },
     {
+      "p": "but i would say",
+      "cat": "disagree",
+      "display": "But I would say",
+      "fns": [],
+      "total": 40,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "-PDsvl2WCZU",
+          "t": 1735,
+          "sp": "Adam Grenier",
+          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+          "line": "But I would say most channels, especially new ones, are going to take more than a couple cycles to kind of suss out."
+        },
+        {
+          "v": "-PDsvl2WCZU",
+          "t": 4085,
+          "sp": "Adam Grenier",
+          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+          "line": "But I would say if I had to make a bet right now, I think a full-time or closer to full-time investing world is what I'd like to lean more towards."
+        },
+        {
+          "v": "CYwgStMln6U",
+          "t": 1547,
+          "sp": "Benjamin Lauzier",
+          "ep": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+          "line": "So, it's feasible, but I would say that is not a compelling attribute for building a marketplace."
+        },
+        {
+          "v": "qImgGtnNbx0",
+          "t": 1905,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "I do still think studying computer science is a different answer than learning to code, but I would say I still think it's extremely valuable to study computer science."
+        },
+        {
+          "v": "bY5KC9Gguz8",
+          "t": 2234,
+          "sp": "Camille Ricketts",
+          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
+          "line": "Obviously Notion runs the full gamut, but I would say especially early on I think that that's where we saw things take root and that's where I think ambassadors and influencers really take off."
+        },
+        {
+          "v": "WFLH8Af2f30",
+          "t": 2839,
+          "sp": "Chandra Janakiraman",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "I would say it's not sort of an empirical study, obviously because of the small sample size, but I would say that it's really opened people's eyes and it's led to really good alignment and eventually good results."
+        },
+        {
+          "v": "kc1XhB4k0Eg",
+          "t": 3615,
+          "sp": "Chris Hutchins",
+          "ep": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+          "line": "But I would say if you cross 10,000 downloads an episode, you are now taken seriously by a lot of people."
+        },
+        {
+          "v": "kvkL18Ue0dE",
+          "t": 4049,
+          "sp": "Christina Wodtke",
+          "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+          "line": "But I would say I like Zoom better than you might think."
+        }
+      ]
+    },
+    {
       "p": "how do you know",
       "cat": "ask",
-      "display": "how do you know",
+      "display": "How do you know",
       "fns": [
         "coaching-questions"
       ],
@@ -2353,78 +3293,143 @@
       ]
     },
     {
-      "p": "the way i think",
-      "cat": "opinion",
-      "display": "the way i think",
-      "fns": [
-        "framing-problem"
-      ],
-      "total": 47,
-      "episodes": 6,
-      "speakers": 6,
+      "p": "i think that's a really",
+      "cat": "agree",
+      "display": "I think that's a really",
+      "fns": [],
+      "total": 49,
+      "episodes": 8,
+      "speakers": 5,
       "hits": [
         {
+          "v": "2BKmNmnEj9w",
+          "t": 2443,
+          "sp": "Lenny Rachitsky",
+          "ep": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+          "line": "So I think that's a really interesting takeaway here is you can succeed in a lot of different ways."
+        },
+        {
+          "v": "bvF0ZM8DjuI",
+          "t": 2973,
+          "sp": "Lenny Rachitsky",
+          "ep": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
+          "line": "And I think that's a really good point."
+        },
+        {
           "v": "6UHAop9fhNU",
-          "t": 2822,
+          "t": 3759,
           "sp": "Ami Vora",
           "ep": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
-          "line": "And which of those seems right or rational or it will go the way I think the world goes."
+          "line": "I think that's a really hard thing, is just to recognize and acknowledge that increasingly people only see you do, make suboptimal decisions and from a distance they're just like, why is that person only making bad decisions?"
         },
         {
-          "v": "HbbfXAWcuUo",
-          "t": 2798,
-          "sp": "Aparna Chennapragada",
-          "ep": "Microsoft CPO: If you aren’t prototyping with AI, you’re doing it wrong | Aparna Chennapragada",
-          "line": "The way I think about how we are positioned and what we do with GitHub is..."
-        },
-        {
-          "v": "xQV7HVyAJjc",
-          "t": 2428,
-          "sp": "Bob Moesta",
-          "ep": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
-          "line": "By the way, I think it's one of the reasons why I reached out because I'm like, \"Okay, we need to clarify this a little.\" (00:40:37):"
-        },
-        {
-          "v": "qImgGtnNbx0",
-          "t": 554,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "But it took, I think for me as a product leader, it changed the way I think about product just because there's feature and functionality and then there's like why should I use this thing in the first place?"
-        },
-        {
-          "v": "qImgGtnNbx0",
-          "t": 3108,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "I think thinking of it like that is the way I think about these technologies."
-        },
-        {
-          "v": "sRukk520Fds",
-          "t": 2376,
+          "v": "Vlph3dn4jnU",
+          "t": 3640,
           "sp": "Lenny Rachitsky",
-          "ep": "Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)",
-          "line": "The way I think about jobs to be done is exactly the way you're describing it where it's just think from the lens of the job to be done for our customers."
+          "ep": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
+          "line": "I think that's a really good way of..."
         },
         {
-          "v": "bY5KC9Gguz8",
-          "t": 3206,
-          "sp": "Lenny",
-          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
-          "line": "It connects so much with the way I think about writing."
+          "v": "B79p85DHLkU",
+          "t": 4407,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "So, I think that's a really good lesson for systems, and it's obviously a lesson that you can apply to the rest of your life too."
         },
         {
-          "v": "bY5KC9Gguz8",
-          "t": 3254,
+          "v": "EW6K8ZOWoIs",
+          "t": 1145,
           "sp": "Lenny",
-          "ep": "How Notion leveraged community to build a $10B business | Camille Ricketts (Notion, First Round Capital)",
-          "line": "The way I think about it."
+          "ep": "Frameworks for product differentiation, team building, and thinking from first principles | Ayo Omojola (Carbon Health, Cash App)",
+          "line": "I think that's a really good takeaway."
+        },
+        {
+          "v": "21sFTZzIfUk",
+          "t": 2944,
+          "sp": "Ben Williams",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "So I think that's a really key part of it."
+        },
+        {
+          "v": "hZSh0rs20uI",
+          "t": 852,
+          "sp": "Lenny Rachitsky",
+          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+          "line": "And so, I think that's a really good reminder is let your engineers do that."
+        }
+      ]
+    },
+    {
+      "p": "that's a really good",
+      "cat": "agree",
+      "display": "That's a really good",
+      "fns": [],
+      "total": 53,
+      "episodes": 6,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "wP8YyWH524A",
+          "t": 2438,
+          "sp": "Adam Fishman",
+          "ep": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+          "line": "And so that's a really good example I think, of Patreon and one of the impacts that we had on creator, earnings, retention and their overall success on the platform."
+        },
+        {
+          "v": "PoWRYBWSqpU",
+          "t": 1371,
+          "sp": "Alex Komoroske",
+          "ep": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+          "line": "And then I just allow myself to like, \"Oh, that's a really good idea and let me build on that or let me...\" I don't even know where that particular one came, but I'm 95% sure that somebody else said that."
+        },
+        {
+          "v": "PoWRYBWSqpU",
+          "t": 2258,
+          "sp": "Lenny Rachitsky",
+          "ep": "Thinking like a gardener not a builder, organizing teams like slime mold, the adjacent possible, and other unconventional product advice | Alex Komoroske (Stripe, Google)",
+          "line": "That's a really good example of actually how to go about doing that on your team."
+        },
+        {
+          "v": "VxAwUb86MUE",
+          "t": 1205,
+          "sp": "Lenny Rachitsky",
+          "ep": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
+          "line": "That's a really good tip actually."
+        },
+        {
+          "v": "VxAwUb86MUE",
+          "t": 1209,
+          "sp": "Lenny Rachitsky",
+          "ep": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
+          "line": "That's a really good piece of advice."
+        },
+        {
+          "v": "EW6K8ZOWoIs",
+          "t": 994,
+          "sp": "Lenny",
+          "ep": "Frameworks for product differentiation, team building, and thinking from first principles | Ayo Omojola (Carbon Health, Cash App)",
+          "line": "That's a really good point, I didn't think about asking about that."
+        },
+        {
+          "v": "KPxTekxQjzc",
+          "t": 5361,
+          "sp": "Lenny Rachitsky",
+          "ep": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+          "line": "I know it's the lightning round, but can you just share one example of something he did that was like, wow, that's a really good lesson, someone trying to create a good culture that worked for him?"
+        },
+        {
+          "v": "21sFTZzIfUk",
+          "t": 4968,
+          "sp": "Lenny",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "I'm excited to get this post out and that's a really good anecdote of how a company comes up with it and what they set."
         }
       ]
     },
     {
       "p": "i want to make",
       "cat": "clarify",
-      "display": "i want to make",
+      "display": "I want to make",
       "fns": [
         "asking-for-resources"
       ],
@@ -2491,6 +3496,193 @@
       ]
     },
     {
+      "p": "a great example of",
+      "cat": "setup",
+      "display": "A great example of",
+      "fns": [],
+      "total": 54,
+      "episodes": 6,
+      "speakers": 6,
+      "hits": [
+        {
+          "v": "21sFTZzIfUk",
+          "t": 1983,
+          "sp": "Ben Williams",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "The GitHub kind of pool requests are a great example of that."
+        },
+        {
+          "v": "qImgGtnNbx0",
+          "t": 1529,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "And it was a great example of you..."
+        },
+        {
+          "v": "yJQYBjto41s",
+          "t": 1686,
+          "sp": "Dylan Field",
+          "ep": "Dylan Field live at Config: Intuition, simplicity, and the future of design",
+          "line": "And FigJam's a great example of that, we shipped it incredibly fast and it helped us get to market and get feedback faster."
+        },
+        {
+          "v": "PDobJV8wh1g",
+          "t": 2045,
+          "sp": "Gaurav Misra",
+          "ep": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+          "line": "A great example of that is a lot of this was figured out in retrospect too."
+        },
+        {
+          "v": "PDobJV8wh1g",
+          "t": 4775,
+          "sp": "Gaurav Misra",
+          "ep": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+          "line": "I mean, I think X is actually a great example of that too."
+        },
+        {
+          "v": "UpGR9P0Ufts",
+          "t": 463,
+          "sp": "Graham Weaver",
+          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+          "line": "So there's a great example of a student of mine was from Brazil."
+        },
+        {
+          "v": "UpGR9P0Ufts",
+          "t": 1619,
+          "sp": "Graham Weaver",
+          "ep": "How to break out of autopilot and create the life you want | Graham Weaver (Stanford GSB professor, founder of Alpine Investors)",
+          "line": "And you're a great example of that."
+        },
+        {
+          "v": "BsWxPI9UM4c",
+          "t": 4326,
+          "sp": "Shreya Shankar",
+          "ep": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+          "line": "Coding agents is a great example of that, Claude Code."
+        }
+      ]
+    },
+    {
+      "p": "no i think that's",
+      "cat": "agree",
+      "display": "No I think that's",
+      "fns": [],
+      "total": 7,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "SWcDfPVTizQ",
+          "t": 4133,
+          "sp": "Nicole Forsgren",
+          "ep": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+          "line": "No, I think that's it."
+        },
+        {
+          "v": "1GDVum5IarI",
+          "t": 5096,
+          "sp": "Rachel Lockett",
+          "ep": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+          "line": "Yeah, no, I think that's a great framework for when you want to go interact with someone around something that's not working for you."
+        },
+        {
+          "v": "RJ3iPWo3-8M",
+          "t": 4239,
+          "sp": "Ray Cao",
+          "ep": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
+          "line": "No.\" I think that's more about my personal hobby to see something like that."
+        },
+        {
+          "v": "VjJ6xcv7e8s",
+          "t": 2724,
+          "sp": "Sean Ellis",
+          "ep": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "line": "No, I think that's it."
+        },
+        {
+          "v": "RcYCU5UAZOk",
+          "t": 1107,
+          "sp": "Sri Batchu",
+          "ep": "Lessons from scaling Ramp | Sri Batchu (Ramp, Instacart, Opendoor)",
+          "line": "No, I think that's always been there."
+        },
+        {
+          "v": "5Z0RCxDZdrE",
+          "t": 3592,
+          "sp": "Varun Mohan",
+          "ep": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf | Varun Mohan (co-founder and CEO)",
+          "line": "No, I think that's important."
+        },
+        {
+          "v": "furNg4njlsg",
+          "t": 4385,
+          "sp": "Varun Parmar",
+          "ep": "An inside look at how Miro builds product: Lessons on outmaneuvering competitors, team structure, product quality, and moving fast | Varun Parmar (CPO of Miro)",
+          "line": "No, I think that's the key of the growth."
+        }
+      ]
+    },
+    {
+      "p": "i'm not sure i",
+      "cat": "disagree",
+      "display": "I'm not sure I",
+      "fns": [],
+      "total": 8,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "21sFTZzIfUk",
+          "t": 4659,
+          "sp": "Ben Williams",
+          "ep": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "line": "I'm not sure I have a good answer for that."
+        },
+        {
+          "v": "qImgGtnNbx0",
+          "t": 1688,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "I'm not sure I was great at market at the time, but if I had solicited the right advice, I could have learned that that was a shortcoming."
+        },
+        {
+          "v": "etVCBDRXUH8",
+          "t": 499,
+          "sp": "Jeffrey Pfeffer",
+          "ep": "The paths to power: How to grow your influence and advance your career | Jeffrey Pfeffer (author of 7 Rules of Power, professor at Stanford GSB)",
+          "line": "I'm not sure I like Taylor Swift, but I certainly want to go see Taylor Swift because everybody else is."
+        },
+        {
+          "v": "W7o40qcYHlM",
+          "t": 3029,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "And I'm not sure, I can't remember the last time I saw one towed, I don't want to say that they've solved self-driving, but they are obviously driving at scale with very minimal, at least real world intervention."
+        },
+        {
+          "v": "MKDnDueTvKk",
+          "t": 1238,
+          "sp": "Kayvon Beykpour",
+          "ep": "Twitter’s former Head of Product opens up: being fired, meeting Elon, changing stagnant culture, building consumer product, more | Kayvon Beykpour",
+          "line": "I'm not sure I would've been able to articulate it as succinctly as you did just now, but I think that is the feeling that I had that it's not my place anymore."
+        },
+        {
+          "v": "7uSuMIJhONA",
+          "t": 1533,
+          "sp": "Shishir Mehrotra",
+          "ep": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+          "line": "And the way Reid records, which I'm not sure I would recommend this, but he does it a little bit differently than you do."
+        },
+        {
+          "v": "yc1Uwhfxacs",
+          "t": 3382,
+          "sp": "Todd Jackson",
+          "ep": "A framework for finding product-market fit | Todd Jackson (First Round Capital)",
+          "line": "And you mentioned earlier, founders were like, \"I'm not sure I ever felt product-market fit.\" This is when you start to feel it."
+        }
+      ]
+    },
+    {
       "p": "i don't know if i have",
       "cat": "hedge",
       "display": "I don't know if I have",
@@ -2546,65 +3738,115 @@
       ]
     },
     {
-      "p": "i think we should do",
-      "cat": "opinion",
-      "display": "I think we should do",
-      "fns": [
-        "w-recommendation",
-        "proposing-idea"
-      ],
-      "total": 7,
-      "episodes": 4,
+      "p": "i think it's a great",
+      "cat": "agree",
+      "display": "I think it's a great",
+      "fns": [],
+      "total": 9,
+      "episodes": 5,
       "speakers": 5,
       "hits": [
         {
-          "v": "JMeXWVw0r3E",
-          "t": 395,
-          "sp": "Dhanji R. Prasanna",
-          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-          "line": "And to be honest, it's I think taken on a life of its own, but there wasn't much to the letter other than I think we should do this."
+          "v": "B79p85DHLkU",
+          "t": 1119,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "I think it's a great job personally, because I get to be an IC and a manager."
         },
         {
-          "v": "JMeXWVw0r3E",
-          "t": 403,
-          "sp": "Dhanji R. Prasanna",
-          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-          "line": "I think we should do it centrally and it's important for us to be ahead of the game and be an AI native company because that's where the industry is heading."
+          "v": "B79p85DHLkU",
+          "t": 4522,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "And I think it's a great way to just reset the atmosphere, make people dig a little bit deeper into who they are and be more vulnerable."
         },
         {
-          "v": "W7o40qcYHlM",
-          "t": 607,
-          "sp": "John Mark Nickels",
-          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
-          "line": "They're like, \"Well, no, I think we should do it this way."
+          "v": "7gaPPrAd7nc",
+          "t": 3293,
+          "sp": "Ian McAllister",
+          "ep": "What it takes to become a top 1% PM | Ian McAllister (Uber, Amazon, Airbnb)",
+          "line": "And yeah, I think it's a great thing whether you use the mechanism."
         },
         {
-          "v": "4LjddcccYIo",
-          "t": 2524,
-          "sp": "Maggie Crowley",
-          "ep": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
-          "line": "You can kind of get the point and the suggestion on what I think we should do or what the strategy should be, should be customizable in that section."
+          "v": "NR85H55eYkM",
+          "t": 5324,
+          "sp": "Madhavan Ramanujam",
+          "ep": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+          "line": "Yeah, I think it's a great question because we need to prepare for it, but of course be proactive."
         },
         {
-          "v": "4LjddcccYIo",
-          "t": 2947,
+          "v": "N7S6nSmOsUI",
+          "t": 3442,
+          "sp": "Paige Costello",
+          "ep": "How to ask the right questions, project confidence, and win over skeptics | Paige Costello (Asana, Intercom, Intuit)",
+          "line": "I think it's a great question."
+        },
+        {
+          "v": "BVzTfsUMaK8",
+          "t": 4427,
+          "sp": "Ramesh Johari",
+          "ep": "Marketplace lessons from Uber, Airbnb, Bumble, and more | Ramesh Johari (Stanford professor, startup advisor)",
+          "line": "And yeah, I think it's a great book."
+        }
+      ]
+    },
+    {
+      "p": "correct me if i'm",
+      "cat": "clarify",
+      "display": "Correct me if I'm",
+      "fns": [],
+      "total": 9,
+      "episodes": 6,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "Pm7QSWDIEUc",
+          "t": 1326,
           "sp": "Lenny",
-          "ep": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
-          "line": "And then you finally get to, here's what I think we should do, essentially the solution, ideally three bullet points, and then the plan."
+          "ep": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+          "line": "And correct me if I'm wrong."
         },
         {
-          "v": "HCKosdV1J-8",
-          "t": 2004,
-          "sp": "Scott Belsky",
-          "ep": "Lessons on building product sense, navigating AI, optimizing the first mile, and making it through the messy middle | Scott Belsky (Adobe, Behance)",
-          "line": "These are the two or three things I think we should do."
+          "v": "kc1XhB4k0Eg",
+          "t": 1316,
+          "sp": "Lenny",
+          "ep": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+          "line": "You just left Wealthfront and you launched the podcast maybe a year and a half ago, correct me if I'm wrong, by a year and a half ago."
+        },
+        {
+          "v": "zn2JNbZwf00",
+          "t": 379,
+          "sp": "Lenny",
+          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+          "line": "Correct me if I'm wrong, but that's an interesting example of one of the paths into product management: joining a startup, getting into product there."
+        },
+        {
+          "v": "4n3ybRqU5mU",
+          "t": 361,
+          "sp": "Lenny",
+          "ep": "How to be the best coach to product people | Petra Wille (Strong Product People)",
+          "line": "And correct me if I'm wrong, but you are focused on this middle layer of first line managers, directors."
+        },
+        {
+          "v": "zKP2HrMc23s",
+          "t": 2866,
+          "sp": "Sachin Monga",
+          "ep": "Building Substack | Sachin Monga (Substack, Facebook)",
+          "line": "Correct me if I'm spreading misinformation, but is that right?"
+        },
+        {
+          "v": "0P8LMyeYl1U",
+          "t": 283,
+          "sp": "Lenny",
+          "ep": "Lessons from Airtable’s unconventional growth strategy | Zoelle Egner",
+          "line": "You're probably best known for your time at Airtable, which, correct me if I'm wrong, you're employee number 11."
         }
       ]
     },
     {
       "p": "i'm not an expert",
       "cat": "hedge",
-      "display": "i'm not an expert",
+      "display": "I'm not an expert",
       "fns": [],
       "total": 5,
       "episodes": 5,
@@ -2644,6 +3886,52 @@
           "sp": "Peter Deng",
           "ep": "From ChatGPT to Instagram to Uber: The quiet architect behind the world’s most popular products | Peter Deng",
           "line": "And I'll be very honest, I'm not an expert in education, but I just thought a lot about it."
+        }
+      ]
+    },
+    {
+      "p": "say more about that",
+      "cat": "ask",
+      "display": "Say more about that",
+      "fns": [],
+      "total": 5,
+      "episodes": 5,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "ZG3iNH4vvMA",
+          "t": 3364,
+          "sp": "Brian Balfour",
+          "ep": "Brian Balfour: 10 lessons on career, growth, and life",
+          "line": "Oh, say more about that."
+        },
+        {
+          "v": "adyIaTopO6g",
+          "t": 1962,
+          "sp": "Lenny Rachitsky",
+          "ep": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
+          "line": "Say more about that because that is amazing because."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 1626,
+          "sp": "Lenny Rachitsky",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "Wait, say more about that, because that doesn't feel, as a parent, that my kid doesn't want to..."
+        },
+        {
+          "v": "GECtyEj9UPA",
+          "t": 1153,
+          "sp": "Lenny Rachitsky",
+          "ep": "Improve strategy, influence, and decision-making by understanding your brain | Evan LaPointe (founder of CORE Sciences)",
+          "line": "Oh, say more about that mean."
+        },
+        {
+          "v": "ZoSeOltKqQk",
+          "t": 3678,
+          "sp": "Lenny Rachitsky",
+          "ep": "Lessons in product leadership and AI strategy from Glean, Google, Amazon, and Slack | Tamar Yehoshua (Product at Glean, ex-Google and Slack)",
+          "line": "Wait, say more about that."
         }
       ]
     },
@@ -2698,7 +3986,7 @@
     {
       "p": "i have a different",
       "cat": "disagree",
-      "display": "i have a different",
+      "display": "I have a different",
       "fns": [],
       "total": 4,
       "episodes": 4,
@@ -2735,48 +4023,300 @@
       ]
     },
     {
-      "p": "so what you're saying",
+      "p": "the way i look",
+      "cat": "opinion",
+      "display": "The way I look",
+      "fns": [],
+      "total": 4,
+      "episodes": 4,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "xQV7HVyAJjc",
+          "t": 2982,
+          "sp": "Bob Moesta",
+          "ep": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+          "line": "As opposed to the way I look at it is basically only people have jobs, products don't have jobs, people have jobs, organizations don't have jobs, people in organizations have jobs because that's the irrational part."
+        },
+        {
+          "v": "cuce7zvOFHY",
+          "t": 1109,
+          "sp": "Jake Knapp",
+          "ep": "Making time for what matters | Jake Knapp and John Zeratsky (authors of Sprint and Make Time, co-founders of Character Capital)",
+          "line": "But part of our philosophy, I think that part of the way I look at it is it can be a mess."
+        },
+        {
+          "v": "gfEEcssu304",
+          "t": 4138,
+          "sp": "Katie Dill",
+          "ep": "Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+          "line": "And the way I look at it is, the way I talk about it is reach for the stars and land on the moon."
+        },
+        {
+          "v": "y7SN4FK8noY",
+          "t": 2359,
+          "sp": "Lenny Rachitsky",
+          "ep": "5 essential questions to craft a winning strategy | Roger Martin (author, advisor, speaker)",
+          "line": "So, here's the quote from Buffet, by the way, \"I look for economic castles protected by unbreachable moats.\" (00:39:27):"
+        }
+      ]
+    },
+    {
+      "p": "just so i understand",
       "cat": "clarify",
-      "display": "so what you're saying",
+      "display": "Just so I understand",
       "fns": [],
       "total": 4,
       "episodes": 4,
       "speakers": 2,
       "hits": [
         {
-          "v": "svQMODvIGAE",
-          "t": 2407,
-          "sp": "Annie Duke",
-          "ep": "This will make you a better decision-maker | Annie Duke (author of “Thinking in Bets” and “Quit,” former pro poker player)",
-          "line": "So what you're saying is there're functions that have to be in person."
-        },
-        {
-          "v": "ZG3iNH4vvMA",
-          "t": 1750,
-          "sp": "Lenny Rachitsky",
-          "ep": "Brian Balfour: 10 lessons on career, growth, and life",
-          "line": "So what you're saying is not only is there going to be this big opportunity to grow, if you don't take advantage of it, somebody in your space will."
-        },
-        {
           "v": "3UyitfSbY6c",
-          "t": 608,
+          "t": 1801,
           "sp": "Lenny Rachitsky",
           "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
-          "line": "And so, what you're saying here is there's only so much you can actually do to increase those odds."
+          "line": "This avatar, just so I understand."
         },
         {
-          "v": "nTr21kgCFF4",
-          "t": 2827,
+          "v": "CsruQYKISYI",
+          "t": 992,
+          "sp": "Lenny",
+          "ep": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
+          "line": "So just so I understand, you find a founder type to take the lead on a new idea and do you recruit them internally or you sometimes find them externally just to focus on this product?"
+        },
+        {
+          "v": "gfEEcssu304",
+          "t": 3921,
+          "sp": "Lenny",
+          "ep": "Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+          "line": "And just so I understand, essentially you reorged the teams and not just physically moved people, but you changed the way the product and design and eng team was even organized?"
+        },
+        {
+          "v": "ts9ZvlkeWGs",
+          "t": 5002,
           "sp": "Lenny Rachitsky",
-          "ep": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
-          "line": "So, what you're saying is people often don't think out of the box enough by not thinking too radically enough."
+          "ep": "The one question that saves product careers | Matt LeMay",
+          "line": "This makes me want to play music randomly, but just so I understand how this works, do you still plug that into a speaker, or is that- (01:23:30):"
+        }
+      ]
+    },
+    {
+      "p": "what i tell people",
+      "cat": "opinion",
+      "display": "What I tell people",
+      "fns": [],
+      "total": 5,
+      "episodes": 4,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "SXYc5RoU3Lg",
+          "t": 3655,
+          "sp": "Christian Idiodi",
+          "ep": "The essence of product management | Christian Idiodi (SVPG)",
+          "line": "And so what I tell people in the absence of getting good coaching, you need to find practice arenas."
+        },
+        {
+          "v": "gzs61z9Fekw",
+          "t": 1101,
+          "sp": "Emily Kramer",
+          "ep": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+          "line": "And then from there, what I tell people when you're hiring your first marketer and probably even your first several marketers, you're more want to hire generalist than specialists."
+        },
+        {
+          "v": "twzLDx9iers",
+          "t": 337,
+          "sp": "Molly Graham",
+          "ep": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+          "line": "Because I really think that basically what I tell people is I've made every single mistake in the book."
+        },
+        {
+          "v": "yFckwBtiCUM",
+          "t": 1126,
+          "sp": "Paul Millerd",
+          "ep": "Redefining success, money, and belonging | Paul Millerd (The Pathless Path)",
+          "line": "So what I tell people is fine, don't take a sabbatical."
+        }
+      ]
+    },
+    {
+      "p": "the thing that matters",
+      "cat": "opinion",
+      "display": "The thing that matters",
+      "fns": [],
+      "total": 5,
+      "episodes": 3,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 2203,
+          "sp": "Dan Hockenmaier",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "But actually the thing that matters is can you write an ROI equation for acquiring supply and demand which fully internalizes the marketplace dynamic."
+        },
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 2702,
+          "sp": "Dan Hockenmaier",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "There's one other lesson here which I've learned a few times, which is that product is the thing that matters when expanding."
+        },
+        {
+          "v": "JMeXWVw0r3E",
+          "t": 2485,
+          "sp": "Dhanji R. Prasanna",
+          "ep": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+          "line": "So yeah, I would say it just keep coming to the thing that matters to you as a company and then the rest will follow from that."
+        },
+        {
+          "v": "dAnF0tk0di8",
+          "t": 2707,
+          "sp": "Jason Fried",
+          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+          "line": "That's not the thing that matters."
+        }
+      ]
+    },
+    {
+      "p": "what i've found is",
+      "cat": "opinion",
+      "display": "What I've found is",
+      "fns": [],
+      "total": 9,
+      "episodes": 4,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "-PDsvl2WCZU",
+          "t": 4049,
+          "sp": "Adam Grenier",
+          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+          "line": "And so what I've found is that I really love entrepreneurs and working really closely with entrepreneurs and helping them figure out all of these funky things that I've been able to see over the last 20 years and maneuver."
+        },
+        {
+          "v": "zn2JNbZwf00",
+          "t": 3486,
+          "sp": "Jules Walter",
+          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+          "line": "How do you get the foot in the door?\" And what I've found is you should make the smallest ask possible, which is the opposite of what 95% of people do."
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 1180,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "But, what I've found is when you build a product, most founders, and most teams kind of stop when it works."
+        },
+        {
+          "v": "atS060bNpE0",
+          "t": 1598,
+          "sp": "Shreyas Doshi",
+          "ep": "4 questions Shreyas Doshi wishes he’d asked himself sooner | Former PM leader at Stripe, Twitter, Google",
+          "line": "And what I've found is at Stripe, I did this regularly with launches that my team was involved in."
+        }
+      ]
+    },
+    {
+      "p": "i don't have a good",
+      "cat": "hedge",
+      "display": "I don't have a good",
+      "fns": [],
+      "total": 3,
+      "episodes": 3,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "B79p85DHLkU",
+          "t": 3875,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "Yeah, I know that's not a good way to answer the question, but I don't have a good way of looking for red flags, but I do tend to spend a lot of time on netting out of false flags."
+        },
+        {
+          "v": "XkMbkWG2ca4",
+          "t": 2315,
+          "sp": "Logan Kilpatrick",
+          "ep": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
+          "line": "I don't think teams do OKRs today and I don't have a good understanding of why that's the case, whether or not."
+        },
+        {
+          "v": "xQkSenlJvwA",
+          "t": 5576,
+          "sp": "Nabeel S. Qureshi",
+          "ep": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
+          "line": "I don't have a good answer to that one."
+        }
+      ]
+    },
+    {
+      "p": "i would start with",
+      "cat": "opinion",
+      "display": "I would start with",
+      "fns": [],
+      "total": 3,
+      "episodes": 3,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "WFLH8Af2f30",
+          "t": 3477,
+          "sp": "Chandra Janakiraman",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "So I think you're probably in the last two to three weeks of the process, and pretty important final step is the rollout, and I would start with what I call gatekeepers."
+        },
+        {
+          "v": "RBbINB5HSHk",
+          "t": 1572,
+          "sp": "Geoffrey Moore",
+          "ep": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
+          "line": "Even though I have a product vision, I would start with trying to make as much projects, which would be very customer led."
+        },
+        {
+          "v": "dLku0AiGPVA",
+          "t": 2245,
+          "sp": "Lauryn Isford",
+          "ep": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+          "line": "So, I would start with what impact do we think we could have?"
+        }
+      ]
+    },
+    {
+      "p": "tell me more about",
+      "cat": "ask",
+      "display": "Tell me more about",
+      "fns": [],
+      "total": 3,
+      "episodes": 3,
+      "speakers": 3,
+      "hits": [
+        {
+          "v": "AlTQ6O2qooI",
+          "t": 3571,
+          "sp": "Dan Hockenmaier",
+          "ep": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "line": "You could probably tell me more about what Airbnb did in this space, but they made it a safe transaction and there's a lot of work it takes to make that transaction trustworthy and safe and so they charge a higher commission as a result."
+        },
+        {
+          "v": "4n3ybRqU5mU",
+          "t": 1392,
+          "sp": "Petra Wille",
+          "ep": "How to be the best coach to product people | Petra Wille (Strong Product People)",
+          "line": "The best product people that I know, whatever the topic is, they're interested and tell me more about it."
+        },
+        {
+          "v": "7uSuMIJhONA",
+          "t": 3578,
+          "sp": "Shishir Mehrotra",
+          "ep": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+          "line": "Usually people will start asking a bunch of questions and say, \"Well, tell me more about this device."
         }
       ]
     },
     {
       "p": "the way i see it",
       "cat": "opinion",
-      "display": "the way i see it",
+      "display": "The way I see it",
       "fns": [],
       "total": 3,
       "episodes": 3,
@@ -2808,7 +4348,7 @@
     {
       "p": "i could be wrong",
       "cat": "hedge",
-      "display": "i could be wrong",
+      "display": "I could be wrong",
       "fns": [],
       "total": 4,
       "episodes": 3,
@@ -2838,73 +4378,137 @@
       ]
     },
     {
-      "p": "think about it this",
-      "cat": "setup",
-      "display": "think about it this",
+      "p": "so what you're saying",
+      "cat": "clarify",
+      "display": "So what you're saying",
       "fns": [],
       "total": 4,
       "episodes": 3,
-      "speakers": 3,
+      "speakers": 1,
       "hits": [
         {
-          "v": "dkVJnaxDlXE",
-          "t": 1497,
-          "sp": "Andy Raskin",
-          "ep": "The power of strategic narrative | Andy Raskin",
-          "line": "And if you think about it, this buyer mission statement, this rallying cry, I think of it really as the mission of the company."
+          "v": "ZG3iNH4vvMA",
+          "t": 1750,
+          "sp": "Lenny Rachitsky",
+          "ep": "Brian Balfour: 10 lessons on career, growth, and life",
+          "line": "So what you're saying is not only is there going to be this big opportunity to grow, if you don't take advantage of it, somebody in your space will."
         },
         {
-          "v": "qImgGtnNbx0",
-          "t": 4252,
-          "sp": "Bret Taylor",
-          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-          "line": "Just think about it this way, if you produce an AI agent that's right 90% of the time, that's not that great, but how hard would it be to make another AI agent to find the errors the other 10% of the time?"
+          "v": "3UyitfSbY6c",
+          "t": 608,
+          "sp": "Lenny Rachitsky",
+          "ep": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+          "line": "And so, what you're saying here is there's only so much you can actually do to increase those odds."
         },
         {
-          "v": "dAnF0tk0di8",
-          "t": 5406,
-          "sp": "Jason Fried",
-          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
-          "line": "We're trying to think about it this way."
+          "v": "nTr21kgCFF4",
+          "t": 2827,
+          "sp": "Lenny Rachitsky",
+          "ep": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+          "line": "So, what you're saying is people often don't think out of the box enough by not thinking too radically enough."
         }
       ]
     },
     {
-      "p": "this is just my",
-      "cat": "hedge",
-      "display": "this is just my",
+      "p": "i tend to think",
+      "cat": "opinion",
+      "display": "I tend to think",
       "fns": [],
       "total": 4,
       "episodes": 3,
       "speakers": 3,
       "hits": [
         {
-          "v": "B79p85DHLkU",
-          "t": 1528,
-          "sp": "Austin Hay",
-          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
-          "line": "So, in my mind, this is just my own kind of mental framework is marketing technology has tech in it."
+          "v": "kc1XhB4k0Eg",
+          "t": 1854,
+          "sp": "Chris Hutchins",
+          "ep": "Launching and growing a podcast | Chris Hutchins (All the Hacks, Wealthfront, Google)",
+          "line": "So I tend to think launching with two or three episodes, either all at once or in a week is a really valuable strategy."
         },
         {
-          "v": "h9MUuhsDJOM",
-          "t": 4105,
-          "sp": "Jessica Livingston",
-          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
-          "line": "One thing I also, this is just my personality, I can't bring myself to do what I want to, is ask people if you like The Social Radars, please subscribe and leave a rating and a review."
+          "v": "Y4PdUItyXUk",
+          "t": 3553,
+          "sp": "John Cutler",
+          "ep": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+          "line": "And so this company's like, \"Well, we've got to use these framework.\" And I think that the way that I tend to think about frameworks is that they're more like a job aid."
         },
         {
-          "v": "xQkSenlJvwA",
-          "t": 3048,
-          "sp": "Nabeel S. Qureshi",
-          "ep": "How Palantir built the ultimate founder factory | Nabeel S. Qureshi (founder, writer, ex-Palantir)",
-          "line": "I should obviously emphasize that one, I left the company in 2023, and so this is just my personal view, I don't speak for them."
+          "v": "IOWDoDpQ7Xg",
+          "t": 2723,
+          "sp": "Sam Schillace",
+          "ep": "How to be more innovative | Sam Schillace (Microsoft deputy CTO, creator of Google Docs)",
+          "line": "I tend to think with my fingers as much as anything else."
+        }
+      ]
+    },
+    {
+      "p": "what's your advice for",
+      "cat": "ask",
+      "display": "What's your advice for",
+      "fns": [],
+      "total": 4,
+      "episodes": 3,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "2ezz4KJe7kA",
+          "t": 310,
+          "sp": "Eeke de Milliano",
+          "ep": "How to foster innovation and big thinking | Eeke de Milliano (Retool, Stripe)",
+          "line": "And to this day, when people ask me, \"Hey, what's your advice for going into product management?\" I'm like, \"Well, you should go get a sales job."
+        },
+        {
+          "v": "-kN8Agqee4w",
+          "t": 1053,
+          "sp": "Lenny",
+          "ep": "Managing nerves, anxiety, and burnout | Jonny Miller (Nervous System Mastery)",
+          "line": "What's your advice for doing this?"
+        },
+        {
+          "v": "HVB-dqjUJks",
+          "t": 974,
+          "sp": "Lenny",
+          "ep": "Taxi mafias, cash vaults, and 100% MoM growth: The story behind Southeast Asia’s biggest startup | Kevin Aluwi (Gojek)",
+          "line": "What's your advice for how to tactically do something about brand and also just why do you think it's so important?"
+        }
+      ]
+    },
+    {
+      "p": "how do you decide",
+      "cat": "ask",
+      "display": "How do you decide",
+      "fns": [],
+      "total": 5,
+      "episodes": 3,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "37fKFWdrMyA",
+          "t": 4052,
+          "sp": "Lenny Rachitsky",
+          "ep": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+          "line": "So there's one that's very related to this, which is someone said, if you're still very early in pre-product market fit, but get initial validation from both small to medium businesses and enterprise, how do you decide which one to focus on?"
+        },
+        {
+          "v": "CsruQYKISYI",
+          "t": 2441,
+          "sp": "Lenny",
+          "ep": "Moving fast and navigating uncertainty | Jeremy Henrickson (Rippling, Coinbase)",
+          "line": "So I guess first question is just how do you decide which markets to go after?"
+        },
+        {
+          "v": "Fves5chVZRA",
+          "t": 5086,
+          "sp": "Lenny Rachitsky",
+          "ep": "The creator of WordPress opens up about becoming an internet villain, why he’s taking a stand, and the future of open source | Matt Mullenweg (founder and CEO, Automattic)",
+          "line": "How do you decide a company's right for Automattic?"
         }
       ]
     },
     {
       "p": "can you say more",
       "cat": "ask",
-      "display": "can you say more",
+      "display": "Can you say more",
       "fns": [],
       "total": 2,
       "episodes": 2,
@@ -2927,9 +4531,134 @@
       ]
     },
     {
+      "p": "i don't have a great",
+      "cat": "hedge",
+      "display": "I don't have a great",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "CYwgStMln6U",
+          "t": 1647,
+          "sp": "Benjamin Lauzier",
+          "ep": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+          "line": "I don't have a great example of that, but I can give you a tangentially related example of a marketplace that I don't want to throw anyone under the bus."
+        },
+        {
+          "v": "DKrBGOFs0GY",
+          "t": 3724,
+          "sp": "Mike Krieger",
+          "ep": "Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+          "line": "I don't have a great answer yet, but I think that it's not the Web 2.0 or even the social media days engagement metrics."
+        }
+      ]
+    },
+    {
+      "p": "think about it this",
+      "cat": "setup",
+      "display": "Think about it this",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "qImgGtnNbx0",
+          "t": 4252,
+          "sp": "Bret Taylor",
+          "ep": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "line": "Just think about it this way, if you produce an AI agent that's right 90% of the time, that's not that great, but how hard would it be to make another AI agent to find the errors the other 10% of the time?"
+        },
+        {
+          "v": "dAnF0tk0di8",
+          "t": 5406,
+          "sp": "Jason Fried",
+          "ep": "Jason Fried challenges your thinking on fundraising, goals, growth, and more",
+          "line": "We're trying to think about it this way."
+        }
+      ]
+    },
+    {
+      "p": "can you give me",
+      "cat": "ask",
+      "display": "Can you give me",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "hZSh0rs20uI",
+          "t": 4458,
+          "sp": "Camille Fournier",
+          "ep": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+          "line": "I was looking for quotes for the book and I was like, maybe ChatGPT knows, but I was like, \"Can you give me any good quotes on ...\" I forget what it was."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 5200,
+          "sp": "Lenny Rachitsky",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "And it's like, do a little 360, ask for what feedback can you give me in my performance review as a parent this week."
+        }
+      ]
+    },
+    {
+      "p": "my advice would be",
+      "cat": "opinion",
+      "display": "My advice would be",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "Pm7QSWDIEUc",
+          "t": 700,
+          "sp": "Carilu Dietrich",
+          "ep": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+          "line": "So my advice would be for people earlier in their careers, it's easy to pick the winners if you go work for a big company that's a winner."
+        },
+        {
+          "v": "4LjddcccYIo",
+          "t": 2002,
+          "sp": "Maggie Crowley",
+          "ep": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
+          "line": "I don't if there's a reliable path that I can say this is what my advice would be other than try a startup network."
+        }
+      ]
+    },
+    {
+      "p": "that's where i would",
+      "cat": "disagree",
+      "display": "That's where I would",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "Mv0o9o4MRh0",
+          "t": 3368,
+          "sp": "Claire Hughes Johnson",
+          "ep": "Lessons from scaling Stripe | Claire Hughes Johnson (former COO of Stripe)",
+          "line": "I think you can go farther than that, but that's where I would sort of start, is those three things."
+        },
+        {
+          "v": "gfEEcssu304",
+          "t": 4833,
+          "sp": "Katie Dill",
+          "ep": "Building beautiful products with Stripe’s Head of Design | Katie Dill (Stripe, Airbnb, Lyft)",
+          "line": "Of course, that's where I would say that design expertise with people that have these creative skills and this great taste is an incredible important thing to bring into the organization."
+        }
+      ]
+    },
+    {
       "p": "that's a great point",
       "cat": "agree",
-      "display": "that's a great point",
+      "display": "That's a great point",
       "fns": [],
       "total": 2,
       "episodes": 2,
@@ -2952,9 +4681,34 @@
       ]
     },
     {
+      "p": "the analogy i use",
+      "cat": "setup",
+      "display": "The analogy I use",
+      "fns": [],
+      "total": 2,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "W7o40qcYHlM",
+          "t": 2913,
+          "sp": "John Mark Nickels",
+          "ep": "Becoming a conscious leader: Leading without fear, finding your life’s objective function, and getting better at vision and strategy | John Mark Nickels (Uber, Waymo, DoorDash)",
+          "line": "So the analogy I use is Uber is to Amazon as DoorDash is to Shopify, if that makes sense."
+        },
+        {
+          "v": "ts9ZvlkeWGs",
+          "t": 1463,
+          "sp": "Matt LeMay",
+          "ep": "The one question that saves product careers | Matt LeMay",
+          "line": "The analogy I use sometimes is if you're working on a car, if you put your hands in the engine, you might make the car run really well or you might make it so that the car doesn't run at all."
+        }
+      ]
+    },
+    {
       "p": "here's a good example",
       "cat": "setup",
-      "display": "here's a good example",
+      "display": "Here's a good example",
       "fns": [],
       "total": 2,
       "episodes": 2,
@@ -2977,9 +4731,34 @@
       ]
     },
     {
+      "p": "a good example is",
+      "cat": "setup",
+      "display": "A good example is",
+      "fns": [],
+      "total": 3,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "B79p85DHLkU",
+          "t": 3817,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "A good example is I was hiring somebody once who had a two-year gap in their resume."
+        },
+        {
+          "v": "L22DtAHLmzs",
+          "t": 3041,
+          "sp": "Eric Simons",
+          "ep": "Inside Bolt: From near-death to ~$40m ARR in 5 months—one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
+          "line": "A good example is public websites."
+        }
+      ]
+    },
+    {
       "p": "let me see if",
       "cat": "clarify",
-      "display": "let me see if",
+      "display": "Let me see if",
       "fns": [],
       "total": 3,
       "episodes": 2,
@@ -3004,7 +4783,7 @@
     {
       "p": "that's not how i",
       "cat": "disagree",
-      "display": "that's not how i",
+      "display": "That's not how I",
       "fns": [],
       "total": 3,
       "episodes": 2,
@@ -3027,9 +4806,34 @@
       ]
     },
     {
+      "p": "this is just my",
+      "cat": "hedge",
+      "display": "This is just my",
+      "fns": [],
+      "total": 4,
+      "episodes": 2,
+      "speakers": 2,
+      "hits": [
+        {
+          "v": "B79p85DHLkU",
+          "t": 1528,
+          "sp": "Austin Hay",
+          "ep": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+          "line": "So, in my mind, this is just my own kind of mental framework is marketing technology has tech in it."
+        },
+        {
+          "v": "h9MUuhsDJOM",
+          "t": 4105,
+          "sp": "Jessica Livingston",
+          "ep": "The social radar: Y Combinator’s secret weapon | Jessica Livingston (co-founder of Y Combinator, author, podcast host)",
+          "line": "One thing I also, this is just my personality, I can't bring myself to do what I want to, is ask people if you like The Social Radars, please subscribe and leave a rating and a review."
+        }
+      ]
+    },
+    {
       "p": "here's how i think",
       "cat": "opinion",
-      "display": "here's how i think",
+      "display": "Here's how I think",
       "fns": [],
       "total": 4,
       "episodes": 2,

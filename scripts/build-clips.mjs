@@ -189,6 +189,11 @@ const CATEGORIES = [
       "that's exactly right", "that makes a lot of sense", "you're absolutely right",
       "i couldn't agree more", "that's a great point", "i'm with you on",
       "yes and i would", "the answer is yes", "i love that",
+      "that resonates with me", "i think you're right", "that's spot on",
+      "i would say the same", "that's a really good", "yeah that's a good",
+      "i think it's a great", "no i think that's", "that's a fair point",
+      "i buy that", "i think that's exactly", "that's very true",
+      "i'm a big fan of", "i think that's a really",
     ],
   },
   {
@@ -200,7 +205,11 @@ const CATEGORIES = [
       "i'd push back on", "i'm not sure i", "i don't want to say",
       "i have a different", "the answer is no", "i disagree with",
       "i'm not convinced that", "that's not how i", "i wouldn't go that far",
-      "i take issue with", "where i'd differ is",
+      "i take issue with", "where i'd differ is", "i would challenge that",
+      "but i would say", "i'm skeptical of", "i'm a little skeptical",
+      "that's where i would", "i don't buy that", "i see it differently",
+      "i think that's wrong", "the thing i disagree", "i push back on",
+      "i'm going to disagree", "that's a mistake i", "i would caution against",
     ],
   },
   {
@@ -212,6 +221,11 @@ const CATEGORIES = [
       "my sense is that", "i would argue that", "here's how i think",
       "the way i'd frame", "i think we should", "if i had to",
       "my view on this", "what i keep coming", "the thing i'd say",
+      "my take on this", "i tend to think", "the way i look",
+      "i've come to believe", "what i've found is", "my strong opinion is",
+      "i'm a big believer", "the mental model i", "i would start with",
+      "what matters most is", "the thing that matters", "my advice would be",
+      "what i tell people", "the point i'd make", "i've always believed that",
     ],
   },
   {
@@ -223,7 +237,11 @@ const CATEGORIES = [
       "why do you think", "help me understand", "what would have to",
       "the question is how", "what are we trying", "how are you measuring",
       "what would you do", "can you say more", "walk me through",
-      "what's the thing that", "how did you get",
+      "what's the thing that", "how did you get", "what does that look",
+      "can you give me", "tell me more about", "what's an example of",
+      "how do you think about", "what's the biggest", "what makes you say",
+      "how would you define", "what's your advice for", "say more about that",
+      "what's the hardest part", "how do you decide",
     ],
   },
   {
@@ -234,7 +252,10 @@ const CATEGORIES = [
       "what i'm hearing is", "just to make sure", "let me know if",
       "if i understand correctly", "just to be clear", "so what you're saying",
       "let me play that", "i want to make sure", "am i right that",
-      "let me see if", "to put it another",
+      "let me see if", "to put it another", "so just to summarize",
+      "correct me if i'm", "is that fair to", "does that make sense",
+      "what you just said", "so if i'm following", "let me repeat back",
+      "to be clear i'm", "just so i understand", "the way you're describing",
     ],
   },
   {
@@ -244,8 +265,13 @@ const CATEGORIES = [
     seeds: [
       "let me tell you", "i'll give you a", "here's a good example",
       "the way it works", "at the end of the day", "when we talk about",
-      "when i talk to", "let me give you", "so the story is",
-      "the best example of", "think about it this",
+      "when i talk to", "let me give you", "the best example of",
+      "think about it this", "for example when", "a good example is",
+      "one of the things", "here's the thing", "the way i describe",
+      "let's say you're", "imagine you're", "to give you context",
+      "so here's what happened", "the story goes", "a great example of",
+      "if you think about", "the analogy i use", "picture a world",
+      "so the way that", "what happened was",
     ],
   },
   {
@@ -256,7 +282,11 @@ const CATEGORIES = [
       "i don't know if", "i could be wrong", "i'm not an expert",
       "my guess is that", "i know this is", "i don't have the",
       "i haven't figured out", "this is just my", "take this with a",
-      "i want to caveat", "i'm speculating here", "i genuinely don't know",
+      "i want to caveat", "i genuinely don't know", "i'm still figuring out",
+      "i honestly don't know", "i don't have a good", "we don't know yet",
+      "i'm not sure that's", "the honest answer is", "i wish i knew",
+      "to be honest i", "i may be wrong", "i'm speculating a little",
+      "that's a hard question", "i don't have a great",
     ],
   },
 ];
@@ -435,11 +465,36 @@ const phrases = [...hits.entries()]
   }))
   // 配不上任何一類的丟掉——分類同時是品質過濾器
   .filter((x) => x.cat)
+  // 太長的不是「說法」是整句話（例如某張卡的完整句型被當成片語）
+  .filter((x) => words(x.p).length <= MAX_PHRASE_WORDS)
   // 收錄片段多的排前面，同數量時偏好「不那麼泛」的
   .sort((a, b) => b.hits.length - a.hits.length || a.total - b.total);
 
-const totalClips = phrases.reduce((n, p) => n + p.hits.length, 0);
-const totalWords = phrases.reduce(
+// 同一個說法常常會抓到好幾個長度不同的變體
+// （the way i think / the way i think about it is / …），並列只是雜訊。
+// 一方是另一方的開頭時視為同一個，留片段多的那個。
+const deduped = [];
+for (const p of phrases) {
+  const dup = deduped.find(
+    (q) => q.cat === p.cat && (q.p.startsWith(p.p) || p.p.startsWith(q.p)),
+  );
+  if (!dup) deduped.push(p);
+}
+
+// 顯示文字正規化。從引文挖出來的片語是全小寫的，直接顯示會出現
+// "If i had to" 這種在英文學習網站上很刺眼的東西。
+for (const p of deduped) {
+  p.display = p.display
+    // 獨立的人稱 i 與它的縮寫一律大寫
+    .replace(/\bi\b/g, "I")
+    .replace(/\bi'(m|d|ve|ll)\b/gi, (m) => "I'" + m.slice(2).toLowerCase())
+    .replace(/\s+/g, " ")
+    .trim();
+  p.display = p.display.charAt(0).toUpperCase() + p.display.slice(1);
+}
+
+const totalClips = deduped.reduce((n, p) => n + p.hits.length, 0);
+const totalWords = deduped.reduce(
   (n, p) => n + p.hits.reduce((m, h) => m + words(h.line).length, 0),
   0,
 );
@@ -450,7 +505,7 @@ writeFileSync(
     {
       count: totalClips,
       categories: CATEGORIES.map(({ id, zh, blurb }) => ({ id, zh, blurb })),
-      phrases,
+      phrases: deduped,
     },
     null,
     2,
@@ -458,7 +513,7 @@ writeFileSync(
 );
 
 console.log(
-  `✓ 原聲片段：${totalClips} 個片段、${phrases.length} 個說法（掃了 ${scanned} 集）`,
+  `✓ 原聲片段：${totalClips} 段、${deduped.length} 個說法（掃了 ${scanned} 集）`,
 );
 console.log(
   `  片段字數 ${totalWords}，單集最多用掉 ${Math.max(0, ...used.values())} 字`,
