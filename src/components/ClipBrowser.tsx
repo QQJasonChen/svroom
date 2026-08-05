@@ -2,7 +2,12 @@
 
 import { useEffect, useMemo, useState } from "react";
 import ClipPlayer from "./ClipPlayer";
-import { clipPhrases, type ClipPhrase, searchPhrases } from "@/lib/clips";
+import {
+  clipPhrases,
+  type ClipPhrase,
+  phrasesByCategory,
+  searchPhrases,
+} from "@/lib/clips";
 
 export default function ClipBrowser({
   initialPhrase,
@@ -33,6 +38,8 @@ export default function ClipBrowser({
       .slice(0, 60);
   }, [q, pool]);
 
+  const grouped = useMemo(() => phrasesByCategory(results), [results]);
+
   const [selected, setSelected] = useState<ClipPhrase | null>(
     () => searchPhrases(initialPhrase ?? "", 1)[0] ?? null,
   );
@@ -45,7 +52,15 @@ export default function ClipBrowser({
         {active ? (
           <>
             <div className="mb-4">
-              <p className="rule-label mb-1">正在聽</p>
+              <p className="rule-label mb-1">
+                正在聽
+                {(() => {
+                  const c = phrasesByCategory().find((g) =>
+                    g.phrases.some((x) => x.p === active.p),
+                  );
+                  return c ? ` · ${c.zh}` : "";
+                })()}
+              </p>
               <h2 className="font-serif text-[1.6rem] text-rust leading-snug">
                 {active.display}
               </h2>
@@ -90,24 +105,41 @@ export default function ClipBrowser({
             </span>
           )}
         </p>
-        <div className="max-h-[70vh] overflow-y-auto border border-rule rounded-sm divide-y divide-rule">
-          {results.map((p) => (
-            <button
-              key={p.p}
-              onClick={() => setSelected(p)}
-              className={`w-full text-left px-3.5 py-2.5 transition-colors ${
-                active?.p === p.p
-                  ? "bg-rust-soft text-rust"
-                  : "hover:bg-paper-2"
-              }`}
-            >
-              <span className="font-serif text-[14px] leading-snug">
-                {p.display}
-              </span>
-              <span className="ml-2 text-[11px] tabular-nums text-ink-3">
-                {p.hits.length} 段
-              </span>
-            </button>
+        <div className="max-h-[72vh] overflow-y-auto border border-rule rounded-sm">
+          {grouped.map((c) => (
+            <div key={c.id}>
+              <div className="sticky top-0 bg-paper-2 border-b border-rule px-3.5 py-2">
+                <p className="text-[12.5px] font-medium">
+                  {c.zh}
+                  <span className="ml-2 text-[11px] tabular-nums text-ink-3 font-normal">
+                    {c.phrases.length}
+                  </span>
+                </p>
+                <p className="mt-0.5 text-[11px] leading-snug text-ink-3">
+                  {c.blurb}
+                </p>
+              </div>
+              <div className="divide-y divide-rule">
+                {c.phrases.map((p) => (
+                  <button
+                    key={p.p}
+                    onClick={() => setSelected(p)}
+                    className={`w-full text-left px-3.5 py-2.5 transition-colors ${
+                      active?.p === p.p
+                        ? "bg-rust-soft text-rust"
+                        : "hover:bg-paper-2"
+                    }`}
+                  >
+                    <span className="font-serif text-[14px] leading-snug">
+                      {p.display}
+                    </span>
+                    <span className="ml-2 text-[11px] tabular-nums text-ink-3">
+                      {p.hits.length} 段
+                    </span>
+                  </button>
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </aside>

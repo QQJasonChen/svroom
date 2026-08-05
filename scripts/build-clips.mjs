@@ -170,7 +170,119 @@ for (const [g, n] of ngramCount) {
 }
 console.log(`  其中 ${mined} 個是從引文挖出的高頻功能片語`);
 
-console.log(`  查詢集：${phraseSet.size} 個可搜尋片語（來自句型與替代說法）`);
+
+// ---------- 說法的分門別類 ----------
+// 學的人不會想「我要學一個高頻語塊」，他會想「我現在要同意／要反對／要追問」。
+// 所以分類用的是**當下的意圖**。
+//
+// 這份清單同時做兩件事：
+//   1. seeds 直接進查詢集去語料裡撈——分類自己負責把該類的說法找出來
+//   2. 配不上任何一類的說法一律丟掉——分類同時是品質過濾器
+// 沒有第 2 點的話，會混進 "it and i think"、"yeah i mean i" 這種切碎的殘渣。
+const CATEGORIES = [
+  {
+    id: "agree",
+    zh: "表示同意",
+    blurb: "附和不是只有 I agree。同意的力道有很多層。",
+    seeds: [
+      "i completely agree with", "i totally agree", "i think that's right",
+      "that's exactly right", "that makes a lot of sense", "you're absolutely right",
+      "i couldn't agree more", "that's a great point", "i'm with you on",
+      "yes and i would", "the answer is yes", "i love that",
+    ],
+  },
+  {
+    id: "disagree",
+    zh: "表示反對或保留",
+    blurb: "英文的反對幾乎都先給一個緩衝，才敢下重話。",
+    seeds: [
+      "don't get me wrong", "i don't think that", "i would push back",
+      "i'd push back on", "i'm not sure i", "i don't want to say",
+      "i have a different", "the answer is no", "i disagree with",
+      "i'm not convinced that", "that's not how i", "i wouldn't go that far",
+      "i take issue with", "where i'd differ is",
+    ],
+  },
+  {
+    id: "opinion",
+    zh: "提出看法",
+    blurb: "把主張端出來，而且讓它聽起來像分析不是喜好。",
+    seeds: [
+      "the way i think about", "what i would say", "the way i see it",
+      "my sense is that", "i would argue that", "here's how i think",
+      "the way i'd frame", "i think we should", "if i had to",
+      "my view on this", "what i keep coming", "the thing i'd say",
+    ],
+  },
+  {
+    id: "ask",
+    zh: "提問與追問",
+    blurb: "問對問題比給對答案更能改變一場會議。",
+    seeds: [
+      "can you tell me", "how do you know", "what do you mean",
+      "why do you think", "help me understand", "what would have to",
+      "the question is how", "what are we trying", "how are you measuring",
+      "what would you do", "can you say more", "walk me through",
+      "what's the thing that", "how did you get",
+    ],
+  },
+  {
+    id: "clarify",
+    zh: "澄清與確認",
+    blurb: "沒聽懂的時候，怎麼問才不顯得沒跟上。",
+    seeds: [
+      "what i'm hearing is", "just to make sure", "let me know if",
+      "if i understand correctly", "just to be clear", "so what you're saying",
+      "let me play that", "i want to make sure", "am i right that",
+      "let me see if", "to put it another",
+    ],
+  },
+  {
+    id: "setup",
+    zh: "鋪陳與舉例",
+    blurb: "在講重點之前，先幫聽的人擺好位置。",
+    seeds: [
+      "let me tell you", "i'll give you a", "here's a good example",
+      "the way it works", "at the end of the day", "when we talk about",
+      "when i talk to", "let me give you", "so the story is",
+      "the best example of", "think about it this",
+    ],
+  },
+  {
+    id: "hedge",
+    zh: "承認不確定",
+    blurb: "承認不知道是資深的訊號，但要會講。",
+    seeds: [
+      "i don't know if", "i could be wrong", "i'm not an expert",
+      "my guess is that", "i know this is", "i don't have the",
+      "i haven't figured out", "this is just my", "take this with a",
+      "i want to caveat", "i'm speculating here", "i genuinely don't know",
+    ],
+  },
+];
+
+const catOf = new Map();
+for (const c of CATEGORIES) {
+  for (const seed of c.seeds) {
+    const key = words(norm(seed)).slice(0, MAX_PHRASE_WORDS).join(" ");
+    if (!catOf.has(key)) catOf.set(key, c.id);
+    // 種子直接進查詢集，讓分類自己去語料裡撈
+    if (!phraseSet.has(key)) {
+      phraseSet.set(key, { display: seed, fns: new Set() });
+    }
+  }
+}
+
+/** 一個說法屬於哪一類；配不上就回 null（會被丟掉） */
+function classify(p) {
+  if (catOf.has(p)) return catOf.get(p);
+  for (const [key, id] of catOf) {
+    if (p.startsWith(key) || key.startsWith(p)) return id;
+  }
+  return null;
+}
+
+console.log(`  查詢集：${phraseSet.size} 個可搜尋片語（含 ${CATEGORIES.reduce((n,c)=>n+c.seeds.length,0)} 個分類種子）`);
 
 // 用前三個字當索引鍵，掃語料時才不必對每個片語都做一次比對
 const byPrefix = new Map();
@@ -311,6 +423,7 @@ const phrases = [...hits.entries()]
   })
   .map(([p, list]) => ({
     p,
+    cat: classify(p),
     display: phraseSet.get(p).display,
     fns: [...phraseSet.get(p).fns],
     /** 語料裡實際出現次數（可能大於收錄的片段數） */
@@ -320,6 +433,8 @@ const phrases = [...hits.entries()]
     speakers: new Set(list.map((h) => h.sp)).size,
     hits: list,
   }))
+  // 配不上任何一類的丟掉——分類同時是品質過濾器
+  .filter((x) => x.cat)
   // 收錄片段多的排前面，同數量時偏好「不那麼泛」的
   .sort((a, b) => b.hits.length - a.hits.length || a.total - b.total);
 
@@ -331,7 +446,15 @@ const totalWords = phrases.reduce(
 
 writeFileSync(
   join(ROOT, "data", "clips.json"),
-  JSON.stringify({ count: totalClips, phrases }, null, 2) + "\n",
+  JSON.stringify(
+    {
+      count: totalClips,
+      categories: CATEGORIES.map(({ id, zh, blurb }) => ({ id, zh, blurb })),
+      phrases,
+    },
+    null,
+    2,
+  ) + "\n",
 );
 
 console.log(

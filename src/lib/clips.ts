@@ -13,9 +13,13 @@ export type Clip = {
   line: string;
 };
 
+export type ClipCategory = { id: string; zh: string; blurb: string };
+
 export type ClipPhrase = {
   /** 正規化後的片語，搜尋用 */
   p: string;
+  /** 意圖分類：同意／反對／提問… */
+  cat: string;
   /** 顯示用的原樣片語 */
   display: string;
   /** 這個說法對應到哪些語言功能 */
@@ -31,6 +35,15 @@ export type ClipPhrase = {
 
 export const clipPhrases: ClipPhrase[] = clipsFile.phrases as ClipPhrase[];
 export const clipCount: number = clipsFile.count;
+export const clipCategories: ClipCategory[] = (clipsFile.categories ??
+  []) as ClipCategory[];
+
+/** 依意圖分類分組，空的類別不出現 */
+export function phrasesByCategory(list: ClipPhrase[] = clipPhrases) {
+  return clipCategories
+    .map((c) => ({ ...c, phrases: list.filter((p) => p.cat === c.id) }))
+    .filter((c) => c.phrases.length > 0);
+}
 
 const norm = (s: string) =>
   s
