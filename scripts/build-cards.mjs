@@ -325,11 +325,23 @@ function ingest({ fileList, validSet, groupMap, out, label }) {
 
       const src = sourceByFile.get(raw.source_file);
 
+      // 句型跟原句幾乎一樣時（尤其書面模板），只留原句——
+      // 同一句讀兩次是噪音，不是強調。
+      const flat = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+      const pat = raw.pattern || null;
+      // 有 [X] 佔位符的句型永遠保留——它標出了哪裡可以換，那是原句給不了的資訊。
+      // 只有「沒有佔位符、又跟原句逐字重複」的才是純噪音。
+      const redundant =
+        !!pat &&
+        !pat.includes("[") &&
+        (flat(pat).slice(0, 50) === flat(raw.quote).slice(0, 50) ||
+          flat(raw.quote).includes(flat(pat).slice(0, 60)));
+
       out.push({
         id: `${raw.function}-${slug(raw.guest)}-${out.length}`,
         fn: raw.function,
         group: groupMap.get(raw.function),
-        pattern: raw.pattern || null,
+        pattern: redundant ? null : pat,
         quote: raw.quote.trim(),
         zh: raw.zh.trim(),
         why: raw.why.trim(),

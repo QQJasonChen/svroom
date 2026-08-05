@@ -5,7 +5,9 @@ import Speak from "./Speak";
 export default function CardView({ card, n }: { card: Card; n?: number }) {
   // 有 [X] 佔位符的才是真的「句型」（可換內容重用）；
   // 沒有的是固定的慣用句。混為一談會讓「句型」這個承諾變空。
-  const isTemplate = !!card.pattern?.includes("[");
+  // 書面卡常常整句就是模板，佔位符在原句裡，所以兩邊都看。
+  const isTemplate =
+    !!card.pattern?.includes("[") || (!card.pattern && card.quote.includes("["));
 
   return (
     <article className="border border-rule bg-paper-2/40 rounded-sm">
@@ -40,13 +42,17 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
 
         <div className="pt-1 space-y-3 border-t border-rule">
           <div className="pt-3">
-            <p className="rule-label mb-1.5">為什麼這樣講</p>
+            <p className="rule-label mb-1.5">
+              {card.register === "written" ? "為什麼這樣寫" : "為什麼這樣講"}
+            </p>
             <p className="text-[14px] leading-relaxed">{card.why}</p>
           </div>
 
           {card.swaps.length > 0 && (
             <div>
-              <p className="rule-label mb-1.5">也可以這樣說</p>
+              <p className="rule-label mb-1.5">
+                {card.register === "written" ? "也可以這樣寫" : "也可以這樣說"}
+              </p>
               <ul className="space-y-1">
                 {card.swaps.map((s, i) => (
                   <li
@@ -88,9 +94,11 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
               rel="noopener noreferrer"
               className="ml-auto underline underline-offset-2 hover:text-rust"
             >
-              {card.seek && card.timestamp
-                ? `從 ${card.timestamp.replace(/^00:/, "")} 聽起 ↗`
-                : "聽原句 ↗"}
+              {card.register === "written"
+                ? "讀原文 ↗"
+                : card.seek && card.timestamp
+                  ? `從 ${card.timestamp.replace(/^00:/, "")} 聽起 ↗`
+                  : "聽原句 ↗"}
             </a>
           )}
         </div>
