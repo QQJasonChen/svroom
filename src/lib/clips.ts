@@ -20,6 +20,12 @@ export type ClipPhrase = {
   display: string;
   /** 這個說法對應到哪些語言功能 */
   fns: string[];
+  /** 這個說法在語料裡實際出現幾次（可能大於收錄的片段數） */
+  total: number;
+  /** 收錄的片段涵蓋幾集 */
+  episodes: number;
+  /** 收錄的片段涵蓋幾位講者 */
+  speakers: number;
   hits: Clip[];
 };
 
@@ -34,17 +40,17 @@ const norm = (s: string) =>
     .replace(/\s+/g, " ")
     .trim();
 
-/** 搜尋說法。空字串回傳片段最多的前幾個，當作預設清單。 */
+/**
+ * 搜尋說法。空字串回傳片段最多的前幾個，當作預設清單。
+ *
+ * 刻意**只比對說法本身**，不比對片段內容——否則搜 "push" 會跑出一堆
+ * 不含 push 的說法（只因為它某一段引文裡有），使用者完全看不懂為什麼。
+ */
 export function searchPhrases(q: string, limit = 40) {
   const needle = norm(q);
   if (!needle) return clipPhrases.slice(0, limit);
   return clipPhrases
-    .filter(
-      (p) =>
-        p.p.includes(needle) ||
-        norm(p.display).includes(needle) ||
-        p.hits.some((h) => norm(h.line).includes(needle)),
-    )
+    .filter((p) => p.p.includes(needle) || norm(p.display).includes(needle))
     .slice(0, limit);
 }
 

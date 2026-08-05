@@ -29,7 +29,11 @@ const PODCASTS = join(ARCHIVE, "podcasts");
 
 const SOURCE_QUOTA_RATIO = 0.04;
 const SOURCE_QUOTA_MAX = 600;
-const MAX_HITS_PER_PHRASE = 14;
+const MAX_HITS_PER_PHRASE = 8;
+// 可教的語塊是「中等頻率」的：don't get me wrong 在 311 集裡出現幾十次，
+// 而 i think if you 出現幾百次。出現太頻繁的不是語塊，是任意切出來的碎片
+// ——正好是最沒有教學價值的那些。所以設頻率上限把它們濾掉。
+const MAX_TRUE_OCCURRENCES = 60;
 const MIN_PHRASE_WORDS = 4;
 const MAX_PHRASE_WORDS = 7;
 const MIN_LINE_WORDS = 5;
@@ -89,10 +93,19 @@ const MARKERS = [
   "you have to", "you need to", "you've got to", "we ended up",
 ];
 
+// 一個說法要能「拿來起頭」。開頭是接續詞的（is that i think、say what do you）
+// 是從句子中間切出來的碎片，不是可以教的語塊。
+const BAD_OPENERS = new Set(
+  ("is are was were be been am do does did that which who whom whose and or so " +
+    "than then say says said of as at on for with about into from by very much " +
+    "just really actually kind sort thing things way ways lot bit more most").split(" "),
+);
+
 const isStanceChunk = (w) => {
   if (w.some((x) => /\d/.test(x))) return false;
   const s = w.join(" ");
-  if (MARKERS.some((m) => s.startsWith(m) || s.includes(m))) return true;
+  if (MARKERS.some((m) => s.startsWith(m))) return true;
+  if (BAD_OPENERS.has(w[0])) return false;
   return w.some((x) => PRONOUNS.has(x)) && w.some((x) => STANCE.has(x));
 };
 
@@ -114,10 +127,14 @@ function register(text, fn) {
   if (fn) phraseSet.get(use).fns.add(fn);
 }
 
-/** 句型骨架裡 [X] 之間的每一段固定文字都可以拿來搜，不只第一段 */
+/**
+ * 只收句型的**開頭**那一段。
+ * [X] 中間切出來的碎片（is a lot of、what you just said）不是可以拿來
+ * 起頭的說法，收進來只會灌爆查詢集。
+ */
 function addPhrase(raw, fn) {
   if (!raw) return;
-  for (const seg of raw.split(/\[[^\]]*\]/)) register(seg, fn);
+  register(raw.split(/\[/)[0], fn);
 }
 
 // 從引文本身挖「重複出現」的功能片語——這些是真正被反覆使用的骨架，
@@ -146,7 +163,7 @@ for (const f of cardFiles) {
 
 let mined = 0;
 for (const [g, n] of ngramCount) {
-  // 要有兩張以上不同的卡都用到，才算「反覆使用的骨架」而非一次性說法
+  // 要有兩張以上不同的卡都用到，才算「反覆使用的骨架」。
   if (n < 2) continue;
   if (!phraseSet.has(g)) mined++;
   register(g, ngramSample.get(g));
@@ -199,6 +216,7 @@ for (const f of cardFiles) {
 // ---------- 3. 掃語料 ----------
 const TURN_RE = /\*\*([^*]+)\*\* \((\d+):(\d+):(\d+)\):\s*\n?/g;
 const hits = new Map(); // phrase -> [{ep, t, sp, line}]
+const trueCount = new Map(); // phrase -> 語料裡實際出現幾次（不受收錄上限影響）
 let scanned = 0;
 
 for (const file of readdirSync(PODCASTS).filter((f) => f.endsWith(".md")).sort()) {
@@ -255,6 +273,10 @@ for (const file of readdirSync(PODCASTS).filter((f) => f.endsWith(".md")).sort()
       }
       if (!matched) continue;
 
+      // 真實出現次數要全數計，不能因為存夠了就不算——
+      // 否則統計會變成「上限值」，等於在騙人。
+      trueCount.set(matched, (trueCount.get(matched) || 0) + 1);
+
       const list = hits.get(matched) ?? [];
       if (list.length >= MAX_HITS_PER_PHRASE) continue;
 
@@ -282,14 +304,24 @@ for (const file of readdirSync(PODCASTS).filter((f) => f.endsWith(".md")).sort()
 
 // ---------- 4. 輸出 ----------
 const phrases = [...hits.entries()]
-  .filter(([, list]) => list.length >= 2) // 只出現一次的沒有「聽很多人講」的價值
+  .filter(([p, list]) => {
+    if (list.length < 2) return false; // 只有一段就沒有「聽很多人講」的價值
+    const n = trueCount.get(p) || list.length;
+    return n <= MAX_TRUE_OCCURRENCES; // 太泛的不是語塊
+  })
   .map(([p, list]) => ({
     p,
     display: phraseSet.get(p).display,
     fns: [...phraseSet.get(p).fns],
+    /** 語料裡實際出現次數（可能大於收錄的片段數） */
+    total: trueCount.get(p) || list.length,
+    /** 收錄的片段涵蓋幾集、幾位講者 */
+    episodes: new Set(list.map((h) => h.ep)).size,
+    speakers: new Set(list.map((h) => h.sp)).size,
     hits: list,
   }))
-  .sort((a, b) => b.hits.length - a.hits.length);
+  // 收錄片段多的排前面，同數量時偏好「不那麼泛」的
+  .sort((a, b) => b.hits.length - a.hits.length || a.total - b.total);
 
 const totalClips = phrases.reduce((n, p) => n + p.hits.length, 0);
 const totalWords = phrases.reduce(

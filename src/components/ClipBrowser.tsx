@@ -50,7 +50,13 @@ export default function ClipBrowser({
                 {active.display}
               </h2>
               <p className="mt-1 text-[12.5px] text-ink-3">
-                {active.hits.length} 個人在不同的集數裡講過這句
+                收錄 {active.hits.length} 段，來自 {active.episodes} 集、
+                {active.speakers} 位講者
+                {active.total > active.hits.length && (
+                  <span className="opacity-75">
+                    （語料裡共出現 {active.total} 次）
+                  </span>
+                )}
               </p>
             </div>
             <ClipPlayer clips={active.hits} label={active.p} />
@@ -66,11 +72,23 @@ export default function ClipBrowser({
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="搜一個說法，例如 push back"
+          placeholder="搜說法本身，例如 the way I think"
           className="w-full border border-rule bg-paper px-3.5 py-2.5 text-[14px] rounded-sm placeholder:text-ink-3 focus:outline-none focus:border-rust"
         />
         <p className="mt-2 mb-3 text-[12px] text-ink-3">
           {results.length} 個說法
+          {q.trim() && results.length === 0 && (
+            <span className="block mt-1">
+              這裡只搜「說法」本身。想搜句子內容請用{" "}
+              <a
+                href="/search/"
+                className="underline underline-offset-2 hover:text-rust"
+              >
+                全站搜尋
+              </a>
+              。
+            </span>
+          )}
         </p>
         <div className="max-h-[70vh] overflow-y-auto border border-rule rounded-sm divide-y divide-rule">
           {results.map((p) => (
@@ -87,7 +105,7 @@ export default function ClipBrowser({
                 {p.display}
               </span>
               <span className="ml-2 text-[11px] tabular-nums text-ink-3">
-                {p.hits.length}
+                {p.hits.length} 段
               </span>
             </button>
           ))}

@@ -15,7 +15,7 @@ export default function ClipsPage() {
         挑一個說法，連續聽不同的人親口講它。同一句話，Marty Cagan 講起來和
         Marc Andreessen 講起來是不一樣的——
         <strong className="text-ink font-medium">語氣、停頓、輕重音，這些文字學不到</strong>。
-        收錄 {clipPhrases.length} 個說法、{clipCount} 個片段。影片由 YouTube 播出。
+        收錄 {clipPhrases.length} 個說法、{clipCount} 段原聲。影片由 YouTube 播出。
       </p>
       <ClipBrowser />
     </div>
