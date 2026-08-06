@@ -18,14 +18,19 @@ export default function Home() {
         <div className="mx-auto max-w-5xl px-5 py-16 sm:py-24">
           <p className="rule-label mb-5">從真實對話學商業英文</p>
           <h1 className="font-serif text-[2.4rem] sm:text-[3.4rem] leading-[1.08] tracking-tight max-w-3xl">
-            你不是英文不好。
+            太輕易的同意，
             <br />
-            你是<span className="text-rust">沒聽過別人怎麼講</span>。
+            <span className="text-rust">我們已經太會了</span>。
           </h1>
           <p className="mt-7 max-w-2xl text-[16px] leading-[1.85] text-ink-2">
-            會議上想反對一個提案，腦中只剩「I don&apos;t think so」。想爭取資源，只擠得出「Can we have
-            more people?」——問題不在單字量，在於你沒看過母語者在
-            <strong className="font-semibold text-ink">同樣的處境</strong>下真的怎麼說。
+            會議上想反對一個提案，腦中只剩「I don&apos;t think so」，於是點頭。想擋掉一個需求，
+            只擠得出「This is difficult」，於是被當成求助。
+            <strong className="font-semibold text-ink">問題不在單字量</strong>——
+            是你沒看過母語者在同樣的處境下，怎麼把不同意講完而關係還在。
+          </p>
+          <p className="mt-4 max-w-2xl text-[16px] leading-[1.85] text-ink-2">
+            這個站的重心就放在這裡：<strong className="font-semibold text-ink">說不、反對、挑戰前提、守住立場</strong>。
+            學這幾件事，比多背一百個單字有用。
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-3">

@@ -109,7 +109,7 @@ const isStanceChunk = (w) => {
   return w.some((x) => PRONOUNS.has(x)) && w.some((x) => STANCE.has(x));
 };
 
-function register(text, fn) {
+function register(text, fn, origin) {
   const w = words(norm(text));
   // 統一的品質閘門：不論來自句型片段還是引文挖掘，都必須是「帶立場的語塊」。
   // 沒有這道關卡，[X] 切出來的碎片（is a lot of、this is the）會灌爆查詢集。
@@ -122,6 +122,8 @@ function register(text, fn) {
         .replace(/^[\s,.;:!?"'“”‘’—-]+/, "")
         .replace(/[\s,;:"'“”‘’—-]+$/, ""),
       fns: new Set(),
+      // seed = 我編的分類種子｜pattern = 採集時人工判定的句型骨架｜mined = 機器挖的
+      origin: origin || "mined",
     });
   }
   if (fn) phraseSet.get(use).fns.add(fn);
@@ -134,7 +136,7 @@ function register(text, fn) {
  */
 function addPhrase(raw, fn) {
   if (!raw) return;
-  register(raw.split(/\[/)[0], fn);
+  register(raw.split(/\[/)[0], fn, "pattern");
 }
 
 // 從引文本身挖「重複出現」的功能片語——這些是真正被反覆使用的骨架，
@@ -166,7 +168,7 @@ for (const [g, n] of ngramCount) {
   // 要有兩張以上不同的卡都用到，才算「反覆使用的骨架」。
   if (n < 2) continue;
   if (!phraseSet.has(g)) mined++;
-  register(g, ngramSample.get(g));
+  register(g, ngramSample.get(g), "mined");
 }
 console.log(`  其中 ${mined} 個是從引文挖出的高頻功能片語`);
 
@@ -181,38 +183,62 @@ console.log(`  其中 ${mined} 個是從引文挖出的高頻功能片語`);
 // 沒有第 2 點的話，會混進 "it and i think"、"yeah i mean i" 這種切碎的殘渣。
 const CATEGORIES = [
   {
-    id: "agree",
-    zh: "表示同意",
-    blurb: "附和不是只有 I agree。同意的力道有很多層。",
+    id: "refuse",
+    zh: "說不與擋需求",
+    blurb: "台灣人最缺的一句。不是講不出 no，是不知道怎麼講完 no 之後關係還在。",
     seeds: [
-      "i completely agree with", "i totally agree", "i think that's right",
-      "that's exactly right", "that makes a lot of sense", "you're absolutely right",
-      "i couldn't agree more", "that's a great point", "i'm with you on",
-      "yes and i would", "the answer is yes", "i love that",
-      "that resonates with me", "i think you're right", "that's spot on",
-      "i would say the same", "that's a really good", "yeah that's a good",
-      "i think it's a great", "no i think that's", "that's a fair point",
-      "i buy that", "i think that's exactly", "that's very true",
-      "i'm a big fan of", "i think that's a really",
-    
-      "i think you've nailed it", "you're onto something", "that tracks with what", "i'd go even further", "and i'd add to that", "you took the words", "that's a really important point", "that mirrors my experience", "i've seen the same thing", "i think that's the key", "that's the whole ballgame",],
+      "i'm going to say no", "we're not going to", "that's not something we",
+      "i have to say no", "the answer is no", "i don't think we should",
+      "we're going to pass", "not in this quarter", "that's not a priority",
+      "we decided not to", "i'd rather not", "we've chosen not to",
+      "that's off the table", "i'm not willing to", "we're saying no to",
+      "i'm going to have to", "we just can't", "that's a no",
+      "i'd love to but", "the honest answer is no", "we're not doing",
+      "i want to be direct", "let me be direct", "i'm going to disappoint you",
+    ],
   },
   {
     id: "disagree",
-    zh: "表示反對或保留",
-    blurb: "英文的反對幾乎都先給一個緩衝，才敢下重話。",
+    zh: "反對與保留",
+    blurb: "英文的反對幾乎都先給一個緩衝，才敢下重話。緩衝決定你能開多大火力。",
     seeds: [
-      "don't get me wrong", "i don't think that", "i would push back",
-      "i'd push back on", "i'm not sure i", "i don't want to say",
-      "i have a different", "the answer is no", "i disagree with",
-      "i'm not convinced that", "that's not how i", "i wouldn't go that far",
-      "i take issue with", "where i'd differ is", "i would challenge that",
-      "but i would say", "i'm skeptical of", "i'm a little skeptical",
-      "that's where i would", "i don't buy that", "i see it differently",
-      "i think that's wrong", "the thing i disagree", "i push back on",
-      "i'm going to disagree", "that's a mistake i", "i would caution against",
-    
-      "i'd gently push back", "i want to offer a counterpoint", "where i land differently", "the counterargument would be", "i'd challenge the premise", "that presumes that", "i'm less sure about", "that's where i'd diverge", "i'm going to be contrarian", "i hold the opposite view", "i'd be careful about", "the risk with that is", "i'd resist the urge", "that's a false choice",],
+      "don't get me wrong", "i'm not sure i", "i don't want to say",
+      "i have a different", "that's not how i", "i'd push back on",
+      "i would push back", "just to push back", "where i'd differ is",
+      "i disagree with", "i'm not convinced", "i'd be careful about",
+      "the risk with that is", "i take issue with", "i'm skeptical of",
+      "i'm a little skeptical", "i hold the opposite view", "i want to offer a",
+      "i'd challenge that", "i'm going to disagree", "i don't buy that",
+      "that's a false choice", "i'd resist the urge", "i see it differently",
+      "the counterargument would be", "that's where i'd diverge",
+      "i'm less sure about", "where i land differently", "i'd gently push back",
+    ],
+  },
+  {
+    id: "premise",
+    zh: "挑戰前提",
+    blurb: "不吵結論，把對方的假設整個掀開——這是資深與資淺最明顯的分水嶺。",
+    seeds: [
+      "what would have to be true", "that assumes that", "i'd challenge the premise",
+      "reject that premise", "the assumption there is", "why do we believe",
+      "what makes us think", "is that actually true", "how do we know that",
+      "what if the opposite", "that presumes that", "the question behind that",
+      "we're assuming that", "what are we assuming", "that's the part i'd",
+      "the premise here is", "what would change your mind", "what would falsify",
+    ],
+  },
+  {
+    id: "stand",
+    zh: "守住立場",
+    blurb: "被質疑之後不退。台灣人通常在這裡先軟了，而軟掉的立場沒有人會替你撿回來。",
+    seeds: [
+      "i still think", "i'll stand by that", "i haven't changed my",
+      "i feel strongly about", "this is a hill", "i'm willing to be wrong",
+      "my strong opinion is", "i'm quite confident", "i really do believe",
+      "i'd bet on that", "i'm going to hold", "i'm sticking with",
+      "i've thought about that", "that doesn't change my", "i'd still argue",
+      "even so i think", "i hear you but", "that's fair but i",
+    ],
   },
   {
     id: "opinion",
@@ -224,12 +250,12 @@ const CATEGORIES = [
       "the way i'd frame", "i think we should", "if i had to",
       "my view on this", "what i keep coming", "the thing i'd say",
       "my take on this", "i tend to think", "the way i look",
-      "i've come to believe", "what i've found is", "my strong opinion is",
-      "i'm a big believer", "the mental model i", "i would start with",
-      "what matters most is", "the thing that matters", "my advice would be",
-      "what i tell people", "the point i'd make", "i've always believed that",
-    
-      "the frame i use is", "my mental model here", "the way i'd characterize", "i've become convinced that", "what it comes down to", "the first principle here", "the underlying thesis is", "if you boil it down", "the crux of it is", "the through line here", "my working hypothesis is", "i've landed on the", "the bet i would make", "where i've ended up", "the pattern i see is",],
+      "i've come to believe", "what i've found is", "i'm a big believer",
+      "the mental model i", "i would start with", "what matters most is",
+      "the frame i use is", "what it comes down to", "the crux of it is",
+      "if you boil it down", "the underlying thesis is", "the pattern i see is",
+      "i've landed on the", "where i've ended up", "my working hypothesis is",
+    ],
   },
   {
     id: "ask",
@@ -237,31 +263,32 @@ const CATEGORIES = [
     blurb: "問對問題比給對答案更能改變一場會議。",
     seeds: [
       "can you tell me", "how do you know", "what do you mean",
-      "why do you think", "help me understand", "what would have to",
-      "the question is how", "what are we trying", "how are you measuring",
-      "what would you do", "can you say more", "walk me through",
-      "what's the thing that", "how did you get", "what does that look",
-      "can you give me", "tell me more about", "what's an example of",
-      "how do you think about", "what's the biggest", "what makes you say",
-      "how would you define", "what's your advice for", "say more about that",
-      "what's the hardest part", "how do you decide",
-    
-      "what would change your mind", "what are you optimizing for", "what's the counterfactual", "how confident are you", "what would falsify that", "what's the second order", "what does success look like", "where does that break down", "what are we solving for", "what's the failure mode", "what's the smallest version", "how would we know if", "what's the evidence for",],
+      "why do you think", "help me understand", "what are we trying",
+      "the question is how", "how are you measuring", "what would you do",
+      "can you say more", "walk me through", "what's the thing that",
+      "how did you get", "what does that look", "can you give me",
+      "tell me more about", "what's an example of", "how do you think about",
+      "what's the biggest", "what makes you say", "how would you define",
+      "say more about that", "what's the hardest part", "how do you decide",
+      "what are you optimizing for", "what's the second order",
+      "what does success look like", "where does that break down",
+      "what are we solving for", "what's the failure mode",
+    ],
   },
   {
     id: "clarify",
     zh: "澄清與確認",
-    blurb: "沒聽懂的時候，怎麼問才不顯得沒跟上。",
+    blurb: "沒聽懂的時候，怎麼問才不顯得沒跟上。重述其實是會議裡最便宜的主導工具。",
     seeds: [
       "what i'm hearing is", "just to make sure", "let me know if",
       "if i understand correctly", "just to be clear", "so what you're saying",
       "let me play that", "i want to make sure", "am i right that",
       "let me see if", "to put it another", "so just to summarize",
       "correct me if i'm", "is that fair to", "does that make sense",
-      "what you just said", "so if i'm following", "let me repeat back",
-      "to be clear i'm", "just so i understand", "the way you're describing",
-    
-      "let me reflect that back", "if i'm reading you right", "to steelman your point", "let me restate that", "the distinction you're drawing", "i want to separate two", "are we talking about", "is the claim that", "let me make sure i'm",],
+      "what you just said", "so if i'm following", "let me restate that",
+      "the distinction you're drawing", "let me reflect that back",
+      "if i'm reading you right", "just so i understand",
+    ],
   },
   {
     id: "setup",
@@ -273,17 +300,16 @@ const CATEGORIES = [
       "when i talk to", "let me give you", "the best example of",
       "think about it this", "for example when", "a good example is",
       "one of the things", "here's the thing", "the way i describe",
-      "let's say you're", "imagine you're", "to give you context",
-      "so here's what happened", "the story goes", "a great example of",
-      "if you think about", "the analogy i use", "picture a world",
-      "so the way that", "what happened was",
-    
-      "to set the stage", "for context here", "the backdrop to this", "zoom out for a second", "the thing to understand", "let me back up", "at a high level", "the short version is", "to put numbers on", "here's where it gets", "the punchline is that",],
+      "let's say you're", "to give you context", "so here's what happened",
+      "a great example of", "if you think about", "the analogy i use",
+      "to set the stage", "for context here", "zoom out for a second",
+      "let me back up", "at a high level", "the short version is",
+    ],
   },
   {
     id: "hedge",
     zh: "承認不確定",
-    blurb: "承認不知道是資深的訊號，但要會講。",
+    blurb: "承認不知道是資深的訊號，但要會講——先劃範圍，然後一定要補料。",
     seeds: [
       "i don't know if", "i could be wrong", "i'm not an expert",
       "my guess is that", "i know this is", "i don't have the",
@@ -291,10 +317,21 @@ const CATEGORIES = [
       "i want to caveat", "i genuinely don't know", "i'm still figuring out",
       "i honestly don't know", "i don't have a good", "we don't know yet",
       "i'm not sure that's", "the honest answer is", "i wish i knew",
-      "to be honest i", "i may be wrong", "i'm speculating a little",
-      "that's a hard question", "i don't have a great",
-    
-      "i'd hold that loosely", "the jury's still out", "reasonable people disagree", "i could see it going", "my prior is that", "i don't have strong", "i'm directionally confident", "i'd want to test", "this is a hypothesis", "i haven't stress tested",],
+      "to be honest i", "i may be wrong", "i'd hold that loosely",
+      "the jury's still out", "reasonable people disagree", "my prior is that",
+      "i can't speak to", "i'm limited on what",
+    ],
+  },
+  {
+    id: "agree",
+    zh: "同意也要有份量",
+    blurb: "附和一句就沒了，你的同意等於沒發生。母語者同意時會補一個理由或一個延伸。",
+    seeds: [
+      "i completely agree with", "i think that's right", "and i'd add to that",
+      "i'd go even further", "that tracks with what", "i've seen the same thing",
+      "you're onto something", "i think you've nailed it", "that mirrors my experience",
+      "i think that's the key", "yes and i would",
+    ],
   },
 ];
 
@@ -305,17 +342,59 @@ for (const c of CATEGORIES) {
     if (!catOf.has(key)) catOf.set(key, c.id);
     // 種子直接進查詢集，讓分類自己去語料裡撈
     if (!phraseSet.has(key)) {
-      phraseSet.set(key, { display: seed, fns: new Set() });
+      phraseSet.set(key, { display: seed, fns: new Set(), origin: "seed" });
     }
     phraseSet.get(key).curated = true;
+    phraseSet.get(key).origin = "seed";
   }
 }
+
+// 種子撈不到的，用它來源卡片的「語言功能」歸類。
+// 這很重要：語料是訪談節目，沒有人在對彼此說不——他們是在**講述**自己怎麼說不。
+// 所以「拒絕」類的說法撈不到我編的種子，但那些卡片本來就是從語料裡挑出來的
+// 拒絕與反對，用功能歸類等於把它們找回來。
+const FN_TO_CAT = new Map(
+  Object.entries({
+    "saying-no": "refuse",
+    "polite-disagreement": "disagree",
+    "changing-your-mind": "disagree",
+    "challenging-assumptions": "premise",
+    "handling-objections": "stand",
+    "trade-offs": "stand",
+    "making-the-case": "opinion",
+    "proposing-idea": "opinion",
+    "setting-strategy": "opinion",
+    "framing-problem": "opinion",
+    "explaining-why": "opinion",
+    "backing-with-evidence": "opinion",
+    "coaching-questions": "ask",
+    "clarifying": "clarify",
+    "summarizing": "clarify",
+    "stakeholder-alignment": "clarify",
+    "persuasive-story": "setup",
+    "painting-vision": "setup",
+    "admitting-uncertainty": "hedge",
+    "owning-mistakes": "hedge",
+    "bad-news": "hedge",
+    "recognition": "agree",
+  }),
+);
 
 /** 一個說法屬於哪一類；配不上就回 null（會被丟掉） */
 function classify(p) {
   if (catOf.has(p)) return catOf.get(p);
   for (const [key, id] of catOf) {
     if (p.startsWith(key) || key.startsWith(p)) return id;
+  }
+  // 只有「採集時人工判定的句型骨架」才享有功能歸類。
+  // 機器挖的 n-gram 就算來自 saying-no 的卡，片語本身也可能是
+  // "I think we could" 這種不帶拒絕語意的東西，掛到「說不」下面是騙人。
+  const meta = phraseSet.get(p);
+  if (meta?.origin === "pattern") {
+    for (const fn of meta.fns) {
+      const cat = FN_TO_CAT.get(fn);
+      if (cat) return cat;
+    }
   }
   return null;
 }
