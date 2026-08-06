@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 const nav = [
   { href: "/today/", label: "今天的 5 句" },
   { href: "/trap/", label: "中文腦陷阱" },
+  { href: "/finding/", label: "語料數據" },
   { href: "/jargon/", label: "職場黑話" },
   { href: "/ask/", label: "怎麼問" },
   { href: "/clips/", label: "原聲片段" },

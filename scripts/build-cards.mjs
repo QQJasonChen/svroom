@@ -557,6 +557,102 @@ ingest({
 });
 
 
+// ===================== 語料數據發現 =====================
+// 跟其他層不同：這一層的每一條都從一個**掃過全部 311 集數出來的數字**開始，
+// 不是從我的觀察開始。數字先行，然後才是「所以這代表什麼」。
+const findingFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("findings-") && f.endsWith(".json"))
+  .sort();
+
+const findings = [];
+const findingIssues = [];
+
+for (const file of findingFiles) {
+  let raw;
+  try {
+    raw = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  if (!raw?.id || !raw.stat || !Array.isArray(raw.types)) {
+    findingIssues.push(`${file}: 結構不完整`);
+    continue;
+  }
+
+  const types = [];
+  for (const t of raw.types) {
+    if (!t?.zh || !Array.isArray(t.examples)) continue;
+    const examples = [];
+    for (const e of t.examples) {
+      if (!e?.quote || !e.guest || !e.source_file) continue;
+      const qw = wordCount(e.quote);
+      const usedSrc = sourceWords.get(e.source_file) || 0;
+      const quota = quotaFor(e.source_file);
+      if (qw > MAX_QUOTE_WORDS) {
+        findingIssues.push(`${file}: 例句 ${qw} 字超標，已略過`);
+        continue;
+      }
+      if (usedSrc + qw > quota) {
+        findingIssues.push(`${file}: 來源 ${e.source_file} 額度已滿，已略過一則`);
+        continue;
+      }
+      sourceWords.set(e.source_file, usedSrc + qw);
+      guestWords.set(e.guest, (guestWords.get(e.guest) || 0) + qw);
+      const src = sourceByFile.get(e.source_file);
+      examples.push({
+        quote: e.quote.trim(),
+        guest: e.guest.trim(),
+        timestamp: e.timestamp || null,
+        episode: src?.episode || null,
+        isSearch: !!src?.isSearch,
+        ...withTimestamp(src?.url || null, e.timestamp),
+      });
+    }
+    if (examples.length === 0) continue;
+    types.push({
+      zh: t.zh.trim(),
+      share: t.share || null,
+      note: t.note ? t.note.trim() : null,
+      examples,
+    });
+  }
+
+  if (types.length === 0) {
+    findingIssues.push(`${file}: 沒有可用的型別，略過`);
+    continue;
+  }
+
+  findings.push({
+    id: raw.id,
+    zh: raw.zh || raw.id,
+    en: raw.en || null,
+    stat: raw.stat,
+    headline: raw.headline || "",
+    why: raw.why || "",
+    taiwan: raw.taiwan || "",
+    types,
+  });
+}
+
+writeFileSync(
+  join(ROOT, "data", "findings.json"),
+  JSON.stringify({ count: findings.length, findings }, null, 2) + "\n",
+);
+
+if (findingFiles.length > 0) {
+  console.log(
+    `\n✓ 語料數據發現：${findings.length} 條，共 ${findings.reduce((n, f) => n + f.types.length, 0)} 個用法型別、${findings.reduce((n, f) => n + f.types.reduce((m, t) => m + t.examples.length, 0), 0)} 則例句`,
+  );
+  if (findingIssues.length) {
+    console.log(`⚠ 數據層問題 ${findingIssues.length} 筆：`);
+    for (const m of findingIssues.slice(0, 5)) console.log(`  ${m}`);
+  }
+} else {
+  console.log("\n⚠ 還沒有數據發現（data/raw/findings-*.json）");
+}
+
 // ===================== PM 職場黑話 =====================
 // 這一層的規則是零發明：中文解釋可以寫，英文一律只能是逐字稿裡的原句。
 // 詞彙清單是掃過全部 311 集的實際頻率決定的，不是憑印象挑的。

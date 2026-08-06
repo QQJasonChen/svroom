@@ -9,6 +9,7 @@ import { writingStats } from "@/lib/writing";
 import { trapStats } from "@/lib/traps";
 import { jargonStats } from "@/lib/jargon";
 import { questionStats } from "@/lib/questions";
+import { findingStats } from "@/lib/findings";
 
 export default function Home() {
   return (
@@ -178,6 +179,13 @@ export default function Home() {
             n={conceptStats.written}
             unit="個核心概念"
             body="每個概念都附「在英文會議上怎麼把它講出來」，以及台灣 PM 最常踩的坑。"
+          />
+          <Panel
+            href="/finding/"
+            label="語料數據發現"
+            n={findingStats.count}
+            unit="條"
+            body="不是「我覺得台灣人不會什麼」，是掃過全部 311 集數出來的。先有數字，再有解讀。"
           />
           <Panel
             href="/trap/"
