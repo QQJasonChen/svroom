@@ -194,7 +194,8 @@ const CATEGORIES = [
       "i think it's a great", "no i think that's", "that's a fair point",
       "i buy that", "i think that's exactly", "that's very true",
       "i'm a big fan of", "i think that's a really",
-    ],
+    
+      "i think you've nailed it", "you're onto something", "that tracks with what", "i'd go even further", "and i'd add to that", "you took the words", "that's a really important point", "that mirrors my experience", "i've seen the same thing", "i think that's the key", "that's the whole ballgame",],
   },
   {
     id: "disagree",
@@ -210,7 +211,8 @@ const CATEGORIES = [
       "that's where i would", "i don't buy that", "i see it differently",
       "i think that's wrong", "the thing i disagree", "i push back on",
       "i'm going to disagree", "that's a mistake i", "i would caution against",
-    ],
+    
+      "i'd gently push back", "i want to offer a counterpoint", "where i land differently", "the counterargument would be", "i'd challenge the premise", "that presumes that", "i'm less sure about", "that's where i'd diverge", "i'm going to be contrarian", "i hold the opposite view", "i'd be careful about", "the risk with that is", "i'd resist the urge", "that's a false choice",],
   },
   {
     id: "opinion",
@@ -226,7 +228,8 @@ const CATEGORIES = [
       "i'm a big believer", "the mental model i", "i would start with",
       "what matters most is", "the thing that matters", "my advice would be",
       "what i tell people", "the point i'd make", "i've always believed that",
-    ],
+    
+      "the frame i use is", "my mental model here", "the way i'd characterize", "i've become convinced that", "what it comes down to", "the first principle here", "the underlying thesis is", "if you boil it down", "the crux of it is", "the through line here", "my working hypothesis is", "i've landed on the", "the bet i would make", "where i've ended up", "the pattern i see is",],
   },
   {
     id: "ask",
@@ -242,7 +245,8 @@ const CATEGORIES = [
       "how do you think about", "what's the biggest", "what makes you say",
       "how would you define", "what's your advice for", "say more about that",
       "what's the hardest part", "how do you decide",
-    ],
+    
+      "what would change your mind", "what are you optimizing for", "what's the counterfactual", "how confident are you", "what would falsify that", "what's the second order", "what does success look like", "where does that break down", "what are we solving for", "what's the failure mode", "what's the smallest version", "how would we know if", "what's the evidence for",],
   },
   {
     id: "clarify",
@@ -256,7 +260,8 @@ const CATEGORIES = [
       "correct me if i'm", "is that fair to", "does that make sense",
       "what you just said", "so if i'm following", "let me repeat back",
       "to be clear i'm", "just so i understand", "the way you're describing",
-    ],
+    
+      "let me reflect that back", "if i'm reading you right", "to steelman your point", "let me restate that", "the distinction you're drawing", "i want to separate two", "are we talking about", "is the claim that", "let me make sure i'm",],
   },
   {
     id: "setup",
@@ -272,7 +277,8 @@ const CATEGORIES = [
       "so here's what happened", "the story goes", "a great example of",
       "if you think about", "the analogy i use", "picture a world",
       "so the way that", "what happened was",
-    ],
+    
+      "to set the stage", "for context here", "the backdrop to this", "zoom out for a second", "the thing to understand", "let me back up", "at a high level", "the short version is", "to put numbers on", "here's where it gets", "the punchline is that",],
   },
   {
     id: "hedge",
@@ -287,7 +293,8 @@ const CATEGORIES = [
       "i'm not sure that's", "the honest answer is", "i wish i knew",
       "to be honest i", "i may be wrong", "i'm speculating a little",
       "that's a hard question", "i don't have a great",
-    ],
+    
+      "i'd hold that loosely", "the jury's still out", "reasonable people disagree", "i could see it going", "my prior is that", "i don't have strong", "i'm directionally confident", "i'd want to test", "this is a hypothesis", "i haven't stress tested",],
   },
 ];
 
@@ -300,6 +307,7 @@ for (const c of CATEGORIES) {
     if (!phraseSet.has(key)) {
       phraseSet.set(key, { display: seed, fns: new Set() });
     }
+    phraseSet.get(key).curated = true;
   }
 }
 
@@ -447,7 +455,11 @@ for (const file of readdirSync(PODCASTS).filter((f) => f.endsWith(".md")).sort()
 // ---------- 4. 輸出 ----------
 const phrases = [...hits.entries()]
   .filter(([p, list]) => {
-    if (list.length < 2) return false; // 只有一段就沒有「聽很多人講」的價值
+    // 分類種子是人工挑過的，只出現一次也收——進階說法在語料裡本來就罕見，
+    // 「這句只出現過一次，這就是那一次」本身就是有價值的資訊。
+    // 機器挖出來的沒經過人工把關，維持至少兩段才收。
+    const min = phraseSet.get(p)?.curated ? 1 : 2;
+    if (list.length < min) return false;
     const n = trueCount.get(p) || list.length;
     return n <= MAX_TRUE_OCCURRENCES; // 太泛的不是語塊
   })

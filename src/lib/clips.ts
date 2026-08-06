@@ -38,6 +38,9 @@ export const clipCount: number = clipsFile.count;
 export const clipCategories: ClipCategory[] = (clipsFile.categories ??
   []) as ClipCategory[];
 
+/** 少見的說法——語料裡出現 ≤3 次，通常也是比較進階的 */
+export const isRare = (p: ClipPhrase) => p.total <= 3;
+
 /** 依意圖分類分組，空的類別不出現 */
 export function phrasesByCategory(list: ClipPhrase[] = clipPhrases) {
   return clipCategories
