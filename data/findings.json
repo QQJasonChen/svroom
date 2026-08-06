@@ -1,4 +1,225 @@
 {
-  "count": 0,
-  "findings": []
+  "count": 1,
+  "findings": [
+    {
+      "id": "prefix-before-fire",
+      "zh": "先貼標籤，再開火",
+      "en": "Label it before you say it",
+      "stat": {
+        "count": 298,
+        "episodes": 152,
+        "total": 311,
+        "median": 1
+      },
+      "headline": "重話不是靠語氣軟化，是靠前面那個標籤買到的許可",
+      "why": "英語會議裡的重話，殺傷力不在句子本身，而在對方怎麼解讀你的動機。一句沒有前綴的「That's not a strategy」，聽的人要自己去猜：你是在否定這份文件，還是在否定我這個人？猜錯的成本很高，所以他會先防禦。標籤句的作用就是把這個猜測環節收掉——它預先宣告了「這句話的射程有多遠」「哪些東西不在射程內」「我知道我接下來要說的不是共識」。範圍一旦被鎖死，對方就不需要用防禦來保護自己，重話才有地方落地。所以英語職場的火力上限不是由用詞決定的，是由你願不願意先花三秒鐘做這個宣告決定的。311 集裡有一半的集數出現這個動作，而且幾乎都出現在講者要下最硬的判斷之前。",
+      "taiwan": "台灣人的直覺是把緩衝放在「後面」——先把重話丟出去，看對方臉色不對，再花五分鐘補「我不是那個意思」「我只是提出來討論」。但補在後面的緩衝救不了場：對方已經進入防禦，你後面講的每一句都被讀成退縮，於是重話也一起被收回，你等於什麼都沒說。另一種更常見的是連重話都不敢下，直接跳到「但是」，用一長串鋪陳把判斷藏在中間，主管聽完只記得你講了很多、沒記得你反對。代價是一樣的：你既沒有守住關係，也沒有把判斷送出去。",
+      "types": [
+        {
+          "zh": "宣告立場強度：我知道這不是共識",
+          "share": "約 20%（59/299 次，33 集）",
+          "note": "用 hot take、unpopular opinion、maybe this is a hot take 開頭，等於預先承認「這句話會有人不同意」。因為你自己先講了，對方就不必再花力氣提醒你，可以直接進入內容。這一型後面接的通常是對主流做法的整句否定——不是「這裡可以調整」，而是「這件事大部分人根本不需要」。",
+          "examples": [
+            {
+              "quote": "But my hot take is that for the vast majority of people, they probably do not need a coach.",
+              "guest": "Ada Chen Rekhi",
+              "timestamp": "00:42:42",
+              "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=2560s",
+              "seek": true
+            },
+            {
+              "quote": "I don't have Twitter, like hot take, I think Twitter ruins people's careers. I've already seen multiple careers ruined by Twitter.",
+              "guest": "Austin Hay",
+              "timestamp": "01:23:05",
+              "episode": "The ultimate guide to Martech | Austin Hay (Reforge, Ramp, Runway)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=B79p85DHLkU&t=4983s",
+              "seek": true
+            },
+            {
+              "quote": "This might be my hot take, but we do almost no estimating in order to hit deadlines. What we do is we ship as early as we can.",
+              "guest": "Nan Yu",
+              "timestamp": "01:13:18",
+              "episode": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=nTr21kgCFF4&t=4396s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "先拆稻草人：我不是在說那個極端",
+          "share": "約 31%（93/299 次，61 集）——最大宗",
+          "note": "結構固定是「I'm not saying［最極端的解讀］, but［我真正的主張］」。先把對方最可能拿來反駁你的極端版本親手拆掉，剩下的火力就全打在真正的爭點上。93 次裡有 68 次後面直接接 but / however / what I'm saying is——這個標籤幾乎不會單獨出現，它存在的唯一目的就是替後面那句重話清出路。",
+          "examples": [
+            {
+              "quote": "Now, obviously, I'm not saying don't do SEO, or don't do SEM, so organic search or paid search. I'm not saying that. However, as a growth team, your number one priority is to create your own or your earned channel.",
+              "guest": "Elena Verna",
+              "timestamp": "00:43:57",
+              "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "So I'm not saying that having a large market someday doesn't matter, of course it does eventually. But trying to be super pedantic about market size when it's a pre-seed company or someone applying to YC, it's just not something I'd put a lot of thought.",
+              "guest": "Dalton Caldwell",
+              "timestamp": "00:29:25",
+              "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1763s",
+              "seek": true
+            },
+            {
+              "quote": "I'm not saying we should go back to the early 90's, but I'm saying it wasn't always like this. The whole frontier of productivity at the time felt like it was just taking us in the wrong direction.",
+              "guest": "Drew Houston",
+              "timestamp": "01:04:40",
+              "episode": "Behind the founder: Drew Houston (Dropbox)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=egdYKLBswgk&t=3878s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "先讓一步再翻盤：好，但那不是重點",
+          "share": "約 10%（31/299 次，24 集）",
+          "note": "用 don't get me wrong 或 to be fair 先把對方的功勞、優點、合理之處認掉，證明你不是沒看見。認完之後那個 but 才有份量——因為你已經排除了「他只是沒搞懂」這個解釋。這一型後面接的常常是把整件事降級：不是說它不好，是說它不重要、不值得投資、不該用這個名字稱呼。",
+          "examples": [
+            {
+              "quote": "Now to be fair, Slack with their magic link, did a cool thing with the forgot password flow. That was a nice innovative thing that I think moved the industry forward. So if you want to do discovery on that, great, but you probably don't have to.",
+              "guest": "Teresa Torres",
+              "timestamp": "00:29:42",
+              "episode": "Teresa Torres on how to interview customers, automating continuous discovery, the opportunity solution tree framework, making the case for user research, common interviewing mistakes, and much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "And Gong's hard to sell today, too, don't get me wrong. But you see my point, it's just that simplicity, it's too complicated, right?",
+              "guest": "Jason Lemkin",
+              "timestamp": "00:59:00",
+              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=3538s",
+              "seek": true
+            },
+            {
+              "quote": "And don't get me wrong, I think there's a lot of product folks out there who enjoy that modality of work, I'm not one of them.",
+              "guest": "Chris Miller",
+              "timestamp": "00:41:21",
+              "episode": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=SzKKJwuRFZI&t=2479s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "限定射程：這句話只在這個範圍內成立",
+          "share": "約 9%（27/299 次，22 集）",
+          "note": "caveat 是唯一一個「先劃界線、界線內就講到底」的標籤。因為適用範圍被明確框住，框內的話反而可以講得斬釘截鐵——連「研究顯示這個做法沒有效」這種等級的斷言，都可以掛在一句 I would caveat 底下送出去。台灣人習慣用「可能」「某種程度上」把不確定性攤在整句話裡；英語職場是把不確定性集中扔進 caveat，讓主句保持乾淨。",
+          "examples": [
+            {
+              "quote": "I would caveat to say, interviews, actually we know, don't predict job performance. So, very little to no evidence would say interviews will predict how I perform on the job.",
+              "guest": "Kristen Berman",
+              "timestamp": "00:54:03",
+              "episode": "Using behavioral science to improve your product | Kristen Berman (Irrational Labs)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "I do want to apply a pretty severe caveat here though, which is, a decision log is not a replacement for building products. It's a additional complimentary thing that you can be doing on your own.",
+              "guest": "Kevin Yien",
+              "timestamp": "00:42:12",
+              "episode": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=xOTO98MXG9o&t=2530s",
+              "seek": true
+            },
+            {
+              "quote": "One thing to caveat is you do not get paid until you are approved by finance, and procurement has a signature on the contract. Meaning don't start any work.",
+              "guest": "Jen Abel",
+              "timestamp": "01:00:19",
+              "episode": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=37fKFWdrMyA&t=3617s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "定調防誤讀：先把我沒有在主張的事切掉",
+          "share": "約 19%（57/299 次，43 集）",
+          "note": "講者自己用 to be clear 把一個容易被誤植到自己頭上的立場切掉，通常出現在他正要講一句聽起來很極端、或很容易被斷章取義的話前後。功能不是澄清事實，是搶在對方腦補之前先定調——把話語權從「你會怎麼理解我」拿回到「我說了什麼」。這一型是唯一常見於連任何緩衝都不加的硬結論旁邊的標籤。",
+          "examples": [
+            {
+              "quote": "And to be clear, I don't think it's actually that dangerous right now.",
+              "guest": "Benjamin Mann",
+              "timestamp": "00:36:48",
+              "episode": "Benjamin Mann",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "And to be clear, it's not easy to be a PM. It's not an entry level job.",
+              "guest": "Brandon Chu",
+              "timestamp": "00:07:26",
+              "episode": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "I do want to be clear, it's one leader and their team who are accountable and responsible.",
+              "guest": "Bill Carr",
+              "timestamp": "00:18:24",
+              "episode": "Unpacking Amazon’s unique ways of working | Bill Carr (author of Working Backwards)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "zh": "複述定錨：我先把你的話講一次，再處理它",
+          "share": "約 11%（32/299 次，30 集）——幾乎全是主持人使用",
+          "note": "「Just to be clear, you're saying ⋯⋯?」是先把對方的主張用自己的話壓成一句可攻擊的形狀，等對方點頭之後才動手。這一步做完，後面的反駁就不會被賴成「你誤會我的意思」——射程是他自己確認過的。台灣人開會時最常跳過的就是這一步，結果整場都在爭論彼此到底講了什麼。",
+          "examples": [
+            {
+              "quote": "And just to be clear, you're talking about the growth of the company. So doubling in a year, bad idea.",
+              "guest": "Lenny Rachitsky",
+              "timestamp": "01:20:27",
+              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=4825s",
+              "seek": true
+            },
+            {
+              "quote": "And so just to be clear, you're saying 20 to 30% of people come back the next day?",
+              "guest": "Lenny Rachitsky",
+              "timestamp": "00:30:26",
+              "episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=1824s",
+              "seek": true
+            },
+            {
+              "quote": "I guess just to be clear, are these the same thing in your mind with different words?",
+              "guest": "Lenny Rachitsky",
+              "timestamp": "00:24:39",
+              "episode": "Business strategy with Hamilton Helmer (author of 7 Powers)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
