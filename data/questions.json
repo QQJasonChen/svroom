@@ -1,5 +1,5 @@
 {
-  "count": 125,
+  "count": 124,
   "categories": [
     {
       "id": "open",
@@ -480,20 +480,6 @@
     {
       "id": "q-31",
       "cat": "confirm",
-      "q": "So you intentionally set that announcement up to be controversial is what I'm hearing?",
-      "zh": "所以你是刻意把那則公告弄得有爭議性的，我這樣聽對嗎？",
-      "why": "把對方沒明說的動機（intentionally）講出來，再用 is what I'm hearing 收尾。他若否認會主動補說明，若默認你就拿到一個他自己不會主動講的重點。",
-      "pattern": "So you intentionally [做了X] is what I'm hearing?",
-      "askedTo": "Grant Lee",
-      "timestamp": "00:25:52",
-      "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-      "isSearch": false,
-      "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=1550s",
-      "seek": true
-    },
-    {
-      "id": "q-32",
-      "cat": "confirm",
       "q": "Okay, let me try to reflect back some of the advice I've been hearing about how to shift a company to be successful in this new world, and let me see if I'm missing anything that you think is really important.",
       "zh": "好，我試著把剛剛聽到的建議整理回去——關於一家公司要怎麼調整才能在這個新局裡活得好——你看我有沒有漏掉什麼你覺得很重要的。",
       "why": "reflect back 先宣告要複誦，再用 see if I'm missing anything 把球丟回去。最精巧的是它把「我可能聽錯」寫成「我可能漏掉」，對方補充時不必否定你。",
@@ -506,7 +492,7 @@
       "seek": true
     },
     {
-      "id": "q-33",
+      "id": "q-32",
       "cat": "confirm",
       "q": "Just to close the loop on this advice around getting better at vision and strategy, if I were to reflect back what I'm hearing its be very self-aware about what you are not strong at, say openness.",
       "zh": "為了把「怎麼把願景跟策略做得更好」這段收個尾——如果我把聽到的整理回去，就是：要非常清楚自己哪裡不強，比方說開放性。",
@@ -520,7 +506,7 @@
       "seek": true
     },
     {
-      "id": "q-34",
+      "id": "q-33",
       "cat": "confirm",
       "q": "What I'm hearing is step one is just get your kind of peer leaders aligned behind something that may not obviously be something your leaders want you to do, is that right?",
       "zh": "我聽到的是，第一步就是先把跟你平行的那些主管拉到同一邊，即使那件事表面上未必是你老闆想要你做的——是這樣嗎？",
@@ -534,7 +520,7 @@
       "seek": false
     },
     {
-      "id": "q-35",
+      "id": "q-34",
       "cat": "confirm",
       "q": "So correct me if I'm wrong, but kind of the advice you're sharing is there's less opportunity in just generating tons of blog posts that just have a bunch of content.",
       "zh": "我理解錯就糾正我——你分享的建議大概是說，光是狂產一堆有內容的部落格文章，機會已經比較小了。",
@@ -548,7 +534,7 @@
       "seek": true
     },
     {
-      "id": "q-36",
+      "id": "q-35",
       "cat": "confirm",
       "q": "And correct me if I'm wrong, but you guys have moved away from that approach.",
       "zh": "我說錯的話糾正我——你們後來已經不走那條路了。",
@@ -562,7 +548,7 @@
       "seek": false
     },
     {
-      "id": "q-37",
+      "id": "q-36",
       "cat": "confirm",
       "q": "Let me just try to summarize what you shared, this five step framework.",
       "zh": "我試著把你剛分享的整理一下，這個五步驟的架構。",
@@ -576,7 +562,7 @@
       "seek": true
     },
     {
-      "id": "q-38",
+      "id": "q-37",
       "cat": "confirm",
       "q": "I'm going to summarize what you just shared, which is awesome.",
       "zh": "我來把你剛剛講的整理一下，超棒的。",
@@ -590,7 +576,7 @@
       "seek": true
     },
     {
-      "id": "q-39",
+      "id": "q-38",
       "cat": "confirm",
       "q": "So just to summarize the audit that you do, I wrote some notes as you were talking, and maybe we can keep going from that point.",
       "zh": "我把你做的那套盤點整理一下——你在講的時候我有做筆記——然後我們也許可以從那邊接下去。",
@@ -604,7 +590,7 @@
       "seek": true
     },
     {
-      "id": "q-40",
+      "id": "q-39",
       "cat": "confirm",
       "q": "So, just to summarize, the main benefits are focuses you, lines, creates a cadence and creates a learning cycle.",
       "zh": "所以整理一下，主要的好處是讓你聚焦、對齊、建立節奏，還有形成學習循環。",
@@ -618,7 +604,7 @@
       "seek": true
     },
     {
-      "id": "q-41",
+      "id": "q-40",
       "cat": "confirm",
       "q": "Okay, let me take this opportunity to try to summarize what I've learned from you so far in terms of what you guys have figured out about creating incredible product leaders.",
       "zh": "好，我趁這個機會整理一下到目前為止從你這邊學到的，關於你們在培養頂尖產品主管上摸索出來的東西。",
@@ -632,7 +618,7 @@
       "seek": true
     },
     {
-      "id": "q-42",
+      "id": "q-41",
       "cat": "confirm",
       "q": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
       "zh": "我聽到的是，與其說 AI 被塞進 SaaS 工具裡，你在這裡預測的其實是 SaaS 工具會跑在 Codex 或 Claude Code 之內？",
@@ -646,7 +632,7 @@
       "seek": false
     },
     {
-      "id": "q-43",
+      "id": "q-42",
       "cat": "confirm",
       "q": "So what you're saying is not only is there going to be this big opportunity to grow, if you don't take advantage of it, somebody in your space will.",
       "zh": "所以你的意思是，這不只是一個很大的成長機會——你不抓，同業就會抓走。",
@@ -660,7 +646,7 @@
       "seek": true
     },
     {
-      "id": "q-44",
+      "id": "q-43",
       "cat": "close",
       "q": "Is there anything else along the lines of this specific type of feedback that is worth sharing before we move on to a different type of feedback?",
       "zh": "在我們換到另一種回饋之前，關於這一類回饋，還有什麼值得補充的嗎？",
@@ -674,7 +660,7 @@
       "seek": true
     },
     {
-      "id": "q-45",
+      "id": "q-44",
       "cat": "close",
       "q": "Let me ask you one more question before we shift a whole different topic, hint, hint, AI.",
       "zh": "在我們換到一個完全不同的主題之前，我再問你一個問題——提示一下，是 AI。",
@@ -688,7 +674,7 @@
       "seek": true
     },
     {
-      "id": "q-46",
+      "id": "q-45",
       "cat": "close",
       "q": "One last question about the CPO role, and then I want to shift a bit to just product management and growth.",
       "zh": "關於 CPO 這個角色，最後問一題，然後我想稍微轉到產品管理跟成長。",
@@ -702,7 +688,7 @@
       "seek": false
     },
     {
-      "id": "q-47",
+      "id": "q-46",
       "cat": "close",
       "q": "Let me ask one more quick question on strategy and then I want to move on to career stuff.",
       "zh": "策略這塊我再快問一題，然後想接到職涯的部分。",
@@ -716,7 +702,7 @@
       "seek": false
     },
     {
-      "id": "q-48",
+      "id": "q-47",
       "cat": "close",
       "q": "One last question before we move on to the next step.",
       "zh": "在進到下一步之前，最後一個問題。",
@@ -730,7 +716,7 @@
       "seek": true
     },
     {
-      "id": "q-49",
+      "id": "q-48",
       "cat": "close",
       "q": "Is there anything else along this thread before we move on to a different topic, anything else you want to share before we close out this chapter?",
       "zh": "這條線上還有什麼要補的嗎？在我們換題之前，還有什麼想分享的，好把這一章收起來？",
@@ -744,7 +730,7 @@
       "seek": true
     },
     {
-      "id": "q-50",
+      "id": "q-49",
       "cat": "close",
       "q": "Let's shift topics and talk about product strategy.",
       "zh": "我們換個主題，來聊產品策略。",
@@ -758,7 +744,7 @@
       "seek": true
     },
     {
-      "id": "q-51",
+      "id": "q-50",
       "cat": "close",
       "q": "Okay, let me zoom out a bit and I want to move on to a different topic.",
       "zh": "好，我拉遠一點看，然後想換到另一個主題。",
@@ -772,7 +758,7 @@
       "seek": true
     },
     {
-      "id": "q-52",
+      "id": "q-51",
       "cat": "close",
       "q": "Any last piece of wisdom to leave listeners with around The JOLT Effect before we move on to The Challenger Sale?",
       "zh": "在我們轉到《挑戰者銷售》之前，關於《JOLT 效應》還有什麼最後的智慧想留給聽眾的嗎？",
@@ -786,7 +772,7 @@
       "seek": true
     },
     {
-      "id": "q-53",
+      "id": "q-52",
       "cat": "close",
       "q": "Let's transition to the third area I wanted to spend some time on, which is growth.",
       "zh": "我們轉到我想花點時間聊的第三塊——成長。",
@@ -800,7 +786,7 @@
       "seek": true
     },
     {
-      "id": "q-54",
+      "id": "q-53",
       "cat": "close",
       "q": "I have a couple of more coaching questions before we move on to a few other topics.",
       "zh": "在換到別的主題之前，我還有幾個關於教練的問題。",
@@ -814,7 +800,7 @@
       "seek": false
     },
     {
-      "id": "q-55",
+      "id": "q-54",
       "cat": "close",
       "q": "I'd love to transition in to talk about investing a little bit before we get to our exciting lightning round.",
       "zh": "在進到快問快答之前，我想轉過來稍微聊一下投資。",
@@ -828,7 +814,7 @@
       "seek": false
     },
     {
-      "id": "q-56",
+      "id": "q-55",
       "cat": "close",
       "q": "Is there any other ones you want to share before we move on to getting better at speaking on the spot?",
       "zh": "在我們轉到「怎麼把臨場說話練好」之前，還有其他想分享的嗎？",
@@ -842,7 +828,7 @@
       "seek": true
     },
     {
-      "id": "q-57",
+      "id": "q-56",
       "cat": "close",
       "q": "Just to close the loop here, one takeaway here that I think is really interesting is that you can fail in a job and things will be okay.",
       "zh": "這裡先把這一段收起來——我覺得有一個很有意思的收穫：你可以在一份工作上失敗，然後一切還是會沒事。",
@@ -856,7 +842,7 @@
       "seek": true
     },
     {
-      "id": "q-58",
+      "id": "q-57",
       "cat": "close",
       "q": "Anything else before we move on to number two?",
       "zh": "在進到第二點之前，還有什麼要補的嗎？",
@@ -870,7 +856,7 @@
       "seek": false
     },
     {
-      "id": "q-59",
+      "id": "q-58",
       "cat": "example",
       "q": "Is there an example of that?",
       "zh": "有沒有一個實際的例子？",
@@ -884,7 +870,7 @@
       "seek": true
     },
     {
-      "id": "q-60",
+      "id": "q-59",
       "cat": "example",
       "q": "Is there an example that can make this even more real of a company or a product?",
       "zh": "有沒有哪個例子可以讓這件事更具體一點——某間公司或某個產品？",
@@ -898,7 +884,7 @@
       "seek": true
     },
     {
-      "id": "q-61",
+      "id": "q-60",
       "cat": "example",
       "q": "To close the loop on this piece of advice, is there an example you could share to make this super concrete for folks?",
       "zh": "為了把這個建議收尾收乾淨，有沒有一個例子可以分享，讓大家真的搞懂它長什麼樣？",
@@ -912,7 +898,7 @@
       "seek": true
     },
     {
-      "id": "q-62",
+      "id": "q-61",
       "cat": "example",
       "q": "When you say high standards, is there something you could share that gives us an example of what you mean there? Because a lot of people think they have high standards and they don't.",
       "zh": "你說的「高標準」，可以舉個例子說明你指的是什麼嗎？因為很多人都以為自己標準很高，其實沒有。",
@@ -926,7 +912,7 @@
       "seek": true
     },
     {
-      "id": "q-63",
+      "id": "q-62",
       "cat": "example",
       "q": "Then, is there an example of a feature or product that went through this that you could share? If nothing comes to mind, that's okay.",
       "zh": "那有沒有哪個功能或產品實際走過這套流程、可以拿出來講的？想不到也沒關係。",
@@ -940,7 +926,7 @@
       "seek": true
     },
     {
-      "id": "q-64",
+      "id": "q-63",
       "cat": "example",
       "q": "Is there an example that comes to mind of someone that did this really well? I don't know. I know it's hard to think of just an example off the top of your head, but does anything come to mind?",
       "zh": "有沒有想到誰把這件事做得特別好的例子？我知道要臨場想例子很難，但有沒有什麼浮上來的？",
@@ -954,7 +940,7 @@
       "seek": false
     },
     {
-      "id": "q-65",
+      "id": "q-64",
       "cat": "example",
       "q": "Is there an example of that gone wrong that you can share? Whether it's a company you've worked at or a company you've seen do it badly.",
       "zh": "有沒有做壞掉的例子可以講？不管是你待過的公司，還是你看別人做砸的。",
@@ -968,7 +954,7 @@
       "seek": false
     },
     {
-      "id": "q-66",
+      "id": "q-65",
       "cat": "example",
       "q": "Is there an example of something that broke that would be illustrative of what you're describing?",
       "zh": "有沒有哪個東西壞掉的例子，剛好能說明你講的狀況？",
@@ -982,7 +968,7 @@
       "seek": true
     },
     {
-      "id": "q-67",
+      "id": "q-66",
       "cat": "example",
       "q": "That's such a cool simple way of thinking about this. Is there an example from your work that might illustrate some of this from a project you worked on or a product you built?",
       "zh": "這個思考方式又簡單又漂亮。有沒有你自己工作上的例子可以說明——某個你做過的專案或某個你打造過的產品？",
@@ -996,7 +982,7 @@
       "seek": true
     },
     {
-      "id": "q-68",
+      "id": "q-67",
       "cat": "example",
       "q": "Is there an example that maybe worked really well or maybe didn't work?",
       "zh": "有沒有哪個例子，做起來效果很好、或者其實沒成功的？",
@@ -1010,7 +996,7 @@
       "seek": true
     },
     {
-      "id": "q-69",
+      "id": "q-68",
       "cat": "example",
       "q": "Is there an example of that that comes to mind of someone that did that incorrectly or wasted a lot of time?",
       "zh": "有沒有想到誰把這件事做錯、或白白浪費了很多時間的例子？",
@@ -1024,7 +1010,7 @@
       "seek": true
     },
     {
-      "id": "q-70",
+      "id": "q-69",
       "cat": "example",
       "q": "Is there an example of that or a story of that happening that you think about?",
       "zh": "有沒有這樣的例子、或是你常想起的某個實際發生過的故事？",
@@ -1038,7 +1024,7 @@
       "seek": true
     },
     {
-      "id": "q-71",
+      "id": "q-70",
       "cat": "example",
       "q": "Is there an example of a good success metric that just comes to mind to make this a little bit concrete for people?",
       "zh": "有沒有哪個好的成功指標的例子剛好浮上來，可以讓大家比較有畫面？",
@@ -1052,7 +1038,7 @@
       "seek": true
     },
     {
-      "id": "q-72",
+      "id": "q-71",
       "cat": "example",
       "q": "Is there an example you could share when you did that?",
       "zh": "有沒有你真的這樣做過的例子可以分享？",
@@ -1066,7 +1052,7 @@
       "seek": true
     },
     {
-      "id": "q-73",
+      "id": "q-72",
       "cat": "example",
       "q": "Is there an example that we could talk about? I know you can't talk about the product you're working on yet, but from the past of a vision that you crafted maybe to share what the vision was or how you came to that to make this even more real?",
       "zh": "有沒有哪個例子我們可以聊？我知道你現在手上的產品還不能講，但有沒有以前做過的願景、可以講講那個願景是什麼、你怎麼想出來的，讓這件事更具體？",
@@ -1080,7 +1066,7 @@
       "seek": false
     },
     {
-      "id": "q-74",
+      "id": "q-73",
       "cat": "example",
       "q": "Is there an example of a project that comes to mind that was below that bar and then you pushed it above where you're like, \"Here's the thing we were missing.\"?",
       "zh": "有沒有哪個專案是本來達不到那個標準、後來被你推上去的，那種「我們原本就是少了這個」的例子？",
@@ -1094,7 +1080,7 @@
       "seek": true
     },
     {
-      "id": "q-75",
+      "id": "q-74",
       "cat": "deeper",
       "q": "Can you say more on that?",
       "zh": "這個可以再多說一點嗎？",
@@ -1108,7 +1094,7 @@
       "seek": true
     },
     {
-      "id": "q-76",
+      "id": "q-75",
       "cat": "deeper",
       "q": "Wait, what do you mean by that?",
       "zh": "等等，你這句是什麼意思？",
@@ -1122,7 +1108,7 @@
       "seek": false
     },
     {
-      "id": "q-77",
+      "id": "q-76",
       "cat": "deeper",
       "q": "Say more about that. What does that look like?",
       "zh": "再多說一點。那實際上長什麼樣子？",
@@ -1136,7 +1122,7 @@
       "seek": true
     },
     {
-      "id": "q-78",
+      "id": "q-77",
       "cat": "deeper",
       "q": "And when you say unconventional, what do you mean?",
       "zh": "你說的「不按牌理」，是指什麼？",
@@ -1150,7 +1136,7 @@
       "seek": true
     },
     {
-      "id": "q-79",
+      "id": "q-78",
       "cat": "deeper",
       "q": "I like this phrase that you just use, the loop and not the lane. Can you say more about that?",
       "zh": "我很喜歡你剛剛用的那個說法——「是迴圈，不是車道」。可以再多講一點嗎？",
@@ -1164,7 +1150,7 @@
       "seek": true
     },
     {
-      "id": "q-80",
+      "id": "q-79",
       "cat": "deeper",
       "q": "There's so many threads I want to follow here, but maybe on just this last one, when you say taste, what do you mean by that? What should people think when they're like, \"Okay, I got to work in my taste\"?",
       "zh": "這裡有太多條線我想追了，但先講最後那一條：你說的 taste 是什麼意思？當有人心想「好，我得練我的品味」的時候，他們該想的到底是什麼？",
@@ -1178,7 +1164,7 @@
       "seek": true
     },
     {
-      "id": "q-81",
+      "id": "q-80",
       "cat": "deeper",
       "q": "When you talk about network effects, what does that mean to you? How would you define that briefly?",
       "zh": "你講到網路效應的時候，那對你來說是什麼意思？可以簡短定義一下嗎？",
@@ -1192,7 +1178,7 @@
       "seek": false
     },
     {
-      "id": "q-82",
+      "id": "q-81",
       "cat": "deeper",
       "q": "Whoa, say more there. Is the kind of insight there is just things seem like they're 99% done, but they're actually very far from being done?",
       "zh": "哇，這裡再多講一點。你講的重點是不是——事情看起來已經完成 99%，其實離完成還很遠？",
@@ -1206,7 +1192,7 @@
       "seek": true
     },
     {
-      "id": "q-83",
+      "id": "q-82",
       "cat": "deeper",
       "q": "And this point that you made that ops is often a sign of inefficiency on a product team because in theory, a lot of the roles should be done by software, eventually. I'd love to unpack this and hear your take on this?",
       "zh": "你剛提到的這一點——營運工作往往是產品團隊沒效率的訊號，因為理論上很多角色最後都該由軟體來做。我想把這個拆開來聽聽你的看法。",
@@ -1220,7 +1206,7 @@
       "seek": false
     },
     {
-      "id": "q-84",
+      "id": "q-83",
       "cat": "deeper",
       "q": "Can you follow that thread actually? Just when you say that, what does that look like? What are some elements of that process to make this work efficiently?",
       "zh": "這條線可以再追下去嗎？你剛說的那個，實際上長什麼樣？那個流程裡有哪些環節讓它跑得順？",
@@ -1234,7 +1220,7 @@
       "seek": false
     },
     {
-      "id": "q-85",
+      "id": "q-84",
       "cat": "deeper",
       "q": "How do you actually get better at that or develop those skills?",
       "zh": "那實際上要怎麼把這個練起來、怎麼養成這些能力？",
@@ -1248,7 +1234,7 @@
       "seek": false
     },
     {
-      "id": "q-86",
+      "id": "q-85",
       "cat": "deeper",
       "q": "How do you actually operationalize this without just being overloaded with work and constantly having to meet with every team and remind them of the story?",
       "zh": "這件事實際上要怎麼落地，才不會被工作壓垮、不用一直跟每個團隊開會提醒他們那套說法？",
@@ -1262,7 +1248,7 @@
       "seek": false
     },
     {
-      "id": "q-87",
+      "id": "q-86",
       "cat": "deeper",
       "q": "And very practically, how do you actually ask people? Is there a little pop-up on the website?",
       "zh": "那很實際地說，你們到底怎麼問使用者？是網站上跳一個小視窗嗎？",
@@ -1276,7 +1262,7 @@
       "seek": true
     },
     {
-      "id": "q-88",
+      "id": "q-87",
       "cat": "deeper",
       "q": "And so do you just kind of schedule a meeting, kick it off, point everyone to this Miro doc, for example, with a bunch of prompts and sticky notes and things like that? How do you actually practically do that?",
       "zh": "所以你們就是排一場會、開場、把大家指到那份 Miro 文件、上面一堆提示和便利貼之類的嗎？實際操作上到底怎麼跑？",
@@ -1290,7 +1276,7 @@
       "seek": false
     },
     {
-      "id": "q-89",
+      "id": "q-88",
       "cat": "deeper",
       "q": "Double click there for a moment. Is that still useful if you're not doing TV and other forms of advertising?",
       "zh": "這裡先深入一下。如果沒有在投電視或其他形式的廣告，這招還有用嗎？",
@@ -1304,7 +1290,7 @@
       "seek": false
     },
     {
-      "id": "q-90",
+      "id": "q-89",
       "cat": "deeper",
       "q": "Say more about that. What have you found helps in creating that sense of urgency and continuing to increase output?",
       "zh": "再多說一點。你發現什麼東西最能製造那種急迫感、讓產出持續往上？",
@@ -1318,7 +1304,7 @@
       "seek": true
     },
     {
-      "id": "q-91",
+      "id": "q-90",
       "cat": "deeper",
       "q": "That is really empowering. Is there anything that helps you build that skill, that's not natural to a lot of people, being okay with failure, and leaning into things that they think they'll probably fail at? Where did that come from, for you?",
       "zh": "這真的很有力量。有什麼東西幫你練出這個能力——就是能接受失敗、願意去做自己覺得多半會搞砸的事，這對很多人並不自然？那對你來說，這是從哪裡來的？",
@@ -1332,7 +1318,7 @@
       "seek": true
     },
     {
-      "id": "q-92",
+      "id": "q-91",
       "cat": "deeper",
       "q": "Okay, cool. We're going to talk about it, but just maybe you've already answered it, why this is something you're so passionate about, but why this kind of ongoing investment in hardware?",
       "zh": "好，我們等下會談到，不過你可能剛剛已經回答過了——為什麼你對這件事這麼投入？為什麼要持續投資在硬體上？",
@@ -1346,7 +1332,7 @@
       "seek": false
     },
     {
-      "id": "q-93",
+      "id": "q-92",
       "cat": "challenge",
       "q": "Something that I've seen happen with larger companies, especially as companies grow, is a little bit of cynicism of user research, specifically how few people you talk to and how that leads to you making a decision. How do you respond to those kinds of concerns?",
       "zh": "我看到大公司、尤其是規模變大之後，對使用者研究會有點犬儒——特別是覺得你只訪了那麼少人，卻拿來下決定。你怎麼回應這類質疑？",
@@ -1360,7 +1346,7 @@
       "seek": false
     },
     {
-      "id": "q-94",
+      "id": "q-93",
       "cat": "challenge",
       "q": "I imagine many people see that, they see Elon, they see Steve Jobs, and the perception is they're very challenge directly people, they're not clearly care about you people, but they're very successful. What do you say to people that are like, but it works. Why wouldn't I be that if that's the way I want to do it?",
       "zh": "我猜很多人看到那些例子——看馬斯克、看賈伯斯——印象就是他們超級直接開幹、又不太在乎人，但他們就是很成功。對那些覺得「可是這招有效啊」的人，你會怎麼說？如果我就想那樣做，為什麼不行？",
@@ -1374,7 +1360,7 @@
       "seek": true
     },
     {
-      "id": "q-95",
+      "id": "q-94",
       "cat": "challenge",
       "q": "And so, what is this a reaction to? Because I imagine many people hearing this are, like, \"Of course, PMs, product teams we're driving business impact, well, that's why we're here.\"",
       "zh": "所以這是在反應什麼？因為我猜很多人聽到會想：「產品經理、產品團隊本來就是在推動商業成效啊，我們不就是為這個而存在的嗎？」",
@@ -1388,7 +1374,7 @@
       "seek": true
     },
     {
-      "id": "q-96",
+      "id": "q-95",
       "cat": "challenge",
       "q": "I imagine some people hearing this advice are going to feel like, \"I'm not going to get a job at OpenAI or Glean or other awesome companies that everyone wants to go work at.\" Any advice to those folks?",
       "zh": "我猜有些人聽到這個建議會覺得：「我又進不去 OpenAI 或 Glean 那種大家都想去的好公司。」對這些人你有什麼建議？",
@@ -1402,7 +1388,7 @@
       "seek": true
     },
     {
-      "id": "q-97",
+      "id": "q-96",
       "cat": "challenge",
       "q": "I imagine many people listening to this or feeling like, I wish I could not be in these dumb meetings that I'm in all the time and these stupid reviews. And there's a lot of stuff you have no control over that also are very energy zapping. What advice would you give to people thinking that?",
       "zh": "我猜很多聽的人心裡在想：真希望我不用一直坐在那些沒意義的會、那些爛 review 裡。而且有一堆事你根本控制不了，卻一直在耗你的能量。對這樣想的人你會給什麼建議？",
@@ -1416,7 +1402,7 @@
       "seek": true
     },
     {
-      "id": "q-98",
+      "id": "q-97",
       "cat": "challenge",
       "q": "I wanted to come back to the burnout piece. I imagine some folks are listening to this and they're like, \"Am I burnt out? I don't know.\" What are signs that you're burnt out versus just working a lot and tired?",
       "zh": "我想回到 burnout 那段。我猜有些人正在聽、心裡想「我是不是 burnout 了？我也不知道。」怎麼分辨自己是真的 burnout，還是只是工作太多、很累？",
@@ -1430,7 +1416,7 @@
       "seek": true
     },
     {
-      "id": "q-99",
+      "id": "q-98",
       "cat": "challenge",
       "q": "Most people hearing this assume they are barrels. What helps you understand if someone's truly a barrel?",
       "zh": "大部分聽到這段的人都會覺得自己是那個「桶子」。你怎麼判斷一個人是不是真的是？",
@@ -1444,7 +1430,7 @@
       "seek": false
     },
     {
-      "id": "q-100",
+      "id": "q-99",
       "cat": "challenge",
       "q": "So in a lot of decks it's like, \"Oh, we have the most amazing team. We move the fastest.\" You mention how rarely is that actually a power?",
       "zh": "很多簡報上都會寫「我們團隊超強、我們跑得最快」。你提到這其實很少真的構成一種優勢？",
@@ -1458,7 +1444,7 @@
       "seek": false
     },
     {
-      "id": "q-101",
+      "id": "q-100",
       "cat": "challenge",
       "q": "Just to push back, I imagine there are expectations of like, \"I hope this works out. I hope people adopt it. I hope it becomes the best email client in town.\" There's a sense of like, \"We want this to succeed\"?",
       "zh": "純粹想反駁一下：我猜還是有期待的吧，像是「希望這個能成、希望大家會用、希望它變成市面上最好的 email 工具」。多少還是有一種「我們想讓它成功」的感覺吧？",
@@ -1472,7 +1458,7 @@
       "seek": true
     },
     {
-      "id": "q-102",
+      "id": "q-101",
       "cat": "challenge",
       "q": "Your advice here is that doesn't work?",
       "zh": "所以你的建議是，那招沒用？",
@@ -1486,7 +1472,7 @@
       "seek": true
     },
     {
-      "id": "q-103",
+      "id": "q-102",
       "cat": "challenge",
       "q": "But you're saying that actually is what you do and that actually works really well?",
       "zh": "但你的意思是，你們真的就是這樣做，而且效果真的很好？",
@@ -1500,7 +1486,7 @@
       "seek": true
     },
     {
-      "id": "q-104",
+      "id": "q-103",
       "cat": "challenge",
       "q": "I know that you have this pretty spicy contrarian take on experimentation and that I think you believe people run experiments too often and maybe not everything should be an experiment. Can you talk about that?",
       "zh": "我知道你對實驗有個蠻嗆的反主流看法——你好像認為大家做實驗做得太頻繁，不是每件事都該拿去做實驗。可以談談這個嗎？",
@@ -1514,7 +1500,7 @@
       "seek": true
     },
     {
-      "id": "q-105",
+      "id": "q-104",
       "cat": "challenge",
       "q": "There's obviously a bit of overhead and downside to running an experiment, setting all up, and analyzing the results. Is there anything that you ever don't think is worth A/B testing?",
       "zh": "做實驗顯然有一些額外成本和代價——要設定、要分析結果。有沒有什麼是你認為根本不值得做 A/B 測試的？",
@@ -1528,7 +1514,7 @@
       "seek": true
     },
     {
-      "id": "q-106",
+      "id": "q-105",
       "cat": "challenge",
       "q": "Is there something you've done in building your company that has been counter to that, something you've learned about? Because I totally agree, people always talk about team, team, team and then that's often really sucky to work at a lot of companies and clearly they don't care that much about your experience.",
       "zh": "在你自己建立公司的過程中，有沒有哪件事是跟那個說法反著來的、你學到什麼？因為我完全同意——大家老是把「團隊、團隊、團隊」掛嘴上，可是那些公司待起來往往很糟，顯然他們根本沒那麼在乎你的感受。",
@@ -1542,7 +1528,7 @@
       "seek": true
     },
     {
-      "id": "q-107",
+      "id": "q-106",
       "cat": "challenge",
       "q": "It doesn't feel intuitive to go after small markets and to find niches. So let's just follow that thread. Well, why is that actually a source of some of the best ideas starting really small and niche?",
       "zh": "去做小市場、去找利基，感覺其實不太直覺。那就順著這條線講下去吧——為什麼從很小、很利基的地方開始，反而是最好點子的來源之一？",
@@ -1556,7 +1542,7 @@
       "seek": true
     },
     {
-      "id": "q-108",
+      "id": "q-107",
       "cat": "challenge",
       "q": "What I'm hearing from a meta point you're making is use that ask as leverage to change the way things are operating. Is that right?",
       "zh": "我聽到的、更上一層的意思是：把那個請求當成槓桿，去改變事情運作的方式。是這樣嗎？",
@@ -1570,7 +1556,7 @@
       "seek": false
     },
     {
-      "id": "q-109",
+      "id": "q-108",
       "cat": "counterexample",
       "q": "Okay. What are maybe the most common mistakes they make that aren't as obvious?",
       "zh": "好。那他們最常犯、但比較沒那麼明顯的錯是什麼？",
@@ -1584,7 +1570,7 @@
       "seek": true
     },
     {
-      "id": "q-110",
+      "id": "q-109",
       "cat": "counterexample",
       "q": "So, I thought we'd start with Make Time and then get to Sprint in the second half of the conversation. First question is just what do most people get wrong when they're trying to become more productive?",
       "zh": "我想先從《Make Time》開始，下半場再談《Sprint》。第一個問題就是：大家想讓自己更有生產力的時候，最常搞錯的是什麼？",
@@ -1598,7 +1584,7 @@
       "seek": true
     },
     {
-      "id": "q-111",
+      "id": "q-110",
       "cat": "counterexample",
       "q": "What are some of the most common mistakes that PMs make early on in their career that hurt their career?",
       "zh": "產品經理在職涯早期最常犯、而且真的會傷到職涯的錯有哪些？",
@@ -1612,7 +1598,7 @@
       "seek": false
     },
     {
-      "id": "q-112",
+      "id": "q-111",
       "cat": "counterexample",
       "q": "If you kind of zoomed out a little bit and thought about the startups you've worked with, what would you say are the most common mistakes that early stage startups make broadly?",
       "zh": "如果你稍微拉遠一點、想想你合作過的那些新創，你會說早期新創最常犯的錯大概是什麼？",
@@ -1626,7 +1612,7 @@
       "seek": false
     },
     {
-      "id": "q-113",
+      "id": "q-112",
       "cat": "counterexample",
       "q": "So let's go to the other side of this question. We talked about what mistakes new PMs make. I'm curious, what's the biggest product mistake that you've made?",
       "zh": "那我們換到問題的另一面。剛剛談的是新手 PM 會犯什麼錯，我很好奇——你自己犯過最大的產品錯誤是什麼？",
@@ -1640,7 +1626,7 @@
       "seek": true
     },
     {
-      "id": "q-114",
+      "id": "q-113",
       "cat": "counterexample",
       "q": "What's a story that comes to mind when you think about your biggest mistake?",
       "zh": "講到你犯過最大的錯，有沒有哪個故事會浮上心頭？",
@@ -1654,7 +1640,7 @@
       "seek": true
     },
     {
-      "id": "q-115",
+      "id": "q-114",
       "cat": "counterexample",
       "q": "Along those same lines, is there a misconception of Lean Startup or any of the other things you put out that just really frustrates you, that just is a recurring misconception that people just continue to get wrong?",
       "zh": "同樣的脈絡下，關於精實創業、或你提出過的其他東西，有沒有哪個誤解真的讓你很不爽、大家一直重複弄錯的？",
@@ -1668,7 +1654,7 @@
       "seek": true
     },
     {
-      "id": "q-116",
+      "id": "q-115",
       "cat": "counterexample",
       "q": "What's a sign that maybe it's not working out when you hire your either first salesperson or maybe first five, what are signs? Because you said it often does not work out, what are early signals like, \"We should rethink this\"?",
       "zh": "在你請第一個業務、或前五個業務的時候，有什麼跡象代表這件事其實不太順？因為你說這常常不會成功——有哪些早期訊號在講「我們該重新想一下」？",
@@ -1682,7 +1668,7 @@
       "seek": true
     },
     {
-      "id": "q-117",
+      "id": "q-116",
       "cat": "counterexample",
       "q": "How do you know if it's the creative that is failing versus it's just never going to work? Is there something that tells you that's what's not working?",
       "zh": "你怎麼分辨是素材本身有問題、還是這條路本來就走不通？有沒有什麼東西會告訴你到底是哪裡不對？",
@@ -1696,7 +1682,7 @@
       "seek": false
     },
     {
-      "id": "q-118",
+      "id": "q-117",
       "cat": "counterexample",
       "q": "Yeah, absolutely. How do you know when it's probably a bad idea to try to create your own category?",
       "zh": "對，完全同意。那你怎麼判斷，什麼時候做這件事其實是個爛主意？",
@@ -1710,7 +1696,7 @@
       "seek": true
     },
     {
-      "id": "q-119",
+      "id": "q-118",
       "cat": "counterexample",
       "q": "Along these lines of just bad ideas, things people shouldn't start, what are a few ideas that you think everyone thinks is going to be a great idea and then they do it and then they always fail?",
       "zh": "順著爛點子這條線講——有哪幾種點子是大家都覺得一定會紅，結果做下去每次都倒？",
@@ -1724,7 +1710,7 @@
       "seek": true
     },
     {
-      "id": "q-120",
+      "id": "q-119",
       "cat": "counterexample",
       "q": "What do you find is often the biggest mistake that founders make when they're trying to hire their first senior product leader?",
       "zh": "你觀察下來，創辦人在找第一位資深產品主管的時候，最常犯的最大錯誤是什麼？",
@@ -1738,7 +1724,7 @@
       "seek": true
     },
     {
-      "id": "q-121",
+      "id": "q-120",
       "cat": "counterexample",
       "q": "Okay, I'm going to take us to two recurring corners on the podcast, Fail Corner and Hot Seat Corner. Fail Corner, what's something that you worked on that was just a huge failure that helped you become better?",
       "zh": "好，我要帶大家進入節目的兩個固定單元：失敗角落和烤問角落。失敗角落——有沒有哪件你做過的事是徹底失敗、但讓你變得更好的？",
@@ -1752,7 +1738,7 @@
       "seek": false
     },
     {
-      "id": "q-122",
+      "id": "q-121",
       "cat": "counterexample",
       "q": "Awesome. Going back to discovery and interviewing, I definitely wanted to ask you what are, I don't know, two or three tips and best practices for interviewing/what are two or three things people usually do wrong that they should try to avoid?",
       "zh": "回到探索和訪談這塊，我很想問：有沒有兩三個訪談的訣竅和最佳做法，或者說，有沒有兩三件大家通常會做錯、應該避免的事？",
@@ -1766,7 +1752,7 @@
       "seek": false
     },
     {
-      "id": "q-123",
+      "id": "q-122",
       "cat": "counterexample",
       "q": "Awesome. One last question about naming. What's a common mistake that people make going through this process coming up with a name?",
       "zh": "太好了。關於命名，最後一個問題：大家跑這個流程、想名字的時候，最常犯的錯是什麼？",
@@ -1780,7 +1766,7 @@
       "seek": false
     },
     {
-      "id": "q-124",
+      "id": "q-123",
       "cat": "counterexample",
       "q": "One final question around the actual OKR document. What do you find are the most one or two common mistakes people make when writing out the objective or the key result in deciding on what to go with?",
       "zh": "關於 OKR 文件本身，最後一個問題：你看到大家在寫目標或關鍵結果、在決定要挑什麼的時候，最常犯的一兩個錯是什麼？",

@@ -396,15 +396,6 @@
           "isSearch": false,
           "url": "https://www.youtube.com/watch?v=v3pofqabzhs&t=597s",
           "seek": true
-        },
-        {
-          "quote": "I think it's very tempting right now to chase shiny objects, like a founder might be able to gain some initial traction by literally being that GPT wrapper and solving any sort of problem.",
-          "guest": "Grant Lee",
-          "timestamp": "01:22:53",
-          "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=4971s",
-          "seek": true
         }
       ],
       "relatedFunctions": [
@@ -1208,6 +1199,15 @@
           "episode": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
           "isSearch": false,
           "url": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=2080s",
+          "seek": true
+        },
+        {
+          "quote": "And so we got everyone together. At this point, the team was just over 12 people. And we said, okay, it's going to be all hands on deck.",
+          "guest": "Grant Lee",
+          "timestamp": "00:10:55",
+          "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=653s",
           "seek": true
         }
       ],

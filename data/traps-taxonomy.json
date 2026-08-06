@@ -8,11 +8,31 @@
       "en": "Indirectness works differently",
       "blurb": "中文的委婉靠「話講一半」，英文的委婉靠「多加一句」。直譯過去，對方只會覺得你沒講完。",
       "traps": [
-        { "id": "this-is-difficult", "zh_instinct": "這個有困難", "hint": "英文的 difficult 是「來一起想辦法」，不是拒絕" },
-        { "id": "let-me-think", "zh_instinct": "我再想想／再研究一下", "hint": "中文是軟性拒絕，英文是真的會等你回覆" },
-        { "id": "maybe-we-can", "zh_instinct": "也許我們可以…", "hint": "中文的試探，英文聽起來像沒把握" },
-        { "id": "half-sentence", "zh_instinct": "話講一半，讓對方意會", "hint": "英文語境不會替你補完，沉默只會變成尷尬" },
-        { "id": "not-very-good", "zh_instinct": "不太好／不太適合", "hint": "程度副詞在中文是重話的緩衝，在英文只是模糊" }
+        {
+          "id": "this-is-difficult",
+          "zh_instinct": "這個有困難",
+          "hint": "英文的 difficult 是「來一起想辦法」，不是拒絕"
+        },
+        {
+          "id": "let-me-think",
+          "zh_instinct": "我再想想／再研究一下",
+          "hint": "中文是軟性拒絕，英文是真的會等你回覆"
+        },
+        {
+          "id": "maybe-we-can",
+          "zh_instinct": "也許我們可以…",
+          "hint": "中文的試探，英文聽起來像沒把握"
+        },
+        {
+          "id": "half-sentence",
+          "zh_instinct": "話講一半，讓對方意會",
+          "hint": "英文語境不會替你補完，沉默只會變成尷尬"
+        },
+        {
+          "id": "not-very-good",
+          "zh_instinct": "不太好／不太適合",
+          "hint": "程度副詞在中文是重話的緩衝，在英文只是模糊"
+        }
       ]
     },
     {
@@ -21,10 +41,26 @@
       "en": "Agency & ownership",
       "blurb": "中文可以省主語、可以用「我們」表示禮貌。英文會議裡，省掉主語等於沒有人負責。",
       "traps": [
-        { "id": "we-dilutes", "zh_instinct": "我們做了…（其實是你做的）", "hint": "禮貌的「我們」會讓你的貢獻在 calibration 會議上消失" },
-        { "id": "passive-escape", "zh_instinct": "被決定了／有討論到", "hint": "被動語態在英文文件裡會被讀成沒有 owner" },
-        { "id": "no-subject", "zh_instinct": "覺得應該要…（沒有主語）", "hint": "中文可以省主語，英文省掉句子就不成立" },
-        { "id": "credit-shrink", "zh_instinct": "這是團隊一起完成的", "hint": "全歸團隊在英文面試是紅旗，對方聽不出你做了什麼" }
+        {
+          "id": "we-dilutes",
+          "zh_instinct": "我們做了…（其實是你做的）",
+          "hint": "禮貌的「我們」會讓你的貢獻在 calibration 會議上消失"
+        },
+        {
+          "id": "passive-escape",
+          "zh_instinct": "被決定了／有討論到",
+          "hint": "被動語態在英文文件裡會被讀成沒有 owner"
+        },
+        {
+          "id": "no-subject",
+          "zh_instinct": "覺得應該要…（沒有主語）",
+          "hint": "中文可以省主語，英文省掉句子就不成立"
+        },
+        {
+          "id": "credit-shrink",
+          "zh_instinct": "這是團隊一起完成的",
+          "hint": "全歸團隊在英文面試是紅旗，對方聽不出你做了什麼"
+        }
       ]
     },
     {
@@ -33,11 +69,31 @@
       "en": "Certainty & force",
       "blurb": "中文用語氣詞調強度（吧、啦、嘛、應該），英文用選字。語氣詞翻不過去，於是全部變成 I think 和 maybe。",
       "traps": [
-        { "id": "i-think-overuse", "zh_instinct": "我覺得…（每句都用）", "hint": "中文的「我覺得」是禮貌，英文的 I think 是降低可信度" },
-        { "id": "maybe-overuse", "zh_instinct": "可能／也許（當緩衝用）", "hint": "堆疊 maybe 會讓你聽起來沒做功課，而不是謙虛" },
-        { "id": "should-three-ways", "zh_instinct": "應該", "hint": "中文一個「應該」在英文至少有三種：should / probably / is supposed to" },
-        { "id": "very-ladder", "zh_instinct": "很／非常／超級", "hint": "英文靠換動詞和名詞加強，不是靠疊副詞" },
-        { "id": "definitely-absolutely", "zh_instinct": "一定／絕對", "hint": "中文的口頭強調，在英文是把話說死、沒有退路" }
+        {
+          "id": "i-think-overuse",
+          "zh_instinct": "我覺得…（每句都用）",
+          "hint": "中文的「我覺得」是禮貌，英文的 I think 是降低可信度"
+        },
+        {
+          "id": "maybe-overuse",
+          "zh_instinct": "可能／也許（當緩衝用）",
+          "hint": "堆疊 maybe 會讓你聽起來沒做功課，而不是謙虛"
+        },
+        {
+          "id": "should-three-ways",
+          "zh_instinct": "應該",
+          "hint": "中文一個「應該」在英文至少有三種：should / probably / is supposed to"
+        },
+        {
+          "id": "very-ladder",
+          "zh_instinct": "很／非常／超級",
+          "hint": "英文靠換動詞和名詞加強，不是靠疊副詞"
+        },
+        {
+          "id": "definitely-absolutely",
+          "zh_instinct": "一定／絕對",
+          "hint": "中文的口頭強調，在英文是把話說死、沒有退路"
+        }
       ]
     },
     {
@@ -46,10 +102,26 @@
       "en": "Conclusion goes first",
       "blurb": "中文習慣鋪陳背景再講結論，英文會議與文件都是先結論後理由。順序錯了，對方在你講到重點之前就走神了。",
       "traps": [
-        { "id": "background-first", "zh_instinct": "先講來龍去脈再講結論", "hint": "英文簡報與 email 都是倒過來：結論 → 理由 → 細節" },
-        { "id": "reason-then-ask", "zh_instinct": "先解釋原因，最後才提出請求", "hint": "對方讀到一半就不知道你要幹嘛了" },
-        { "id": "flat-list", "zh_instinct": "把三件事並列講完", "hint": "中文可以並列，英文要標出哪個是主、哪個是次" },
-        { "id": "no-signpost", "zh_instinct": "直接開始講內容", "hint": "英文靠 signpost 替聽者配置注意力，少了會很難跟" }
+        {
+          "id": "background-first",
+          "zh_instinct": "先講來龍去脈再講結論",
+          "hint": "英文簡報與 email 都是倒過來：結論 → 理由 → 細節"
+        },
+        {
+          "id": "reason-then-ask",
+          "zh_instinct": "先解釋原因，最後才提出請求",
+          "hint": "對方讀到一半就不知道你要幹嘛了"
+        },
+        {
+          "id": "flat-list",
+          "zh_instinct": "把三件事並列講完",
+          "hint": "中文可以並列，英文要標出哪個是主、哪個是次"
+        },
+        {
+          "id": "no-signpost",
+          "zh_instinct": "直接開始講內容",
+          "hint": "英文靠 signpost 替聽者配置注意力，少了會很難跟"
+        }
       ]
     },
     {
@@ -58,11 +130,31 @@
       "en": "Politeness points the other way",
       "blurb": "中文的禮貌常常是自貶（不好意思、打擾了、我不太懂）。英文的禮貌是給對方選擇權。自貶在英文裡不會被讀成謙虛，會被讀成缺乏掌控感。",
       "traps": [
-        { "id": "sorry-opener", "zh_instinct": "不好意思，打擾一下", "hint": "開頭道歉在英文書面裡會削弱你，而不是顯得有禮" },
-        { "id": "just-quickly", "zh_instinct": "只是想快速問一下", "hint": "just / quickly / a little 這些字會把你的請求自動降級" },
-        { "id": "self-deprecate", "zh_instinct": "我可能講得不好／我不太懂", "hint": "英文的謙虛是限定範圍，不是否定自己" },
-        { "id": "no-opt-out", "zh_instinct": "請你幫我…（不給退路）", "hint": "英文請求最後要給一個能光明正大說不的出口，反而提高答應率" },
-        { "id": "thank-you-advance", "zh_instinct": "先謝謝你了", "hint": "Thanks in advance 在英文裡是預設對方會答應，帶壓迫感" }
+        {
+          "id": "sorry-opener",
+          "zh_instinct": "不好意思，打擾一下",
+          "hint": "開頭道歉在英文書面裡會削弱你，而不是顯得有禮"
+        },
+        {
+          "id": "just-quickly",
+          "zh_instinct": "只是想快速問一下",
+          "hint": "just / quickly / a little 這些字會把你的請求自動降級"
+        },
+        {
+          "id": "self-deprecate",
+          "zh_instinct": "我可能講得不好／我不太懂",
+          "hint": "英文的謙虛是限定範圍，不是否定自己"
+        },
+        {
+          "id": "no-opt-out",
+          "zh_instinct": "請你幫我…（不給退路）",
+          "hint": "英文請求最後要給一個能光明正大說不的出口，反而提高答應率"
+        },
+        {
+          "id": "thank-you-advance",
+          "zh_instinct": "先謝謝你了",
+          "hint": "Thanks in advance 在英文裡是預設對方會答應，帶壓迫感"
+        }
       ]
     },
     {
@@ -71,10 +163,181 @@
       "en": "What Chinese doesn't have",
       "blurb": "時態、冠詞、單複數——這些在中文裡不存在，所以講英文時最容易漏，而且漏了會改變意思，不只是「文法錯誤」。",
       "traps": [
-        { "id": "tense-shifts", "zh_instinct": "時態混用", "hint": "在講專案進度時，時態直接決定對方以為事情做完沒" },
-        { "id": "articles", "zh_instinct": "漏掉 a / the", "hint": "the problem 和 a problem 在會議上是兩件事" },
-        { "id": "plural", "zh_instinct": "單複數不分", "hint": "customer 和 customers 決定對方以為你在講個案還是趨勢" },
-        { "id": "present-perfect", "zh_instinct": "用過去式講「經驗」", "hint": "I worked on 和 I've worked on 在面試裡給人的印象不同" }
+        {
+          "id": "tense-shifts",
+          "zh_instinct": "時態混用",
+          "hint": "在講專案進度時，時態直接決定對方以為事情做完沒"
+        },
+        {
+          "id": "articles",
+          "zh_instinct": "漏掉 a / the",
+          "hint": "the problem 和 a problem 在會議上是兩件事"
+        },
+        {
+          "id": "plural",
+          "zh_instinct": "單複數不分",
+          "hint": "customer 和 customers 決定對方以為你在講個案還是趨勢"
+        },
+        {
+          "id": "present-perfect",
+          "zh_instinct": "用過去式講「經驗」",
+          "hint": "I worked on 和 I've worked on 在面試裡給人的印象不同"
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "zh": "跟高層講話",
+      "en": "Talking to power",
+      "blurb": "中文有一整套上下位語言（請示、報告、指教、還請不吝賜教）。英文會議是平的——你把階級語言直譯過去，對方收到的不是尊重，是「這個人沒有自己的判斷」。",
+      "traps": [
+        {
+          "id": "reporting-not-talking",
+          "zh_instinct": "跟 VP 開會＝報告，不是對話",
+          "hint": "你只講你做了什麼，不講你判斷什麼"
+        },
+        {
+          "id": "no-disagree-up",
+          "zh_instinct": "不敢直接跟主管說「我不同意」",
+          "hint": "中文往上反對要拐彎，英文拐彎會被當成沒意見"
+        },
+        {
+          "id": "may-i-ask",
+          "zh_instinct": "請問一下、不知道方不方便",
+          "hint": "請示語氣在英文裡是把自己降階"
+        },
+        {
+          "id": "waiting-to-be-asked",
+          "zh_instinct": "等被點名才發言",
+          "hint": "英文會議的沉默＝沒意見，不是尊重"
+        },
+        {
+          "id": "your-call",
+          "zh_instinct": "這個您決定就好",
+          "hint": "把決定權交回去在英文裡不是禮貌，是不負責"
+        }
+      ]
+    },
+    {
+      "id": "conviction",
+      "zh": "熱情與信念",
+      "en": "Conviction & energy",
+      "blurb": "中文的專業感是冷靜克制，英文商業溝通期待你聽起來相信自己在講的東西。同一份提案，平淡地講會被讀成你自己也沒把握。",
+      "traps": [
+        {
+          "id": "flat-pitch",
+          "zh_instinct": "講自己的產品時保持客觀",
+          "hint": "英文裡「客觀」到沒有溫度＝你也不相信"
+        },
+        {
+          "id": "cant-say-excited",
+          "zh_instinct": "講不出 I'm really excited about",
+          "hint": "這句話在中文語感裡太肉麻，在英文裡是基本配備"
+        },
+        {
+          "id": "understate-result",
+          "zh_instinct": "還可以、還不錯、有一點成長",
+          "hint": "謙虛的量詞會把好成績講成平庸"
+        },
+        {
+          "id": "no-strong-verb",
+          "zh_instinct": "用平的動詞（做、處理、進行）",
+          "hint": "英文靠動詞承載力道，不是靠形容詞"
+        }
+      ]
+    },
+    {
+      "id": "commitment",
+      "zh": "時間與承諾",
+      "en": "Time & commitment",
+      "blurb": "中文的「盡快」「再看看」「有空的話」在關係上是有意義的，在英文裡是空的——對方無法據此規劃，於是你的話變成雜訊。",
+      "traps": [
+        {
+          "id": "asap",
+          "zh_instinct": "我盡快",
+          "hint": "ASAP 在英文職場是最沒有資訊量的承諾"
+        },
+        {
+          "id": "ill-try",
+          "zh_instinct": "我試試看",
+          "hint": "I'll try 在英文裡幾乎等於 I probably won't"
+        },
+        {
+          "id": "when-free",
+          "zh_instinct": "有空的時候再",
+          "hint": "沒有時間點的承諾等於沒有承諾"
+        },
+        {
+          "id": "no-by-when",
+          "zh_instinct": "提出請求但不講死線",
+          "hint": "不給時間點，對方只能猜，通常猜成「不急」"
+        },
+        {
+          "id": "silent-slip",
+          "zh_instinct": "進度落後但先不講，想追上再說",
+          "hint": "英文職場的傷害計價方式是「時間 × 意外程度」"
+        }
+      ]
+    },
+    {
+      "id": "concrete",
+      "zh": "具體性",
+      "en": "Being concrete",
+      "blurb": "中文可以講得抽象而不失禮，甚至顯得有高度。英文的抽象＝還沒想清楚，對方會停在那裡追問，或直接跳過你。",
+      "traps": [
+        {
+          "id": "we-will-improve",
+          "zh_instinct": "我們會加強、我們會再優化",
+          "hint": "沒有名詞和數字的承諾在英文裡是空的"
+        },
+        {
+          "id": "customer-said",
+          "zh_instinct": "客戶反應不太好",
+          "hint": "沒有「誰、幾個、說了什麼」，這句話沒有證據等級"
+        },
+        {
+          "id": "soon-better",
+          "zh_instinct": "會更好、會更順",
+          "hint": "比較級沒有基準點就沒有意義"
+        },
+        {
+          "id": "abstract-vision",
+          "zh_instinct": "用抽象名詞堆願景",
+          "hint": "英文的願景要落到一個可拍照的畫面或一個時間點"
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "zh": "沉默、提問與存在感",
+      "en": "Silence & engagement",
+      "blurb": "中文會議裡安靜聽完是禮貌，問太多可能顯得不信任或沒做功課。英文會議完全相反——不出聲的人會被當成沒在參與，甚至沒有能力。",
+      "traps": [
+        {
+          "id": "silence-is-respect",
+          "zh_instinct": "安靜聽完才是尊重",
+          "hint": "英文會議的沉默會被讀成沒意見或不同意"
+        },
+        {
+          "id": "ask-later",
+          "zh_instinct": "有問題會後再問",
+          "hint": "當場不問，等於當場沒有貢獻"
+        },
+        {
+          "id": "too-many-questions",
+          "zh_instinct": "問太多怕顯得沒做功課",
+          "hint": "英文裡問好問題是能力的展示，不是無知的證據"
+        },
+        {
+          "id": "nodding",
+          "zh_instinct": "點頭表示我在聽",
+          "hint": "點頭在英文裡會被讀成同意，之後你反對就變成出爾反爾"
+        },
+        {
+          "id": "no-small-talk",
+          "zh_instinct": "直接進正題，寒暄很浪費時間",
+          "hint": "英文會議前兩分鐘的閒聊是有功能的，不是客套"
+        }
       ]
     }
   ]

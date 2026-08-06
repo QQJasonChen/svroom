@@ -1,5 +1,5 @@
 {
-  "count": 27,
+  "count": 45,
   "traps": [
     {
       "id": "we-dilutes",
@@ -398,6 +398,591 @@
         "handling-objections",
         "changing-your-mind",
         "polite-disagreement"
+      ]
+    },
+    {
+      "id": "we-will-improve",
+      "group": "concrete",
+      "kind": "misread",
+      "zhInstinct": "我們會加強、我們會再優化、後續會持續精進",
+      "enLiteral": "We will improve the user experience and strengthen our support process.",
+      "heardAs": "這句話在英文會議裡的下場是「沒有下場」——它進不了會議紀錄，因為紀錄的欄位是 what / who / by when，你一格都沒填。當場會有人問 improve what, from what to what, by when？你答不出來的那三秒，房間裡的判斷不是「他比較謙虛」，是「他還沒想」。更貴的代價在三個月後：因為當初沒有數字，沒有人能說你做到了。你以為你許了一個安全的承諾，其實你許了一個永遠不會被記成功勞的承諾。",
+      "why": "中文的「加強」「優化」「落實」是一整套動賓套語，功能是表態而不是描述——講的人在宣示這件事有人在管，聽的人靠關係與資歷去補足細節，句子本身不需要扛資訊。英文沒有這層社會補位。improve / enhance / optimize 在英文商業語境是需要被填空的動詞：improve 什麼（受詞）、從多少到多少（基準與目標）、到什麼時候（期限）。空格沒填，句子在文法上成立、在資訊上是零，而英語職場的預設是「開口的人有義務把資訊填滿」——填不滿，對方唯一能得到的結論就是你自己也還沒量過。",
+      "better": [
+        {
+          "en": "We're taking [checkout error rate] from [4%] to [under 1%] by [the end of Q3].",
+          "zh": "我們要把[結帳錯誤率]從[4%]降到[1% 以下]，[Q3 結束前]做到。",
+          "note": "週會、roadmap review 的標準句型：受詞 + 起點 + 終點 + 期限。四個空格填滿，這句話才會被寫進會議紀錄。"
+        },
+        {
+          "en": "Two things will be different: [support tickets per account] and [time to first invoice]. If neither moves by [date], the approach was wrong.",
+          "zh": "會有兩件事變得不一樣：[每個帳號的客服單數]跟[開出第一張發票的時間]。如果[某日期]前這兩個都沒動，就是方向錯了。",
+          "note": "手上還沒有目標數字時的替代寫法——改講「哪兩件事會變得不一樣」。附上推翻條件，在英文裡是資深訊號，不是示弱。"
+        },
+        {
+          "en": "I don't have a target yet. I'll have [the baseline] by Friday and a number by [next review].",
+          "zh": "我現在還沒有目標值。[基準數字]我週五拿到，具體目標[下次 review]給。",
+          "note": "英文職場可以接受「我還沒量」，不能接受「我們會加強」。前者是一個有期限的待辦，後者是一句沒有人接得住的話。"
+        },
+        {
+          "en": "Short term we [add a retry]. That won't fix [the root cause] — that's [a Q4 rewrite], and I'd rather say so now.",
+          "zh": "短期我們先[加一層重試]。那並不會解決[根本原因]，[根本原因要等 Q4 重寫]，我寧可現在就講明。",
+          "note": "出事後被要求說明改進措施時。中文的「我們會加強控管」在英文 postmortem 幾乎等於交白卷；分開講「短期擋住的」跟「沒被解決的」才算回答。"
+        }
+      ],
+      "corpus": {
+        "quote": "In addition to not using the word great and words like it that are either subjective in what they mean or unclear in what they actually mean, definitely using numbers more than adjectives.",
+        "guest": "Jason Shah",
+        "timestamp": "00:24:07",
+        "episode": null,
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "summarizing",
+        "owning-mistakes",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "customer-said",
+      "group": "concrete",
+      "kind": "misread",
+      "zhInstinct": "客戶反應不太好／使用者說價格太貴",
+      "enLiteral": "Customers said the pricing doesn't work for them.",
+      "heardAs": "你說 customers said the price is too high，對方會問 how many？你答不出來，這條意見就從「市場訊號」掉回「一則客訴」，roadmap 上排不進去——而真正的原因不是你沒證據，是你沒把證據講出來。英文會議把使用者訊號分等級（一則客訴 / 五場訪談 / 一整個 segment / 一條留存曲線），每一級的處理方式不同；你不主動報等級，對方只能用最低的那一級處理你。還有一種更安靜的失敗：對方不追問，只回一句 let's keep an eye on it——那句話的意思是這件事到此為止。",
+      "why": "中文的「客戶反應不太好」是一句合格的職場報告：不點名、不誇大、留餘地，主管會自己往下問，證據強度靠後續對話補，也靠你的資歷背書。英文商業溝通的規矩相反——證據等級必須跟主張綁在同一句話裡出來，因為聽的人正在同一秒決定要不要把注意力分給這件事，你不先標等級，他就用最低的等級歸檔。還有一個中文母語者不會注意到的機關：中文的「客戶」不分單複數，但英文的 customers 一出口就是複數宣稱；當你答不出數字，被砍掉的不只是那個數字，是整句話的可信度。",
+      "better": [
+        {
+          "en": "[Six] of the [nine] enterprise customers I talked to this month brought up pricing unprompted. [Three] named [the per-seat model] specifically.",
+          "zh": "我這個月談的[九家]企業客戶裡，有[六家]是自己主動提到定價的。其中[三家]明確講的是[按人頭計費這件事]。",
+          "note": "訪談型證據的標準格式：分母、分子、是不是對方主動提的。unprompted 這個字在英文裡很值錢——它把「你問出來的」跟「他主動講的」分開，後者的重量完全不同。"
+        },
+        {
+          "en": "One customer, [Acme], said this: \"[exact words]\". I'm flagging it as an anecdote, not a pattern — but it's the second time this quarter.",
+          "zh": "有一家客戶[Acme]是這樣說的：「[原話]」。我先講明這是單一案例、不是趨勢——不過這一季這是第二次了。",
+          "note": "手上只有一個案例時的誠實講法。主動說出 anecdote, not a pattern 反而讓對方更認真聽，因為你證明了自己分得清證據等級。"
+        },
+        {
+          "en": "Here's what [Name] said, word for word: \"[quote]\". What I take from it is [your reading] — tell me if you read it differently.",
+          "zh": "[某某]的原話是這樣：「[原話]」。我的解讀是[你的解讀]——如果你讀出別的意思，跟我說。",
+          "note": "原話跟你的詮釋要分兩層講。英文會議對這兩層混在一起很敏感，混講會被懷疑你在挑對自己有利的話。"
+        },
+        {
+          "en": "[38%] of churned accounts cite price in the exit survey — that's [52] accounts last quarter. The interviews tell us which part of the price.",
+          "zh": "流失帳號裡有[38%]在退出問卷提到價格——上一季是[52 個帳號]。訪談補的是「價格的哪一塊」。",
+          "note": "量化打底、質化補解釋。這是英文裡最高的證據等級，也是讓一件事最快進 roadmap 的講法。"
+        }
+      ],
+      "corpus": {
+        "quote": "Tell me about the decisions you made last week. How many customers did you talk to? What data did you use?",
+        "guest": "Teresa Torres",
+        "timestamp": "00:42:02",
+        "episode": null,
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "framing-problem",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "soon-better",
+      "group": "concrete",
+      "kind": "misread",
+      "zhInstinct": "會更好、會更順、比現在快很多",
+      "enLiteral": "The new flow will be much better and a lot faster.",
+      "heardAs": "英文的比較級是一個開著的空格：你講 better，聽的人腦中會自動開一欄「比誰」等你填。你不填，句子就卡在那裡。真正的後果不是被當場追問，是更安靜的那一種——對方把你的 better 讀成「他自己也不知道好多少」，於是這個提案被歸進「聽起來不錯，但不急」那一堆。而且這句話事後兌現不了：三個月後新流程上線，沒有人能說它到底算不算更好，因為當初沒有基準點。你模糊掉的不只是承諾，是你自己的成績。",
+      "why": "中文的比較級常常不指向對象，而是指向一個方向感——「會更好」的意思接近「往好的方向走」，這在中文裡是完整的一句話，因為聽者要的是趨勢與態度。英文的 better / faster / more efficient 是二元運算子，語法上就要兩個操作元；只給一個，母語者的處理方式不是「幫你補一個合理的」，而是「這句話還沒講完」。再加一層：英文商業對話裡的比較級預設是可稽核的，你說 faster，對方預期後面跟著一個數字或至少一個對照組——你不給，他推論的不是你謙虛，是你沒量過。",
+      "better": [
+        {
+          "en": "Today [checkout takes 40 seconds]. The new flow takes [12].",
+          "zh": "現在[結帳要 40 秒]。新流程是[12 秒]。",
+          "note": "最強的改法是把比較級整個刪掉，改講兩個數字。英文裡並排兩個事實，比一個 better 有力太多，而且對方會自己算出倍數。"
+        },
+        {
+          "en": "Better on [time to first invoice] — that's the one we're optimizing. It'll be slightly worse on [setup flexibility], and I think that's the right trade.",
+          "zh": "在[開出第一張發票的時間]上會更好——那是我們要優化的那一項。[設定的彈性]會稍微變差，我認為這個取捨是對的。",
+          "note": "指定維度，並且主動說出哪裡變差。英文裡「全面都更好」是紅旗；講出取捨反而讓好的那一面被相信。"
+        },
+        {
+          "en": "Better compared to [our current flow], not compared to [Competitor]. Against [Competitor] we're still behind on [bulk import].",
+          "zh": "這裡的「更好」是跟[我們現在的流程]比，不是跟[競品]比。跟[競品]比，我們在[批次匯入]上還是落後。",
+          "note": "對方腦中的比較對象常常跟你的不一樣。先把基準點釘死，會議才不會在錯的對照組上吵半小時。"
+        },
+        {
+          "en": "I don't have the number yet. Directionally it should cut [the drop-off at step 3]; I'll have the measurement by [date] and I'll come back if it doesn't.",
+          "zh": "我目前還沒有數字。方向上它應該會減少[第三步的流失]；[某日期]前我會量出來，沒有的話我會回來講。",
+          "note": "還沒量的時候。方向 + 量測時間 + 推翻條件三件一起給，比 it'll be much better 可信得多，而且你保留了誠實收回的空間。"
+        }
+      ],
+      "corpus": {
+        "quote": "And the other thing is people say, \"Oh, it's really expensive and it takes an amount of time.\" As compared to what?",
+        "guest": "Christopher Lochhead",
+        "timestamp": "01:07:49",
+        "episode": null,
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "trade-offs",
+        "proposing-idea"
+      ]
+    },
+    {
+      "id": "abstract-vision",
+      "group": "concrete",
+      "kind": "misread",
+      "zhInstinct": "用抽象名詞堆願景：打造全方位、一站式的智慧生態系，賦能每一位使用者",
+      "enLiteral": "Our vision is to build an integrated, intelligent, one-stop platform that empowers users and unlocks value.",
+      "heardAs": "這種句子在英文會議裡最典型的下場不是被質疑，是被跳過——沒有人反對，也沒有人記得。散會後隨便問在場任何一個人「我們的願景是什麼」，他複述不出來，因為句子裡沒有任何抓得住的東西：沒有人、沒有場景、沒有時間點。真正的損失在招募跟募資：對方判斷你有沒有想清楚，用的方法就是看你能不能講出一個「某個人在某個時刻做了什麼」的畫面。講不出來，他的結論不是「這個願景很大」，是「這個人只有 slogan」。",
+      "why": "中文的抽象名詞堆疊是一種有社交功能的高度語言——「賦能」「生態」「一站式」標示的是格局與正式程度，聽者不會期待你當場落地，落地是下面那一層的人的事。英文商業語境的分工剛好相反：越資深的人越被期待講得越具體，因為抽象是免費的，具體才證明你真的走過那條路。所以英文的願景測試很物理——這個畫面拍得出來嗎？裡面有沒有一個人、一個動作、一個時間差？Jeff Weinstein 講 Stripe Atlas 的願景時一個抽象名詞都沒用：週日晚上辭職，週一早上填完表格，隔天就能營運一家公司。",
+      "better": [
+        {
+          "en": "Picture [a founder] on [a Sunday night]. [She quits her job]. By [Tuesday], [her company is taking payments].",
+          "zh": "想像[一個創業者]在[週日晚上]。[她辭掉工作]。到[週二]，[她的公司已經可以收款了]。",
+          "note": "願景的骨架：一個人 + 一個時刻 + 一個動作 + 一個時間差。先給畫面，抽象的策略詞留到畫面之後再上，對方才接得住。"
+        },
+        {
+          "en": "Today this takes [three weeks and four vendors]. We want it to take [one click].",
+          "zh": "這件事現在要[三個星期、找四個廠商]。我們要讓它變成[一個按鈕]。",
+          "note": "兩個畫面對照——現在長什麼樣、之後長什麼樣。一個形容詞都不需要，是英文裡最耐聽也最好複述的願景句型。"
+        },
+        {
+          "en": "You'll know we got there when [a 19-year-old in Lagos can do this without ever talking to a lawyer].",
+          "zh": "我們做到了的判準是：[一個 19 歲、住在拉哥斯的人，完全不用找律師就能做完這件事]。",
+          "note": "用一個具體的人當驗收條件。這一句在英文裡同時完成了「願景」跟「怎麼算成功」，非常省力，也很難被記錯。"
+        },
+        {
+          "en": "The abstract version is [a unified platform]. The concrete version is: [Maria stops rebuilding the same spreadsheet every Monday morning].",
+          "zh": "抽象版的講法是[一個整合平台]。具體版是：[Maria 不用每個星期一早上再把同一張試算表重做一次]。",
+          "note": "當你真的必須先講抽象版（對高層、寫官網），立刻補一句具體版。英文聽眾會等這一句；等不到，他就當你只有前半句。"
+        }
+      ],
+      "corpus": {
+        "quote": "And so this is our vision. So you can quit your job on a Sunday night, get the Sunday scaries, I'm done with this thing, and on Monday morning fill out this form and the next day be able to run a billion-dollar business …",
+        "guest": "Jeff Weinstein",
+        "timestamp": "01:44:17",
+        "episode": null,
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "painting-vision",
+        "persuasive-story",
+        "explaining-why"
+      ]
+    },
+    {
+      "id": "flat-pitch",
+      "group": "conviction",
+      "kind": "misread",
+      "zhInstinct": "講自己的產品時保持客觀，讓數據自己說話（帶感情＝不夠沉穩）",
+      "enLiteral": "The tool is designed to reduce onboarding time. Some users have found it helpful. I can walk you through the features.",
+      "heardAs": "你以為你在展現專業，對方同時收到三個訊號：這是他被指派的工作、他自己大概沒在用、他預期我會有意見。最直接的證據是那句你一定聽過的追問——“But what do you think about it?” 或 “Do you actually use this?”——你會覺得莫名其妙，因為你剛剛講的全都是事實；但他要的不是事實，是你的溫度。第二個後果更貴：你的能量是整個房間的天花板。你講到 60 度，聽的人最多 40 度，於是散會後沒有人主動接手、沒有人幫你轉述，那個提案在會議紀錄裡活不過一週——不是被否決，是沒有人記得要推它。",
+      "why": "中文的專業感建立在克制上：講自己的東西講太滿，在中文語境裡是自我推銷、是不夠沉穩，所以講的人先自己打八折，聽的人也知道要還原成十分——這是一套雙人協定。英文商業溝通沒有這層還原機制，它預設「說話的人已經把他全部的信念放進句子裡了」，所以你打的那個折不會被補回來，對方拿到八分再自己打一次折，剩六分。更關鍵的是，英文把「熱情」和「客觀」當成兩個獨立的軸，可以同時滿分：又興奮、又講得出自家產品哪裡爛，那是最高分的組合。中文腦誤以為這兩者是同一根滑桿的兩端，於是為了顯得客觀，先把熱情關掉。",
+      "better": [
+        {
+          "en": "I'm not neutral on this one — I use it every day, and it changed how I work.",
+          "zh": "這件事我沒辦法中立——我自己每天用，它改變了我的工作方式。",
+          "note": "直接宣告你不中立，反而提高可信度。英文允許你先承認立場再給證據；藏著立場假裝客觀才是可疑的。"
+        },
+        {
+          "en": "Here's the part I can't stop thinking about: [X].",
+          "zh": "有一個地方我一直放不下：[X]。",
+          "note": "用「我持續在想這件事」取代形容詞。這是熱情的證據，不是熱情的宣稱——比任何 great / powerful 都重，而且中文腦講起來不彆扭。"
+        },
+        {
+          "en": "I'll give you the honest version: [X] is genuinely good. [Y] still isn't there.",
+          "zh": "我給你誠實版：[X] 真的很好，[Y] 還不到位。",
+          "note": "熱情＋自曝其短是英文最強的組合拳。你敢講哪裡爛，你講好的那一半就會被全額相信；只講好的那一半才會被打折。"
+        },
+        {
+          "en": "If I could only keep one thing we shipped this year, it'd be this.",
+          "zh": "今年出的東西如果只能留一個，我留這個。",
+          "note": "用取捨表達信念，不用形容詞。強度很高但完全不像在推銷，因為你付出了代價（放棄其他的）。"
+        }
+      ],
+      "corpus": {
+        "quote": "We are going to do everything we possibly can to make the first 30 seconds of the product feel magical.",
+        "guest": "Grant Lee",
+        "timestamp": "00:11:22",
+        "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=680s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "proposing-idea",
+        "painting-vision",
+        "persuasive-story"
+      ]
+    },
+    {
+      "id": "cant-say-excited",
+      "group": "conviction",
+      "kind": "misread",
+      "zhInstinct": "講不出 I'm really excited about this（中文腦翻回來是「我好興奮喔」，太肉麻）",
+      "enLiteral": "This is a good opportunity. I think it could be useful for the team.",
+      "heardAs": "跨團隊 kickoff，你要別人把工程時間押在你的專案上。你講完 “a good opportunity”，沒有人 volunteer；下一個 PM 開場第一句是 “I'm really excited about this one, and here's why”，接下來一小時的討論全繞著他跑。差別不在內容，在於英文會議把「誰在乎」當成分配注意力的第一順位訊號——沒有人想把人借給一個連提案人自己都只給 60 分的專案。另一個場合更致命：面試被問 “Why this role?”，你答得平，面試官那一欄寫的是 “low signal on motivation”，而那一欄通常就是拒絕的那一欄。他不是覺得你不夠格，是他找不到證據證明你想要。",
+      "why": "中文的「興奮」是私領域情緒，搬進工作場合會顯得失態，所以中文表達投入用的是行動語言（「我會全力配合」「這個我來扛」）而不是情緒語言。英文商業語境早就把 excited 從情緒詞降階成功能詞了——它報的不是你的心情，是你押了多少在這件事上，所以它才會若無其事地出現在募資簡報、公司公告、離職信這種完全不私人的文件裡。台灣人覺得肉麻，是因為腦中翻回的是「我好興奮喔」；但 I'm excited about 真正的中文對等物是「這件事我要」。你拒絕講它，等於在一個大家都會宣告投入程度的場子裡，唯一沒有宣告的人。",
+      "better": [
+        {
+          "en": "I'm really excited about this — [three customers asked for it this month].",
+          "zh": "這件事我很期待——[這個月有三個客戶主動問]。",
+          "note": "標準配備，照抄就好。重點在破折號後面：英文的 excited 要接一個理由，光有情緒才叫肉麻，接了理由就變成判斷。"
+        },
+        {
+          "en": "This is the thing I'd want to work on if I got to pick.",
+          "zh": "如果可以自己挑，這就是我想做的那件事。",
+          "note": "不用任何情緒詞也能表達投入。用「選擇」講熱情，是台灣人最不彆扭的一條路，強度卻不輸 excited。"
+        },
+        {
+          "en": "I've been thinking about this one all week.",
+          "zh": "這件事我想了一整個禮拜。",
+          "note": "用時間量化在乎程度。聽起來一點都不誇張，但傳遞的訊號跟 excited 同級——而且它可查證，更難被打折。"
+        },
+        {
+          "en": "Honestly, this is the most interesting problem on our roadmap right now.",
+          "zh": "老實說，這是我們 roadmap 上現在最有意思的問題。",
+          "note": "用最高級定位事情，而不是描述自己的心情。適合覺得講情緒很怪、但又需要把溫度拉起來的人。"
+        }
+      ],
+      "corpus": {
+        "quote": "I'm so excited about GPT-5. I think for most people, it's going to feel like a real step change.",
+        "guest": "Nick Turley",
+        "timestamp": "00:05:39",
+        "episode": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=ixY2PvQJ0To&t=337s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "proposing-idea",
+        "interview-answers",
+        "painting-vision"
+      ]
+    },
+    {
+      "id": "understate-result",
+      "group": "conviction",
+      "kind": "misread",
+      "zhInstinct": "還可以啦、還不錯、有一點成長（成績越好講得越保留）",
+      "enLiteral": "The numbers are okay. We saw a bit of growth this quarter.",
+      "heardAs": "假設留存從 8% 拉到 24%。你說 “it grew a bit”，主管腦中存下的是一個模糊標籤：「那條線還好」。隔壁團隊同樣的幅度說 “we tripled retention”，存下的是「那條線在動」。半年後排 headcount，沒有人會回去翻原始數字——他們翻的是腦中那兩個標籤，被記住的那條贏。附帶的傷害是你當下就少了一個免費舞台：你講得平，主管不會追問細節，追問本來是英文職場送你的擴音器。最後最貴的一種——等到績效面談你才想把數字講大，那時你講什麼都像在自我推銷，因為你前面十個月都說「還可以」。",
+      "why": "中文的謙虛是一套雙人協定：我把成績講小，你負責還原，甚至替我講得更大——「還不錯啦」預期的下一句是別人來稱讚。這在中文職場運作得很順，因為聽的人知道要乘回去。英文沒有這個還原機制，陳述句就當陳述句處理：你說 a bit，對方就記 a bit，而且他不會替你去查原始數字。更關鍵的是英文商業溝通裡「準確」的位階高於「謙虛」——把三倍講成 a bit，在母語者眼中不是有禮貌，是報告不精確；而報告不精確傷的是你的專業判斷，比不謙虛嚴重得多。",
+      "better": [
+        {
+          "en": "Retention went from 8% to 24% — we tripled it in one quarter.",
+          "zh": "留存從 8% 到 24%——一季翻了三倍。",
+          "note": "先給區間再給倍數。倍數負責讓人記住，區間負責讓人相信；只給倍數像在灌水，只給區間對方懶得自己算。"
+        },
+        {
+          "en": "That's the biggest single move we've seen on this metric all year.",
+          "zh": "這是這個指標今年最大的一次變動。",
+          "note": "沒有漂亮數字時，用定位取代量詞。「今年最大」是可以被反駁的宣稱，所以它有重量；「還不錯」不能被反駁，所以它沒有。"
+        },
+        {
+          "en": "I'll let the number speak: [X]. The caveat I'd add is [Y].",
+          "zh": "我讓數字說話：[X]。要註記的是 [Y]。",
+          "note": "把謙虛從「縮小數字」改成「標註限制」。這才是英文的謙虛做法——數字照實講，不確定的部分另外開一句講乾淨。"
+        },
+        {
+          "en": "It worked better than I expected, and I'm still digging into why.",
+          "zh": "結果比我預期的好，我還在查為什麼。",
+          "note": "把驚訝講出來，等於承認自己也在學。強度夠、又完全不像自吹，是台灣人向主管報好消息最好上手的一句。"
+        }
+      ],
+      "corpus": {
+        "quote": "The company was on the verge of going under when we launched Bolt, and what ended up happening is, in the first two months it went from zero to 20 million of ARR.",
+        "guest": "Eric Simons",
+        "timestamp": "00:00:05",
+        "episode": "Inside Bolt: From near-death to ~$40m ARR in 5 months—one of the fastest-growing products in history | Eric Simons (founder and CEO of StackBlitz)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=L22DtAHLmzs&t=3s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "talking-impact",
+        "backing-with-evidence",
+        "interview-answers"
+      ]
+    },
+    {
+      "id": "no-strong-verb",
+      "group": "conviction",
+      "kind": "misread",
+      "zhInstinct": "用平的動詞（做、處理、進行、加強、優化）",
+      "enLiteral": "We did some work on the onboarding flow. We handled the performance issue and made some improvements.",
+      "heardAs": "母語者從這句話裡抓不到任何一個畫面，於是自動歸檔成「例行維護」。同一件事換動詞就變成另一件事：“we did some work on onboarding” 對方記下「有人在弄那個」；“we gutted onboarding and rebuilt it around one first action” 對方記下「有人動了大手術，而且知道自己在幹嘛」。英文的動詞一次傳三件事——做了什麼、動作多大、你有多篤定——中文的「進行優化」三件事一件都沒傳到。代價最高的地方是 promo doc、季度回顧和英文履歷：你做了一整季，讀的人只看到一排 did / handled / worked on，就把你的工作量估成別人的一半，而他不會覺得自己估錯了。",
+      "why": "中文靠「動詞＋名詞」的搭配承載細節，動詞本身可以很空——進行優化、做處理、加強管理——力道由名詞和副詞去補。英文相反：動詞是句子的重心，選字當下就把規模、方向、態度全部定完了。killed / deprecated / sunset 是同一件事的三種力道，fixed 和 rebuilt 是兩種規模，母語者就是靠讀動詞在估這件事有多大。你把動詞全填成 do / make / handle / conduct，等於把最重要的那一欄留白，對方只能填一個最低值進去。順帶一提，這也是為什麼台灣人寫的英文履歷讀起來像職務說明書——職務說明書用的正好就是這批空動詞。",
+      "better": [
+        {
+          "en": "We gutted the onboarding flow and rebuilt it around one first action.",
+          "zh": "我們把 onboarding 整個掏掉，圍繞單一的第一個動作重蓋。",
+          "note": "gut / rebuild 一次給了規模和方向。同一句用 improve 講，對方會以為你只是調了幾句文案。"
+        },
+        {
+          "en": "We killed three features to make room for this one.",
+          "zh": "我們砍掉三個功能，才騰出位置做這個。",
+          "note": "kill 在英文產品語境是日常字，不粗魯。台灣人習慣寫 removed／deprecated，力道差一整級，也看不出這是一個有人下的決定。"
+        },
+        {
+          "en": "That one change unblocked the whole team.",
+          "zh": "那一個改動把整個團隊卡住的地方打開了。",
+          "note": "unblock 自帶「本來卡著」的前提，一個字講完因果。這種自帶前提的動詞是英文效率最高的地方，也是最該背的一批字。"
+        },
+        {
+          "en": "We doubled down on [X] and walked away from [Y].",
+          "zh": "我們押重 [X]，放掉 [Y]。",
+          "note": "一組對稱的強動詞把取捨講清楚。比 “we focused more on X” 精確得多——focus 沒告訴對方你放棄了什麼，而放棄了什麼才是策略。"
+        }
+      ],
+      "corpus": {
+        "quote": "And so, we basically went on a killing spree. And we just started killing things.",
+        "guest": "Scott Belsky",
+        "timestamp": "00:23:33",
+        "episode": "Lessons on building product sense, navigating AI, optimizing the first mile, and making it through the messy middle | Scott Belsky (Adobe, Behance)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=HCKosdV1J-8&t=1411s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "talking-impact",
+        "summarizing",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "silence-is-respect",
+      "group": "engagement",
+      "kind": "misread",
+      "zhInstinct": "安靜聽完才是尊重，不隨便插嘴打斷別人",
+      "enLiteral": "（整場會議只在被點名時開口，其餘時間專心聽、專心記筆記）",
+      "heardAs": "散會後，在場的人腦中會自動生成一份「誰參與了這場會議」的名單，而那份名單是用「誰講過話」寫成的——你人在，但不在名單上。三個月後同一個專案要找 owner，你的名字不會浮出來，不是因為誰討厭你，是因為你在他們的記憶裡沒有聲音。更難翻身的是主管替你的沉默找理由時只有三個選項：沒意見、沒跟上、或心裡不同意但不敢講——三個都比「他很尊重大家」對你更傷。而且沒人會事後來問你「你剛剛怎麼想」，因為在他們的模型裡，你剛剛已經有機會講了。",
+      "why": "中文會議的座位是有階級的：資淺的人聽、資深的人講，安靜是承認自己還在學，是給對方面子。英文會議預設每個人進來時就是一個「有判斷力的成員」，開會的成本就是為了把大家腦中的資訊撞在一起——你不出聲，等於你帶進來的資訊沒有進到那個共同池子，那你為什麼要坐在這裡？所以英文語境判斷「參與」的單位不是專注度，是可觀察的貢獻：一句話、一個問題、一個補充都算。Whoop 的 Hilary Gridley 教人的講法很直接——每多一個人在會議室，其他人的坦誠度就降一點，所以你得「賺到」你那個位子。",
+      "better": [
+        {
+          "en": "Can I build on that? [你的想法]",
+          "zh": "我可以接著這點講嗎？［你的想法］",
+          "note": "第一次開口最低風險的方式。接在別人的點後面，不用自己開新話題，也不會像在反駁誰"
+        },
+        {
+          "en": "One thing I'd add from the [你的領域] side: [一句話]",
+          "zh": "從［你的領域］的角度補一件事：［一句話］",
+          "note": "用你的專業當入場券。你不需要對整件事有完整意見，只需要在你負責的那一塊上有一句話"
+        },
+        {
+          "en": "I want to flag something before we move on — [X]",
+          "zh": "在換下一題之前我想先提一件事——［X］",
+          "note": "話題快被收掉但你還有疑慮時。flag 這個動詞是英文會議的專用工具，它讓你提出問題而不必立刻提出解法"
+        },
+        {
+          "en": "I've been quiet because I'm still forming a view. Here's where I'm at: [X]",
+          "zh": "我剛剛沒講話是因為還在想。我目前的想法是：［X］",
+          "note": "已經沉默很久、想開口又怕突兀時。把沉默本身講出來，比繼續沉默好——這一句同時解釋了你剛剛在幹嘛"
+        }
+      ],
+      "corpus": {
+        "quote": "So when I tell people this, I'm like, \"It's really important that you earn your place in this meeting and let's work on how to do that.\"",
+        "guest": "Hilary Gridley",
+        "timestamp": "00:24:23",
+        "episode": "How to build a team that can “take a punch”: A playbook for building resilient, high-performing teams | Hilary Gridley (Head of Core Product, Whoop)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=xm5QAzAlqEY&t=1461s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "interrupting",
+        "proposing-idea",
+        "stakeholder-alignment"
+      ]
+    },
+    {
+      "id": "ask-later",
+      "group": "engagement",
+      "kind": "misread",
+      "zhInstinct": "有問題會後再問，不要當場打斷會議節奏",
+      "enLiteral": "（當下沒聽懂但先記下來，散會後私訊對方或寄 email 問）",
+      "heardAs": "你會後私訊問的那個問題，通常是全場有一半的人也沒聽懂的問題——你替所有人吞掉了它。結果是會議在一個沒有人真的懂的基礎上做出決定，兩週後 spec 寫錯、工程做錯方向，回頭追查會發現分岔點就在那一分鐘。而你那則私訊在對方眼裡是額外的工作：同一件事他要解釋第二次，而且是在他已經覺得「這題結掉了」之後。做完事還被記一筆「他好像跟不太上」——你付了兩次代價，一次是專案的，一次是你自己的。",
+      "why": "中文會議把「打斷」定義為冒犯，所以有問題往後放是體貼；而且中文語境相信「私下問比較不失禮」，把不懂控制在兩個人之間是保護雙方面子。英文會議的假設完全反過來：開會就是為了「當場對齊」，你在會後才提的問題，不管答案多好，都已經沒有辦法改變會議的結論了。母語者甚至把「當場敢打斷來問」當成能力訊號——Rippling 的 Matt MacInnis 講他們評 PM 的 case interview，其中一個加分項就是候選人願意打斷面試官、追問更多資訊。Meta 的 Naomi Gleit 則是刻意在會議中即時改投影片上的決議，就是為了逼出那些「我聽到的不是這樣」的聲音。",
+      "better": [
+        {
+          "en": "Quick question before we move on — when you say [X], do you mean [A] or [B]?",
+          "zh": "換題之前想先問一下——你講的［X］，是指［A］還是［B］？",
+          "note": "最有效的當場提問法。給對方兩個選項，他一秒就能答，你也不必承認自己完全沒懂"
+        },
+        {
+          "en": "Can I pause us for a second? I want to make sure I've got this right.",
+          "zh": "可以先暫停一下嗎？我想確認我理解對了。",
+          "note": "需要幾秒鐘組織問題時先卡位。pause us 是「幫大家」不是「打斷你」，英文會議聽得出這個差別"
+        },
+        {
+          "en": "I don't want to derail — should we take this offline, or is it worth two minutes now?",
+          "zh": "我不想把話題帶偏——這個要會後再談，還是現在花兩分鐘值得？",
+          "note": "真的怕打斷時。把「要不要延後」的決定權交給主持人，而不是自己默默決定延後——多數時候他會說 let's do it now"
+        },
+        {
+          "en": "Before we close: what I heard is [X]. Is that right?",
+          "zh": "收尾之前確認一下：我聽到的是［X］，對嗎？",
+          "note": "最後一次機會。就算整場都沒開口，這一句也能把你的理解放進紀錄，而且順便替全場做了對齊"
+        }
+      ],
+      "corpus": {
+        "quote": "I love that because that avoids leaving the meeting and being like, \"I don't know what we agreed to. I heard this, you heard that.\"",
+        "guest": "Naomi Gleit",
+        "timestamp": "00:50:56",
+        "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3054s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "clarifying",
+        "interrupting",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "too-many-questions",
+      "group": "engagement",
+      "kind": "misread",
+      "zhInstinct": "問太多怕顯得沒做功課、不信任對方",
+      "enLiteral": "（有五個問題，只挑一個看起來最不會露怯的問，其他自己回去查）",
+      "heardAs": "你省下來沒問的那四個問題，會變成你之後四個猜測；猜對三個沒人知道，猜錯一個就是一次返工，而返工是有名字的——上面寫你的名字。同時，那個一直在問的同事，在別人眼裡不是「他不懂」，是「他在幫我們把事情想清楚」；半年後大家講起誰對這個專案理解最深，講的是他。最反諷的是：問題問得少的人，最後被問的問題最多——因為沒有人確定你到底懂了什麼，所以主管會開始在會後一項一項跟你確認。",
+      "why": "中文語境把提問的次數當成「準備程度」的反指標：問得多＝沒做功課，或是在暗示對方講得不清楚。英文商業語境把提問當成一種主動的認知勞動——問題本身就是產出，因為它幫全組減少了模糊。差別在於問題的形狀：英文裡讓你掉價的不是「問太多」，是「問可以自己查到的事實」；問假設、問取捨、問成功長什麼樣，問幾次都是加分。Molly Graham 甚至把它當成自己的職涯武器，她說她的超能力是「當一個專業白痴」，因為她發現房間裡通常每個人都有同一個問題，只是沒人敢問。",
+      "better": [
+        {
+          "en": "This might be a basic question, but [問題]",
+          "zh": "這可能是個基本的問題，不過——［問題］",
+          "note": "一句話買下提問的許可。英文母語者天天用，它不會讓你掉價，因為重點在後面那個問題本身"
+        },
+        {
+          "en": "Help me understand [X].",
+          "zh": "幫我理解一下［X］。",
+          "note": "不用問號的問句。它聽起來像資深的人在拆解問題，而不是像學生舉手，是最省力的升級"
+        },
+        {
+          "en": "What would have to be true for [X] to work?",
+          "zh": "［X］要成立的話，什麼前提必須先成立？",
+          "note": "問假設而不是問結論。這句在英文會議裡是高階問法——表面在幫忙想，實際上把沒驗證的前提翻出來了"
+        },
+        {
+          "en": "I've read the doc — my question is about [具體哪一段].",
+          "zh": "文件我看過了——我想問的是［具體哪一段］。",
+          "note": "怕被當成沒做功課時。先亮出你做的功課再問，這一句同時擋掉誤會，而且逼你把問題問得更精準"
+        }
+      ],
+      "corpus": {
+        "quote": "But then you get brave and you ask it and it turns out it wasn't a dumb question. Do you know what I mean? Turns out that everyone had that question in their mind, but no one was brave enough to ask it.",
+        "guest": "Molly Graham",
+        "timestamp": "00:35:18",
+        "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=2116s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "clarifying",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "nodding",
+      "group": "engagement",
+      "kind": "misread",
+      "zhInstinct": "點頭表示我在聽、我尊重你講的",
+      "enLiteral": "（會議中持續點頭、發出 mm-hmm，但不出聲表態）",
+      "heardAs": "你點頭是在說「我在聽」，對方腦中記下的是「他同意了」。兩週後你提出反對，在他眼裡那不是新意見，是出爾反爾——而你完全不知道自己什麼時候答應過。更麻煩的是這種誤會沒有現場證據：會議紀錄上不會寫「某某人點了頭」，所以你連翻案的材料都沒有，只剩下一句蒼白的「我當時沒有說我同意」，而那句話在英文職場聽起來就是狡辯。長期下來你會拿到一個很難洗掉的標籤：agreeable in the room, difficult afterwards。",
+      "why": "中文的點頭是聽覺回饋，跟「嗯」「對」「是喔」一樣屬於伴聽訊號，不承載立場；立場要另外用一句話講出來。英文母語者則是把非語言訊號直接讀進理解狀態——他們一邊講一邊掃你的臉，點頭＝跟上了＝可以往下推，歪頭＝要再舉一個例子。所以在英文會議裡，「沒有反對」不是中性的，它會被寫進對方心裡的決議欄。解法不是不要點頭，是點頭之後補一句話，把「我在聽」跟「我同意」拆開——資深的人自己會做這件事：Rubrik 的 Anneka Gupta 說她習慣在討論到一半時把大家講的東西總結一次，然後直接問還有沒有人不同意，就是不信任滿屋子的點頭。",
+      "better": [
+        {
+          "en": "I'm with you so far. One thing I'm not sure about: [X]",
+          "zh": "到這裡我都跟得上。有一點我還不確定：［X］",
+          "note": "邊聽邊拆開「我在聽」和「我同意」。前半句給對方回饋，後半句保住你的立場，兩件事都做到"
+        },
+        {
+          "en": "Just so I'm clear — are you asking for a decision now, or is this an FYI?",
+          "zh": "先確認一下——你現在是要一個決定，還是只是同步資訊？",
+          "note": "對方講完一大段之後。這句能救你——很多「我以為你答應了」都是因為沒搞清楚對方在要什麼"
+        },
+        {
+          "en": "I hear you. I need to think about [X] before I can commit.",
+          "zh": "我理解你的意思。但［X］我需要想一下才能答應。",
+          "note": "不想當場答應也不想當場反對時。I hear you 承認你聽到了但明確不等於同意，這是英文裡拆開兩者的標準句"
+        },
+        {
+          "en": "So the decision is [X], owner is [Y], by [date]. Everyone good?",
+          "zh": "所以決議是［X］，負責人是［Y］，期限［date］。大家都 OK 嗎？",
+          "note": "你是主持人時，把整室的點頭換成口頭確認。也是最省力的「看起來很資深」動作"
+        }
+      ],
+      "corpus": {
+        "quote": "Is everyone in agreement with that or is there some dissent about whether that's an accurate portrayal of where we've landed with this conversation?",
+        "guest": "Anneka Gupta",
+        "timestamp": "00:25:36",
+        "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=1534s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "clarifying",
+        "summarizing",
+        "polite-disagreement"
+      ]
+    },
+    {
+      "id": "no-small-talk",
+      "group": "engagement",
+      "kind": "misread",
+      "zhInstinct": "直接進正題比較專業，寒暄很浪費時間",
+      "enLiteral": "（連上會議後第一句：\"OK, let's start. First item on the agenda...\"）",
+      "heardAs": "你以為你在示範效率，對方收到的是一個沒有溫度的訊號：這個人只想拿東西，不想認識我。於是接下來三十分鐘他都用「配合公事」的模式回應你——資訊給你，但判斷、內幕、還沒定案的事不給你。而那些東西正好是你真正需要的：誰其實在反對、老闆下一季想往哪走、這個需求背後是誰在推。半年後你會發現你的英文同事之間有一層你進不去的資訊網，而它不是在會議裡建立的，是在會議前那兩分鐘建立的。",
+      "why": "中文職場的關係經營有自己的場子——飯局、私訊、下班後——會議本身是辦正事的地方，開場閒聊反而顯得不夠尊重大家的時間。英文職場沒有那個平行的場子，所有的信任累積都被壓縮進工作時間裡，於是會議開頭那兩分鐘就承擔了「建立可信度」的功能。它不是客套，它是協定交握：雙方確認彼此是人，接下來才好講難聽的話。Matt Abrahams 講得更直白——small talk 這個名字害慘了它，很多大事其實就發生在 small talk 裡。而且它有技術規格：他轉述 Rachel Greenwald 的一句話——「be interested, not interesting」，你不必有趣，只要讓對方接得下去。",
+      "better": [
+        {
+          "en": "How's your week going?",
+          "zh": "你這禮拜還好嗎？",
+          "note": "最低成本的開場，一句就夠。比 How are you 好，因為它給對方一個可以真的回答的範圍"
+        },
+        {
+          "en": "Before we start — how did [對方上次提到的事] go?",
+          "zh": "開始之前——你上次說的［那件事］後來怎麼樣了？",
+          "note": "記住對方上次講的事，這是英文職場最便宜也最有效的信任投資。開會前掃一眼上次的筆記就能做到"
+        },
+        {
+          "en": "Anything on your mind before we jump in?",
+          "zh": "在進正題之前，你有什麼想先聊的嗎？",
+          "note": "1:1 開場。順便把對方真正在意的事撈出來——很多時候那個才是這場會議該談的"
+        },
+        {
+          "en": "We've got 30 minutes. Let's take two, then dive in.",
+          "zh": "我們有三十分鐘。先聊個兩分鐘，然後進正題。",
+          "note": "你是主持人、時間很緊時。把閒聊講成一個有時限的議程項目，效率跟溫度都保住了"
+        }
+      ],
+      "corpus": {
+        "quote": "I think small talk has a bad reputation, needs to be rebranded. I think a lot of big things happen in small talk. We learn about ourselves and others.",
+        "guest": "Matt Abrahams",
+        "timestamp": "00:45:55",
+        "episode": "How to speak more confidently and persuasively | Matt Abrahams (professor, podcast host, author, speaker)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=LpbBzmXrzEY&t=2753s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "running-meeting",
+        "asking-for-advice"
       ]
     },
     {
@@ -1178,6 +1763,231 @@
         "asking-for-resources",
         "saying-no",
         "recognition"
+      ]
+    },
+    {
+      "id": "reporting-not-talking",
+      "group": "power",
+      "kind": "misread",
+      "zhInstinct": "跟 VP 開會＝報告，不是對話——把做過的事按順序講完就下台",
+      "enLiteral": "So last sprint we completed the onboarding revamp, and this sprint we're working on notification settings. We also cleaned up some bugs from the previous release.",
+      "heardAs": "VP 一天開七場會，每一場都有人把做過的事念一遍。你講完二十分鐘，他腦中留下的是「onboarding 改版做完了」這個事實，而不是「你這個人」。真正的代價會在兩個地方顯現：一是下一季有一個沒人想接、方向不明的爛攤子要找人扛，他在腦中掃名單時掃不到你——他從來沒聽過你對任何一件事下過判斷；二是 calibration 會議上你的主管要替你辯護時，能引用的只有你交付了什麼，不是你判斷對了什麼，而升遷看的是後者。你花二十分鐘證明了你很忙。",
+      "why": "中文的「報告」是一種角色分工：資訊往上送，判斷留給上位者做。這既是對職權的尊重，也是一種自我保護——你不下判斷，就不必為判斷負責。英文會議的預設剛好相反：離問題最近的人握有最多資訊，所以判斷由你出，上面的人負責補你缺的脈絡、以及否決你。Ami Vora 把這個分工講成一句話：manager owns context, I own the recommendation。所以你把判斷留白，對方不會讀成謙遜，他會讀成資訊鏈斷在你這裡——他拿到一堆事實卻沒有可裁決的選項，只好自己重跑一次你已經跑完的功課。多做這件事的人，不會被記得是幫忙的人。",
+      "better": [
+        {
+          "en": "My recommendation is [X]. Two reasons, then I'll tell you what I need from you.",
+          "zh": "我的建議是［X］。兩個理由，然後我會講我需要你做什麼。",
+          "note": "跟 VP／skip level 開會的標準開場。判斷放第一句，這句話一出口，整場會的性質就從「聽取報告」變成「一起做決定」"
+        },
+        {
+          "en": "Three things moved this sprint. The one that matters is [X], because [consequence].",
+          "zh": "這個 sprint 有三件事推進了。真正重要的是［X］，因為［會造成什麼］。",
+          "note": "還是要交代進度時用。你照樣報告，但你替對方做了排序——排序本身就是判斷"
+        },
+        {
+          "en": "We're on track on [A]. I'm worried about [B] — I don't think we'll make the date, and I'd rather change the plan now than push harder.",
+          "zh": "［A］照計畫走。我擔心的是［B］——我認為趕不上那個時間點，我寧可現在改計畫，而不是叫大家再撐一下。",
+          "note": "有壞消息時。語氣中性但立場明確，重點是 I'd rather——你不是來丟問題的，你是來要一個決定的"
+        },
+        {
+          "en": "I don't need a decision today. I want to flag which way I'm leaning so you can push back early.",
+          "zh": "今天不用做決定。我想先講我傾向哪一邊，你要否決的話可以早點否決。",
+          "note": "事情還沒定案、你也還沒完全想清楚時。強度最低，但你仍然表態了，而且把否決的機會主動遞給對方"
+        }
+      ],
+      "corpus": {
+        "quote": "What you really want to bring to any forum, whether it's a product review or a written inform or anything else, is the minimal amount of information that you need to make a clean recommendation because then you are forced to be opinionated.",
+        "guest": "Ami Vora",
+        "timestamp": "00:22:47",
+        "episode": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=6UHAop9fhNU&t=1365s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "making-the-case",
+        "stakeholder-alignment",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "no-disagree-up",
+      "group": "power",
+      "kind": "misread",
+      "zhInstinct": "不敢直接跟主管說「我不同意」，改成「我再研究看看」「可能還有一些其他考量」",
+      "enLiteral": "That makes sense. Maybe there are some other considerations we could look into as well.",
+      "heardAs": "在你的中文語感裡，這已經是很重的反對了。對方收到的卻是一個 yes——「有道理，我們之後可以再補一些資料」。他會把你算進支持這個決定的人裡，散會後開始執行。三週後專案撞上你早就看見的那面牆，你說「我當時有提」，但在他的記憶裡你沒有提過，你只說了 that makes sense。於是你不只沒擋下錯誤，還被記成一個「事後才有意見」的人——這在英文職場的殺傷力，遠大於當場說「我不同意」。",
+      "why": "中文往上反對的安全做法，是把反對藏進一個「補充」裡，讓對方自己意會；強度靠語氣、停頓和留白傳遞，字面永遠留有餘地。英文的語氣和留白不承載這個功能，強度只由選字承載——你講 maybe，對方就收到 maybe。更關鍵的是，英美企業把「往上反對」制度化了：Amazon 的 have backbone, disagree and commit 是白紙黑字的領導原則，Bill Carr 說得更直白——如果你在那個決策圈裡，講出你的異議是你的 obligation。所以反對不是你冒險爭取來的權利，是你被期待要交付的東西。不交，等於你眼睜睜讓主管在缺一份重要輸入的狀況下拍板。",
+      "better": [
+        {
+          "en": "I see it differently, and I'd like to say why before we lock this in.",
+          "zh": "我的看法不一樣，在定案前我想講一下為什麼。",
+          "note": "會議上的正式反對開場。強度中上，但完全不冒犯——because 你把反對綁在時間點上（定案前），不是綁在人身上"
+        },
+        {
+          "en": "Before we commit: what worries me is [X]. If [X] happens, [consequence]. Am I wrong about that?",
+          "zh": "在我們決定之前：我擔心的是［X］。如果［X］發生，就會［後果］。我這樣想有錯嗎？",
+          "note": "最好用的一版。把反對包成一個可以被證明錯的預測，強度足夠又完全對事不對人，最後那句 Am I wrong 把台階留給雙方"
+        },
+        {
+          "en": "I'll support this either way. But I'd be doing you a disservice if I didn't flag [X].",
+          "zh": "不管最後怎麼決定我都會支持。但如果我不把［X］講出來，那是我對不起你。",
+          "note": "對高層、對強勢的主管。先講 commit 讓對方鬆手，再講 disagree——這正是 disagree and commit 的說話順序"
+        },
+        {
+          "en": "You have context I don't. But from where I sit, [X]. What am I missing?",
+          "zh": "你有我沒有的資訊。但從我這個位置看到的是［X］。我漏掉了什麼？",
+          "note": "最軟的一版，適合隔兩層以上的高層或第一次交手。姿態很低，但立場一句話都沒讓"
+        }
+      ],
+      "corpus": {
+        "quote": "\"Tell me about a time where you needed to disagree with your management, where you needed to stand up or fight for a position against higher leadership or people in power.\" Because I think that's really hard to do.",
+        "guest": "Ethan Evans",
+        "timestamp": "01:15:03",
+        "episode": "Taking control of your career | Ethan Evans (Amazon)",
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "polite-disagreement",
+        "challenging-assumptions",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "may-i-ask",
+      "group": "power",
+      "kind": "misread",
+      "zhInstinct": "請問一下、不知道方不方便問一個問題",
+      "enLiteral": "Sorry, may I ask a question? I was just wondering if it might be possible to know why we went with this approach.",
+      "heardAs": "「可以問一個問題嗎？」本身就在請求批准，而房間裡沒有任何人被指派來批准你。它唯一的效果是把你的問題往後延三秒，並且在這三秒裡告訴所有人：這個人不確定自己有沒有資格在這裡開口。更貴的是它改變了問題的性質——同樣一句「為什麼選這個方案」，前面掛了請示，聽起來像「我沒跟上，可以重講一次嗎」；不掛，聽起來像「這個決定有一個洞」。你想被歸到第二種，但你的開場白替你選了第一種。",
+      "why": "中文的「請問」是先把發問這個動作包裝成一個請求：問句帶有侵入性，所以要先敲門，讓對方保有不開門的空間。英文會議把發問視為與會者的職務內容，不是需要被授予的權限，所以那個敲門動作沒有收件人，只會被解讀成你對自己的位置沒把握。英文真正的禮貌不在「我可不可以問」，而在「我幫你把問題縮到多小」——講清楚問哪一塊、要多久、為什麼現在問，讓對方能低成本回答。這就是為什麼母語者的開場是 Quick one on X（限定範圍），而不是 May I ask（請求許可）。Paige Costello 講的正是同一件事：真正的自信，反而長得像直接開口問「我不懂你的意思，可以再講一次嗎」。",
+      "better": [
+        {
+          "en": "Quick one on [X]: why did we rule out [Y]?",
+          "zh": "關於［X］問一個小問題：我們為什麼排除了［Y］？",
+          "note": "會議中最常用的插入式提問。quick one 限定的是問題的範圍，不是你的地位——這是關鍵差別"
+        },
+        {
+          "en": "Can I pull on that thread for a second?",
+          "zh": "這條線我可以往下拉一下嗎？",
+          "note": "想追問對方剛剛講的東西。形式上是問句，實際上沒有人會說不，因為你要延伸的是他的話"
+        },
+        {
+          "en": "Before we move on — what's driving the [date / number]?",
+          "zh": "在往下之前——這個［日期／數字］是怎麼來的？",
+          "note": "議程要往前推、你還沒接受的時候。what's driving 比 why 更能逼出根據，而且聽起來是在幫忙釐清"
+        },
+        {
+          "en": "I want to make sure I've got this right: are we saying [重述]?",
+          "zh": "我確認一下我有沒有聽對：我們是在說［重述］嗎？",
+          "note": "你其實沒聽懂時的說法。把「我不懂」轉成「我來確認」——同樣拿到解釋，但收到的是一個在追求精確的人"
+        }
+      ],
+      "corpus": {
+        "quote": "So real confidence is often conveyed by being willing to ask the question or to say, \"I don't know what you mean by that. Can you say that again?\"",
+        "guest": "Paige Costello",
+        "timestamp": "00:26:36",
+        "episode": "How to ask the right questions, project confidence, and win over skeptics | Paige Costello (Asana, Intercom, Intuit)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=N7S6nSmOsUI&t=1594s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "clarifying",
+        "interrupting",
+        "challenging-assumptions"
+      ]
+    },
+    {
+      "id": "waiting-to-be-asked",
+      "group": "power",
+      "kind": "misread",
+      "zhInstinct": "等被點名才發言——沒問到我，就代表現在不該由我講",
+      "enLiteral": "(silence through the whole meeting) — Oh, nothing from me. I'll follow up after if I have questions.",
+      "heardAs": "你在心裡跑完了整場會，對每個決定都有判斷，但這些在房間裡不存在。代價不在那場會，在半年後的 calibration：你的主管替你講話，其他主管的第一反應是「他做了什麼？」——不是因為你沒做，是因為在他們有機會看到你的六十場會議裡，你發出的聲音總長度是零。Deb Liu 帶過一個她認為非常強的 PM，每次升遷討論都卡在同一句話上，而那個人的理由很合理：她需要時間想，等她想完，話題已經過去了。合理不會改變結果。",
+      "why": "中文會議裡，先聽完再說是對主持人和資深者的尊重；等被點名再講，可以確保你不搶話、不打斷、不逾越次序——次序本身就是禮貌的一部分。英文會議的預設完全不同：議程不是發言權的分配表，是一段開放的空氣，誰有東西誰就放進去。沒有人會來點你的名，因為在英文語境裡點名反而是降級（像老師點學生）。所以你的沉默沒有被讀成「他在遵守流程」，而是被讀成兩件事之一：這個人沒有意見，或這個人有意見但不敢講。兩種在評等表上都很貴。順帶一提，這不是外向者才做得到的事——Deb Liu 自己是內向者，她的說法是：這是一項技能，你不必喜歡它，但你得做。",
+      "better": [
+        {
+          "en": "One thing before we move on — [你的重點].",
+          "zh": "在往下走之前補一件事——［你的重點］。",
+          "note": "成本最低的插入方式，不需要暖場、不需要理由。話題轉換的縫隙是最好切入的位置"
+        },
+        {
+          "en": "Can I build on that? [你的重點]",
+          "zh": "我接著剛剛那個講一下？［你的重點］",
+          "note": "附在別人剛講完的東西上最容易切進去，而且你順手給了對方 credit——對方通常會反過來替你把話講完"
+        },
+        {
+          "en": "I have a different read on [X].",
+          "zh": "關於［X］我的解讀不太一樣。",
+          "note": "你有不同看法但還沒整理完整時。read 這個字給了你彈性——它是解讀，不是結論，講錯不用道歉"
+        },
+        {
+          "en": "I can own that.",
+          "zh": "這件事我來扛。",
+          "note": "房間在找 owner、安靜了三秒的時候，這是全場性價比最高的一句話。一秒鐘的發言，換一整季的能見度"
+        }
+      ],
+      "corpus": {
+        "quote": "\"I noticed that you never answer questions when we do these presentations.\" She's like, \"Yeah, because I'm a processor. And by the time I process, I feel like the conversation has moved on.\"",
+        "guest": "Deb Liu",
+        "timestamp": "00:34:54",
+        "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "interrupting",
+        "proposing-idea",
+        "talking-impact"
+      ]
+    },
+    {
+      "id": "your-call",
+      "group": "power",
+      "kind": "misread",
+      "zhInstinct": "這個您決定就好／我都可以，看您",
+      "enLiteral": "Both options work for me. It's your call — whatever you think is best.",
+      "heardAs": "你以為你遞出去的是尊重，對方收到的是一份沒做完的工作。他必須在缺少你手上那堆細節的情況下猜，而猜錯的成本會原封不動回到你的團隊身上。而且最常見的結果不是他選一個——Tara Seshan 的觀察是，當你把兩個「中立選項」端上桌，leadership 最典型的反應是「兩個都做」，因為沒有人告訴他們哪一個必須被犧牲。你講那句話是想避免衝突，換來的是你的團隊接下來三個月的加班。",
+      "why": "中文的「您決定就好」同時做兩件事：讓渡權力以示尊重，並且把責任移出自己。在階級明確的組織裡這是安全的，因為決策權和資訊權本來綁在同一個位置——上面的人既有權也有全局。英文組織把這兩件事拆開了：決策權在上面，資訊權在你手上，所以「你決定就好」等於把唯一有資訊的人從決策裡移除。英文的資深訊號因此不是「我服從」，而是「我建議 X，理由是 Y，如果你要否決，這是你該權衡的東西」。要注意的是，把事情往上送本身不是錯的——當兩個平權的人卡住、誰都沒權拍板，往上升是正確工具（Molly Graham：escalation is a tool，不是打小報告）。差別在於你送上去的是「決定」，還是連「判斷」一起丟掉了。",
+      "better": [
+        {
+          "en": "My recommendation is [X]. Happy to go the other way if you're seeing something I'm not.",
+          "zh": "我建議［X］。如果你看到我沒看到的東西，換一條路我也沒問題。",
+          "note": "萬用句型。先給判斷，再明白地把否決權交回去——尊重照樣傳達到，但你沒有留白"
+        },
+        {
+          "en": "If it were only up to me, I'd do [X], because [一個理由]. What's your read?",
+          "zh": "如果完全由我決定，我會選［X］，因為［一個理由］。你怎麼看？",
+          "note": "強度中等，適合你有偏好但知道自己資訊不全時。if it were only up to me 已經承認了決定權不在你，剩下的部分你就可以講滿"
+        },
+        {
+          "en": "I can live with either, but they're not equal: [A] costs us [X], [B] costs us [Y]. I'd take [A].",
+          "zh": "兩個我都能接受，但它們不對等：［A］的代價是［X］，［B］的代價是［Y］。我會選［A］。",
+          "note": "你真的沒有強烈偏好時的版本。就算沒有偏好，也一定要標出代價差異——這才是你被付錢做的那件事"
+        },
+        {
+          "en": "We can't do both. If we take [新需求], [現有優先項] slips a quarter. Which do you want?",
+          "zh": "兩件事不可能都做。如果接下［新需求］，［現有優先項］就會延一季。你要哪一個？",
+          "note": "擋需求／談取捨時。重點是把選項寫成互斥的，逼出取捨，而不是給對方一個可以說「都要」的空間"
+        }
+      ],
+      "corpus": {
+        "quote": "Teams often shy away from having a POV, deferring to leadership to choose between two unbiased options.",
+        "guest": "Tara Seshan",
+        "timestamp": null,
+        "episode": "How to communicate tradeoffs so leaders will listen",
+        "isSearch": true,
+        "url": "https://www.lennysnewsletter.com/search?q=How%20to%20communicate%20tradeoffs%20so%20leaders%20will%20listen",
+        "seek": false
+      },
+      "relatedFunctions": [
+        "trade-offs",
+        "saying-no",
+        "making-the-case"
       ]
     }
   ]
