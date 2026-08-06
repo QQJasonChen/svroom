@@ -9,3 +9,6 @@ next-env.d.ts
 # 原始語料是付費訂閱內容，絕不進 repo
 data/raw/
 .gstack/
+
+# 分析用的衍生資料（本機跑，不進 repo）
+analysis/
