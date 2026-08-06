@@ -1,6 +1,242 @@
 {
-  "count": 1,
+  "count": 2,
   "findings": [
+    {
+      "id": "i-dont-know",
+      "zh": "「我不知道」",
+      "en": "I don't know",
+      "stat": {
+        "count": 2893,
+        "episodes": 308,
+        "total": 311,
+        "median": 8
+      },
+      "headline": "2,893 次「我不知道」——它是開場白，不是句點",
+      "why": "英語職場把「我知道」跟「我猜」當成兩種不同等級的資訊，而講話的人有義務自己標記在哪一級。I don't know 就是那個標記器：它一出現，後面接的東西就自動被降級成推測，聽的人知道哪句要查證、哪句可以直接拿去做決定。所以位子越高的人講得越多，因為他一天要下的判斷越多、被回頭追究的機率越高，先把不確定的那塊圈掉，剩下 95% 的話才拿得到全額信任。它同時也是控場動作：劃掉一個範圍之後，剩下的地盤就是你的，你可以名正言順地只回答你真的有把握的那塊，而不是被整題拖著走。311 集裡有 308 集出現、每集中位數 8 次，代表這不是某個人的口頭禪，而是這個語言社群的預設協定。",
+      "taiwan": "台灣人在英文會議被問到沒把握的事，最常見的三種反應是：含糊帶過（Yeah, I think so、Should be fine）、先把話講滿事後再私下補救、或是沉默等別人接話。代價是對方分不出你哪一句是查過的、哪一句是猜的，於是整場發言一起被打折——連你真的做過功課的那部分也拿不到分。更貴的是第二次：等你猜的那句後來被推翻，對方學到的不是「這一題他不知道」，而是「他講的都要再查一次」，你就從此被排除在需要即時判斷的會議之外。中文會議還能靠語氣、關係、事後補件救回來；英文會議只認你當下有沒有先標。",
+      "types": [
+        {
+          "zh": "劃範圍後補料",
+          "share": "約兩成二（非口頭禪用法中的三成一，最大宗）",
+          "note": "先用一句話把不知道的部分圈起來，同一口氣立刻交出你知道的那塊，句型固定是「I don't know X, but I can tell you / what I do know is / here's what I'm thinking Y」。補的料可以是資訊，也可以是下一步動作（let me get back to you）。這一型的效果是把「他答不出來」變成「他很清楚邊界在哪」，適合被問到跨部門、跨時間、你只掌握一半的問題。",
+          "examples": [
+            {
+              "quote": "I don't know what's behind his response, but I can tell you what's true for me.",
+              "guest": "Jerry Colonna",
+              "timestamp": "00:49:33",
+              "episode": "How have I been complicit in creating the conditions I say I don’t want? | Jerry Colonna (CEO of Reboot, executive coach, former VC)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=PJE7etZQ9us&t=2971s",
+              "seek": true
+            },
+            {
+              "quote": "I'm not sure that it matches exactly to functions, but I can tell you what we're seeing more of, we need more of. We need more systems thinkers in a world with AI.",
+              "guest": "Elizabeth Stone",
+              "timestamp": "00:13:43",
+              "episode": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
+              "seek": false
+            },
+            {
+              "quote": "If you ask me a question, sometimes I don't know and I'll say, \"Hey, let me get back to you.\" Sometimes I don't know and I'll say, \"Hey, I don't know, but here's what I'm thinking.\"",
+              "guest": "Jules Walter",
+              "timestamp": "00:28:10",
+              "episode": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=zn2JNbZwf00&t=1688s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "把不知道縮到一個點",
+          "share": "約一成一（非口頭禪用法中的一成五）",
+          "note": "不是說「我不知道」，而是說「我不知道的是 why / what number / where it came from」，用 wh- 子句把缺口縮到一個具體的小問題。默認效果很強：你只圈掉那一塊，等於宣告其餘的你都掌握。常見的接法是下一句立刻講出你確實知道的相鄰事實，讓對方看見缺口的形狀而不是一片空白。",
+          "examples": [
+            {
+              "quote": "I don't know what that number is today. I know that it sort of went up and then down and then back up again.",
+              "guest": "Janna Bastow",
+              "timestamp": "00:07:52",
+              "episode": "Building better product roadmaps | Janna Bastow (Mind the Product, ProdPad)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=W3cvqPCGcck&t=470s",
+              "seek": true
+            },
+            {
+              "quote": "If your name is Firefox, I have no idea what you did. You just took two words and put them together and made something up.",
+              "guest": "Arielle Jackson",
+              "timestamp": "00:17:56",
+              "episode": "The art of building legendary brands | Arielle Jackson (Google, Square, Marketer in Residence at First Round Capital)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "zh": "用「我不確定這樣對不對」提異議",
+          "share": "約一成（非口頭禪用法中的一成三）",
+          "note": "句型是 I don't know if / I'm not sure if 加一個完整主張，把「我反對」包裝成「我對這件事的把握不足」。攻擊的是命題不是人，對方可以順著補證據而不必先認錯，所以在會議上駁回一個提案時幾乎不會撕破臉。要注意它同時也把你的立場調弱了，用在你真的想擋下某件事時，後面必須立刻接一個具體的下一步。",
+          "examples": [
+            {
+              "quote": "I'm not sure if it's productive to continue to discussing right now. Let's talk about it again in a week.",
+              "guest": "Alisa Cohn",
+              "timestamp": "00:30:02",
+              "episode": "Scripts for difficult conversations: Giving hard feedback, navigating defensiveness, the three questions you should end every meeting with, more | Alisa Cohn (executive coach)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=bvF0ZM8DjuI&t=1800s",
+              "seek": true
+            },
+            {
+              "quote": "I don't know if this is the right forum for explaining P values, because the definition of a P value is simple. What it hides is very complicated.",
+              "guest": "Ronny Kohavi",
+              "timestamp": "01:02:30",
+              "episode": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE&t=3748s",
+              "seek": true
+            },
+            {
+              "quote": "I don't know if it's the right way to describe it. I call it a kneeling where you have a thing, and it's not quite the right shape, and you put it out into the wild.",
+              "guest": "Nan Yu",
+              "timestamp": "00:26:17",
+              "episode": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=nTr21kgCFF4&t=1575s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "先卸壓再遞資訊",
+          "share": "約 7%（非口頭禪用法中的一成）",
+          "note": "固定是 I don't know if you know / saw / remember X, but 加上你要講的東西。表面在講自己不知道，實際是在替對方留台階：萬一他早就知道，你沒有在說教；萬一他不知道，他也不必承認自己漏掉。這是把知識差距端上桌又不讓任何人丟臉的標準做法，在跨團隊同步、對外部客戶補背景時最好用。",
+          "examples": [
+            {
+              "quote": "I don't know if you saw this video, but basically John said that he was impressed, that he learns from Steve Jobs that there's a cabinet maker who finished the back of the cabinet, and how important that was.",
+              "guest": "Caitlin Kalinowski",
+              "timestamp": "00:28:32",
+              "episode": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
+              "seek": false
+            },
+            {
+              "quote": "Yeah, I mean, I don't know if you remember this, but there was this product called Our Stories, and essentially it was MyStory, but it was a public story.",
+              "guest": "Gaurav Misra",
+              "timestamp": "00:59:12",
+              "episode": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=PDobJV8wh1g&t=3550s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "把未知升格成團隊的題目",
+          "share": "約 3%（非口頭禪用法中的 5%）",
+          "note": "主詞從 I 換成 we：we don't know what's going on / we don't know if this will work。同一個未知從「我的能力缺口」變成「組織現在的資訊缺口」，接下來理所當然要配資源去補——語料裡這一型後面幾乎都直接接工作項目（做埋點、跑實驗、先承諾一段 discovery）。要做 roadmap、寫規格、跟老闆要人要時間時最該用這一型。",
+          "examples": [
+            {
+              "quote": "And there was eight steps in the funnel and we don't know what is going on. Right. So the first bit of understand work was we needed to do the instrumentation of that funnel as fast as possible to get the data to figure out where the drops were happening and what to fix.",
+              "guest": "Bangaly Kaba",
+              "timestamp": "00:39:40",
+              "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=2378s",
+              "seek": true
+            },
+            {
+              "quote": "We don't know if we're going to actually end up going, and based on the results whether we're going to actually move forward with investing in that area, but that's a body of work we can commit to.",
+              "guest": "Annie Pearl",
+              "timestamp": "00:36:30",
+              "episode": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=-tUIGpgmsZw&t=2188s",
+              "seek": true
+            },
+            {
+              "quote": "We don't know. We can guess, but we don't really know where this is going to end up.",
+              "guest": "Benedict Evans",
+              "timestamp": "00:27:10",
+              "episode": "A rational conversation on where AI is actually going | Benedict Evans",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+              "seek": false
+            }
+          ]
+        },
+        {
+          "zh": "攤開不會做，換來幫手",
+          "share": "約 2%（非口頭禪用法中的 3%）",
+          "note": "I don't know how to do this，講的不是資訊缺口而是能力缺口，通常由職級最高的人講出來。語料裡它幾乎都緊接著求援或號召：找人、借腦、let's go figure it out。頻率最低但風險最高，適合用在你真的卡住、而拖下去的成本大於承認的成本時——重點是承認之後那半句一定要有動作。",
+          "examples": [
+            {
+              "quote": "At that point, I was an interim CMO at Nero and I'm like, \"I don't know how to do this.\" And it actually earns you a lot more credit than you think.",
+              "guest": "Elena Verna",
+              "timestamp": "00:39:19",
+              "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "There's a few other people where I'm like, I don't know how to solve this problem. Can I load this other person into my head and how would they approach it?",
+              "guest": "Ami Vora",
+              "timestamp": "00:30:18",
+              "episode": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=6UHAop9fhNU&t=1816s",
+              "seek": true
+            },
+            {
+              "quote": "And that is hard because it requires saying, \"I don't know, let's go figure it out,\" a whole bunch and it's scary as a leader to say I don't know because you think, \"Oh, gosh, people are going to see through me.\"",
+              "guest": "Molly Graham",
+              "timestamp": "00:58:35",
+              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=3513s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "zh": "純口頭禪（沒有教學價值）",
+          "share": "約三成（最大單一用法，但不建議模仿）",
+          "note": "夾在句子中間、前後都是逗號的 I don't know，功能等同中文的「那個」「之類的」，用來拖一秒鐘找詞或標示後面的數字是隨口舉例（I don't know, 30 people、I don't know, let's say）。它跟認識論完全無關，也不會讓你聽起來比較謙虛。台灣人不必學這一型：母語者靠它爭取思考時間，非母語者用它只會讓句子更難懂，想拖時間用 Let me think for a second 更安全。",
+          "examples": [
+            {
+              "quote": "You're standing on top of the hill, you're looking down, you can see the, I don't know, rolling hills, the sheep, the grass, whatever.",
+              "guest": "Ami Vora",
+              "timestamp": "00:26:55",
+              "episode": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=6UHAop9fhNU&t=1613s",
+              "seek": true
+            },
+            {
+              "quote": "So we interviewed Ben and it was a long day of interviews in a tiny glass conference room and Lyft was, I don't know, 30 people or something at the time.",
+              "guest": "Adam Fishman",
+              "timestamp": "00:29:46",
+              "episode": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=wP8YyWH524A&t=1784s",
+              "seek": true
+            },
+            {
+              "quote": "In fact, actually, this is my email signature for, I don't know, for the last 20 years or so.",
+              "guest": "Aparna Chennapragada",
+              "timestamp": "00:58:46",
+              "episode": "Microsoft CPO: If you aren’t prototyping with AI, you’re doing it wrong | Aparna Chennapragada",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=HbbfXAWcuUo&t=3524s",
+              "seek": true
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "prefix-before-fire",
       "zh": "先貼標籤，再開火",
