@@ -139,15 +139,6 @@
           "note": "主詞從 I 換成 we：we don't know what's going on / we don't know if this will work。同一個未知從「我的能力缺口」變成「組織現在的資訊缺口」，接下來理所當然要配資源去補——語料裡這一型後面幾乎都直接接工作項目（做埋點、跑實驗、先承諾一段 discovery）。要做 roadmap、寫規格、跟老闆要人要時間時最該用這一型。",
           "examples": [
             {
-              "quote": "And there was eight steps in the funnel and we don't know what is going on. Right. So the first bit of understand work was we needed to do the instrumentation of that funnel as fast as possible to get the data to figure out where the drops were happening and what to fix.",
-              "guest": "Bangaly Kaba",
-              "timestamp": "00:39:40",
-              "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
-              "isSearch": false,
-              "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=2378s",
-              "seek": true
-            },
-            {
               "quote": "We don't know if we're going to actually end up going, and based on the results whether we're going to actually move forward with investing in that area, but that's a body of work we can commit to.",
               "guest": "Annie Pearl",
               "timestamp": "00:36:30",
@@ -188,15 +179,6 @@
               "episode": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
               "isSearch": false,
               "url": "https://www.youtube.com/watch?v=6UHAop9fhNU&t=1816s",
-              "seek": true
-            },
-            {
-              "quote": "And that is hard because it requires saying, \"I don't know, let's go figure it out,\" a whole bunch and it's scary as a leader to say I don't know because you think, \"Oh, gosh, people are going to see through me.\"",
-              "guest": "Molly Graham",
-              "timestamp": "00:58:35",
-              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-              "isSearch": false,
-              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=3513s",
               "seek": true
             }
           ]
@@ -332,15 +314,6 @@
               "isSearch": false,
               "url": null,
               "seek": false
-            },
-            {
-              "quote": "And Gong's hard to sell today, too, don't get me wrong. But you see my point, it's just that simplicity, it's too complicated, right?",
-              "guest": "Jason Lemkin",
-              "timestamp": "00:59:00",
-              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
-              "isSearch": false,
-              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=3538s",
-              "seek": true
             },
             {
               "quote": "And don't get me wrong, I think there's a lot of product folks out there who enjoy that modality of work, I'm not one of them.",

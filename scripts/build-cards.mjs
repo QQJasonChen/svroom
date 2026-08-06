@@ -122,6 +122,33 @@ function withTimestamp(url, ts) {
   return { url: `${url}${sep}t=${at}s`, seek: true };
 }
 
+// 電子報的作者。語料索引沒有這欄，先前採集因此把客座文章一律掛成
+// Lenny Rachitsky——但 Lenny's Newsletter 有大量客座文（談薪那篇是
+// Jacob Warwick、Palantir 那篇是 Adam Judelson）。掛錯作者比沒有作者嚴重。
+//
+// 規則：
+//   1. newsletter-authors.json 能確認的（文中寫明 guest post by …）→ 用它
+//   2. 採集時 agent 讀過文章、填了具體人名 → 信任它（那是證據）
+//   3. 只填了 "author" 佔位字串、或在無法確認的電子報上填 Lenny → **不宣稱作者**
+//      只顯示文章標題。文章標題本來就是真實出處。
+let newsletterAuthors = {};
+try {
+  newsletterAuthors = JSON.parse(
+    readFileSync(join(ROOT, "data", "newsletter-authors.json"), "utf8"),
+  );
+} catch {
+  /* 沒有這份表就退回原本行為 */
+}
+
+function resolveGuest(rawGuest, sourceFile) {
+  const entry = newsletterAuthors[sourceFile];
+  if (!entry) return rawGuest; // podcast，講者標頭是可靠的
+  if (entry.author) return entry.author;
+  const g = (rawGuest || "").trim();
+  if (!g || g === "author" || g === "Lenny Rachitsky" || g === "Lenny") return null;
+  return g;
+}
+
 const wordCount = (s) => (s || "").trim().split(/\s+/).filter(Boolean).length;
 
 const slug = (s) =>
@@ -524,7 +551,7 @@ function ingest({ fileList, validSet, groupMap, out, label }) {
         difficulty: [1, 2, 3].includes(raw.difficulty) ? raw.difficulty : 2,
         swaps: Array.isArray(raw.swaps) ? raw.swaps.filter(Boolean).slice(0, 4) : [],
         pmNote: raw.pm_note && raw.pm_note !== "null" ? raw.pm_note : null,
-        guest: raw.guest.trim(),
+        guest: resolveGuest(raw.guest, raw.source_file),
         timestamp: raw.timestamp || null,
         // 導流回原始出處，這是授權的禮貌也是內容誠信。
         // 集數標題一定有，連結不一定——沒有連結也不能沒有出處。

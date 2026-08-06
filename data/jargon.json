@@ -1,5 +1,5 @@
 {
-  "count": 40,
+  "count": 39,
   "terms": [
     {
       "id": "two-way-door",
@@ -221,15 +221,6 @@
           "seek": true
         },
         {
-          "quote": "I'm going to give you five skills and I want you to stack-rank them for me. One to five.",
-          "guest": "Bangaly Kaba",
-          "timestamp": "01:32:55",
-          "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=5573s",
-          "seek": true
-        },
-        {
           "quote": "You have like 20 things on a stack rank list and you know that you got to do the top five, but the next 15 data's kind of ambiguous, but you've overstaffed the project.",
           "guest": "Matt MacInnis",
           "timestamp": "00:10:44",
@@ -260,15 +251,6 @@
           "episode": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
           "isSearch": false,
           "url": "https://www.youtube.com/watch?v=RBbINB5HSHk&t=2090s",
-          "seek": true
-        },
-        {
-          "quote": "And most people's natural idea of what is necessary is so laughably wrong. People are naturally off by usually one or two orders of magnitude, right?",
-          "guest": "Eric Ries",
-          "timestamp": "00:43:02",
-          "episode": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=xzebbzIntFc&t=2580s",
           "seek": true
         },
         {
@@ -455,15 +437,6 @@
       "trap": "不要跟 unlock 混。unlock 是「打開一個新的可能性」，unblock 是「移除一個既有的阻礙」——講反了意思差很多。也不是社群軟體那個「解除封鎖」。還有一個文化差：台灣人習慣自己硬撐到底才求救，但在這種語境裡，早一點說出被卡住，被視為專業而非示弱。",
       "usage": [
         {
-          "quote": "It's what management is for. They're there to unblock you. Let them unblock you.",
-          "guest": "Molly Graham",
-          "timestamp": "01:16:59",
-          "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=4617s",
-          "seek": true
-        },
-        {
           "quote": "So one thing that I've always done as a management philosophy is to spend actually the majority of my time with top performers, just like make sure they're unblocked, make sure they're happy, make sure they feel productive and they feel heard.",
           "guest": "Sherwin Wu",
           "timestamp": "00:20:50",
@@ -545,15 +518,6 @@
           "episode": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
           "isSearch": false,
           "url": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=2376s",
-          "seek": true
-        },
-        {
-          "quote": "Spin up a Google doc or a Notion page, just call it daily log and then bullet point out the date of today.",
-          "guest": "Kevin Yien",
-          "timestamp": "00:44:21",
-          "episode": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=xOTO98MXG9o&t=2659s",
           "seek": true
         },
         {
@@ -749,15 +713,6 @@
           "seek": false
         },
         {
-          "quote": "That's why I think it's very important to have a single-threaded owner. We used to call this a directly responsible individual or a throat to choke.",
-          "guest": "Naomi Gleit",
-          "timestamp": "00:54:05",
-          "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3243s",
-          "seek": true
-        },
-        {
           "quote": "A great example, this was in Prime Video, one of the businesses that I managed, we could create a single-threaded team who just was working on applications for TV sets, like Samsung, Sony.",
           "guest": "Bill Carr",
           "timestamp": "00:21:23",
@@ -857,30 +812,6 @@
       ]
     },
     {
-      "id": "table-that",
-      "group": "meeting",
-      "term": "table that",
-      "zh": "先擱著",
-      "meaning": "美式用法是「這個先放旁邊，現在不談」。有人對你的提案說 “let's table that”，他不是否決，是說今天的會不處理這件事——但也沒有承諾什麼時候處理。所以聽到之後真正該做的動作是：當場問一句什麼時候再談、誰負責，否則這件事通常就消失了。",
-      "when": "會議時間不夠、或某個議題還沒到能決定的階段時會聽到。你自己要擋掉離題討論又不想直接說「不要」時很好用，比 “that's not important” 溫和得多。",
-      "trap": "英式英語的 “table a motion” 意思剛好相反，是「把議案提出來討論」。跨國會議上英美同事同桌時真的會誤會，聽到之後最好用自己的話確認一次是要擱置還是要現在談。另外別把它當成「被否決」而放棄——它只是延後。",
-      "usage": [
-        {
-          "quote": "You get that possibility, you go, okay, well that's interesting, let's table that. What else have we got?",
-          "guest": "Bob Baxley",
-          "timestamp": "01:10:22",
-          "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=4220s",
-          "seek": true
-        }
-      ],
-      "relatedFunctions": [
-        "running-meeting",
-        "trade-offs"
-      ]
-    },
-    {
       "id": "circle-back",
       "group": "meeting",
       "term": "circle back",
@@ -973,15 +904,6 @@
       "when": "你在會議尾聲要把某個懸而未決的討論定案時說 “Let me close the loop on that.”。也適用在你追問某人某件事的進度、或你自己主動回頭跟對方報告結果的時候。",
       "trap": "容易誤解成「這個話題到此為止、不要再講了」。實際上它是「講出結論再往下」，是收斂不是切斷。另一個坑：台灣職場習慣「做完就好」，但英文圈把主動回報當成 close the loop 的必要條件，少了這一步在別人眼中就是 drop the ball。",
       "usage": [
-        {
-          "quote": "Just to close the loop here, one takeaway here that I think is really interesting is that you can fail in a job and things will be okay.",
-          "guest": "Lenny Rachitsky",
-          "timestamp": "00:12:49",
-          "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=767s",
-          "seek": true
-        },
         {
           "quote": "He's going to follow up, he's going to close the loop, he's going to get it done. If he can't get it done, he'll tell me, I feel like this thread will not disappear.",
           "guest": "Lenny Rachitsky",
@@ -1199,15 +1121,6 @@
           "episode": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
           "isSearch": false,
           "url": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=2080s",
-          "seek": true
-        },
-        {
-          "quote": "And so we got everyone together. At this point, the team was just over 12 people. And we said, okay, it's going to be all hands on deck.",
-          "guest": "Grant Lee",
-          "timestamp": "00:10:55",
-          "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=653s",
           "seek": true
         }
       ],
@@ -1510,15 +1423,6 @@
       "when": "描述公司文化、解釋你的數字是怎麼估出來的、或討論 B2B 的銷售路徑時。",
       "trap": "這是最容易聽反的一個。很多公司自稱 bottoms up，實際上大方向還是老闆定的，只是在那個框架內給你自由度——聽到 we're very bottoms up 別急著相信，先問「那誰決定我們做哪三件事」。另外 bottoms up 在餐桌上是「乾杯」的意思，社交場合聽到不是在講決策。",
       "usage": [
-        {
-          "quote": "I think everyone likes to say that they're bottoms up, or at least a lot of people do, but OpenAI is truly, truly bottoms up.",
-          "guest": "Alexander Embiricos",
-          "timestamp": "00:08:45",
-          "episode": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
-          "isSearch": false,
-          "url": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=523s",
-          "seek": true
-        },
         {
           "quote": "So the way most people do SEO forecasting is they do a bottoms-up forecast, which is they look at keywords.",
           "guest": "Eli Schwartz",

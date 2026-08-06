@@ -18,7 +18,8 @@ export type Card = {
   /** 同一個功能底下的真實替代說法（來自語料，附講者） */
   alts: { id: string; quote: string; guest: string; zh: string }[];
   pmNote: string | null;
-  guest: string;
+  /** 電子報若無法確認作者則為 null，版面改以文章標題當出處 */
+  guest: string | null;
   timestamp: string | null;
   episode: string | null;
   url: string | null;

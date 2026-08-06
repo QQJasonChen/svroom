@@ -42,9 +42,11 @@ export function examplesFor(s: Strategy, limit = 8): Card[] {
   return hits
     .sort((a, b) => b.score - a.score || a.card.difficulty - b.card.difficulty)
     .filter(({ card }) => {
-      const n = perGuest.get(card.guest) ?? 0;
+      // 無法確認作者的卡用集數當去重鍵，避免整頁都來自同一篇文章
+      const key = card.guest ?? card.episode ?? card.id;
+      const n = perGuest.get(key) ?? 0;
       if (n >= 2) return false;
-      perGuest.set(card.guest, n + 1);
+      perGuest.set(key, n + 1);
       return true;
     })
     .slice(0, limit)

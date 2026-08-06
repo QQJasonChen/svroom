@@ -36,7 +36,11 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
         </blockquote>
 
         <div className="mt-3 pl-4 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-[12px] text-ink-3">
-          <span className="text-ink-2">{card.guest}</span>
+          {/* 電子報若無法確認作者就不宣稱，改以文章標題當出處——
+              猜一個作者比沒有作者糟 */}
+          <span className="text-ink-2">
+            {card.guest ?? (card.episode ? "出自下列文章" : "出處見下")}
+          </span>
           {card.timestamp && (
             <span className="tabular-nums">{card.timestamp}</span>
           )}
