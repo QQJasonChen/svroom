@@ -2,7 +2,7 @@ import type { Card } from "@/lib/cards";
 import { difficultyLabel, registerLabel } from "@/lib/cards";
 import InlineClip from "./InlineClip";
 import Speak from "./Speak";
-import { Src, TraceLink } from "./Src";
+import { Src } from "./Src";
 
 /**
  * 一張卡有兩種來源完全不同的內容，版面必須讓人一眼分得出來：
@@ -87,18 +87,22 @@ export default function CardView({ card, n }: { card: Card; n?: number }) {
           <p className="text-[14px] leading-relaxed">{card.why}</p>
         </div>
 
-        {card.swaps.length > 0 && (
-          <div>
-            <p className="rule-label mb-1">
-              {written ? "也可以這樣寫" : "也可以這樣說"}
+
+
+        {card.alts.length > 0 && (
+          <div className="pt-1">
+            <p className="mb-1.5">
+              <Src kind="corpus">
+                {written ? "同場合，別人是這樣寫的" : "同場合，別人是這樣講的"}
+              </Src>
             </p>
-            <ul className="space-y-1.5">
-              {card.swaps.map((s, i) => (
-                <li key={i} className="flex flex-wrap items-baseline gap-x-2">
-                  <span className="font-serif text-[14px] text-ink-2 leading-snug">
-                    {s}
-                  </span>
-                  <TraceLink text={s} label="查語料" />
+            <ul className="space-y-2.5">
+              {card.alts.map((a) => (
+                <li key={a.id} className="border-l-2 border-rust/25 pl-3">
+                  <p className="font-serif text-[14px] text-ink-2 leading-snug">
+                    {a.quote}
+                  </p>
+                  <p className="mt-0.5 text-[11.5px] text-ink-3">{a.guest}</p>
                 </li>
               ))}
             </ul>

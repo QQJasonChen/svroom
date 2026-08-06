@@ -556,6 +556,80 @@ ingest({
   label: "writing",
 });
 
+
+// ===================== 真實的替代說法 =====================
+// 每張卡原本的「也可以這樣說」是我們自己編的英文（全站加起來 2,600 句）。
+// 一個主打「從真實對話學」的站，不該有一大半英文是自己寫的。
+//
+// 同一個語言功能底下本來就躺著幾十張真實的卡——它們**就是**彼此的替代說法，
+// 而且有講者、有時間戳、可以播出來聽。所以改成從語料裡挑，不再編。
+const STOP = new Set(
+  ("the a an and or but if to of in on at for from with is are was were be been am " +
+    "i you we they it that this what how why when do does did not no so as than then " +
+    "would could should will can may might must have has had get got just really " +
+    "there here my your our their me us them he she his her him about into out up down " +
+    "very much more most less least one two like").split(" "),
+);
+
+const contentWords = (s) =>
+  new Set(
+    s
+      .toLowerCase()
+      .replace(/[^a-z0-9' ]+/g, " ")
+      .split(/\s+/)
+      .filter((w) => w.length > 2 && !STOP.has(w)),
+  );
+
+function attachAlternatives(list) {
+  const byFn = new Map();
+  for (const c of list) {
+    if (!byFn.has(c.fn)) byFn.set(c.fn, []);
+    byFn.get(c.fn).push(c);
+  }
+  const bag = new Map(list.map((c) => [c.id, contentWords(c.quote)]));
+
+  for (const c of list) {
+    const peers = byFn.get(c.fn) || [];
+    const mine = bag.get(c.id);
+    const scored = [];
+    for (const o of peers) {
+      if (o.id === c.id) continue;
+      const his = bag.get(o.id);
+      let overlap = 0;
+      for (const w of mine) if (his.has(w)) overlap++;
+      // 完全不重疊的話題差太遠，全部重疊等於同一句——取中間
+      const ratio = overlap / Math.max(1, Math.min(mine.size, his.size));
+      if (ratio > 0.8) continue;
+      scored.push({
+        o,
+        // 有一點共同語彙的優先，同講者扣分（要聽不同人怎麼講）
+        score: overlap * 2 + (o.guest !== c.guest ? 3 : 0) - Math.abs(o.difficulty - c.difficulty),
+      });
+    }
+    scored.sort((a, b) => b.score - a.score);
+    const picked = [];
+    const seenGuest = new Set([c.guest]);
+    for (const { o } of scored) {
+      if (seenGuest.has(o.guest)) continue;
+      seenGuest.add(o.guest);
+      picked.push({ id: o.id, quote: o.quote, guest: o.guest, zh: o.zh });
+      if (picked.length >= 3) break;
+    }
+    c.alts = picked;
+  }
+}
+
+attachAlternatives(cards);
+attachAlternatives(writingCards);
+console.log(
+  `  真實替代說法：${cards.concat(writingCards).filter((c) => c.alts.length).length} 張卡各配到 ${
+    Math.round(
+      (cards.concat(writingCards).reduce((n, c) => n + c.alts.length, 0) /
+        Math.max(1, cards.length + writingCards.length)) * 10,
+    ) / 10
+  } 則`,
+);
+
 writeFileSync(
   join(ROOT, "data", "writing.json"),
   JSON.stringify({ count: writingCards.length, cards: writingCards }, null, 2) + "\n",

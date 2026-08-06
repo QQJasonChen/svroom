@@ -13,7 +13,10 @@ export type Card = {
   why: string;
   register: Register;
   difficulty: number;
+  /** @deprecated 我們編的替代說法，已不再顯示；保留是因為挖原聲片段時用得到 */
   swaps: string[];
+  /** 同一個功能底下的真實替代說法（來自語料，附講者） */
+  alts: { id: string; quote: string; guest: string; zh: string }[];
   pmNote: string | null;
   guest: string;
   timestamp: string | null;

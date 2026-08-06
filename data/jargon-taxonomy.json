@@ -1,0 +1,74 @@
+{
+  "schema_version": "1",
+  "note": "PM 職場黑話。清單是掃過全部 311 集的實際頻率決定的，不是憑印象挑的（括號內為出現次數／出現集數）。這一層的規則是**零發明**：中文解釋可以寫，英文一律只能引用逐字稿裡真的有人講過的句子。台灣 PM 每天在會議裡聽到這些，但沒有教材教。",
+  "groups": [
+    {
+      "id": "meeting",
+      "zh": "會議裡會聽到的",
+      "blurb": "聽不懂的當下最尷尬，因為它們聽起來都像字面意思。",
+      "terms": [
+        { "id": "double-click", "term": "double click on that", "hint": "深入談這一點（163×／32 集）" },
+        { "id": "table-that", "term": "table that", "hint": "先擱著（美式英語是擱置，英式反而是提出來討論）" },
+        { "id": "circle-back", "term": "circle back", "hint": "之後再回來談" },
+        { "id": "align-on", "term": "align on", "hint": "取得共識" },
+        { "id": "close-the-loop", "term": "close the loop", "hint": "把事情收尾／回報結果" },
+        { "id": "in-the-weeds", "term": "in the weeds", "hint": "陷在細節裡出不來" },
+        { "id": "zoom-out", "term": "zoom out / zoom in", "hint": "拉高視角／聚焦細節" },
+        { "id": "socialize", "term": "socialize an idea", "hint": "私下先跟關鍵的人講過一輪" },
+        { "id": "take-it-offline", "term": "take it offline", "hint": "會後私下談，別佔用大家時間" },
+        { "id": "all-hands-on-deck", "term": "all hands on deck", "hint": "全員動員" }
+      ]
+    },
+    {
+      "id": "decision",
+      "zh": "講決策與取捨的",
+      "blurb": "這些詞會直接影響一個決定被怎麼看待。",
+      "terms": [
+        { "id": "two-way-door", "term": "two-way door / one-way door", "hint": "可逆／不可逆的決定（Bezos 的框架）" },
+        { "id": "first-principles", "term": "first principles", "hint": "回到最根本的前提重新推（153×／57 集）" },
+        { "id": "de-risk", "term": "de-risk", "hint": "把風險先拆掉" },
+        { "id": "forcing-function", "term": "forcing function", "hint": "逼事情發生的機制" },
+        { "id": "disagree-commit", "term": "disagree and commit", "hint": "我反對，但決定了我全力執行" },
+        { "id": "stack-rank", "term": "stack rank", "hint": "強制排序，不准並列" },
+        { "id": "order-of-magnitude", "term": "order of magnitude", "hint": "數量級（差 10 倍不是差一點）" },
+        { "id": "move-the-needle", "term": "move the needle", "hint": "真的造成可量測的改變" },
+        { "id": "nice-to-have", "term": "nice to have vs must have", "hint": "可有可無／非有不可" },
+        { "id": "shiny-object", "term": "shiny object", "hint": "看起來很炫但會分心的東西" }
+      ]
+    },
+    {
+      "id": "product",
+      "zh": "講產品與策略的",
+      "blurb": "這幾個詞在履歷和面試裡出現的頻率也極高。",
+      "terms": [
+        { "id": "north-star", "term": "north star (metric)", "hint": "北極星指標（160×／56 集）" },
+        { "id": "table-stakes", "term": "table stakes", "hint": "入場門檻，有了不加分沒有就出局" },
+        { "id": "zero-to-one", "term": "zero to one / 0 to 1", "hint": "從無到有（相對於規模化）" },
+        { "id": "jobs-to-be-done", "term": "jobs to be done", "hint": "使用者雇用產品來完成的任務" },
+        { "id": "product-led", "term": "product-led (growth)", "hint": "靠產品本身帶動成長，而不是靠業務" },
+        { "id": "dogfood", "term": "dogfood / dogfooding", "hint": "自己先用自己的產品" },
+        { "id": "guardrails", "term": "guardrails", "hint": "護欄指標／不可越線的界線" },
+        { "id": "bottoms-up", "term": "bottoms up vs top down", "hint": "由下而上／由上而下（估算與決策都用）" },
+        { "id": "tailwind", "term": "tailwind / headwind", "hint": "順風／逆風，講外部趨勢" },
+        { "id": "paper-cuts", "term": "rabbit hole", "hint": "越挖越深回不來的坑" }
+      ]
+    },
+    {
+      "id": "execution",
+      "zh": "講執行與進度的",
+      "blurb": "跟工程協作時每天都會用到。",
+      "terms": [
+        { "id": "ship-it", "term": "ship it", "hint": "出貨、上線（74×／52 集）" },
+        { "id": "unblock", "term": "unblock", "hint": "排除卡住別人的障礙" },
+        { "id": "blocker", "term": "blocker / blocked on", "hint": "卡點／被什麼卡住" },
+        { "id": "spin-up", "term": "spin up", "hint": "很快弄出一個／組起來" },
+        { "id": "tech-debt", "term": "tech debt", "hint": "技術債" },
+        { "id": "edge-case", "term": "edge case", "hint": "邊緣情況" },
+        { "id": "green-light", "term": "green light", "hint": "放行、核准" },
+        { "id": "swim-lane", "term": "swim lane", "hint": "各自的負責範圍，別越線" },
+        { "id": "single-threaded", "term": "single-threaded", "hint": "專責一件事、不分心的人或團隊" },
+        { "id": "red-flag", "term": "red flag", "hint": "警訊" }
+      ]
+    }
+  ]
+}
