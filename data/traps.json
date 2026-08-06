@@ -1,5 +1,5 @@
 {
-  "count": 45,
+  "count": 50,
   "traps": [
     {
       "id": "we-dilutes",
@@ -398,6 +398,201 @@
         "handling-objections",
         "changing-your-mind",
         "polite-disagreement"
+      ]
+    },
+    {
+      "id": "asap",
+      "group": "commitment",
+      "kind": "misread",
+      "zhInstinct": "我盡快",
+      "enLiteral": "I'll get it to you ASAP.",
+      "heardAs": "對方聽到的是「我不打算給你時間點」。ASAP 同時可以是今天下班前、也可以是下個月，說的人心裡有數，聽的人只能猜——而人在不確定時一律往低優先猜。所以他做兩件事：把你這件事丟進「不知道什麼時候會來」那一格，然後三天後回來問 any update？你覺得他沒耐性，他只是在補你沒填的欄位。最糟的版本是你以為 ASAP 表達了「我很重視」，對方讀到的卻是「這個人不知道自己的排程長什麼樣」。",
+      "why": "中文的「盡快」是一種姿態，不是一個時間：它的功能是表態（我有放在心上、我會擠出時間），把時間留白反而是禮貌，講死了像在跟對方談條件。英文職場的時間語言則是規劃工具——對方拿到一個日期，才能決定要不要先做別的、要不要找替代方案、要不要跟他老闆改口。你給 ASAP，等於把「什麼時候」這個欄位空著推回去，而那個欄位本來就是你的責任。英文裡表達重視的方式不是形容詞，是一個日期，加上如果來不及你會怎麼講。",
+      "better": [
+        {
+          "en": "You'll have it by [Thursday EOD]. If anything changes, I'll tell you before then.",
+          "zh": "[週四下班前] 給你。如果有變，我會在那之前先講。",
+          "note": "預設版本。日期＋變更承諾，兩句就把這件事關掉，對方不必再追。第二句是關鍵——它讓日期變成可信的，而不只是好聽的。"
+        },
+        {
+          "en": "I can get you a rough version by [Wednesday], or the full one by [Friday]. Which do you need more?",
+          "zh": "我可以 [週三] 給你粗版，或 [週五] 給你完整版。你比較需要哪一個？",
+          "note": "自己也沒把握時用。不是不給時間，是給兩個時間讓對方選——選擇權交出去了，但沒有留白。"
+        },
+        {
+          "en": "Realistically it's [next Tuesday]. If you need it sooner, I'd have to push [X] back — is that a trade you want?",
+          "zh": "實際上會是 [下週二]。如果你要更快，我得把 [X] 往後推——這個交換你要嗎？",
+          "note": "被催、但真的排不進來時。把「快」翻譯成一個具體代價，對方通常會自己降速，而且是他自己決定的。"
+        }
+      ],
+      "corpus": {
+        "quote": "We actually just use no rush or EOD for end of day, or timely. We do have the alarm emoji, is the \"Now. This is going to be dealt with ASAP.\"",
+        "guest": "Georgiana Laudi",
+        "timestamp": "01:05:15",
+        "episode": "Customer-led growth | Georgiana Laudi (Forget The Funnel)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=0FgZ1VVxEBo&t=3913s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "summarizing",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "ill-try",
+      "group": "commitment",
+      "kind": "misread",
+      "zhInstinct": "我試試看",
+      "enLiteral": "I'll try to get it done this week.",
+      "heardAs": "I'll try 在英文職場幾乎是 I probably won't 的禮貌版。對方聽完不會追問，會點頭說 sounds good，然後默默去找 B 方案——先問別人有沒有空、先把你這條線從關鍵路徑上拿下來。而你以為你答應了，週末還在加班。三週後你交出來，發現這件事早就沒人在等；更麻煩的是你在他心裡的分類不是「做完了」，是「當初說 try 的那個人」——下次真的需要有人扛的時候，他不會先想到你。",
+      "why": "中文的「我試試看」是責任的緩衝墊：先把話講軟，成了是驚喜，沒成也不算失信，關係不會被扣分——它保護的是雙方的面子。英文的承諾語言不是關係工具而是排程工具，try 這個字明確標記「結果不在我控制內」，所以聽的人的正確反應就是準備替代方案；那不是不信任你，是他被訓練出來的專業反射。你用一個關係詞去填一個排程欄位，結果兩邊都以為對話結束了，其實你們進行的是兩場不同的對話。",
+      "better": [
+        {
+          "en": "Yes — I'll have it by [Friday].",
+          "zh": "可以，我 [週五] 前給你。",
+          "note": "你其實做得到的時候。中文腦會覺得講得太滿、太沒有退路，但這在英文裡只是正常回覆，不是誇口。"
+        },
+        {
+          "en": "I can't commit to this week, but I can commit to [Tuesday]. Does that work?",
+          "zh": "這週我不能保證，但我可以保證 [週二]。這樣行嗎？",
+          "note": "真的很趕時。把 try 換成一個你守得住的較晚日期——晚一點但確定，在英文職場遠比早一點但含糊有價值。"
+        },
+        {
+          "en": "Two things could push this: [X] and [Y]. If neither happens, it's [date]. I'll flag it the moment one does.",
+          "zh": "有兩件事可能拖到它：[X] 和 [Y]。都沒發生的話就是 [日期]。一發生我馬上講。",
+          "note": "真的有不確定性時，正解不是說 try，是把不確定性本身拆開講出來。具名的風險是資訊，模糊的 try 是雜訊。"
+        }
+      ],
+      "corpus": {
+        "quote": "And more importantly, if they're not sure, if they're like, \"I think I can be there at two o'clock,\" they never would say, \"I'll see you at two o'clock.\" They won't do it. They know that to tell the truth requires you to really make a commitment.",
+        "guest": "Eric Ries",
+        "timestamp": "00:54:59",
+        "episode": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
+        "isSearch": false,
+        "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
+        "seek": false
+      },
+      "relatedFunctions": [
+        "bad-news",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "when-free",
+      "group": "commitment",
+      "kind": "misread",
+      "zhInstinct": "有空的時候再",
+      "enLiteral": "I'll take a look when I have time.",
+      "heardAs": "對方聽到的是「這件事不會發生」。英文職場的預設是：沒有排進行事曆的事就是沒有要做的事，所以 when I have time 等於 never，只是比較和善的講法。後果有兩種，都不好：一種是對方直接跳過你，自己找別人看或硬著頭皮送出去，你事後才知道自己被繞過了；另一種是他不敢跳過你（因為他需要你），於是每隔幾天回來 ping 一次，你開始覺得他很煩，他開始覺得你不可靠——兩個人都沒有惡意，只是那句話在他的語言裡什麼都沒說。",
+      "why": "中文的「有空再」有兩個真實功能：把「我願意幫你」跟「我現在排不進來」分開講，保住善意；同時不逼自己給承諾，因為給了就得守。它假設對方會體諒、會再提醒，關係撐得住這段模糊。英文的工作時間觀則是零和的——時間是有限的格子，你答應一件事就等於某件事被擠掉，所以「有空的時候」在對方耳裡不是善意，是「這件事沒有進到格子裡」。要在英文裡送達同樣的善意，你必須把善意和排程拆成兩句話：先明說我要幫，再明說什麼時候。",
+      "better": [
+        {
+          "en": "I want to help with this. I can get to it [Thursday] — does that still work for you?",
+          "zh": "這件事我想幫。我 [週四] 可以處理——這樣還來得及嗎？",
+          "note": "標準拆法。第一句給善意（就是「有空再」原本想傳的東西），第二句給格子。兩句都要，少一句就退回原本的問題。"
+        },
+        {
+          "en": "This week is full. If it can wait until [next Monday], I'm in. If it can't, [name] knows this area too.",
+          "zh": "這週滿了。如果可以等到 [下週一]，我就接。如果不行，[某人] 也熟這一塊。",
+          "note": "真的接不了時。一個晚的時間點＋一個替代人選，對方就有東西可以決定，而不是只能等你。"
+        },
+        {
+          "en": "I can't take this on right now. What's your deadline? Let me see if I can work backwards from it.",
+          "zh": "我現在接不了。你的死線是什麼時候？我看能不能從那裡往回推。",
+          "note": "連自己什麼時候有空都不確定時。反問死線在英文職場是合作的一步，不會被讀成推託。"
+        }
+      ],
+      "corpus": {
+        "quote": "There's something wrong with this very stupid to-do list method, which doesn't force you to understand that there are trade-offs that you have to prioritize properly and that can only be done with constraints and that constraints come from your calendar.",
+        "guest": "Nir Eyal",
+        "timestamp": "00:27:38",
+        "episode": "Strategies for becoming less distracted and improving focus | Nir Eyal (author of Indistractable and Hooked)",
+        "isSearch": false,
+        "url": "https://www.youtube.com/watch?v=WSscIIY609c&t=1656s",
+        "seek": true
+      },
+      "relatedFunctions": [
+        "saying-no",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "no-by-when",
+      "group": "commitment",
+      "kind": "misread",
+      "zhInstinct": "提出請求但不講死線",
+      "enLiteral": "Could you take a look at this when you get a chance?",
+      "heardAs": "對方讀到的是「不急」。你沒給的資訊他只能自己填，而人在不確定時一律往低優先填——你的請求進了他那堆沒有日期的事情裡，跟另外二十件排在一起。一週後你發現沒動靜，只好再寄一次 just following up，這時候變成煩人的是你，而且東西還是沒拿到。最傷的版本是你其實有死線，只是覺得講出來太不客氣；等到死線前一天你去催，被嚇到的是對方，而那明明不是他的錯。",
+      "why": "中文文化裡，給對方時間壓力＝把成本轉嫁出去，所以我們把死線省掉當作體貼，預期對方會自己抓緊。英文職場的預設剛好相反：時間點是幫對方排序用的資訊，不是施加的壓力。你不給日期，對方不會覺得你貼心，只會覺得你自己也沒想清楚這件事有多重要——而且他無從幫你，因為他手上每件事都有日期，唯獨你這件沒有。禮貌不必靠省略死線來達成，補一句 no worries if not，或說明這個日期是怎麼來的，效果好得多。",
+      "better": [
+        {
+          "en": "Could you review this by [Wednesday]? I need to send it to [X] on Thursday.",
+          "zh": "可以請你在 [週三] 前看一下嗎？我週四要寄給 [X]。",
+          "note": "最基本的形狀：日期＋日期的來源。理由讓死線變成一件事實，而不是你的要求——這就是英文裡「客氣」的做法。"
+        },
+        {
+          "en": "No rush on this — anytime before [the 15th] is fine.",
+          "zh": "這個不急——[15 號] 之前都可以。",
+          "note": "真的不急時也要給日期。英文的「不急」是一個比較寬的範圍，不是沒有範圍；no rush 後面接一個日期才是完整的句子。"
+        },
+        {
+          "en": "I need this by [Friday] to stay on track. If that's not doable, tell me and I'll re-plan.",
+          "zh": "我 [週五] 需要，才不會卡到後面。如果做不到，跟我說我來重排。",
+          "note": "有硬死線時。給死線的同時給退路，讓對方能光明正大說不——這反而提高他答應的機率，也讓他答應時是真的答應。"
+        }
+      ],
+      "corpus": {
+        "quote": "And so, our push to them was to add a deadline to help people show up. Sometimes we say deadlines are a gift. You're just helping people kind of prioritize this.",
+        "guest": "Kristen Berman",
+        "timestamp": "00:44:58",
+        "episode": "Using behavioral science to improve your product | Kristen Berman (Irrational Labs)",
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "asking-for-resources",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "silent-slip",
+      "group": "commitment",
+      "kind": "misread",
+      "zhInstinct": "進度落後但先不講，想追上再說",
+      "enLiteral": "It's still on track — I'll update you once I've caught up.",
+      "heardAs": "你安靜的那三週，對方是照著「一切正常」在做決定：他跟他老闆報了時程、行銷排了發佈日、另一個團隊排了接手的人。等你終於開口說要延兩週，他要拆掉的不只是你的兩週，是整排蓋在你進度上的東西——而且他是在最後一刻、最沒有時間反應的時候收到的。英文職場計算傷害的方式是「延誤多久 × 對方多晚知道」，第二項通常比第一項大得多。你以為自己在「不給人添麻煩」，對方接收到的訊息是「這個人會把壞消息藏起來」，而這個標籤跟著你的時間，比那次延期長很多。",
+      "why": "中文的職場倫理裡，把問題自己扛下來、解決了再報告是負責任；提早講像在推卸、像製造恐慌，而且沒有解方就開口會顯得無能。英文職場的分工假設不同：你的主管和 stakeholder 手上有你沒有的資源——能砍範圍、能加人、能改期、能去跟別的團隊喬——而動用這些資源需要時間，所以你晚講一天，就是拿走他們一天的選項。在這個系統裡，早講不是求救，是把決策權交還給有資源的人。壞消息本身不太扣分，藏起來才會。",
+      "better": [
+        {
+          "en": "Heads up: [X] is going to slip by about [a week]. Here's why, and here's what I'd do about it.",
+          "zh": "先跟你說一聲：[X] 大概會延 [一週]。原因是這樣，我建議這樣處理。",
+          "note": "標準三段：先講結論（延多久）、再講原因、再給你的建議。Heads up 是英文裡專門用來提早示警的詞，不帶道歉意味，也不需要配上抱歉的語氣。"
+        },
+        {
+          "en": "I'm not confident we'll hit [date]. Nothing's broken yet — I'd rather flag it now than surprise you in two weeks.",
+          "zh": "我對 [日期] 沒把握。目前還沒出事——我寧願現在講，也不要兩週後嚇到你。",
+          "note": "還沒真的延、只是感覺不妙時就能講。把「我選擇提早講」這件事本身講出來，對方會把它記成專業，而不是慌張。"
+        },
+        {
+          "en": "Two options: we ship [date] with [X] cut, or we ship the full scope on [later date]. I'd recommend the first. Which do you want?",
+          "zh": "兩個選擇：[日期] 出、砍掉 [X]；或者完整範圍延到 [較晚日期]。我建議第一個。你要哪一個？",
+          "note": "報壞消息時附上選項和你的建議。英文職場最不能接受的不是壞消息，是只有壞消息、沒有下一步。"
+        }
+      ],
+      "corpus": {
+        "quote": "I think in the work context, surprises are generally not great. So I always say, unless you're surprising me by bringing me a snack or something, don't surprise me.",
+        "guest": "Wes Kao",
+        "timestamp": "00:35:00",
+        "episode": "Become a better communicator: Specific frameworks to improve your clarity, influence, and impact | Wes Kao (coach, entrepreneur, advisor)",
+        "isSearch": false,
+        "url": null,
+        "seek": false
+      },
+      "relatedFunctions": [
+        "bad-news",
+        "owning-mistakes"
       ]
     },
     {
