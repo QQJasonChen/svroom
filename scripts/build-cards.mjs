@@ -557,6 +557,205 @@ ingest({
 });
 
 
+// ===================== PM 職場黑話 =====================
+// 這一層的規則是零發明：中文解釋可以寫，英文一律只能是逐字稿裡的原句。
+// 詞彙清單是掃過全部 311 集的實際頻率決定的，不是憑印象挑的。
+const jargonTax = JSON.parse(
+  readFileSync(join(ROOT, "data", "jargon-taxonomy.json"), "utf8"),
+);
+const jargonMeta = new Map();
+for (const g of jargonTax.groups) {
+  for (const t of g.terms) jargonMeta.set(t.id, { ...t, group: g.id });
+}
+
+const jargonFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("jargon-") && f.endsWith(".json"))
+  .sort();
+
+const jargon = [];
+const jargonIssues = [];
+const seenJargon = new Set();
+
+for (const file of jargonFiles) {
+  let batch;
+  try {
+    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  if (!Array.isArray(batch)) continue;
+
+  for (const raw of batch) {
+    const meta = jargonMeta.get(raw.id);
+    if (!meta) {
+      jargonIssues.push(`${file}: 未知詞 id「${raw.id}」`);
+      continue;
+    }
+    if (seenJargon.has(raw.id)) continue;
+    if (!raw.meaning) {
+      jargonIssues.push(`${file}:「${raw.id}」缺 meaning`);
+      continue;
+    }
+
+    const usage = [];
+    for (const u of Array.isArray(raw.usage) ? raw.usage : []) {
+      if (!u?.quote || !u.guest || !u.source_file) continue;
+      const qw = wordCount(u.quote);
+      const usedSrc = sourceWords.get(u.source_file) || 0;
+      const quota = quotaFor(u.source_file);
+      if (qw > MAX_QUOTE_WORDS) {
+        jargonIssues.push(`${file}:「${raw.id}」用例 ${qw} 字超標，已略過`);
+        continue;
+      }
+      if (usedSrc + qw > quota) {
+        jargonIssues.push(`${file}:「${raw.id}」來源額度已滿，已略過一則用例`);
+        continue;
+      }
+      sourceWords.set(u.source_file, usedSrc + qw);
+      guestWords.set(u.guest, (guestWords.get(u.guest) || 0) + qw);
+      const src = sourceByFile.get(u.source_file);
+      usage.push({
+        quote: u.quote.trim(),
+        guest: u.guest.trim(),
+        timestamp: u.timestamp || null,
+        episode: src?.episode || null,
+        isSearch: !!src?.isSearch,
+        ...withTimestamp(src?.url || null, u.timestamp),
+      });
+    }
+    if (usage.length === 0) {
+      jargonIssues.push(`${file}:「${raw.id}」沒有可用的語料用例，略過整個詞`);
+      continue;
+    }
+
+    seenJargon.add(raw.id);
+    jargon.push({
+      id: raw.id,
+      group: meta.group,
+      term: raw.term || meta.term,
+      zh: raw.zh || "",
+      meaning: raw.meaning.trim(),
+      when: raw.when ? raw.when.trim() : null,
+      trap: raw.trap && raw.trap !== "null" ? raw.trap.trim() : null,
+      usage,
+      relatedFunctions: (Array.isArray(raw.related_functions) ? raw.related_functions : [])
+        .filter((f) => validFunctions.has(f))
+        .slice(0, 3),
+    });
+  }
+}
+
+writeFileSync(
+  join(ROOT, "data", "jargon.json"),
+  JSON.stringify({ count: jargon.length, terms: jargon }, null, 2) + "\n",
+);
+
+if (jargonFiles.length > 0) {
+  console.log(
+    `\n✓ PM 職場黑話：${jargon.length}/${jargonMeta.size} 個詞，${jargon.reduce((n, t) => n + t.usage.length, 0)} 則真實用例`,
+  );
+  const missing = [...jargonMeta.keys()].filter((id) => !seenJargon.has(id));
+  if (missing.length) console.log(`⚠ 還沒內容的詞（${missing.length}）：${missing.join(", ")}`);
+  if (jargonIssues.length) {
+    console.log(`⚠ 黑話層問題 ${jargonIssues.length} 筆：`);
+    for (const m of jargonIssues.slice(0, 6)) console.log(`  ${m}`);
+  }
+} else {
+  console.log("\n⚠ 還沒有黑話語料（data/raw/jargon-*.json）");
+}
+
+// ===================== 主持人怎麼問 =====================
+// 純萃取：Lenny 在 311 集裡真的問過的句子，一個字都沒改。
+const QUESTION_CATS = [
+  { id: "open", zh: "開場與破題", blurb: "第一個問題決定對方會給你罐頭答案還是真話。" },
+  { id: "example", zh: "要具體例子", blurb: "把抽象答案逼成一個真實故事。" },
+  { id: "deeper", zh: "挖深追問", blurb: "對方講完了，再往下一層。台灣人通常在這裡停。" },
+  { id: "challenge", zh: "挑戰與換角度", blurb: "不同意，但不撕破臉。" },
+  { id: "counterexample", zh: "要反例與失敗", blurb: "問什麼行不通，比問什麼有用更能挖到真東西。" },
+  { id: "actionable", zh: "要可操作的做法", blurb: "把觀念逼成「我明天可以做什麼」。" },
+  { id: "confirm", zh: "確認理解與收斂", blurb: "把對方講的整理回去讓他確認。" },
+  { id: "close", zh: "收尾與轉場", blurb: "怎麼結束一個話題而不突兀。" },
+];
+const validQCat = new Set(QUESTION_CATS.map((c) => c.id));
+
+const qFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("questions-") && f.endsWith(".json"))
+  .sort();
+
+const questions = [];
+const qSeen = new Set();
+let qDropped = 0;
+
+for (const file of qFiles) {
+  let batch;
+  try {
+    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  if (!Array.isArray(batch)) continue;
+
+  for (const raw of batch) {
+    if (!raw?.q || !raw.zh || !validQCat.has(raw.cat) || !raw.source_file) {
+      qDropped++;
+      continue;
+    }
+    const key = raw.q.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+    if (qSeen.has(key)) {
+      qDropped++;
+      continue;
+    }
+    const qw = wordCount(raw.q);
+    const usedSrc = sourceWords.get(raw.source_file) || 0;
+    const quota = quotaFor(raw.source_file);
+    if (qw > MAX_QUOTE_WORDS || usedSrc + qw > quota) {
+      qDropped++;
+      continue;
+    }
+    sourceWords.set(raw.source_file, usedSrc + qw);
+    guestWords.set("Lenny Rachitsky", (guestWords.get("Lenny Rachitsky") || 0) + qw);
+    qSeen.add(key);
+
+    const src = sourceByFile.get(raw.source_file);
+    questions.push({
+      id: `q-${questions.length}`,
+      cat: raw.cat,
+      q: raw.q.trim(),
+      zh: raw.zh.trim(),
+      why: raw.why ? raw.why.trim() : null,
+      pattern: raw.pattern && raw.pattern !== "null" ? raw.pattern : null,
+      askedTo: raw.asked_to || null,
+      timestamp: raw.timestamp || null,
+      episode: src?.episode || null,
+      isSearch: !!src?.isSearch,
+      ...withTimestamp(src?.url || null, raw.timestamp),
+    });
+  }
+}
+
+writeFileSync(
+  join(ROOT, "data", "questions.json"),
+  JSON.stringify(
+    { count: questions.length, categories: QUESTION_CATS, questions },
+    null,
+    2,
+  ) + "\n",
+);
+
+if (qFiles.length > 0) {
+  const byCat = new Map();
+  for (const q of questions) byCat.set(q.cat, (byCat.get(q.cat) || 0) + 1);
+  console.log(
+    `\n✓ 主持人怎麼問：${questions.length} 則，涵蓋 ${byCat.size}/${QUESTION_CATS.length} 類（剔除 ${qDropped}）`,
+  );
+} else {
+  console.log("\n⚠ 還沒有提問語料（data/raw/questions-*.json）");
+}
+
 // ===================== 真實的替代說法 =====================
 // 每張卡原本的「也可以這樣說」是我們自己編的英文（全站加起來 2,600 句）。
 // 一個主打「從真實對話學」的站，不該有一大半英文是自己寫的。

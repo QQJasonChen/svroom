@@ -7,6 +7,8 @@ import { Src } from "@/components/Src";
 import { strategies } from "@/lib/strategies";
 import { writingStats } from "@/lib/writing";
 import { trapStats } from "@/lib/traps";
+import { jargonStats } from "@/lib/jargon";
+import { questionStats } from "@/lib/questions";
 
 export default function Home() {
   return (
@@ -178,6 +180,20 @@ export default function Home() {
             n={trapStats.written}
             unit="條"
             body="台灣人會這樣說 → 對方實際聽到什麼 → 該怎麼說。針對中文思維直譯到英文會出的事。"
+          />
+          <Panel
+            href="/jargon/"
+            label="PM 職場黑話"
+            n={jargonStats.written}
+            unit="個詞"
+            body="double click on that、table stakes、single-threaded——天天聽到但沒人教。清單由 311 集的實際頻率決定，英文用例一句都沒編。"
+          />
+          <Panel
+            href="/ask/"
+            label="主持人怎麼問"
+            n={questionStats.count}
+            unit="則提問"
+            body="追問、挖深、換角度、把對方拉回主題。Lenny 真的問過的句子，原封不動萃取。"
           />
           <Panel
             href="/clips/"

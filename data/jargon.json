@@ -1,0 +1,1631 @@
+{
+  "count": 40,
+  "terms": [
+    {
+      "id": "two-way-door",
+      "group": "decision",
+      "term": "two-way door / one-way door",
+      "zh": "可逆／不可逆的決定",
+      "meaning": "把決定分成兩種：two-way door 是走錯了可以退回來、成本低的決定；one-way door 是一旦做了就很難回頭的決定。這個框架的重點不是分類本身，而是「決定的可逆程度應該決定你花多少時間討論它」——可逆的就快點決、別開三場會；不可逆的才值得慢慢來、找人挑戰。在會議上有人說 it's a two-way door，等於在說「別再吵了，做了不對再改」。",
+      "when": "當團隊為一個其實改得回來的小決定卡住半小時時，你可以說這是 two-way door、先做再說；反過來，當大家想快速通過一個牽動架構、定價或資料模型的決定時，用 one-way door 幫大家踩煞車。",
+      "trap": "台灣人容易把它當成單純的「可逆／不可逆」標籤貼上去就結束，但 Shreyas Doshi 的提醒才是真正的用法：同一個決定在 Bezos 那個層級是 two-way door，在你這個 PM 層級可能根本是 one-way door——因為你沒有那個資源和權力把它改回來。判斷要看「誰來承擔回頭的成本」，不是看事情本身大小。",
+      "usage": [
+        {
+          "quote": "But I'm a huge proponent of Jeff Bezos's one-way doors, two-way doors framework. And I think that especially in a software company, most things are two-way doors. You can come back.",
+          "guest": "Mihika Kapoor",
+          "timestamp": "00:22:31",
+          "episode": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product at Figma)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "If your team is making a really critical long-term decision that's going to be limiting to a lot of the future things that you could want or need to do, that is a one way door decision.",
+          "guest": "Nickey Skarstad",
+          "timestamp": "00:39:28",
+          "episode": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Because frankly, most doors that look like two-way doors are actually one-way doors. They are two-way doors at Bezos' level, but as a PM leader, for you, they are a one-way door, and that's making you busy.",
+          "guest": "Shreyas Doshi",
+          "timestamp": "00:23:19",
+          "episode": "Shreyas Doshi Live",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "first-principles",
+      "group": "decision",
+      "term": "first principles",
+      "zh": "第一性原理：回到最根本的前提重新推",
+      "meaning": "把一件事拆到「不能再拆、也不需要別人背書」的層次，再從那裡重新推導答案，而不是照抄別人的做法或過去的慣例。在 PM 的日常裡，它通常長這樣：不問「別家怎麼做」，而問「這件事到底為什麼成立、如果那個前提不成立會怎樣」。這是 Lenny 這 311 集裡出現最密集的思考類黑話之一。",
+      "when": "當團隊拿「大家都這樣做」「我們以前就是這樣」當理由時，你可以說 let's think about this from first principles，把那個沒人檢查過的假設攤開來。面試被問怎麼做決策時，這也是最常見的關鍵字。",
+      "trap": "台灣人（其實美國人也一樣）最常犯的是把「我們公司的核心信念」講成 first principles。Dharmesh Shah 在節目上直接說這個詞多數時候被用錯了——first principle 指的是像熱力學定律那種「宇宙層級」不需要證明的東西；公司的價值觀那叫 founding principle，不是 first principle。另外它是形容思考方式，不是拿來當「我很資深」的標籤講講就算。",
+      "usage": [
+        {
+          "quote": "And so the first principles thinking would be, let me figure out what is the thing I should do to achieve my goals, rather than here is a set of activities that I've done and therefore I will continue to do.",
+          "guest": "Diane Penn",
+          "timestamp": "00:41:00",
+          "episode": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
+          "isSearch": false,
+          "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
+          "seek": false
+        },
+        {
+          "quote": "You kind of want to build it up for yourself from first principles to understand how the business works.",
+          "guest": "Dan Hockenmaier",
+          "timestamp": "00:15:11",
+          "episode": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=AlTQ6O2qooI&t=909s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "de-risk",
+      "group": "decision",
+      "term": "de-risk",
+      "zh": "把風險先拆掉",
+      "meaning": "在真正投入大量資源之前，先用便宜的方式（原型、使用者訪談、小實驗、事前溝通）把最不確定的地方一個個變確定。重點在「先拆最大的那個風險」，不是把所有小事都做一遍。它是動詞，受詞可以是專案、假設、決定，甚至是一場會議。",
+      "when": "當你要爭取資源做一件很大的事，主管擔心賭太大時，講你打算怎麼 de-risk 這個專案；或在重要簡報前先私下找關鍵的人對過，這叫 de-risk the meeting。",
+      "trap": "de-risk 不等於「降低風險」那種模糊講法，它預設你要指名「哪一個風險」被拆掉了。只說 we need to de-risk this 而講不出拆哪一條，聽起來會很空。另外它幾乎不用被動語態以外的名詞化寫法，動詞 de-risk 和動名詞 de-risking 才是常態。",
+      "usage": [
+        {
+          "quote": "And so what you want to do is you want to de-risk all implementation upfront through documents, through research, through prototypes.",
+          "guest": "Andrew Ambrosino",
+          "timestamp": "00:04:20",
+          "episode": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
+          "isSearch": false,
+          "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
+          "seek": false
+        },
+        {
+          "quote": "You want to de-risk that meeting not make it a big success or fail moment, so there's a few things that I do.",
+          "guest": "Casey Winters",
+          "timestamp": "00:11:33",
+          "episode": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "It feels like the core of this is de-risk the biggest risks and address the biggest unknowns as much as possible.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:50:29",
+          "episode": "A better way to plan, build, and ship products | Ryan Singer (creator of “Shape Up,” early employee at 37signals)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=GF-yUANql0c&t=3027s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "making-the-case",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "forcing-function",
+      "group": "decision",
+      "term": "forcing function",
+      "zh": "逼事情發生的機制",
+      "meaning": "一個「不做不行」的外部限制，用來逼出原本會被無限拖延的決定或產出。常見的 forcing function 有對外的發表日、客戶大會、要交出去的文件、砍掉的預算或人力。它的價值不在那件事本身，而在它逼你把模糊的東西講清楚。",
+      "when": "當團隊一直在原地打轉、誰也不肯拍板時，你可以主動製造一個 forcing function：訂一個對外日期、或要求每個人先寫一頁文件。也可以拿來解釋你為什麼要設某個看似人為的期限。",
+      "trap": "中文直覺會翻成「強迫功能」而聽不懂，其實它是「逼你動起來的裝置」。另外注意它是中性偏正面的詞——你說某件事是 forcing function，是在稱讚這個機制有用，不是在抱怨被逼。講的時候通常是 a forcing function for X（逼出 X），別漏掉 for。",
+      "usage": [
+        {
+          "quote": "This was a forcing function for us to do our messaging and positioning.",
+          "guest": "Claire Butler",
+          "timestamp": "00:07:50",
+          "episode": "An inside look at Figma’s unique GTM motion | Claire Butler (first GTM hire)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=UmirRfy-gzA&t=468s",
+          "seek": true
+        },
+        {
+          "quote": "It's almost a forcing function for ruthless prioritization to have fewer people or people that are just underwater internally at the company.",
+          "guest": "Varun Mohan",
+          "timestamp": "00:27:22",
+          "episode": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf | Varun Mohan (co-founder and CEO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=5Z0RCxDZdrE&t=1640s",
+          "seek": true
+        },
+        {
+          "quote": "And because the team adopts this mentality, it becomes this forcing function for execution.",
+          "guest": "Bangaly Kaba",
+          "timestamp": "00:29:25",
+          "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=1763s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "making-the-case",
+        "running-meeting"
+      ]
+    },
+    {
+      "id": "disagree-commit",
+      "group": "decision",
+      "term": "disagree and commit",
+      "zh": "我反對，但決定了我全力執行",
+      "meaning": "Amazon 的領導原則之一：在決定拍板前你有責任把反對意見講清楚、講到對方真的懂；一旦決定下來，你就要當作是自己的決定去執行，不能在背後扯後腿或事後說「我早就說不行」。它同時規範兩件事——什麼時候該吵，以及什麼時候該停止吵。",
+      "when": "當你在會議上反對到一個程度、決策者已經聽懂但選了另一條路，你可以說 I disagree, but I'll commit，然後真的去執行。帶團隊時也可以用它來設期待：這裡歡迎你反對，但拍板後不要有第二個版本。",
+      "trap": "台灣人最容易把它用成「算了不要吵了，聽老闆的」——那是漏掉了前半段。完整的 Amazon 原則其實是 have backbone; disagree and commit，前提是你要先有骨氣把不同意見說出口。沒有先 disagree 就直接 commit，不是這個詞，那只是不表態。",
+      "usage": [
+        {
+          "quote": "And I guess just on these principles, people may not know this, but this is where disagree and commit comes from. It's actually have backbone, disagree, and commit.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "01:07:19",
+          "episode": "Taking control of your career | Ethan Evans (Amazon)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "And once that decision is made, I got to disagree and commit to it and champion it with the rest of the team as if it was my decision. It's not just disagree and commit, it's disagree and champion.",
+          "guest": "Sanchan Saxena",
+          "timestamp": "00:45:27",
+          "episode": "Sanchan Saxena (VP of Product at Coinbase) on the inside story of how Airbnb made it through Covid; what he’s learned from Brian Chesky, Brian Armstrong, and Kevin Systrom; much more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "I understand that might be disappointing or frustrating or what have you, but part of the expectation for this role is that you can roll with disagree and commit sometimes when that's necessary.",
+          "guest": "Kenneth Berger",
+          "timestamp": "00:23:20",
+          "episode": "Why not asking for what you want is holding you back | Kenneth Berger (exec coach, first PM at Slack)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "polite-disagreement",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "stack-rank",
+      "group": "decision",
+      "term": "stack rank",
+      "zh": "強制排序，不准並列",
+      "meaning": "把一堆東西從第一名排到最後一名，不允許「這幾個一樣重要」。它跟一般的「排優先順序」差別在於強制性——名次只能有一個人佔，逼你把心裡真正的取捨講出來。可以當動詞（stack rank these features）也可以當名詞（our stack rank）。",
+      "when": "當團隊給你一份「全部都是 P0」的清單時，你可以請他們 stack rank 一次。面試或 1:1 裡也常被用來逼出真心話：if you had to stack rank these, what's number one？",
+      "trap": "它跟 HR 的「員工績效強制分佈（stack ranking）」是同一個字但不同事，聽到時要看上下文是在排功能還是排人。另外別把它講成 stack-ranked 就代表已經有共識——排完序只是把取捨攤開來，後面還是要有人拍板。",
+      "usage": [
+        {
+          "quote": "If I had to stack rank in interviews what is the best signal, the reference check is the top of the list.",
+          "guest": "Shishir Mehrotra",
+          "timestamp": "01:20:19",
+          "episode": "The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=7uSuMIJhONA&t=4817s",
+          "seek": true
+        },
+        {
+          "quote": "I'm going to give you five skills and I want you to stack-rank them for me. One to five.",
+          "guest": "Bangaly Kaba",
+          "timestamp": "01:32:55",
+          "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=5573s",
+          "seek": true
+        },
+        {
+          "quote": "You have like 20 things on a stack rank list and you know that you got to do the top five, but the next 15 data's kind of ambiguous, but you've overstaffed the project.",
+          "guest": "Matt MacInnis",
+          "timestamp": "00:10:44",
+          "episode": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "saying-no"
+      ]
+    },
+    {
+      "id": "order-of-magnitude",
+      "group": "decision",
+      "term": "order of magnitude",
+      "zh": "數量級（差 10 倍，不是差一點）",
+      "meaning": "一個數量級就是 10 倍。說 an order of magnitude better，意思是好 10 倍、不是好一點點；說 you're off by two orders of magnitude，是說你的估算差了 100 倍。它常被拿來把討論從「精確數字」拉回到「級距對不對」——很多決定其實只要知道級距就夠了。",
+      "when": "做機會評估或估算時，先講級距再講細節：this is an order of magnitude bigger than what we're doing today。或用來擋掉過度精算：we don't need the exact number, we just need the order of magnitude。",
+      "trap": "最常見的誤用是把它當成「大很多」的模糊誇飾。母語者聽到會直接算成 10 倍——你如果只是好 30%，講 order of magnitude 會被當成灌水。還有單複數：兩個級距要說 two orders of magnitude，order 要加 s。",
+      "usage": [
+        {
+          "quote": "Andy Grove used to call it the 10 x effect. You need to do something that is an order of magnitude better than anything because that's why the visionary is talking to you.",
+          "guest": "Geoffrey Moore",
+          "timestamp": "00:34:52",
+          "episode": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=RBbINB5HSHk&t=2090s",
+          "seek": true
+        },
+        {
+          "quote": "And most people's natural idea of what is necessary is so laughably wrong. People are naturally off by usually one or two orders of magnitude, right?",
+          "guest": "Eric Ries",
+          "timestamp": "00:43:02",
+          "episode": "Reflections on a movement | Eric Ries (creator of the Lean Startup methodology)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=xzebbzIntFc&t=2580s",
+          "seek": true
+        },
+        {
+          "quote": "But it's like uptime in data centers where every nine is an order of magnitude investment in terms of reliability, backups, et cetera.",
+          "guest": "Jason Droege",
+          "timestamp": "00:38:03",
+          "episode": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=W99jdYZOlN0&t=2281s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "move-the-needle",
+      "group": "decision",
+      "term": "move the needle",
+      "zh": "真的造成可量測的改變",
+      "meaning": "指標上真的動了，而且動得看得出來——needle 是儀表上的指針。這個詞的殺傷力在於它預設有一個指標存在：你說某件事會 move the needle，就等於在承諾「哪一根指針會往哪邊動」。反過來，doesn't move the needle 是很直接的否定，意思是做了也是白做。",
+      "when": "在排優先順序、砍需求、或報告成果時最常用。要擋掉一個小需求，可以說 I don't think this will move the needle；要爭取資源，就說清楚 what would actually move the needle 是什麼。",
+      "trap": "台灣人容易拿它當「有幫助」的客套話，但英文母語 PM 聽到會期待你接著講「哪個指標、動多少」。講不出指標就用這個詞，會顯得只是喊口號。另外它是 the needle，冠詞不能省，也不說 move needles。",
+      "usage": [
+        {
+          "quote": "Many times, it's about doing things right. It's about understanding, A, what is going to move the needle? And work only on that.",
+          "guest": "Daniel Lereya",
+          "timestamp": "00:16:05",
+          "episode": "Inside monday.com’s transformation: radical transparency, impact over output, and their path to $1B ARR | Daniel Lereya (Chief Product and Technology Officer)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Are you actually doing things that are going to move the needle? Are you just blindly reaching out to people on LinkedIn?",
+          "guest": "Lauren Ipsen",
+          "timestamp": "00:28:05",
+          "episode": "Lessons from one of the world’s top executive recruiters | Lauren Ipsen (Daversa Partners, General Catalyst)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=v3pofqabzhs&t=1683s",
+          "seek": true
+        },
+        {
+          "quote": "It's not growth equals SEO and Instagram. For me, growth equals whatever it takes to move the needle.",
+          "guest": "Luc Levesque",
+          "timestamp": "00:50:29",
+          "episode": "Leveraging growth advisors, hiring well, mastering SEO, and honing your craft | Luc Levesque (Shopify, Meta, TripAdvisor)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "talking-impact",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "nice-to-have",
+      "group": "decision",
+      "term": "nice to have vs must have",
+      "zh": "可有可無／非有不可",
+      "meaning": "把需求分成兩堆的標準說法：must-have 是沒有就不成立、使用者會走人的；nice-to-have 是有了會開心、沒有也活得下去的。它是砍需求時最好用的一組詞，因為它把「我不想做」轉譯成「這對使用者不是必需品」。Sean Ellis 的 PMF 問卷（很失望／有點失望）其實就是在分這兩種人。",
+      "when": "做需求盤點、定價包裝、或跟業務解釋為什麼這期不做時：that's a nice-to-have, not a must-have。也可以用來反問對方，逼他自己承認：is this a must-have for them, or just nice to have?",
+      "trap": "這是本組最容易誤判的一個——因為 nice to have 在一般英文裡就是字面意思「有這個真好」（例如 It's nice to have you here 是「你來了真好」，跟需求分級完全無關）。判斷方法看有沒有跟 must-have 對照、或前面有沒有冠詞（a nice-to-have 當名詞用時，才是黑話）。反過來，你要說「可有可無」時，記得加冠詞說 it's a nice-to-have，不要說成 it's nice to have，後者聽起來像在稱讚它。",
+      "usage": [
+        {
+          "quote": "So one of the things I've always said is just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. They're as good as gone, so just ignore those guys.",
+          "guest": "Sean Ellis",
+          "timestamp": "00:40:43",
+          "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2441s",
+          "seek": true
+        },
+        {
+          "quote": "So, we would make a list of our features that we had and maybe new things we wanted to build and have people rank them as a must-have, nice to have, or not necessary that help us understand the relative prioritization.",
+          "guest": "Naomi Ionita",
+          "timestamp": "00:20:31",
+          "episode": "How to price your product | Naomi Ionita (Menlo Ventures)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=xvQadImf568&t=1229s",
+          "seek": true
+        },
+        {
+          "quote": "So one and two are correct, and this is not high priority. It's a nice to have feature.",
+          "guest": "Zevi Arnovitz",
+          "timestamp": "00:21:43",
+          "episode": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=1em64iUFt3U&t=1301s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "saying-no"
+      ]
+    },
+    {
+      "id": "shiny-object",
+      "group": "decision",
+      "term": "shiny object",
+      "zh": "看起來很炫但會分心的東西",
+      "meaning": "像烏鴉被亮晶晶的東西吸引一樣，指那種很新、很熱、看起來很厲害，但跟你的策略沒關係的機會或技術。常見說法有 chase shiny objects（去追）、get distracted by shiny objects（被分心）、shiny object syndrome / trap（一直換方向的毛病）。它幾乎永遠是負面的。",
+      "when": "當老闆或業務拿著剛看到的競品或新技術要團隊立刻跟進時，這是你溫和擋回去的詞：I want to make sure we're not chasing a shiny object here。做策略檢視、解釋為什麼今年不做某件事時也常用。",
+      "trap": "不要拿它指人，說某個同事 is a shiny object 會很奇怪也很失禮——它指的是「那個東西／那個機會」。另外用來反駁時建議加緩衝（I worry this might be a shiny object），直接說對方在 chasing shiny objects 在英文裡是相當重的批評。",
+      "usage": [
+        {
+          "quote": "There is something called the shiny object trap and I'm always telling people, \"Hey, don't do AI for the sake of doing AI\". Make sure there is a problem there.",
+          "guest": "Marily Nika",
+          "timestamp": "00:13:19",
+          "episode": "AI and product management | Marily Nika (Meta, Google)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=qNPPoj1qUG0&t=797s",
+          "seek": true
+        },
+        {
+          "quote": "I think especially for founders that haven't hired for this caliber of talent in the past, it's really easy to be distracted by shiny objects and look at huge names.",
+          "guest": "Lauren Ipsen",
+          "timestamp": "00:09:59",
+          "episode": "Lessons from one of the world’s top executive recruiters | Lauren Ipsen (Daversa Partners, General Catalyst)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=v3pofqabzhs&t=597s",
+          "seek": true
+        },
+        {
+          "quote": "I think it's very tempting right now to chase shiny objects, like a founder might be able to gain some initial traction by literally being that GPT wrapper and solving any sort of problem.",
+          "guest": "Grant Lee",
+          "timestamp": "01:22:53",
+          "episode": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=3H0ngGU5pbM&t=4971s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "saying-no",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "ship-it",
+      "group": "execution",
+      "term": "ship it",
+      "zh": "出貨、上線",
+      "meaning": "軟體世界的 ship 不是把東西寄出去，而是「把它放到真的使用者面前」。功能上線、版本發佈、實驗全量放出，都叫 ship。它常常單獨當一句話用：會議上有人說 \"Ship it.\"，意思就是「不用再討論了，發吧」——那是一個核准動作，不是描述。反過來 \"I can't ship it\" 是你在踩煞車，表示品質還不到能見人的程度。",
+      "when": "站會、實驗結果檢視、上線前的最後確認，都會聽到。你自己最常用的兩個時機：對品質有疑慮時說 \"I don't think we should ship it yet\"，以及實驗數據出來後問 \"Do we ship it or kill it?\"",
+      "trap": "台灣人容易照字面理解成「寄送實體商品」，聽到 \"we shipped last week\" 會以為在講物流。另一個坑是把 ship 想成很正式的大發佈——實際上改一行文案推上線也叫 ship，它強調的是「到使用者手上」而不是規模。",
+      "usage": [
+        {
+          "quote": "That is a mentality internally. If it's not lovable, we're not going to ship it.",
+          "guest": "Elena Verna",
+          "timestamp": "00:33:01",
+          "episode": "Elena Verna 4.0",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Well, it's not even close to being done yet, so there's no possible way we can say yes. I can't ship it. It's half broken.",
+          "guest": "Nan Yu",
+          "timestamp": "01:10:28",
+          "episode": "Linear’s secret to building beloved B2B products | Nan Yu (Head of Product)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=nTr21kgCFF4&t=4226s",
+          "seek": true
+        },
+        {
+          "quote": "So it's like if you feel good about it and it's neutral, you ship it?",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:41:36",
+          "episode": "Breaking the rules of growth: Why Shopify bans KPIs, optimizes for churn, prioritizes intuition, and builds toward a 100-year vision | Archie Abrams (VP Product, Head of Growth at Shopify)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Vlph3dn4jnU&t=2494s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "unblock",
+      "group": "execution",
+      "term": "unblock",
+      "zh": "排除卡住別人的障礙",
+      "meaning": "把擋在別人前面的那塊石頭搬開，讓他可以繼續往前做。受詞可以是人（unblock the team）也可以是事（unblock this decision）。這在英文世界被視為 PM 和主管的核心職責之一——你的價值不在自己做多少，而在讓團隊每天少卡幾次。",
+      "when": "1:1、站會、跨團隊協調時最常出現。主管問你 \"What can I unblock for you?\" 是在提供幫忙，不是在質問你為什麼進度慢。你自己可以用在請求協助上：\"I need you to unblock this with the legal team.\"",
+      "trap": "不要跟 unlock 混。unlock 是「打開一個新的可能性」，unblock 是「移除一個既有的阻礙」——講反了意思差很多。也不是社群軟體那個「解除封鎖」。還有一個文化差：台灣人習慣自己硬撐到底才求救，但在這種語境裡，早一點說出被卡住，被視為專業而非示弱。",
+      "usage": [
+        {
+          "quote": "It's what management is for. They're there to unblock you. Let them unblock you.",
+          "guest": "Molly Graham",
+          "timestamp": "01:16:59",
+          "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=4617s",
+          "seek": true
+        },
+        {
+          "quote": "So one thing that I've always done as a management philosophy is to spend actually the majority of my time with top performers, just like make sure they're unblocked, make sure they're happy, make sure they feel productive and they feel heard.",
+          "guest": "Sherwin Wu",
+          "timestamp": "00:20:50",
+          "episode": "Sherwin Wu V2",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "I feel like a PM's number one job is to unblock their team because their job is basically make the most out of their team that they're marshaling towards some outcome. The way you do that is just figure out what's slowing them down.",
+          "guest": "Lenny",
+          "timestamp": "00:37:19",
+          "episode": "An inside look at how Miro builds product: Lessons on outmaneuvering competitors, team structure, product quality, and moving fast | Varun Parmar (CPO of Miro)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=furNg4njlsg&t=2237s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "asking-for-resources",
+        "managing-conflict"
+      ]
+    },
+    {
+      "id": "blocker",
+      "group": "execution",
+      "term": "blocker / blocked on",
+      "zh": "卡點／被什麼卡住",
+      "meaning": "blocker 是名詞，指讓工作停下來的那個東西；blocked on X 是「我在等 X，所以動不了」。重點在它是中性詞——講 \"I'm blocked on the API\" 是在報告一個依賴關係，不是在承認自己能力不足，也不是在指責誰。在職場對話裡它幾乎是「請求協助」的標準格式。",
+      "when": "站會、週報、給主管的狀態更新，幾乎每次都會用到。最實用的句型是主管最想看到的三段式：進度、blockers、接下來要做什麼。",
+      "trap": "台灣人習慣講 \"I have a problem\" 或 \"It's difficult\"，聽起來像是自己搞不定；換成 \"I'm blocked on the security review\" 就變成一個具體、可以被解決的事實。另外 blocker 也可以指「人」——某些場合（尤其銷售、跨部門）\"the blocker\" 指的是那個有權說不的人，不是一件事。",
+      "usage": [
+        {
+          "quote": "You can say, \"Hey, I'm making progress on this. This is what I'm blocked on, this is the current program.\"",
+          "guest": "Andrew ‘Boz’ Bosworth",
+          "timestamp": "00:17:06",
+          "episode": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "From my experience as a product manager, it was always a blocker.",
+          "guest": "Nikita Miller",
+          "timestamp": "00:22:13",
+          "episode": "Driving alignment and urgency within teams, work-life balance, and the changing PM landscape | Nikita Miller (The Knot, Trello)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=4PhfAbRQpbI&t=1331s",
+          "seek": true
+        },
+        {
+          "quote": "Blocker. This is the person who can't say yes, but they can say no.",
+          "guest": "Jonathan Lowenhar",
+          "timestamp": "00:33:16",
+          "episode": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=s0jn7eE33nk&t=1994s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "summarizing",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "spin-up",
+      "group": "execution",
+      "term": "spin up",
+      "zh": "很快弄出一個／組起來",
+      "meaning": "從無到有、而且很快地把某個東西弄起來。原本是講開一台伺服器（spin up an instance），現在什麼都能 spin up：一份文件、一個原型、一個新團隊、一條新業務線。它的重點不是「規模大」，而是「不囉嗦、馬上有一個能動的版本」。",
+      "when": "討論要不要試一個新方向時最常聽到：\"Let's spin up a quick prototype and see.\" 你自己可以用它降低提議的門檻——比起 \"we should build a new team\"，說 \"let's spin up a small team for one quarter\" 聽起來風險低很多，比較容易被答應。",
+      "trap": "不要照字面想成「旋轉」或「加速」。跟 set up 的差別在語感：set up 有正式建置的味道，spin up 帶著「輕量、快速、先弄出來再說」的暗示。用錯的話，你以為自己在說「先隨便試試」，對方卻聽成你要正式立一個新專案。",
+      "usage": [
+        {
+          "quote": "Yeah, we spun up a decision science function and those folks are very smart.",
+          "guest": "Ben Williams",
+          "timestamp": "00:39:38",
+          "episode": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=2376s",
+          "seek": true
+        },
+        {
+          "quote": "Spin up a Google doc or a Notion page, just call it daily log and then bullet point out the date of today.",
+          "guest": "Kevin Yien",
+          "timestamp": "00:44:21",
+          "episode": "Unorthodox PM wisdom: Automating user insights, unselling job candidates, logging every decision, more | Kevin Yien (Stripe, Square, Mutiny)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=xOTO98MXG9o&t=2659s",
+          "seek": true
+        },
+        {
+          "quote": "And we see sales engineers use Replit to spin up prototypes really quickly.",
+          "guest": "Amjad Masad",
+          "timestamp": "00:27:04",
+          "episode": "Behind the product: Replit | Amjad Masad (co-founder and CEO)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "proposing-idea",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "tech-debt",
+      "group": "execution",
+      "term": "tech debt",
+      "zh": "技術債",
+      "meaning": "為了快一點而故意選擇的次佳做法，之後要用時間「還」回來。關鍵字是「債」——它是一個財務比喻，不是罵人的話。借債本身可以是正確決定，問題只在你有沒有意識到自己在借、以及打算什麼時候還。跟 PM 直接相關的是：還債要佔用工程時間，所以它會出現在你的排序討論裡。",
+      "when": "季度規劃、roadmap 分配、工程主管來要時間的時候。最常見的句型是 \"we need to pay down some tech debt this quarter\"。你自己用得上的時機：解釋為什麼這一季不是所有時間都拿去做新功能。",
+      "trap": "台灣工程師常把 tech debt 當成「前人留下的爛 code」這種抱怨詞，但在英文會議裡它是中性的、甚至可以是策略性的——新創刻意欠債換速度是被稱讚的。所以你聽到 \"we took on a lot of tech debt\" 時，那不一定是在自首，可能是在講一個有意識的取捨。",
+      "usage": [
+        {
+          "quote": "And as a startup, your job is to take on technical debt because that is how you operate faster than a bigger company. Bigger companies don't take on technical debt, they pay it usually right away.",
+          "guest": "Gaurav Misra",
+          "timestamp": "00:20:48",
+          "episode": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=PDobJV8wh1g&t=1246s",
+          "seek": true
+        },
+        {
+          "quote": "And I try to remind the engineers, we would be so lucky to have tech debt because that means people are using the product.",
+          "guest": "Julia Schottenstein",
+          "timestamp": "00:53:02",
+          "episode": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=3180s",
+          "seek": true
+        },
+        {
+          "quote": "And then really importantly, where are your technical hurdles? What are the big pieces of tech debt?",
+          "guest": "Maggie Crowley",
+          "timestamp": "00:36:44",
+          "episode": "Mastering product strategy and growing as a PM | Maggie Crowley (Toast, Drift, Tripadvisor)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=4LjddcccYIo&t=2202s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "asking-for-resources"
+      ]
+    },
+    {
+      "id": "edge-case",
+      "group": "execution",
+      "term": "edge case",
+      "zh": "邊緣情況",
+      "meaning": "不是主線流程、但真的會發生的那些情況：使用者輸入怪東西、網路斷在一半、時區跨年、退款退到一半又下單。PM 的工作有一大塊就是決定哪些 edge case 現在要處理、哪些先放著。工程師問你 \"what about this edge case?\" 時，他要的是一個決定，不是一個安慰。",
+      "when": "規格 review、上線前的最後檢查、跟工程一起走流程圖的時候。你可以主動用它來收斂範疇：\"Let's ship the happy path first and handle these edge cases in v2.\"",
+      "trap": "中文直覺會翻成「極端情況」，然後順手認為「極端＝很少見＝不用管」——但英文語感裡 edge case 是「該被想過」的，不是「該被忽略」的。真正的分歧點在時機：太早在會議上一個個列 edge case，會被說 in the weeds；該提的時機是規格定案前，不是願景討論中。",
+      "usage": [
+        {
+          "quote": "Let's think through all the edge cases here ahead of time so that we're not blocked on the engineering side.",
+          "guest": "Mike Krieger",
+          "timestamp": "00:14:44",
+          "episode": "Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=DKrBGOFs0GY&t=882s",
+          "seek": true
+        },
+        {
+          "quote": "And so we often will set goals actually and create metrics around those edge cases. So like the disaster deliveries, the ones that go terribly wrong.",
+          "guest": "Jessica Lachs",
+          "timestamp": "00:55:27",
+          "episode": "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "And I learned so much from that line of thinking because just, if it shipped, it was really high quality. All the edge cases had been thought through.",
+          "guest": "Nickey Skarstad",
+          "timestamp": "00:07:39",
+          "episode": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "challenging-assumptions",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "green-light",
+      "group": "execution",
+      "term": "green light",
+      "zh": "放行、核准",
+      "meaning": "來自紅綠燈的比喻：拿到 green light 就是有人拍板讓你開始做。名詞用法是 get / give the green light，也可以直接當動詞用（we greenlit the project）。它強調的是「正式的准許」，通常伴隨資源到位，跟只是「大家覺得不錯」不一樣。",
+      "when": "專案啟動前的審核、預算會議、跟主管要授權的時候。你自己最實用的用法是把它當成一個明確的請求：\"What do you need from me to green-light this?\"——比問 \"what do you think?\" 有效得多，因為它逼對方講出條件。",
+      "trap": "台灣人常誤造成 \"get a green lamp\" 或 \"pass the green light\"，正確的搭配是 get / give / need the green light。更重要的觀念差：在很多美式團隊裡，會議上沒有人反對不等於拿到 green light，你必須有人明確說出來、最好留下書面紀錄，否則之後翻臉不認帳。",
+      "usage": [
+        {
+          "quote": "We lean heavily into designing and prototyping even before a project gets a green light.",
+          "guest": "Mihika Kapoor",
+          "timestamp": "00:00:16",
+          "episode": "Vision, conviction, and hype: How to build 0 to 1 inside a company | Mihika Kapoor (Product at Figma)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "And there is very little bureaucracy, again, thanks to having founder hands-on, we can easily get a green light on anything, start launching it quickly.",
+          "guest": "Dmitry Zlokazov",
+          "timestamp": "00:46:15",
+          "episode": "How Revolut trains world-class product managers: The “local CEO” model, raw intellect over experience, and a cultural obsession with building wow products | Dmitry Zlokazov (Head of Product)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=-kPpd21bFrE&t=2773s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "swim-lane",
+      "group": "execution",
+      "term": "swim lane",
+      "zh": "各自的負責範圍，別越線",
+      "meaning": "游泳池水道的比喻：每個人／每個團隊有自己的一條線，往前游就好，不要橫著游到別人的水道去。講「有清楚的 swim lanes」通常是好事，代表權責分明、不會互相踩腳；但講太細也會出問題，因為真實的產品工作總有需要重疊的地帶。",
+      "when": "組織調整、跨團隊專案分工、兩個團隊搶同一塊功能的時候。你可以用它來拆衝突：\"Can we agree on the swim lanes before we start?\"",
+      "trap": "同一個詞有兩種溫度完全不同的用法。中性的是 \"let's define clear swim lanes\"（我們把分工講清楚）；帶警告的是 \"stay in your swim lane\"（管好你自己的事，別越界）——後者是不客氣的話。台灣人聽到後者容易以為只是在描述分工，其實已經被劃線了。",
+      "usage": [
+        {
+          "quote": "The first product hire that you make as a founder, you'll pretty much have the same conversations to ensure that there are clear swim lanes and accountability for that group.",
+          "guest": "Manik Gupta",
+          "timestamp": "00:44:21",
+          "episode": "Manik Gupta (ex-CPO Uber, Google Maps) on how to build consumer apps, why it’s useful to be optimistic about technology, creating inflections in your PM career, the changing CPO role, and more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "What that means in an organizational context is you then create these different fiefdoms, you hire all these execs and each exec just manages their own swim lane, and there's relatively looser coupling between all of those different groups, right?",
+          "guest": "Howie Liu",
+          "timestamp": "01:14:38",
+          "episode": "How we restructured Airtable’s entire org for AI | Howie Liu (co-founder and CEO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=GT0jtVjRy2E&t=4476s",
+          "seek": true
+        },
+        {
+          "quote": "And then you don't have the same swim lanes problem. You have plenty of room for people to make progress on their lanes.",
+          "guest": "Ami Vora",
+          "timestamp": "00:57:20",
+          "episode": "Making an impact through authenticity and curiosity | Ami Vora (CPO at Faire, ex-WhatsApp, FB, IG)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=6UHAop9fhNU&t=3438s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "managing-conflict",
+        "stakeholder-alignment"
+      ]
+    },
+    {
+      "id": "single-threaded",
+      "group": "execution",
+      "term": "single-threaded",
+      "zh": "專責一件事、不分心的人或團隊",
+      "meaning": "借自電腦的單執行緒：一次只跑一件事。用在人身上是 single-threaded leader / owner——這個人只負責這一件事，沒有其他分身業務，所以他可以自己拍板、也逃不掉責任。用在團隊上是 single-threaded team，整個團隊只有一個目標。這個概念出自 Amazon，現在到處都在用。",
+      "when": "組織設計、重要專案啟動、討論「這件事到底誰負責」的時候。你自己可以拿它來要資源：\"This needs a single-threaded owner, not five people who each spend 10% of their time on it.\"",
+      "trap": "這是一個稱讚，不是批評。台灣人容易誤解成「這個人只會做一件事」或「腦袋單線」，其實它代表的是公司真的重視這件事、願意把一個人整個投進去。反過來，被說 \"nobody is single-threaded on this\" 是在警告：這件事現在沒有真正的主人，會爛掉。",
+      "usage": [
+        {
+          "quote": "And so what I mean by single threaded is there's only one goal, one thread, that they're waking up in the morning to focus on.",
+          "guest": "Geoff Charles",
+          "timestamp": "00:10:47",
+          "episode": "Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "That's why I think it's very important to have a single-threaded owner. We used to call this a directly responsible individual or a throat to choke.",
+          "guest": "Naomi Gleit",
+          "timestamp": "00:54:05",
+          "episode": "Meta’s Head of Product (and 29th employee) on working with Mark Zuckerberg, early growth tactics, why PMs are like conductors, and more | Naomi Gleit",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=sTYuKgzZoL8&t=3243s",
+          "seek": true
+        },
+        {
+          "quote": "A great example, this was in Prime Video, one of the businesses that I managed, we could create a single-threaded team who just was working on applications for TV sets, like Samsung, Sony.",
+          "guest": "Bill Carr",
+          "timestamp": "00:21:23",
+          "episode": "Unpacking Amazon’s unique ways of working | Bill Carr (author of Working Backwards)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "summarizing",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "red-flag",
+      "group": "execution",
+      "term": "red flag",
+      "zh": "警訊",
+      "meaning": "你觀察到的一個訊號，本身可能不嚴重，但通常代表底下有更大的問題。它講的是「徵兆」，不是「懲處」。用法幾乎固定：that's a red flag / that's a huge red flag for me。在 PM 的日常裡，最常出現在三個地方：評估要不要加入一家公司、面試別人、以及看數據時發現哪裡不對勁。",
+      "when": "面試（雙向的）、找合作對象、實驗數據 review、事後檢討。你自己用它可以很有效地表達疑慮又不指控人：\"That's a bit of a red flag for me—can we dig into it?\"",
+      "trap": "台灣人容易把它想成足球的紅牌，變成「對某人發出警告」。它不是給出去的處分，而是你自己心裡記下的一個扣分。另外注意 for me 這個尾巴——加上去就從斷言變成個人判斷，語氣軟很多，在英文會議裡是很好用的緩衝。",
+      "usage": [
+        {
+          "quote": "If you are in an organization and you cannot see what good looks like anywhere, that's a red flag.",
+          "guest": "Melissa Perri",
+          "timestamp": "01:16:13",
+          "episode": "How to create a winning product strategy | Melissa Perri",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "I will tell you what, if the company doesn't like this, it's a huge red flag. Huge red flag, it means they're not serious.",
+          "guest": "Phyl Terry",
+          "timestamp": "00:57:00",
+          "episode": "Land your dream job in today’s market: negotiation tactics, job search councils, and more | Phyl Terry (Author, “Never Search Alone”)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=OH3nzRdwYPA&t=3418s",
+          "seek": true
+        },
+        {
+          "quote": "If you design the experiment to send 50% of users to control and 50% of users to treatment, it's supposed to be a random number, or a hash function. If you get something off from 50%, it's a red flag.",
+          "guest": "Ronny Kohavi",
+          "timestamp": "00:56:00",
+          "episode": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE&t=3358s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "bad-news",
+        "polite-disagreement"
+      ]
+    },
+    {
+      "id": "double-click",
+      "group": "meeting",
+      "term": "double click on that",
+      "zh": "深入談這一點",
+      "meaning": "有人說 “let me double click on that”，是要把剛剛帶過去的某一句話拆開來問細節，不是要換話題。字面上是滑鼠點兩下，實際是「你剛剛那句我聽到了，但太籠統，展開講」。它幾乎都指向你上一句話裡的某個名詞或結論，所以被 double click 時要準備好舉例子、給數字，不要重講一次原本那句。",
+      "when": "會議或面試裡，對方對你講的某個點感興趣、想聽細節時最常出現。你自己也可以用：別人講完一段你只想追問其中一小塊，說 “Can I double click on that?” 比 “I don't understand” 專業很多，而且不會像在質疑對方。",
+      "trap": "台灣人第一次聽會以為跟電腦操作有關，或誤解成「這件事很重要要記下來」。更大的坑是把它當成挑戰或質疑而開始防衛——它其實是正面訊號，代表對方買單你講的方向、想聽更多。",
+      "usage": [
+        {
+          "quote": "Can I double click on that though for a second?",
+          "guest": "Bret Taylor",
+          "timestamp": "00:20:18",
+          "episode": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=qImgGtnNbx0&t=1216s",
+          "seek": true
+        },
+        {
+          "quote": "And just to double click there, can you explain what that means? What does fragmentation mean in a marketplace context?",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:56:20",
+          "episode": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=AlTQ6O2qooI&t=3378s",
+          "seek": true
+        },
+        {
+          "quote": "I want to double click on some of these points you just made.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:10:25",
+          "episode": "Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "clarifying",
+        "interrupting"
+      ]
+    },
+    {
+      "id": "table-that",
+      "group": "meeting",
+      "term": "table that",
+      "zh": "先擱著",
+      "meaning": "美式用法是「這個先放旁邊，現在不談」。有人對你的提案說 “let's table that”，他不是否決，是說今天的會不處理這件事——但也沒有承諾什麼時候處理。所以聽到之後真正該做的動作是：當場問一句什麼時候再談、誰負責，否則這件事通常就消失了。",
+      "when": "會議時間不夠、或某個議題還沒到能決定的階段時會聽到。你自己要擋掉離題討論又不想直接說「不要」時很好用，比 “that's not important” 溫和得多。",
+      "trap": "英式英語的 “table a motion” 意思剛好相反，是「把議案提出來討論」。跨國會議上英美同事同桌時真的會誤會，聽到之後最好用自己的話確認一次是要擱置還是要現在談。另外別把它當成「被否決」而放棄——它只是延後。",
+      "usage": [
+        {
+          "quote": "You get that possibility, you go, okay, well that's interesting, let's table that. What else have we got?",
+          "guest": "Bob Baxley",
+          "timestamp": "01:10:22",
+          "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=4220s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "running-meeting",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "circle-back",
+      "group": "meeting",
+      "term": "circle back",
+      "zh": "之後再回來談",
+      "meaning": "「這件事我們等一下（或改天）再回來講」。主持人用它把離題的討論拉回主線，同時給對方一個「你的話沒有被丟掉」的交代。關鍵在後面接的時間：接 “in a minute / later in this meeting” 是真的會回來；接 “next quarter / at some point” 幾乎等於這件事被無限期延後。",
+      "when": "你在會議上想回頭追問前面某個被跳過的點，說 “I want to circle back to…” 是最順的切入方式。反過來，別人一直發散時，你也可以用它先接住對方再拉回議程。",
+      "trap": "最容易誤判的是把它當成一個承諾。在很多公司 “let's circle back on this” 就是禮貌版的「這件事沒人要做」。真的在乎的話，當場把它變成「誰、什麼時候」，不要等對方主動 circle back。",
+      "usage": [
+        {
+          "quote": "I want to circle back to this first point you made, an experience you had convincing people that your first project shouldn't be something you work on.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:19:38",
+          "episode": "The happiness and pain of product management | Noam Lovinsky (Grammarly, Facebook, YouTube, Thumbtack)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Let's circle back to our original topic about mindfulness and meditation.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:35:03",
+          "episode": "An inside look at how CNN builds product | Upasna Gautam",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=gRiCzfFEd7c&t=2101s",
+          "seek": true
+        },
+        {
+          "quote": "I think they're used to, \"Let's check in on this in a week,\" or, \"Let's circle back next quarter to see if we can go on the plan.\"",
+          "guest": "Nick Turley",
+          "timestamp": "00:23:22",
+          "episode": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=ixY2PvQJ0To&t=1400s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "running-meeting",
+        "summarizing"
+      ]
+    },
+    {
+      "id": "align-on",
+      "group": "meeting",
+      "term": "align on",
+      "zh": "取得共識",
+      "meaning": "「我們要對某件事講出同一套說法」。注意它後面接的東西才是重點：align on the problem（先確認我們在解同一個問題）、align on the goal、align on the trade-offs。它不是「大家都同意」，而是「不管私下怎麼想，對外我們的版本一致」。有人說 “we need to align on this first”，他實際上是在踩煞車：先別往下做，先把定義喬好。",
+      "when": "跨部門專案啟動、寫 PRD 之前、或發現兩個團隊在吵不同的問題時。你要擋住一個開始亂做的討論，說 “Can we align on what problem we're solving first?” 幾乎是萬用句。",
+      "trap": "台灣人常直譯成「對齊」然後以為是排時程或格式。更常見的誤用是把 align 當同意——“I'm aligned” 不等於「我贊成」，而是「我理解也不會在外面唱反調」。另外 align 是不需要投票的，它靠的是把問題定義講清楚，不是靠多數決。",
+      "usage": [
+        {
+          "quote": "But it comes from a really important place of always focusing on let's all align on here's the problem we're solving.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:35:03",
+          "episode": "Lessons from Atlassian: Launching new products, getting buy-in, and staying ahead of the competition | Megan Cook (head of product, Jira)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=MQQ1wohqArk&t=2101s",
+          "seek": true
+        },
+        {
+          "quote": "If you can get teams to align on first principles early on, it saves you a lot of heartache later because you've got people to align way early days before you even got into the design process, or before you had to start thinking about how do we actually technically implement this.",
+          "guest": "Nickey Skarstad",
+          "timestamp": "00:45:36",
+          "episode": "Nickey Skarstad (Airbnb, Etsy, Shopify, Duolingo) on translating vision into goals, operationalizing product quality, second-order decisions, brainstorming, influence, and much more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "And if I were to summarize it to a couple words, it's just prioritize and communicate what your priorities are and then align on the trade-offs of shifting your priorities.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:23:32",
+          "episode": "Building a world-class data org | Jessica Lachs (VP of Analytics and Data Science at DoorDash)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "close-the-loop",
+      "group": "meeting",
+      "term": "close the loop",
+      "zh": "把事情收尾／回報結果",
+      "meaning": "指一件已經開頭的事，要把最後一哩補完並回報給當初問的人。它有兩個用法：會議中的 “just to close the loop on X” 是「這個話題我要做個結論才往下走」；工作上的 “he closes the loop” 是在稱讚一個人交辦出去的事一定會有下文。重點在「回報」——事情做完但沒人知道，在這個詞的定義裡不算 closed。",
+      "when": "你在會議尾聲要把某個懸而未決的討論定案時說 “Let me close the loop on that.”。也適用在你追問某人某件事的進度、或你自己主動回頭跟對方報告結果的時候。",
+      "trap": "容易誤解成「這個話題到此為止、不要再講了」。實際上它是「講出結論再往下」，是收斂不是切斷。另一個坑：台灣職場習慣「做完就好」，但英文圈把主動回報當成 close the loop 的必要條件，少了這一步在別人眼中就是 drop the ball。",
+      "usage": [
+        {
+          "quote": "Just to close the loop here, one takeaway here that I think is really interesting is that you can fail in a job and things will be okay.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:12:49",
+          "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=767s",
+          "seek": true
+        },
+        {
+          "quote": "He's going to follow up, he's going to close the loop, he's going to get it done. If he can't get it done, he'll tell me, I feel like this thread will not disappear.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:20:15",
+          "episode": "How Netflix builds a culture of excellence | Elizabeth Stone (CTO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=2XgU6T4DalY&t=1213s",
+          "seek": true
+        },
+        {
+          "quote": "And then finally, to close the loop, I think a big piece of it is processing that information and then thanking them for it.",
+          "guest": "Ada Chen Rekhi",
+          "timestamp": "00:09:35",
+          "episode": "How to make better decisions and build a joyful career | Ada Chen Rekhi (Notejoy, LinkedIn, SurveyMonkey)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=N64vIY2nJQo&t=573s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "summarizing",
+        "talking-impact"
+      ]
+    },
+    {
+      "id": "in-the-weeds",
+      "group": "meeting",
+      "term": "in the weeds",
+      "zh": "陷在細節裡出不來",
+      "meaning": "字面是「掉進雜草堆」，指講的內容細到聽的人跟不上、或一個人整天在處理小事沒空看大方向。有人說 “I think we're getting into the weeds” 是在提醒你：這段對這個會議的聽眾來說太細了，收一下。它評的是「細節跟場合不搭」，不是說細節錯了。",
+      "when": "自己簡報時發現主管開始放空，可以主動說 “I don't want to get too in the weeds here—the headline is…”。也用在描述自己的工作狀態：“I've been too in the weeds lately” 是承認自己被雜事吃掉了。",
+      "trap": "台灣人最容易誤判的是它的褒貶。多數時候是負面（你講太細了），但講創辦人或主管時常常是稱讚——“he's very in the weeds” 是說他親自看細節、很懂產品。判斷方式是看主詞：講「討論」多半是負面提醒，講「某個資深的人」多半是讚美。",
+      "usage": [
+        {
+          "quote": "Then when people inside a company do try to communicate upward a lot of times they're so in the weeds that as an executive, I just don't understand what they're saying.",
+          "guest": "Casey Winters",
+          "timestamp": "00:08:14",
+          "episode": "How to sell your ideas and rise within your company | Casey Winters, Eventbrite",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Yeah, it means that you're in the weeds, man. You're fiddling with the little tiny bits. You got to let go of those.",
+          "guest": "Christina Wodtke",
+          "timestamp": "00:33:27",
+          "episode": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=kvkL18Ue0dE&t=2005s",
+          "seek": true
+        },
+        {
+          "quote": "That's a good segue to something I wanted to ask you about, which is you're famously very in the weeds on everything that is going on, all the things that are shipping, you're very close to the pixels.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:37:25",
+          "episode": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "setting-strategy",
+        "hard-feedback"
+      ]
+    },
+    {
+      "id": "zoom-out",
+      "group": "meeting",
+      "term": "zoom out / zoom in",
+      "zh": "拉高視角／聚焦細節",
+      "meaning": "“Let's zoom out” 是要求換一個層級重講：先不要講這個功能怎麼做，講這件事在整體策略裡是什麼位置。反過來 “let's zoom in on X” 是指定一個小範圍要你深挖。它是在調整討論的「解析度」，不是要你講快一點或講慢一點。",
+      "when": "主管在會議中途說 zoom out，通常代表他已經跟不上、或覺得你們卡在細節。你自己在轉換話題、或想把一場吵成一團的會拉回大方向時，說 “Let's zoom out for a second” 是最不得罪人的切法。",
+      "trap": "常見誤解是以為 zoom out ＝ 講簡短一點。它要的是換層級，不是縮短——回一句「總之就是這樣」反而更糟。跟 double click 剛好是一組相反的指令：double click 往下鑽，zoom out 往上拉，聽到哪一個就往哪個方向調。",
+      "usage": [
+        {
+          "quote": "Okay. Let's zoom out a little bit. You've worked at three of the most successful consumer subscription products in the world.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:34:35",
+          "episode": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=2BKmNmnEj9w&t=2073s",
+          "seek": true
+        },
+        {
+          "quote": "To zoom out a little bit and as a final question, if you could suggest just one thing for PMs to do to help them level up in their career and just do better, what would that be?",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:47:00",
+          "episode": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "But you have the dual benefit of understanding how the business works broadly and then understanding if you zoom in on this piece, what are the levers i need to be pulling to move my metric.",
+          "guest": "Dan Hockenmaier",
+          "timestamp": "00:12:39",
+          "episode": "Developing a growth model + marketplace growth strategy | Dan Hockenmaier (Faire, Thumbtack, Reforge)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=AlTQ6O2qooI&t=757s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "running-meeting",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "socialize",
+      "group": "meeting",
+      "term": "socialize an idea",
+      "zh": "私下先跟關鍵的人講過一輪",
+      "meaning": "把一個提案在正式會議之前，先一對一拿去給幾個關鍵的人看過、收反對意見、改一輪。跟社交無關。有人跟你說 “have you socialized this yet?”，他實際上是在講：你這個東西還沒進會議室就會被打槍，先去把該打招呼的人打過。它是英文圈職場對「會前先喬好」的正式說法，而且是被鼓勵的，不是走後門。",
+      "when": "你要提一個會動到別人資源的大提案，或要在 review 上過一份策略文件之前。講法像 “I'd love to socialize this with you before Thursday's review.”",
+      "trap": "台灣人看到 socialize 直覺想到「社交、交際」，會完全聽不懂在講什麼。第二個坑是覺得這樣做很像政治操作而不敢做——在美式職場，沒 socialize 過就直接在大會上丟出新提案，才會被視為不成熟，因為你讓人當眾措手不及。",
+      "usage": [
+        {
+          "quote": "And then using that to kind of socialize the idea to say, \"This actually could work, right?\"",
+          "guest": "Ebi Atawodi",
+          "timestamp": "00:24:22",
+          "episode": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=tBPTwUmaxDs&t=1460s",
+          "seek": true
+        },
+        {
+          "quote": "Once I see it in writing, I can socialize it with advisors, lawyers, co-founders, whoever.",
+          "guest": "Jonathan Lowenhar",
+          "timestamp": "00:39:04",
+          "episode": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=s0jn7eE33nk&t=2342s",
+          "seek": true
+        },
+        {
+          "quote": "So the learnings made in the growth teams, even those from mistakes or failures, we socialize them widely and visibly.",
+          "guest": "Ben Williams",
+          "timestamp": "01:05:10",
+          "episode": "How Snyk built a product-led growth juggernaut | Ben Williams (VP of Product at Snyk)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=21sFTZzIfUk&t=3908s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "stakeholder-alignment",
+        "proposing-idea"
+      ]
+    },
+    {
+      "id": "take-it-offline",
+      "group": "meeting",
+      "term": "take it offline",
+      "zh": "會後私下談",
+      "meaning": "「這個話題只跟我們兩三個人有關，會後再談，不要佔用全會議室的時間。」offline 在這裡是「不在這個會議裡」，跟有沒有連網路無關。實務上還有兩種變體：talk offline（會後私下聊）、answer offline（這題我等一下用文字回你）。有人對你說這句，他要的是你現在停下來，不是要你之後一定會得到答案。",
+      "when": "你主持會議、兩個人開始鑽一個只有他們懂的技術細節時；或你自己被問到一個要講十分鐘才講得完、但只有一個人在乎的問題。",
+      "trap": "字面上很像「離線／斷線」，第一次聽很容易愣住。另一個常見誤會是覺得被 take offline 代表自己的問題不重要——多半只是場合不對。真正該注意的是：它跟 circle back 一樣，如果沒當場約時間，八成不會真的發生，所以要主動接一句「那我會後找你」。",
+      "usage": [
+        {
+          "quote": "Then I love this other piece of advice of meet them in person, try to take it offline essentially, which I know you did later.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:51:31",
+          "episode": "Taking control of your career | Ethan Evans (Amazon)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "What's the timeframe for this? What's the staffing need for why? I can answer offline.",
+          "guest": "Jessica Fain",
+          "timestamp": "00:44:46",
+          "episode": "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Something I'm definitely trying to do with this podcast is not just have all the same people that we see on Twitter all day and have a lot of people people have never heard of, but if you have suggestions, let's definitely talk offline.",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "01:22:16",
+          "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4934s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "running-meeting",
+        "managing-conflict"
+      ]
+    },
+    {
+      "id": "all-hands-on-deck",
+      "group": "meeting",
+      "term": "all hands on deck",
+      "zh": "全員動員",
+      "meaning": "來自船上「所有水手上甲板」的說法，指一件事嚴重到暫停其他工作、全部人一起上。用在你身上時，實際意思是「你手上的 roadmap 這幾天先停，過來支援」。它同時是一個嚴重性的訊號：講出這句話的人在告訴你，這件事的優先順序高過你原本所有的計畫。",
+      "when": "重大當機、資安事件、大型發表前的最後衝刺、或公司層級的關鍵時刻。也常用來形容一件事牽涉太多部門，像定價，一個人做不完。",
+      "trap": "最容易搞混的是 all hands on deck 跟 all-hands（全員大會）。後者是一場會議，前者是一種狀態，兩個完全不同。另外別把它聽成單純的加油口號——它通常隱含「本週的其他事都往後延」，聽到之後該做的是回頭確認自己原本的 deadline 怎麼辦。",
+      "usage": [
+        {
+          "quote": "So we stopped building any new features, all hands on deck, almost every engineer in the company trying to solve that problem. Eventually we did, but it was a close call.",
+          "guest": "Ivan Zhao",
+          "timestamp": "00:49:31",
+          "episode": "Notion’s lost years, its near collapse during Covid, staying small to move fast, the joy and suffering of building horizontal, more | Ivan Zhao (CEO and co-founder)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=IIPKMixTMfE&t=2969s",
+          "seek": true
+        },
+        {
+          "quote": "It's really like an all hands on deck conversation. Pricing is so cross-cutting because it's a finance discussion as well.",
+          "guest": "Julia Schottenstein",
+          "timestamp": "00:34:42",
+          "episode": "M&A, competition, pricing, and investing | Julia Schottenstein (dbt Labs)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=y9hmrMBRPDI&t=2080s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "asking-for-resources",
+        "bad-news"
+      ]
+    },
+    {
+      "id": "north-star",
+      "group": "product",
+      "term": "north star (metric)",
+      "zh": "北極星指標",
+      "meaning": "全公司只認一個數字，用來衡量產品替使用者創造了多少價值——注意是「創造的價值」，不是「收走的價值」。Airbnb 是訂房晚數、Pinterest 是每週活躍 pinner、Facebook 曾經把它從月活改成日活。它的作用不是報表好看，而是讓所有團隊的 roadmap 都能指回同一個地方；挑錯了，整個組織會很努力地往錯的方向跑。",
+      "when": "訂 OKR、做 roadmap 提案、或解釋某個功能為什麼值得做的時候。最實用的一句是問對方 How does this ladder up to our north star metric？面試被問「你怎麼衡量成功」，多半也是在等這個詞。",
+      "trap": "台灣團隊最常把 north star 直接等於營收或當季 KPI。Itamar Gilad 在節目上把兩者分得很開：北極星量的是使用者拿到的核心價值，營收是你捕捉到的價值，兩者常常會打架。第二個陷阱是以為它一輩子不能改——Airtable 就改過好幾次；第三是別以為有一個放諸四海皆準的北極星，Merci Grace 說那樣想很危險。",
+      "usage": [
+        {
+          "quote": "So the North Star metric is measuring how much value we're creating for the user, the core value that they're getting. In this case this is some productivity suite, so this is number of documents created per month for example.",
+          "guest": "Itamar Gilad",
+          "timestamp": "00:29:02",
+          "episode": "Becoming evidence-guided | Itamar Gilad (Gmail, YouTube, Microsoft)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=aJWSn-tz3jQ&t=1740s",
+          "seek": true
+        },
+        {
+          "quote": "And so when I think about a north star metric, that's what I'm thinking about is something that reflects how many people are coming in and experiencing that product-market fit experience, whatever that is.",
+          "guest": "Sean Ellis",
+          "timestamp": "00:49:45",
+          "episode": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2983s",
+          "seek": true
+        },
+        {
+          "quote": "I think it is very dangerous to say this specific metric is a North Star for every business.",
+          "guest": "Merci Grace",
+          "timestamp": "00:19:04",
+          "episode": "Merci Grace (ex-Head of Growth at Slack) on PLG, interviewing, storytelling, building a diverse team, hiring salespeople, building a growth team, and much more",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "table-stakes",
+      "group": "product",
+      "term": "table stakes",
+      "zh": "入場門檻",
+      "meaning": "這個市場裡「大家都有、你沒有就出局」的那一批功能。有了不會有人為它選你，沒有就連被考慮的資格都沒有。它永遠跟 differentiation（差異化）成對出現：差異化讓人想過來看你，table stakes 讓人敢真的換過來。Paul Adams 說 Intercom 就是花了好幾年把 table stakes 補齊，客戶才有辦法把 Zendesk 換掉。",
+      "when": "排優先順序、或跟老闆解釋為什麼要花三個月做一堆很無聊的功能時。競品分析裡也很常用：「這是 table stakes，不是我們的賣點。」",
+      "trap": "第一，字面「賭桌上的籌碼」容易被誤解成「我方的本錢」——它講的是入場費，不是優勢。第二，這批功能通常無聊、基礎、很容易被忽略，但缺了就致命。第三個是實務陷阱：會議上只要有人說出 we need to meet the table stakes，這件事幾乎自動被排進去，反而變成擋不掉需求的萬用理由。",
+      "usage": [
+        {
+          "quote": "But, on the other side, there's a entry requirement or table stakes. To play the game, you got to have a certain amount of things. And so, they're table stake features.",
+          "guest": "Paul Adams",
+          "timestamp": "00:56:00",
+          "episode": "What AI means for your product strategy | Paul Adams (CPO of Intercom)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=R-Geamq9xc0&t=3358s",
+          "seek": true
+        },
+        {
+          "quote": "If you had auto format or just table stakes stuff like justify alignment or something, no one's going to come to your word processor for justify alignment.",
+          "guest": "Gaurav Misra",
+          "timestamp": "00:13:30",
+          "episode": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=PDobJV8wh1g&t=808s",
+          "seek": true
+        },
+        {
+          "quote": "There's sort of table stakes and commodities to be an entry level PM. And to be clear, it's not easy to be a PM. It's not an entry level job.",
+          "guest": "Brandon Chu",
+          "timestamp": "00:07:26",
+          "episode": "Brandon Chu on building product at Shopify, how writing changed the trajectory of his career, the habits that make you a great PM, pros and cons of being a platform PM, how Shopify got through Covid",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "zero-to-one",
+      "group": "product",
+      "term": "zero to one / 0 to 1",
+      "zh": "從無到有",
+      "meaning": "從什麼都沒有做出第一版、連「這個問題到底存不存在」都還要自己驗證的階段；相對的是 one to n（規模化）。兩者要的能力差很多：在大公司做既有產品，問題空間早就被人驗證好了，你只要把它放大；0 到 1 沒有那層地基。所以它也是一種職涯座標——講你想做哪一種工作。",
+      "when": "談自己想找什麼樣的角色（I want to do zero to one work）、談團隊要招什麼樣的人、或談大公司內部要不要孵新產品的時候。",
+      "trap": "台灣人常把 zero to one 講成「開發新功能」。節目上說的 0 到 1 特別指「連問題成不成立都還沒被驗證」，在大公司待久的人最容易低估這一點——Benjamin Lauzier 就說這比他過去做過的任何事都難。用法上通常說 go zero to one on something，不加 the。",
+      "usage": [
+        {
+          "quote": "I think the zero to one is way harder than anything us have done so far, and I feel like when you're used to building and scaling products within companies, you take for granted, at least I did, I take for granted that the problem space has already been validated.",
+          "guest": "Benjamin Lauzier",
+          "timestamp": "01:10:59",
+          "episode": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=CYwgStMln6U&t=4257s",
+          "seek": true
+        },
+        {
+          "quote": "And this is the period actually where we were going from hypergrowth stage, zero to one company, to what I would call one to whatever, a thousand, infinity.",
+          "guest": "Bill Carr",
+          "timestamp": "00:07:54",
+          "episode": "Unpacking Amazon’s unique ways of working | Bill Carr (author of Working Backwards)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        },
+        {
+          "quote": "Along those lines, do you think it's a good career move to do a zero to one thing within a bigger company? Or is it often a bad idea?",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:21:42",
+          "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "framing-problem",
+        "talking-impact"
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "group": "product",
+      "term": "jobs to be done",
+      "zh": "使用者雇用產品來完成的任務",
+      "meaning": "把使用者看成「雇用」一個產品讓自己的生活往前推進，而不是「買」一個功能。所以要問的不是他想要什麼功能，而是他當時卡在什麼情境、想達成什麼結果。同一個人買同一個東西，背後的 job 可能完全不同；而真正的 job 通常比團隊第一次寫下來的那個更上層——Opendoor 的例子是「拿到報價」其實只是表層，真正的 job 是幫屋主做價格探索。",
+      "when": "寫 problem statement、跑使用者訪談、或 product review 上大家在爭一個功能該不該做的時候。最好用的一句就是 What's the job to be done here？",
+      "trap": "最常見的誤用是把它當成「痛點與好處」（pain and gain）在填表——Bob Moesta 說重點是 context and outcome（情境與結果），不是列一排痛點。第二個坑是團隊關在會議室裡「想」使用者的 job 而不去訪談。第三，中文講「需求」會把它講扁，job 一定要帶情境才成立。",
+      "usage": [
+        {
+          "quote": "And so Jobs to Be Done is this whole premise that people hire products, they don't buy them, they hire them to make progress in their life.",
+          "guest": "Bob Moesta",
+          "timestamp": "00:05:31",
+          "episode": "The ultimate guide to JTBD | Bob Moesta (co-creator of the framework)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=xQV7HVyAJjc&t=329s",
+          "seek": true
+        },
+        {
+          "quote": "So are we actually reflecting the real job to be done, which is I want to buy tacos, I want to make Taco Tuesday. Can we make it easier for people to find the ingredients for tacos, as opposed to having them sort for tortillas and tomatoes and avocado?",
+          "guest": "Bangaly Kaba",
+          "timestamp": "00:58:35",
+          "episode": "Unorthodox frameworks for growing your product, career, and impact | Bangaly Kaba (YouTube, Instagram, Facebook, Instacart)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Ub9UkWByFIQ&t=3513s",
+          "seek": true
+        },
+        {
+          "quote": "Or you might say, hey, the job to be done is maybe an early day version would be the job to be done is to get an offer from Opendoor. And it's like, well kind of, but the broader job to be done might be price discovery for the customer.",
+          "guest": "Brian Tolkin",
+          "timestamp": "00:37:43",
+          "episode": "Lessons from scaling Uber and Opendoor | Brian Tolkin (Head of Product at Opendoor, ex-Uber)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=sRukk520Fds&t=2261s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "framing-problem",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "product-led",
+      "group": "product",
+      "term": "product-led (growth)",
+      "zh": "靠產品本身帶動成長",
+      "meaning": "使用者不必先跟業務講到話，就能自己註冊、自己試用、自己刷卡買下去——成長的引擎是產品體驗本身，不是業務團隊。常見縮寫 PLG（product-led growth）；延伸出來的 product-led sales 則是先看產品裡的使用訊號，再讓業務進場接手。",
+      "when": "談 go-to-market 策略、討論要不要開免費方案、或面試 B2B SaaS 職缺時幾乎一定會聊到。",
+      "trap": "台灣很多團隊把 PLG 當成「不用請業務」。Carilu Dietrich 直接說現在幾乎沒有公司做得成純 PLG，PLG 跟業務是必須共存的。第二個誤解是以為 PLG 等於多衝流量、多做 SEO——Cameron Adams 說產品體驗爛的話，SEO 衝再兇也沒用。第三，PLG 不是萬用解，它高度取決於你的產品型態和買家是誰。",
+      "usage": [
+        {
+          "quote": "It's a broad term, obviously every company's product matters, but product-led growth more specifically means users can sign up from the website, often get put on a trial. Often you can buy a couple of seats with a credit card and those work where your user and your buyer are the same person.",
+          "guest": "Bret Taylor",
+          "timestamp": "01:18:44",
+          "episode": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=qImgGtnNbx0&t=4722s",
+          "seek": true
+        },
+        {
+          "quote": "Again, it's like product led truly means product led because you can't just SEO the hell out of something that is a terrible experience.",
+          "guest": "Cameron Adams",
+          "timestamp": "00:47:19",
+          "episode": "Inside Canva: Coaches not managers, giving away your Legos, and running profitably | Cameron Adams (co-founder and CPO)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=wgrJNHlYUA8&t=2837s",
+          "seek": true
+        },
+        {
+          "quote": "So we see different trends coming now with companies, because almost no one can do pure product led growth.",
+          "guest": "Carilu Dietrich",
+          "timestamp": "00:38:51",
+          "episode": "How to achieve hypergrowth in your business and career | Carilu Dietrich (Atlassian, Miro, Segment, 1Password)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Pm7QSWDIEUc&t=2329s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "setting-strategy",
+        "making-the-case"
+      ]
+    },
+    {
+      "id": "dogfood",
+      "group": "product",
+      "term": "dogfood / dogfooding",
+      "zh": "自己先用自己的產品",
+      "meaning": "團隊每天真的拿自己做的產品來做真正的工作，不是為了測試點兩下。完整說法是 eat your own dog food，口語直接把 dogfood 當動詞用（we dogfood it、dogfooding loop）。Ebi Atawodi 還補了一個配套詞 cat food——去用競品，培養對整個市場的手感。",
+      "when": "講產品品質怎麼把關、講團隊文化、或說明你是怎麼發現某個問題的時候。也常出現在面試回答裡，用來證明你對產品有第一手判斷。",
+      "trap": "Hamel Husain 說這個詞很危險，因為「說有 dogfood」跟「真的痛到會想修」是兩回事——沒有到切身的程度就沒有意義。另一個現實限制是：如果你做的是醫生或會計師在用的產品，你根本沒辦法 dogfood，這時該誠實說出來並改用其他方法，而不是硬掰。",
+      "usage": [
+        {
+          "quote": "Dog food, meaning using your own product, absolutely a must. Cat food using your competitors or other people in the landscape's products.",
+          "guest": "Ebi Atawodi",
+          "timestamp": "00:30:32",
+          "episode": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=tBPTwUmaxDs&t=1830s",
+          "seek": true
+        },
+        {
+          "quote": "I'll say we eat our own dog food, and that means that we are the first to try every feature, every capability that we're developing. And it's not just our engineering team, it spans across GitHub. So for example, GitHub is running on GitHub.",
+          "guest": "Inbal Shani",
+          "timestamp": "00:17:04",
+          "episode": "The future of AI in software development | Inbal Shani (CPO of GitHub)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=f10s3rxKaJw&t=1022s",
+          "seek": true
+        },
+        {
+          "quote": "Dogfooding is a dangerous one, only because a lot of people will say they're dogfooding. They're like, \"Yeah, we dogfooded,\" but are they, really? A lot of people aren't really dogfooding it at that visceral level that you would need to close that feedback loop.",
+          "guest": "Hamel Husain",
+          "timestamp": "01:16:02",
+          "episode": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=BsWxPI9UM4c&t=4560s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "framing-problem"
+      ]
+    },
+    {
+      "id": "guardrails",
+      "group": "product",
+      "term": "guardrails",
+      "zh": "護欄",
+      "meaning": "有兩個常見用法。一是 guardrail metrics（護欄指標）：你主攻某個數字的同時，另外盯著幾個「不准掉」的數字，避免為了衝一個指標把別的地方搞壞——例如 onboarding 團隊把註冊率拉高 10%，卻讓營收掉了 10%。二是泛指給團隊的界線與原則，讓大家不用每件事都來問你也不會出事。",
+      "when": "設實驗的成功條件、訂 OKR、或跟老闆保證這個改動不會炸掉的時候；談授權與團隊文化時也很常用。",
+      "trap": "台灣人容易把 guardrails 聽成「限制」而覺得是負面詞，但在英文語境裡它幾乎都是正面的——有護欄大家才敢開快。另外別跟 north star 搞混：north star 是你要衝高的，guardrail 是你不能弄壞的，兩個要分開講，否則會議上會越講越模糊。",
+      "usage": [
+        {
+          "quote": "I think north star metrics help because a team can be singularly focused on the most important result for their roadmap and their charter. However, guardrail metrics are equally important.",
+          "guest": "Lauryn Isford",
+          "timestamp": "00:50:15",
+          "episode": "Mastering onboarding | Lauryn Isford (Head of Growth at Airtable)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=dLku0AiGPVA&t=3013s",
+          "seek": true
+        },
+        {
+          "quote": "In this case, this was just a home run that improved revenue, didn't significantly hurt the guardrail metrics. And so we were in awe of what a trivial change. That was the biggest revenue impact to Bing in all its history.",
+          "guest": "Ronny Kohavi",
+          "timestamp": "00:07:22",
+          "episode": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE&t=440s",
+          "seek": true
+        },
+        {
+          "quote": "You talked about creating these principles, which is an awesome approach of just creating guardrails for the team so they think the way the founder and the head of product think.",
+          "guest": "Lenny",
+          "timestamp": "00:16:54",
+          "episode": "The 10 traits of great PMs, how AI will impact your product, and Slack’s product development process | Noah Weiss (Slack, Foursquare, Google)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=XrRlVOWe5GE&t=1012s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "backing-with-evidence",
+        "trade-offs"
+      ]
+    },
+    {
+      "id": "bottoms-up",
+      "group": "product",
+      "term": "bottoms up vs top down",
+      "zh": "由下而上／由上而下",
+      "meaning": "兩種完全不同的用法，靠上下文分辨。講文化與決策時，bottoms up 指點子和優先順序是從第一線團隊長出來的，不是老闆指定。講估算時，指從最小單位一格一格加總出來的數字（例如從每個關鍵字的搜尋量往上推流量），相對於從市場總量往下切的 top-down。B2B 還有第三種：bottom-up go-to-market，先讓基層使用者用起來，再往上賣給公司。",
+      "when": "描述公司文化、解釋你的數字是怎麼估出來的、或討論 B2B 的銷售路徑時。",
+      "trap": "這是最容易聽反的一個。很多公司自稱 bottoms up，實際上大方向還是老闆定的，只是在那個框架內給你自由度——聽到 we're very bottoms up 別急著相信，先問「那誰決定我們做哪三件事」。另外 bottoms up 在餐桌上是「乾杯」的意思，社交場合聽到不是在講決策。",
+      "usage": [
+        {
+          "quote": "I think everyone likes to say that they're bottoms up, or at least a lot of people do, but OpenAI is truly, truly bottoms up.",
+          "guest": "Alexander Embiricos",
+          "timestamp": "00:08:45",
+          "episode": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=523s",
+          "seek": true
+        },
+        {
+          "quote": "So the way most people do SEO forecasting is they do a bottoms-up forecast, which is they look at keywords.",
+          "guest": "Eli Schwartz",
+          "timestamp": "01:37:11",
+          "episode": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=Z71yGshPTwk&t=5829s",
+          "seek": true
+        },
+        {
+          "quote": "People talk about top-down or bottoms-up culture, and it's a bit of a myth, in my opinion. If you've ever met Mark Zuckerberg, it's not a bottoms-up thing. The ideas that we're pursuing are Mark Zuckerberg's ideas, first and foremost.",
+          "guest": "Lenny",
+          "timestamp": "00:24:16",
+          "episode": "Making Meta | Andrew ‘Boz’ Bosworth (CTO)",
+          "isSearch": false,
+          "url": null,
+          "seek": false
+        }
+      ],
+      "relatedFunctions": [
+        "setting-strategy",
+        "backing-with-evidence"
+      ]
+    },
+    {
+      "id": "tailwind",
+      "group": "product",
+      "term": "tailwind / headwind",
+      "zh": "順風／逆風",
+      "meaning": "講一個你控制不了的外部趨勢，對你是助力（tailwind 順風）還是阻力（headwind 逆風）。像疫情之於電商、AI 之於內容平台、產業本身的自然成長之於一個老品牌。重點在它是外生的——不是你做得特別好，是風向對了。",
+      "when": "講策略時機、寫年度計畫、或解釋成長數字為什麼特別好看／特別難看的時候。也很常直接當提問句用：這對我們是順風還是逆風？",
+      "trap": "最大的坑是把 tailwind 當成自己的功勞。成熟的講法是誠實區分「這段成長有多少是風、多少是我們做的」，這在績效面談裡反而加分。另外要注意 Tailwind 也是一個很紅的 CSS 框架，工程師嘴裡的 Tailwind 通常是那個，別聽成順風。",
+      "usage": [
+        {
+          "quote": "Is the rise of AI content a headwind or a tailwind for Instagram versus other platforms? Do you think this helps or hurts you guys?",
+          "guest": "Lenny Rachitsky",
+          "timestamp": "00:40:57",
+          "episode": "Adam Mosseri: AI is a tailwind for authenticity",
+          "isSearch": false,
+          "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+          "seek": false
+        },
+        {
+          "quote": "I think we were prepared for the worst, and we actually caught a bit of the Covid tailwind and a lot of other businesses did, because companies who never had to think about digital marketing all of a sudden had to, and it was urgent.",
+          "guest": "Chris Miller",
+          "timestamp": "01:16:45",
+          "episode": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=SzKKJwuRFZI&t=4603s",
+          "seek": true
+        },
+        {
+          "quote": "So the guy who stayed on this stable brand within the CPG company kept growing, but that has natural tailwinds.",
+          "guest": "KUNAL SHAH",
+          "timestamp": "00:22:00",
+          "episode": "Kunal Shah on winning in India, second-order thinking, the philosophy of startups, and more",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=EgBOVDzUUAA&t=1318s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "making-the-case",
+        "setting-strategy"
+      ]
+    },
+    {
+      "id": "paper-cuts",
+      "group": "product",
+      "term": "rabbit hole",
+      "zh": "越挖越深回不來的坑",
+      "meaning": "一個看起來很小、真的動手才發現沒完沒了的問題。在排程語境裡它是最大的風險來源——不是你工時估錯，是你根本不知道那裡有個洞，Ryan Singer 乾脆把 rabbit hole 跟 time bomb（未爆彈）畫上等號。在會議裡它則是「這題先不展開」的禮貌說法。",
+      "when": "想把一個離題的討論收住時說 that's a whole other rabbit hole；或在排 sprint 時提醒團隊某個方案藏著未知風險；也用來描述工程師鑽進細節出不來。",
+      "trap": "台灣人多半只記得「掉進兔子洞＝分心」，漏掉它在排程語境裡等同「未爆彈」的那一半意思，於是聽不出對方其實在示警。另外語氣要注意：說別人 going down a rabbit hole 帶點批評意味，說自己則是自嘲；用錯對象會有點刺。",
+      "usage": [
+        {
+          "quote": "There's a whole other rabbit hole we can go down on what's the difference between growth marketing and demand gen.",
+          "guest": "Emily Kramer",
+          "timestamp": "00:21:01",
+          "episode": "How to build a powerful marketing machine | Emily Kramer (Asana, Carta, MKT1)",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=gzs61z9Fekw&t=1259s",
+          "seek": true
+        },
+        {
+          "quote": "And it's a fine balance because engineers can really go off and into rabbit holes if you let them.",
+          "guest": "Dhanji R. Prasanna",
+          "timestamp": "01:06:44",
+          "episode": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+          "isSearch": false,
+          "url": "https://www.youtube.com/watch?v=JMeXWVw0r3E&t=4002s",
+          "seek": true
+        }
+      ],
+      "relatedFunctions": [
+        "trade-offs",
+        "running-meeting"
+      ]
+    }
+  ]
+}

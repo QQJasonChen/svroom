@@ -5,6 +5,7 @@ import { cards, cardsFor, getFn, groups } from "@/lib/cards";
 import { conceptsForFunction } from "@/lib/concepts";
 import { phrasesForFunction } from "@/lib/clips";
 import { trapsForFunction } from "@/lib/traps";
+import { jargonForFunction } from "@/lib/jargon";
 
 export function generateStaticParams() {
   // 只為「有卡片」的功能產頁面，避免 build 出一堆空頁
@@ -38,6 +39,7 @@ export default async function FunctionPage({
   const clipPhrases = phrasesForFunction(fn);
   const relatedConcepts = conceptsForFunction(fn);
   const relatedTraps = trapsForFunction(fn);
+  const relatedJargon = jargonForFunction(fn);
   const group = groups.find((g) => g.id === entry.group.id)!;
   const siblings = group.functions.filter(
     (f) => f.id !== fn && cards.some((c) => c.fn === f.id),
@@ -104,6 +106,27 @@ export default async function FunctionPage({
           <CardView key={card.id} card={card} n={i + 1} />
         ))}
       </div>
+
+      {relatedJargon.length > 0 && (
+        <section className="mt-14 pt-7 border-t border-rule">
+          <p className="rule-label mb-1">這個場合會聽到的黑話</p>
+          <p className="text-[12.5px] text-ink-3 mb-4">
+            每個字你都懂，合起來卻不知道在講什麼的那些。
+          </p>
+          <div className="grid gap-px bg-rule border border-rule sm:grid-cols-2">
+            {relatedJargon.map((t) => (
+              <Link
+                key={t.id}
+                href={`/jargon/${t.id}/`}
+                className="bg-paper px-4 py-3.5 hover:bg-rust-soft transition-colors"
+              >
+                <span className="font-serif text-[14.5px] text-rust">{t.term}</span>
+                <p className="mt-0.5 text-[13px] font-medium">{t.zh}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {relatedTraps.length > 0 && (
         <section className="mt-14 pt-7 border-t border-rule">
