@@ -190,6 +190,108 @@ const writingGroupOf = new Map(
 );
 const writingCards = [];
 
+// ===================== 力道刻度尺 =====================
+// 給已經有一定英文程度的人。初學者的問題是「講不出來」，
+// 進階者的問題是 calibration——同一個意思有五種力道，選錯不是不禮貌，
+// 是燒掉信用或燒掉關係。中文的力道靠語氣詞與關係調節，英文靠選字，
+// 所以台灣人在英文裡幾乎沒有這把尺。
+const scaleFiles = readdirSync(RAW_DIR)
+  .filter((f) => f.startsWith("scales-") && f.endsWith(".json"))
+  .sort();
+
+const scales = [];
+const scaleIssues = [];
+
+for (const file of scaleFiles) {
+  let batch;
+  try {
+    batch = JSON.parse(readFileSync(join(RAW_DIR, file), "utf8"));
+  } catch (e) {
+    console.error(`✗ ${file} 不是合法 JSON：${e.message}`);
+    process.exitCode = 1;
+    continue;
+  }
+  for (const raw of Array.isArray(batch) ? batch : [batch]) {
+    if (!raw?.fn || !Array.isArray(raw.levels)) {
+      scaleIssues.push(`${file}: 結構不完整`);
+      continue;
+    }
+    if (!validFunctions.has(raw.fn)) {
+      scaleIssues.push(`${file}: 未知 function「${raw.fn}」`);
+      continue;
+    }
+
+    const levels = [];
+    for (const lv of raw.levels) {
+      if (!lv?.zh) continue;
+      const examples = [];
+      for (const e of Array.isArray(lv.examples) ? lv.examples : []) {
+        if (!e?.quote || !e.source_file) continue;
+        const qw = wordCount(e.quote);
+        const usedSrc = sourceWords.get(e.source_file) || 0;
+        const quota = quotaFor(e.source_file);
+        if (qw > MAX_QUOTE_WORDS) {
+          scaleIssues.push(`${file}: 例句 ${qw} 字超標，已略過`);
+          continue;
+        }
+        if (usedSrc + qw > quota) {
+          scaleIssues.push(`${file}: 來源 ${e.source_file} 額度已滿，已略過一則`);
+          continue;
+        }
+        sourceWords.set(e.source_file, usedSrc + qw);
+        if (e.guest) guestWords.set(e.guest, (guestWords.get(e.guest) || 0) + qw);
+        const src = sourceByFile.get(e.source_file);
+        examples.push({
+          quote: e.quote.trim(),
+          guest: resolveGuest(e.guest, e.source_file),
+          timestamp: e.timestamp || null,
+          episode: src?.episode || null,
+          isSearch: !!src?.isSearch,
+          ...withTimestamp(src?.url || null, e.timestamp),
+        });
+      }
+      if (examples.length === 0) continue;
+      levels.push({
+        n: lv.n ?? levels.length + 1,
+        zh: lv.zh.trim(),
+        force: lv.force || null,
+        when: lv.when ? lv.when.trim() : null,
+        // 用錯的代價——這一層最值錢的欄位
+        risk: lv.risk ? lv.risk.trim() : null,
+        examples,
+      });
+    }
+    if (levels.length === 0) {
+      scaleIssues.push(`${file}: 沒有可用的等級`);
+      continue;
+    }
+    scales.push({
+      fn: raw.fn,
+      zh: raw.zh || raw.fn,
+      intro: raw.intro || "",
+      axis: raw.axis || "",
+      levels,
+    });
+  }
+}
+
+writeFileSync(
+  join(ROOT, "data", "scales.json"),
+  JSON.stringify({ count: scales.length, scales }, null, 2) + "\n",
+);
+
+if (scaleFiles.length > 0) {
+  console.log(
+    `\n✓ 力道刻度尺：${scales.length} 把，共 ${scales.reduce((n, s) => n + s.levels.length, 0)} 級、${scales.reduce((n, s) => n + s.levels.reduce((m, l) => m + l.examples.length, 0), 0)} 則例句`,
+  );
+  if (scaleIssues.length) {
+    console.log(`⚠ 刻度尺問題 ${scaleIssues.length} 筆：`);
+    for (const m of scaleIssues.slice(0, 5)) console.log(`  ${m}`);
+  }
+} else {
+  console.log("\n⚠ 還沒有力道刻度尺（data/raw/scales-*.json）");
+}
+
 // ===================== 中文腦陷阱層 =====================
 // 這一層是產品真正「給華人」的地方：針對中文思維直譯過去會出什麼事。
 // 佐證引文一樣走同一條授權線（單一作品 4%），過不了就只捨棄引文、保留內容——

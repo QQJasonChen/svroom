@@ -1,5 +1,5 @@
 {
-  "count": 606,
+  "count": 607,
   "categories": [
     {
       "id": "refuse",
@@ -354,6 +354,13 @@
           "line": "I looked ahead, Uber was going to have a really bad year, I'm going to have to manage morale."
         },
         {
+          "v": "I-R1bc1rlFs",
+          "t": 470,
+          "sp": "Jason Lemkin",
+          "ep": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+          "line": "Too many producty founders find that, \"Hey, gosh, I'm going to have to do sales,\" and they exit it."
+        },
+        {
           "v": "V7tnbx-6Ayc",
           "t": 675,
           "sp": "Kim Scott",
@@ -380,13 +387,6 @@
           "sp": "Nancy Duarte",
           "ep": "Storytelling with Nancy Duarte: How to craft compelling presentations and tell a story that sticks",
           "line": "And what's going to happen is if that doesn't happen, I'm going to have to reschedule next week and next week it's just loaded up."
-        },
-        {
-          "v": "bhnfZhJWCWY",
-          "t": 4925,
-          "sp": "Nikita Bier",
-          "ep": "How to consistently go viral: Nikita Bier’s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor)",
-          "line": "I think I'm going to have to..."
         }
       ]
     },
@@ -497,13 +497,6 @@
           "line": "Yeah, I think that's right because I think so much of the work in a platform team is not exactly product work."
         },
         {
-          "v": "8xLquwfx6p0",
-          "t": 3657,
-          "sp": "Jason Cohen",
-          "ep": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-          "line": "Yeah, I think that's right."
-        },
-        {
           "v": "CsruQYKISYI",
           "t": 1536,
           "sp": "Jeremy Henrickson",
@@ -523,6 +516,13 @@
           "sp": "Marc Andreessen",
           "ep": "Marc Andreessen: The real AI boom hasn’t even started yet",
           "line": "Yeah, I think that's right."
+        },
+        {
+          "v": "zKP2HrMc23s",
+          "t": 1198,
+          "sp": "Sachin Monga",
+          "ep": "Building Substack | Sachin Monga (Substack, Facebook)",
+          "line": "I think that's right, or at least there are different types of second order effects."
         }
       ]
     },
@@ -1073,75 +1073,6 @@
       ]
     },
     {
-      "p": "let me tell you",
-      "cat": "setup",
-      "display": "Let me tell you",
-      "fns": [
-        "coaching-questions"
-      ],
-      "total": 16,
-      "episodes": 8,
-      "speakers": 8,
-      "hits": [
-        {
-          "v": "wP8YyWH524A",
-          "t": 1786,
-          "sp": "Adam Fishman",
-          "ep": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
-          "line": "And so let me tell you an execution story about Ben really quick."
-        },
-        {
-          "v": "dkVJnaxDlXE",
-          "t": 571,
-          "sp": "Andy Raskin",
-          "ep": "The power of strategic narrative | Andy Raskin",
-          "line": "Let me tell you why it's so great."
-        },
-        {
-          "v": "gCEaUfZUuI0",
-          "t": 178,
-          "sp": "Lenny",
-          "ep": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
-          "line": "Then let me tell you about Stych, and that's stitch with a Y."
-        },
-        {
-          "v": "adyIaTopO6g",
-          "t": 4176,
-          "sp": "David Placek",
-          "ep": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
-          "line": "So, it should be Prochip.\" So Andy had me give a presentation about the strengths of this thing, and he said, \"Now, let me tell you why I think this is the right name.\" (01:09:56):"
-        },
-        {
-          "v": "PDobJV8wh1g",
-          "t": 4750,
-          "sp": "Gaurav Misra",
-          "ep": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
-          "line": "Let me tell you something crazy, actually."
-        },
-        {
-          "v": "zn2JNbZwf00",
-          "t": 1515,
-          "sp": "Jules Walter",
-          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
-          "line": "Let me tell you what's going on in my own head when I see that.\" And then he was like, \"Hey, I'm telling myself that he's not interested in what we're doing.\" And I'm like, \"Really?"
-        },
-        {
-          "v": "0XNkUdzxiZI",
-          "t": 3667,
-          "sp": "Lazar Jovanovic",
-          "ep": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-          "line": "Because let me tell you this."
-        },
-        {
-          "v": "tOGK1nlHdFo",
-          "t": 1508,
-          "sp": "Marc Benioff",
-          "ep": "Behind the founder: Marc Benioff",
-          "line": "Let me tell you the story about Disney."
-        }
-      ]
-    },
-    {
       "p": "the answer is no",
       "cat": "refuse",
       "display": "The answer is no",
@@ -1255,6 +1186,13 @@
           "line": "Before we get into that actually, just to make sure people know exactly what you're describing there, these two types of evals."
         },
         {
+          "v": "I-R1bc1rlFs",
+          "t": 798,
+          "sp": "Lenny",
+          "ep": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+          "line": "So just to make sure I understand what that means, in the middle of the conversation, you're not great at initiating, you're not great at closing, but you could talk about it."
+        },
+        {
           "v": "zn2JNbZwf00",
           "t": 1894,
           "sp": "Jules Walter",
@@ -1267,13 +1205,75 @@
           "sp": "Kevin Aluwi",
           "ep": "Taxi mafias, cash vaults, and 100% MoM growth: The story behind Southeast Asia’s biggest startup | Kevin Aluwi (Gojek)",
           "line": "We actually ran this very operation intensive thing just to make sure that our drivers could be as safe as possible and it showed our commitment to the driver community, it showed our commitment that we cared."
+        }
+      ]
+    },
+    {
+      "p": "let me tell you",
+      "cat": "setup",
+      "display": "Let me tell you",
+      "fns": [
+        "coaching-questions"
+      ],
+      "total": 17,
+      "episodes": 8,
+      "speakers": 8,
+      "hits": [
+        {
+          "v": "wP8YyWH524A",
+          "t": 1786,
+          "sp": "Adam Fishman",
+          "ep": "How to build a high-performing growth team | Adam Fishman (Patreon, Lyft, Imperfect Foods)",
+          "line": "And so let me tell you an execution story about Ben really quick."
         },
         {
-          "v": "XmgetFMgQZ0",
-          "t": 958,
+          "v": "dkVJnaxDlXE",
+          "t": 571,
+          "sp": "Andy Raskin",
+          "ep": "The power of strategic narrative | Andy Raskin",
+          "line": "Let me tell you why it's so great."
+        },
+        {
+          "v": "gCEaUfZUuI0",
+          "t": 178,
           "sp": "Lenny",
-          "ep": "What sets great teams apart | Lane Shackleton (CPO of Coda)",
-          "line": "And then just to make sure I heard you right, these five stages are roughly the same across role, so designers have the same five and they're described similarly."
+          "ep": "Category creation and brand building | Barbra Gago (Pando, Miro, Greenhouse, Culture Amp)",
+          "line": "Then let me tell you about Stych, and that's stitch with a Y."
+        },
+        {
+          "v": "adyIaTopO6g",
+          "t": 4176,
+          "sp": "David Placek",
+          "ep": "Naming expert shares the process behind creating billion-dollar brand names like Azure, Vercel, Windsurf, Sonos, Blackberry, and Impossible Burger | David Placek (Lexicon Branding)",
+          "line": "So, it should be Prochip.\" So Andy had me give a presentation about the strengths of this thing, and he said, \"Now, let me tell you why I think this is the right name.\" (01:09:56):"
+        },
+        {
+          "v": "PDobJV8wh1g",
+          "t": 4750,
+          "sp": "Gaurav Misra",
+          "ep": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
+          "line": "Let me tell you something crazy, actually."
+        },
+        {
+          "v": "zn2JNbZwf00",
+          "t": 1515,
+          "sp": "Jules Walter",
+          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+          "line": "Let me tell you what's going on in my own head when I see that.\" And then he was like, \"Hey, I'm telling myself that he's not interested in what we're doing.\" And I'm like, \"Really?"
+        },
+        {
+          "v": "0XNkUdzxiZI",
+          "t": 3667,
+          "sp": "Lazar Jovanovic",
+          "ep": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
+          "line": "Because let me tell you this."
+        },
+        {
+          "v": "tOGK1nlHdFo",
+          "t": 1508,
+          "sp": "Marc Benioff",
+          "ep": "Behind the founder: Marc Benioff",
+          "line": "Let me tell you the story about Disney."
         }
       ]
     },
@@ -1458,6 +1458,13 @@
           "line": "So just to summarize, the metrics that you find to be most helpful in tracking marketplace health, there's these two that are just general business health metrics, GMV and unit economics."
         },
         {
+          "v": "tBPTwUmaxDs",
+          "t": 2282,
+          "sp": "Lenny",
+          "ep": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+          "line": "Okay, so just to summarize some of the tips you've shared on this empathize step."
+        },
+        {
           "v": "7l1fIxk7SnA",
           "t": 1432,
           "sp": "Lenny",
@@ -1470,13 +1477,6 @@
           "sp": "Lenny",
           "ep": "The ultimate guide to adding a PLG motion | Hila Qu (Reforge, GitLab)",
           "line": "So just to summarize the audit that you do, I wrote some notes as you were talking, and maybe we can keep going from that point."
-        },
-        {
-          "v": "4muxFVZ4XfM",
-          "t": 2706,
-          "sp": "Lenny",
-          "ep": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
-          "line": "So just to summarize so far, you have no metrics, you have no experiments, you have essentially no PMs, just one product leader."
         }
       ]
     },
@@ -2142,6 +2142,13 @@
           "line": "And so I make it very clear when I talk to founders, this is how I'm going to help."
         },
         {
+          "v": "8xLquwfx6p0",
+          "t": 818,
+          "sp": "Jason Cohen",
+          "ep": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+          "line": "And what I find is when I talk to people, especially on Twitter or something where people are just yapping around whatever they're doing, I say things like anything above 3% per month cancellation is terrible."
+        },
+        {
           "v": "zn2JNbZwf00",
           "t": 3814,
           "sp": "Jules Walter",
@@ -2154,13 +2161,6 @@
           "sp": "Marc Benioff",
           "ep": "Behind the founder: Marc Benioff",
           "line": "Then, when I talk to my doctors and nurses at UCSF, they're all burnt out post-pandemic because they're scheduling pajama time to go through all their digital messages at night."
-        },
-        {
-          "v": "ixY2PvQJ0To",
-          "t": 4130,
-          "sp": "Lenny Rachitsky",
-          "ep": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
-          "line": "This came up actually when I talk to a lot of people about you, is this something you're really big on."
         }
       ]
     },
@@ -2322,6 +2322,13 @@
           "line": "And if I had to pick one meeting that as the most important in the growth team, it would be this."
         },
         {
+          "v": "X-83gvgVaWc",
+          "t": 525,
+          "sp": "Bob Baxley",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "If I had to do it again, I could probably do better at Pinterest."
+        },
+        {
           "v": "ja6fWTDPQl4",
           "t": 2424,
           "sp": "Brendan Foody",
@@ -2355,13 +2362,6 @@
           "sp": "Chris Miller",
           "ep": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
           "line": "And so, if I had to guess how people might talk about that, if I wasn't in the room, maybe they would cite that, but it's tough to say."
-        },
-        {
-          "v": "Auxs8ZsHRI4",
-          "t": 4234,
-          "sp": "Dr. Becky Kennedy",
-          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-          "line": "I think certain ideas I have or stories I tell can be really impactful to people, but if I had to choose between that versus what happens in our community, I would bet on the community every time."
         }
       ]
     },
@@ -2608,13 +2608,6 @@
           "line": "And so I would say the core foundations aren't something we revisit a lot, but we're continually adding new features and we have to think about what tiers should they go in, what does that look like?"
         },
         {
-          "v": "m7LvNTbaqSI",
-          "t": 3292,
-          "sp": "Lenny Rachitsky",
-          "ep": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-          "line": "What does that look like?"
-        },
-        {
           "v": "JMeXWVw0r3E",
           "t": 559,
           "sp": "Lenny Rachitsky",
@@ -2634,6 +2627,13 @@
           "sp": "Ebi Atawodi",
           "ep": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
           "line": "But now doing that for the whole world, what does that look like?"
+        },
+        {
+          "v": "3H0ngGU5pbM",
+          "t": 3897,
+          "sp": "Lenny Rachitsky",
+          "ep": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+          "line": "What does that look like?"
         }
       ]
     },
@@ -2850,7 +2850,7 @@
       "display": "Why do you think",
       "fns": [],
       "total": 38,
-      "episodes": 7,
+      "episodes": 6,
       "speakers": 4,
       "hits": [
         {
@@ -2866,6 +2866,20 @@
           "sp": "Lenny",
           "ep": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
           "line": "Why do you think it is that not more companies have an APM program?"
+        },
+        {
+          "v": "X-83gvgVaWc",
+          "t": 47,
+          "sp": "Lenny Rachitsky",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "Why do you Think that people that have left Apple, a lot of amazing things haven't emerged?"
+        },
+        {
+          "v": "X-83gvgVaWc",
+          "t": 377,
+          "sp": "Lenny Rachitsky",
+          "ep": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+          "line": "Why do you think that people that have left Apple, a lot of amazing things haven't emerged from people that have left?"
         },
         {
           "v": "3UyitfSbY6c",
@@ -2894,20 +2908,6 @@
           "sp": "Christina Wodtke",
           "ep": "The ultimate guide to OKRs | Christina Wodtke (Stanford)",
           "line": "And then you can say, \"Well, why do you think that's important?"
-        },
-        {
-          "v": "mS4B541m9xg",
-          "t": 4255,
-          "sp": "Lenny",
-          "ep": "How to become a category pirate | Christopher Lochhead (author of Play Bigger, Niche Down, Category Pirates, more)",
-          "line": "Why do you think it's such a dangerous idea?"
-        },
-        {
-          "v": "m7LvNTbaqSI",
-          "t": 315,
-          "sp": "Lenny Rachitsky",
-          "ep": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-          "line": "Why do you think founders need to hear this advice, which is seemingly simple and obvious?"
         }
       ]
     },
@@ -2989,8 +2989,15 @@
       ],
       "total": 54,
       "episodes": 8,
-      "speakers": 5,
+      "speakers": 6,
       "hits": [
+        {
+          "v": "VxAwUb86MUE",
+          "t": 2891,
+          "sp": "Andrew Wilkinson",
+          "ep": "I’ve run 75+ businesses. Here’s why you’re probably chasing the wrong idea. | Andrew Wilkinson (co‑founder of Tiny)",
+          "line": "You can literally go into it and say, \"I want to make a website for my sound software business."
+        },
         {
           "v": "-tUIGpgmsZw",
           "t": 544,
@@ -3039,13 +3046,6 @@
           "sp": "Lenny Rachitsky",
           "ep": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
           "line": "By the way, I want to make it clear, I love Claude."
-        },
-        {
-          "v": "PDobJV8wh1g",
-          "t": 5010,
-          "sp": "Lenny Rachitsky",
-          "ep": "How to win in the AI era: Ship a feature every week, embrace technical debt, ruthlessly cut scope, and create magic your competitors can't copy | Gaurav Misra (CEO and co-founder of Captions)",
-          "line": "I have to resist following threads here because I want to make this lightning round."
         }
       ]
     },
@@ -3426,6 +3426,68 @@
       ]
     },
     {
+      "p": "at the end of the day it",
+      "cat": "setup",
+      "display": "At the end of the day it collapses into three options",
+      "fns": [
+        "setting-strategy"
+      ],
+      "total": 12,
+      "episodes": 7,
+      "speakers": 7,
+      "hits": [
+        {
+          "v": "J9UWaltU-7Q",
+          "t": 2299,
+          "sp": "Asha Sharma",
+          "ep": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+          "line": "Same Instacart, there are so many loved features of Instacart, but at the end of the day, it's a billion items that updates 3,000 times every single minute to get homeowners their groceries from the store that they love."
+        },
+        {
+          "v": "Auxs8ZsHRI4",
+          "t": 353,
+          "sp": "Dr. Becky Kennedy",
+          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+          "line": "But at the end of the day, it's a set of core principles that help us better understand human beings, ourself, the core relationships we're in, why we do the things we do and why we act the way we do in certain systems."
+        },
+        {
+          "v": "gLFZNzeylCc",
+          "t": 2345,
+          "sp": "Jiaona Zhang",
+          "ep": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM | Jiaona Zhang (Webflow, WeWork, Airbnb, Dropbox)",
+          "line": "At the end of the day, it's about booking."
+        },
+        {
+          "v": "XkMbkWG2ca4",
+          "t": 2530,
+          "sp": "Logan Kilpatrick",
+          "ep": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
+          "line": "And at the end of the day, it's so exciting, from being a consumer of all these new AI products."
+        },
+        {
+          "v": "ts9ZvlkeWGs",
+          "t": 469,
+          "sp": "Matt LeMay",
+          "ep": "The one question that saves product careers | Matt LeMay",
+          "line": "It's important because at the end of the day, it is those business critical outcomes against which you and your team will be evaluated."
+        },
+        {
+          "v": "twzLDx9iers",
+          "t": 3998,
+          "sp": "Molly Graham",
+          "ep": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+          "line": "And it feels kind or, really, honestly, easy to avoid these things or to work around them or to not but, at the end of the day, it's basically just a drag, the barnacle thing."
+        },
+        {
+          "v": "RJ3iPWo3-8M",
+          "t": 2600,
+          "sp": "Ray Cao",
+          "ep": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
+          "line": "I think at the end of the day it's a personal choice."
+        }
+      ]
+    },
+    {
       "p": "if i told you",
       "cat": "opinion",
       "display": "If I told you",
@@ -3801,61 +3863,6 @@
           "sp": "Uri Levine",
           "ep": "Lessons from a two-time unicorn builder, 50-time startup advisor, and 20-time company board member | Uri Levine (co-founder of Waze)",
           "line": "By the way, I can tell you that for everything in your life, right?"
-        }
-      ]
-    },
-    {
-      "p": "at the end of the day it",
-      "cat": "setup",
-      "display": "At the end of the day it collapses into three options",
-      "fns": [
-        "setting-strategy"
-      ],
-      "total": 12,
-      "episodes": 6,
-      "speakers": 6,
-      "hits": [
-        {
-          "v": "J9UWaltU-7Q",
-          "t": 2299,
-          "sp": "Asha Sharma",
-          "ep": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
-          "line": "Same Instacart, there are so many loved features of Instacart, but at the end of the day, it's a billion items that updates 3,000 times every single minute to get homeowners their groceries from the store that they love."
-        },
-        {
-          "v": "Auxs8ZsHRI4",
-          "t": 353,
-          "sp": "Dr. Becky Kennedy",
-          "ep": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-          "line": "But at the end of the day, it's a set of core principles that help us better understand human beings, ourself, the core relationships we're in, why we do the things we do and why we act the way we do in certain systems."
-        },
-        {
-          "v": "gLFZNzeylCc",
-          "t": 2345,
-          "sp": "Jiaona Zhang",
-          "ep": "Building minimum lovable products, stories from WeWork and Airbnb, and thriving as a PM | Jiaona Zhang (Webflow, WeWork, Airbnb, Dropbox)",
-          "line": "At the end of the day, it's about booking."
-        },
-        {
-          "v": "XkMbkWG2ca4",
-          "t": 2530,
-          "sp": "Logan Kilpatrick",
-          "ep": "Inside OpenAI | Logan Kilpatrick (head of developer relations)",
-          "line": "And at the end of the day, it's so exciting, from being a consumer of all these new AI products."
-        },
-        {
-          "v": "ts9ZvlkeWGs",
-          "t": 469,
-          "sp": "Matt LeMay",
-          "ep": "The one question that saves product careers | Matt LeMay",
-          "line": "It's important because at the end of the day, it is those business critical outcomes against which you and your team will be evaluated."
-        },
-        {
-          "v": "RJ3iPWo3-8M",
-          "t": 2600,
-          "sp": "Ray Cao",
-          "ep": "Inside TikTok: Culture, strategy, monetization, and more | Ray Cao (Global Head of Monetization Product Strategy and Operations)",
-          "line": "I think at the end of the day it's a personal choice."
         }
       ]
     },
@@ -4466,6 +4473,45 @@
       ]
     },
     {
+      "p": "what i've found is",
+      "cat": "opinion",
+      "display": "What I've found is",
+      "fns": [],
+      "total": 9,
+      "episodes": 4,
+      "speakers": 4,
+      "hits": [
+        {
+          "v": "-PDsvl2WCZU",
+          "t": 4049,
+          "sp": "Adam Grenier",
+          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
+          "line": "And so what I've found is that I really love entrepreneurs and working really closely with entrepreneurs and helping them figure out all of these funky things that I've been able to see over the last 20 years and maneuver."
+        },
+        {
+          "v": "WFLH8Af2f30",
+          "t": 5387,
+          "sp": "Chandra Janakiraman",
+          "ep": "An operator’s guide to product strategy | Chandra Janakiraman (CPO at VRChat, ex-Meta, Headspace, Zynga)",
+          "line": "What I've found is that it's, one, surprisingly good."
+        },
+        {
+          "v": "zn2JNbZwf00",
+          "t": 3486,
+          "sp": "Jules Walter",
+          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
+          "line": "How do you get the foot in the door?\" And what I've found is you should make the smallest ask possible, which is the opposite of what 95% of people do."
+        },
+        {
+          "v": "xZifSLGOrrw",
+          "t": 1180,
+          "sp": "Nilan Peiris",
+          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
+          "line": "But, what I've found is when you build a product, most founders, and most teams kind of stop when it works."
+        }
+      ]
+    },
+    {
       "p": "i still think it's",
       "cat": "stand",
       "display": "I still think it's",
@@ -4724,72 +4770,6 @@
       ]
     },
     {
-      "p": "i don't know if i have",
-      "cat": "hedge",
-      "display": "I don't know if I have",
-      "fns": [
-        "asking-for-advice"
-      ],
-      "total": 6,
-      "episodes": 3,
-      "speakers": 3,
-      "hits": [
-        {
-          "v": "iT7kq-R3Gjc",
-          "t": 2575,
-          "sp": "Lenny Rachitsky",
-          "ep": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-          "line": "Such a good point, because I don't know if I have competitors in this exact space, but basically they would show up instead and then I lose all that traffic."
-        },
-        {
-          "v": "-kHkWgjGD7U",
-          "t": 3819,
-          "sp": "Nancy Duarte",
-          "ep": "Storytelling with Nancy Duarte: How to craft compelling presentations and tell a story that sticks",
-          "line": "I don't know if I have this much fight in me to make this all work, not fight with each other, but like, oh my God, I'm having to overcome this roadblock and that roadblock and we have to go get that budget."
-        },
-        {
-          "v": "zKP2HrMc23s",
-          "t": 635,
-          "sp": "Sachin Monga",
-          "ep": "Building Substack | Sachin Monga (Substack, Facebook)",
-          "line": "I don't know if I have the recipe for this, but I can just maybe share a few of the things that come to mind."
-        }
-      ]
-    },
-    {
-      "p": "what i've found is",
-      "cat": "opinion",
-      "display": "What I've found is",
-      "fns": [],
-      "total": 9,
-      "episodes": 3,
-      "speakers": 3,
-      "hits": [
-        {
-          "v": "-PDsvl2WCZU",
-          "t": 4049,
-          "sp": "Adam Grenier",
-          "ep": "When and how to invest in new acquisition channels | Adam Grenier (Uber, MasterClass)",
-          "line": "And so what I've found is that I really love entrepreneurs and working really closely with entrepreneurs and helping them figure out all of these funky things that I've been able to see over the last 20 years and maneuver."
-        },
-        {
-          "v": "zn2JNbZwf00",
-          "t": 3486,
-          "sp": "Jules Walter",
-          "ep": "Leveraging mentors to uplevel your career | Jules Walter (YouTube, Slack)",
-          "line": "How do you get the foot in the door?\" And what I've found is you should make the smallest ask possible, which is the opposite of what 95% of people do."
-        },
-        {
-          "v": "xZifSLGOrrw",
-          "t": 1180,
-          "sp": "Nilan Peiris",
-          "ep": "How to drive word of mouth | Nilan Peiris (CPO of Wise)",
-          "line": "But, what I've found is when you build a product, most founders, and most teams kind of stop when it works."
-        }
-      ]
-    },
-    {
       "p": "can you say more",
       "cat": "ask",
       "display": "Can you say more",
@@ -4917,6 +4897,33 @@
           "sp": "Fareed Mosavat",
           "ep": "How to build trust and grow as a product leader | Fareed Mosavat (Reforge, Slack, Instacart, Zynga, Pixar)",
           "line": "You have to shift from, \"My job is to do the work,\" to, \"My job is to make the work better."
+        }
+      ]
+    },
+    {
+      "p": "i'll just say it as plainly as",
+      "cat": "opinion",
+      "display": "I'll just say it as plainly as possible: they don't care about you. They care about",
+      "fns": [
+        "framing-problem"
+      ],
+      "total": 2,
+      "episodes": 1,
+      "speakers": 1,
+      "hits": [
+        {
+          "v": "LZLdoAq3R7Y",
+          "t": 0,
+          "sp": "Jason Feifer",
+          "ep": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+          "line": "The editor, the writer, I'll just say it as plainly as possible."
+        },
+        {
+          "v": "LZLdoAq3R7Y",
+          "t": 904,
+          "sp": "Jason Feifer",
+          "ep": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+          "line": "The editor, the writer, I'll just say it as plainly as possible, they don't care about you."
         }
       ]
     },

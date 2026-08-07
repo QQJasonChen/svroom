@@ -1,0 +1,757 @@
+{
+  "count": 4,
+  "scales": [
+    {
+      "fn": "hard-feedback",
+      "zh": "給難聽的回饋",
+      "intro": "英文的回饋力道不是靠語氣調的，是靠「你把問題掛在誰身上」。同一件事可以說成「這是制度的問題」，也可以說成「這是你的問題，不改就沒得談」，中間整整有五格。台灣人習慣把力道藏在語氣詞與關係裡，換到英文常常只剩兩檔——不是輕到對方根本沒收到，就是一步跳到最重那格。而選錯的代價是不對稱的：太輕，你講了等於沒講，三個月後同一個問題還在，對方還會說「你從來沒跟我講過」；太重，事情也許真的會改，但你會用掉一段關係，而那段關係通常比那件事貴。",
+      "axis": "力道 = 這句話把問題掛在誰身上、掛得多深：從掛在制度上（不指人），到掛在一個可觀察的行為，到掛在你的做法（但先鋪緩衝），到掛在你這個人，最後到掛上「不改會發生什麼」。",
+      "levels": [
+        {
+          "n": 1,
+          "zh": "掛在制度上，不掛人",
+          "force": "很輕",
+          "when": "用在對方是同儕、跨部門、或你根本還沒有立場直接說他的時候。主詞一律是 the problem／people／PMs，不是 you，目的是讓問題被看見，但不需要任何人當場認錯。對方會理解成「我們在討論一個現象」，防衛不會被啟動——代價是也沒人覺得自己被點到。",
+          "risk": "對方多半聽不出你在講他，你以為講過了、其實沒有；下次同一件事再發生，你連「我提醒過」都說不出口。",
+          "examples": [
+            {
+              "quote": "And I think I want to be clear, in my mind the problem is obviously not about the practitioners, it's systemic.",
+              "guest": "Benjamin Lauzier",
+              "timestamp": "01:13:19",
+              "episode": "How marketplaces win: Liquidity, growth levers, quality, and more | Benjamin Lauzier (Lyft, Thumbtack, Reforge)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=CYwgStMln6U&t=4397s",
+              "seek": true
+            },
+            {
+              "quote": "I would say there are a few things that PMs do that annoy engineers and to be clear, I am sure that engineers annoy PMs, just as much.",
+              "guest": "Camille Fournier",
+              "timestamp": "00:02:42",
+              "episode": "The things engineers are desperate for PMs to understand | Camille Fournier (author of “The Manager’s Path,” ex-CTO at Rent the Runway)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=hZSh0rs20uI&t=160s",
+              "seek": true
+            },
+            {
+              "quote": "And it's not because people are bad people. I think most people are really well-intentioned. But what happens when you have people that join and you didn't really need them?",
+              "guest": "Varun Mohan",
+              "timestamp": "00:24:40",
+              "episode": "Building a magical AI code editor used by over 1 million developers in four months: The untold story of Windsurf | Varun Mohan (co-founder and CEO)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=5Z0RCxDZdrE&t=1478s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "zh": "只講你看到的那個行為",
+          "force": "輕",
+          "when": "你要讓對方確定你點到的是他，但還不想下判斷。只講可以被錄影回放的事實——哪幾次會議、做了什麼、發生幾次——然後把解釋權交還給他。對方會理解成「他有在看，而且記得細節」，通常會自己補上原因，你就拿到了真正的資訊。",
+          "risk": "只描述不表態，對方一句解釋就能把事情結掉；如果你心裡其實已經有結論卻沒說出口，下次再提會被當成翻舊帳。",
+          "examples": [
+            {
+              "quote": "For example, I noticed that in the last three sprint planning meetings, you didn't invite me to those conversations or share with me the roadmap.",
+              "guest": "Rachel Lockett",
+              "timestamp": "01:13:54",
+              "episode": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=1GDVum5IarI&t=4432s",
+              "seek": true
+            },
+            {
+              "quote": "I asked her once, I said, \"I noticed that you never answer questions when we do these presentations.\"",
+              "guest": "Deb Liu",
+              "timestamp": "00:35:28",
+              "episode": "How to own your career growth and become a powerful product leader | Deb Liu, Ancestry (ex-Facebook, PayPal)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "Hey, here's what I'm seeing and tell me what's going on for you.",
+              "guest": "Molly Graham",
+              "timestamp": "00:44:24",
+              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=2662s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "zh": "下判斷，但先鋪好緩衝",
+          "force": "中",
+          "when": "你確定要說出評價，但要控制它落地的力道。做法是在難聽的話前面先掛一個標記：預告這句會刺（Maybe this is a harsh thing to say）、把它降級成「別人怎麼看你」而不是「你就是這樣」、或先認可對方的立場再轉折。對方會理解成「這是他的判斷，不是判決」，還有辯的空間。",
+          "risk": "緩衝鋪太厚，重點會被吃掉——對方只記得你說「我很尊重你」，沒記得你說「這個決定不行」。",
+          "examples": [
+            {
+              "quote": "Maybe this is a harsh thing to say, but I think very few companies have the talent caliber to be able to do that. So it might need to be adjusted if you were going to implement this.",
+              "guest": "Alexander Embiricos",
+              "timestamp": "00:11:02",
+              "episode": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=xeZDHGjG5zM&t=660s",
+              "seek": true
+            },
+            {
+              "quote": "Hey, well this is how other people perceive you including me, but maybe this is not what you are intending...",
+              "guest": "Anneka Gupta",
+              "timestamp": "00:50:04",
+              "episode": "Becoming more strategic, navigating difficult colleagues, harnessing founder mode, and more | Anneka Gupta (Chief Product Officer at Rubrik)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=E3dUveqt9Bw&t=3002s",
+              "seek": true
+            },
+            {
+              "quote": "I respect that, and I relate to it in some ways with my own trying to get attention for my own work. But, \"I deserve this\" that's not a good tactical decision for your business.",
+              "guest": "Jason Feifer",
+              "timestamp": "00:09:55",
+              "episode": "How to get press for your product | Jason Feifer (editor in chief of Entrepreneur magazine)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=LZLdoAq3R7Y&t=593s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "zh": "直接掛在你身上",
+          "force": "重",
+          "when": "前面三級試過沒用，或事情大到沒時間再繞。句子的主詞就是 you，動詞是 you were wrong／you have to stop／it is your fault，中間不放 maybe、not sure、I think 這類軟墊。對方會理解成：這件事已經有結論了，現在要談的是怎麼改。",
+          "risk": "這一級只有在你已經存夠信任時才付得起；沒有那個底，同一句話會被聽成人身攻擊，而且對方從此不會再跟你講真話。",
+          "examples": [
+            {
+              "quote": "And he's like, \"Jackie, you have to stop shutting me down.\"",
+              "guest": "Jackie Bavaro",
+              "timestamp": "00:08:28",
+              "episode": "Jackie Bavaro on getting better at product strategy, what exactly is strategy, PM pitfalls to avoid, advancing your career, getting into management, and much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "He said, \"Well, two things. First, you were wrong. You were wrong to prioritize date over our reputation.\"",
+              "guest": "Ethan Evans",
+              "timestamp": "00:54:55",
+              "episode": "Taking control of your career | Ethan Evans (Amazon)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "I know you're mad at me today, but it is your fault. A hundred percent your fault if any of your hires fail. Don't blame them.",
+              "guest": "Jason Lemkin",
+              "timestamp": "00:43:09",
+              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=2587s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "zh": "把後果一起講出來",
+          "force": "最重",
+          "when": "你在宣告這件事的邊界：不改會發生什麼。這一級必須綁一個你真的執行得了的後果（換角色、換團隊、離開），通常也要有相應的位子才講得出口。對方會理解成：這不是回饋，是最後一次提醒。",
+          "risk": "講了卻沒有執行，你之後所有的回饋都會被自動降級成噪音——這是唯一一種會把前面四級一起作廢的用錯方式。",
+          "examples": [
+            {
+              "quote": "I said, \"The way you are operating is not meeting our leadership expectations. If you do not change, you cannot be part of this organization anymore. I believe you can operate differently.\"",
+              "guest": "Claire Vo",
+              "timestamp": "00:31:20",
+              "episode": "Bending the universe in your favor | Claire Vo (LaunchDarkly, Color, Optimizely, ChatPRD)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "This is how we think about things. This is how we handle this type of behavior here. If that's hard for you, let's find you another job.",
+              "guest": "Patrick Campbell",
+              "timestamp": "00:09:54",
+              "episode": "10 lessons on bootstrapping a $200m business | Patrick Campbell (ProfitWell)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=FjLSCrSg5QY&t=592s",
+              "seek": true
+            },
+            {
+              "quote": "Most of I can teach, I can coach a lot of things, but that arrogance, that ego, those \"I walk alone\" kinds of things, those are very, very challenging and disruptive to a team culture.",
+              "guest": "Christian Idiodi",
+              "timestamp": "01:27:14",
+              "episode": "The essence of product management | Christian Idiodi (SVPG)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=SXYc5RoU3Lg&t=5232s",
+              "seek": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fn": "admitting-uncertainty",
+      "zh": "承認不知道",
+      "intro": "承認不知道，英文裡真正在調的力道跟「你有多不確定」幾乎無關——調的是「你交出多少替代品」。從只交出一個空白（I don't know，句點），到交出一個更該回答的人，到交出你確實握有的那塊相鄰事實，到交出一個可以被打臉的具體猜測，最後到交出取得答案的路徑。語料裡 I don't know 出現近三千次，幾乎沒有一次是句點：講的人一律在同一口氣裡補上東西。台灣人最常停在第一級，然後被解讀成沒做功課或在推事情——而不是誠實。",
+      "axis": "力道 = 講完「我不知道」之後，你在桌上留下多少可以拿去用的東西：從留下一個空白，到留下一個人、一塊相鄰事實、一個可被反駁的猜測，最後到一條取得答案的路徑。",
+      "levels": [
+        {
+          "n": 1,
+          "zh": "交出一個空白",
+          "force": "很輕",
+          "when": "只有在講你自己的能力邊界、而且當下沒有人在等答案時才安全——回顧自己當年不會什麼、或明確劃掉一個你沒資格答的題。對方會理解成：這一格他真的沒有。用在會議上被直球問到時，等於把問題原封退回去。",
+          "risk": "在別人等答案的場合說出這一級，對方聽到的不是誠實，是「他沒準備」——而且不會再問你第二次。",
+          "examples": [
+            {
+              "quote": "I don't know how to read a financial statement.",
+              "guest": "Jonathan Lowenhar",
+              "timestamp": "01:21:04",
+              "episode": "How a great founder becomes a great CEO | Jonathan Lowenhar (co-founder of Enjoy The Work)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=s0jn7eE33nk&t=4862s",
+              "seek": true
+            },
+            {
+              "quote": "I don't know what the right metaphor is here.",
+              "guest": "Ken Norton",
+              "timestamp": "00:17:32",
+              "episode": "How to unlock your product leadership skills | Ken Norton, Ex-Google",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "I don't know how to scale this stuff.",
+              "guest": "Sanchan Saxena",
+              "timestamp": "00:34:50",
+              "episode": "Sanchan Saxena (VP of Product at Coinbase) on the inside story of how Airbnb made it through Covid; what he’s learned from Brian Chesky, Brian Armstrong, and Kevin Systrom; much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "zh": "交出一個更該回答的人",
+          "force": "輕",
+          "when": "這題確實不在你的守備範圍。關鍵是別只說「我不是專家」，要指出誰是、以及為什麼他比你有資格。對方會理解成：他知道自己知識的邊界在哪，而且他在意這題有沒有被回答，不只在意自己有沒有被問倒。",
+          "risk": "只講前半段（I'm not an expert）不講後半段，就退化成第一級的客套版；而且對方通常會回「沒關係你講就好」，你反而被逼著硬答。",
+          "examples": [
+            {
+              "quote": "Definitely don't bring me on here as a pricing expert, I think you have got better people for that.",
+              "guest": "Nick Turley",
+              "timestamp": "00:41:00",
+              "episode": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=ixY2PvQJ0To&t=2458s",
+              "seek": true
+            },
+            {
+              "quote": "Yeah, look, I would kind of defer to you on that, honestly. You've talked to a lot more people across a lot more companies, so you have a much broader set of information you're working with.",
+              "guest": "Bob Baxley",
+              "timestamp": "00:29:17",
+              "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=1755s",
+              "seek": true
+            },
+            {
+              "quote": "And again, I'm not an expert in this and I think Erin Meyer wrote that book, The Culture Map. So you should just find what those people wrote because they're much smarter than I am about this.",
+              "guest": "John Cutler",
+              "timestamp": "00:53:46",
+              "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=3224s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "zh": "劃出邊界，交出你握有的那一塊",
+          "force": "中",
+          "when": "你只掌握一半，或另一半不能講（保密、還沒定案、不是你負責的）。句型固定是「我不確定／不能講 X，但我可以告訴你 Y」，而 Y 必須真的有內容。對方會理解成：邊界很清楚，而且他把能給的都給了，剩下的不必再挖。",
+          "risk": "如果 but 後面接的是空話（but it's really exciting），這一級會反過來變成高級版的閃躲——對方記得的會是你迴避了，不是你誠實。",
+          "examples": [
+            {
+              "quote": "I can't speak to that whole period. But what I can tell you about what I'm feeling now is just an incredible sense of focus and urgency to deliver great products quickly.",
+              "guest": "Robby Stein",
+              "timestamp": "00:06:32",
+              "episode": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=kOnsqqVbIeY&t=390s",
+              "seek": true
+            },
+            {
+              "quote": "I'm not sure that it matches exactly to functions, but I can tell you what we're seeing more of, we need more of.",
+              "guest": "Elizabeth Stone",
+              "timestamp": "00:13:43",
+              "episode": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
+              "seek": false
+            },
+            {
+              "quote": "I'm obviously limited on what exactly I can share, but it is true that our retention numbers are really exciting and that is actually the thing we look at.",
+              "guest": "Nick Turley",
+              "timestamp": "00:26:39",
+              "episode": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=ixY2PvQJ0To&t=1597s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "zh": "交出一個可以被打臉的猜測",
+          "force": "重",
+          "when": "對方需要一個數字或方向才能往下做，而你手上只有判斷、沒有資料。把猜測明確標成猜測（my guess is／I'm just guessing／I would assume），然後給出具體到可以被推翻的東西：區間、百分比、甚至願不願意下注。對方會理解成：這是可以拿去用、但要標註來源的資訊。",
+          "risk": "標記漏掉，這句就從「猜測」變成「數字」，會被原封寫進別人的簡報；標記加太重（don't quote me on this），對方連拿來當方向都不敢。",
+          "examples": [
+            {
+              "quote": "My purely anecdotal guess is maybe 10 to 15% are good product companies, something like that.",
+              "guest": "Marty Cagan",
+              "timestamp": "00:14:45",
+              "episode": "The nature of product | Marty Cagan, Silicon Valley Product Group",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "Now, I don't know what Claude Code is doing, obviously, but I would be willing to bet money that they're doing something in the form of evals.",
+              "guest": "Shreya Shankar",
+              "timestamp": "01:13:39",
+              "episode": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=BsWxPI9UM4c&t=4417s",
+              "seek": true
+            },
+            {
+              "quote": "I don't know how many customer support folks we have, but it's not very many, 30, 40, I'm not sure, way smaller than you would have at any comparable company, and it's because we've automated a lot of our flows.",
+              "guest": "Kevin Weil",
+              "timestamp": "01:01:24",
+              "episode": "OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter)",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "zh": "交出取得答案的路徑",
+          "force": "最重",
+          "when": "這一題非有答案不可，而且要由你去拿。說法是「我現在不知道，我會去查／我們可以先承諾這段工作」——要有動作、有負責人，最好有時間點。對方會理解成：這件事已經有人接住了，會議可以往下走。",
+          "risk": "這一級是承諾不是措辭。說了沒回來，你損失的不是這一題的分數，是往後每一句「我去查」的可信度。",
+          "examples": [
+            {
+              "quote": "And if you push a really experienced product director like that, they're going to go, \"Good point, I don't. I'm going to go find out.\"",
+              "guest": "Tom Verrilli",
+              "timestamp": "00:30:27",
+              "episode": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+              "seek": false
+            },
+            {
+              "quote": "I don't know how to do it off the top of my head, but I can go and look at the code or I can have Claude look at the code and combine that with other things to solve new problems.",
+              "guest": "Simon Willison",
+              "timestamp": "01:03:00",
+              "episode": "An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "We don't know if we're going to actually end up going, and based on the results whether we're going to actually move forward with investing in that area, but that's a body of work we can commit to.",
+              "guest": "Annie Pearl",
+              "timestamp": "00:36:30",
+              "episode": "Behind the scenes of Calendly’s rapid growth | Annie Pearl (CPO)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=-tUIGpgmsZw&t=2188s",
+              "seek": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fn": "saying-no",
+      "zh": "說不與擋需求",
+      "intro": "擋需求最貴的代價不是被討厭，是被誤解。英文的 no 是一條連續光譜：從「我有點猶豫」到「這件事沒得談」，中間至少五格，每一格對方接收到的訊息完全不同。台灣人的預設值幾乎全擠在最輕的一兩格——因為中文靠語氣和關係就能把「再看看」傳成「不行」，英文沒有這條線路，只剩選字。選太輕，對方三週後照樣把同一個需求推回來，你等於什麼都沒擋；選太重，你擋掉的不只是這個需求，是往後別人願不願意先來問你。",
+      "axis": "力道＝這句話有多難被推翻。最輕的一級，對方推翻你不用付任何代價（你只是表達了一點猶豫）；最重的一級，推翻你等於推翻你的判斷權，他得先想清楚要不要為這件事跟你翻臉。",
+      "levels": [
+        {
+          "n": 1,
+          "zh": "留一扇門",
+          "force": "很輕",
+          "when": "用在你還不想把話說死、或對方是你需要長期合作的人：你不給他要的東西，但把限制掛在自己身上（我不太願意、我沒辦法講到那麼細），再遞一個替代品過去。對方聽到的是「這條路現在不好走」，不是「你錯了」，所以他的提案沒有被否定，關係零損傷。代價是你也沒有真的擋掉任何東西。",
+          "risk": "對方會真的以為還有機會——三週後帶著同一份需求回來，而且理直氣壯，因為你上次「沒有說不行」。",
+          "examples": [
+            {
+              "quote": "I would say wait until it hurts more. If the unfamiliarity is the big problem with it, then maybe the things are fine.",
+              "guest": "Ryan Singer",
+              "timestamp": "01:13:40",
+              "episode": "A better way to plan, build, and ship products | Ryan Singer (creator of “Shape Up,” early employee at 37signals)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=GF-yUANql0c&t=4418s",
+              "seek": true
+            },
+            {
+              "quote": "Sure. I will try to see what I can talk about without getting too detailed, but the thesis of the book is...",
+              "guest": "Madhavan Ramanujam",
+              "timestamp": "01:33:02",
+              "episode": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=NR85H55eYkM&t=5580s",
+              "seek": true
+            },
+            {
+              "quote": "I am really hesitant to recommend any template. And what I'd say is these are principles for building it, not any prescribed formula.",
+              "guest": "Andy Raskin",
+              "timestamp": "00:50:41",
+              "episode": "The power of strategic narrative | Andy Raskin",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=3039s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "zh": "不是不行，是不是現在",
+          "force": "輕",
+          "when": "用在需求本身沒問題、只是不該由你或不該是現在做：把 no 掛在時機、容量、角色上，而不是掛在「你的提議不好」。對方聽到的是一個排程或分工問題，不是價值判斷，所以他不會覺得被駁回，通常會自己去找別的路。這一級是英文職場的日常擋法，安全但只有時效。",
+          "risk": "你把理由掛在條件上，對方就會去幫你解決條件——他加了人、延了兩週、找到別的 owner 之後回來，你已經沒有立場再拒絕第二次。",
+          "examples": [
+            {
+              "quote": "And we know that eventually we need to get it, but we don't need it today. So we just say no to that.",
+              "guest": "Karri Saarinen",
+              "timestamp": "00:55:09",
+              "episode": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=4muxFVZ4XfM&t=3307s",
+              "seek": true
+            },
+            {
+              "quote": "I always say to people don't come to me for management 101, I'm not the person to ask on how to run the most effective one-on-one with your people.",
+              "guest": "Molly Graham",
+              "timestamp": "00:57:45",
+              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=3463s",
+              "seek": true
+            },
+            {
+              "quote": "if you just want an hour of my time randomly, I'm sorry, honestly, I'm sorry, I don't have that hour of time",
+              "guest": "Jason Lemkin",
+              "timestamp": "01:59:03",
+              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=7141s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "zh": "亮出那把尺",
+          "force": "中",
+          "when": "用在你要讓這個 no 站得住、而且希望下次不用再擋一遍：不說「我不要」，說「我們的標準判下來就是不做」。這一級把衝突從「我 vs 你」轉成「規則 vs 提案」，所以你不用消耗人情，被擋的人也有台階——他敗給的是團隊共識，不是你。多數 PM 的主戰場應該落在這一格。",
+          "risk": "尺是雙面刃：對方下次會拿同一把尺回來說「這個真的有幫到客戶啊」，你就必須照尺判。只要你為了人情破例一次，這把尺以後擋不住任何東西。",
+          "examples": [
+            {
+              "quote": "And then we're like, \"Well, does it help the customers? Does it help the product?\" This sounds like a side quest to me, and basically means we shouldn't do it.",
+              "guest": "Karri Saarinen",
+              "timestamp": "00:55:38",
+              "episode": "Inside Linear: Building with taste, craft, and focus | Karri Saarinen (co-founder, designer, CEO)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=4muxFVZ4XfM&t=3336s",
+              "seek": true
+            },
+            {
+              "quote": "We're not going to write out long-form content around everything related to dating because that's not the Tinder product.",
+              "guest": "Eli Schwartz",
+              "timestamp": "00:29:31",
+              "episode": "Rethinking SEO in the age of AI | Eli Schwartz (SEO advisor, author)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=Z71yGshPTwk&t=1769s",
+              "seek": true
+            },
+            {
+              "quote": "So I'm like, \"Will anyone care in six months what we did here?\" And the answer is no.",
+              "guest": "Will Larson",
+              "timestamp": "01:14:11",
+              "episode": "The engineering mindset | Will Larson (Carta, Stripe, Uber, Calm, Digg)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=Z9ftpRhRiJE&t=4449s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "zh": "標好價錢的 yes",
+          "force": "重",
+          "when": "用在你擋不動、或對方位階比你高但你確定他會後悔：表面上答應（you can do it、we'll do it），實際上把代價攤在桌上讓他自己收手。這一級的殺傷力來自你把自己的判斷押上去了——你等於當場預告這件事會失敗。母語者聽得出來這是強烈反對，不是配合。",
+          "risk": "你已經公開站在「這會出事」那一邊。真的出事，你贏了但那個人記得是誰在旁邊看著；沒出事，你的預測失準會被記很久，之後你講「這有高成本」沒人會停下來聽。",
+          "examples": [
+            {
+              "quote": "if you want to change during the course of the quarter, if you want to disrupt our whole engineering product team, you can do it, but understand there's a high cost, and the later you do it in the quarter, the less successful it's going to be",
+              "guest": "Jason Lemkin",
+              "timestamp": "01:13:46",
+              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=4424s",
+              "seek": true
+            },
+            {
+              "quote": "If you really need us to put us on the shelf and drop everything for a million dollar deal, we're a startup, we'll do it. But understand, just, is this really really what you want?",
+              "guest": "Jason Lemkin",
+              "timestamp": "01:16:29",
+              "episode": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs&t=4587s",
+              "seek": true
+            },
+            {
+              "quote": "The point is growth can amplify great product market fit and growth can help you grow faster once you are already growing. But if you are slowing down, growth is going to be absolutely helpless to do anything.",
+              "guest": "Elena Verna",
+              "timestamp": "00:16:59",
+              "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "zh": "這件事沒得談",
+          "force": "很重",
+          "when": "用在原則、安全、品質底線，或對方的要求本身就是在破壞規矩：no 後面不接理由、不留條件，直接關門（non-negotiable、and so no、No way）。對方聽到的是「再問一次就是在挑戰我」，所以這一級一年用不到幾次，用一次就要準備承受後座力。",
+          "risk": "門關掉的不只是這個需求，是這個人往後遇到灰色地帶時會不會先來問你。他下次會直接繞過你，等你在會議上才發現事情已經發生了。",
+          "examples": [
+            {
+              "quote": "That's what we're going to focus on.\" And so no, we're not going to add five more features.",
+              "guest": "Tony Fadell",
+              "timestamp": "00:45:55",
+              "episode": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
+              "seek": false
+            },
+            {
+              "quote": "You've got to do HIPAA, you got to do SOC 2, you've got to do all those things if you want to be a serious player. And those are just non-negotiable.",
+              "guest": "Nick Turley",
+              "timestamp": "00:46:23",
+              "episode": "Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=ixY2PvQJ0To&t=2781s",
+              "seek": true
+            },
+            {
+              "quote": "that's too easy to come to me and be like, \"Oh, here's A and B. You do the work and tell me which you one to pick.\" No way.",
+              "guest": "Ebi Atawodi",
+              "timestamp": "01:07:12",
+              "episode": "Crafting a compelling product vision | Ebi Atawodi (YouTube, Netflix, Uber)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=tBPTwUmaxDs&t=4030s",
+              "seek": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fn": "polite-disagreement",
+      "zh": "有禮貌地反對",
+      "intro": "英文會議裡的反對有一條殘酷規則：講太輕，等於沒講過。「I'd maybe put it differently」在會議紀錄上會被歸成補充，三個月後方案炸掉時，沒有人記得你反對過。但同一個意思往上加兩格變成「I disagree」，全場會停下來等你的證據——理由撐不住，你損失的不是這一題，是往後別人對你「有意見」這件事的信任額度。中文的反對可以靠語氣、靠關係、靠會後私下再講一次；英文的反對只能靠選字，而且那個字會被寫進紀錄。",
+      "axis": "力道＝你把「錯」放在誰身上。最輕的一級放在自己（我可能只是換個說法、我可能只是護著我原本的想法），中間放在事情本身的不確定（我不確定那會成立），最重的一級直接放在對方的說法上（那是錯的）。",
+      "levels": [
+        {
+          "n": 1,
+          "zh": "我會換個說法",
+          "force": "很輕",
+          "when": "用在你其實同意方向、只想調整框架或用詞，或者對方是你今天還要一起做事的人：把反對包裝成補充（my only build on that、I'd put it differently、a little bit）。對方幾乎感覺不到阻力，成本是零。但也請認清：這一級傳達的是「我有想法」，不是「我反對」。",
+          "risk": "對方會把它收下當成補充，不是異議——會議紀錄上你等於贊成了。等到事情出問題，你手上沒有任何一句話可以證明你當時提醒過。",
+          "examples": [
+            {
+              "quote": "I'd maybe put it a little bit differently.",
+              "guest": "Joe Hudson",
+              "timestamp": "00:25:13",
+              "episode": "How embracing emotions will accelerate your career | Joe Hudson (executive coach, Art of Accomplishment)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=DYkE1gf37ts&t=1511s",
+              "seek": true
+            },
+            {
+              "quote": "I think my only build on that would be to say I think those core PM skills aren't necessarily the things that we have rewarded PMs for over the last five years, versus storytelling, alignment, strategy.",
+              "guest": "Tom Verrilli",
+              "timestamp": "00:47:21",
+              "episode": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+              "seek": false
+            },
+            {
+              "quote": "I would soften it a little bit... I wouldn't say I'm not a fan of creating category.",
+              "guest": "Andy Raskin",
+              "timestamp": "00:41:06",
+              "episode": "The power of strategic narrative | Andy Raskin",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=dkVJnaxDlXE&t=2464s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 2,
+          "zh": "先讓一步，再放條件",
+          "force": "輕",
+          "when": "用在對方講的有一半是對的、你只想拆掉另一半：先把對方的正當性講足（don't get me wrong、I'm not saying X doesn't matter），再把保留放在 but 後面。母語者的耳朵會自動跳到 but 之後，所以訊息其實傳到了，但因為前面已經給足面子，對方不會進入防衛姿態。這是資深英美工作者最高頻的一級。",
+          "risk": "讓步講太滿，對方只會引用你的前半句：「連他都同意 stability 很重要」——你的保留被剪掉，反而變成別人推案子的背書。",
+          "examples": [
+            {
+              "quote": "And don't get me wrong, I think there's a lot of product folks out there who enjoy that modality of work, I'm not one of them.",
+              "guest": "Chris Miller",
+              "timestamp": "00:41:21",
+              "episode": "Relentless curiosity, radical accountability, and HubSpot’s winning growth formula | Christopher Miller (VP of Product, Growth and AI)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=SzKKJwuRFZI&t=2479s",
+              "seek": true
+            },
+            {
+              "quote": "I'm not saying that having a large market someday doesn't matter, of course it does eventually. But trying to be super pedantic about market size when it's a pre-seed company, it's just not something I'd put a lot of thought.",
+              "guest": "Dalton Caldwell",
+              "timestamp": "00:29:25",
+              "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1763s",
+              "seek": true
+            },
+            {
+              "quote": "Both things can be true. It's like, yeah, there's nothing perfect in product. However, it is true that some companies are healthier than others.",
+              "guest": "John Cutler",
+              "timestamp": "01:16:34",
+              "episode": "What differentiates the highest-performing product teams | John Cutler (Amplitude, The Beautiful Mess)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=Y4PdUItyXUk&t=4592s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 3,
+          "zh": "我不確定那會成立",
+          "force": "中",
+          "when": "用在你要對方的結論被重新檢查一次，但還不想把話說死：I'm not sure、I don't know that that's the case、we don't know the counterfactual。句子表面是你的不確定，指向的是他的結論。母語者聽到這句會停下來要理由——這一級的功能就是強迫討論重開。",
+          "risk": "台灣人最容易誤用的就是這一級：以為 I'm not sure 是「我還沒想清楚」，其實在英文裡是「我認為這不對」的委婉版。你講完沒有備好第二句理由，對方會判定你只是沒信心，反對當場失效，而且你也用掉了一次要求重開討論的額度。",
+          "examples": [
+            {
+              "quote": "I'm not sure AR is going to be the right reference.",
+              "guest": "Geoffrey Moore",
+              "timestamp": "00:22:31",
+              "episode": "Geoffrey Moore on finding your beachhead, crossing the chasm, and dominating a market",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=RBbINB5HSHk&t=1349s",
+              "seek": true
+            },
+            {
+              "quote": "I think that as a smaller company, I don't know that that's the case.",
+              "guest": "Amol Avasare",
+              "timestamp": "00:50:17",
+              "episode": "Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            },
+            {
+              "quote": "I will say that when you say things are going well, I think we don't know the counterfactual.",
+              "guest": "Ronny Kohavi",
+              "timestamp": "00:46:50",
+              "episode": "The ultimate guide to A/B testing | Ronny Kohavi (Airbnb, Microsoft, Amazon)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=hEzpiDuYFoE&t=2808s",
+              "seek": true
+            }
+          ]
+        },
+        {
+          "n": 4,
+          "zh": "我不同意，理由在這裡",
+          "force": "重",
+          "when": "用在這件事你判斷錯了會有人受傷、或錢會燒掉：具名反對（I disagree、I don't buy that、I'm just going to push back），而且立刻接上 because 和你的替代版本。對方聽到的是「他要為這個立場負責」，所以討論會真的轉向。沒有 because 的第四級，等於第五級。",
+          "risk": "說出口的那一秒，全場開始等你的證據。理由撐不住，你損失的不是這一題，是往後你講 I'm not sure 的時候，別人也會先假設你只是沒想清楚。",
+          "examples": [
+            {
+              "quote": "You're focused on recent and I'm just going to push back. No, there's nothing terribly recent.",
+              "guest": "Bob Baxley",
+              "timestamp": "01:31:58",
+              "episode": "35 years of product design wisdom from Apple, Disney, Pinterest, and beyond | Bob Baxley",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=X-83gvgVaWc&t=5516s",
+              "seek": true
+            },
+            {
+              "quote": "I don't buy that, because I've met most people and most people are like, \"Hell no,\" when they hear about my life.",
+              "guest": "Paul Millerd",
+              "timestamp": "00:51:42",
+              "episode": "Redefining success, money, and belonging | Paul Millerd (The Pathless Path)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=yFckwBtiCUM&t=3100s",
+              "seek": true
+            },
+            {
+              "quote": "I actually say I disagree with Naval on this because often, when you're part of a large organization, it's really hard to do great work and get recognized for it.",
+              "guest": "Sriram Krishnan",
+              "timestamp": "00:26:26",
+              "episode": "Hot takes and techno-optimism from tech’s top power couple | Sriram and Aarthi",
+              "isSearch": false,
+              "url": null,
+              "seek": false
+            }
+          ]
+        },
+        {
+          "n": 5,
+          "zh": "那是錯的",
+          "force": "很重",
+          "when": "用在對方陳述的是事實錯誤、或那個建議照做會出事：直接否定說法本身（that's incorrect、Sorry, I don't buy it、terrible advice），不再保留對方的顏面。這一級是英美職場也會倒抽一口氣的力道，通常只發生在專業權威對明確錯誤、或關係夠深的兩個人之間。",
+          "risk": "你可以贏這一題，但那個人會在心裡記名——往後他在你不在的會議上會替你做決定。除非錯下去真的會有人受傷，否則這一級的收益永遠小於損失。",
+          "examples": [
+            {
+              "quote": "Now see, that's incorrect. That's only true if you only look at the proximate thing, which is project ended.",
+              "guest": "Jason Cohen",
+              "timestamp": "00:24:15",
+              "episode": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=8xLquwfx6p0&t=1453s",
+              "seek": true
+            },
+            {
+              "quote": "Sorry, I don't buy it.",
+              "guest": "Eric Ries",
+              "timestamp": "00:49:13",
+              "episode": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
+              "isSearch": false,
+              "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
+              "seek": false
+            },
+            {
+              "quote": "But as an overall missive, don't focus on your competitors is terrible advice. And if I'm being charitable, it's just outdated",
+              "guest": "Patrick Campbell",
+              "timestamp": "00:47:09",
+              "episode": "10 lessons on bootstrapping a $200m business | Patrick Campbell (ProfitWell)",
+              "isSearch": false,
+              "url": "https://www.youtube.com/watch?v=FjLSCrSg5QY&t=2827s",
+              "seek": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

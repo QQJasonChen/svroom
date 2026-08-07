@@ -273,24 +273,6 @@
           "note": "結構固定是「I'm not saying［最極端的解讀］, but［我真正的主張］」。先把對方最可能拿來反駁你的極端版本親手拆掉，剩下的火力就全打在真正的爭點上。93 次裡有 68 次後面直接接 but / however / what I'm saying is——這個標籤幾乎不會單獨出現，它存在的唯一目的就是替後面那句重話清出路。",
           "examples": [
             {
-              "quote": "Now, obviously, I'm not saying don't do SEO, or don't do SEM, so organic search or paid search. I'm not saying that. However, as a growth team, your number one priority is to create your own or your earned channel.",
-              "guest": "Elena Verna",
-              "timestamp": "00:43:57",
-              "episode": "Elena Verna on how B2B growth is changing, product-led growth, product-led sales, why you should go freemium not trial, what features to make free, and much more",
-              "isSearch": false,
-              "url": null,
-              "seek": false
-            },
-            {
-              "quote": "So I'm not saying that having a large market someday doesn't matter, of course it does eventually. But trying to be super pedantic about market size when it's a pre-seed company or someone applying to YC, it's just not something I'd put a lot of thought.",
-              "guest": "Dalton Caldwell",
-              "timestamp": "00:29:25",
-              "episode": "Lessons from 1,000+ YC startups: Resilience, tar pit ideas, pivoting, more | Dalton Caldwell (Y Combinator, Managing Director)",
-              "isSearch": false,
-              "url": "https://www.youtube.com/watch?v=m7LvNTbaqSI&t=1763s",
-              "seek": true
-            },
-            {
               "quote": "I'm not saying we should go back to the early 90's, but I'm saying it wasn't always like this. The whole frontier of productivity at the time felt like it was just taking us in the wrong direction.",
               "guest": "Drew Houston",
               "timestamp": "01:04:40",
@@ -399,15 +381,6 @@
           "share": "約 11%（32/299 次，30 集）——幾乎全是主持人使用",
           "note": "「Just to be clear, you're saying ⋯⋯?」是先把對方的主張用自己的話壓成一句可攻擊的形狀，等對方點頭之後才動手。這一步做完，後面的反駁就不會被賴成「你誤會我的意思」——射程是他自己確認過的。台灣人開會時最常跳過的就是這一步，結果整場都在爭論彼此到底講了什麼。",
           "examples": [
-            {
-              "quote": "And just to be clear, you're talking about the growth of the company. So doubling in a year, bad idea.",
-              "guest": "Lenny Rachitsky",
-              "timestamp": "01:20:27",
-              "episode": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-              "isSearch": false,
-              "url": "https://www.youtube.com/watch?v=twzLDx9iers&t=4825s",
-              "seek": true
-            },
             {
               "quote": "And so just to be clear, you're saying 20 to 30% of people come back the next day?",
               "guest": "Lenny Rachitsky",

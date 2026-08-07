@@ -47,6 +47,7 @@ const nav = [
   { href: "/today/", label: "今天的 5 句" },
   { href: "/check/", label: "檢查我的英文" },
   { href: "/trap/", label: "中文腦陷阱" },
+  { href: "/scale/", label: "力道刻度尺" },
   { href: "/finding/", label: "語料數據" },
   { href: "/jargon/", label: "職場黑話" },
   { href: "/ask/", label: "怎麼問" },

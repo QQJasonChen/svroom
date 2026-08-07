@@ -10,6 +10,7 @@ import { trapStats } from "@/lib/traps";
 import { jargonStats } from "@/lib/jargon";
 import { questionStats } from "@/lib/questions";
 import { findingStats } from "@/lib/findings";
+import { scaleStats } from "@/lib/scales";
 
 export default function Home() {
   return (
@@ -199,6 +200,13 @@ export default function Home() {
             n={trapStats.written}
             unit="條"
             body="台灣人會這樣說 → 對方實際聽到什麼 → 該怎麼說。針對中文思維直譯到英文會出的事。"
+          />
+          <Panel
+            href="/scale/"
+            label="力道刻度尺"
+            n={scaleStats.count}
+            unit="把尺"
+            body={`I'm not sure I agree／I'd push back on that／That's not going to work 是三個不同等級。${scaleStats.levels} 級，每級都標明用錯的代價。`}
           />
           <Panel
             href="/jargon/"
