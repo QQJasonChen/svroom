@@ -2,6 +2,11 @@ import rulesFile from "../../data/checker-rules.json";
 import { getTrap, getTrapMeta } from "./traps";
 
 export type Rule = {
+  /** 規則自己的 id。多條規則可能指向同一個陷阱（例如被動語態與名詞化都算 passive-escape），
+      所以 key 不能用 trap */
+  id: string;
+  /** 基礎＝初學者的直譯問題；進階＝已進步者的問題（公關稿、力道失準） */
+  tier: "basic" | "advanced";
   trap: string;
   pattern: string;
   /** 要命中幾次才算問題（用於「用太多」型的規則） */
@@ -14,6 +19,8 @@ export type Rule = {
 
 export type Hit = {
   rule: Rule;
+  /** 文件層級的問題（例如「整篇沒有路牌」），沒有可標色的片段 */
+  wholeText: boolean;
   /** 命中的字串片段，用來在原文標色 */
   matches: { text: string; index: number }[];
   /** 對應的陷阱內容（可能還沒寫） */
@@ -22,7 +29,13 @@ export type Hit = {
   better: { en: string; zh: string; note?: string }[];
 };
 
-export const rules: Rule[] = rulesFile.rules;
+export const rules: Rule[] = (rulesFile.rules as Omit<Rule, "id" | "tier">[]).map(
+  (r, i) => ({
+    ...r,
+    id: `${r.trap}-${i}`,
+    tier: (r as { tier?: string }).tier === "advanced" ? "advanced" : "basic",
+  }),
+) as Rule[];
 
 /**
  * 檢查一段英文草稿踩到哪些中文腦陷阱。
@@ -47,25 +60,34 @@ export function check(text: string): Hit[] {
     if (rule.minHits && matches.length < rule.minHits) continue;
     if (rule.needsAbsence && new RegExp(rule.needsAbsence, "i").test(text)) continue;
 
+    // 有些規則比對的是整篇（長文沒有路牌、請求埋在最後）。那種命中沒有
+    // 可以標色的「片段」——整篇都標等於沒標——所以獨立成文件層級的發現。
+    const wholeText = matches.some((x) => x.text.length > 120);
+
     const t = getTrap(rule.trap);
     const meta = getTrapMeta(rule.trap);
     out.push({
       rule,
-      matches,
+      wholeText,
+      matches: wholeText ? [] : matches,
       trapZh: meta?.zh_instinct ?? null,
       heardAs: t?.heardAs ?? null,
       better: t?.better ?? [],
     });
   }
 
-  // 命中多的排前面（通常也是問題比較明顯的）
-  return out.sort((a, b) => b.matches.length - a.matches.length);
+  // 具體片段的排前面，文件層級的（比較泛）放最後
+  return out.sort(
+    (a, b) =>
+      Number(a.wholeText) - Number(b.wholeText) ||
+      b.matches.length - a.matches.length,
+  );
 }
 
 /** 把原文切成一般片段與命中片段，方便標色 */
 export function highlight(text: string, hits: Hit[]) {
   const marks = hits
-    .flatMap((h) => h.matches.map((m) => ({ ...m, trap: h.rule.trap })))
+    .flatMap((h) => h.matches.map((m) => ({ ...m, trap: h.rule.id })))
     .sort((a, b) => a.index - b.index);
 
   const parts: { text: string; trap: string | null }[] = [];

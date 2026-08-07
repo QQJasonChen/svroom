@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "note": "「檢查我的英文」的偵測規則。每一條都對應一個中文腦陷阱，命中時直接把該陷阱的『對方聽到什麼』與『改成這樣說』端出來。\n\n設計原則：**寧可漏，不可誤報**。一個假警報會讓使用者不信任整份報告，而漏掉一條只是少一個提醒。所以只寫「幾乎不會有別種解釋」的 pattern，需要語意判斷的（冠詞、單複數、結論位置）一律不做。\n\n全部在瀏覽器端跑，使用者的草稿不會離開他的電腦。",
+  "note": "「檢查我的英文」的偵測規則。每一條都對應一個中文腦陷阱，命中時直接把該陷阱的『對方聽到什麼』與『改成這樣說』端出來。\n\n設計原則：**寧可漏，不可誤報**。一個假警報會讓使用者不信任整份報告，而漏掉一條只是少一個提醒。所以只寫「幾乎不會有別種解釋」的 pattern，需要語意判斷的（冠詞、單複數、結論位置）一律不做。\n\n全部在瀏覽器端跑，使用者的草稿不會離開他的電腦。\n\n規則分兩層：基礎（初學者的直譯問題）與 advanced（已進步者的問題——不是不敢講，是講得像公關稿、或力道失準）。",
   "rules": [
     {
       "trap": "sorry-opener",
@@ -122,6 +122,96 @@
       "needsAbsence": "\\b(by (monday|tuesday|wednesday|thursday|friday|saturday|sunday|end of|eod|tomorrow|next week|the \\d)|before (monday|tuesday|wednesday|thursday|friday|tomorrow|the \\d)|deadline|due)\\b",
       "label": "請求沒有時間點",
       "why": "省掉死線是為了體貼，但英文腦讀到的是「這人自己也不知道這件事多重要」，然後排到最後。給死線是給對方排序的資訊。"
+    },
+    {
+      "trap": "no-strong-verb",
+      "pattern": "\\b(leverage|utilize|facilitate|ideate|operationalize|synergize|incentivize|actionable insights?|circle back on|touch base|move the needle on|drive alignment)\\b",
+      "label": "企業套話（corporate-speak）",
+      "tier": "advanced",
+      "why": "leverage、utilize、facilitate 這類字讓句子看起來專業，實際上把動作抽掉了。母語的資深者反而用最短的動詞（use、help、run）——因為他們不需要靠字長證明自己。"
+    },
+    {
+      "trap": "passive-escape",
+      "pattern": "\\b(the )?(implementation|utilization|optimization|prioritization|alignment|execution|consideration|determination) of\\b|\\bthere (is|are|was|were) (a |an )?(need|requirement|expectation|desire) (to|for)\\b",
+      "label": "名詞化把動作藏起來",
+      "tier": "advanced",
+      "why": "把動詞變名詞（implement → the implementation of）會同時抽掉「誰做」和「做什麼」。這是英文寫作裡最隱形的責任迴避，比被動語態更難被發現。"
+    },
+    {
+      "trap": "no-signpost",
+      "pattern": "^[\\s\\S]{600,}$",
+      "needsAbsence": "\\b(first|second|third|to be clear|the short version|tl;?dr|here'?s (what|why|the)|three things|two things|bottom line|in short|my recommendation|what i'?m asking)\\b",
+      "label": "長文沒有路牌",
+      "tier": "advanced",
+      "why": "超過三段卻沒有任何 signpost，讀的人得自己建結構。英文靠路牌替讀者配置注意力——沒有路牌，重點會被讀過去。"
+    },
+    {
+      "trap": "reason-then-ask",
+      "pattern": "^[\\s\\S]{400,}$",
+      "needsAbsence": "^[\\s\\S]{0,320}?\\b(i'?m asking|i need|i'?d like|my recommendation|the ask is|請|can you|could you|would you|i propose|i suggest)\\b",
+      "label": "請求埋在最後",
+      "tier": "advanced",
+      "why": "中文習慣鋪陳完再提出請求，但英文讀者在前三行就決定要不要繼續讀。請求出現得太晚，等於沒出現。"
+    },
+    {
+      "trap": "your-call",
+      "pattern": "\\b(whatever you (think|prefer|decide)|(it'?s )?(totally )?up to you|(i'?m|we'?re) (fine|okay|ok|good) (with )?either way|(i )?(don'?t|do not) have a strong (opinion|preference)|happy to go either way|your call)\\b",
+      "label": "把決定權交回去",
+      "tier": "advanced",
+      "why": "在中文是禮貌，在英文是不負責。而且最常見的結果不是對方選一個，是「兩個都做」——這句禮貌話的直接產物是你自己團隊的加班。"
+    },
+    {
+      "trap": "we-dilutes",
+      "pattern": "\\b(the team|our team|we as a team) (built|shipped|launched|drove|delivered|decided|led)\\b",
+      "label": "把成績全歸團隊",
+      "tier": "advanced",
+      "why": "聽的人無法把任何一件事掛到你名下。英文真正的大方不是縮小自己，是點名別人（Sarah's model was what made this work）。"
+    },
+    {
+      "trap": "i-think-overuse",
+      "pattern": "\\b(i (would|'d) (say|argue|think)|in my (humble )?opinion|from my perspective|i (personally )?(feel|believe))\\b",
+      "minHits": 3,
+      "label": "立場標記疊太多",
+      "tier": "advanced",
+      "why": "一句主張掛兩層立場標記（I would say that in my opinion…），對方收到的是「他在替自己留退路」而不是「他很謹慎」。標一次就夠。"
+    },
+    {
+      "trap": "definitely-absolutely",
+      "pattern": "\\b(obviously|clearly|of course|needless to say|as you (know|can see))\\b",
+      "minHits": 2,
+      "label": "obviously / clearly 的暗刺",
+      "tier": "advanced",
+      "why": "這幾個字預設對方本來就該知道。用在對方其實不知道的事情上，讀起來是「你怎麼連這都不懂」——寫的人幾乎都沒有這個意思。"
+    },
+    {
+      "trap": "sorry-opener",
+      "pattern": "\\b(as per my (last|previous) (email|message)|as (i )?(mentioned|stated) (before|previously|earlier)|per my last|just following up again|as discussed)\\b",
+      "label": "被動攻擊的標準句",
+      "tier": "advanced",
+      "why": "as per my last email 在英語職場是公認的被動攻擊，意思是「我講過了你沒看」。非母語者常把它當成中性的引用語。"
+    },
+    {
+      "trap": "soon-better",
+      "pattern": "\\b(significant(ly)?|substantial(ly)?|dramatic(ally)?|considerabl[ey]|meaningful(ly)?) (improve|increase|reduce|better|growth|impact|boost)\\w*\\b(?![^.]*\\d)",
+      "label": "程度形容詞沒有數字",
+      "tier": "advanced",
+      "why": "significantly improved 沒有數字時，內行人一律讀成「他沒有量過」。形容詞越大，沒有數字的反差越傷。"
+    },
+    {
+      "trap": "no-by-when",
+      "pattern": "\\b(let'?s (sync|connect|touch base|chat|discuss)|we should (talk|sync|discuss)|happy to (chat|discuss|jump on a call))\\b",
+      "needsAbsence": "\\b(monday|tuesday|wednesday|thursday|friday|tomorrow|next week|this week|\\d{1,2}\\s?(am|pm)|calendar|invite|\\d{1,2}/\\d{1,2})\\b",
+      "label": "約談沒有給時間",
+      "tier": "advanced",
+      "why": "let's sync 沒有接時間就是一句客套。母語者的預設是同一句話裡就給日期或直接丟行事曆連結。"
+    },
+    {
+      "trap": "flat-list",
+      "pattern": "\\b(and also|additionally|furthermore|moreover|as well as)\\b",
+      "minHits": 3,
+      "label": "並列堆疊沒有主次",
+      "tier": "advanced",
+      "why": "英文的並列本身是一個斷言：我判斷它們一樣重要。堆了四五個 additionally，對方會自己挑最好處理的那個當焦點。"
     }
   ]
 }

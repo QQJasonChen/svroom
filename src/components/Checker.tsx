@@ -64,7 +64,14 @@ export default function Checker() {
                   找到 {hits.length} 個地方
                 </h2>
                 <span className="text-[12.5px] text-ink-3">
-                  不是文法錯，是對方會聽成別的意思
+                  不是文法錯，是對方會讀成別的意思
+                  {hits.some((h) => h.rule.tier === "advanced") && (
+                    <>
+                      {" · "}
+                      {hits.filter((h) => h.rule.tier === "advanced").length}{" "}
+                      個是進階問題
+                    </>
+                  )}
                 </span>
               </div>
 
@@ -90,7 +97,7 @@ export default function Checker() {
               <div className="space-y-5">
                 {hits.map((h) => (
                   <article
-                    key={h.rule.trap}
+                    key={h.rule.id}
                     className="border border-rule rounded-sm overflow-hidden"
                   >
                     <div className="px-5 py-4 bg-paper-2/40">
@@ -98,8 +105,14 @@ export default function Checker() {
                         <span className="text-[14.5px] font-medium">
                           {h.rule.label}
                         </span>
+                        {h.rule.tier === "advanced" && (
+                          <span className="text-[10px] font-semibold tracking-[0.1em] uppercase border border-slate/40 px-1.5 py-0.5 rounded-sm"
+                                style={{ color: "var(--color-slate)" }}>
+                            進階
+                          </span>
+                        )}
                         <span className="text-[11.5px] text-ink-3 tabular-nums">
-                          命中 {h.matches.length} 處
+                          {h.wholeText ? "整篇" : `命中 ${h.matches.length} 處`}
                         </span>
                         <Link
                           href={`/trap/${h.rule.trap}/`}
@@ -109,7 +122,7 @@ export default function Checker() {
                         </Link>
                       </div>
                       <p className="mt-2 flex flex-wrap gap-1.5">
-                        {h.matches.slice(0, 5).map((m, i) => (
+                        {h.matches.slice(0, 6).map((m, i) => (
                           <span
                             key={i}
                             className="font-serif text-[13px] text-rust bg-rust-soft px-1.5 py-0.5 rounded-sm"
@@ -151,7 +164,7 @@ export default function Checker() {
                                 </div>
                                 <Speak
                                   text={b.en}
-                                  id={`ck-${h.rule.trap}-${i}`}
+                                  id={`ck-${h.rule.id}-${i}`}
                                   className="shrink-0 mt-0.5"
                                 />
                               </li>
