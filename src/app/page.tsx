@@ -41,8 +41,14 @@ export default function Home() {
             >
               今天的 5 句 →
             </Link>
+            <Link
+              href="/check/"
+              className="border border-ink px-6 py-3 text-[14px] font-medium rounded-sm hover:bg-ink hover:text-paper transition-colors"
+            >
+              檢查我的英文 →
+            </Link>
             <span className="text-[12.5px] text-ink-3">
-              不用決定從哪開始。每天五句，唸出來就好。
+              貼上你要寄出去的信，看看踩了哪些坑。
             </span>
           </div>
 

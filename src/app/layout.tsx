@@ -45,6 +45,7 @@ export const metadata: Metadata = {
 // 講 vs 寫／情境）都從首頁進——首頁本身就是那張地圖。
 const nav = [
   { href: "/today/", label: "今天的 5 句" },
+  { href: "/check/", label: "檢查我的英文" },
   { href: "/trap/", label: "中文腦陷阱" },
   { href: "/finding/", label: "語料數據" },
   { href: "/jargon/", label: "職場黑話" },

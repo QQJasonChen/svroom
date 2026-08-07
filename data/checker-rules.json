@@ -1,0 +1,127 @@
+{
+  "schema_version": "1",
+  "note": "「檢查我的英文」的偵測規則。每一條都對應一個中文腦陷阱，命中時直接把該陷阱的『對方聽到什麼』與『改成這樣說』端出來。\n\n設計原則：**寧可漏，不可誤報**。一個假警報會讓使用者不信任整份報告，而漏掉一條只是少一個提醒。所以只寫「幾乎不會有別種解釋」的 pattern，需要語意判斷的（冠詞、單複數、結論位置）一律不做。\n\n全部在瀏覽器端跑，使用者的草稿不會離開他的電腦。",
+  "rules": [
+    {
+      "trap": "sorry-opener",
+      "pattern": "(^|\\n)\\s*(sorry|apologies|apologize)\\b|sorry to (bother|trouble|interrupt)|sorry for the",
+      "label": "開頭道歉",
+      "why": "英文書面的開頭道歉不會被讀成有禮貌，會被讀成「這件事不重要，而且我知道我在浪費你時間」。"
+    },
+    {
+      "trap": "just-quickly",
+      "pattern": "\\bjust (a )?(quick|quickly|small|little|fast)\\b|\\bquick (question|favor|ask)\\b|\\bjust wanted to\\b|\\bjust checking\\b",
+      "label": "just / quick 自動降級",
+      "why": "just、quick、a little 這些字會把你的請求先打折，對方照著那個折扣排優先序。"
+    },
+    {
+      "trap": "thank-you-advance",
+      "pattern": "thanks? (you )?in advance|thanking you in advance",
+      "label": "先謝謝你了",
+      "why": "Thanks in advance 在英文裡是預設對方會答應，帶壓迫感——中文的客套翻過去變成不給退路。"
+    },
+    {
+      "trap": "asap",
+      "pattern": "\\basap\\b|as soon as (possible|you can)|at your earliest convenience",
+      "label": "盡快",
+      "why": "ASAP 是英文職場最沒有資訊量的承諾。對方無法排序，於是排到最後。"
+    },
+    {
+      "trap": "ill-try",
+      "pattern": "\\bi('| wi)?ll try\\b|\\bi can try\\b|\\btry my best\\b|\\bdo my best\\b",
+      "label": "我試試看",
+      "why": "I'll try 在英文職場幾乎是 I probably won't 的禮貌版。對方會默默去找 B 方案。"
+    },
+    {
+      "trap": "this-is-difficult",
+      "pattern": "\\b(this|that|it)('s| is) (a bit |quite |kind of |somewhat )?(difficult|hard|tricky|challenging)\\b",
+      "label": "這個有困難",
+      "why": "英文的 difficult 是「來一起想辦法」，不是拒絕——對方會開始幫你解，然後預期你之後會做。"
+    },
+    {
+      "trap": "let-me-think",
+      "pattern": "let me think about (it|this)|i('ll| will) think about (it|this)|let me get back to you\\b(?![^.]*\\b(by|before|tomorrow|monday|tuesday|wednesday|thursday|friday|week)\\b)",
+      "label": "我再想想（沒給時間）",
+      "why": "中文的軟性拒絕，英文是真的會等你回覆。開了迴圈不關，比直接說不扣分更多。"
+    },
+    {
+      "trap": "i-think-overuse",
+      "pattern": "\\bi think\\b",
+      "minHits": 3,
+      "label": "I think 用太多",
+      "why": "中文的「我覺得」是禮貌標記，英文的 I think 是可信度標記。每句都掛，對方收到的訊號是你自己也沒把握。"
+    },
+    {
+      "trap": "maybe-overuse",
+      "pattern": "\\b(maybe|perhaps|possibly|kind of|sort of|a bit)\\b",
+      "minHits": 4,
+      "label": "緩衝詞堆疊",
+      "why": "堆疊的模糊詞不會讓你顯得謙虛，會讓你顯得沒做功課。"
+    },
+    {
+      "trap": "definitely-absolutely",
+      "pattern": "\\b(definitely|absolutely|for sure|100%|guarantee|no doubt)\\b",
+      "minHits": 2,
+      "label": "把話說死",
+      "why": "中文的「一定」是態度強度，雙方自動打八折；英文的 definitely 是機率宣稱，會被記進紀錄回頭對帳。"
+    },
+    {
+      "trap": "passive-escape",
+      "pattern": "\\b(it |that )?(was|were|has been|have been|had been) (decided|determined|made|discussed|agreed|handled|addressed|mentioned)\\b|mistakes were made",
+      "label": "被動語態沒有主詞",
+      "why": "中文用被動是護對方的面子，英文沒有這個社會功能——被動在責任語境只剩一個訊號：施事者在躲。"
+    },
+    {
+      "trap": "we-will-improve",
+      "pattern": "\\bwe('ll| will) (improve|enhance|optimize|strengthen|work on|look into|try to make)\\b|\\bwe('ll| will) make (it|this) better\\b",
+      "label": "會加強、會優化",
+      "why": "沒有名詞和數字的承諾，在英文裡是空的——對方無法判斷做完長什麼樣。"
+    },
+    {
+      "trap": "soon-better",
+      "pattern": "\\b(much |a lot |significantly |way )?(better|faster|smoother|easier|more efficient)\\b(?![^.]*\\d)",
+      "label": "比較級沒有基準",
+      "why": "比較級不會被追問，會被靜靜跳過——而且事後也兌現不了，沒有人能說它算不算「更好」。"
+    },
+    {
+      "trap": "customer-said",
+      "pattern": "\\b(a |one |the )?(customer|user|client)s? (said|told us|mentioned|complained|reported|feel|think)\\b(?![^.]*\\d)",
+      "label": "客戶反應（沒有數量）",
+      "why": "沒有「幾個」，這條意見就從市場訊號掉回一則客訴。而對方會以為是你只拿得出一個案例。"
+    },
+    {
+      "trap": "we-dilutes",
+      "pattern": "\\bwe (built|shipped|launched|drove|led|created|delivered|improved|fixed)\\b",
+      "minHits": 3,
+      "label": "全部用「我們」",
+      "why": "禮貌的 we 會讓你的貢獻在績效校準會議上消失——聽的人無法把任何一件事掛到你名下。"
+    },
+    {
+      "trap": "very-ladder",
+      "pattern": "\\bvery\\b|\\breally\\b|\\bsuper\\b|\\bextremely\\b",
+      "minHits": 4,
+      "label": "疊副詞加強",
+      "why": "英文靠換動詞和名詞加強，不是靠疊副詞。副詞疊多了力道反而變弱。"
+    },
+    {
+      "trap": "self-deprecate",
+      "pattern": "\\bi('m| am) not (an expert|sure if this|the best)\\b|\\bi (might|may) be wrong but\\b|\\bthis (might|may) be (a )?(stupid|silly|dumb|naive)\\b|\\bi don'?t know much about\\b",
+      "label": "自貶開場",
+      "why": "英文的謙虛是限定範圍（我這一塊不熟），不是否定自己。否定自己會被讀成缺乏掌控感。"
+    },
+    {
+      "trap": "no-opt-out",
+      "pattern": "\\b(can|could|would) you (please )?(help|review|take a look|send|share|check|do)\\b",
+      "needsAbsence": "\\b(feel free|no pressure|totally fine|if you'?re|are you able|if that doesn'?t work|no worries if|up to you|just say)\\b",
+      "label": "請求沒有給退路",
+      "why": "英文請求最後要給一個能光明正大說不的出口，反而提高答應率——當說不是安全的，說好才是真心的。"
+    },
+    {
+      "trap": "no-by-when",
+      "pattern": "\\b(can|could|would) you\\b|\\bplease (send|share|review|check|let me know)\\b|\\bi need\\b",
+      "needsAbsence": "\\b(by (monday|tuesday|wednesday|thursday|friday|saturday|sunday|end of|eod|tomorrow|next week|the \\d)|before (monday|tuesday|wednesday|thursday|friday|tomorrow|the \\d)|deadline|due)\\b",
+      "label": "請求沒有時間點",
+      "why": "省掉死線是為了體貼，但英文腦讀到的是「這人自己也不知道這件事多重要」，然後排到最後。給死線是給對方排序的資訊。"
+    }
+  ]
+}
